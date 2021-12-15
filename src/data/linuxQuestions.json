@@ -1,0 +1,111 @@
+[
+    {
+        "Question": "Which of the following is NOT a Unix shell?",
+        "Answer": "pwd",
+        "Distractor1": "ksh",
+        "Distractor2": "csh",
+        "Distractor3": "bash",
+        "Explanation": "There are many different kind of shells available on Linux and macOS computers. A few of them dominate the space are bash, csh, zsh, fish and more",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
+    },
+
+    {
+        "Question": "Which is the default shell provided with most Linux based systems?",
+        "Answer": "Bourne Again SHell",
+        "Distractor1": "PowerSHell",
+        "Distractor2": "Emacs",
+        "Distractor3": "Fish",
+        "Explanation": "Bash (short for Bourne Again SHell) is the most widely used shell, packaged by default for most Linux distributions",
+        "Link": "https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/"
+    },
+
+    {
+        "Question": "Which Linux command lists  the contents of a directory?",
+        "Answer": "ls",
+        "Distractor1": "ln",
+        "Distractor2": "look",
+        "Distractor3": "less",
+        "Explanation": "The ls command (short for list)  is used to list files or directories in Linux and other Unix-based operating systems. It  allows you to list all files or directories in the current directory",
+        "Link": "https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/"
+    },
+
+    {
+        "Question": "What does the command ls -a do?",
+        "Answer": "List  directories and files - including all hidden files",
+        "Distractor1": "List only the hidden files",
+        "Distractor2": "List  files and then delete them",
+        "Distractor3": "Show deleted files",
+        "Explanation": "The ls -a(short for all) command lists all directories(folders) and files in the current directory. This includes all hidden files. The -a flag(or option) shows hidden files. Hidden files are files that start with a dot (.)",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
+    },
+
+    {
+        "Question": "What is the grep command used for?",
+        "Answer": "Searching through text in the given file",
+        "Distractor1": "Move the contents of a file to another one",
+        "Distractor2": "Rename the file",
+        "Distractor3": "Delete all text in a file",
+        "Explanation": "grep stands for Globally Search For Regular Expression and Print out. It is a command line tool used in UNIX and Linux systems to search a specified pattern in a file or group of files.",
+        "Link": "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/"
+    },
+
+    {
+        "Question": "How to print all columns in a file named demo.txt using the awk command?",
+        "Answer": "awk '{print $0}' demo.txt",
+        "Distractor1": "awk '{print $1}' demo.txt",
+        "Distractor2": "awk '{print $1, $2}' demo.txt",
+        "Distractor3": "awk '/^print/' demo.txt",
+        "Explanation": "To print all columns and more so all the contents of a file using the awk command, the action you specify inside the curly braces is print $0.",
+        "Link": "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
+    },
+
+    {
+        "Question": "Which of the following is NOT a Linux distribution?",
+        "Answer": "Multics",
+        "Distractor1": "CentOS",
+        "Distractor2": "Debian",
+        "Distractor3": "RHEL",
+        "Explanation": "There are  different versions of Linux (called distributions)  that allow the user varying degrees of personalization and control of the operating system. This means that users can choose their Linux distributions based on their wants and needs. Some popular ones are: Ubuntu, Linux Mint, CentOS, RHEL,Arch Linux.",
+        "Link": "https://www.freecodecamp.org/news/the-best-linux-tutorials/"
+    },
+
+    {
+        "Question": "Which Linux command is used for creating files?",
+        "Answer": "touch",
+        "Distractor1": "mv",
+        "Distractor2": "man",
+        "Distractor3": "mkdir",
+        "Explanation": "You create an empty file using the touch command,followed by the name of the file e.g. touch demo.txt",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-touch-command"
+    },
+
+    {
+        "Question": "Which Linux command is used for creating directories(folders)?",
+        "Answer": "mkdir",
+        "Distractor1": "mkcd",
+        "Distractor2": "cd",
+        "Distractor3": "rm",
+        "Explanation": "You create folders using the mkdir command, followed by the name of the directory e.g. mkdir photos",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command"
+    },
+
+    {
+        "Question": "Which Linux command is used for creating links between files?",
+        "Answer": "ln",
+        "Distractor1": "ls",
+        "Distractor2": "link",
+        "Distractor3": "cat",
+        "Explanation": "The ln command is used for creating links. A link is like a pointer to another file, or a file that points to another file.",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
+    },
+
+    {
+        "Question": "Which flag(or option) is used with the ln command to create a soft link in Linux?",
+        "Answer": "-s",
+        "Distractor1": "-l",
+        "Distractor2": "-a",
+        "Distractor3": "-la",
+        "Explanation": "You create soft links using the -s option of ln. For example,ln -s <original> <link>",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
+    }
+]
