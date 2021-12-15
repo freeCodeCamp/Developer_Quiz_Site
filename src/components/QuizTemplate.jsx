@@ -67,8 +67,8 @@ const QuizTemplate = ({ home }) => {
   return (
     <>
 
-      <button onClick={home}>Return Home</button>
-      <a href='/' target="_blank">Play RPG game</a>
+      <button onClick={home}>Return to Home</button>
+      <a href='/' target="_blank">Play Learn to Code RPG game</a>
       {isResults ?
         <>
           <h2>Results</h2>
