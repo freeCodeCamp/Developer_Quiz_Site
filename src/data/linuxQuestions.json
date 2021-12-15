@@ -67,7 +67,45 @@
         "Distractor3": "RHEL",
         "Explanation": "There are  different versions of Linux (called distributions)  that allow the user varying degrees of personalization and control of the operating system. This means that users can choose their Linux distributions based on their wants and needs. Some popular ones are: Ubuntu, Linux Mint, CentOS, RHEL,Arch Linux.",
         "Link": "https://www.freecodecamp.org/news/the-best-linux-tutorials/"
+    },
 
+    {
+        "Question": "Which Linux command is used for creating files?",
+        "Answer": "touch",
+        "Distractor1": "mv",
+        "Distractor2": "man",
+        "Distractor3": "mkdir",
+        "Explanation": "You create an empty file using the touch command,followed by the name of the file e.g. touch demo.txt",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-touch-command"
+    },
 
+    {
+        "Question": "Which Linux command is used for creating directories(folders)?",
+        "Answer": "mkdir",
+        "Distractor1": "mkcd",
+        "Distractor2": "cd",
+        "Distractor3": "rm",
+        "Explanation": "You create folders using the mkdir command, followed by the name of the directory e.g. mkdir photos",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command"
+    },
+
+    {
+        "Question": "Which Linux command is used for creating links between files?",
+        "Answer": "ln",
+        "Distractor1": "ls",
+        "Distractor2": "link",
+        "Distractor3": "cat",
+        "Explanation": "The ln command is used for creating links. A link is like a pointer to another file, or a file that points to another file.",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
+    },
+
+    {
+        "Question": "Which flag(or option) is used with the ln command to create a soft link in Linux?",
+        "Answer": "-s",
+        "Distractor1": "-l",
+        "Distractor2": "-a",
+        "Distractor3": "-la",
+        "Explanation": "You create soft links using the -s option of ln. For example,ln -s <original> <link>",
+        "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
     }
 ]
