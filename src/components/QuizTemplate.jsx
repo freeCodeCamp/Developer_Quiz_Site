@@ -53,12 +53,12 @@ const QuizTemplate = ({ home }) => {
     setChooseAnswer(true)
     let userAnswer = e.target.value;
     if (userAnswer !== currQuestion.Answer) {
-      setMessage(`Sorry, that is incorrect`);
+      setMessage(`Hmmm, not quite!`);
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
     } else {
       setPoints(curr => curr + 5)
-      setMessage(`Correct!`)
+      setMessage(`Awesome, that's correct!`)
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
     }
@@ -88,8 +88,8 @@ const QuizTemplate = ({ home }) => {
             <div>
               <p>{message}</p>
               <p>{displayExplanation}</p>
-              <a href={showReference} target="_blank" rel="noopener noreferrer">Helpful freeCodeCamp reference</a>
-              <p>Wanna learn how to code? Play the <a target="_blank" href="/">RPG game</a></p>
+              <a href={showReference} target="_blank" rel="noopener noreferrer">Learn more by reading this helpful article</a>
+              <p>Wanna learn how to code? Play the <a target="_blank" href="/">Learn to Code RPG game</a></p>
               <button style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px' }} onClick={nextQuestion}>Next</button>
             </div> : null
           }
