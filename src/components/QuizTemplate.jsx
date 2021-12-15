@@ -1,8 +1,7 @@
 import { useState } from 'react';
-import htmlQuestions from '../data/htmlQuestions';
 
 
-const QuizTemplate = ({ home }) => {
+const QuizTemplate = ({ home, quiz }) => {
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
@@ -11,21 +10,19 @@ const QuizTemplate = ({ home }) => {
   const [showReference, setShowReference] = useState('');
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const choicesArr = [];
-  let currQuestion = htmlQuestions[questionNumber - 1];
-  const totalQuestions = htmlQuestions.length;
-  const totalPoints = 5 * htmlQuestions.length;
+  let currQuestion = quiz[questionNumber - 1];
+  const totalQuestions = quiz.length;
+  const totalPoints = 5 * quiz.length;
 
-  function shuffle(array) {
+  //fisher yates shuffle
+  const shuffle = (array) => {
     let currentIndex = array.length, randomIndex;
 
-    // While there remain elements to shuffle...
     while (currentIndex != 0) {
 
-      // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
 
-      // And swap it with the current element.
       [array[currentIndex], array[randomIndex]] = [
         array[randomIndex], array[currentIndex]];
     }
@@ -33,14 +30,15 @@ const QuizTemplate = ({ home }) => {
     return array;
   }
 
-  htmlQuestions.forEach(obj => {
+  //shuffle the right and wrong answers
+  quiz.forEach(obj => {
     let arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
     choicesArr.push(shuffle(arr))
   })
 
 
   const nextQuestion = () => {
-    if (questionNumber === htmlQuestions.length) {
+    if (questionNumber === quiz.length) {
       setIsResults(true)
       return
     }
@@ -79,11 +77,7 @@ const QuizTemplate = ({ home }) => {
         <>
           <h2>{currQuestion.Question}</h2>
           <h3>Question {questionNumber}/{totalQuestions}</h3>
-          <div style={{ display: 'flex', flexDirection: 'column', width: '200px', margin: '20px' }}>
-            {choicesArr[questionNumber - 1].map((btn, index) => (
-              <button value={btn} onClick={(e) => checkAnswer(e, "value")} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} key={index}>{btn}</button>
-            ))}
-          </div>
+
           {chooseAnswer ?
             <div>
               <p>{message}</p>
@@ -91,7 +85,12 @@ const QuizTemplate = ({ home }) => {
               <a href={showReference} target="_blank" rel="noopener noreferrer">Helpful freeCodeCamp reference</a>
               <p>Wanna learn how to code? Play the <a target="_blank" href="/">RPG game</a></p>
               <button style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px' }} onClick={nextQuestion}>Next</button>
-            </div> : null
+            </div> :
+            <div style={{ display: 'flex', flexDirection: 'column', width: '200px', margin: '20px' }}>
+              {choicesArr[questionNumber - 1].map((btn, index) => (
+                <button value={btn} onClick={(e) => checkAnswer(e, "value")} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} key={index}>{btn}</button>
+              ))}
+            </div>
           }
         </>
       }
