@@ -1,4 +1,4 @@
-[
+const questions = [
   {
     "Question": "What does HTML stand for?",
     "Answer": "Hyper Text Markup Language",
@@ -1349,4 +1349,6 @@
     "Explanation": "The ins tag shows content added to the document",
     "Link": "https://devdocs.io/html/element/ins"
   }
-]
+];
+export default questions;
+
