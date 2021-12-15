@@ -1,0 +1,218 @@
+[
+    {
+        "Question": "What does DNS do?",
+        "Answer": "Maps domain names to IP addresses",
+        "Distractor1": "Is responsible for encrypting HTTP connections",
+        "Distractor2": "Provides the web client with web files during client-server communication",
+        "Distractor3": "Breaks down web information into smaller chunks, or packets",
+        "Explanation": "The Domain Name System (DNS) maps human-readable domain names to IP addresses(unique identifiers). For example, DNS translates and maps the domain freeCodeCamp.org to the IP address 104.26.2.33.",
+        "Link": "https://www.freecodecamp.org/news/what-is-dns/"
+    },
+
+    {
+        "Question": "Which port is used for HTTP?",
+        "Answer": "80",
+        "Distractor1": "443",
+        "Distractor2": "40",
+        "Distractor3": "60",
+        "Explanation": "By default HTTP Port-80 is used for HTTP(which stands for HyperText Transfer Protocol).",
+        "Link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
+    },
+
+    {
+        "Question": "What does DNS stand for?",
+        "Answer": "Domain Name system",
+        "Distractor1": "Dynamic Name System",
+        "Distractor2": "Domain Naming System",
+        "Distractor3": "Domain Network System",
+        "Explanation": "DNS is an abbreviation for Domain Name System.",
+        "Link": "https://www.freecodecamp.org/news/what-is-dns/"
+    },
+
+    {
+        "Question": "How many versions of the Internet Protocol are there?",
+        "Answer": "2",
+        "Distractor1": "4",
+        "Distractor2": "6",
+        "Distractor3": "1",
+        "Explanation": "IPv4 is the first, and most widely used, version of the Internet Protocol. IPv6 is the latest version of the Internet Protocol. It's the successor of IPv4 and there will be a slow shift towards it in the future.",
+        "Link": "https://www.freecodecamp.org/news/ipv4-vs-ipv6-what-is-the-difference-between-ip-addressing-schemes/"
+    },
+
+    {
+        "Question": "How many bits are there in an IPv6 address?",
+        "Answer": "128",
+        "Distractor1": "32",
+        "Distractor2": "126",
+        "Distractor3": "64",
+        "Explanation": "IPv6 is a 128-bit address, meaning that there are 2^128 addresses available.",
+        "Link": "https://www.freecodecamp.org/news/ipv4-vs-ipv6-what-is-the-difference-between-ip-addressing-schemes/"
+    },
+
+    {
+        "Question": "How many bits are there in an IPv4 address?",
+        "Answer": "32",
+        "Distractor1": "64",
+        "Distractor2": "16",
+        "Distractor3": "8",
+        "Explanation": "IPv4 is a 32-bit address and it's made up of 4 blocks, with each block being separated by a dot, and looks something like this: XXX.XXX.XXX.XXX",
+        "Link": "https://www.freecodecamp.org/news/ipv4-vs-ipv6-what-is-the-difference-between-ip-addressing-schemes/"
+    },
+
+    {
+        "Question": "What does HTTPS stand for?",
+        "Answer": "HyperText Transfer Protocol Secure",
+        "Distractor1": "HyperText Transfer Protocol Standard",
+        "Distractor2": "HyperTransfer Text Protocol Secure",
+        "Distractor3": "HyperText Transfer Protocol Set",
+        "Explanation": "HTTPS is a secure way of transferring data between a web server and a web browser.",
+        "Link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
+    },
+
+    {
+        "Question": "What's the difference between HTTP and HTTPS?",
+        "Answer": "HTTPS is the secure version of HTTP. It's HTTP with encryption",
+        "Distractor1": "HTTP sends HyperText data between a web server and a web browser and HTTPS doesn't",
+        "Distractor2": "There is no difference",
+        "Distractor3": "SSL certificates are required for HTTP, but not for HTTPS",
+        "Explanation": "HTTPS is the secure version of HTTP, the basic network protocol for sending hypertext over the web. In HTTPS there are additional steps for security, such as TSL/SSL certificates and the TSL/SSL handshake.",
+        "Link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
+    },
+
+    {
+        "Question": "What is the Internet?",
+        "Answer": "Loads of wires and undersea cables connected and buried deep in the ground and oceans, all around the world.",
+        "Distractor1": "A cloud",
+        "Distractor2": "Another term for the World Wide Web",
+        "Distractor3": "An executable program file",
+        "Explanation": "The Internet is actually a wire. Well, many wires that connect computers all around the world. The Internet is also infrastructure. It's a global network of interconnected computers that communicate through a standardized way with set protocols.",
+        "Link": "https://www.freecodecamp.org/news/brief-history-of-the-internet/"
+    },
+
+    {
+        "Question": "What does CPU stand for?",
+        "Answer": "Central Processing Unit",
+        "Distractor1": "Central Protocol Unit",
+        "Distractor2": "Central Programming Unit",
+        "Distractor3": "Control Processing Unit",
+        "Explanation": "HTTPS is the secure version of HTTP, the basic network protocol for sending hypertext over the web. In HTTPS there are additional steps for security, such as TLS/SSL certificates and the TLS/SSL handshake.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "Which part of the CPU is responsible for carrying out mathematical operations?",
+        "Answer": "The Arithmetic Logic Unit",
+        "Distractor1": "The Control Unit",
+        "Distractor2": " Registers",
+        "Distractor3": "Cache Memory",
+        "Explanation": "The ALU(short for Control Unit) is a digital circuit that performs arithmetic operations such as addition, subtraction, multiplication, and division.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "What CPU component is responsible for comparing data?",
+        "Answer": "The Arithmetic Logic Unit",
+        "Distractor1": "The Control Unit",
+        "Distractor2": "Registers",
+        "Distractor3": "RAM",
+        "Explanation": "The ALU (short for Arithmetic Logic Unit), is the part where all mathematical calculations take place, such as addition, subtraction, multiplication, and division, as well as all the logical operations for decision making, such as comparing data.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "What are registers inside a CPU responsible for?",
+        "Answer": "They temporarily hold data the CPU needs fast access to",
+        "Distractor1": "They help improve the speed of your computer",
+        "Distractor2": "They check and confirm every process that is happening on your computer",
+        "Distractor3": "They are responsible for carrying out all mathematical and logical operations",
+        "Explanation": "Registers are an extremely fast memory location. The data and instructions that are being processed during the fetch-execute cycle  a CPU performs are stored there, for quick access by the processor.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "Which of the following is NOT considered a piece of computer hardware?",
+        "Answer": "The Operating System",
+        "Distractor1": "The CPU(Central Processing Unit)",
+        "Distractor2": "The keyboard",
+        "Distractor3": "The mouse",
+        "Explanation": "Hardware are the physical components you can touch, and they are located on both the outside and the inside of a computer.",
+        "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
+    },
+
+    {
+        "Question": "Which of the following is considered an example of an input device?",
+        "Answer": "A computer mouse",
+        "Distractor1": "Speakers",
+        "Distractor2": "Monitor",
+        "Distractor3": "Projector",
+        "Explanation": "Examples of Input devices are a keyboard(used for typing text and characters, essentially for entering any written information), a mouse for clicking, pointing, and selecting appropriate data) and a microphone.",
+        "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
+    },
+
+    {
+        "Question": "Which hardware component has all of its data wiped when the power turns off?",
+        "Answer": "RAM(Random Access Memory)",
+        "Distractor1": "HDD(Hard Disk Drive)",
+        "Distractor2": "SSD(Solid State Drive)",
+        "Distractor3": "CPU (Central Processing Unit)",
+        "Explanation": "RAM ( short for Random Access Memory), or the main memory, is a volatile, short-term type of memory that only stores information temporarily while a computer is powered by electricity. It is used when you open and are using an application or file. When the power turns off, any files you created or updates you made and didn't save, will be lost and will be hard to retrieve.",
+        "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
+    },
+
+    {
+        "Question": "Where is the CPU located on a computer?",
+        "Answer": "The motherboard",
+        "Distractor1": "Graphics Processing Unit",
+        "Distractor2": "Random Access Memory",
+        "Distractor3": "Solid State Drive",
+        "Explanation": "The CPU is located on the motherboard of a computer.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "What does a CPU do?",
+        "Answer": "A CPU executes commands from a computer program",
+        "Distractor1": "Writes code for developers",
+        "Distractor2": "Displays images and text on screen",
+        "Distractor3": "A device that points to objects on the screen",
+        "Explanation": "The CPU is the brains of a computer that processes operations and executes instructions for computer programs.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "Which one is NOT a main component of a CPU?",
+        "Answer": "AXLE",
+        "Distractor1": "Control Unit",
+        "Distractor2": "Arithmetic Logic Unit",
+        "Distractor3": "Registers",
+        "Explanation": "The Control Unit, Arithmetic Logic Unit, and Registers are important parts of the CPU.",
+        "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
+    },
+
+    {
+        "Question": "Which one is NOT an internal piece of hardware in a computer?",
+        "Answer": "GAMMA",
+        "Distractor1": "motherboard",
+        "Distractor2": "Central Processing Unit",
+        "Distractor3":"Graphics Processing Unit",
+        "Explanation": "Some important pieces of a computer's internal hardware include a motherboard, CPU, GPU, RAM and HDD.",
+        "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
+    },
+
+    {
+        "Question": "What do HDD and SSD stand for in computer hardware?",
+        "Answer": "Hard Disk Drive & Solid State Drive",
+        "Distractor1": "Harvest Disk Drive & Solid State Drive",
+        "Distractor2": "Hard Disk Drive & Segment State Drive",
+        "Distractor3": "Hard Disk Drive & Scratch State Drive",
+        "Explanation": "HDD stands for Hard Disk Drive while SSD stands for Solid State Drive.",
+        "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
+    }
+
+
+
+
+
+    
+]
+
