@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Run locally
-1. git clone https://github.com/jdwilkin4/rpg_quiz_test_site.git 
+1. git clone `https://github.com/jdwilkin4/rpg_quiz_test_site.git` 
 2. In the project directory, you can run: `npm install` 
 3. In the project directory, you can run: `npm start`
 
