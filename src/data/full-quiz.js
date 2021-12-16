@@ -5,7 +5,7 @@ const fullQuiz = [
     "Distractor1": "Hyper Text Marked Language",
     "Distractor2": "Hyper Text Marked Links",
     "Distractor3": "Hyper Text Machine Language",
-    "Explanation": "HTML stands for Hyper Text Markup Language",
+    "Explanation": "HTML stands for Hyper Text Markup Language.",
     "Link": "https://www.freecodecamp.org/news/html-crash-course/"
   },
   {
@@ -14,11 +14,11 @@ const fullQuiz = [
     "Distractor1": "<hyperlink>",
     "Distractor2": "<href>",
     "Distractor3": "<link>",
-    "Explanation": "You create links by using an opening <a> and closing </a> tag",
+    "Explanation": "You create links by using an opening <a> and closing </a> tag.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-html-link-beginners/"
   },
   {
-    "Question": "What HTML attribute is used when creating a hyperlink?",
+    "Question": "What HTML attribute is used for creating a hyperlink?",
     "Answer": "href",
     "Distractor1": "src",
     "Distractor2": "id",
@@ -32,7 +32,7 @@ const fullQuiz = [
     "Distractor1": "<br>",
     "Distractor2": "<bold>",
     "Distractor3": "<p>",
-    "Explanation": "The <b> tag is used to to make a portion of the text bold without carrying any special importance",
+    "Explanation": "The <b> tag is used to to make a portion of the text bold without carrying any special importance.",
     "Link": "https://www.freecodecamp.org/news/html-bold-text-tutorial-how-to-use-the-b-tag/"
   },
   {
@@ -50,14 +50,14 @@ const fullQuiz = [
     "Distractor1": "_parent",
     "Distractor2": "_self",
     "Distractor3": "_top",
-    "Explanation": "By default the browser opens links in the same tab. You add the target attribute to the opening <a> tag, and give it the value _blank which opens links in a new tab.",
+    "Explanation": "By default, the browser opens links in the same tab. You add the target attribute to the opening <a> tag, and give it the value _blank which opens links in a new tab.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-html-link-beginners/"
   },
   {
     "Question": "What is a hyperlink?",
     "Answer": "A web reference to data",
     "Distractor1": "A piece of computer hardware",
-    "Distractor2": "An executable programming script",
+    "Distractor2": "A executable programming script",
     "Distractor3": "A website",
     "Explanation": "A hyperlink, also called a link or web link, contains an address for a destination and acts as a reference to data. A user can easily follow, jump to, and be directed to the destination by either clicking, tapping on, or hovering over the link.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-html-link-beginners/"
@@ -68,7 +68,7 @@ const fullQuiz = [
     "Distractor1": "<b>",
     "Distractor2": "<span>",
     "Distractor3": "<li>",
-    "Explanation": "The <i> tag displays text in italic",
+    "Explanation": "The <i> tag displays text in italic.",
     "Link": "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/"
   },
   {
@@ -95,7 +95,7 @@ const fullQuiz = [
     "Distractor1": "A tag used only to contain images",
     "Distractor2": "A tag used to only contain links",
     "Distractor3": "A tag used to only contain paragraphs",
-    "Explanation": "The main element is a semantic tag used to contain all of the main content of the HTML page",
+    "Explanation": "The main element is a semantic tag used to contain all of the main content of the HTML page.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -104,7 +104,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to group images",
     "Distractor2": "A tag to group headings",
     "Distractor3": "A tag used to group links",
-    "Explanation": "The section element is a tag used to group related content into sections",
+    "Explanation": "The section element is a tag used to group related content into sections.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -113,7 +113,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to group comment tags",
     "Distractor2": "A tag used to group block quotes",
     "Distractor3": "A tag used to group figure elements",
-    "Explanation": "The header element is a tag used to group introductory content including navigation links",
+    "Explanation": "The header element is a tag used to group introductory content including navigation links.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -122,7 +122,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to specify the header of the HTML document",
     "Distractor2": "A tag used to specify a paragraph of the HTML document",
     "Distractor3": "A tag used to specify the main content of the HTML document",
-    "Explanation": "The footer element is a tag used to specify the footer of the HTML document. This element will usually contain copyright information",
+    "Explanation": "The footer element is a tag used to specify the footer of the HTML document. This element will usually contain copyright information.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -131,7 +131,7 @@ const fullQuiz = [
     "Distractor1": "An HTML element typically used for footer information",
     "Distractor2": "An HTML element typically used for header information",
     "Distractor3": "An HTML element typically used for links",
-    "Explanation": "An aside is an HTML element typically used for sidebar information",
+    "Explanation": "An aside is an HTML element typically used for sidebar information.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -140,7 +140,7 @@ const fullQuiz = [
     "Distractor1": "An HTML element used for displaying images",
     "Distractor2": "An HTML element used for displaying links",
     "Distractor3": "An HTML element used for displaying paragraphs",
-    "Explanation": "The code element is used for displaying code snippets",
+    "Explanation": "The code element is used for displaying code snippets.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -149,7 +149,7 @@ const fullQuiz = [
     "Distractor1": "A tag used for quotes",
     "Distractor2": "A tag used for code",
     "Distractor3": "A tag used for links",
-    "Explanation": "The article element is used for content that is independent from the main content of the HTML page",
+    "Explanation": "The article element is used for content that is independent from the main content of the HTML page.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -158,7 +158,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to number quotes",
     "Distractor2": "A tag used to style quotes",
     "Distractor3": "A tag used to turn quotes into links",
-    "Explanation": "The blockquote element is used to quote text from another source",
+    "Explanation": "The blockquote element is used to quote text from another source.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -167,7 +167,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to create an ordered list",
     "Distractor2": "A tag used to create quotes",
     "Distractor3": "A tag used to create headings",
-    "Explanation": "The mark element is used to highlight text",
+    "Explanation": "The mark element is used to highlight text.",
     "Link": "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/"
   },
   {
@@ -176,7 +176,7 @@ const fullQuiz = [
     "Distractor1": "<input type=\"checkbox\" value=\"Sample Button\" />",
     "Distractor2": "<input type=\"date\" value=\"Sample Button\" />",
     "Distractor3": "<input type=\"color\" value=\"Sample Button\" />",
-    "Explanation": "You can create a button using the input tag and set the type attribute to button",
+    "Explanation": "You can create a button using the input tag and set the type attribute to button.",
     "Link": "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
   },
   {
@@ -185,7 +185,7 @@ const fullQuiz = [
     "Distractor1": "<input type=\"number\" value=\"Submit\" />",
     "Distractor2": "<input type=\"email\" value=\"Submit\" />",
     "Distractor3": "<input type=\"reset\" value=\"Submit\" />",
-    "Explanation": "You can create a submit by using the input tag and set the type attribute to submit",
+    "Explanation": "You can create a submit button by using the input tag and set the type attribute to submit.",
     "Link": "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
   },
   {
@@ -194,7 +194,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to create images",
     "Distractor2": "A tag used to create quotes",
     "Distractor3": "A tag used to create links",
-    "Explanation": "The button tag is used to add buttons to your HTML page",
+    "Explanation": "The button tag is used to add buttons to your HTML page.",
     "Link": "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
   },
   {
@@ -203,16 +203,16 @@ const fullQuiz = [
     "Distractor1": "A container used to only group images",
     "Distractor2": "A container used to only group headings",
     "Distractor3": "A container used to only group code elements",
-    "Explanation": "The div tag is a generic container for grouping content in the HTML page",
+    "Explanation": "The div tag is a generic container for grouping content in the HTML page.",
     "Link": "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/"
   },
   {
     "Question": "What is a span tag in HTML?",
     "Answer": "A generic inline container for grouping content",
     "Distractor1": "A container used to only group footer links",
-    "Distractor2": "A container used to only header content",
+    "Distractor2": "A container used to only group header content",
     "Distractor3": "A container used to only group navigation links",
-    "Explanation": "A span tag is a generic inline container for grouping content in the HTML page",
+    "Explanation": "A span tag is a generic inline container for grouping content in the HTML page.",
     "Link": "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/"
   },
   {
@@ -221,7 +221,7 @@ const fullQuiz = [
     "Distractor1": "An element to embed sound in an HTML document",
     "Distractor2": "An element to represent side comments",
     "Distractor3": "An element used for a specific set of time",
-    "Explanation": "The table tag create rows and columns of data in HTML",
+    "Explanation": "The table tag create rows and columns of data in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -230,7 +230,7 @@ const fullQuiz = [
     "Distractor1": "A tag used to create buttons for your HTML page",
     "Distractor2": "A container used to only group headings",
     "Distractor3": "A tag used to group block quotes",
-    "Explanation": "The <tr> tag is an element that represents a row in a table",
+    "Explanation": "The <tr> tag is an element that represents a row in a table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -239,7 +239,7 @@ const fullQuiz = [
     "Distractor1": "A tag that represents an abbreviation",
     "Distractor2": "A tag used to create word breaks",
     "Distractor3": "A tag used to create a horizontal line",
-    "Explanation": "The <td> tag is an element used to create data cells in a table",
+    "Explanation": "The <td> tag is an element used to create data cells in a table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -248,7 +248,7 @@ const fullQuiz = [
     "Distractor1": "An element that represents a row in a table",
     "Distractor2": "An element used to create data cells in a table",
     "Distractor3": "A generic block level container for grouping content in a table",
-    "Explanation": "The <th> tag is an element used to create table headings in a table",
+    "Explanation": "The <th> tag is an element used to create table headings in a table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -257,7 +257,7 @@ const fullQuiz = [
     "Distractor1": "An element used to create images in a table",
     "Distractor2": "An element used to create links in a table",
     "Distractor3": "A element used to create headings in a table",
-    "Explanation": "The caption tag is an element used to create captions for a table",
+    "Explanation": "The caption tag is an element used to create captions for a table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -266,7 +266,7 @@ const fullQuiz = [
     "Distractor1": "Represents the number of rows a cell should span in a table",
     "Distractor2": "Represents the number of links in a table",
     "Distractor3": "Represents the number of images in a table",
-    "Explanation": "The colspan attribute represents the number of columns a cell should span in a table",
+    "Explanation": "The colspan attribute represents the number of columns a cell should span in a table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -275,7 +275,7 @@ const fullQuiz = [
     "Distractor1": "Represents the number of columns a cell should span in a table",
     "Distractor2": "Represents the number of headings in a table",
     "Distractor3": "Represents the number of code elements in a table",
-    "Explanation": "The rowspan attribute represents the number of rows a cell should span in a table",
+    "Explanation": "The rowspan attribute represents the number of rows a cell should span in a table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -284,7 +284,7 @@ const fullQuiz = [
     "Distractor1": "<img>",
     "Distractor2": "<tbody>",
     "Distractor3": "<tfoot>",
-    "Explanation": "The <thead> tag is used to represent the header of an HTML table",
+    "Explanation": "The <thead> tag is used to represent the header of an HTML table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -293,7 +293,7 @@ const fullQuiz = [
     "Distractor1": "<tmain>",
     "Distractor2": "<content>",
     "Distractor3": "<td>",
-    "Explanation": "The <tbody> tag is used to represent the main content for an HTML table",
+    "Explanation": "The <tbody> tag is used to represent the main content for an HTML table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -302,7 +302,7 @@ const fullQuiz = [
     "Distractor1": "<tfooter>",
     "Distractor2": "<tfooting>",
     "Distractor3": "<tfoots>",
-    "Explanation": "The <tfoot> tag is used to represent the footer content for an HTML table",
+    "Explanation": "The <tfoot> tag is used to represent the footer content for an HTML table.",
     "Link": "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/"
   },
   {
@@ -311,7 +311,7 @@ const fullQuiz = [
     "Distractor1": "The html tag",
     "Distractor2": "The header tag",
     "Distractor3": "The body tag",
-    "Explanation": "The first element on every HTML page is doctype. It tells the browser to expect HTML and what version to use. For the newest version of HTML, the element should look like this: <!doctype html>",
+    "Explanation": "The first element on every HTML page is doctype. It tells the browser to expect HTML and what version to use. For the newest version of HTML, the element should look like this: <!doctype html>.",
     "Link": "https://www.freecodecamp.org/news/html-crash-course/"
   },
   {
@@ -329,7 +329,7 @@ const fullQuiz = [
     "Distractor1": "name",
     "Distractor2": "multiple",
     "Distractor3": "required",
-    "Explanation": "The select tag can have the following attributes: name, multiple,required, size, disabled and autofocus",
+    "Explanation": "The select tag can have the following attributes: name, multiple,required, size, disabled and autofocus.",
     "Link": "https://www.freecodecamp.org/news/html-select-tag-how-to-make-a-dropdown-menu-or-combo-list/"
   },
   {
@@ -352,92 +352,92 @@ const fullQuiz = [
   },
   {
     "Question": "What does the size attribute do in the select tag?",
-    "Answer": "sets the number of options shown on default",
-    "Distractor1": "sets the width of the select tag",
-    "Distractor2": "set the height of the select tag",
-    "Distractor3": "sets the width and height of the select tag",
-    "Explanation": "The size attribute sets the number of options shown on default inside the select dropdown menu",
+    "Answer": "Sets the number of options shown on default",
+    "Distractor1": "Sets the width of the select tag",
+    "Distractor2": "Sets the height of the select tag",
+    "Distractor3": "Sets the width and height of the select tag",
+    "Explanation": "The size attribute sets the number of options shown on default inside the select dropdown menu.",
     "Link": "https://www.freecodecamp.org/news/html-select-tag-how-to-make-a-dropdown-menu-or-combo-list/"
   },
   {
     "Question": "What does the multiple attribute do in the select tag?",
-    "Answer": "allows the user to choose multiple options in the select tag",
-    "Distractor1": "a way to add multiple select tags",
-    "Distractor2": "a way to add multiple option tags",
-    "Distractor3": "a way to add multiple link tags",
+    "Answer": "Allows the user to choose multiple options in the select tag",
+    "Distractor1": "A way to add multiple select tags",
+    "Distractor2": "A way to add multiple option tags",
+    "Distractor3": "A way to add multiple link tags",
     "Explanation": "The multiple attribute allows the user to choose multiple options in the select tag.",
     "Link": "https://www.freecodecamp.org/news/html-select-tag-how-to-make-a-dropdown-menu-or-combo-list/"
   },
   {
     "Question": "What does the optgroup element do in HTML?",
-    "Answer": "groups option elements together in the select tag",
-    "Distractor1": "groups labels together in the select tag",
-    "Distractor2": "groups form tags together",
-    "Distractor3": "groups inputs together in the form",
-    "Explanation": "The optgroup groups option elements together in the select tag",
+    "Answer": "Groups option elements together in the select tag",
+    "Distractor1": "Groups labels together in the select tag",
+    "Distractor2": "Groups form tags together",
+    "Distractor3": "Groups inputs together in the form",
+    "Explanation": "The optgroup groups option elements together in the select tag.",
     "Link": "https://www.freecodecamp.org/news/html-select-tag-how-to-make-a-dropdown-menu-or-combo-list/"
   },
   {
     "Question": "What does the Doctype do in HTML?",
-    "Answer": "specifies the HTML version for the document",
-    "Distractor1": "specifies the type of CSS used",
-    "Distractor2": "specifies the type of JavaScript used",
-    "Distractor3": "specifies the number of elements in the HTML document",
-    "Explanation": "The Doctype is used to specify the HTML version for the document",
+    "Answer": "Specifies the HTML version for the document",
+    "Distractor1": "Specifies the type of CSS used",
+    "Distractor2": "Specifies the type of JavaScript used",
+    "Distractor3": "Specifies the number of elements in the HTML document",
+    "Explanation": "The Doctype is used to specify the HTML version for the document.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
     "Question": "What are the html tags?",
-    "Answer": "root element that contains all other HTML tags",
-    "Distractor1": "an element that only contains all paragraph tags",
-    "Distractor2": "an element that only contains all image tags",
-    "Distractor3": "an element that only contains anchor tags",
-    "Explanation": "The html tag is the root level element that contains all of the other HTML elements",
+    "Answer": "The root element that contains all other HTML tags",
+    "Distractor1": "An element that only contains all paragraph tags",
+    "Distractor2": "An element that only contains all image tags",
+    "Distractor3": "An element that only contains anchor tags",
+    "Explanation": "The html tag is the root level element that contains all of the other HTML elements.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
     "Question": "What are the head tags in HTML?",
-    "Answer": "a tag that contains metadata for a website",
-    "Distractor1": "a tag that contains table cells for a table",
-    "Distractor2": "a tag that contains header elements",
-    "Distractor3": "a tag that contains navigation links",
-    "Explanation": "The head tags contain metadata including title and stylesheets for a website",
+    "Answer": "Tags that contains metadata for a website",
+    "Distractor1": "Tags that contains table cells for a table",
+    "Distractor2": "Tags that contains header elements",
+    "Distractor3": "Tags that contains navigation links",
+    "Explanation": "The head tags contain metadata including the title and stylesheets for a website.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
     "Question": "What are meta tags in HTML?",
-    "Answer": "defines metadata for the HTML document",
-    "Distractor1": "defines the number of elements in the HTML document",
-    "Distractor2": "defines the number of img tags in the HTML document",
-    "Distractor3": "defines the number of p tags in the HTML document",
-    "Explanation": "The meta tags define metadata for the HTML document",
+    "Answer": "They define metadata for the HTML document",
+    "Distractor1": "They define the number of elements in the HTML document",
+    "Distractor2": "They define the number of img tags in the HTML document",
+    "Distractor3": "They define the number of p tags in the HTML document",
+    "Explanation": "The meta tags define metadata for the HTML document.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
     "Question": "What is the title tag in HTML?",
-    "Answer": "defines the title for the HTML document",
-    "Distractor1": "defines the subtitle for the HTML document",
-    "Distractor2": "displays the headings for the HTML document",
-    "Distractor3": "displays the paragraph tags for the HTML document",
-    "Explanation": "The title tag defines the title for the HTML document",
+    "Answer": "It defines the title for the HTML document",
+    "Distractor1": "It defines the subtitle for the HTML document",
+    "Distractor2": "It displays the headings for the HTML document",
+    "Distractor3": "It displays the paragraph tags for the HTML document",
+    "Explanation": "The title tag defines the title for the HTML document.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
     "Question": "What are the body tags in HTML?",
-    "Answer": "defines the body content for the HTML document",
-    "Distractor1": "defines the header content for the HTML document",
-    "Distractor2": "defines the image content for the HTML document",
-    "Distractor3": "defines the table content for the HTML document",
-    "Explanation": "The body tags defines the body content for the HTML document",
+    "Answer": "They define the body content for the HTML document",
+    "Distractor1": "They define the header content for the HTML document",
+    "Distractor2": "They define the image content for the HTML document",
+    "Distractor3": "They define the table content for the HTML document",
+    "Explanation": "The body tags define the body content for the HTML document.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
     "Question": "What is semantic HTML?",
     "Answer": "HTML tags that hold special meaning",
-    "Distractor1": "generic HTML tags that hold no meaning",
-    "Distractor2": "tags that only hold special meaning for links",
-    "Distractor3": "tags that only hold special meaning for table tags",
-    "Explanation": "Semantic HTML tags are HTML elements that hold special meaning",
+    "Distractor1": "Generic HTML tags that hold no meaning",
+    "Distractor2": "Tags that only hold special meaning for links",
+    "Distractor3": "Tags that only hold special meaning for table tags",
+    "Explanation": "Semantic HTML tags are HTML elements that hold special meaning.",
     "Link": "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
   {
@@ -446,52 +446,52 @@ const fullQuiz = [
     "Distractor1": "<anchor rel=\"stylesheet\" src=\"style.css\">",
     "Distractor2": "<links rel=\"stylesheet\" src=\"style.css\"></links>",
     "Distractor3": "<a rel=\"stylesheet\" src=\"style.css\"></a>",
-    "Explanation": "The link tag is used to link your CSS stylesheet to your HTML file",
+    "Explanation": "The link tag is used to link your CSS stylesheet to your HTML file.",
     "Link": "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
   },
   {
     "Question": "What is the rel attribute in the link tag?",
-    "Answer": "shows the relationship between the HTML file and linked document",
-    "Distractor1": "defines the relationship between an img tag and p tag",
-    "Distractor2": "defines the relationship between a table tag and td tag",
-    "Distractor3": "defines the relationship between an ul tag and li tag",
-    "Explanation": "The rel attribute is used to show the relationship between the linked document and HTML file",
+    "Answer": "It shows the relationship between the HTML file and linked document",
+    "Distractor1": "It defines the relationship between an img tag and p tag",
+    "Distractor2": "It defines the relationship between a table tag and td tag",
+    "Distractor3": "It defines the relationship between an ul tag and li tag",
+    "Explanation": "The rel attribute is used to show the relationship between the linked document and HTML file.",
     "Link": "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
   },
   {
     "Question": "What does the src attribute do in the link tag?",
-    "Answer": "tells the computer where to import the document",
-    "Distractor1": "tells the computer where to export the document",
-    "Distractor2": "specifies the number of link tags in the HTML document",
-    "Distractor3": "specifies the number of anchor tags in the HTML document",
-    "Explanation": "The src attribute tells the computer where to import the document",
+    "Answer": "Tells the computer where to import the document",
+    "Distractor1": "Tells the computer where to export the document",
+    "Distractor2": "Specifies the number of link tags in the HTML document",
+    "Distractor3": "Specifies the number of anchor tags in the HTML document",
+    "Explanation": "The src attribute tells the computer where to import the document.",
     "Link": "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
   },
   {
     "Question": "What is the type attribute in the link tag?",
-    "Answer": "describes the type of content for the linked document",
-    "Distractor1": "provides descriptive text for an img",
-    "Distractor2": "opens up the link tag in another browser window",
-    "Distractor3": "provides the width and height for a link tag",
-    "Explanation": "The type attribute describes the type of content for the linked document",
+    "Answer": "It describes the type of content for the linked document",
+    "Distractor1": "It provides descriptive text for an img",
+    "Distractor2": "It opens up the link tag in another browser window",
+    "Distractor3": "It provides the width and height for a link tag",
+    "Explanation": "The type attribute describes the type of content for the linked document.",
     "Link": "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
   },
   {
     "Question": "What is the media attribute in the link tag?",
     "Answer": "Specifies the type of media that should be used when importing the linked content",
-    "Distractor1": "tells the computer to import the linked content for phones only",
-    "Distractor2": "tells the computer to import the linked content for laptops only",
-    "Distractor3": "tells the computer to import the linked content for tablets only",
-    "Explanation": "The media attribute specifies the type of media that should be used when importing the linked content",
+    "Distractor1": "Tells the computer to import the linked content for phones only",
+    "Distractor2": "Tells the computer to import the linked content for laptops only",
+    "Distractor3": "Tells the computer to import the linked content for tablets only",
+    "Explanation": "The media attribute specifies the type of media that should be used when importing the linked content.",
     "Link": "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
   },
   {
     "Question": "What  makes up an element in HTML?",
-    "Answer": "The opening tag, any attributes, text or other content  in between and lastly the closing tag",
+    "Answer": "The opening tag, any attributes, text or other content in between, and lastly the closing tag",
     "Distractor1": "Just the closing tag",
     "Distractor2": "Just the closing tag and text content",
     "Distractor3": "Just the opening tag",
-    "Explanation": "The terms elements and tags are used interchangeably. Tags consist of left and right angle brackets.( < and >) and often come in pairs, with an opening and closing one. Elements have an opening tag and a closing tag, attributes that go inside the starting tag and text content (and possibly other elements) in between the opening and closing tag. So,an element refers to the whole thing.",
+    "Explanation": "The terms elements and tags are used interchangeably. Tags consist of left and right angle brackets.( < and >) and often come in pairs, with an opening and closing one. Elements have an opening tag and a closing tag, attributes that go inside the opening tag and text content (and possibly other elements) in between the opening and closing tag. So,an element refers to the whole thing.",
     "Link": "https://www.freecodecamp.org/news/the-html-handbook/#html-basics"
   },
   {
@@ -500,15 +500,15 @@ const fullQuiz = [
     "Distractor1": "<h1 css=\"font-size: 4rem\">freeCodeCamp</h1>",
     "Distractor2": "<h1 font=\"font-size: 4rem\">freeCodeCamp</h1>",
     "Distractor3": "<h1 fontSize=\"font-size: 4rem\">freeCodeCamp</h1>",
-    "Explanation": "To change the font size of an HTML tag, you can use the style attribute and the font-size property",
+    "Explanation": "To change the font size of an HTML tag, you can use the style attribute and the font-size property.",
     "Link": "https://www.freecodecamp.org/news/html-font-style-how-to-change-text-color-and-size-with-an-html-tag/"
   },
   {
     "Question": "What is a character entity?",
-    "Answer": "used to display reserved HTML characters on the page",
-    "Distractor1": "used to change the color for HTML characters",
-    "Distractor2": "used to change the font for HTML characters",
-    "Distractor3": "used to change the width of HTML characters",
+    "Answer": "It is used to display reserved HTML characters on the page",
+    "Distractor1": "It is used to change the color for HTML characters",
+    "Distractor2": "It is used to change the font for HTML characters",
+    "Distractor3": "It is used to change the width of HTML characters",
     "Explanation": "Character entities allow you to display reserved HTML characters in your document.",
     "Link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"
   },
@@ -518,7 +518,7 @@ const fullQuiz = [
     "Distractor1": "&lessthan;",
     "Distractor2": "&less;",
     "Distractor3": "&lthan;",
-    "Explanation": "You can use the &lt; to display a less than symbol in HTML",
+    "Explanation": "You can use the &lt; to display a less than symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"
   },
   {
@@ -527,7 +527,7 @@ const fullQuiz = [
     "Distractor1": "&greaterthan;",
     "Distractor2": "&greater;",
     "Distractor3": "&gthan;",
-    "Explanation": "You can use the &gt; entity to display a greater than symbol in HTML",
+    "Explanation": "You can use the &gt; entity to display a greater than symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"
   },
   {
@@ -536,7 +536,7 @@ const fullQuiz = [
     "Distractor1": "&breakingspace;",
     "Distractor2": "&nonbreaking;",
     "Distractor3": "&n-b-s-p;",
-    "Explanation": "You can use the &nbsp; entity to display the non-breaking space in HTML",
+    "Explanation": "You can use the &nbsp; entity to display the non-breaking space in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"
   },
   {
@@ -545,7 +545,7 @@ const fullQuiz = [
     "Distractor1": "&twospaces;",
     "Distractor2": "&e-n-s-p;",
     "Distractor3": "&enspaces;",
-    "Explanation": "You can use the &ensp; entity to display two non-breaking spaces in HTML",
+    "Explanation": "You can use the &ensp; entity to display two non-breaking spaces in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"
   },
   {
@@ -554,42 +554,42 @@ const fullQuiz = [
     "Distractor1": "&fourspaces;",
     "Distractor2": "&e-m-s-p;",
     "Distractor3": "&emspaces;",
-    "Explanation": "You can use the &emsp; entity to display four non-breaking spaces in HTML",
+    "Explanation": "You can use the &emsp; entity to display four non-breaking spaces in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/"
   },
   {
     "Question": "What is an HTML 5 boilerplate?",
-    "Answer": "block of code you use as a starter template for any HTML document",
-    "Distractor1": "a block on code that groups images",
-    "Distractor2": "a block on code that groups links",
-    "Distractor3": "a block of code that groups forms",
-    "Explanation": "An HTML 5 boilerplate, is a block of code you use as a starter template for any HTML document",
+    "Answer": "A block of code you use as a starter template for any HTML document",
+    "Distractor1": "A block on code that groups images",
+    "Distractor2": "A block on code that groups links",
+    "Distractor3": "A block of code that groups forms",
+    "Explanation": "An HTML 5 boilerplate, is a block of code you use as a starter template for any HTML document.",
     "Link": "https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/"
   },
   {
     "Question": "What is the viewport meta tag in HTML?",
-    "Answer": "renders the width of the page to the width of the device's screen size.",
-    "Distractor1": "sets the viewport for phones only",
-    "Distractor2": "sets the viewport for laptops only",
-    "Distractor3": "sets the viewport for 4k monitors",
+    "Answer": "It renders the width of the page to the width of the device's screen size.",
+    "Distractor1": "It sets the viewport for phones only",
+    "Distractor2": "It sets the viewport for laptops only",
+    "Distractor3": "It sets the viewport for 4k monitors",
     "Explanation": "This tag renders the width of the page to the width of the device's screen size.",
     "Link": "https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/"
   },
   {
     "Question": "What does X-UA-Compatible mean?",
-    "Answer": "specifies the document mode for Internet Explorer.",
-    "Distractor1": "specifies the document mode for Google chrome",
-    "Distractor2": "specifies the document mode for Safari",
-    "Distractor3": "specifies the document mode for Brave",
+    "Answer": "It specifies the document mode for Internet Explorer.",
+    "Distractor1": "It specifies the document mode for Google chrome",
+    "Distractor2": "It specifies the document mode for Safari",
+    "Distractor3": "It specifies the document mode for Brave",
     "Explanation": "This <meta> tag specifies the document mode for Internet Explorer.",
     "Link": "https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/"
   },
   {
     "Question": "What are script tags in HTML?",
-    "Answer": "used for client side JavaScript code",
-    "Distractor1": "used for server side JavaScript code",
-    "Distractor2": "used to link SQL databases",
-    "Distractor3": "used to link noSQL databases",
+    "Answer": "They are used for client side JavaScript code",
+    "Distractor1": "They are used for server side JavaScript code",
+    "Distractor2": "They are used to link SQL databases",
+    "Distractor3": "They are used to link noSQL databases",
     "Explanation": "The script tag is used for client side JavaScript code.",
     "Link": "https://www.freecodecamp.org/news/basic-html5-template-boilerplate-code-example/"
   },
@@ -599,25 +599,25 @@ const fullQuiz = [
     "Distractor1": "Unarticulated Anchor element",
     "Distractor2": "Unarticulated Aside element",
     "Distractor3": "Unarticulated Article element",
-    "Explanation": "The <u> tag stands for Unarticulated Annotation element",
+    "Explanation": "The <u> tag stands for Unarticulated Annotation element.",
     "Link": "https://www.freecodecamp.org/news/html-underline-text-how-to-use-the-u-tag-with-example-code/"
   },
   {
     "Question": "What is the default styling for the <u> tag?",
-    "Answer": "single underline",
-    "Distractor1": "line through",
-    "Distractor2": "line above the text",
-    "Distractor3": "no line at all",
-    "Explanation": "The default styling for the u tag is a single underline",
+    "Answer": "Single underline",
+    "Distractor1": "Line through",
+    "Distractor2": "Line above the text",
+    "Distractor3": "No line at all",
+    "Explanation": "The default styling for the u tag is a single underline.",
     "Link": "https://www.freecodecamp.org/news/html-underline-text-how-to-use-the-u-tag-with-example-code/"
   },
   {
     "Question": "What is a common use for the <u> tag?",
-    "Answer": "to point out misspelled words",
-    "Distractor1": "to change the color for text",
-    "Distractor2": "to create an unordered list",
-    "Distractor3": "to highlight a portion of text",
-    "Explanation": "A common use for the u tag is to point out misspelled words",
+    "Answer": "To point out misspelled words",
+    "Distractor1": "To change the color for text",
+    "Distractor2": "To create an unordered list",
+    "Distractor3": "To highlight a portion of text",
+    "Explanation": "A common use for the u tag is to point out misspelled words.",
     "Link": "https://www.freecodecamp.org/news/html-underline-text-how-to-use-the-u-tag-with-example-code/"
   },
   {
@@ -626,7 +626,7 @@ const fullQuiz = [
     "Distractor1": "style",
     "Distractor2": "hover",
     "Distractor3": "name",
-    "Explanation": "You can use the tabindex attribute to set an element's tab position",
+    "Explanation": "You can use the tabindex attribute to set an element's tab position.",
     "Link": "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/"
   },
   {
@@ -635,7 +635,7 @@ const fullQuiz = [
     "Distractor1": "12",
     "Distractor2": "14",
     "Distractor3": "7",
-    "Explanation": "The default value for the tabindex attribute is 0",
+    "Explanation": "The default value for the tabindex attribute is 0.",
     "Link": "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/"
   },
   {
@@ -644,7 +644,7 @@ const fullQuiz = [
     "Distractor1": "-9 to 30",
     "Distractor2": "0 to 578",
     "Distractor3": "-20 to 3000",
-    "Explanation": "The tabindex attribute accepts a range of integers from 0 to 32767",
+    "Explanation": "The tabindex attribute accepts a range of integers from 0 to 32767.",
     "Link": "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/"
   },
   {
@@ -658,20 +658,20 @@ const fullQuiz = [
   },
   {
     "Question": "What is the semantic meaning behind the <i> tag?",
-    "Answer": "span of text that represents a change in mood or quality of text",
-    "Distractor1": "block on text used to highlight misspelled words",
-    "Distractor2": "span of text used to signal high importance",
-    "Distractor3": "block of text used to represent the main content of the HTML page",
-    "Explanation": "The <i> tag is a span of text that represents a change in mood or quality of text",
+    "Answer": "Span of text that represents a change in mood or quality of text",
+    "Distractor1": "Block on text used to highlight misspelled words",
+    "Distractor2": "Span of text used to signal high importance",
+    "Distractor3": "Block of text used to represent the main content of the HTML page",
+    "Explanation": "The <i> tag is a span of text that represents a change in mood or quality of text.",
     "Link": "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/"
   },
   {
     "Question": "Which description is NOT an appropriate use for the <i> tag?",
-    "Answer": "used to place emphasis on a word or span of text",
-    "Distractor1": "taxonomic descriptions",
-    "Distractor2": "to show someone's thoughts",
-    "Distractor3": "to mark phrases in a different language",
-    "Explanation": "The <i> tag can be used to mark phrases in a different language, show someone's thoughts, or for taxonomic descriptions",
+    "Answer": "Used to place emphasis on a word or span of text",
+    "Distractor1": "Taxonomic descriptions",
+    "Distractor2": "To show someone's thoughts",
+    "Distractor3": "To mark phrases in a different language",
+    "Explanation": "The <i> tag can be used to mark phrases in a different language, show someone's thoughts, or for taxonomic descriptions.",
     "Link": "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/"
   },
   {
@@ -680,7 +680,7 @@ const fullQuiz = [
     "Distractor1": "<p>",
     "Distractor2": "<i>",
     "Distractor3": "<hr>",
-    "Explanation": "The <em> tag is used to add emphasis on a word or span of text in HTML",
+    "Explanation": "The <em> tag is used to add emphasis on a word or span of text in HTML.",
     "Link": "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/"
   },
   {
@@ -689,7 +689,7 @@ const fullQuiz = [
     "Distractor1": "&quotes;",
     "Distractor2": "&doublequot;",
     "Distractor3": "&dquot;",
-    "Explanation": "The &quot; character entity is used to display quotes in HTML",
+    "Explanation": "The &quot; character entity is used to display quotes in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -698,7 +698,7 @@ const fullQuiz = [
     "Distractor1": "&amper;",
     "Distractor2": "&and;",
     "Distractor3": "&ampsand;",
-    "Explanation": "The &amp; character entity is used to dispaly the ampersand sign in HTML",
+    "Explanation": "The &amp; character entity is used to display the ampersand sign in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -707,7 +707,7 @@ const fullQuiz = [
     "Distractor1": "&esign;",
     "Distractor2": "&eurosign;",
     "Distractor3": "&eu;",
-    "Explanation": "The &euro; character entity is used to display the Euro sign in HTML",
+    "Explanation": "The &euro; character entity is used to display the Euro sign in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -716,7 +716,7 @@ const fullQuiz = [
     "Distractor1": "&rsquo;",
     "Distractor2": "&leftquo;",
     "Distractor3": "&lsquotes;",
-    "Explanation": "The &lsquo; character entity is used to display the left single quote symbol in HTML",
+    "Explanation": "The &lsquo; character entity is used to display the left single quote symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -725,7 +725,7 @@ const fullQuiz = [
     "Distractor1": "&lsquo;",
     "Distractor2": "&rightquo;",
     "Distractor3": "&rsquote;",
-    "Explanation": "The &rsquo; character entity is used to display the right single quote symbol in HTML",
+    "Explanation": "The &rsquo; character entity is used to display the right single quote symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -734,7 +734,7 @@ const fullQuiz = [
     "Distractor1": "&leftdouble;",
     "Distractor2": "&ldquotes;",
     "Distractor3": "&ldoublequo;",
-    "Explanation": "The &ldquo; character entity is used to display the left double quote symbol in HTML",
+    "Explanation": "The &ldquo; character entity is used to display the left double quote symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -743,7 +743,7 @@ const fullQuiz = [
     "Distractor1": "&rdquotes;",
     "Distractor2": "&rightdquo;",
     "Distractor3": "&rdoublequo;",
-    "Explanation": "The &rdquo; character entity is used to display the right double quote symbol in HTML",
+    "Explanation": "The &rdquo; character entity is used to display the right double quote symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -752,7 +752,7 @@ const fullQuiz = [
     "Distractor1": "&trademark;",
     "Distractor2": "&tmark;",
     "Distractor3": "&trademk;",
-    "Explanation": "The &trade; character entity is used to display the trademark symbol in HTML",
+    "Explanation": "The &trade; character entity is used to display the trademark symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -761,7 +761,7 @@ const fullQuiz = [
     "Distractor1": "&copyright;",
     "Distractor2": "&cright;",
     "Distractor3": "&copyr;",
-    "Explanation": "The &copy; character entity is used to display the copyright symbol in HTML",
+    "Explanation": "The &copy; character entity is used to display the copyright symbol in HTML.",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
@@ -770,52 +770,52 @@ const fullQuiz = [
     "Distractor1": "&degree;",
     "Distractor2": "&d;",
     "Distractor3": "&dg;",
-    "Explanation": "The &deg; character entity is used to display the degree symbol in HTML",
+    "Explanation": "The &deg; character entity is used to display the degree symbol in HTM.L",
     "Link": "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/"
   },
   {
     "Question": "What is the address tag in HTML?",
-    "Answer": "a section to place address information",
-    "Distractor1": "a place for links",
-    "Distractor2": "a place for images",
-    "Distractor3": "a place for table data",
+    "Answer": "A section to place address information",
+    "Distractor1": "A place for links",
+    "Distractor2": "A place for images",
+    "Distractor3": "A place for table data",
     "Explanation": "The address tag is used as a section to place address information",
     "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
   },
   {
     "Question": "What is the blockquote tag in HTML?",
-    "Answer": "a block of text that represents a quote",
-    "Distractor1": "a generic block container to hold other elements",
-    "Distractor2": "a generic inline element",
-    "Distractor3": "a caption for a figure element",
-    "Explanation": "The blockquote is a block of text that represents a quote",
+    "Answer": "A block of text that represents a quote",
+    "Distractor1": "A generic block container to hold other elements",
+    "Distractor2": "A generic inline element",
+    "Distractor3": "A caption for a figure element",
+    "Explanation": "The blockquote is a block of text that represents a quote.",
     "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
   },
   {
     "Question": "What is the figcaption tag in HTML?",
-    "Answer": "a text description for the content inside the figure element",
-    "Distractor1": "a caption for the table element",
-    "Distractor2": "a caption for the form element",
-    "Distractor3": "a caption for the div element",
-    "Explanation": "The figcaption is a text description for the content inside the figure element",
+    "Answer": "A text description for the content inside the figure element",
+    "Distractor1": "A caption for the table element",
+    "Distractor2": "A caption for the form element",
+    "Distractor3": "A caption for the div element",
+    "Explanation": "The figcaption is a text description for the content inside the figure element.",
     "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
   },
   {
     "Question": "What is the small tag in HTML?",
-    "Answer": "a tag used to represent small text for side comments or copyright information",
-    "Distractor1": "small text for div elements only",
-    "Distractor2": "small text for img tags only",
-    "Distractor3": "small text for h1 tags only",
-    "Explanation": "The small tag is used to represent small text for side comments or copyright information",
+    "Answer": "A tag used to represent small text for side comments or copyright information",
+    "Distractor1": "Small text for div elements only",
+    "Distractor2": "Small text for img tags only",
+    "Distractor3": "Small text for h1 tags only",
+    "Explanation": "The small tag is used to represent small text for side comments or copyright information.",
     "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
   },
   {
     "Question": "What is the time tag in HTML?",
-    "Answer": "a tag used to represent the time and/or date",
-    "Distractor1": "used to convert minutes to seconds",
-    "Distractor2": "used to convert seconds to milliseconds",
-    "Distractor3": "used to convert hours to minutes",
-    "Explanation": "The time tag is used to represent the time and/or date",
+    "Answer": "A tag used to represent the time and/or date",
+    "Distractor1": "A tag used to convert minutes to seconds",
+    "Distractor2": "A tag used to convert seconds to milliseconds",
+    "Distractor3": "A tag used to convert hours to minutes",
+    "Explanation": "The time tag is used to represent the time and/or date.",
     "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
   },
   {
@@ -824,7 +824,7 @@ const fullQuiz = [
     "Distractor1": "<image>",
     "Distractor2": "<i>",
     "Distractor3": "<hr>",
-    "Explanation": "The <img> tag is used to add images to a website",
+    "Explanation": "The <img> tag is used to add images to a website.",
     "Link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"
   },
   {
@@ -833,34 +833,34 @@ const fullQuiz = [
     "Distractor1": "src",
     "Distractor2": "alt",
     "Distractor3": "height",
-    "Explanation": "The img tag can use a variety of attributes including src, alt, width, and height",
+    "Explanation": "The img tag can use a variety of attributes including src, alt, width, and height.",
     "Link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"
   },
   {
     "Question": "What does the src attribute do in the img tag?",
-    "Answer": "represents the source for the image",
-    "Distractor1": "provides descriptive text for the image",
-    "Distractor2": "provides the height of the image",
-    "Distractor3": "provides the width of the image",
-    "Explanation": "The src attribute represents  the source for the image so the browser knows where to locate it",
+    "Answer": "Represent the source for the image",
+    "Distractor1": "Provide descriptive text for the image",
+    "Distractor2": "Provide the height of the image",
+    "Distractor3": "Provide the width of the image",
+    "Explanation": "The src attribute represents  the source for the image so the browser knows where to locate it.",
     "Link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"
   },
   {
     "Question": "What does the alt attribute do in the img tag?",
-    "Answer": "it provides a description of the image",
-    "Distractor1": "it provides the time when the image was taken",
-    "Distractor2": "it provides the source for the image",
-    "Distractor3": "it provides the dimensions for an image",
-    "Explanation": "The alt attribute provides a description of the image",
+    "Answer": "It provides a description of the image",
+    "Distractor1": "It provides the time when the image was taken",
+    "Distractor2": "It provides the source for the image",
+    "Distractor3": "It provides the dimensions for an image",
+    "Explanation": "The alt attribute provides a description of the image.",
     "Link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"
   },
   {
     "Question": "What does the title attribute do in the img tag?",
-    "Answer": "it provides additional information about the image",
-    "Distractor1": "it creates a title above the img tag",
-    "Distractor2": "it creates a title below the img tag",
-    "Distractor3": "it creates a title to the left of the img tag",
-    "Explanation": "The title attribute can be used to provide additional information about the image",
+    "Answer": "It provides additional information about the image",
+    "Distractor1": "It creates a title above the img tag",
+    "Distractor2": "It creates a title below the img tag",
+    "Distractor3": "It creates a title to the left of the img tag",
+    "Explanation": "The title attribute can be used to provide additional information about the image.",
     "Link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"
   },
   {
@@ -869,16 +869,16 @@ const fullQuiz = [
     "Distractor1": "png",
     "Distractor2": "WebP",
     "Distractor3": "jpeg",
-    "Explanation": "The img tag can support many formats including WebP, JPEG and PNG",
+    "Explanation": "The img tag can support many formats including WebP, JPEG and PNG.",
     "Link": "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/"
   },
   {
     "Question": "What is the pre tag in HTML?",
-    "Answer": "a tag used for preformatted sections of text",
-    "Distractor1": "small text for h1 tags only",
-    "Distractor2": "a generic block container to hold other elements",
-    "Distractor3": "a caption for the form element",
-    "Explanation": "The pre tag is used to display preformatted sections of text",
+    "Answer": "A tag used for preformatted sections of text",
+    "Distractor1": "Small text for h1 tags only",
+    "Distractor2": "A generic block container to hold other elements",
+    "Distractor3": "A caption for the form element",
+    "Explanation": "The pre tag is used to display preformatted sections of text.",
     "Link": "https://www.freecodecamp.org/news/pre-tag-in-html-example-code/"
   },
   {
@@ -887,7 +887,7 @@ const fullQuiz = [
     "Distractor1": "paragraph tag",
     "Distractor2": "script tag",
     "Distractor3": "img tag",
-    "Explanation": "You can create a mailto link in the href value for an anchor tag",
+    "Explanation": "You can create a mailto link in the href value for an anchor tag.",
     "Link": "https://www.freecodecamp.org/news/mailto-link-how-to-make-an-html-email-link-example-code/"
   },
   {
@@ -1094,7 +1094,7 @@ const fullQuiz = [
     "Distractor1": "<div>",
     "Distractor2": "<s>",
     "Distractor3": "<i>",
-    "Explanation": "The <span> tag is used to target specific inline content such as text. This is helpful when you want to style only certains parts of the text.",
+    "Explanation": "The <span> tag is used to target specific inline content such as text. This is helpful when you want to style only certain parts of the text.",
     "Link": "https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/"
   },
   {
@@ -1234,11 +1234,11 @@ const fullQuiz = [
   },
   {
     "Question": "How is the title attribute used in the abbr tag?",
-    "Answer": "provides descriptive text for the abbr tag",
-    "Distractor1": "provides links for the abbr tag",
-    "Distractor2": "bolds the abbr tag",
-    "Distractor3": "italicizes the abbr tag",
-    "Explanation": "The title attribute provides descriptive text for the abbr tag",
+    "Answer": "It provides descriptive text for the abbr tag",
+    "Distractor1": "It provides links for the abbr tag",
+    "Distractor2": "It makes the abbr tag bold",
+    "Distractor3": "It italicizes the abbr tag",
+    "Explanation": "The title attribute provides descriptive text for the abbr tag.",
     "Link": "https://devdocs.io/html/element/abbr"
   },
   {
@@ -1247,7 +1247,7 @@ const fullQuiz = [
     "Distractor1": "<img>",
     "Distractor2": "<blink>",
     "Distractor3": "<bdo>",
-    "Explanation": "The area tag is used inside the map tag and creates an area inside an image map with clickable areas",
+    "Explanation": "The area tag is used inside the map tag and creates an area inside an image map with clickable areas.",
     "Link": "https://devdocs.io/html/element/area"
   },
   {
@@ -1256,7 +1256,7 @@ const fullQuiz = [
     "Distractor1": "<bdi>",
     "Distractor2": "<a>",
     "Distractor3": "<p>",
-    "Explanation": "The base tag specifies the base URL for all relative URLs in the document",
+    "Explanation": "The base tag specifies the base URL for all relative URLs in the document.",
     "Link": "https://devdocs.io/html/element/base"
   },
   {
@@ -1265,16 +1265,16 @@ const fullQuiz = [
     "Distractor1": "Biodecision Isolate",
     "Distractor2": "BiometicDirection Image",
     "Distractor3": "Biodirectional Inline",
-    "Explanation": "The bdi element stands for Bidirectional Isolate",
+    "Explanation": "The bdi element stands for Bidirectional Isolate.",
     "Link": "https://devdocs.io/html/element/bdi"
   },
   {
     "Question": "What does the bdo element do?",
-    "Answer": "overrides the current direction and renders the text in a new direction",
-    "Distractor1": "highlights the current text",
-    "Distractor2": "deletes the current text",
-    "Distractor3": "only renders the text from left to right",
-    "Explanation": "The bdo element overrides the current direction and renders the text in a new direction",
+    "Answer": "It Overrides the current direction and renders the text in a new direction",
+    "Distractor1": "It highlights the current text",
+    "Distractor2": "It deletes the current text",
+    "Distractor3": "It only renders the text from left to right",
+    "Explanation": "The bdo element overrides the current direction and renders the text in a new direction.",
     "Link": "https://devdocs.io/html/element/bdo"
   },
   {
@@ -1283,7 +1283,7 @@ const fullQuiz = [
     "Distractor1": "<bdo>",
     "Distractor2": "<table>",
     "Distractor3": "<big>",
-    "Explanation": "The canvas element is used to draw graphics on the page",
+    "Explanation": "The canvas element is used to draw graphics on the page.",
     "Link": "https://devdocs.io/html/element/canvas"
   },
   {
@@ -1292,16 +1292,16 @@ const fullQuiz = [
     "Distractor1": "<del>",
     "Distractor2": "<dd>",
     "Distractor3": "<dt>",
-    "Explanation": "The data element is used to connect content to a machine-readable translation",
+    "Explanation": "The data element is used to connect content to a machine-readable translation.",
     "Link": "https://devdocs.io/html/element/data"
   },
   {
     "Question": "What does the HTML datalist element do?",
-    "Answer": "provides a dropdown list of recommended options",
-    "Distractor1": "list of image tags",
-    "Distractor2": "list of tables",
-    "Distractor3": "list of paragraphs",
-    "Explanation": "The datalist element contains option tags and provides a dropdown list of recommended options",
+    "Answer": "It provides a dropdown list of recommended options",
+    "Distractor1": "A list of image tags",
+    "Distractor2": "A list of tables",
+    "Distractor3": "A list of paragraphs",
+    "Explanation": "The datalist element contains option tags and provides a dropdown list of recommended options.",
     "Link": "https://devdocs.io/html/element/datalist"
   },
   {
@@ -1310,16 +1310,16 @@ const fullQuiz = [
     "Distractor1": "<figure>",
     "Distractor2": "<embed>",
     "Distractor3": "<em>",
-    "Explanation": "The del tag is used to show that content was deleted from the document",
+    "Explanation": "The del tag is used to show that content was deleted from the document.",
     "Link": "https://devdocs.io/html/element/del"
   },
   {
     "Question": "What does the details element do in HTML?",
-    "Answer": "displays information when the element is toggled to the open state",
-    "Distractor1": "renders text from right to left",
-    "Distractor2": "overrides the current direction and renders the text in a new direction",
-    "Distractor3": "provides descriptive text for the abbr tag",
-    "Explanation": "The details tag displays information when the element is toggled to the open state",
+    "Answer": "It displays information when the element is toggled to the open state",
+    "Distractor1": "It renders text from right to left",
+    "Distractor2": "It overrides the current direction and renders the text in a new direction",
+    "Distractor3": "It provides descriptive text for the abbr tag",
+    "Explanation": "The details tag displays information when the element is toggled to the open state.",
     "Link": "https://devdocs.io/html/element/details"
   },
   {
@@ -1328,7 +1328,7 @@ const fullQuiz = [
     "Distractor1": "<dialogging>",
     "Distractor2": "<dt>",
     "Distractor3": "<data>",
-    "Explanation": "The dialog tag is used to create a dialog box",
+    "Explanation": "The dialog tag is used to create a dialog box.",
     "Link": "https://devdocs.io/html/element/dialog"
   },
   {
@@ -1337,7 +1337,7 @@ const fullQuiz = [
     "Distractor1": "Data List",
     "Distractor2": "Dialog List",
     "Distractor3": "Details List",
-    "Explanation": "The dl tag stands for Description List and is commonly used in glossaries",
+    "Explanation": "The dl tag stands for Description List and is commonly used in glossaries.",
     "Link": "https://devdocs.io/html/element/dl"
   },
   {
@@ -1346,7 +1346,7 @@ const fullQuiz = [
     "Distractor1": "<map>",
     "Distractor2": "<mark>",
     "Distractor3": "<dd>",
-    "Explanation": "The ins tag shows content added to the document",
+    "Explanation": "The ins tag shows content added to the document.",
     "Link": "https://devdocs.io/html/element/ins"
   },
   {
@@ -1355,7 +1355,7 @@ const fullQuiz = [
     "Distractor1": "An Internet Protocol",
     "Distractor2": "HTML syntax",
     "Distractor3": "A secret password",
-    "Explanation": "RGB is an acronym that stands for {b}red{/b} {b}green{/b} {b}blue{/b}. It expresses colors in terms of the amount of red, green, and blue they are made up of and uses a human counting system with integers ranging from 0-255 or a percentage ranging from (0% - 100%).",
+    "Explanation": "RGB is an acronym that stands for red green blue. It expresses colors in terms of the amount of red, green, and blue they are made up of and uses a human counting system with integers ranging from 0-255 or a percentage ranging from (0% - 100%).",
     "Link": "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/"
   },
   {
@@ -1364,7 +1364,7 @@ const fullQuiz = [
     "Distractor1": "Green",
     "Distractor2": "Blue",
     "Distractor3": "Yellow",
-    "Explanation": "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
+    "Explanation": "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display.",
     "Link": "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/"
   },
   {
@@ -1373,7 +1373,7 @@ const fullQuiz = [
     "Distractor1": "Red, gray, and black ",
     "Distractor2": "Red, green, and black",
     "Distractor3": "Red, gray, and blue",
-    "Explanation": "RGB is an acronym that stands for {b}red{/b} {b}green{/b} {b}blue{/b}",
+    "Explanation": "RGB is an acronym that stands for Red Green Blue",
     "Link": "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/"
   },
   {
@@ -1391,7 +1391,7 @@ const fullQuiz = [
     "Distractor1": "They create links to other webpages",
     "Distractor2": "They add interactivity to a static webpage",
     "Distractor3": "They change the font of text",
-    "Explanation": "{b}CSS media queries{/b} allow you to create responsive websites across all screen sizes, ranging from desktop to mobile",
+    "Explanation": "CSS media queries allow you to create responsive websites across all screen sizes, ranging from desktop to mobile.",
     "Link": "https://www.freecodecamp.org/news/learn-css-media-queries-by-building-projects/"
   },
   {
@@ -1400,7 +1400,7 @@ const fullQuiz = [
     "Distractor1": "Breaks",
     "Distractor2": "Points",
     "Distractor3": "Keys",
-    "Explanation": "A breakpoint is a key to determine when to change the layout and adapt the new rules inside the media queries",
+    "Explanation": "A breakpoint is a key to determine when to change the layout and adapt the new rules inside the media queries.",
     "Link": "https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/"
   },
   {
@@ -1427,7 +1427,7 @@ const fullQuiz = [
     "Distractor1": "flex-direction: row;",
     "Distractor2": "flex-column: column;",
     "Distractor3": "flex-direction: set-column;",
-    "Explanation": "In CSS, you can apply flex-direction: column; to the container whose items you want arrange in a column",
+    "Explanation": "In CSS, you can apply flex-direction: column; to the container whose items you want arrange in a column.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
@@ -1450,11 +1450,11 @@ const fullQuiz = [
   },
   {
     "Question": "What does justify-content do in flexbox?",
-    "Answer": "aligns the items along the main axis",
-    "Distractor1": "aligns the items to right of the y axis",
-    "Distractor2": "aligns the items to the left of  the x and y axis",
-    "Distractor3": "aligns the items to the right of the x axis",
-    "Explanation": "In flexbox, justify-content is used to align the items in the container along the main axis",
+    "Answer": "Aligns the items along the main axis",
+    "Distractor1": "Aligns the items to right of the y axis",
+    "Distractor2": "Aligns the items to the left of  the x and y axis",
+    "Distractor3": "Aligns the items to the right of the x axis",
+    "Explanation": "In flexbox, justify-content is used to align the items in the container along the main axis.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
@@ -1463,16 +1463,16 @@ const fullQuiz = [
     "Distractor1": "flex-start",
     "Distractor2": "flex-end",
     "Distractor3": "space-around",
-    "Explanation": "In flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between",
+    "Explanation": "In flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     "Question": "What does align-items do in flexbox?",
-    "Answer": "aligns the items along the cross axis",
-    "Distractor1": "aligns the items to the right of the y axis",
-    "Distractor2": "aligns the items to the right of the x axis",
-    "Distractor3": "aligns the items to the right of the z axis",
-    "Explanation": "In flexbox, align-items aligns the items along the cross axis",
+    "Answer": "Aligns the items along the cross axis",
+    "Distractor1": "Aligns the items to the right of the y axis",
+    "Distractor2": "Aligns the items to the right of the x axis",
+    "Distractor3": "Aligns the items to the right of the z axis",
+    "Explanation": "In flexbox, align-items aligns the items along the cross axis.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
@@ -1481,16 +1481,16 @@ const fullQuiz = [
     "Distractor1": "flex-end",
     "Distractor2": "flex-start",
     "Distractor3": "baseline",
-    "Explanation": "In flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch",
+    "Explanation": "In flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     "Question": "What does align-self do in flexbox?",
-    "Answer": "adjusts the alignment for an element",
-    "Distractor1": "adjust the alignment for all elements",
-    "Distractor2": "adjusts the alignment for hr elements",
-    "Distractor3": "adjusts the alignment for an img element",
-    "Explanation": "In flexbox, align-self adjusts the alignment for an element",
+    "Answer": "Adjusts the alignment for an element",
+    "Distractor1": "Adjust the alignment for all elements",
+    "Distractor2": "Adjusts the alignment for hr elements",
+    "Distractor3": "Adjusts the alignment for an img element",
+    "Explanation": "In flexbox, align-self adjusts the alignment for an element.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
@@ -1499,7 +1499,7 @@ const fullQuiz = [
     "Distractor1": "flex: wrap;",
     "Distractor2": "flex-wrap: wrap-items;",
     "Distractor3": "flex-wrap: item-wrap;",
-    "Explanation": "In flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space",
+    "Explanation": "In flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
@@ -1508,7 +1508,7 @@ const fullQuiz = [
     "Distractor1": "center",
     "Distractor2": "space-around",
     "Distractor3": "stretch",
-    "Explanation": "In flexbox, some of the options for align-content include center, stretch, space-around and space-between",
+    "Explanation": "In flexbox, some of the options for align-content include center, stretch, space-around and space-between.",
     "Link": "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
@@ -1517,7 +1517,7 @@ const fullQuiz = [
     "Distractor1": "position: relative;",
     "Distractor2": "position: top;",
     "Distractor3": "position: absolute;",
-    "Explanation": "The default property in CSS is position: static; which means it follows the order of the HTML",
+    "Explanation": "The default property in CSS is position: static; which means it follows the order of the HTML.",
     "Link": "https://www.freecodecamp.org/news/css-positioning-position-absolute-and-relative/"
   },
   {
@@ -1526,7 +1526,7 @@ const fullQuiz = [
     "Distractor1": "bg-color: pink;",
     "Distractor2": "backgroundColor: pink;",
     "Distractor3": "b-color: pink;",
-    "Explanation": "You can use the background property in CSS to change the background color of an element",
+    "Explanation": "You can use the background property in CSS to change the background color of an element.",
     "Link": "https://www.freecodecamp.org/news/css-background-color-how-to-change-the-background-color-in-html/"
   },
   {
@@ -1535,7 +1535,7 @@ const fullQuiz = [
     "Distractor1": "!override",
     "Distractor2": "!change",
     "Distractor3": "!specific",
-    "Explanation": "The !important rule will override the other CSS style rules for that element",
+    "Explanation": "The !important rule will override the other CSS style rules for that element.",
     "Link": "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
@@ -1544,7 +1544,7 @@ const fullQuiz = [
     "Distractor1": "text-transform: toUpper;",
     "Distractor2": "text-transform: upper;",
     "Distractor3": "text-transform: set-upper;",
-    "Explanation": "You can use the text-transform: uppercase; to make all of the text for that element uppercase",
+    "Explanation": "You can use  text-transform: uppercase; to make all of the text for that element uppercase.",
     "Link": "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
@@ -1553,7 +1553,7 @@ const fullQuiz = [
     "Distractor1": "text-transform: lower;",
     "Distractor2": "text-transform: to-lower;",
     "Distractor3": "text-transform: set-lower;",
-    "Explanation": "You can use the text-transform: lowercase; to make all of the text for that element lowercase",
+    "Explanation": "You  use  text-transform: lowercase; to make all of the text for that element lowercase.",
     "Link": "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
@@ -1562,7 +1562,7 @@ const fullQuiz = [
     "Distractor1": "::add-content",
     "Distractor2": "::before-content",
     "Distractor3": "::after",
-    "Explanation": "You can use the ::before selector to add content before an element",
+    "Explanation": "You use the ::before selector to add content before an element.",
     "Link": "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
@@ -1571,7 +1571,7 @@ const fullQuiz = [
     "Distractor1": "::after-content",
     "Distractor2": "::add",
     "Distractor3": "::before",
-    "Explanation": "You can use the ::after selector to add content after an element",
+    "Explanation": "You  use the ::after selector to add content after an element.",
     "Link": "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
@@ -1580,7 +1580,7 @@ const fullQuiz = [
     "Distractor1": "scroll-behavior: smooth-scroll;",
     "Distractor2": "scroll: smooth;",
     "Distractor3": "behavior: smooth;",
-    "Explanation": "You can use scroll-behavior: smooth; to add a smooth scroll to the html element",
+    "Explanation": "You  use scroll-behavior: smooth; to add a smooth scroll to the html element.",
     "Link": "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
@@ -1607,7 +1607,7 @@ const fullQuiz = [
     "Distractor1": "border-radius: 10%;",
     "Distractor2": "border-radius: 0;",
     "Distractor3": "border-radius: 3px;",
-    "Explanation": "You can use the CSS property border-radius with a value of 50% to make an image circular or oval.",
+    "Explanation": "You  use the CSS property border-radius with a value of 50% to make an image circular or oval.",
     "Link": "https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-make-circular-images-with-a-border-radius/18229"
   },
   {
@@ -1625,7 +1625,7 @@ const fullQuiz = [
     "Distractor1": "Complex Style Sheets",
     "Distractor2": "Complete Synchronizes Sheets",
     "Distractor3": "Community Stylish System",
-    "Explanation": "CSS stands for Cascading Style Sheets",
+    "Explanation": "CSS stands for Cascading Style Sheets.",
     "Link": "https://www.freecodecamp.org/news/best-css-and-css3-tutorial/"
   },
   {
@@ -1643,7 +1643,7 @@ const fullQuiz = [
     "Distractor1": "Absolute",
     "Distractor2": "Fixed",
     "Distractor3": "Dynamic",
-    "Explanation": "In CSS, relative units are relative to other length values. Several of the relative units depend on the viweport size.",
+    "Explanation": "In CSS, relative units are relative to other length values. Several of the relative units depend on the viewport size.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#why-learn-css-relative-units"
   },
   {
@@ -1675,11 +1675,11 @@ const fullQuiz = [
   },
   {
     "Question": "What does list-style-type: circle; do in CSS?",
-    "Answer": "applies circles to all of the list items in an unordered list",
-    "Distractor1": "applies discs to all of the list items in an unordered list",
-    "Distractor2": "applies decimals to all of the list items in an unordered list",
-    "Distractor3": "applies squares to all of the list items in an unordered list",
-    "Explanation": "list-style-type: circle; will apply circles to all of the list items for the unordered list",
+    "Answer": "It Applies circles to all of the list items in an unordered list",
+    "Distractor1": "It Applies discs to all of the list items in an unordered list",
+    "Distractor2": "It Applies decimals to all of the list items in an unordered list",
+    "Distractor3": "It Applies squares to all of the list items in an unordered list",
+    "Explanation": "list-style-type: circle; will apply circles to all of the list items for the unordered list.",
     "Link": "https://www.freecodecamp.org/news/html-bullet-points-how-to-create-an-unordered-list-with-the-ul-tag-example/"
   },
   {
@@ -1688,160 +1688,160 @@ const fullQuiz = [
     "Distractor1": "unset",
     "Distractor2": "initial",
     "Distractor3": "revert",
-    "Explanation": "The all CSS shorthand property can accept the following values: initial, inherit, unset, revert",
+    "Explanation": "The all CSS shorthand property can accept the following values: initial, inherit, unset, revert.",
     "Link": "https://developer.mozilla.org/en-US/docs/Web/CSS/all"
   },
   {
     "Question": "What does the animation-name property do in CSS?",
-    "Answer": "a name used to describe the animation applied to the element",
-    "Distractor1": "sets the duration for the animation",
-    "Distractor2": "sets a delay for the animation to start",
-    "Distractor3": "sets how many times an animation should run",
-    "Explanation": "The animation-name is used to describe the animation applied to the element",
+    "Answer": "It's a name used to describe the animation applied to the element",
+    "Distractor1": "It sets the duration for the animation",
+    "Distractor2": "It sets a delay for the animation to start",
+    "Distractor3": "It sets how many times an animation should run",
+    "Explanation": "The animation-name is used to describe the animation applied to the element.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-duration property do in CSS?",
-    "Answer": "determines how long an animation should last in seconds",
-    "Distractor1": "is used to style the element after the animation ends",
-    "Distractor2": "sets the direction for the element",
-    "Distractor3": "pauses the animation if the animation is running",
-    "Explanation": "The animation-duration is used to determine how long an animation should last in seconds",
+    "Answer": "It determines how long an animation should last in seconds",
+    "Distractor1": "It is used to style the element after the animation ends",
+    "Distractor2": "It sets the direction for the element",
+    "Distractor3": "It pauses the animation if the animation is running",
+    "Explanation": "The animation-duration is used to determine how long an animation should last in seconds.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-timing-function do in CSS?",
-    "Answer": "determines when the animation should speed up or slow down",
-    "Distractor1": "sets the direction for the element",
-    "Distractor2": "is used to style the element after the animation ends",
-    "Distractor3": "a name used to describe the animation applied to the element",
-    "Explanation": "The animation-timing-function  is used to determine when the animation should speed up or slow down",
+    "Answer": "It determines when the animation should speed up or slow down",
+    "Distractor1": "It sets the direction for the element",
+    "Distractor2": "It is used to style the element after the animation ends",
+    "Distractor3": "It is a name used to describe the animation applied to the element",
+    "Explanation": "The animation-timing-function  is used to determine when the animation should speed up or slow down.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-delay  do in CSS?",
-    "Answer": "sets a delay for the animation to start",
-    "Distractor1": "determines how long an animation should last in seconds",
-    "Distractor2": "pauses the animation if the animation is running",
-    "Distractor3": "determines when the animation should speed up or slow down",
-    "Explanation": "The animation-delay is used to set a delay for the animation to start",
+    "Answer": "It sets a delay for the animation to start",
+    "Distractor1": "It determines how long an animation should last in seconds",
+    "Distractor2": "It pauses the animation if the animation is running",
+    "Distractor3": "It determines when the animation should speed up or slow down",
+    "Explanation": "The animation-delay is used to set a delay for the animation to start.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-iteration-count do in CSS?",
-    "Answer": "sets how many times an animation should run",
-    "Distractor1": "a name used to describe the animation applied to the element",
-    "Distractor2": "determines how long an animation should last in seconds",
-    "Distractor3": "sets a delay for the animation to start",
-    "Explanation": "The animation-iteration-count sets how many times the animation should run",
+    "Answer": "It sets how many times an animation should run",
+    "Distractor1": "It is a name used to describe the animation applied to the element",
+    "Distractor2": "It determines how long an animation should last in seconds",
+    "Distractor3": "It sets a delay for the animation to start",
+    "Explanation": "The animation-iteration-count sets how many times the animation should run.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-direction  do in CSS?",
-    "Answer": "sets the direction for the animation",
-    "Distractor1": "sets how many times an animation should run",
-    "Distractor2": "is used to style the element after the animation ends",
-    "Distractor3": "pauses the animation if the animation is running",
-    "Explanation": "The animation-direction sets the direction for the animation",
+    "Answer": "It sets the direction for the animation",
+    "Distractor1": "It sets how many times an animation should run",
+    "Distractor2": "It is used to style the element after the animation ends",
+    "Distractor3": "It pauses the animation if the animation is running",
+    "Explanation": "The animation-direction sets the direction for the animation.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-fill-mode do in the CSS?",
-    "Answer": "is used to style the element after the animation ends",
-    "Distractor1": "sets a delay for the animation to start",
-    "Distractor2": "sets how many times an animation should run",
-    "Distractor3": "determines how long an animation should last in seconds",
-    "Explanation": "The animation-fill-mode is used to style the element after the animation ends",
+    "Answer": "It is used to style the element after the animation ends",
+    "Distractor1": "It sets a delay for the animation to start",
+    "Distractor2": "It sets how many times an animation should run",
+    "Distractor3": "It determines how long an animation should last in seconds",
+    "Explanation": "The animation-fill-mode is used to style the element after the animation ends.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What does the animation-play-state do in CSS?",
-    "Answer": "is used to pause the animation if set to paused",
-    "Distractor1": "determines how long an animation should last in seconds",
-    "Distractor2": "is used to style the element after the animation ends",
-    "Distractor3": "sets the direction for the animation",
-    "Explanation": "The animation-play-state is used to pause the animation if set to paused",
+    "Answer": "It is used to pause the animation if set to paused",
+    "Distractor1": "It determines how long an animation should last in seconds",
+    "Distractor2": "It is used to style the element after the animation ends",
+    "Distractor3": "It sets the direction for the animation",
+    "Explanation": "The animation-play-state is used to pause the animation if set to paused.",
     "Link": "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     "Question": "What is an at-rule in CSS?",
-    "Answer": "rules that dictate what the CSS will look like based on certain conditions",
-    "Distractor1": "rules to dictate how to format the HTML",
-    "Distractor2": "rules to dictate javascript functions",
-    "Distractor3": "rules to that only apply to how p elements are styled",
-    "Explanation": "An at-rule in CSS will dictate what the CSS will look like based on certain conditions",
+    "Answer": "Rules that dictate what the CSS will look like based on certain conditions",
+    "Distractor1": "Rules to dictate how to format the HTML",
+    "Distractor2": "Rules to dictate javascript functions",
+    "Distractor3": "Rules to that only apply to how p elements are styled",
+    "Explanation": "An at-rule in CSS will dictate what the CSS will look like based on certain conditions.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "What is a media type in CSS?",
-    "Answer": "the category of media for the device",
-    "Distractor1": "set of rules only applied to mobile devices",
-    "Distractor2": "category only for print media",
-    "Distractor3": "category only for speech",
-    "Explanation": "A media type refers to the category of media for the device",
+    "Answer": "The category of media for the device",
+    "Distractor1": "A set of rules only applied to mobile devices",
+    "Distractor2": "A category only for print media",
+    "Distractor3": "A category only for speech",
+    "Explanation": "A media type refers to the category of media for the device.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "What is the all media type in CSS?",
-    "Answer": "works for all devices",
-    "Distractor1": "only works for mobile devices",
-    "Distractor2": "only works for print media",
-    "Distractor3": "only works for tablets",
-    "Explanation": "The all media type will work for all media devices",
+    "Answer": "It works for all devices",
+    "Distractor1": "It only works for mobile devices",
+    "Distractor2": "It only works for print media",
+    "Distractor3": "It only works for tablets",
+    "Explanation": "The all media type will work for all media devices.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "What is the print media type in CSS?",
-    "Answer": "works for devices where the media is in print preview mode",
-    "Distractor1": "a type of media only for 4k monitors",
-    "Distractor2": "a type of media that only works for desktop computers",
-    "Distractor3": "set of rules only applied to mobile devices",
-    "Explanation": "The print media type works for devices where the media is in print preview mode",
+    "Answer": "It works for devices where the media is in print preview mode",
+    "Distractor1": "Is a type of media only for 4k monitors",
+    "Distractor2": "Is a type of media that only works for desktop computers",
+    "Distractor3": "Is a set of rules only applied to mobile devices",
+    "Explanation": "The print media type works for devices where the media is in print preview mode.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "What is the screen media type in CSS?",
-    "Answer": "works for devices with screens",
-    "Distractor1": "works for media in print preview mode",
-    "Distractor2": "works for devices without screens",
-    "Distractor3": "only works for tablets",
-    "Explanation": "The screen media type works for devices with screens",
+    "Answer": "It works for devices with screens",
+    "Distractor1": "It works for media in print preview mode",
+    "Distractor2": "It works for devices without screens",
+    "Distractor3": "It only works for tablets",
+    "Explanation": "The screen media type works for devices with screens.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "What is the speech media type in CSS?",
-    "Answer": "works for devices like screen readers where the content is read out loud to the user",
-    "Distractor1": "works for devices with screens",
-    "Distractor2": "works for devices where the media is in print preview mode",
-    "Distractor3": "only works for mobile devices",
-    "Explanation": "The speech media type works for devices like screen readers where the content is read out loud to the user",
+    "Answer": "It works for devices like screen readers where the content is read out loud to the user",
+    "Distractor1": "It works for devices with screens",
+    "Distractor2": "It works for devices where the media is in print preview mode",
+    "Distractor3": "It only works for mobile devices",
+    "Explanation": "The speech media type works for devices like screen readers where the content is read out loud to the user.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "How is the and operator used in a media query?",
-    "Answer": "join multiple media features",
-    "Distractor1": "reverses a true query into a false",
-    "Distractor2": "separate multiple media features by commas",
-    "Distractor3": "splits media queries into separate ones",
-    "Explanation": "The and operator is used to join multiple media features in a media query",
+    "Answer": "To join multiple media features",
+    "Distractor1": "It reverses a true query into a false",
+    "Distractor2": "To separate multiple media features by commas",
+    "Distractor3": "It splits media queries into separate ones",
+    "Explanation": "The and operator is used to join multiple media features in a media query.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "How is the not operator used in a media query?",
-    "Answer": "reverses a true query into a false and a false query into a true",
-    "Distractor1": "join multiple media features",
-    "Distractor2": "splits media queries into separate ones",
-    "Distractor3": "separate multiple media features by commas",
-    "Explanation": "The not operator is used to reverse a true query into a false and a false query into a true",
+    "Answer": "It reverses a true query into a false and a false query into a true",
+    "Distractor1": "To join multiple media features",
+    "Distractor2": "It splits media queries into separate ones",
+    "Distractor3": "To separate multiple media features by commas",
+    "Explanation": "The not operator is used to reverse a true query into a false and a false query into a true.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     "Question": "How is the comma operator used in a media query?",
-    "Answer": "separates multiple media features by commas and apply the styles inside the curly brace if one of the conditions is true",
-    "Distractor1": "reverses a true query into a false and a false query into a true",
-    "Distractor2": "join multiple media features",
-    "Distractor3": "splits media queries into separate ones",
-    "Explanation": "The comma operator is used to separate multiple media features by commas and apply the styles inside the curly brace if one of the conditions is true",
+    "Answer": "It separates multiple media features by commas and apply the styles inside the curly brace if one of the conditions is true",
+    "Distractor1": "It reverses a true query into a false and a false query into a true",
+    "Distractor2": "It joins multiple media features",
+    "Distractor3": "It splits media queries into separate ones",
+    "Explanation": "The comma operator is used to separate multiple media features by commas and apply the styles inside the curly brace if one of the conditions is true.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
@@ -1850,7 +1850,7 @@ const fullQuiz = [
     "Distractor1": "1000px - 5000px",
     "Distractor2": "100px - 150px",
     "Distractor3": "200px - 4000px",
-    "Explanation": "The range of 320px — 480px can be used to target mobile devices in a media query",
+    "Explanation": "The range of 320px — 480px can be used to target mobile devices in a media query.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
@@ -1859,7 +1859,7 @@ const fullQuiz = [
     "Distractor1": "300px - 7000px",
     "Distractor2": "2px - 68px",
     "Distractor3": "81px - 700px",
-    "Explanation": "The range of 481px - 768px can be used to target table devices in a media query",
+    "Explanation": "The range of 481px - 768px can be used to target table devices in a media query.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
@@ -1868,7 +1868,7 @@ const fullQuiz = [
     "Distractor1": "7px -10px",
     "Distractor2": "69px -124px",
     "Distractor3": "769px -10,024px",
-    "Explanation": "The range of 769px -1024px can be used to target laptop devices ina media query",
+    "Explanation": "The range of 769px -1024px can be used to target laptop devices in a media query.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
@@ -1877,7 +1877,7 @@ const fullQuiz = [
     "Distractor1": "25px - 120px",
     "Distractor2": "125px - 12,000px",
     "Distractor3": "5px - 12px",
-    "Explanation": "The range of 1025px - 1200px can be used to target desktop and larger screen  in a media query",
+    "Explanation": "The range of 1025px - 1200px can be used to target desktop and larger screen  in a media query.",
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
@@ -1886,7 +1886,7 @@ const fullQuiz = [
     "Distractor1": "margin",
     "Distractor2": "padding",
     "Distractor3": "border",
-    "Explanation": "The opacity property is used to set the opacity for an HTML element",
+    "Explanation": "The opacity property is used to set the opacity for an HTML element.",
     "Link": "https://www.freecodecamp.org/news/transparent-background-image-opacity-in-css-and-html/"
   },
   {
@@ -1895,7 +1895,7 @@ const fullQuiz = [
     "Distractor1": "display: flex;",
     "Distractor2": "display: grid-box;",
     "Distractor3": "display: grid-container;",
-    "Explanation": "You can use display: grid; to create a new CSS grid container",
+    "Explanation": "You can use display: grid; to create a new CSS grid container.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1904,7 +1904,7 @@ const fullQuiz = [
     "Distractor1": "grid-columns",
     "Distractor2": "flex-template-columns",
     "Distractor3": "template-columns-grid",
-    "Explanation": "The grid-template-columns property is used to set the number and width for the columns",
+    "Explanation": "The grid-template-columns property is used to set the number and width for the columns.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1913,7 +1913,7 @@ const fullQuiz = [
     "Distractor1": "set-width",
     "Distractor2": "width-all",
     "Distractor3": "width-container",
-    "Explanation": "The repeat() function is used to set the width for all of the columns in in the grid container",
+    "Explanation": "The repeat() function is used to set the width for all of the columns in in the grid container.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1922,7 +1922,7 @@ const fullQuiz = [
     "Distractor1": "font units",
     "Distractor2": "flex unit",
     "Distractor3": "fit unit",
-    "Explanation": "fr stands for fraction unit in CSS grid",
+    "Explanation": "fr stands for fraction unit in CSS grid.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1931,7 +1931,7 @@ const fullQuiz = [
     "Distractor1": "grid-template-columns",
     "Distractor2": "grid-rows",
     "Distractor3": "grid-unit-rows",
-    "Explanation": "The grid-template-rows property is used to set the number and height for the rows",
+    "Explanation": "The grid-template-rows property is used to set the number and height for the rows.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1940,7 +1940,7 @@ const fullQuiz = [
     "Distractor1": "grid-template-rows",
     "Distractor2": "fraction unit",
     "Distractor3": "repeat",
-    "Explanation": "The grid-template-areas property is used to set the space for grid cells in rows and columns",
+    "Explanation": "The grid-template-areas property is used to set the space for grid cells in rows and columns.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1949,7 +1949,7 @@ const fullQuiz = [
     "Distractor1": "set-width",
     "Distractor2": "fit unit",
     "Distractor3": "grid-template-columns",
-    "Explanation": "The column-gap property is used to create gaps between columns",
+    "Explanation": "The column-gap property is used to create gaps between columns.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1958,7 +1958,7 @@ const fullQuiz = [
     "Distractor1": "grid-template-rows",
     "Distractor2": "grid-columns",
     "Distractor3": "repeat",
-    "Explanation": "The row-gap property is used to create gaps between rows",
+    "Explanation": "The row-gap property is used to create gaps between rows.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1967,7 +1967,7 @@ const fullQuiz = [
     "Distractor1": "justify-content",
     "Distractor2": "justify-rows",
     "Distractor3": "justify-columns",
-    "Explanation": "The justify-items property is used to position items within a grid container along the x-axis",
+    "Explanation": "The justify-items property is used to position items within a grid container along the x-axis.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1976,7 +1976,7 @@ const fullQuiz = [
     "Distractor1": "start",
     "Distractor2": "end",
     "Distractor3": "stretch",
-    "Explanation": "The four values that can be used for the justify-items property are start, end, center, and stretch",
+    "Explanation": "The four values that can be used for the justify-items property are start, end, center, and stretch.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1985,7 +1985,7 @@ const fullQuiz = [
     "Distractor1": "grid-columns",
     "Distractor2": "grid-template-columns",
     "Distractor3": "fraction unit",
-    "Explanation": "The align-items property is used to position items in the container along the y-axis",
+    "Explanation": "The align-items property is used to position items in the container along the y-axis.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -1994,7 +1994,7 @@ const fullQuiz = [
     "Distractor1": "grid-template-areas",
     "Distractor2": "grid-template-rows",
     "Distractor3": "row-gap",
-    "Explanation": "The justify-content property is used to position the grid in the container along the x-axis",
+    "Explanation": "The justify-content property is used to position the grid in the container along the x-axis.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -2003,7 +2003,7 @@ const fullQuiz = [
     "Distractor1": "space-around",
     "Distractor2": "space-between",
     "Distractor3": "space-evenly",
-    "Explanation": "The justify-content property can accept seven values including space-around, space-between, start and end",
+    "Explanation": "The justify-content property can accept seven values including space-around, space-between, start and end.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -2012,7 +2012,7 @@ const fullQuiz = [
     "Distractor1": "justify-content",
     "Distractor2": "end",
     "Distractor3": "grid-unit-rows",
-    "Explanation": "The align-content property is used to position the grid in the container along the y-axis",
+    "Explanation": "The align-content property is used to position the grid in the container along the y-axis.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -2021,7 +2021,7 @@ const fullQuiz = [
     "Distractor1": "space-between",
     "Distractor2": "center",
     "Distractor3": "start",
-    "Explanation": "The align-content property can accept seven values including space-around, space-between, start and end",
+    "Explanation": "The align-content property can accept seven values including space-around, space-between, start and end.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -2030,7 +2030,7 @@ const fullQuiz = [
     "Distractor1": "align-content",
     "Distractor2": "grid-template-areas",
     "Distractor3": "justify-rows",
-    "Explanation": "The justify-self property is used to position one grid item in a container along the x-axis",
+    "Explanation": "The justify-self property is used to position one grid item in a container along the x-axis.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -2039,7 +2039,7 @@ const fullQuiz = [
     "Distractor1": "grid-columns",
     "Distractor2": "space-around",
     "Distractor3": "grid-template-columns",
-    "Explanation": "The align-self property is used to position one grid item in a container along the y-axis",
+    "Explanation": "The align-self property is used to position one grid item in a container along the y-axis.",
     "Link": "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
@@ -2048,7 +2048,7 @@ const fullQuiz = [
     "Distractor1": "background-repeat",
     "Distractor2": "background-origin",
     "Distractor3": "background-position",
-    "Explanation": "The background-size property is used to adjust the size for a background image",
+    "Explanation": "The background-size property is used to adjust the size for a background image.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2057,7 +2057,7 @@ const fullQuiz = [
     "Distractor1": "background-position-x",
     "Distractor2": "background-position-y",
     "Distractor3": "background-origin",
-    "Explanation": "The background-repeat property is used to repeat the background image",
+    "Explanation": "The background-repeat property is used to repeat the background image.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2066,34 +2066,34 @@ const fullQuiz = [
     "Distractor1": "no-repeat",
     "Distractor2": "repeat",
     "Distractor3": "repeat-x",
-    "Explanation": "The background-repeat property can take in seven values include no-repeat, repeat, repeat-x and repeat-y",
+    "Explanation": "The background-repeat property can take in seven values include no-repeat, repeat, repeat-x and repeat-y.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     "Question": "What does the repeat-x value do in the background-repeat property?",
-    "Answer": "repeats the image along the x-axis",
-    "Distractor1": "repeats the image along the y-axis",
-    "Distractor2": "repeats the image along the z-axis",
-    "Distractor3": "repeats the image along both of the x-axis and y-axis",
-    "Explanation": "The repeat-x value repeats the image along the x-axis",
+    "Answer": "It repeats the image along the x-axis",
+    "Distractor1": "It repeats the image along the y-axis",
+    "Distractor2": "It repeats the image along the z-axis",
+    "Distractor3": "It repeats the image along both of the x-axis and y-axis",
+    "Explanation": "The repeat-x value repeats the image along the x-axis.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     "Question": "What does the repeat-y value do in the background-repeat property?",
-    "Answer": "repeats the image along the y-axis",
-    "Distractor1": "repeats the image along the x-axis",
-    "Distractor2": "repeats the image along both of the x-axis and y-axis",
-    "Distractor3": "repeats the image along the z-axis",
-    "Explanation": "The repeat-y value repeats the image along the y-axis",
+    "Answer": "It repeats the image along the y-axis",
+    "Distractor1": "It repeats the image along the x-axis",
+    "Distractor2": "It repeats the image along both of the x-axis and y-axis",
+    "Distractor3": "It repeats the image along the z-axis",
+    "Explanation": "The repeat-y value repeats the image along the y-axis.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     "Question": "What does the no-repeat value do in the background-repeat property?",
-    "Answer": "sets no repetition for the background image",
-    "Distractor1": "repeats the image along the z-axis",
-    "Distractor2": "repeats the image along the y-axis",
-    "Distractor3": "repeats the image along the x-axis",
-    "Explanation": "The no-repeat value sets no repetition for the background image",
+    "Answer": "It sets no repetition for the background image",
+    "Distractor1": "It repeats the image along the z-axis",
+    "Distractor2": "It repeats the image along the y-axis",
+    "Distractor3": "It repeats the image along the x-axis",
+    "Explanation": "The no-repeat value sets no repetition for the background image.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2102,7 +2102,7 @@ const fullQuiz = [
     "Distractor1": "repeat",
     "Distractor2": "no-repeat",
     "Distractor3": "repeat-x",
-    "Explanation": "The space value is used to evenly distributes the space in the background-repeat property",
+    "Explanation": "The space value is used to evenly distribute the space in the background-repeat property.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2111,7 +2111,7 @@ const fullQuiz = [
     "Distractor1": "space",
     "Distractor2": "around",
     "Distractor3": "rounding",
-    "Explanation": "The round value is used to stretch the repeated images in the background-repeat property",
+    "Explanation": "The round value is used to stretch the repeated images in the background-repeat property.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2120,7 +2120,7 @@ const fullQuiz = [
     "Distractor1": "background-clip",
     "Distractor2": "background-color",
     "Distractor3": "background-origin",
-    "Explanation": "The background-position is used to change the position of the background image",
+    "Explanation": "The background-position is used to change the position of the background image.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2129,7 +2129,7 @@ const fullQuiz = [
     "Distractor1": "top",
     "Distractor2": "bottom",
     "Distractor3": "right",
-    "Explanation": "The background-position property can take in many values including of top, right, left and bottom",
+    "Explanation": "The background-position property can take in many values including of top, right, left and bottom.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2138,7 +2138,7 @@ const fullQuiz = [
     "Distractor1": "background-position",
     "Distractor2": "background-clip",
     "Distractor3": "background-color",
-    "Explanation": "The background-origin property is used to set the origin for the background image",
+    "Explanation": "The background-origin property is used to set the origin for the background image.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2147,7 +2147,7 @@ const fullQuiz = [
     "Distractor1": "border-box",
     "Distractor2": "padding-box",
     "Distractor3": "content-box",
-    "Explanation": "The background-origin property can use following value border-box, padding-box, inherit, content-box",
+    "Explanation": "The background-origin property can use following value border-box, padding-box, inherit, content-box.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2156,7 +2156,7 @@ const fullQuiz = [
     "Distractor1": "background-color",
     "Distractor2": "background-position",
     "Distractor3": "background-size",
-    "Explanation": "The background-clip property is used to clip the background image to inside the container",
+    "Explanation": "The background-clip property is used to clip the background image to inside the container.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2165,7 +2165,7 @@ const fullQuiz = [
     "Distractor1": "background-origin",
     "Distractor2": "background-clip",
     "Distractor3": "background-position",
-    "Explanation": "The background-attachment property is used to determine if the background image is in a scroll or fixed position",
+    "Explanation": "The background-attachment property is used to determine if the background image is in a scroll or fixed position.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2174,7 +2174,7 @@ const fullQuiz = [
     "Distractor1": "local",
     "Distractor2": "scroll",
     "Distractor3": "fixed",
-    "Explanation": "The background-attachment property can take in the fixed, scroll and local values",
+    "Explanation": "The background-attachment property can take in the fixed, scroll and local values.",
     "Link": "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
@@ -2183,7 +2183,7 @@ const fullQuiz = [
     "Distractor1": "rem",
     "Distractor2": "em",
     "Distractor3": "vh",
-    "Explanation": "Relative units in CSS include rem, em, vh, and vw",
+    "Explanation": "Relative units in CSS include rem, em, vh, and vw.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2192,7 +2192,7 @@ const fullQuiz = [
     "Distractor1": "32",
     "Distractor2": "12",
     "Distractor3": "6",
-    "Explanation": "One rem unit is equivalent to 16 pixels",
+    "Explanation": "One rem unit is equivalent to 16 pixels.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2201,7 +2201,7 @@ const fullQuiz = [
     "Distractor1": "em",
     "Distractor2": "px",
     "Distractor3": "vw",
-    "Explanation": "The rem unit is based off of the root element's font size",
+    "Explanation": "The rem unit is based off of the root element's font size.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2210,7 +2210,7 @@ const fullQuiz = [
     "Distractor1": "rem",
     "Distractor2": "vh",
     "Distractor3": "vw",
-    "Explanation": "The em unit is based off of the parent's font size",
+    "Explanation": "The em unit is based off of the parent's font size.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2219,7 +2219,7 @@ const fullQuiz = [
     "Distractor1": "view width height",
     "Distractor2": "viewport weight",
     "Distractor3": "viewport height",
-    "Explanation": "The vw unit stands for viewport width",
+    "Explanation": "The vw unit stands for viewport width.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2228,7 +2228,7 @@ const fullQuiz = [
     "Distractor1": "10vh",
     "Distractor2": "100vw",
     "Distractor3": "1000vw",
-    "Explanation": "10vw is equivalent to 10% of the viewport width",
+    "Explanation": "10vw is equivalent to 10% of the viewport width.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2237,7 +2237,7 @@ const fullQuiz = [
     "Distractor1": "viewport width",
     "Distractor2": "view heights",
     "Distractor3": "viewing height",
-    "Explanation": "The vh unit stands for viewport height",
+    "Explanation": "The vh unit stands for viewport height.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2246,7 +2246,7 @@ const fullQuiz = [
     "Distractor1": "200vh",
     "Distractor2": "2vh",
     "Distractor3": "2000vh",
-    "Explanation": "20vh is equivalent to 20% of the viewport height",
+    "Explanation": "20vh is equivalent to 20% of the viewport height.",
     "Link": "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
@@ -2255,7 +2255,7 @@ const fullQuiz = [
     "Distractor1": "list-style",
     "Distractor2": "list-marker-type",
     "Distractor3": "list-markers",
-    "Explanation": "The list-style-type property is used to set the marker of a list item. ",
+    "Explanation": "The list-style-type property is used to set the marker of a list item.",
     "Link": "https://www.freecodecamp.org/news/how-to-style-lists-with-css/"
   },
   {
@@ -2417,7 +2417,7 @@ const fullQuiz = [
     "Distractor1": "A numeral system where the values are 1's and 2's",
     "Distractor2": "A numeral system where the values are 0-7",
     "Distractor3": "A numeral system where the values are 0-9",
-    "Explanation": "Binary is a base 2 numeral system whose values are 0 and 1",
+    "Explanation": "Binary is a base 2 numeral system whose values are 0 and 1.",
     "Link": "https://www.freecodecamp.org/news/binary-definition/"
   },
   {
@@ -2435,7 +2435,7 @@ const fullQuiz = [
     "Distractor1": "A programming language",
     "Distractor2": "A collection of fonts",
     "Distractor3": "A data type",
-    "Explanation": "An algorithm is a set of steps to solve a problem",
+    "Explanation": "An algorithm is a set of steps to solve a problem.",
     "Link": "https://www.freecodecamp.org/news/algorithm-definition/"
   },
   {
@@ -2444,7 +2444,7 @@ const fullQuiz = [
     "Distractor1": "A number greater than 100",
     "Distractor2": "A number less than 0",
     "Distractor3": "A number that is divisible by 3",
-    "Explanation": "A floating point number is a number with a decimal point",
+    "Explanation": "A floating point number is a number with a decimal point.",
     "Link": "https://www.freecodecamp.org/news/floating-point-definition/"
   },
   {
@@ -2453,16 +2453,16 @@ const fullQuiz = [
     "Distractor1": "A way to notate changes from the server",
     "Distractor2": "A way to notate the different types in a file system",
     "Distractor3": "A way to notate the different elements in an array",
-    "Explanation": "Big O notation is a way to measure the performance of an algorithm",
+    "Explanation": "Big O notation is a way to measure the performance of an algorithm.",
     "Link": "https://www.freecodecamp.org/news/learn-big-o-notation/"
   },
   {
     "Question": "What does DNS do?",
-    "Answer": "Maps domain names to IP addresses",
-    "Distractor1": "Is responsible for encrypting HTTP connections",
-    "Distractor2": "Provides the web client with web files during client-server communication",
-    "Distractor3": "Breaks down web information into smaller chunks, or packets",
-    "Explanation": "The Domain Name System (DNS) maps human-readable domain names to IP addresses(unique identifiers). For example, DNS translates and maps the domain freeCodecamp.org to the IP address 104.26.2.33.",
+    "Answer": "It Maps domain names to IP addresses",
+    "Distractor1": "It is responsible for encrypting HTTP connections",
+    "Distractor2": "It provides the web client with web files during client-server communication",
+    "Distractor3": "It breaks down web information into smaller chunks, or packets",
+    "Explanation": "The Domain Name System (DNS) maps human-readable domain names to IP addresses(unique identifiers). For example, DNS translates and maps the domain freeCodeCamp.org to the IP address 104.26.2.33.",
     "Link": "https://www.freecodecamp.org/news/what-is-dns/"
   },
   {
@@ -2471,7 +2471,7 @@ const fullQuiz = [
     "Distractor1": "443",
     "Distractor2": "40",
     "Distractor3": "60",
-    "Explanation": "By default HTTP Port-80 is used for HTTP(which stands for HyperText Transfer Protocol)",
+    "Explanation": "By default HTTP Port-80 is used for HTTP(which stands for HyperText Transfer Protocol).",
     "Link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
   },
   {
@@ -2480,7 +2480,7 @@ const fullQuiz = [
     "Distractor1": "Dynamic Name System",
     "Distractor2": "Domain Naming System",
     "Distractor3": "Domain Network System",
-    "Explanation": "DNS is an abbreviation for Domain Name System",
+    "Explanation": "DNS is an abbreviation for Domain Name System.",
     "Link": "https://www.freecodecamp.org/news/what-is-dns/"
   },
   {
@@ -2516,7 +2516,7 @@ const fullQuiz = [
     "Distractor1": "HyperText Transfer Protocol Standard",
     "Distractor2": "HyperTransfer Text Protocol Secure",
     "Distractor3": "HyperText Transfer Protocol Set",
-    "Explanation": "HTTPS is a secure way of transferring data between a web server and a web browser",
+    "Explanation": "HTTPS is a secure way of transferring data between a web server and a web browser.",
     "Link": "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
   },
   {
@@ -2543,7 +2543,7 @@ const fullQuiz = [
     "Distractor1": "Central Protocol Unit",
     "Distractor2": "Central Programming Unit",
     "Distractor3": "Control Processing Unit",
-    "Explanation": "HTTPS is the secure version of HTTP, the basic network protocol for sending hypertext over the web. In HTTPS there are additional steps for security, such as TLS/SSL certificates and the TLS/SSL handshake.",
+    "Explanation": "CPU is short for Central Processing Unit. It is also known as a processor or microporcessor.",
     "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
   },
   {
@@ -2552,7 +2552,7 @@ const fullQuiz = [
     "Distractor1": "The Control Unit",
     "Distractor2": " Registers",
     "Distractor3": "Cache Memory",
-    "Explanation": "The ALU(short for Control Unit) is a digital circuit that performs arithmetic operations such as addition, subtraction, multiplication, and division",
+    "Explanation": "The ALU(short for Control Unit) is a digital circuit that performs arithmetic operations such as addition, subtraction, multiplication, and division.",
     "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
   },
   {
@@ -2588,7 +2588,7 @@ const fullQuiz = [
     "Distractor1": "Speakers",
     "Distractor2": "Monitor",
     "Distractor3": "Projector",
-    "Explanation": "Examples of Input devices are a keyboard(used for typing text and characters – essentially for entering any written information), a mouse f(or clicking, pointing, and selecting appropriate data) and a microphone.",
+    "Explanation": "Examples of Input devices are a keyboard(used for typing text and characters,essentially for entering any written information), a mouse for clicking, pointing, and selecting appropriate data) and a microphone.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
   },
   {
@@ -2612,9 +2612,9 @@ const fullQuiz = [
   {
     "Question": "What does a CPU do?",
     "Answer": "A CPU executes commands from a computer program",
-    "Distractor1": "Writes code for developers",
-    "Distractor2": "Displays images and text on screen",
-    "Distractor3": "A device that points to objects on the screen",
+    "Distractor1": "It Writes code for developers",
+    "Distractor2": "It Displays images and text on screen",
+    "Distractor3": "It's Aadevice that points to objects on the screen",
     "Explanation": "The CPU is the brains of a computer that processes operations and executes instructions for computer programs. ",
     "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
   },
@@ -2651,12 +2651,12 @@ const fullQuiz = [
     "Distractor1": "Microsoft Windows",
     "Distractor2": "Apple OS",
     "Distractor3": "Linux",
-    "Explanation": "Linux, Microsoft Windows and Apple are three types of popular operating systems used by developers",
+    "Explanation": "Linux, Microsoft Windows and Apple are three types of popular operating systems used by developers.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/"
   },
   {
     "Question": "What is an operating system?",
-    "Answer": "Manages the hardware and software components of a computer",
+    "Answer": "It Manages the hardware and software components of a computer",
     "Distractor1": "A program that translates code from one languages to another",
     "Distractor2": "A system that converts data into machine code",
     "Distractor3": "A base 2 numerical system made up of 0's and 1's",
@@ -2669,7 +2669,7 @@ const fullQuiz = [
     "Distractor1": "A device to record text to a disk",
     "Distractor2": "A device to translate code from one language to another ",
     "Distractor3": "A screen editor used for Unix",
-    "Explanation": "A type of storage device that uses flash memory to store and access data",
+    "Explanation": "A type of storage device that uses flash memory to store and access data.",
     "Link": "https://www.freecodecamp.org/news/ssd-solid-state-drive-definition/"
   },
   {
@@ -2678,7 +2678,7 @@ const fullQuiz = [
     "Distractor1": "A device to record sound to a disk",
     "Distractor2": "A device for the computer's short term memory",
     "Distractor3": "A port used to connect to a computer to other devices",
-    "Explanation": "A type of storage device that holds data including the operating system, applications, and files",
+    "Explanation": "A type of storage device that holds data including the operating system, applications, and files.",
     "Link": "https://www.freecodecamp.org/news/hdd-hard-disk-drive-definition/"
   },
   {
@@ -2687,7 +2687,7 @@ const fullQuiz = [
     "Distractor1": "A type of memory that computers use to call servers",
     "Distractor2": "A type of memory that computers use to delete data",
     "Distractor3": "A type of memory that computers use to connect with other devices",
-    "Explanation": "Random Access Memory is a type of short term memory that stores data that computer processors can access frequently",
+    "Explanation": "Random Access Memory is a type of short term memory that stores data that computer processors can access frequently.",
     "Link": "https://www.freecodecamp.org/news/ram-definition/"
   },
   {
@@ -2696,14 +2696,14 @@ const fullQuiz = [
     "Distractor1": "A newer type of RAM for Mac computers",
     "Distractor2": "A newer type of RAM for Windows Computers",
     "Distractor3": "A battery powered RAM for older PC computers that holds important information for your system",
-    "Explanation": "Parameter Random Access Memory is a battery powered RAM for older Mac computers that holds important information for your system",
+    "Explanation": "Parameter Random Access Memory is a battery powered RAM for older Mac computers that holds important information for your system.",
     "Link": "https://www.freecodecamp.org/news/pram-definition/"
   },
   {
     "Question": "What is a Subnet Mask?",
-    "Answer": "Creates a range for IP addresses used in a subnet",
+    "Answer": "It creates a range for IP addresses used in a subnet",
     "Distractor1": "A type of software life cycle described by W. W. Royce",
-    "Distractor2": "A devices that performs restricted operations on time-sharing systems",
+    "Distractor2": "A device that performs restricted operations on time-sharing systems",
     "Distractor3": "A device that reboots the system",
     "Explanation": "A Subnet Mask is used to creates a range for IP addresses used in a subnet. ",
     "Link": "https://www.freecodecamp.org/news/subnet-mask-definition/"
@@ -2723,7 +2723,7 @@ const fullQuiz = [
     "Distractor1": "A protocol that allows users to send files from one computer to another",
     "Distractor2": "A way to share a single processor for multiple independent jobs",
     "Distractor3": "A portion of memory used to store messages",
-    "Explanation": "A ping is the process of sending signals to other devices and waiting for a response",
+    "Explanation": "A ping is the process of sending signals to other devices and waiting for a response.",
     "Link": "https://www.freecodecamp.org/news/ping-definition/"
   },
   {
@@ -2732,7 +2732,7 @@ const fullQuiz = [
     "Distractor1": "Unified Resource Locator",
     "Distractor2": "Universal Redirect Locator",
     "Distractor3": "Universal Resource Label",
-    "Explanation": "URL stands for Universal Resource Locator and it serves as the location of an online resource",
+    "Explanation": "URL stands for Universal Resource Locator and it serves as the location of an online resource.",
     "Link": "https://www.freecodecamp.org/news/url-definition/"
   },
   {
@@ -2741,7 +2741,7 @@ const fullQuiz = [
     "Distractor1": "1 thousand bytes",
     "Distractor2": "1 million bytes",
     "Distractor3": "1 billion bytes",
-    "Explanation": "A Yottabyte is made up of 1 septillion bytes",
+    "Explanation": "A Yottabyte is made up of 1 septillion bytes.",
     "Link": "https://www.freecodecamp.org/news/yottabyte-definition/"
   },
   {
@@ -2750,7 +2750,7 @@ const fullQuiz = [
     "Distractor1": "1 Hundred bytes",
     "Distractor2": "1 Thousand bytes",
     "Distractor3": "1 million bytes",
-    "Explanation": "A Zettabyte is composed of 1 sextillion bytes",
+    "Explanation": "A Zettabyte is composed of 1 sextillion bytes.",
     "Link": "https://www.freecodecamp.org/news/zettabyte-definition/"
   },
   {
@@ -2759,7 +2759,7 @@ const fullQuiz = [
     "Distractor1": "1 Billion bytes",
     "Distractor2": "1 Trillion bytes",
     "Distractor3": "1 Thousand bytes",
-    "Explanation": "A Exabyte is composed of 1 quintillion bytes",
+    "Explanation": "A Exabyte is composed of 1 quintillion bytes.",
     "Link": "https://www.freecodecamp.org/news/exabyte-definition/"
   },
   {
@@ -2768,7 +2768,7 @@ const fullQuiz = [
     "Distractor1": "1 quintillion bytes",
     "Distractor2": "1 Hundred bytes",
     "Distractor3": "1 million bytes",
-    "Explanation": "A Petabyte is composed of 1 quadrillion bytes",
+    "Explanation": "A Petabyte is composed of 1 quadrillion bytes.",
     "Link": "https://www.freecodecamp.org/news/petabyte-definition/"
   },
   {
@@ -2777,7 +2777,7 @@ const fullQuiz = [
     "Distractor1": "1 Billion bytes",
     "Distractor2": "1 Thousand bytes",
     "Distractor3": "1 million bytes",
-    "Explanation": "A Terabyte is composed of 1 trillion bytes",
+    "Explanation": "A Terabyte is composed of 1 trillion bytes.",
     "Link": "https://www.freecodecamp.org/news/terabyte-definition/"
   },
   {
@@ -2786,7 +2786,7 @@ const fullQuiz = [
     "Distractor1": "1 quintillion bytes",
     "Distractor2": "1 Trillion bytes",
     "Distractor3": "1 hundred bytes",
-    "Explanation": "A Gigabyte is composed of 1 billion bytes",
+    "Explanation": "A Gigabyte is composed of 1 billion bytes.",
     "Link": "https://www.freecodecamp.org/news/gigabyte-definition/"
   },
   {
@@ -2795,7 +2795,7 @@ const fullQuiz = [
     "Distractor1": "1 thousand bytes",
     "Distractor2": "1 billion bytes",
     "Distractor3": "1 trillion bytes",
-    "Explanation": "A Megabyte is composed of 1 million bytes",
+    "Explanation": "A Megabyte is composed of 1 million bytes.",
     "Link": "https://www.freecodecamp.org/news/megabyte-definition/"
   },
   {
@@ -2804,7 +2804,7 @@ const fullQuiz = [
     "Distractor1": "100 bytes",
     "Distractor2": "10 bytes",
     "Distractor3": "1 byte",
-    "Explanation": "A Kilobyte is composed of 1,000 bytes",
+    "Explanation": "A Kilobyte is composed of 1,000 bytes.",
     "Link": "https://www.freecodecamp.org/news/kilobyte-definition/"
   },
   {
@@ -2813,16 +2813,16 @@ const fullQuiz = [
     "Distractor1": "16 bits",
     "Distractor2": "32 bits",
     "Distractor3": "12 bits",
-    "Explanation": "There are 8 bits in a byte",
+    "Explanation": "There are 8 bits in a byte.",
     "Link": "https://www.freecodecamp.org/news/byte-definition/"
   },
   {
     "Question": "What is a bit?",
-    "Answer": "Smallest form of data on a computer",
+    "Answer": "The smallest form of data on a computer",
     "Distractor1": "Structured assembly language ",
     "Distractor2": "A special type of file system",
     "Distractor3": "A special type of object",
-    "Explanation": "A binary digit or \"bit\" is the smallest form of data on a computer",
+    "Explanation": "A binary digit or \"bit\" is the smallest form of data on a computer.",
     "Link": "https://www.freecodecamp.org/news/bit-definition/"
   },
   {
@@ -2831,7 +2831,7 @@ const fullQuiz = [
     "Distractor1": "A way to request data from a server",
     "Distractor2": "A special type of computer memory",
     "Distractor3": "A type of array",
-    "Explanation": "A password is a secret set of characters used to login in to applications",
+    "Explanation": "A password is a secret set of characters used to login in to applications.",
     "Link": "https://www.freecodecamp.org/news/password-definition/"
   },
   {
@@ -2849,7 +2849,7 @@ const fullQuiz = [
     "Distractor1": "A way to request data from a server",
     "Distractor2": "A special type of file system",
     "Distractor3": "A special programming library",
-    "Explanation": "Peer to Peer or \"P2P\" is a network where two devices communicate directly",
+    "Explanation": "Peer to Peer or \"P2P\" is a network where two devices communicate directly.",
     "Link": "https://www.freecodecamp.org/news/p2p-definition/"
   },
   {
@@ -2858,7 +2858,7 @@ const fullQuiz = [
     "Distractor1": "Label Crystal Display",
     "Distractor2": "Liquid Cache Display",
     "Distractor3": "Liquid Crystal Dictionary",
-    "Explanation": "Liquid Crystal Display using Liquid Crystals to display images",
+    "Explanation": "Liquid Crystal Display using Liquid Crystals to display images.",
     "Link": "https://www.freecodecamp.org/news/lcd-definition/"
   },
   {
@@ -2867,7 +2867,7 @@ const fullQuiz = [
     "Distractor1": "A Python library",
     "Distractor2": "A type of compiler",
     "Distractor3": "An IDE",
-    "Explanation": "A server is a software or hardware device that sends data over a network",
+    "Explanation": "A server is a software or hardware device that sends data over a network.",
     "Link": "https://www.freecodecamp.org/news/server-definition/"
   },
   {
@@ -2876,7 +2876,7 @@ const fullQuiz = [
     "Distractor1": "Terabyte Control Protocol",
     "Distractor2": "Transmission Carrier Protocol",
     "Distractor3": "Transmission Control Patch",
-    "Explanation": "Transmission Control Protocol or \"TCP\" is a type of networking protocol online",
+    "Explanation": "Transmission Control Protocol or \"TCP\" is a type of networking protocol online.",
     "Link": "https://www.freecodecamp.org/news/tcp-vs-udp/"
   },
   {
@@ -2885,7 +2885,7 @@ const fullQuiz = [
     "Distractor1": "Unified Datagram Protocol",
     "Distractor2": "User Database Protocol",
     "Distractor3": "User Datagram Patch",
-    "Explanation": "User Datagram Protocol of \"UDP\" is a type of connectionless protocol online",
+    "Explanation": "User Datagram Protocol of \"UDP\" is a type of connectionless protocol online.",
     "Link": "https://www.freecodecamp.org/news/tcp-vs-udp/"
   },
   {
@@ -2903,7 +2903,7 @@ const fullQuiz = [
     "Distractor1": "SMTP",
     "Distractor2": "PTP",
     "Distractor3": "POP",
-    "Explanation": "File Transfer Protocol (FTP) — is a standard protocol used for transferring files between a client and a server over a network.",
+    "Explanation": "File Transfer Protocol (FTP) , is a standard protocol used for transferring files between a client and a server over a network.",
     "Link": "https://www.freecodecamp.org/news/http-and-everything-you-need-to-know-about-it/"
   },
   {
@@ -2930,7 +2930,7 @@ const fullQuiz = [
     "Distractor1": "Operating System",
     "Distractor2": "System Unit",
     "Distractor3": " Computer Software",
-    "Explanation": "CPU is short for Central Processing Unit. It is also known as a processor or microporcessor.",
+    "Explanation": "CPU is short for Central Processing Unit. It is also known as a processor or microprocessor.",
     "Link": "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/"
   },
   {
@@ -2939,7 +2939,7 @@ const fullQuiz = [
     "Distractor1": "The network layer",
     "Distractor2": "The transport Layer",
     "Distractor3": "The application layer",
-    "Explanation": "Layer 1 is the physical layer.There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
+    "Explanation": "Layer 1 is the physical layer.There is a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
     "Link": "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/"
   },
   {
@@ -2948,7 +2948,7 @@ const fullQuiz = [
     "Distractor1": "The transport layer",
     "Distractor2": "The network layer",
     "Distractor3": "The physical layer",
-    "Explanation": "The the data link layer is layer 2 in the OSI model. Layer 2 defines how data is formatted for transmission, how much data can flow between nodes, for how long, and what to do when errors are detected in this flow.",
+    "Explanation": "The  data link layer is layer 2 in the OSI model. Layer 2 defines how data is formatted for transmission, how much data can flow between nodes, for how long, and what to do when errors are detected in this flow.",
     "Link": "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/"
   },
   {
@@ -3044,9 +3044,9 @@ const fullQuiz = [
   {
     "Question": "What is a virtual machine?",
     "Answer": "A computer inside another computer",
-    "Distractor1": "an Operating system",
-    "Distractor2": "a Linux distribution",
-    "Distractor3": "another name for a compiler",
+    "Distractor1": "An Operating system",
+    "Distractor2": "A Linux distribution",
+    "Distractor3": "Another name for a compiler",
     "Explanation": "A virtual machine is a program you run on a computer that acts like it is a separate computer. It is basically a way to create a computer within a computer.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-virtual-machine-and-how-to-setup-a-vm-on-windows-linux-and-mac/"
   },
@@ -3146,7 +3146,7 @@ const fullQuiz = [
     "Distractor1": "git &version",
     "Distractor2": "git <version>",
     "Distractor3": "git /version",
-    "Explanation": "In the command line, you can use git --version to check which version of Git is installed on your local machine",
+    "Explanation": "In the command line, you can use git --version to check which version of Git is installed on your local machine.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3164,7 +3164,7 @@ const fullQuiz = [
     "Distractor1": "git config --global set email address \"YOUR_EMAIL\"",
     "Distractor2": "git config --email address \"YOUR_EMAIL\"",
     "Distractor3": "git create user email \"YOUR_EMAIL\"",
-    "Explanation": "In the command line, you can use git config --global user.email \"YOUR_EMAIL\" to set your email address in Git",
+    "Explanation": "In the command line, you can use git config --global user.email \"YOUR_EMAIL\" to set your email address in Git.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3173,34 +3173,34 @@ const fullQuiz = [
     "Distractor1": "git create new repo",
     "Distractor2": "git config init repo",
     "Distractor3": "git new repo",
-    "Explanation": "In the command line, you can use git init to initialize a new Git repository",
+    "Explanation": "In the command line, you can use git init to initialize a new Git repository.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     "Question": "What is the committed state in Git?",
-    "Answer": "all of the files have been saved to the local repo and are ready to be pushed to the remote repo",
-    "Distractor1": "the files need to be saved to the local repo",
-    "Distractor2": "the files have been successfully pushed to the remote repo",
-    "Distractor3": "the files have been deleted from the local repo",
-    "Explanation": "The committed state is when all of the files have been saved to the local repo and are ready to be pushed to the remote repo",
+    "Answer": "All of the files have been saved to the local repo and are ready to be pushed to the remote repo",
+    "Distractor1": "The files need to be saved to the local repo",
+    "Distractor2": "The files have been successfully pushed to the remote repo",
+    "Distractor3": "The files have been deleted from the local repo",
+    "Explanation": "The committed state is when all of the files have been saved to the local repo and are ready to be pushed to the remote repo.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     "Question": "What is a modified state in Git?",
-    "Answer": "changes have been made to the files but those changes are not saved yet",
-    "Distractor1": "a new local repository has been created",
-    "Distractor2": "a new remote repository has been created",
-    "Distractor3": "the files have been saved and need to be pushed to the remote repository",
-    "Explanation": "The modified state is when changes have been made to the files but those changes are not saved yet",
+    "Answer": "Changes have been made to the files but those changes are not saved yet",
+    "Distractor1": "A new local repository has been created",
+    "Distractor2": "A new remote repository has been created",
+    "Distractor3": "The files have been saved and need to be pushed to the remote repository",
+    "Explanation": "The modified state is when changes have been made to the files but those changes are not saved yet.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     "Question": "What is a staged state in Git?",
-    "Answer": "the files are ready to be committed",
-    "Distractor1": "the files are ready to be deleted",
-    "Distractor2": "a new local repository has been created",
-    "Distractor3": "the files need to be saved to the remote repository",
-    "Explanation": "The staged state is when the files are ready to be committed",
+    "Answer": "The files are ready to be committed",
+    "Distractor1": "The files are ready to be deleted",
+    "Distractor2": "A new local repository has been created",
+    "Distractor3": "The files need to be saved to the remote repository",
+    "Explanation": "The staged state is when the files are ready to be committed.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3209,7 +3209,7 @@ const fullQuiz = [
     "Distractor1": "git add all files",
     "Distractor2": "git add --all files",
     "Distractor3": "git add <all files",
-    "Explanation": "In the command line, you can use git add . to add all of the files in your local repository",
+    "Explanation": "In the command line, you can use git add . to add all of the files in your local repository.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3218,7 +3218,7 @@ const fullQuiz = [
     "Distractor1": "git add < filename",
     "Distractor2": "git add *filename",
     "Distractor3": "git add %filename",
-    "Explanation": "In the command line, you can use git add filename to add a specific file",
+    "Explanation": "In the command line, you can use git add filename to add a specific file.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3227,16 +3227,16 @@ const fullQuiz = [
     "Distractor1": "git commit --add message",
     "Distractor2": "git commit < add message",
     "Distractor3": "git add message",
-    "Explanation": "In the command line, you can use git commit -m \"commit message\" to commit your changes",
+    "Explanation": "In the command line, you can use git commit -m \"commit message\" to commit your changes.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     "Question": "What is the -m flag in Git?",
-    "Answer": "shorthand for message",
-    "Distractor1": "shorthand for main",
-    "Distractor2": "shorthand for mistake",
-    "Distractor3": "shorthand for merge",
-    "Explanation": "The -m flag in Git is shorthand for message",
+    "Answer": "Shorthand for message",
+    "Distractor1": "Shorthand for main",
+    "Distractor2": "Shorthand for mistake",
+    "Distractor3": "Shorthand for merge",
+    "Explanation": "The -m flag in Git is shorthand for message.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3245,7 +3245,7 @@ const fullQuiz = [
     "Distractor1": "git add remote and local",
     "Distractor2": "git remote local",
     "Distractor3": "git local remote",
-    "Explanation": "In the command line, you can use git remote add origin git-url to connect the local repository to the remote one",
+    "Explanation": "In the command line, you can use git remote add origin git-url to connect the local repository to the remote one.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3254,7 +3254,7 @@ const fullQuiz = [
     "Distractor1": "git push changes",
     "Distractor2": "git push all changes",
     "Distractor3": "git push --to main branch",
-    "Explanation": "In the command line, you can use git push -u origin main to push your changes from the local repository to the remote one",
+    "Explanation": "In the command line, you can use git push -u origin main to push your changes from the local repository to the remote one.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3263,7 +3263,7 @@ const fullQuiz = [
     "Distractor1": "git check status",
     "Distractor2": "git share status",
     "Distractor3": "git show status",
-    "Explanation": "In the command line, you can use git status to check the current status of your working directory",
+    "Explanation": "In the command line, you can use git status to check the current status of your working directory.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3272,7 +3272,7 @@ const fullQuiz = [
     "Distractor1": "git switch branch-name",
     "Distractor2": "git switch to branch-name",
     "Distractor3": "git change branch-name",
-    "Explanation": "In the command line, you can use git checkout branch-name to switch to a different branch",
+    "Explanation": "In the command line, you can use git checkout branch-name to switch to a different branch.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3281,7 +3281,7 @@ const fullQuiz = [
     "Distractor1": "git create -b new-branch-name",
     "Distractor2": "git change -b new-branch-name",
     "Distractor3": "git create --change -b new-branch-name",
-    "Explanation": "In the command line, you can use git checkout -b new-branch-name to create a new branch and switch to it",
+    "Explanation": "In the command line, you can use git checkout -b new-branch-name to create a new branch and switch to it.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3290,7 +3290,7 @@ const fullQuiz = [
     "Distractor1": "git switch main",
     "Distractor2": "git change main",
     "Distractor3": "git go to main",
-    "Explanation": "In the command line, you can use git checkout main to switch over to the main branch",
+    "Explanation": "In the command line, you can use git checkout main to switch over to the main branch.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3299,7 +3299,7 @@ const fullQuiz = [
     "Distractor1": "git copy",
     "Distractor2": "git copy url",
     "Distractor3": "git clone --copy",
-    "Explanation": "In the command line, you can use git clone followed by the remote url address for the repository you want to clone into your local machine",
+    "Explanation": "In the command line, you can use git clone followed by the remote url address for the repository you want to clone into your local machine.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3308,7 +3308,7 @@ const fullQuiz = [
     "Distractor1": "git copy into",
     "Distractor2": "git merge --docs",
     "Distractor3": "git clone --docs",
-    "Explanation": "In the command line, you can use git merge to integrate changes from one branch to another",
+    "Explanation": "In the command line, you can use git merge to integrate changes from one branch to another.",
     "Link": "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
@@ -3461,7 +3461,7 @@ const fullQuiz = [
     "Distractor1": "def",
     "Distractor2": "func",
     "Distractor3": "fct",
-    "Explanation": "The function keyword is used to define a function in JavaScript",
+    "Explanation": "The function keyword is used to define a function in JavaScript.",
     "Link": "https://www.freecodecamp.org/news/what-is-a-function-javascript-function-examples/"
   },
   {
@@ -3560,7 +3560,7 @@ const fullQuiz = [
     "Distractor1": "setter",
     "Distractor2": "break",
     "Distractor3": "await",
-    "Explanation": "Hoisting is the process moving variables, classes and function to the top of the scope",
+    "Explanation": "Hoisting is the process moving variables, classes and function to the top of the scope.",
     "Link": "https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/"
   },
   {
@@ -3569,7 +3569,7 @@ const fullQuiz = [
     "Distractor1": "typeof",
     "Distractor2": "async",
     "Distractor3": "optional chaining",
-    "Explanation": "Array destructuring is used  to extract array values into new variables",
+    "Explanation": "Array destructuring is used  to extract array values into new variables.",
     "Link": "https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript/"
   },
   {
@@ -3578,7 +3578,7 @@ const fullQuiz = [
     "Distractor1": "array destructuring",
     "Distractor2": "hoisting",
     "Distractor3": "typeof",
-    "Explanation": "Object destructuring is used to extract object values into new variables",
+    "Explanation": "Object destructuring is used to extract object values into new variables.",
     "Link": "https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript/"
   },
   {
@@ -3587,7 +3587,7 @@ const fullQuiz = [
     "Distractor1": "padEnd",
     "Distractor2": "slice",
     "Distractor3": "trim",
-    "Explanation": "The includes method is used to check if one string is found in another",
+    "Explanation": "The includes method is used to check if one string is found in another.",
     "Link": "https://www.freecodecamp.org/news/javascript-string-contains-how-to-use-js-includes/"
   },
   {
@@ -3596,7 +3596,7 @@ const fullQuiz = [
     "Distractor1": "arrow function",
     "Distractor2": "Anonymous function",
     "Distractor3": "function declaration",
-    "Explanation": "A callback function is when a function is used as an argument in another function",
+    "Explanation": "A callback function is when a function is used as an argument in another function.",
     "Link": "https://www.freecodecamp.org/news/javascript-callback-function-plain-english/"
   },
   {
@@ -3605,16 +3605,16 @@ const fullQuiz = [
     "Distractor1": "Data Object Model",
     "Distractor2": "Document Online Model",
     "Distractor3": "Document Object Mainframe",
-    "Explanation": "The DOM stands for Document Object Model",
+    "Explanation": "The DOM stands for Document Object Model.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
     "Question": "What is the DOM in JavaScript?",
-    "Answer": "programming interface to create, change, or remove elements from the document",
-    "Distractor1": "process that moves variables, functions and classes to the top of the scope",
-    "Distractor2": "technique used to extract array values into new variables",
-    "Distractor3": "a function that is used as an argument in another function",
-    "Explanation": "The DOM is a programming interface to create, change, or remove elements from the document",
+    "Answer": "A programming interface to create, change, or remove elements from the document",
+    "Distractor1": "A process that moves variables, functions and classes to the top of the scope",
+    "Distractor2": "A technique used to extract array values into new variables",
+    "Distractor3": "A function that is used as an argument in another function",
+    "Explanation": "The DOM is a programming interface to create, change, or remove elements from the document.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3623,7 +3623,7 @@ const fullQuiz = [
     "Distractor1": "getElementById",
     "Distractor2": "querySelector",
     "Distractor3": "querySelectorAll",
-    "Explanation": "There are a few methods to select elements from the document including querySelector, querySelectorAll and getElementById",
+    "Explanation": "There are a few methods to select elements from the document including querySelector, querySelectorAll and getElementById.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3632,7 +3632,7 @@ const fullQuiz = [
     "Distractor1": "getElementByClass",
     "Distractor2": "getId",
     "Distractor3": "getElementByTagName",
-    "Explanation": "The getElementById method is used to select elements in the document by referencing the id name",
+    "Explanation": "The getElementById method is used to select elements in the document by referencing the id name.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3641,7 +3641,7 @@ const fullQuiz = [
     "Distractor1": "text-content",
     "Distractor2": "content",
     "Distractor3": "getContent",
-    "Explanation": "The textContent property is used to get the text content of a node",
+    "Explanation": "The textContent property is used to get the text content of a node.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3650,7 +3650,7 @@ const fullQuiz = [
     "Distractor1": "textContent",
     "Distractor2": "padEnd",
     "Distractor3": "optional chaining",
-    "Explanation": "The querySelector method is used to find elements that match one of more selectors",
+    "Explanation": "The querySelector method is used to find elements that match one of more selectors.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3659,7 +3659,7 @@ const fullQuiz = [
     "Distractor1": "array destructuring",
     "Distractor2": "includes method",
     "Distractor3": "await",
-    "Explanation": "The querySelectorAll method is used to find all of the elements that match the CSS selector and returns a list of all of those nodes",
+    "Explanation": "The querySelectorAll method is used to find all of the elements that match the CSS selector and returns a list of all of those nodes.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3677,7 +3677,7 @@ const fullQuiz = [
     "Distractor1": "hoisting",
     "Distractor2": "getElementById",
     "Distractor3": "getElementByTagName",
-    "Explanation": "The addEventListener method is used to attach an event to an HTML element like a button",
+    "Explanation": "The addEventListener method is used to attach an event to an HTML element like a button.",
     "Link": "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
@@ -3686,7 +3686,7 @@ const fullQuiz = [
     "Distractor1": "toUpperCase",
     "Distractor2": "toLow",
     "Distractor3": "lower",
-    "Explanation": "The toLowerCase method is used to convert all of the letters in a string to lowercase",
+    "Explanation": "The toLowerCase method is used to convert all of the letters in a string to lowercase.",
     "Link": "https://www.freecodecamp.org/news/javascript-tolowercase-how-to-convert-a-string-to-lowercase-and-uppercase-in-js/"
   },
   {
@@ -3695,7 +3695,7 @@ const fullQuiz = [
     "Distractor1": "toLowerCase",
     "Distractor2": "toUpper",
     "Distractor3": "upper",
-    "Explanation": "The toUpperCase method is used to convert all of the letters in a string to uppercase",
+    "Explanation": "The toUpperCase method is used to convert all of the letters in a string to uppercase.",
     "Link": "https://www.freecodecamp.org/news/javascript-tolowercase-how-to-convert-a-string-to-lowercase-and-uppercase-in-js/"
   },
   {
@@ -3704,7 +3704,7 @@ const fullQuiz = [
     "Distractor1": "splice",
     "Distractor2": "pop",
     "Distractor3": "sort",
-    "Explanation": "The slice method extracts a portion of the array and returns a new array",
+    "Explanation": "The slice method extracts a portion of the array and returns a new array.",
     "Link": "https://www.freecodecamp.org/news/javascript-array-slice-vs-splice-whats-the-difference/"
   },
   {
@@ -3713,7 +3713,7 @@ const fullQuiz = [
     "Distractor1": "slice",
     "Distractor2": "push",
     "Distractor3": "join",
-    "Explanation": "The splice method modifies the array in place and can be used to remove or add elements to the array",
+    "Explanation": "The splice method modifies the array in place and can be used to remove or add elements to the array.",
     "Link": "https://www.freecodecamp.org/news/javascript-array-slice-vs-splice-whats-the-difference/"
   },
   {
@@ -3722,7 +3722,7 @@ const fullQuiz = [
     "Distractor1": "findIndex",
     "Distractor2": "includes",
     "Distractor3": "isArray",
-    "Explanation": "The some method returns true if one of the elements in the callback function passes the test",
+    "Explanation": "The some method returns true if one of the elements in the callback function passes the test.",
     "Link": "https://www.freecodecamp.org/news/javascript-array-some-tutorial-how-to-iterate-through-elements-in-an-array/"
   },
   {
@@ -3731,16 +3731,16 @@ const fullQuiz = [
     "Distractor1": "React",
     "Distractor2": "D3",
     "Distractor3": "Moment",
-    "Explanation": "There are many popular JavaScript libraries including React, D3 and Moment",
+    "Explanation": "There are many popular JavaScript libraries including React, D3 and Moment.",
     "Link": "https://www.freecodecamp.org/news/10-javascript-libraries-you-should-try/"
   },
   {
     "Question": "What does the spread operator do?",
-    "Answer": "used to copy portions of an array or object into another array or object",
-    "Distractor1": "checks whether a certain value is present in another array",
-    "Distractor2": "removes the first element of the array",
-    "Distractor3": "returns an array of an objects keys",
-    "Explanation": "The spread opertaor is to copy portions of an array or object into another array or object",
+    "Answer": "Is used to copy portions of an array or object into another array or object",
+    "Distractor1": "It checks whether a certain value is present in another array",
+    "Distractor2": "It removes the first element of the array",
+    "Distractor3": "It returns an array of an objects keys",
+    "Explanation": "The spread operator  copies portions of an array or object into another array or object.",
     "Link": "https://www.freecodecamp.org/news/how-to-use-es6-javascript-features-in-react/"
   },
   {
@@ -3753,12 +3753,12 @@ const fullQuiz = [
     "Link": "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/"
   },
   {
-    "Question": "Which one of these varaible declarations can never be re-declared within its scope?",
+    "Question": "Which one of these variable declarations can never be re-declared within its scope?",
     "Answer": "const",
     "Distractor1": "let",
     "Distractor2": "var",
     "Distractor3": "concat",
-    "Explanation": "When you declare variables with const, they can never be re-declared within its scope",
+    "Explanation": "When you declare variables with const, they can never be re-declared within its scope.",
     "Link": "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/"
   },
   {
@@ -3767,7 +3767,7 @@ const fullQuiz = [
     "Distractor1": "global, function,map",
     "Distractor2": "reduce,function,block",
     "Distractor3": "const,function,block",
-    "Explanation": "The three types of scope in JavaScript are global, function and block",
+    "Explanation": "The three types of scope in JavaScript are global, function and block.",
     "Link": "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/"
   },
   {
@@ -3839,7 +3839,7 @@ const fullQuiz = [
     "Distractor1": "ksh",
     "Distractor2": "csh",
     "Distractor3": "bash",
-    "Explanation": "There are many different kind of shells available on Linux and macOS computers. A few of them dominate the space are bash, csh, zsh, fish and more",
+    "Explanation": "There are many different kind of shells available on Linux and macOS computers. A few of them dominate the space are bash, csh, zsh, fish and more.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
   },
   {
@@ -3848,7 +3848,7 @@ const fullQuiz = [
     "Distractor1": "PowerSHell",
     "Distractor2": "Emacs",
     "Distractor3": "Fish",
-    "Explanation": "Bash (short for Bourne Again SHell) is the most widely used shell, packaged by default for most Linux distributions",
+    "Explanation": "Bash (short for Bourne Again SHell) is the most widely used shell, packaged by default with most Linux distributions.",
     "Link": "https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/"
   },
   {
@@ -3857,24 +3857,24 @@ const fullQuiz = [
     "Distractor1": "ln",
     "Distractor2": "look",
     "Distractor3": "less",
-    "Explanation": "The ls command (short for list)  is used to list files or directories in Linux and other Unix-based operating systems. It  allows you to list all files or directories in the current directory",
+    "Explanation": "The ls command (short for list)  is used to list files or directories in Linux and other Unix-based operating systems. It  allows you to list all files or directories in the current directory.",
     "Link": "https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/"
   },
   {
     "Question": "What does the command ls -a do?",
-    "Answer": "list  directories and files - including all hidden files",
-    "Distractor1": "list only the hidden files",
-    "Distractor2": "list  files and then delete them",
-    "Distractor3": "show deleted files",
+    "Answer": "It lists  directories and files - including all hidden files",
+    "Distractor1": "It lists only the hidden files",
+    "Distractor2": "It lists  files and then delete them",
+    "Distractor3": "It shows deleted files",
     "Explanation": "The ls -a(short for all) command lists all directories(folders) and files in the current directory. This includes all hidden files. The -a flag(or option) shows hidden files. Hidden files are files that start with a dot (.)",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
   },
   {
     "Question": "What is the grep command used for?",
-    "Answer": "Searching through text in the given file",
-    "Distractor1": "Move the contents of a file to another one",
-    "Distractor2": "Rename the file",
-    "Distractor3": "Delete all text in a file",
+    "Answer": "For searching through text in the given file",
+    "Distractor1": "For moving the contents of a file to another one",
+    "Distractor2": "For  renaming the file",
+    "Distractor3": "For deleting all text in a file",
     "Explanation": "grep stands for Globally Search For Regular Expression and Print out. It is a command line tool used in UNIX and Linux systems to search a specified pattern in a file or group of files.",
     "Link": "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/"
   },
@@ -3889,7 +3889,7 @@ const fullQuiz = [
   },
   {
     "Question": "Which of the following is NOT a Linux distribution?",
-    "Answer": "multics",
+    "Answer": "Multics",
     "Distractor1": "CentOS",
     "Distractor2": "Debian",
     "Distractor3": "RHEL",
@@ -3925,10 +3925,10 @@ const fullQuiz = [
   },
   {
     "Question": "Which flag(or option) is used with the ln command to create a soft link in Linux?",
-    "Answer": "#NAME?",
-    "Distractor1": "#NAME?",
-    "Distractor2": "#NAME?",
-    "Distractor3": "#NAME?",
+    "Answer": "#-s",
+    "Distractor1": "-l",
+    "Distractor2": "-a",
+    "Distractor3": "-la",
     "Explanation": "You create soft links using the -s option of ln. For example,ln -s <original> <link>",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
   },
@@ -3938,7 +3938,7 @@ const fullQuiz = [
     "Distractor1": "mkdir",
     "Distractor2": "rm",
     "Distractor3": "touch",
-    "Explanation": "You  delete a folder using rmdir. That folder must be empty",
+    "Explanation": "You  delete a folder using rmdir. That folder must be empty.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   },
   {
@@ -3947,7 +3947,7 @@ const fullQuiz = [
     "Distractor1": "rmdir",
     "Distractor2": "rm",
     "Distractor3": "ls",
-    "Explanation": "To delete folders with files in them, you use the more generic rm command which deletes files . The -rf option is used to recursively and forcefully delete all files contained in the directory.",
+    "Explanation": "To delete folders with files in them, you use the more generic rm command which deletes files. The -rf option is used to recursively and forcefully delete all files contained in the directory.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   },
   {
@@ -3956,7 +3956,7 @@ const fullQuiz = [
     "Distractor1": "cat",
     "Distractor2": "echo",
     "Distractor3": "pwd",
-    "Explanation": "whoami  print sthe user name currently logged in to the terminal session",
+    "Explanation": "whoami  prints the user name currently logged in to the terminal session.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-whoami-command"
   },
   {
@@ -3965,7 +3965,7 @@ const fullQuiz = [
     "Distractor1": "echo",
     "Distractor2": "man",
     "Distractor3": "find",
-    "Explanation": "Calling uname without any options will return the Operating System codename. The m option shows the hardware name and the p option prints the processor architecture name ",
+    "Explanation": "Calling uname without any options will return the Operating System codename. The m option shows the hardware name and the p option prints the processor architecture name. ",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
@@ -3974,7 +3974,7 @@ const fullQuiz = [
     "Distractor1": "cat",
     "Distractor2": "cd",
     "Distractor3": "ls",
-    "Explanation": "pwd(short for print working directory) prints the current folder path and is helpful when you're lost in the terminal",
+    "Explanation": "pwd(short for print working directory) prints the current folder path and is helpful when you're lost in the terminal.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command"
   },
   {
@@ -3992,7 +3992,7 @@ const fullQuiz = [
     "Distractor1": "rmdir",
     "Distractor2": "touch",
     "Distractor3": "ls",
-    "Explanation": "The rm (short for remove) command when used without options  delete sfiles",
+    "Explanation": "The rm (short for remove) command when used without options  deletes files.",
     "Link": "https://www.freecodecamp.org/news/remove-a-directory-in-linux-how-to-delete-directories-and-contents-from-the-command-line/"
   },
   {
@@ -4010,7 +4010,7 @@ const fullQuiz = [
     "Distractor1": ":wq",
     "Distractor2": ":i",
     "Distractor3": ":r",
-    "Explanation": "If you made some changes and would rather discard them, type :q! to forcefully quit, and press Enter/return",
+    "Explanation": "If you made some changes and would rather discard them, type :q! to forcefully quit, and press Enter/return.",
     "Link": "https://www.freecodecamp.org/news/how-to-exit-vim/"
   },
   {
@@ -4019,7 +4019,7 @@ const fullQuiz = [
     "Distractor1": ":q!",
     "Distractor2": ":h",
     "Distractor3": ":j",
-    "Explanation": "If you made some changes and would like to keep them, type :wq(short for write and quit) and press Enter/return",
+    "Explanation": "If you made some changes and would like to keep them, type :wq(short for write and quit) and press Enter/return.",
     "Link": "https://www.freecodecamp.org/news/how-to-exit-vim/"
   },
   {
@@ -4028,7 +4028,7 @@ const fullQuiz = [
     "Distractor1": "echo",
     "Distractor2": "ls",
     "Distractor3": "pwd",
-    "Explanation": "The man command (short for manual),provides a manual page. The page gives you a very quick overview of a command, with some handy examples of common usage scenarios",
+    "Explanation": "The man command (short for manual),provides a manual page. The page gives you a very quick overview of a command, with some handy examples of common usage scenarios.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command"
   },
   {
@@ -4037,7 +4037,7 @@ const fullQuiz = [
     "Distractor1": "wc",
     "Distractor2": "wc -w",
     "Distractor3": "wc -c ",
-    "Explanation": "To count just the lines inside a file you use the wc command with the -l option",
+    "Explanation": "To count just the lines inside a file you use the wc command with the -l option.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
@@ -4046,7 +4046,7 @@ const fullQuiz = [
     "Distractor1": "wc -l",
     "Distractor2": "wc -c",
     "Distractor3": "wc   ",
-    "Explanation": "To count just the words inside a file you use the wc command with the -w option",
+    "Explanation": "To count just the words inside a file you use the wc command with the -w option.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
@@ -4055,7 +4055,7 @@ const fullQuiz = [
     "Distractor1": "wc -w",
     "Distractor2": "wc -l",
     "Distractor3": "wc",
-    "Explanation": "To count just the number of bytes in a file you use the wc command with the -c option",
+    "Explanation": "To count just the number of bytes in a file you use the wc command with the -c option.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
@@ -4073,7 +4073,7 @@ const fullQuiz = [
     "Distractor1": "esc",
     "Distractor2": ":q!",
     "Distractor3": ":wq",
-    "Explanation": "The i command( for ’insert’), immediately switches vim to insert mode. Once in insert mode, typing inserts characters just like a regular text editor",
+    "Explanation": "The i command( for 'insert'), immediately switches vim to insert mode. Once in insert mode, typing inserts characters just like a regular text editor.",
     "Link": "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   },
   {
@@ -4096,20 +4096,20 @@ const fullQuiz = [
   },
   {
     "Question": "What does .. mean in a Linux directory path?",
-    "Answer": "Refers to the parent folder",
-    "Distractor1": "Refers to the current folder",
-    "Distractor2": "Refers to the home directory",
-    "Distractor3": "Refers to the the root of the file structure",
-    "Explanation": "The .. is a special path  and means one level up. It refers to the the parent directory",
+    "Answer": "It refers to the parent folder",
+    "Distractor1": "It refers to the current folder",
+    "Distractor2": "It refers to the home directory",
+    "Distractor3": "It refers to the the root of the file structure",
+    "Explanation": " .. is a special path  and means one level up. It refers to the the parent directory.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     "Question": "What does . mean in a Linux directory path?",
-    "Answer": "Refers to the current folder",
-    "Distractor1": "Refers to the parent folder",
-    "Distractor2": "Refers to the root of the file structure",
-    "Distractor3": "Refers to the home directory",
-    "Explanation": "The . is a special path indicator. It indicates the current folder.",
+    "Answer": "It refers to the current folder",
+    "Distractor1": "It refers to the parent folder",
+    "Distractor2": "It refers to the root of the file structure",
+    "Distractor3": "It refers to the home directory",
+    "Explanation": " . is a special path indicator. It indicates the current folder.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4118,7 +4118,7 @@ const fullQuiz = [
     "Distractor1": "mkdir",
     "Distractor2": "makedir",
     "Distractor3": "makedir -p",
-    "Explanation": "You create multiple nested folders by adding the -p option to the mkdir command",
+    "Explanation": "You create multiple nested folders by adding the -p option to the mkdir command.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4127,7 +4127,7 @@ const fullQuiz = [
     "Distractor1": "touch",
     "Distractor2": "mkdir",
     "Distractor3": "rm",
-    "Explanation": "You rename files and folders by using the mv(short for move)  command",
+    "Explanation": "You rename files and folders by using the mv(short for move)  command.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4136,7 +4136,7 @@ const fullQuiz = [
     "Distractor1": "rm ",
     "Distractor2": "rmdir",
     "Distractor3": "touch ",
-    "Explanation": "You copy a file using the cp command",
+    "Explanation": "You copy a file using the cp command.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4145,7 +4145,7 @@ const fullQuiz = [
     "Distractor1": "cp",
     "Distractor2": "mv",
     "Distractor3": "mkdir",
-    "Explanation": "To copy folders you need to add the -r option to recursively copy the whole folder contents",
+    "Explanation": "To copy folders you need to add the -r option to recursively copy the whole folder contents.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4163,7 +4163,7 @@ const fullQuiz = [
     "Distractor1": "wc",
     "Distractor2": "cat",
     "Distractor3": "tail",
-    "Explanation": "The sort command helps you sort a file's contents in a particular order(either numerical or alphabetical)",
+    "Explanation": "The sort command helps you sort a file's contents in a particular order(either numerical or alphabetical).",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4172,7 +4172,7 @@ const fullQuiz = [
     "Distractor1": "sort",
     "Distractor2": "rm",
     "Distractor3": "rmdir",
-    "Explanation": "The sort command removes duplicate lines in a file,by default",
+    "Explanation": "The uniq command removes duplicate lines in a file,by default",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4181,7 +4181,7 @@ const fullQuiz = [
     "Distractor1": "man",
     "Distractor2": "print",
     "Distractor3": "ls",
-    "Explanation": "The echo command prints to the output the argument passed to it. For example, the command echo 'hello world' will print hello world to the terminal",
+    "Explanation": "The echo command prints to the output the argument passed to it. For example, the command echo 'hello world' will print hello world to the terminal.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4190,7 +4190,7 @@ const fullQuiz = [
     "Distractor1": "uname",
     "Distractor2": "whoami",
     "Distractor3": "echo",
-    "Explanation": "Every file/directory in an Operating System like Linux or macOS (and every UNIX system in general) has an owner. The owner of a file can do everything with it. It can decide the fate of that file. The owner (and the root user) can change the owner to another user, too, using the chown command",
+    "Explanation": "Every file/directory in an Operating System like Linux or macOS (and every UNIX system in general) has an owner. The owner of a file can do everything with it. It can decide the fate of that file. The owner (and the root user) can change the owner to another user, too, using the chown command.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4199,7 +4199,7 @@ const fullQuiz = [
     "Distractor1": "wc",
     "Distractor2": "wc -c",
     "Distractor3": "man",
-    "Explanation": "The du command will calculate the size of a directory as a whole",
+    "Explanation": "The du command will calculate the size of a directory as a whole.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4217,7 +4217,7 @@ const fullQuiz = [
     "Distractor1": "which",
     "Distractor2": "uname",
     "Distractor3": "chown",
-    "Explanation": "The ping command pings a specific network host, on the local network or on the Internet. It verifies IP level connectivity to another computer",
+    "Explanation": "The ping command pings a specific network host, on the local network or on the Internet. It verifies IP level connectivity to another computer.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4226,7 +4226,7 @@ const fullQuiz = [
     "Distractor1": "command-D",
     "Distractor2": "ctrl-D",
     "Distractor3": "exit",
-    "Explanation": "The ping command, keeps sending multiple requests every second, by default. It will keep running until you stop it with ctrl-C",
+    "Explanation": "The ping command, keeps sending multiple requests every second, by default. It will keep running until you stop it with ctrl-C.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4235,7 +4235,7 @@ const fullQuiz = [
     "Distractor1": "GeNeral Unix",
     "Distractor2": "Great New Unix",
     "Distractor3": "Greatly Needed Unix",
-    "Explanation": "GNU is a recursive acronym for ‘GNU's not UNIX’",
+    "Explanation": "GNU is a recursive acronym for ‘GNU's not UNIX’.",
     "Link": "https://forum.freecodecamp.org/t/the-origins-of-linux-and-the-free-software-movement-a-brief-history/19527"
   },
   {
@@ -4244,7 +4244,7 @@ const fullQuiz = [
     "Distractor1": "exit",
     "Distractor2": "delete",
     "Distractor3": "rm",
-    "Explanation": "The clear  command removes all previous commands that were run in the current terminal. The screen will clear and you will just see the prompt at the top",
+    "Explanation": "The clear  command removes all previous commands that were run in the current terminal. The screen will clear and you will just see the prompt at the top.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4253,7 +4253,7 @@ const fullQuiz = [
     "Distractor1": "memory",
     "Distractor2": "review",
     "Distractor3": "man",
-    "Explanation": "Every time you run a command, it's memorized in the history. You can display all the history using the history command",
+    "Explanation": "Every time you run a command, it's memorized in the history. You can display all the history using the history command.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -4262,7 +4262,7 @@ const fullQuiz = [
     "Distractor1": "?",
     "Distractor2": "[]",
     "Distractor3": "!",
-    "Explanation": "You can use the wildcard (*) to select all files in a directory. For example the ls * command would list ALL files in the current directory",
+    "Explanation": "You can use the wildcard (*) to select all files in a directory. For example the ls * command would list ALL files in the current directory.",
     "Link": "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/"
   },
   {
@@ -4271,7 +4271,7 @@ const fullQuiz = [
     "Distractor1": "uname -r",
     "Distractor2": "uname -k",
     "Distractor3": "uname -u",
-    "Explanation": "The s option  of the uname command prints the Operating System name",
+    "Explanation": "The s option  of the uname command prints the Operating System name.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
@@ -4280,7 +4280,7 @@ const fullQuiz = [
     "Distractor1": "uname -s",
     "Distractor2": "uname -u",
     "Distractor3": "uname -k",
-    "Explanation": "The r  option of the uname command,prints the release",
+    "Explanation": "The r  option of the uname command,prints the release.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
@@ -4289,7 +4289,7 @@ const fullQuiz = [
     "Distractor1": "tar",
     "Distractor2": "chown",
     "Distractor3": "diff",
-    "Explanation": "The gzip command is used to compress a file to save space",
+    "Explanation": "The gzip command is used to compress a file to save space.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-gzip-command"
   },
   {
@@ -4298,7 +4298,7 @@ const fullQuiz = [
     "Distractor1": "gzip",
     "Distractor2": "gunzip",
     "Distractor3": "diff",
-    "Explanation": "The tar command is used to create an archive, grouping multiple files in a single file,without compressing them",
+    "Explanation": "The tar command is used to create an archive, grouping multiple files in a single file,without compressing them.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-tar-command"
   },
   {
@@ -4307,7 +4307,7 @@ const fullQuiz = [
     "Distractor1": "tar",
     "Distractor2": "uname",
     "Distractor3": "gzip",
-    "Explanation": "Curl is a command-line tool that allows us to do HTTP requests from shell",
+    "Explanation": "Curl is a command-line tool that allows us to do HTTP requests from shell.",
     "Link": "https://www.freecodecamp.org/news/how-to-start-using-curl-and-why-a-hands-on-introduction-ea1c913caaaa/"
   },
   {
@@ -4316,7 +4316,7 @@ const fullQuiz = [
     "Distractor1": "The shell",
     "Distractor2": "The commands",
     "Distractor3": "The terminal window",
-    "Explanation": "The main component of linux and its core,is the kernel. It's the interface between the Operating System and all the hardware components and it manages all the processes.",
+    "Explanation": "The main component of Linux and its core,is the kernel. It's the interface between the Operating System and all the hardware components and it manages all the processes.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
   },
   {
@@ -4325,7 +4325,7 @@ const fullQuiz = [
     "Distractor1": "Bill Gates",
     "Distractor2": "Mark Zuckerberg",
     "Distractor3": "Sergey Brin",
-    "Explanation": "Linus Torvalds created Linux as a college student in Finland,in 1991",
+    "Explanation": "Linus Torvalds created Linux as a college student in Finland,in 1991.",
     "Link": "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
@@ -4334,7 +4334,7 @@ const fullQuiz = [
     "Distractor1": "Tail",
     "Distractor2": "Ping",
     "Distractor3": "Flux",
-    "Explanation": "Linux’s mascot is a penguin named “Tux”",
+    "Explanation": "Linux’s mascot is a penguin named “Tux”.",
     "Link": "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
@@ -4343,7 +4343,7 @@ const fullQuiz = [
     "Distractor1": "1990",
     "Distractor2": "1989",
     "Distractor3": "1992",
-    "Explanation": "Linus Torvalds created Linux as a college student in Finland,in 1991",
+    "Explanation": "Linus Torvalds created Linux as a college student in Finland,in 1991.",
     "Link": "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
@@ -4352,7 +4352,7 @@ const fullQuiz = [
     "Distractor1": "create directory",
     "Distractor2": "created directory",
     "Distractor3": "changed directory",
-    "Explanation": "cd stands for change directory",
+    "Explanation": "cd stands for change directory.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command"
   },
   {
@@ -4370,7 +4370,7 @@ const fullQuiz = [
     "Distractor1": "/",
     "Distractor2": "",
     "Distractor3": "[]",
-    "Explanation": "With the pipe symbol (|), the output of one command serves as the input to another",
+    "Explanation": "With the pipe symbol (|), the output of one command serves as the input to another.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command"
   },
   {
@@ -4482,7 +4482,7 @@ const fullQuiz = [
     "Link": "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-hello-world-program-in-python"
   },
   {
-    "Question": "Which one of these options is {b}not{/b} a Python keyword?",
+    "Question": "Which one of these options is NOT a Python keyword?",
     "Answer": "forward",
     "Distractor1": "if",
     "Distractor2": "return",
@@ -4631,7 +4631,7 @@ const fullQuiz = [
     "Distractor1": "!",
     "Distractor2": "//",
     "Distractor3": "/* */",
-    "Explanation": "Everything after the # symbol is considered a comment and therefore is not executed",
+    "Explanation": "Everything after the # symbol is considered a comment and therefore is not executed.",
     "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/#comment-"
   },
   {
@@ -4640,7 +4640,7 @@ const fullQuiz = [
     "Distractor1": " =+",
     "Distractor2": " +",
     "Distractor3": " ==",
-    "Explanation": "The += operator lets you add two values together and store the result of the calculation in a variable. It is shorter than using + and then = ,separately",
+    "Explanation": "The += operator lets you add two values together and store the result of the calculation in a variable. It is shorter than using + and then = ,separately.",
     "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/"
   },
   {
@@ -4649,7 +4649,7 @@ const fullQuiz = [
     "Distractor1": "in()",
     "Distractor2": "user()",
     "Distractor3": "receive()",
-    "Explanation": "The input() function is used to take input from a user",
+    "Explanation": "The input() function is used to take input from a user.",
     "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/"
   },
   {
@@ -4658,7 +4658,7 @@ const fullQuiz = [
     "Distractor1": "Using the int() function",
     "Distractor2": "Using the string() function",
     "Distractor3": "Using the integer() function",
-    "Explanation": "The str() function  converts any type into a string type",
+    "Explanation": "The str() function  converts any type into a string type.",
     "Link": "https://www.freecodecamp.org/news/learn-typecasting-in-python-in-five-minutes-90d42c439743/"
   },
   {
@@ -5135,7 +5135,7 @@ const fullQuiz = [
     "Distractor1": "MySQL",
     "Distractor2": "PostgreSQL",
     "Distractor3": "Microsoft SQL Server",
-    "Explanation": "Popular database systems that use SQL syntax are MySQL, PostgreSQL, Microsoft SQL Server, and SQLite. (Note(Oliver): it seems odd list rdbms when we're talking about mongo)",
+    "Explanation": "Popular database systems that use SQL syntax are MySQL, PostgreSQL, Microsoft SQL Server, and SQLite. (Note(Oliver): it seems odd list rdbms when we're talking about mongo).",
     "Link": "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
   },
   {
@@ -5144,7 +5144,7 @@ const fullQuiz = [
     "Distractor1": "key-value",
     "Distractor2": "document",
     "Distractor3": "wide-column or tabular",
-    "Explanation": "NoSQL supports a variety of data models including  'key-value', 'document', 'wide-column or tabular' formats",
+    "Explanation": "NoSQL supports a variety of data models including  'key-value', 'document', 'wide-column or tabular' formats.",
     "Link": "https://www.freecodecamp.org/news/learn-nosql-in-3-hours/"
   },
   {
@@ -5477,7 +5477,7 @@ const fullQuiz = [
     "Distractor1": "A programming paradigm. ",
     "Distractor2": "A programming structure that repeats a block of code a given number of times",
     "Distractor3": "This concept is not related to programming at all.",
-    "Explanation": "A {b}bug{/b} is an error in a computer program that causes it to generate an incorrect or unexpected result or output. The process of finding and fixing bugs is known as {b}debugging{/b}.",
+    "Explanation": "A {b}bug{/b} is an error in a computer program that causes it to generate an incorrect or unexpected result or output. The process of finding and fixing bugs is known as debugging.",
     "Link": "https://en.wikipedia.org/wiki/Software_bug"
   },
   {
@@ -5571,12 +5571,12 @@ const fullQuiz = [
     "Link": "https://en.wikipedia.org/wiki/Syntax_(programming_languages)"
   },
   {
-    "Question": "The set of instructions that specifies a computation in known as...",
+    "Question": "The set of instructions that specifies a computation is known as...",
     "Answer": "Program",
     "Distractor1": "Syntax",
     "Distractor2": "Recursion",
     "Distractor3": "API",
-    "Explanation": "The set of instructions that specifies a computation in known as...",
+    "Explanation": "The set of instructions that specifies a computation is known as a program.",
     "Link": "https://www.freecodecamp.org/news/what-is-programming/"
   },
   {
