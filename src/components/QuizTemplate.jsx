@@ -72,7 +72,7 @@ const QuizTemplate = ({ home, quiz }) => {
           <h2>Results</h2>
           <h3>{points}/{totalPoints}</h3>
           <p>I hope you had fun <i class="far fa-smile" /></p>
-          <p>Wanna learn how to code? Play the <a href="/">RPG game</a></p>
+          <p>Wanna learn how to code? Download for free the <a href="/">RPG game</a></p>
         </> :
         <>
           <h2>{currQuestion.Question}</h2>
