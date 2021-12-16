@@ -12,10 +12,10 @@ const WelcomePage = ({ start }) => {
               <img src={rpgMenu} style={imgWidth} alt="freeCodeCamp RPG game" />
             </div>
             <div className="carousel-item">
-              <img src="..." className="d-block w-100" alt="..." />
+              <img src="..." style={imgWidth} alt="freeCodeCamp RPG game" />
             </div>
             <div className="carousel-item">
-              <img src="..." className="d-block w-100" alt="..." />
+              <img src="..." style={imgWidth} alt="freeCodeCamp RPG game" />
             </div>
           </div>
         </div>
