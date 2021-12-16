@@ -17,7 +17,7 @@ const WelcomePage = ({ start }) => {
             <h2 className="featurette-heading">Want to test your  programming knowledge?</h2>
             <p className="lead">Brush up on HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and general Computer Science concepts, with <span style={{ fontWeight: '700' }}>600+</span> questions.</p>
             <p className="lead">Take our quiz and have fun learning!</p>
-            <button className="btn btn-primary btn-xl rounded-pill" onClick={start}>Start Quiz</button>
+            <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={start}>Start Quiz</button>
           </div>
           <div className="col-md-5">
             <img src={homeImg1} className="img-fluid rounded" style={imgWidth} alt="female software engineers" />
