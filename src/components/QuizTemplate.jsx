@@ -75,7 +75,7 @@ const QuizTemplate = ({ home, quiz }) => {
           <p>I hope you had fun <i class="far fa-smile" /></p>
           <p>Wanna learn how to code? Download the free <a href="/">RPG game</a></p>
         </> :
-        <>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <h2>{currQuestion.Question}</h2>
           <h3>Question {questionNumber}/{totalQuestions}</h3>
           <h3>Points:{points}</h3>
@@ -95,7 +95,7 @@ const QuizTemplate = ({ home, quiz }) => {
               ))}
             </div>
           }
-        </>
+        </div>
       }
     </>
   )
