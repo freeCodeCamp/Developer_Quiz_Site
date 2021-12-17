@@ -18,7 +18,7 @@ const QuizTemplate = ({ home, quiz }) => {
   const shuffle = (array) => {
     let currentIndex = array.length, randomIndex;
 
-    while (currentIndex !== 0) {
+    while (currentIndex > 0) {
 
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
@@ -38,7 +38,7 @@ const QuizTemplate = ({ home, quiz }) => {
 
 
   const nextQuestion = () => {
-    if (questionNumber === quiz.length) {
+    if (questionNumber >= quiz.length) {
       setIsResults(true)
       return
     }
