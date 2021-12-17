@@ -46,7 +46,7 @@ const fullQuiz = [
   },
   {
     "Question": "What does DNS stand for?",
-    "Answer": "Domain Name system",
+    "Answer": "Domain Name System",
     "Distractor1": "Dynamic Name System",
     "Distractor2": "Domain Naming System",
     "Distractor3": "Domain Network System",

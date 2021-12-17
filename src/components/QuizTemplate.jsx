@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import QuizModal from './QuizModal';
 
 const QuizTemplate = ({ home, quiz }) => {
   const [questionNumber, setQuestionNumber] = useState(1);
@@ -9,11 +9,15 @@ const QuizTemplate = ({ home, quiz }) => {
   const [displayExplanation, setDisplayExplanation] = useState('');
   const [showReference, setShowReference] = useState('');
   const [chooseAnswer, setChooseAnswer] = useState(false);
+  const [show, setShow] = useState(false);
   const choicesArr = [];
   let currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
 
+
+  //function for toggling the react-bootstrap modal
+  const handleShow = () => setShow(true);
 
   //fisher yates shuffle
   const shuffle = (array) => {
@@ -35,7 +39,7 @@ const QuizTemplate = ({ home, quiz }) => {
   quiz.forEach(obj => {
     let arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
     choicesArr.push(shuffle(arr))
-  })
+  });
 
 
   const nextQuestion = () => {
@@ -52,15 +56,26 @@ const QuizTemplate = ({ home, quiz }) => {
     setChooseAnswer(true)
     let userAnswer = e.target.value;
     if (userAnswer !== currQuestion.Answer) {
-      setMessage(`Hmmm, not quite!`);
+      setMessage(`Hmmm, not quite`);
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
+      handleShow()
     } else {
       setPoints(curr => curr + 1)
       setMessage(`Awesome, that's correct!`)
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
+      handleShow()
     }
+  }
+
+  const modalProps = {
+    message,
+    points,
+    displayExplanation,
+    showReference,
+    show,
+    nextQuestion
   }
 
   return (
@@ -81,13 +96,7 @@ const QuizTemplate = ({ home, quiz }) => {
           <h3>Points:{points}</h3>
 
           {chooseAnswer ?
-            <div>
-              <p>{message}</p>
-              <p>{displayExplanation}</p>
-              <a href={showReference} target="_blank" rel="noopener noreferrer">Learn more by reading this helpful article</a>
-              <p>Wanna learn how to code? Play the <a target="_blank" href="/">Learn to Code RPG game</a></p>
-              <button style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px' }} onClick={nextQuestion}>Next</button>
-            </div>
+            <QuizModal {...modalProps} />
             :
             <div className='w-50' style={{ display: 'flex', flexDirection: 'column', margin: '20px' }}>
               {choicesArr[questionNumber - 1].map((btn, index) => (
@@ -101,6 +110,8 @@ const QuizTemplate = ({ home, quiz }) => {
   )
 }
 export default QuizTemplate;
+
+
 
 
 
