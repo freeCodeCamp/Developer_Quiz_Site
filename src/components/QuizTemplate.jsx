@@ -12,13 +12,13 @@ const QuizTemplate = ({ home, quiz }) => {
   const choicesArr = [];
   let currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
-  const totalPoints = 5 * quiz.length;
+  const totalPoints = quiz.length;
 
   //fisher yates shuffle
   const shuffle = (array) => {
     let currentIndex = array.length, randomIndex;
 
-    while (currentIndex != 0) {
+    while (currentIndex !== 0) {
 
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex--;
@@ -55,7 +55,7 @@ const QuizTemplate = ({ home, quiz }) => {
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
     } else {
-      setPoints(curr => curr + 5)
+      setPoints(curr => curr + 1)
       setMessage(`Awesome, that's correct!`)
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
@@ -65,18 +65,19 @@ const QuizTemplate = ({ home, quiz }) => {
   return (
     <>
 
-      <button onClick={home}>Return to Home</button>
+      <button onClick={home}>Return Home</button>
       <a href='/' target="_blank">Play Learn to Code RPG game</a>
       {isResults ?
         <>
           <h2>Results</h2>
           <h3>{points}/{totalPoints}</h3>
           <p>I hope you had fun <i class="far fa-smile" /></p>
-          <p>Wanna learn how to code? Download for free the <a href="/">RPG game</a></p>
+          <p>Wanna learn how to code? Download the free <a href="/">RPG game</a></p>
         </> :
         <>
           <h2>{currQuestion.Question}</h2>
           <h3>Question {questionNumber}/{totalQuestions}</h3>
+          <h3>Points:{points}</h3>
 
           {chooseAnswer ?
             <div>
