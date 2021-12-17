@@ -14,6 +14,7 @@ const QuizTemplate = ({ home, quiz }) => {
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
 
+
   //fisher yates shuffle
   const shuffle = (array) => {
     let currentIndex = array.length, randomIndex;
@@ -86,7 +87,8 @@ const QuizTemplate = ({ home, quiz }) => {
               <a href={showReference} target="_blank" rel="noopener noreferrer">Learn more by reading this helpful article</a>
               <p>Wanna learn how to code? Play the <a target="_blank" href="/">Learn to Code RPG game</a></p>
               <button style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px' }} onClick={nextQuestion}>Next</button>
-            </div> :
+            </div>
+            :
             <div className='w-50' style={{ display: 'flex', flexDirection: 'column', margin: '20px' }}>
               {choicesArr[questionNumber - 1].map((btn, index) => (
                 <button value={btn} onClick={(e) => checkAnswer(e, "value")} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} key={index}>{btn}</button>
