@@ -468,7 +468,7 @@ const fullQuiz = [
     "Link": "https://www.freecodecamp.org/news/exabyte-definition/"
   },
   {
-    "Question": "Which one of these options is {b}not{/b} a Python keyword?",
+    "Question": "Which one of these options is not a Python keyword?",
     "Answer": "forward",
     "Distractor1": "if",
     "Distractor2": "return",
@@ -1391,7 +1391,7 @@ const fullQuiz = [
     "Distractor1": "An Internet Protocol",
     "Distractor2": "HTML syntax",
     "Distractor3": "A secret password",
-    "Explanation": "RGB is an acronym that stands for {b}red{/b} {b}green{/b} {b}blue{/b}. It expresses colors in terms of the amount of red, green, and blue they are made up of and uses a human counting system with integers ranging from 0-255 or a percentage ranging from (0% - 100%).",
+    "Explanation": "RGB is an acronym that stands for Red Green Blue. It expresses colors in terms of the amount of red, green, and blue they are made up of and uses a human counting system with integers ranging from 0-255 or a percentage ranging from (0% - 100%).",
     "Link": "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/"
   },
   {
@@ -2192,7 +2192,7 @@ const fullQuiz = [
     "Distractor1": "Is responsible for encrypting HTTP connections",
     "Distractor2": "Provides the web client with web files during client-server communication",
     "Distractor3": "Breaks down web information into smaller chunks, or packets",
-    "Explanation": "The Domain Name System (DNS) maps human-readable domain names to IP addresses (unique identifiers). For example, DNS translates and maps the domain freeCodecamp.org to the IP address 104.26.2.33.",
+    "Explanation": "The Domain Name System (DNS) maps human-readable domain names to IP addresses (unique identifiers). For example, DNS translates and maps the domain freeCodeCamp.org to the IP address 104.26.2.33.",
     "Link": "https://www.freecodecamp.org/news/what-is-dns/"
   },
   {
@@ -2822,7 +2822,7 @@ const fullQuiz = [
     "Distractor1": "Red, gray, and black ",
     "Distractor2": "Red, green, and black",
     "Distractor3": "Red, gray, and blue",
-    "Explanation": "RGB is an acronym that stands for {b}red{/b} {b}green{/b} {b}blue{/b}",
+    "Explanation": "RGB is an acronym that stands for Red Green Blue",
     "Link": "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/"
   },
   {
@@ -4239,7 +4239,7 @@ const fullQuiz = [
     "Link": "https://devdocs.io/html/element/area"
   },
   {
-    "Question": "What chat tool does freeCodecamp use for its main self-hosted chat server?",
+    "Question": "What chat tool does freeCodeCamp use for its main self-hosted chat server?",
     "Answer": "RocketChat",
     "Distractor1": "Slack",
     "Distractor2": "Discord",
@@ -5126,7 +5126,7 @@ const fullQuiz = [
     "Distractor1": "They create links to other webpages",
     "Distractor2": "They add interactivity to a static webpage",
     "Distractor3": "They change the font of text",
-    "Explanation": "{b}CSS media queries{/b} allow you to create responsive websites across all screen sizes, ranging from desktop to mobile",
+    "Explanation": "CSS media queries allow you to create responsive websites across all screen sizes, ranging from desktop to mobile",
     "Link": "https://www.freecodecamp.org/news/learn-css-media-queries-by-building-projects/"
   },
   {
@@ -5423,7 +5423,7 @@ const fullQuiz = [
     "Distractor1": "A programming paradigm. ",
     "Distractor2": "A programming structure that repeats a block of code a given number of times",
     "Distractor3": "This concept is not related to programming at all.",
-    "Explanation": "A {b}bug{/b} is an error in a computer program that causes it to generate an incorrect or unexpected result or output. The process of finding and fixing bugs is known as {b}debugging{/b}.",
+    "Explanation": "A bug is an error in a computer program that causes it to generate an incorrect or unexpected result or output. The process of finding and fixing bugs is known as debugging.",
     "Link": "https://en.wikipedia.org/wiki/Software_bug"
   },
   {
