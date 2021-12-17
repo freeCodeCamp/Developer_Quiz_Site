@@ -18,7 +18,7 @@ const QuizModal = ({ message, points, displayExplanation, showReference, nextQue
           <p>Wanna learn how to code? Play the <a target="_blank" href="/">Learn to Code RPG game</a></p>
         </Modal.Body>
         <Modal.Footer>
-          <button variant="primary" onClick={nextQuestion}> Next Question </button>
+          <button className="btn btn-primary" onClick={nextQuestion}> Next Question </button>
         </Modal.Footer>
       </Modal>
     </>
