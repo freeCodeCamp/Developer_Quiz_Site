@@ -86,7 +86,7 @@ const QuizTemplate = ({ home, quiz }) => {
               <p>Wanna learn how to code? Play the <a target="_blank" href="/">Learn to Code RPG game</a></p>
               <button style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px' }} onClick={nextQuestion}>Next</button>
             </div> :
-            <div style={{ display: 'flex', flexDirection: 'column', width: '200px', margin: '20px' }}>
+            <div className='w-50' style={{ display: 'flex', flexDirection: 'column', margin: '20px' }}>
               {choicesArr[questionNumber - 1].map((btn, index) => (
                 <button value={btn} onClick={(e) => checkAnswer(e, "value")} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} key={index}>{btn}</button>
               ))}
