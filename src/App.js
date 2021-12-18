@@ -14,7 +14,7 @@ const App = () => {
         <WelcomePage start={toggleHomePage} /> :
         <>
           <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={toggleHomePage}>Return Home</button>
-          <SelectQuiz home={toggleHomePage} />
+          <SelectQuiz />
         </>
 
       }
