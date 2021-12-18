@@ -1,6 +1,5 @@
 import QuizTemplate from './components/QuizTemplate';
 import WelcomePage from './components/WelcomePage';
-import fullQuiz from './data/full-quiz';
 import { Routes, Route } from "react-router-dom";
 
 const App = () => {
@@ -8,7 +7,7 @@ const App = () => {
     <>
       <Routes>
         <Route path="/" element={<WelcomePage />} />
-        <Route path="/misc" element={<QuizTemplate quiz={fullQuiz} />} />
+        <Route path="/quizzes" element={<QuizTemplate />} />
       </Routes>
     </>
   );
