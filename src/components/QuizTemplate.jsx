@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import QuizModal from './QuizModal';
-import HomeBtn from './HomeBtn';
 import Results from './Results';
 import shuffle from '../shuffle-arr';
 
-const QuizTemplate = ({ quiz }) => {
+const QuizTemplate = ({ quiz, home }) => {
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
@@ -17,7 +16,6 @@ const QuizTemplate = ({ quiz }) => {
   let currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
-
 
 
   //function for toggling the react-bootstrap modal
@@ -73,7 +71,8 @@ const QuizTemplate = ({ quiz }) => {
 
   return (
     <>
-      <HomeBtn />
+      <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={home}>Return Home</button>
+
       {isResults ?
         <Results {...resultsProps} />
         :

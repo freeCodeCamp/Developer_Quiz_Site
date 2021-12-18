@@ -1,24 +1,22 @@
 import QuizTemplate from './components/QuizTemplate';
 import WelcomePage from './components/WelcomePage';
-import SelectQuiz from './components/SelectQuiz';
-import { Routes, Route } from "react-router-dom";
-import shuffle from './shuffle-arr';
 import fullQuiz from './data/full-quiz';
+import { useState } from 'react';
+import shuffle from './shuffle-arr';
 
 const App = () => {
-  const choicesArr = [25, 50, 100, 150, 200, 500];
-
+  const [isHomePage, setIsHomePage] = useState(true);
+  const toggleHomePage = () => {
+    shuffle(fullQuiz);
+    setIsHomePage(!isHomePage);
+  }
 
   return (
     <>
-      <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="quizzes" element={<SelectQuiz />} />
-        <Route path="/quizAll" element={<QuizTemplate quiz={shuffle(fullQuiz)} />} />
-        {choicesArr.map((type, index) => (
-          <Route key={index} path={`/quiz${type}`} element={<QuizTemplate quiz={shuffle(fullQuiz.slice(0, type))} />} />
-        ))}
-      </Routes>
+      {isHomePage ?
+        <WelcomePage start={toggleHomePage} /> :
+        <QuizTemplate quiz={fullQuiz} home={toggleHomePage} />
+      }
     </>
   );
 }

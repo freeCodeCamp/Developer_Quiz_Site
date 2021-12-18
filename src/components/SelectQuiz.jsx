@@ -1,16 +1,19 @@
 import HomeBtn from "./HomeBtn";
-import { Link } from "react-router-dom";
 
 const SelectQuiz = () => {
-  const choicesArr = [25, 50, 100, 150, 200, 500, "All"];
+  const choicesArr = [25, 50, 100, 400, "All"];
+
   return (
     <>
       <HomeBtn />
-      <h1>Choose the length for the Quiz</h1>
-      <h3>HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and Computer Science concepts</h3>
-      {choicesArr.map((choice, index) => (
-        <Link key={index} to={`/quiz${choice}`} className="btn btn-primary btn-xl rounded-pill mb-4">{choice}</Link>
-      ))}
+      <div className='w-50' style={{ display: 'flex', flexDirection: 'column', margin: '20px' }}>
+        <h1>Choose a length for the Quiz</h1>
+        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+          {choicesArr.map((choice, index) => (
+            <button key={index} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} >{choice}</button>
+          ))}
+        </div>
+      </div>
     </>
   )
 }
