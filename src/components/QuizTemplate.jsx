@@ -3,7 +3,7 @@ import QuizModal from './QuizModal';
 import Results from './Results';
 import shuffle from '../shuffle-arr';
 
-const QuizTemplate = ({ quiz, home }) => {
+const QuizTemplate = ({ quiz }) => {
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
@@ -71,10 +71,9 @@ const QuizTemplate = ({ quiz, home }) => {
 
   return (
     <>
-      <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={home}>Return Home</button>
 
       {isResults ?
-        <Results {...resultsProps} />
+        <Results  {...resultsProps} />
         :
         <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
           <h2>{currQuestion.Question}</h2>

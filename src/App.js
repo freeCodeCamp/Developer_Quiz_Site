@@ -1,13 +1,10 @@
-import QuizTemplate from './components/QuizTemplate';
 import WelcomePage from './components/WelcomePage';
-import fullQuiz from './data/full-quiz';
 import { useState } from 'react';
-import shuffle from './shuffle-arr';
+import SelectQuiz from './components/SelectQuiz';
 
 const App = () => {
   const [isHomePage, setIsHomePage] = useState(true);
   const toggleHomePage = () => {
-    shuffle(fullQuiz);
     setIsHomePage(!isHomePage);
   }
 
@@ -15,7 +12,11 @@ const App = () => {
     <>
       {isHomePage ?
         <WelcomePage start={toggleHomePage} /> :
-        <QuizTemplate quiz={fullQuiz} home={toggleHomePage} />
+        <>
+          <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={toggleHomePage}>Return Home</button>
+          <SelectQuiz home={toggleHomePage} />
+        </>
+
       }
     </>
   );
