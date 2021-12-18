@@ -19,6 +19,7 @@ const QuizTemplate = ({ quiz }) => {
   const totalPoints = quiz.length;
 
 
+
   //function for toggling the react-bootstrap modal
   const handleShow = () => setShow(true);
 
@@ -28,7 +29,6 @@ const QuizTemplate = ({ quiz }) => {
     let arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
     choicesArr.push(shuffle(arr))
   });
-
 
   const nextQuestion = () => {
     if (questionNumber >= quiz.length) {
