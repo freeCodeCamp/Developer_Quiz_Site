@@ -2,9 +2,9 @@
 
 ![Learn to Code RPG Main Menu](Splash_Art.png)
 
-Learn to Code RPG Quiz Website is the companion to [Learn to Code RPG Game](#), a visual novel game developed by freeCodeCamp.org to help you learn how to code. 😺
+Learn to Code RPG Quiz Website is the companion to [Learn to Code RPG Game](#), a visual novel game developed by [freeCodeCamp](https://www.freecodecamp.org) to help you learn how to code. 😺
 
-developerquiz.org hosts all **600+** multiple choice questions featured in the game on the following topics:
+[developerquiz](https://www.developerquiz.com) hosts all **600+** multiple choice questions featured in the game on the following topics:
 
 - HTML 🖊️
 - CSS 🎨
