@@ -2763,7 +2763,7 @@ const fullQuiz = [
     "Link": "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/"
   },
   {
-    "Question": "What does the animation-delay property property do in CSS?",
+    "Question": "What does the animation-delay property do in CSS?",
     "Answer": "It sets a delay for the animation to start.",
     "Distractor1": "It determines how long an animation should last in seconds.",
     "Distractor2": "It pauses the animation if the animation is running.",
@@ -5538,7 +5538,7 @@ const fullQuiz = [
     "Question": "Which of the following is the pipe symbol in Linux?",
     "Answer": "|",
     "Distractor1": "/",
-    "Distractor2": "",
+    "Distractor2": "+",
     "Distractor3": "[]",
     "Explanation": "With the pipe symbol (|), the output of one command serves as the input to another.",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command"

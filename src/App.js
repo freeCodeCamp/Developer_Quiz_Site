@@ -1,15 +1,23 @@
-import QuizTemplate from './components/QuizTemplate';
 import WelcomePage from './components/WelcomePage';
-import fullQuiz from './data/full-quiz';
-import { Routes, Route } from "react-router-dom";
+import { useState } from 'react';
+import SelectQuiz from './components/SelectQuiz';
 
 const App = () => {
+  const [isHomePage, setIsHomePage] = useState(true);
+  const toggleHomePage = () => {
+    setIsHomePage(!isHomePage);
+  }
+
   return (
     <>
-      <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="/misc" element={<QuizTemplate quiz={fullQuiz} />} />
-      </Routes>
+      {isHomePage ?
+        <WelcomePage start={toggleHomePage} /> :
+        <>
+          <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={toggleHomePage}>Return Home</button>
+          <SelectQuiz home={toggleHomePage} />
+        </>
+
+      }
     </>
   );
 }
