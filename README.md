@@ -1,76 +1,61 @@
-# Getting Started with Create React App
+# Learn to Code RPG Quiz Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Learn to Code RPG Main Menu](Splash_Art.png)
 
-## Run locally
-1. git clone `https://github.com/jdwilkin4/rpg_quiz_test_site.git` 
-2. In the project directory, you can run: `npm install` 
-3. In the project directory, you can run: `npm start`
+Learn to Code RPG Quiz Website is the companion to [Learn to Code RPG Game](#), a visual novel game developed by freeCodeCamp.org to help you learn how to code. 😺
 
-## Available Scripts
+[The Website](https://www.developerquiz.org/) hosts all **600+** multiple choice questions featured in the game on the following topics:
 
-In the project directory, you can run:
+- HTML 🖊️
+- CSS 🎨
+- JavaScript ⚙️
+- Linux 🐧
+- Python 🐍
+- Git 📁
+- SQL 📊
+- IT 🖥️ 
+- and Computer Science Concepts 🤖
 
+All questions are beginner friendly and approachable to all levels, so they are ideal for refreshing your programming knowledge.
 
-### `npm start`
+If you are brand new to programming,learn to code for free and start your programming journey with [freeCodeCamp](https://www.freecodecamp.org/).
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+freeCodeCamp creates thousands of articles,videos and courses on a variety of coding topics.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+All of the helpful and thoughtful resources are made possible by the generous donations of kind people.
 
-### `npm test`
+Have a look  [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/) at the different ways  you can support our non-profit's  mission and make tech education accessible to all.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## How to run the quiz questions locally
 
-### `npm run build`
+In the command line:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1) Clone the repo by typing `git clone https://github.com/jdwilkin4/rpg_quiz_test_site.git`
+2) Then type `cd rpg_quiz_test_site/` to go into the project's directory.
+3) Install dependencies with `npm install`
+4) Run the project with `npm start`
+5) Have fun 🚀
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### How to contribute
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This open source project is a work in progress and ever evolving.
 
-### `npm run eject`
+We welcome all contributions, suggestions and ideas for improvement from the community.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+You can contribute by adding  new quiz questions or making changes to the code.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Make sure to first read through the [Code of Conduct](https://www.freecodecamp.org/news/code-of-conduct/).
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Then, see the ways you can contribute [here](https://contribute.freecodecamp.org/#/).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### How to report bugs
 
-## Learn More
+Found a bug while playing?
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Read through [this helpful article](https://forum.freecodecamp.org/t/how-to-report-a-bug-to-the-freecodecamp-open-source-community/19543) on how to report bugs.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Then, report them by opening a **GitHub Issue**.
 
-### Code Splitting
+### License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Copyright © 2021 freeCodeCamp.org, All rights reserved.
