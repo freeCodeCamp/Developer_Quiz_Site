@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import QuizModal from './QuizModal';
+import { Link } from "react-router-dom";
+
 
 const QuizTemplate = ({ home, quiz }) => {
   const [questionNumber, setQuestionNumber] = useState(1);
@@ -81,8 +83,7 @@ const QuizTemplate = ({ home, quiz }) => {
   return (
     <>
 
-      <button onClick={home}>Return Home</button>
-      <a href='/' target="_blank">Play Learn to Code RPG game</a>
+      <Link className="btn btn-primary btn-xl rounded-pill mb-4" to="/">Return Home</Link>
       {isResults ?
         <>
           <h2>Results</h2>
