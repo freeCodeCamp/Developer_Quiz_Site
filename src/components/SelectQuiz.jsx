@@ -19,7 +19,7 @@ const SelectQuiz = () => {
     <>
       {showOptions ?
         <div className="select-quiz-styles">
-          <h1 className="select-quiz-heading">Choose a length for the Quiz</h1>
+          <h2 className="select-quiz-heading">Choose a length for the Quiz</h2>
           <div className='w-25 select-btn-div'>
             {choicesArr.map((choice, index) => (
               <button

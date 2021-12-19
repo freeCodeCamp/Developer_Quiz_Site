@@ -567,7 +567,7 @@ const fullQuiz = [
     "Link": "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
-    "Question": "which OSI layer is responsible for email and file transfers?",
+    "Question": "Which OSI layer is responsible for email and file transfers?",
     "Answer": "The application layer",
     "Distractor1": "The network layer",
     "Distractor2": "The session layer ",

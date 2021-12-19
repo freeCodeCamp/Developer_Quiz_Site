@@ -1,40 +1,80 @@
-body {
-    font-family: 'Lato', sans-serif;
-    background-color: #0a0a23;
-    color: #ffffff;
-}
-.select-quiz-styles {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+/*Basic CSS reset*/
+
+* {
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.select-quiz-heading {
-    font-family: 'Roboto Mono', monospace;
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #0a0a23;
+  color: #ffffff;
+}
+
+
+
+.fcc-logo {
+  max-width: 300px;
+  width: 40%;
+  padding: 50px 0;
+  margin: auto;
+  display: block;
+}
+
+
+.select-quiz-styles {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-quiz-heading, .results-heading {
+  font-family: 'Roboto Mono', monospace;
 }
 
 .select-btn-div {
-    display: flex; 
-    flex-direction: column; 
-    margin: 20px;  
+  display: flex; 
+  flex-direction: column; 
+  margin: 20px;  
 }
 
 .select-btns {
-    cursor: pointer;
-    padding: 10px;
-    border-radius: 15px; 
-    margin: 10px 0;
-    background-color: #ffffff;
-    font-size: 1.2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 15px; 
+  margin: 10px 0;
+  background-color: #ffffff;
+  font-size: 1.2rem;
+}
+
+.quiz-btn, .results-btn, .modal-btn {
+  background-color: #f1be32;
+  border: 3px solid #feac32;
+  font-size: 1.2rem;
+  padding: 5px;
 }
 
 .quiz-btn {
-    background-color: #f1be32;
-    border: 3px solid #feac32;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .modal-styles .modal-content {
-    background-color: #ffffff;
-    color: black;
+  background-color: #ffffff;
+  color: black;
+}
+
+.results-div {
+  display: flex;
+  flex-direction: column;
+  justify-content:  center; 
+  align-items:  center ;
+}
+
+.results-text {
+  font-size: 1.3rem;
+  margin-top: 20px;
 }
