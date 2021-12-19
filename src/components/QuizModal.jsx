@@ -1,11 +1,12 @@
 import Modal from "react-bootstrap/Modal";
+import QuizBtn from './QuizBtn';
 import "bootstrap/dist/css/bootstrap.min.css";
 
 const QuizModal = ({ message, points, displayExplanation, showReference, nextQuestion, show }) => {
 
   return (
     <>
-      <Modal show={show}>
+      <Modal className="modal-styles" show={show}>
         <Modal.Header>
           <Modal.Title>
             <h2>{message}</h2>
@@ -18,7 +19,7 @@ const QuizModal = ({ message, points, displayExplanation, showReference, nextQue
           <p>Wanna learn how to code? Download the free <a target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/news/learn-to-code-rpg/">RPG game</a></p>
         </Modal.Body>
         <Modal.Footer>
-          <button className="btn btn-primary" onClick={nextQuestion}> Next Question </button>
+          <QuizBtn text="Next Question" handleClick={nextQuestion} />
         </Modal.Footer>
       </Modal>
     </>

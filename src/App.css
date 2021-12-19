@@ -33,3 +33,8 @@ body {
     background-color: #f1be32;
     border: 3px solid #feac32;
 }
+
+.modal-styles .modal-content {
+    background-color: #ffffff;
+    color: black;
+}
