@@ -30,7 +30,8 @@ body {
   align-items: center;
 }
 
-.select-quiz-heading, .results-heading {
+.quiz-heading, .results-heading {
+  text-align: center;
   font-family: 'Roboto Mono', monospace;
 }
 
@@ -40,12 +41,13 @@ body {
   margin: 20px;  
 }
 
-.select-btns {
+.select-btns, .answers-btns {
   cursor: pointer;
   padding: 10px;
   border-radius: 15px; 
   margin: 10px 0;
   background-color: #ffffff;
+  border: none;
   font-size: 1.2rem;
 }
 
@@ -56,10 +58,29 @@ body {
   padding: 5px;
 }
 
+.quiz-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-answers-div {
+  display: flex; 
+  flex-direction: column;
+  margin: 20px
+}
+
 .quiz-btn {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.quiz-text {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.4rem;
 }
 
 .modal-styles .modal-content {

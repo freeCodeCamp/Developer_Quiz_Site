@@ -73,23 +73,25 @@ const QuizTemplate = ({ quiz }) => {
     <>
 
       {isResults ?
-        <Results  {...resultsProps} />
-        :
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-          <h2>{currQuestion.Question}</h2>
-          <h3>Question {questionNumber}/{totalQuestions}</h3>
-          <h3>Points:{points}</h3>
+        <Results  {...resultsProps} /> :
+        <>
+          <h1 className='quiz-heading'>{currQuestion.Question}</h1>
+          <div className="quiz-text mt-4">
+            <p>Question: {questionNumber}/{totalQuestions}</p>
+            <p>Points: {points}</p>
+          </div>
 
-          {chooseAnswer ?
-            <QuizModal {...modalProps} /> :
-
-            <div className='w-50' style={{ display: 'flex', flexDirection: 'column', margin: '20px' }}>
-              {choicesArr[questionNumber - 1].map((btn, index) => (
-                <button value={btn} onClick={(e) => checkAnswer(e, "value")} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} key={index}>{btn}</button>
-              ))}
-            </div>
-          }
-        </div>
+          <div className="quiz-div">
+            {chooseAnswer ?
+              <QuizModal {...modalProps} /> :
+              <div className='w-50 quiz-answers-div'>
+                {choicesArr[questionNumber - 1].map((btn, index) => (
+                  <button className="answers-btns" value={btn} onClick={(e) => checkAnswer(e, "value")} key={index}>{btn}</button>
+                ))}
+              </div>
+            }
+          </div>
+        </>
       }
     </>
   )
