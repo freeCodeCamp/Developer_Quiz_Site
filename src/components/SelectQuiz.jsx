@@ -2,6 +2,7 @@ import { useState } from "react";
 import QuizTemplate from './QuizTemplate';
 import shuffle from "../shuffle-arr";
 import fullQuiz from "../data/full-quiz";
+import '../App.css';
 
 const SelectQuiz = () => {
   const [showOptions, setShowOptions] = useState(true);
@@ -17,11 +18,15 @@ const SelectQuiz = () => {
   return (
     <>
       {showOptions ?
-        <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
-          <h1>Choose a length for the Quiz</h1>
-          <div className='w-25' style={{ display: 'flex', flexDirection: 'column', margin: '20px' }}>
+        <div className="select-quiz-styles">
+          <h1 className="select-quiz-heading">Choose a length for the Quiz</h1>
+          <div className='w-25 select-btn-div'>
             {choicesArr.map((choice, index) => (
-              <button onClick={(e) => startQuiz(e, "value")} value={choice} key={index} style={{ cursor: 'pointer', padding: '10px', borderRadius: '15px', margin: '10px 0' }} >{choice > 600 ? `All ${choice} questions` : `${choice} questions`}</button>
+              <button
+                className="select-btns"
+                onClick={(e) => startQuiz(e, "value")}
+                value={choice} key={index} >{choice > 600 ? `All ${choice} questions` : `${choice} questions`}
+              </button>
             ))}
           </div>
         </div> :

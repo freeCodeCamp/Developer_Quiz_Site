@@ -1,6 +1,7 @@
 import WelcomePage from './components/WelcomePage';
 import { useState } from 'react';
 import SelectQuiz from './components/SelectQuiz';
+import QuizBtn from "./components/QuizBtn";
 
 const App = () => {
   const [isHomePage, setIsHomePage] = useState(true);
@@ -13,7 +14,7 @@ const App = () => {
       {isHomePage ?
         <WelcomePage start={toggleHomePage} /> :
         <>
-          <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={toggleHomePage}>Return Home</button>
+          <QuizBtn text="Return Home" handleClick={toggleHomePage} />
           <SelectQuiz />
         </>
 
