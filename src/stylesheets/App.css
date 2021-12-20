@@ -12,16 +12,13 @@ body {
   color: #ffffff;
 }
 
-
-
 .fcc-logo {
   max-width: 300px;
   width: 40%;
-  padding: 50px 0;
+  padding-bottom: 50px;
   margin: auto;
   display: block;
 }
-
 
 .select-quiz-styles {
   display: flex;

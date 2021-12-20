@@ -7,7 +7,7 @@ const SelectQuiz = ({ startQuiz, selectQuizArr }) => {
           <button
             className="select-btns"
             onClick={(e) => startQuiz(e, "value")}
-            value={choice} key={index} >{choice > 600 ? `All ${choice} questions` : `${choice} questions`}
+            value={choice} key={index} >{choice > 600 ? `All (${choice})` : `${choice}`}
           </button>
         ))}
       </div>
