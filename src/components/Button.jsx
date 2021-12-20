@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import './Button.css';
+import '../stylesheets/Button.css';
 
-const Button = ({text, path, isTransparent}) => {
+const Button = ({ text, path, isTransparent }) => {
   return (
     <>
       <Link to={path}>

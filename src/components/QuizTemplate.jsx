@@ -6,7 +6,7 @@ import shuffle from '../shuffle-arr';
 import fullQuiz from "../data/full-quiz";
 import Button from './Button';
 import FCCLogo from './FCCLogo';
-import '../App.css';
+import '../stylesheets/App.css';
 
 const QuizTemplate = () => {
   const [quiz, setQuiz] = useState(fullQuiz);
