@@ -1513,10 +1513,10 @@ const fullQuiz = [
   },
   {
     "Question": "Which flag (or option) is used with the ln command to create a soft link in Linux?",
-    "Answer": "#NAME?",
-    "Distractor1": "#NAME?",
-    "Distractor2": "#NAME?",
-    "Distractor3": "#NAME?",
+    "Answer": "-s",
+    "Distractor1": "-l",
+    "Distractor2": "-a",
+    "Distractor3": "-la",
     "Explanation": "You create soft links using the -s option of ln. For example, ln -s <original> <link>",
     "Link": "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
   },
