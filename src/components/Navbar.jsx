@@ -8,7 +8,7 @@ const Navbar = () => {
         <nav className="homepage-navbar">
           <img className="website-logo" src="../../fcc_primary_large.png" alt="freeCodeCamp logo" />
           <ul className="navbar-buttons">
-            <Button text="Quiz" path="/quizPage" isTransparent={false} />
+            <Button text="Quiz" path="/quiz" isTransparent={false} />
           </ul>
         </nav>
       </header>

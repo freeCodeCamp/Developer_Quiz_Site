@@ -9,7 +9,7 @@ const App = () => {
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<WelcomePage />} />
-        <Route path="/quizPage" element={<QuizTemplate />} />
+        <Route path="/quiz" element={<QuizTemplate />} />
       </Routes>
     </>
   );

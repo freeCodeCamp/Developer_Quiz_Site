@@ -2,6 +2,7 @@ import rpgMenu from '../images/rpg-menu.png';
 import mainCharacter from '../images/main-character.png';
 import Navbar from './Navbar';
 import Button from './Button';
+import HeroSection from './HeroSection';
 
 const WelcomePage = () => {
   const imgWidth = { width: '80%' }
@@ -9,9 +10,9 @@ const WelcomePage = () => {
   return (
     <>
       <Navbar />
+      <HeroSection />
+
       <main className="text-center">
-        <h1 className="mt-2 featurette-heading">Learn to Code RPG Multiple Choice Questions!</h1>
-        <img src={rpgMenu} className="img-fluid" style={imgWidth} alt="freeCodeCamp" />
 
         <hr className="featurette-divider" />
 
@@ -20,7 +21,7 @@ const WelcomePage = () => {
             <h2 className="featurette-heading">Want to test your programming knowledge?</h2>
             <p className="lead">Brush up on HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and general Computer Science concepts, with <span style={{ fontWeight: '700' }}>600+</span> questions.</p>
             <p className="lead">Take our quiz and have fun learning!</p>
-            <Button text="Quiz" path="/quizPage" isTransparent={false} />
+            <Button text="Quiz" path="/quiz" isTransparent={false} />
           </div>
           <div className="col-md-5">
             <img src={mainCharacter} className="img-fluid rounded" style={imgWidth} alt="main female character from rpg game" />
