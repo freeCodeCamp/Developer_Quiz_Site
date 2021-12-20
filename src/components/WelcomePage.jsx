@@ -1,11 +1,13 @@
 import rpgMenu from '../images/rpg-menu.png';
 import mainCharacter from '../images/main-character.png';
+import Navbar from './Navbar';
 
 const WelcomePage = ({ start }) => {
   const imgWidth = { width: '80%' }
 
   return (
     <>
+      <Navbar />
       <main className="text-center">
         <h1 className="mt-2 featurette-heading">Learn to Code RPG Multiple Choice Questions!</h1>
         <img src={rpgMenu} className="img-fluid" style={imgWidth} alt="freeCodeCamp" />
