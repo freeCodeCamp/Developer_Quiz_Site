@@ -2109,8 +2109,8 @@ const fullQuiz = [
     "Question": "Are semicolons strictly required in JavaScript?",
     "Answer": "No",
     "Distractor1": "Yes",
-    "Distractor2": "",
-    "Distractor3": "",
+    "Distractor2": "only when using the concat method",
+    "Distractor3": "only when using the split method",
     "Explanation": "JavaScript does not require strict use of semicolons because it inserts them where they are needed through a process called Automatic Semicolon Insertion.",
     "Link": "https://www.freecodecamp.org/news/lets-talk-about-semicolons-in-javascript-f1fe08ab4e53/#:~:text=This%20is%20all%20possible%20because%20JavaScript%20does%20not%20strictly%20require%20semicolons.&text=It's%20important%20to%20know%20the,not%20behave%20like%20you%20expect."
   },
@@ -2118,7 +2118,7 @@ const fullQuiz = [
     "Question": "What value is returned by default in JavaScript when a function doesn't have a return statement?",
     "Answer": "undefined",
     "Distractor1": "None",
-    "Distractor2": null,
+    "Distractor2": "concat",
     "Distractor3": "0",
     "Explanation": "The value undefined is returned by functions that do not have a return statement.",
     "Link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions"
