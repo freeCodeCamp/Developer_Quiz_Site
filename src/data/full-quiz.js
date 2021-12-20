@@ -2478,7 +2478,7 @@ const fullQuiz = [
     "Question": "Which one of these variable declarations can be redeclared within its scope?",
     "Answer": "var",
     "Distractor1": "splice",
-    "Distractor2": "var",
+    "Distractor2": "object.freeze",
     "Distractor3": "concat",
     "Explanation": "When you declare variables with var, they can be re-declared within their scope.",
     "Link": "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/"
