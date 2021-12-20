@@ -31,7 +31,7 @@ Have a look  [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code
 In the command line:
 
 1) Clone the repo by typing `git clone https://github.com/freeCodeCamp/Developer_Quiz_Site.git`
-2) Then type `cd rpg_quiz_test_site/` to go into the project's directory.
+2) Then type `cd Developer_Quiz_Site` to go into the project's directory.
 3) Install dependencies with `npm install`
 4) Run the project with `npm start`
 5) Have fun 🚀
