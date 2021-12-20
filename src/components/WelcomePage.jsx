@@ -1,8 +1,9 @@
 import rpgMenu from '../images/rpg-menu.png';
 import mainCharacter from '../images/main-character.png';
 import Navbar from './Navbar';
+import Button from './Button';
 
-const WelcomePage = ({ start }) => {
+const WelcomePage = () => {
   const imgWidth = { width: '80%' }
 
   return (
@@ -19,7 +20,7 @@ const WelcomePage = ({ start }) => {
             <h2 className="featurette-heading">Want to test your programming knowledge?</h2>
             <p className="lead">Brush up on HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and general Computer Science concepts, with <span style={{ fontWeight: '700' }}>600+</span> questions.</p>
             <p className="lead">Take our quiz and have fun learning!</p>
-            <button className="btn btn-primary btn-xl rounded-pill mb-4" onClick={start}>Start Quiz</button>
+            <Button text="Quiz" path="/quizPage" isTransparent={false} />
           </div>
           <div className="col-md-5">
             <img src={mainCharacter} className="img-fluid rounded" style={imgWidth} alt="main female character from rpg game" />

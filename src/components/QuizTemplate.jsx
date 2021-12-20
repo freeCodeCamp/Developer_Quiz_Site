@@ -1,9 +1,15 @@
 import { useState } from 'react';
+import SelectQuiz from './SelectQuiz';
 import QuizModal from './QuizModal';
 import Results from './Results';
 import shuffle from '../shuffle-arr';
+import fullQuiz from "../data/full-quiz";
+import Button from './Button';
+import FCCLogo from './FCCLogo';
+import '../App.css';
 
-const QuizTemplate = ({ quiz }) => {
+const QuizTemplate = () => {
+  const [quiz, setQuiz] = useState(fullQuiz);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
@@ -12,10 +18,18 @@ const QuizTemplate = ({ quiz }) => {
   const [showReference, setShowReference] = useState('');
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
+  const [showOptions, setShowOptions] = useState(true);
+  const selectQuizArr = [10, 25, 50, 100, quiz.length];
   const choicesArr = [];
   let currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
+
+  const startQuiz = (e) => {
+    setShowOptions(false);
+    let userAnswer = e.target.value;
+    setQuiz(shuffle(fullQuiz).slice(0, userAnswer));
+  }
 
 
   //function for toggling the react-bootstrap modal
@@ -37,6 +51,15 @@ const QuizTemplate = ({ quiz }) => {
     setChooseAnswer(false)
   }
 
+  const resetQuiz = () => {
+    setIsResults(false)
+    setShow(false)
+    setShowOptions(true)
+    setChooseAnswer(false)
+    setPoints(0)
+    setQuestionNumber(1)
+  }
+
 
   const checkAnswer = (e) => {
     setChooseAnswer(true)
@@ -55,6 +78,11 @@ const QuizTemplate = ({ quiz }) => {
     }
   }
 
+  const selectQuizProps = {
+    startQuiz,
+    selectQuizArr
+  }
+
   const modalProps = {
     message,
     points,
@@ -66,32 +94,35 @@ const QuizTemplate = ({ quiz }) => {
 
   const resultsProps = {
     points,
-    totalPoints
+    totalPoints,
+    resetQuiz
   }
 
   return (
     <>
+      <Button text="Home" path="/" isTransparent={false} />
+      <FCCLogo />
+      {showOptions ?
+        <SelectQuiz {...selectQuizProps} /> :
+        isResults ? <Results  {...resultsProps} /> :
+          <>
+            <h1 className='quiz-heading'>{currQuestion.Question}</h1>
+            <div className="quiz-text mt-4">
+              <p>Question: {questionNumber}/{totalQuestions}</p>
+              <p>Points: {points}</p>
+            </div>
 
-      {isResults ?
-        <Results  {...resultsProps} /> :
-        <>
-          <h1 className='quiz-heading'>{currQuestion.Question}</h1>
-          <div className="quiz-text mt-4">
-            <p>Question: {questionNumber}/{totalQuestions}</p>
-            <p>Points: {points}</p>
-          </div>
-
-          <div className="quiz-div">
-            {chooseAnswer ?
-              <QuizModal {...modalProps} /> :
-              <div className='w-50 quiz-answers-div'>
-                {choicesArr[questionNumber - 1].map((btn, index) => (
-                  <button className="answers-btns" value={btn} onClick={(e) => checkAnswer(e, "value")} key={index}>{btn}</button>
-                ))}
-              </div>
-            }
-          </div>
-        </>
+            <div className="quiz-div">
+              {chooseAnswer ?
+                <QuizModal {...modalProps} /> :
+                <div className='w-50 quiz-answers-div'>
+                  {choicesArr[questionNumber - 1].map((btn, index) => (
+                    <button className="answers-btns" value={btn} onClick={(e) => checkAnswer(e, "value")} key={index}>{btn}</button>
+                  ))}
+                </div>
+              }
+            </div>
+          </>
       }
     </>
   )
