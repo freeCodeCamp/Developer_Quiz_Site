@@ -52,6 +52,7 @@ const QuizTemplate = () => {
   }
 
   const resetQuiz = () => {
+    setQuiz(fullQuiz)
     setIsResults(false)
     setShow(false)
     setShowOptions(true)
