@@ -20,6 +20,10 @@ a {
   color: #f1be32;
 }
 
+a:hover {
+  color: #acd157;
+}
+
 .fcc-logo {
   max-width: 300px;
   padding-bottom: 50px;
