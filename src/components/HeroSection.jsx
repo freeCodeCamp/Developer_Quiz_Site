@@ -10,7 +10,8 @@ const HeroSection = () => {
         <div className="hero-button">
           <Button
             text="Get Started (it's free!)"
-            path="/quiz" />
+            path="/quiz"
+            size="large" />
         </div>
       </div>
     </div>

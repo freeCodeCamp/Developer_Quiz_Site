@@ -29,3 +29,9 @@
   color: #0a0a23;
   font-weight: bold;
 }
+
+.large-btn {
+  width: 320px;
+  height: 70px;
+  font-size: 20px;
+}
