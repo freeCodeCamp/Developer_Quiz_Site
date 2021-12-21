@@ -8,7 +8,7 @@ const QuizModal = ({ message, points, displayExplanation, showReference, nextQue
       <Modal className="modal-styles" show={show}>
         <Modal.Header>
           <Modal.Title>
-            <h2>{message}</h2>
+            <h2>💡 {message}</h2>
             <h3>Points: {points}</h3>
           </Modal.Title>
         </Modal.Header>
