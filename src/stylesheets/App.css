@@ -93,6 +93,10 @@ a {
   color: black;
 }
 
+.modal-link {
+  color: #002ead;
+}
+
 .results-div {
   display: flex;
   flex-direction: column;
