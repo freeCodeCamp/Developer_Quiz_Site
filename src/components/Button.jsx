@@ -1,31 +1,23 @@
-import { Link } from 'react-router-dom';
 import '../stylesheets/Button.css';
 
-const Button = ({ text, path, isTransparent, size }) => {
+const Button = ({ text, isTransparent, size, handleClick }) => {
 
   const getButtonClasses = () => {
     let classes = "btn-default";
 
     if (isTransparent) {
-      classes += " " + "transparent-btn";
+      classes = "btn-default transparent-btn";
     }
 
-    if (size == "large") {
-      classes += " " + "large-btn";
+    if (size === "large") {
+      classes = "btn-default large-btn";
     }
 
     return classes;
   }
 
   return (
-    <>
-      <Link to={path}>
-        <button
-          className={getButtonClasses()}>
-          {text}
-        </button>
-      </Link>
-    </>
+    <button onClick={handleClick} className={getButtonClasses()}>{text}</button>
   );
 }
 

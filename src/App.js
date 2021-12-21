@@ -1,18 +1,24 @@
 import WelcomePage from './components/WelcomePage';
 import QuizTemplate from './components/QuizTemplate';
-import { Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
+import { useState } from 'react';
+
 
 const App = () => {
+  const [isHomePage, setIsHomePage] = useState(true);
+  const toggleHomePage = () => setIsHomePage(!isHomePage);
   return (
     <>
       <ScrollToTop />
-      <Routes>
-        <Route path="/" element={<WelcomePage />} />
-        <Route path="/quiz" element={<QuizTemplate />} />
-      </Routes>
+      {isHomePage ?
+        <WelcomePage start={toggleHomePage} /> :
+        <QuizTemplate home={toggleHomePage} />
+      }
     </>
   );
 }
-
 export default App;
+
+
+
+

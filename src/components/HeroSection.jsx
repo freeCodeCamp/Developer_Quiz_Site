@@ -2,7 +2,7 @@ import React from 'react';
 import Button from './Button';
 import '../stylesheets/HeroSection.css';
 
-const HeroSection = () => {
+const HeroSection = ({ start }) => {
   return (
     <div className="hero-container">
       <div className="hero-content">
@@ -13,7 +13,7 @@ const HeroSection = () => {
         <div className="hero-button">
           <Button
             text="Get started (it's free)"
-            path="/quiz"
+            handleClick={start}
             size="large" />
         </div>
       </div>

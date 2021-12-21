@@ -1,14 +1,14 @@
 import { useState, useEffect } from 'react';
 import SelectQuiz from './SelectQuiz';
+import fullQuiz from '../data/full-quiz';
 import Results from './Results';
 import shuffle from '../shuffle-arr';
-import fullQuiz from "../data/full-quiz";
 import Button from './Button';
 import FCCLogo from './FCCLogo';
 import Questions from './Questions';
 import '../stylesheets/App.css';
 
-const QuizTemplate = () => {
+const QuizTemplate = ({ home }) => {
   const [quiz, setQuiz] = useState(fullQuiz);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
@@ -41,7 +41,7 @@ const QuizTemplate = () => {
   const startQuiz = (e) => {
     setShowOptions(false);
     let userAnswer = e.target.value;
-    setQuiz(shuffle(fullQuiz).slice(0, userAnswer));
+    setQuiz(shuffle(quiz).slice(0, userAnswer));
   };
 
 
@@ -125,7 +125,7 @@ const QuizTemplate = () => {
 
   return (
     <>
-      <Button text="Home" path="/" isTransparent={false} />
+      <Button handleClick={home} text="Home" isTransparent={false} />
       <FCCLogo />
       {showOptions ?
         <SelectQuiz {...selectQuizProps} /> :
