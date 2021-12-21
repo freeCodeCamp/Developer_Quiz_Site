@@ -18,9 +18,9 @@ The [developerquiz.org](https://www.developerquiz.org) website is the companion 
 
 All questions are beginner friendly and approachable to all levels, so they are ideal for refreshing your programming knowledge.
 
-If you are brand new to programming,learn to code for free and start your programming journey with [freeCodeCamp](https://www.freecodecamp.org/).
+If you are brand new to programming, learn to code for free and start your programming journey with [freeCodeCamp](https://www.freecodecamp.org/).
 
-freeCodeCamp creates thousands of articles,videos and courses on a variety of coding topics.
+freeCodeCamp creates thousands of articles, videos and courses on a variety of coding topics.
 
 All of the helpful and thoughtful resources are made possible by the generous donations of kind people.
 
