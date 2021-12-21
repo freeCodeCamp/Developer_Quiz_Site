@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import SelectQuiz from './SelectQuiz';
-import QuizModal from './QuizModal';
 import Results from './Results';
 import shuffle from '../shuffle-arr';
 import fullQuiz from "../data/full-quiz";
 import Button from './Button';
 import FCCLogo from './FCCLogo';
+import Questions from './Questions';
 import '../stylesheets/App.css';
 
 const QuizTemplate = () => {
@@ -29,7 +29,7 @@ const QuizTemplate = () => {
     setShowOptions(false);
     let userAnswer = e.target.value;
     setQuiz(shuffle(fullQuiz).slice(0, userAnswer));
-  }
+  };
 
 
   //function for toggling the react-bootstrap modal
@@ -49,7 +49,7 @@ const QuizTemplate = () => {
     }
     setQuestionNumber(curr => curr + 1)
     setChooseAnswer(false)
-  }
+  };
 
   const resetQuiz = () => {
     setQuiz(fullQuiz)
@@ -59,7 +59,7 @@ const QuizTemplate = () => {
     setChooseAnswer(false)
     setPoints(0)
     setQuestionNumber(1)
-  }
+  };
 
 
   const checkAnswer = (e) => {
@@ -77,12 +77,12 @@ const QuizTemplate = () => {
       setShowReference(currQuestion.Link)
       handleShow()
     }
-  }
+  };
 
   const selectQuizProps = {
     startQuiz,
     selectQuizArr
-  }
+  };
 
   const modalProps = {
     message,
@@ -97,7 +97,18 @@ const QuizTemplate = () => {
     points,
     totalPoints,
     resetQuiz
-  }
+  };
+
+  const questionProps = {
+    currQuestion,
+    questionNumber,
+    totalQuestions,
+    modalProps,
+    chooseAnswer,
+    points,
+    choicesArr,
+    checkAnswer
+  };
 
   return (
     <>
@@ -105,25 +116,8 @@ const QuizTemplate = () => {
       <FCCLogo />
       {showOptions ?
         <SelectQuiz {...selectQuizProps} /> :
-        isResults ? <Results  {...resultsProps} /> :
-          <>
-            <h1 className='quiz-heading'>{currQuestion.Question}</h1>
-            <div className="quiz-text mt-4">
-              <p>Question: {questionNumber}/{totalQuestions}</p>
-              <p>Points: {points}</p>
-            </div>
-
-            <div className="quiz-div">
-              {chooseAnswer ?
-                <QuizModal {...modalProps} /> :
-                <div className='w-50 quiz-answers-div'>
-                  {choicesArr[questionNumber - 1].map((btn, index) => (
-                    <button className="answers-btns" value={btn} onClick={(e) => checkAnswer(e, "value")} key={index}>{btn}</button>
-                  ))}
-                </div>
-              }
-            </div>
-          </>
+        isResults ?
+          <Results  {...resultsProps} /> : <Questions {...questionProps} {...modalProps} />
       }
     </>
   )
