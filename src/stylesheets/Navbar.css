@@ -26,7 +26,6 @@ header {
   height: 35px;
   margin: 7px 0;
   width: auto;
-  cursor: pointer;
 }
 
 @media screen and (max-width: 590px) {
