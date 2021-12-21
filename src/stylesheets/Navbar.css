@@ -34,4 +34,8 @@ header {
     display: block;
     justify-content: center;
   }
+
+  .navbar-buttons {
+    display: none;
+  }
 }
