@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import SelectQuiz from './SelectQuiz';
 import Results from './Results';
 import shuffle from '../shuffle-arr';
@@ -24,6 +24,19 @@ const QuizTemplate = () => {
   let currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
+
+  //detects if the user tries the refresh the page in the middle of the quiz
+  useEffect(() => {
+    window.addEventListener("beforeunload", alertUser);
+    return () => {
+      window.removeEventListener("beforeunload", alertUser);
+    };
+  }, []);
+
+  const alertUser = (e) => {
+    e.preventDefault();
+    e.returnValue = "";
+  };
 
   const startQuiz = (e) => {
     setShowOptions(false);
