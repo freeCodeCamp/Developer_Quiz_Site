@@ -9,7 +9,7 @@ const QuizModal = ({ message, points, displayExplanation, showReference, nextQue
         <Modal.Header>
           <Modal.Title>
             <h2>{message}</h2>
-            <h3>Points:{points}</h3>
+            <h3>Points: {points}</h3>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
