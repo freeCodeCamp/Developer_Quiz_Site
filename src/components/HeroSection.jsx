@@ -9,7 +9,7 @@ const HeroSection = () => {
         <h1 className="hero-text">Want to test your programming knowledge with <strong>600+</strong> Quiz Questions?</h1>
         <div className="hero-button">
           <Button
-            text="Get Started (it's free!)"
+            text="Get started (it's free)"
             path="/quiz"
             size="large" />
         </div>
