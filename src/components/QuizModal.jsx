@@ -15,7 +15,9 @@ const QuizModal = ({ message, points, displayExplanation, showReference, nextQue
         <Modal.Body>
           <p>{displayExplanation}</p>
           <a href={showReference} target="_blank" rel="noopener noreferrer">Learn more by reading this helpful article</a>
-          <p>Wanna learn how to code? Download the free <a target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/news/learn-to-code-rpg/">RPG game</a></p>
+          <br />
+          <br />
+          <p>Wanna learn how to code? <br /> Download the free <a target="_blank" rel="noopener noreferrer" href="https://www.freecodecamp.org/news/learn-to-code-rpg/">Learn to Code RPG game</a></p>
         </Modal.Body>
         <Modal.Footer>
           <button className="modal-btn" onClick={nextQuestion}>Next Question</button>
