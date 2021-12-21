@@ -9,7 +9,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 0 0 0 1000px rgb(13 14 15 / 64%);
+  box-shadow: inset 0 0 0 1000px rgb(34 27 49 / 66%);
   object-fit: contain;
 }
 
@@ -25,7 +25,14 @@
   font-family: Lato, sans-serif;
   text-align: center;
   letter-spacing: 1px;
-  font-size: 45px !important;
+  font-size: 45px;
   text-shadow: 1px 4px #0a0a23;
   line-height: 1.5em;
 } 
+
+@media screen and (max-width: 768px) {
+  .hero-text {
+    font-size: 34px;
+    max-width: 350px;
+  }
+}
