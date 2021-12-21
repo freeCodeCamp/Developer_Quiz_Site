@@ -13,6 +13,7 @@ const QuizModal = ({ message, points, displayExplanation, showReference, nextQue
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <p><b>Answer:</b></p>
           <p>{displayExplanation}</p>
           <a className="modal-link" href={showReference} target="_blank" rel="noopener noreferrer">Learn more by reading this helpful article</a>
           <br />
