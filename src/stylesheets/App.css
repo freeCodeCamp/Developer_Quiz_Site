@@ -16,6 +16,10 @@ body {
   color: #ffffff;
 }
 
+a {
+  color: #f1be32;
+}
+
 .fcc-logo {
   max-width: 300px;
   width: 40%;
