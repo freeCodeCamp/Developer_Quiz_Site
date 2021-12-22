@@ -1,6 +1,5 @@
 import WelcomePage from './components/WelcomePage';
 import QuizTemplate from './components/QuizTemplate';
-import ScrollToTop from './components/ScrollToTop';
 import { useState } from 'react';
 
 
@@ -9,7 +8,6 @@ const App = () => {
   const toggleHomePage = () => setIsHomePage(!isHomePage);
   return (
     <>
-      <ScrollToTop />
       {isHomePage ?
         <WelcomePage start={toggleHomePage} /> :
         <QuizTemplate home={toggleHomePage} />
