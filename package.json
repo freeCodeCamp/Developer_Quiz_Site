@@ -1,6 +1,5 @@
 {
   "name": "rpg_quiz_site",
-  "homepage": "https://freeCodeCamp.github.io/Developer_Quiz_Site",
   "description": "This is a free quiz site made for developers by freeCodeCamp",
   "version": "0.1.0",
   "private": true,
