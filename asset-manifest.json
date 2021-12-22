@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Developer_Quiz_Site/static/css/main.ee497a68.css",
+    "main.js": "/Developer_Quiz_Site/static/js/main.20e17ab1.js",
+    "static/js/787.211b8f8f.chunk.js": "/Developer_Quiz_Site/static/js/787.211b8f8f.chunk.js",
+    "static/media/rpg-menu.png": "/Developer_Quiz_Site/static/media/rpg-menu.9a57e6e04b8903dff3a9.png",
+    "static/media/background.png": "/Developer_Quiz_Site/static/media/background.f14951415d793e01cff8.png",
+    "static/media/main-character.png": "/Developer_Quiz_Site/static/media/main-character.1fbdd0a90e988ccdb75a.png",
+    "static/media/fcc_background.png": "/Developer_Quiz_Site/static/media/fcc_background.fdfca80c9987080c8f44.png",
+    "static/media/fcc_primary_large.png": "/Developer_Quiz_Site/static/media/fcc_primary_large.5486935b905c7949600c.png",
+    "index.html": "/Developer_Quiz_Site/index.html",
+    "main.ee497a68.css.map": "/Developer_Quiz_Site/static/css/main.ee497a68.css.map",
+    "main.20e17ab1.js.map": "/Developer_Quiz_Site/static/js/main.20e17ab1.js.map",
+    "787.211b8f8f.chunk.js.map": "/Developer_Quiz_Site/static/js/787.211b8f8f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee497a68.css",
+    "static/js/main.20e17ab1.js"
+  ]
+}
