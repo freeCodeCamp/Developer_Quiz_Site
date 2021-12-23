@@ -1963,7 +1963,7 @@ const fullQuiz = [
   },
   {
     "Question": "How can you switch to a new branch in Git?",
-    "Answer": "git checkout branch-name",
+    "Answer": "git checkout -b branch-name",
     "Distractor1": "git switch branch-name",
     "Distractor2": "git switch to branch-name",
     "Distractor3": "git change branch-name",
