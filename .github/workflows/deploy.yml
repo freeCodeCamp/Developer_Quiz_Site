@@ -24,7 +24,7 @@ jobs:
 
       - name: Configure Git
         run: |
-          git config user.name "camperbot"
+          git config user.name camperbot
           git config user.email ${{ secrets.CAMPERBOT_EMAIL }}
           git config user.password ${{ secrets.CAMPERBOT_PAT }}
 
