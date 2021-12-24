@@ -26,7 +26,7 @@ jobs:
         run: |
           git config user.name camperbot
           git config user.email ${{ secrets.CAMPERBOT_EMAIL }}
-          git config user.password ${{ secrets.CAMPERBOT_PAT }}
+          git remote set-url origin https://camperbot:${{ secrets.CAMPERBOT_PAT }}@github.com/freeCodeCamp/Developer_Quiz_Site.git
 
       - name: Run Deploy Script
         run: npm run deploy
