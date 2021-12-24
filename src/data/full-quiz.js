@@ -2255,7 +2255,7 @@ const fullQuiz = [
     Distractor2: "git switch to branch-name",
     Distractor3: "git change branch-name",
     Explanation:
-      "In the command line, you can use git checkout branch-name to switch to a different branch",
+      "In the command line, you can use git checkout -b branch-name to switch to a different branch",
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
