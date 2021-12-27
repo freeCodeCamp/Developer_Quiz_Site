@@ -6217,7 +6217,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML tag is used to taget specific inline content such as text?",
+      "What HTML tag is used to target specific inline content such as text?",
     Answer: "<span>",
     Distractor1: "<div>",
     Distractor2: "<s>",
