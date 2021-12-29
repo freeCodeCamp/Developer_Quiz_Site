@@ -4568,10 +4568,10 @@ const fullQuiz = [
     Question: "Which one is NOT a popular operating system for computers?",
     Answer: "PASSIM",
     Distractor1: "Microsoft Windows",
-    Distractor2: "Apple OS",
+    Distractor2: "macOS",
     Distractor3: "Linux",
     Explanation:
-      "Linux, Microsoft Windows and Apple are three popular operating systems used by developers.",
+      "Linux, Microsoft Windows and macOS are three popular operating systems used by developers.",
     Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
