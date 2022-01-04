@@ -7,6 +7,7 @@ import Button from './Button';
 import FCCLogo from './FCCLogo';
 import Questions from './Questions';
 import '../stylesheets/App.css';
+import { correctModalResponses, incorrectModalResponses } from '../data/modal-responses';
 
 const QuizTemplate = ({ home }) => {
   const [quiz, setQuiz] = useState(fullQuiz);
@@ -74,18 +75,22 @@ const QuizTemplate = ({ home }) => {
     setQuestionNumber(1)
   };
 
+  const shuffleModalResponses = (responses) => {
+    let shuffleModalArr = shuffle(responses);
+    return shuffleModalArr[0];
+  };
 
   const checkAnswer = (e) => {
     setChooseAnswer(true)
     let userAnswer = e.target.value;
     if (userAnswer !== currQuestion.Answer) {
-      setMessage(`Hmmm, not quite`);
+      setMessage(shuffleModalResponses(incorrectModalResponses));
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
       handleShow()
     } else {
       setPoints(curr => curr + 1)
-      setMessage(`Awesome, that's correct!`)
+      setMessage(shuffleModalResponses(correctModalResponses))
       setDisplayExplanation(currQuestion.Explanation)
       setShowReference(currQuestion.Link)
       handleShow()
