@@ -6,6 +6,8 @@
   box-sizing: border-box;
 }
 
+/*General styles*/
+
 html {
   overflow-x: hidden;
 }
@@ -30,6 +32,8 @@ a:hover {
   margin: auto;
   display: block;
 }
+
+/*Quiz styles*/
 
 .select-quiz-styles {
   display: flex;
@@ -91,6 +95,8 @@ a:hover {
   font-size: 1.4rem;
 }
 
+/*Modal styles*/
+
 .modal-styles .modal-content {
   background-color: #ffffff;
   color: black;
@@ -100,6 +106,12 @@ a:hover {
   color: #002ead;
   font-size: 19.8px;
 }
+
+.modal-text {
+  font-size: 1.6rem;
+}
+
+/*Results styles*/
 
 .results-div {
   display: flex;
