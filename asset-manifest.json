@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.8eb015ae.css",
-    "main.js": "/static/js/main.1e1aaaeb.js",
+    "main.css": "/static/css/main.0ff5fe85.css",
+    "main.js": "/static/js/main.ff0b306a.js",
     "static/js/787.211b8f8f.chunk.js": "/static/js/787.211b8f8f.chunk.js",
     "static/media/rpg-menu.png": "/static/media/rpg-menu.9a57e6e04b8903dff3a9.png",
     "static/media/background.png": "/static/media/background.f14951415d793e01cff8.png",
@@ -9,12 +9,12 @@
     "static/media/fcc_background.png": "/static/media/fcc_background.fdfca80c9987080c8f44.png",
     "static/media/fcc_primary_large.png": "/static/media/fcc_primary_large.5486935b905c7949600c.png",
     "index.html": "/index.html",
-    "main.8eb015ae.css.map": "/static/css/main.8eb015ae.css.map",
-    "main.1e1aaaeb.js.map": "/static/js/main.1e1aaaeb.js.map",
+    "main.0ff5fe85.css.map": "/static/css/main.0ff5fe85.css.map",
+    "main.ff0b306a.js.map": "/static/js/main.ff0b306a.js.map",
     "787.211b8f8f.chunk.js.map": "/static/js/787.211b8f8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8eb015ae.css",
-    "static/js/main.1e1aaaeb.js"
+    "static/css/main.0ff5fe85.css",
+    "static/js/main.ff0b306a.js"
   ]
 }
