@@ -27,6 +27,8 @@ All of the helpful and thoughtful resources are made possible by the generous do
 Have a look  [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/) at the different ways  you can support our non-profit's  mission and make tech education accessible to all.
 
 ## How to run the quiz questions locally
+Here are directions on how to fork the freeCodeCamp/Developer_Quiz_Site repository:<br>
+https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 In the command line:
 
