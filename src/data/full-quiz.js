@@ -366,14 +366,12 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-python-operators",
   },
   {
-    Question:
-      "A value associated with an object that can be referenced by its name using dot notation is know as...",
+    Question: "In Python, what is the name of a value associated with an object that can be referenced by its name using dot notation?",
     Answer: "Attribute",
     Distractor1: "Property",
     Distractor2: "Characteristic",
     Distractor3: "Method",
-    Explanation:
-      "An attribute is a value associated with an object that can be referenced by its name using dot notation.",
+    Explanation: "An attribute is a value associated with an object that can be referenced by its name using dot notation.",
     Link: "https://docs.python.org/3/glossary.html",
   },
   {
