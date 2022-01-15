@@ -4719,14 +4719,12 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-any-and-all-functions-explained-with-examples/",
   },
   {
-    Question:
-      "Which command is used to display the NAME of the operating system?",
-    Answer: "uname -s",
+    Question: "Which command is used to display the NAME of the operating system?",
+    Answer: "uname -o",
     Distractor1: "uname -r",
     Distractor2: "uname -k",
     Distractor3: "uname -u",
-    Explanation:
-      "The s option of the uname command prints the Operating System name",
+    Explanation: "The uname -o command prints the Operating System name",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
   },
   {
