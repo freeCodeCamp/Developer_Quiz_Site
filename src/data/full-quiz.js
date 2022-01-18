@@ -1,5 +1,38 @@
 const fullQuiz = [
   {
+    Question:
+      "What kind of function accepts another function as an argument?",
+    Answer: "Higher order",
+    Distractor1: "Arrow function",
+    Distractor2: "Anonymous function",
+    Distractor3: "Named function",
+    Explanation:
+      "A Higher Order Function is any function that returns a function when executed, takes a function as one or more of its arguments, or both.",
+    Link: "https://www.freecodecamp.org/news/higher-order-functions-in-javascript-d9101f9cf528/",
+  },
+  {
+    Question:
+      "Which pair of symbols can be used in place of quotes to define a string?",
+    Answer: "Template literals : ``",
+    Distractor1: "Square brackets: []",
+    Distractor2: "Curly braces: {}",
+    Distractor3: "Angle brackets: <>",
+    Explanation:
+      "Template literals are literals delimited with backticks (`), allowing embedded expressions called substitutions. Untagged template literals result in strings, which makes them useful for string interpolation (and multiline strings, since unescaped newlines are allowed).",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
+  },
+  {
+    Question:
+      "What is the name of the method that is used to convert a string into an array?",
+    Answer: "split()",
+    Distractor1: "slice()",
+    Distractor2: "trim()",
+    Distractor3: "concat()",
+    Explanation:
+      "The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
+  },
+  {
     Question: "What is Big O Notation?",
     Answer: "A way to measure the performance and efficiency of an algorithm.",
     Distractor1: "A way to notate changes from the server.",
