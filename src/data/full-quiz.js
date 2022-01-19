@@ -1,7 +1,7 @@
 const fullQuiz = [
   {
     Question:
-      "Which of the following is the default separator in join() method in javascript?",
+      "Which of the following is the default separator in the join() method in JavaScript?",
     Answer: "comma (',')",
     Distractor1: "space (' ')",
     Distractor2: "empty string ('')",
@@ -12,18 +12,7 @@ const fullQuiz = [
   }
   ,{
     Question:
-      "Which method can be used to convert an array into a string in javascript?",
-    Answer: "join()",
-    Distractor1: "split()",
-    Distractor2: "reduce()",
-    Distractor3: "map()",
-    Explanation:
-      "The join() method returns a string with all the elements of the calling array joined (with or without a specified separator).",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
-  }
-  ,{
-    Question:
-      "Which method boils an array down to a single value in javascript?",
+      "Which method boils an array down to a single value in JavaScript?",
     Answer: "reduce()",
     Distractor1: "map()",
     Distractor2: "filter()",
@@ -34,7 +23,7 @@ const fullQuiz = [
   }
   ,{
     Question:
-      "Which method iterates over the elements of an array and creates a new array of elements that fulfil the condition(s) specified inside a function within said method in javascript?",
+      "Which method iterates over the elements of an array and creates a new array of elements that fulfil the condition(s) specified inside a function within said method in JavaScript?",
     Answer: "filter()",
     Distractor1: "map()",
     Distractor2: "reduce()",
@@ -45,7 +34,7 @@ const fullQuiz = [
   }
   ,{
     Question:
-      "Which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method in javascript?",
+      "Which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method in JavaScript?",
     Answer: "map()",
     Distractor1: "filter()",
     Distractor2: "reduce()",
