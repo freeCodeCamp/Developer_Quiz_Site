@@ -1,6 +1,61 @@
 const fullQuiz = [
   {
     Question:
+      "Which of the following is the default separator in join() method in javascript?",
+    Answer: "comma (',')",
+    Distractor1: "space (' ')",
+    Distractor2: "empty string ('')",
+    Distractor3: "full-stop ('.')",
+    Explanation:
+      "If a separator is omitted, the array elements are separated with a comma (',').",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+  }
+  ,{
+    Question:
+      "Which method can be used to convert an array into a string in javascript?",
+    Answer: "join()",
+    Distractor1: "split()",
+    Distractor2: "reduce()",
+    Distractor3: "map()",
+    Explanation:
+      "The join() method returns a string with all the elements of the calling array joined (with or without a specified separator).",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
+  }
+  ,{
+    Question:
+      "Which method boils an array down to a single value in javascript?",
+    Answer: "reduce()",
+    Distractor1: "map()",
+    Distractor2: "filter()",
+    Distractor3: "forEach()",
+    Explanation:
+      "The reduce() method iterates over the entire array and returns the value that results from running the “reducer” callback function to completion. The returned result is a single value.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-array-methods-reduce/",
+  }
+  ,{
+    Question:
+      "Which method iterates over the elements of an array and creates a new array of elements that fulfil the condition(s) specified inside a function within said method in javascript?",
+    Answer: "filter()",
+    Distractor1: "map()",
+    Distractor2: "reduce()",
+    Distractor3: "forEach()",
+    Explanation:
+      "The filter() method creates a new array and returns all of the items which pass the condition specified in the callback.",
+    Link: "https://www.freecodecamp.org/news/javascript-array-filter-tutorial-how-to-iterate-through-elements-in-an-array/",
+  }
+  ,{
+    Question:
+      "Which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method in javascript?",
+    Answer: "map()",
+    Distractor1: "filter()",
+    Distractor2: "reduce()",
+    Distractor3: "forEach()",
+    Explanation:
+      "The map() method creates a new array filled with the results of calling a function (provided within the method) on every element in the array that calls the method.",
+    Link: "https://www.freecodecamp.org/news/array-map-tutorial/",
+  }
+  ,{
+    Question:
       "What kind of function accepts another function as an argument?",
     Answer: "Higher order",
     Distractor1: "Arrow function",
