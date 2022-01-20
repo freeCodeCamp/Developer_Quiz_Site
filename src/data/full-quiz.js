@@ -7,7 +7,7 @@ const fullQuiz = [
     Distractor2: "getElementsByName()",
     Distractor3: "getElementsByTagName()",
     Explanation:
-    "The getElementsByClassName method of Document interface returns an array-like object of all child elements which have all of the given class name(s).",
+    "The getElementsByClassName method returns an object containing all of the child elements with that given class name.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName",
   },
 {
@@ -29,7 +29,7 @@ const fullQuiz = [
     Distractor2: "unshift()",
     Distractor3: "from()",
     Explanation:
-    "The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending, built upon converting the elements into strings, then comparing their sequences of UTF-16 code units values",
+    "The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
   },
 {
@@ -38,7 +38,7 @@ const fullQuiz = [
     Answer: "reverse()",
     Distractor1: "from()",
     Distractor2: "unshift()",
-    Distractor3: "sort()",
+    Distractor3: "join()",
     Explanation:
     "The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
@@ -51,7 +51,7 @@ const fullQuiz = [
     Distractor2: "valueOf()",
     Distractor3: "charAt(0)",
     Explanation:
-    "The indexOf() method returns the index within the calling String object of the first occurrence of the specified value, starting the search at fromIndex. Returns -1 if the value is not found.",
+    "The indexOf() method returns the first index of the specified value in a string and will return -1 if it is not present.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
   },
   {
