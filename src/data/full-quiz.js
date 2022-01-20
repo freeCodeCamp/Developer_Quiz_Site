@@ -1,4 +1,41 @@
 const fullQuiz = [
+  
+   {
+   Question:
+     "Which operator is used to find remainder in Python?",
+    Answer: "%",
+    Distractor1: "*",
+    Distractor2: "X",
+    Distractor3: "/",
+    Distractor4: "#",
+    Explanation:
+    "The % symbol in Python is called the Modulo Operator. It returns the remainder of dividing the left hand operand by right hand operand. It's used to get the remainder of a division problem.",
+    Link: "https://www.freecodecamp.org/news/the-python-modulo-operator-what-does-the-symbol-mean-in-python-solved/",
+  },
+  {
+   Question:
+     "What is the correct way to create a function in Python?",
+    Answer: "def function_name(parameters):",
+    Distractor1: "function function_name(parameter):",
+    Distractor2: "def function_name(parameters):",
+    Distractor3: "create function_name(parameters):",
+    Distractor4: "none",
+    Explanation:
+    "The following snippet shows the general syntax to define a function in Python: def function_name(parameters):",
+    Link: "https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/",
+  },
+  { 
+    Question:
+     "What is a correct syntax to output "Hello World" in Python?",
+    Answer: "print("Hello World")",
+    Distractor1: "echo("Hello World")",
+    Distractor2: "p("Hello World")",
+    Distractor3: "printf("Hello World")",
+    Distractor4: "echo(Hello World)",
+    Explanation:
+    "In Python 2, there was an internal limit to how large an integer value could be. But that limit was removed in Python 3.",
+    Link: "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/",
+  },
   {
     Question:
       "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
