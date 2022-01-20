@@ -1,6 +1,61 @@
 const fullQuiz = [
   {
     Question:
+      "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
+    Answer: "getElementsByClassName()",
+    Distractor1: "querySelector()",
+    Distractor2: "getElementsByName()",
+    Distractor3: "getElementsByTagName()",
+    Explanation:
+    "The getElementsByClassName method returns an object containing all of the child elements with that given class name.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName",
+  },
+{
+    Question:
+      "Which operator is used to concatenate strings in JavaScript?",
+    Answer: "+",
+    Distractor1: "*",
+    Distractor2: "&",
+    Distractor3: "#",
+    Explanation:
+    "The addition operator (+) produces the sum of numeric operands or string concatenation.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition",
+  },
+{
+    Question:
+      "What method is used to arrange array values into alphabetical and/or ascending order?",
+    Answer: "sort()",
+    Distractor1: "shift()",
+    Distractor2: "unshift()",
+    Distractor3: "from()",
+    Explanation:
+    "The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
+  },
+{
+    Question:
+      "What method is used to arrange array values into descending order?",
+    Answer: "reverse()",
+    Distractor1: "from()",
+    Distractor2: "unshift()",
+    Distractor3: "join()",
+    Explanation:
+    "The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
+  },
+{
+    Question:
+      "The ____________ method returns the index position of the first occurrence of a value in a string.",
+    Answer: "indexOf()",
+    Distractor1: "getPosition()",
+    Distractor2: "valueOf()",
+    Distractor3: "charAt(0)",
+    Explanation:
+    "The indexOf() method returns the first index of the specified value in a string and will return -1 if it is not present.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
+  },
+  {
+    Question:
       "Which of the following is the default separator in the join() method in JavaScript?",
     Answer: "comma (',')",
     Distractor1: "space (' ')",
