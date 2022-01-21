@@ -7,7 +7,6 @@ const fullQuiz = [
     Distractor1: "switch()",
     Distractor2: "repl()",
     Distractor3: "find()",
-    Distractor4: "replacString()",
     Explanation:
     "If you need to search through a string for a pattern, and replace it with another pattern, you can use the replace() method.",
     Link: "https://www.freecodecamp.org/news/python-string-methods-tutorial-how-to-use-find-and-replace-on-python-strings/",
