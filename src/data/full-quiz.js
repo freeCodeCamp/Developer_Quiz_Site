@@ -1,4 +1,38 @@
 const fullQuiz = [
+  
+   {
+   Question:
+     "Which method can be used to replace parts of a string?",
+    Answer: "replace()",
+    Distractor1: "switch()",
+    Distractor2: "repl()",
+    Distractor3: "find()",
+    Explanation:
+    "If you need to search through a string for a pattern, and replace it with another pattern, you can use the replace() method.",
+    Link: "https://www.freecodecamp.org/news/python-string-methods-tutorial-how-to-use-find-and-replace-on-python-strings/",
+  },
+  {
+   Question:
+     "What is the correct way to create a function in Python?",
+    Answer: "def function_name(parameters):",
+    Distractor1: "function function_name(parameter):",
+    Distractor2: "definition function_name {[parameters]}:",
+    Distractor3: "create function_name(parameters):",
+    Explanation:
+    "The following snippet shows the general syntax to define a function in Python: def function_name(parameters):",
+    Link: "https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/",
+  },
+  { 
+    Question:
+     "What is a correct syntax to output 'Hello World' in Python?",
+    Answer: "print('Hello World')",
+    Distractor1: "echo('Hello World')",
+    Distractor2: "p('Hello World')",
+    Distractor3: "printf('Hello World')",
+    Explanation:
+    "To print anything in Python, you use the print() function.",
+    Link: "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/",
+  },
   {
     Question:
       "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
