@@ -2,38 +2,36 @@ const fullQuiz = [
   
    {
    Question:
-     "Which operator is used to find remainder in Python?",
-    Answer: "%",
-    Distractor1: "*",
-    Distractor2: "X",
-    Distractor3: "/",
-    Distractor4: "#",
+     "Which method can be used to replace parts of a string?",
+    Answer: "replace()",
+    Distractor1: "switch()",
+    Distractor2: "repl()",
+    Distractor3: "find()",
+    Distractor4: "replacString()",
     Explanation:
-    "The % symbol in Python is called the Modulo Operator. It returns the remainder of dividing the left hand operand by right hand operand. It's used to get the remainder of a division problem.",
-    Link: "https://www.freecodecamp.org/news/the-python-modulo-operator-what-does-the-symbol-mean-in-python-solved/",
+    "If you need to search through a string for a pattern, and replace it with another pattern, you can use the replace() method.",
+    Link: "https://www.freecodecamp.org/news/python-string-methods-tutorial-how-to-use-find-and-replace-on-python-strings/",
   },
   {
    Question:
      "What is the correct way to create a function in Python?",
     Answer: "def function_name(parameters):",
     Distractor1: "function function_name(parameter):",
-    Distractor2: "def function_name(parameters):",
+    Distractor2: "definition function_name {[parameters]}:",
     Distractor3: "create function_name(parameters):",
-    Distractor4: "none",
     Explanation:
     "The following snippet shows the general syntax to define a function in Python: def function_name(parameters):",
     Link: "https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/",
   },
   { 
     Question:
-     "What is a correct syntax to output "Hello World" in Python?",
-    Answer: "print("Hello World")",
-    Distractor1: "echo("Hello World")",
-    Distractor2: "p("Hello World")",
-    Distractor3: "printf("Hello World")",
-    Distractor4: "echo(Hello World)",
+     "What is a correct syntax to output 'Hello World' in Python?",
+    Answer: "print('Hello World')",
+    Distractor1: "echo('Hello World')",
+    Distractor2: "p('Hello World')",
+    Distractor3: "printf('Hello World')",
     Explanation:
-    "In Python 2, there was an internal limit to how large an integer value could be. But that limit was removed in Python 3.",
+    "To print anything in Python, you use the print() function.",
     Link: "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/",
   },
   {
