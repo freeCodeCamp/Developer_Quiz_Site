@@ -5810,5 +5810,23 @@ const fullQuiz = [
     Explanation: "Parameter Random Access Memory is a battery powered RAM for older Mac computers that holds important information for your system.",
     Link: "https://www.freecodecamp.org/news/pram-definition/",
   },
+  {
+    Question: "What is the value of x ? let x = undefined || 1;",
+    Answer: "1",
+    Distractor1: "2",
+    Distractor2: "undefined",
+    Distractor3: "null",
+    Explanation: "The value of x is 1 because undefined is a falsy value and that's why 1 is assigned to the variable x.",
+    Link: "https://www.freecodecamp.org/news/javascript-logical-operators/",
+  },
+  {
+    Question: "How do you create a promise inside a function in JavaScript ?",
+    Answer: "return new Promise((resolve, reject) => {})",
+    Distractor1: "return new Promise(resolve, reject)",
+    Distractor2: "return new Promise((resolve, reject))",
+    Distractor3: "return Promise((reject, resolve))",
+    Explanation: "You can use a promise inside a function with the following syntax: return new Promise((resolve, reject) => {})",
+    Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
+  },
 ];
 export default fullQuiz;
