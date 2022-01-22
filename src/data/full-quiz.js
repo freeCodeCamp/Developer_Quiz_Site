@@ -1,116 +1,95 @@
 const fullQuiz = [
-  
-   {
-   Question:
-     "Which method can be used to replace parts of a string?",
+  {
+    Question: "Which method can be used to replace parts of a string?",
     Answer: "replace()",
     Distractor1: "switch()",
     Distractor2: "repl()",
     Distractor3: "find()",
-    Explanation:
-    "If you need to search through a string for a pattern, and replace it with another pattern, you can use the replace() method.",
+    Explanation: "If you need to search through a string for a pattern, and replace it with another pattern, you can use the replace() method.",
     Link: "https://www.freecodecamp.org/news/python-string-methods-tutorial-how-to-use-find-and-replace-on-python-strings/",
   },
   {
-   Question:
-     "What is the correct way to create a function in Python?",
+    Question: "What is the correct way to create a function in Python?",
     Answer: "def function_name(parameters):",
     Distractor1: "function function_name(parameter):",
     Distractor2: "definition function_name {[parameters]}:",
     Distractor3: "create function_name(parameters):",
-    Explanation:
-    "The following snippet shows the general syntax to define a function in Python: def function_name(parameters):",
+    Explanation: "The following snippet shows the general syntax to define a function in Python: def function_name(parameters):",
     Link: "https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/",
   },
-  { 
-    Question:
-     "What is a correct syntax to output 'Hello World' in Python?",
+  {
+    Question: "What is a correct syntax to output 'Hello World' in Python?",
     Answer: "print('Hello World')",
     Distractor1: "echo('Hello World')",
     Distractor2: "p('Hello World')",
     Distractor3: "printf('Hello World')",
-    Explanation:
-    "To print anything in Python, you use the print() function.",
+    Explanation: "To print anything in Python, you use the print() function.",
     Link: "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/",
   },
   {
-    Question:
-      "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
+    Question: "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
     Answer: "getElementsByClassName()",
     Distractor1: "querySelector()",
     Distractor2: "getElementsByName()",
     Distractor3: "getElementsByTagName()",
-    Explanation:
-    "The getElementsByClassName method returns an object containing all of the child elements with that given class name.",
+    Explanation: "The getElementsByClassName method returns an object containing all of the child elements with that given class name.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName",
   },
-{
-    Question:
-      "Which operator is used to concatenate strings in JavaScript?",
+  {
+    Question: "Which operator is used to concatenate strings in JavaScript?",
     Answer: "+",
     Distractor1: "*",
     Distractor2: "&",
     Distractor3: "#",
-    Explanation:
-    "The addition operator (+) produces the sum of numeric operands or string concatenation.",
+    Explanation: "The addition operator (+) produces the sum of numeric operands or string concatenation.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition",
   },
-{
-    Question:
-      "What method is used to arrange array values into alphabetical and/or ascending order?",
+  {
+    Question: "What method is used to arrange array values into alphabetical and/or ascending order?",
     Answer: "sort()",
     Distractor1: "shift()",
     Distractor2: "unshift()",
     Distractor3: "from()",
-    Explanation:
-    "The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending.",
+    Explanation: "The sort() method sorts the elements of an array in place and returns the sorted array. The default sort order is ascending.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort",
   },
-{
-    Question:
-      "What method is used to arrange array values into descending order?",
+  {
+    Question: "What method is used to arrange array values into descending order?",
     Answer: "reverse()",
     Distractor1: "from()",
     Distractor2: "unshift()",
     Distractor3: "join()",
-    Explanation:
-    "The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.",
+    Explanation: "The reverse() method reverses an array in place. The first array element becomes the last, and the last array element becomes the first.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse",
   },
-{
-    Question:
-      "The ____________ method returns the index position of the first occurrence of a value in a string.",
+  {
+    Question: "The ____________ method returns the index position of the first occurrence of a value in a string.",
     Answer: "indexOf()",
     Distractor1: "getPosition()",
     Distractor2: "valueOf()",
     Distractor3: "charAt(0)",
-    Explanation:
-    "The indexOf() method returns the first index of the specified value in a string and will return -1 if it is not present.",
+    Explanation: "The indexOf() method returns the first index of the specified value in a string and will return -1 if it is not present.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf",
   },
   {
-    Question:
-      "Which of the following is the default separator in the join() method in JavaScript?",
+    Question: "Which of the following is the default separator in the join() method in JavaScript?",
     Answer: "comma (',')",
     Distractor1: "space (' ')",
     Distractor2: "empty string ('')",
     Distractor3: "full-stop ('.')",
-    Explanation:
-      "If a separator is omitted, the array elements are separated with a comma (',').",
+    Explanation: "If a separator is omitted, the array elements are separated with a comma (',').",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
-  }
-  , {
-    Question:
-      "Which method boils an array down to a single value in JavaScript?",
+  },
+  {
+    Question: "Which method boils an array down to a single value in JavaScript?",
     Answer: "reduce()",
     Distractor1: "map()",
     Distractor2: "filter()",
     Distractor3: "forEach()",
-    Explanation:
-      "The reduce() method iterates over the entire array and returns the value that results from running the “reducer” callback function to completion. The returned result is a single value.",
+    Explanation: "The reduce() method iterates over the entire array and returns the value that results from running the “reducer” callback function to completion. The returned result is a single value.",
     Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-javascript-array-methods-reduce/",
-  }
-  , {
+  },
+  {
     Question: "Which JavaScript method creates a new array and returns all of the items which pass the condition specified in the callback?",
     Answer: "filter()",
     Distractor1: "split()",
@@ -118,49 +97,41 @@ const fullQuiz = [
     Distractor3: "flat()",
     Explanation: "The filter() method creates a new array and returns all of the items which pass the condition specified in the callback.",
     Link: "https://www.freecodecamp.org/news/javascript-array-filter-tutorial-how-to-iterate-through-elements-in-an-array/",
-  }
-  , {
-    Question:
-      "Which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method in JavaScript?",
+  },
+  {
+    Question: "Which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method in JavaScript?",
     Answer: "map()",
     Distractor1: "reverse()",
     Distractor2: "split()",
     Distractor3: "concat()",
-    Explanation:
-      "The map() method creates a new array filled with the results of calling a function (provided within the method) on every element in the array that calls the method.",
+    Explanation: "The map() method creates a new array filled with the results of calling a function (provided within the method) on every element in the array that calls the method.",
     Link: "https://www.freecodecamp.org/news/array-map-tutorial/",
-  }
-  , {
-    Question:
-      "What kind of function accepts another function as an argument?",
+  },
+  {
+    Question: "What kind of function accepts another function as an argument?",
     Answer: "Higher order",
     Distractor1: "Arrow function",
     Distractor2: "Anonymous function",
     Distractor3: "Named function",
-    Explanation:
-      "A Higher Order Function is any function that returns a function when executed, takes a function as one or more of its arguments, or both.",
+    Explanation: "A Higher Order Function is any function that returns a function when executed, takes a function as one or more of its arguments, or both.",
     Link: "https://www.freecodecamp.org/news/higher-order-functions-in-javascript-d9101f9cf528/",
   },
   {
-    Question:
-      "Which pair of symbols can be used in place of quotes to define a string?",
+    Question: "Which pair of symbols can be used in place of quotes to define a string?",
     Answer: "Template literals : ``",
     Distractor1: "Square brackets: []",
     Distractor2: "Curly braces: {}",
     Distractor3: "Angle brackets: <>",
-    Explanation:
-      "Template literals are literals delimited with backticks (`), allowing embedded expressions called substitutions. Untagged template literals result in strings, which makes them useful for string interpolation (and multiline strings, since unescaped newlines are allowed).",
+    Explanation: "Template literals are literals delimited with backticks (`), allowing embedded expressions called substitutions. Untagged template literals result in strings, which makes them useful for string interpolation (and multiline strings, since unescaped newlines are allowed).",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals",
   },
   {
-    Question:
-      "What is the name of the method that is used to convert a string into an array?",
+    Question: "What is the name of the method that is used to convert a string into an array?",
     Answer: "split()",
     Distractor1: "slice()",
     Distractor2: "trim()",
     Distractor3: "concat()",
-    Explanation:
-      "The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.",
+    Explanation: "The split() method divides a String into an ordered list of substrings, puts these substrings into an array, and returns the array.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split",
   },
   {
@@ -169,19 +140,16 @@ const fullQuiz = [
     Distractor1: "A way to notate changes from the server.",
     Distractor2: "A way to notate the different types in a file system.",
     Distractor3: "A way to notate the different elements in an array.",
-    Explanation:
-      "Big O notation is a way to measure the performance of an algorithm.",
+    Explanation: "Big O notation is a way to measure the performance of an algorithm.",
     Link: "https://www.freecodecamp.org/news/learn-big-o-notation/",
   },
   {
-    Question:
-      "Which Linux command prints the path to the current directory you are in?",
+    Question: "Which Linux command prints the path to the current directory you are in?",
     Answer: "pwd",
     Distractor1: "cat",
     Distractor2: "cd",
     Distractor3: "ls",
-    Explanation:
-      "pwd(short for print working directory) prints the current folder path and is helpful when you are lost in the terminal.",
+    Explanation: "pwd(short for print working directory) prints the current folder path and is helpful when you are lost in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
   },
   {
@@ -194,14 +162,12 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/",
   },
   {
-    Question:
-      "What CSS selector is used to set the style of links for the moment they are clicked?",
+    Question: "What CSS selector is used to set the style of links for the moment they are clicked?",
     Answer: "a:active",
     Distractor1: "a:hover",
     Distractor2: "a:visited",
     Distractor3: "a:link",
-    Explanation:
-      "With a:active you can set the style of links for the moment they are clicked.",
+    Explanation: "With a:active you can set the style of links for the moment they are clicked.",
     Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
   },
   {
@@ -223,8 +189,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-dns/",
   },
   {
-    Question:
-      "Which one of these values represents 20% of the viewport height?",
+    Question: "Which one of these values represents 20% of the viewport height?",
     Answer: "20vh",
     Distractor1: "200vh",
     Distractor2: "2vh",
@@ -238,8 +203,7 @@ const fullQuiz = [
     Distractor1: "{}",
     Distractor2: "dict()",
     Distractor3: "()",
-    Explanation:
-      "You must call the set() function to create an empty set in Python.",
+    Explanation: "You must call the set() function to create an empty set in Python.",
     Link: "https://www.freecodecamp.org/news/python-sets-detailed-visual-introduction/",
   },
   {
@@ -257,19 +221,16 @@ const fullQuiz = [
     Distractor1: "Truthy",
     Distractor2: "FALSENESS",
     Distractor3: "TRUENESS",
-    Explanation:
-      "Empty sequences, collections, and the number 0 are falsy values in Python.",
+    Explanation: "Empty sequences, collections, and the number 0 are falsy values in Python.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",
   },
   {
-    Question:
-      "What JavaScript method removes the first element of an array and returns it?",
+    Question: "What JavaScript method removes the first element of an array and returns it?",
     Answer: ".shift()",
     Distractor1: ".push()",
     Distractor2: ".pop()",
     Distractor3: ".unshift()",
-    Explanation:
-      "The .shift() method removes the first element of an array and returns it. ",
+    Explanation: "The .shift() method removes the first element of an array and returns it. ",
     Link: "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
   },
   {
@@ -278,8 +239,7 @@ const fullQuiz = [
     Distractor1: "It sets a delay for the animation to start.",
     Distractor2: "It sets how many times an animation should run.",
     Distractor3: "It determines how long an animation should last in seconds.",
-    Explanation:
-      "The animation-fill-mode property is used to style the element after the animation ends.",
+    Explanation: "The animation-fill-mode property is used to style the element after the animation ends.",
     Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
   },
   {
@@ -288,35 +248,29 @@ const fullQuiz = [
     Distractor1: "tar",
     Distractor2: "uname",
     Distractor3: "gzip",
-    Explanation:
-      "Curl is a command-line tool that allows us to do HTTP requests from shell",
+    Explanation: "Curl is a command-line tool that allows us to do HTTP requests from shell",
     Link: "https://www.freecodecamp.org/news/how-to-start-using-curl-and-why-a-hands-on-introduction-ea1c913caaaa/",
   },
   {
-    Question:
-      "What is the HTML character entity for the left single quote symbol?",
+    Question: "What is the HTML character entity for the left single quote symbol?",
     Answer: "&lsquo;",
     Distractor1: "&rsquo;",
     Distractor2: "&leftquo;",
     Distractor3: "&lsquotes;",
-    Explanation:
-      "The &lsquo; character entity is used to display the left single quote symbol in HTML.",
+    Explanation: "The &lsquo; character entity is used to display the left single quote symbol in HTML.",
     Link: "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/",
   },
   {
-    Question:
-      "Which Linux command is used to remove adjacent duplicate lines inside a file?",
+    Question: "Which Linux command is used to remove adjacent duplicate lines inside a file?",
     Answer: "uniq",
     Distractor1: "sort",
     Distractor2: "rm",
     Distractor3: "rmdir",
-    Explanation:
-      "The uniq command removes duplicate lines in a file, by default.",
+    Explanation: "The uniq command removes duplicate lines in a file, by default.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question:
-      "What is the name of the HTML element that shows content added to the document?",
+    Question: "What is the name of the HTML element that shows content added to the document?",
     Answer: "<ins>",
     Distractor1: "<map>",
     Distractor2: "<mark>",
@@ -330,8 +284,7 @@ const fullQuiz = [
     Distractor1: "Absolute",
     Distractor2: "Fixed",
     Distractor3: "Dynamic",
-    Explanation:
-      "In CSS, relative units are relative to other length values. Several of the relative units depend on the viewport size.",
+    Explanation: "In CSS, relative units are relative to other length values.",
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#why-learn-css-relative-units",
   },
   {
@@ -340,8 +293,7 @@ const fullQuiz = [
     Distractor1: "it creates a title above the img tag",
     Distractor2: "it creates a title below the img tag",
     Distractor3: "it creates a title to the left of the img tag",
-    Explanation:
-      "The title attribute can be used to provide additional information about the image",
+    Explanation: "The title attribute can be used to provide additional information about the image",
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
@@ -350,19 +302,16 @@ const fullQuiz = [
     Distractor1: "mkdir -27",
     Distractor2: "makedir",
     Distractor3: "makedir -p",
-    Explanation:
-      "You can create multiple nested folders by adding the -p option to the mkdir command.",
+    Explanation: "You can create multiple nested folders by adding the -p option to the mkdir command.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question:
-      "What is the name of the CSS grid property used to position items inside grid containers along the main axis?",
+    Question: "What is the name of the CSS grid property used to position items inside grid containers along the main axis?",
     Answer: "justify-items",
     Distractor1: "justify-content",
     Distractor2: "justify-rows",
     Distractor3: "justify-columns",
-    Explanation:
-      "The justify-items property is used to position items within a grid container along the x-axis (main axis).",
+    Explanation: "The justify-items property is used to position items within a grid container along the x-axis (main axis).",
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
@@ -371,8 +320,7 @@ const fullQuiz = [
     Distractor1: "Provides descriptive text for the image",
     Distractor2: "Provides the height of the image",
     Distractor3: "Provides the width of the image",
-    Explanation:
-      "The src attribute represents the source for the image so the browser knows where to locate it.",
+    Explanation: "The src attribute represents the source for the image so the browser knows where to locate it.",
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
@@ -385,46 +333,39 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-comment-how-to-comment-out-a-line-or-tag-in-html/",
   },
   {
-    Question: "What is the “greater than” operator in Python?",
+    Question: "What is the 'greater than' operator in Python?",
     Answer: ">",
     Distractor1: ">=",
     Distractor2: "<",
     Distractor3: "<=",
-    Explanation:
-      "The “greater than” operator is > in Python. It returns True if the value on the left is greater than the value on the right. We can also use it to compare strings in alphabetical order.",
+    Explanation: "The 'greater than' operator is > in Python. It returns True if the value on the left is greater than the value on the right. We can also use it to compare strings in alphabetical order.",
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-python-operators",
   },
   {
-    Question:
-      "Which one of these methods is NOT used to select elements in an HTML document?",
+    Question: "Which one of these methods is NOT used to select elements in an HTML document?",
     Answer: "typeof",
     Distractor1: "getElementById",
     Distractor2: "querySelector",
     Distractor3: "querySelectorAll",
-    Explanation:
-      "There are a few methods to select elements from the HTML document including .querySelector(), .querySelectorAll() and .getElementById().",
+    Explanation: "There are a few methods to select elements from the HTML document including .querySelector(), .querySelectorAll() and .getElementById().",
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
   },
   {
-    Question:
-      "What is the name of the technique used to extract an object's values into new variables?",
+    Question: "What is the name of the technique used to extract an object's values into new variables?",
     Answer: "Object destructuring",
     Distractor1: "Array destructuring",
     Distractor2: "Hoisting",
     Distractor3: "typeof",
-    Explanation:
-      "Object destructuring is used to extract an object's values into new variables.",
+    Explanation: "Object destructuring is used to extract an object's values into new variables.",
     Link: "https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript/",
   },
   {
     Question: "What is the Design Thinking Process?",
-    Answer:
-      "A process to come up with creative, user centric solutions to complex problems.",
+    Answer: "A process to come up with creative, user centric solutions to complex problems.",
     Distractor1: "A process to fix computers.",
     Distractor2: "A process to design mockups.",
     Distractor3: "A process to troubleshoot Windows applications.",
-    Explanation:
-      "The Design Thinking Process is a way to come up with creative, user centric solutions to complex problems.",
+    Explanation: "The Design Thinking Process is a way to come up with creative, user centric solutions to complex problems.",
     Link: "https://www.freecodecamp.org/news/the-design-thinking-process-explained/",
   },
   {
@@ -433,30 +374,25 @@ const fullQuiz = [
     Distractor1: ".slice()",
     Distractor2: ".filter()",
     Distractor3: ".join()",
-    Explanation:
-      "The .splice() method modifies an array in place and it can be used to remove or add elements to an array.",
+    Explanation: "The .splice() method modifies an array in place and it can be used to remove or add elements to an array.",
     Link: "https://www.freecodecamp.org/news/javascript-array-slice-vs-splice-whats-the-difference/",
   },
   {
-    Question:
-      "Which is the default shell provided with most Linux based systems?",
+    Question: "Which is the default shell provided with most Linux based systems?",
     Answer: "Bourne Again SHell",
     Distractor1: "PowerSHell",
     Distractor2: "Emacs",
     Distractor3: "Fish",
-    Explanation:
-      "Bash (short for Bourne Again SHell) is the most widely used shell, packaged by default for most Linux distributions",
+    Explanation: "Bash (short for Bourne Again SHell) is the most widely used shell, packaged by default for most Linux distributions",
     Link: "https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/",
   },
   {
-    Question:
-      "What aggregate function in SQL allows you to count the number of rows and return that count as a column in the result set?",
+    Question: "What aggregate function in SQL allows you to count the number of rows and return that count as a column in the result set?",
     Answer: "COUNT()",
     Distractor1: "AVG()",
     Distractor2: "MINIMUM()",
     Distractor3: "AVERAGE()",
-    Explanation:
-      "The COUNT() function is used to count the number of rows and return that count as a column in the result set",
+    Explanation: "The COUNT() function is used to count the number of rows and return that count as a column in the result set",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
@@ -465,8 +401,7 @@ const fullQuiz = [
     Distractor1: "?",
     Distractor2: "[]",
     Distractor3: "!",
-    Explanation:
-      "You can use the wildcard (*) to select all files in a directory. For example the ls * command would list ALL files in the current directory.",
+    Explanation: "You can use the wildcard (*) to select all files in a directory. For example the ls * command would list ALL files in the current directory.",
     Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
   },
   {
@@ -475,8 +410,7 @@ const fullQuiz = [
     Distractor1: "Control Unit",
     Distractor2: "Arithmetic Logic Unit",
     Distractor3: "Registers",
-    Explanation:
-      "The Control Unit, Arithmetic Logic Unit, and Registers are important parts of the CPU. ",
+    Explanation: "The Control Unit, Arithmetic Logic Unit, and Registers are important parts of the CPU. ",
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
@@ -485,8 +419,7 @@ const fullQuiz = [
     Distractor1: "A category of media that only works for mobile devices.",
     Distractor2: "A category of media that only works for print media.",
     Distractor3: "A category of media that only works for tablets.",
-    Explanation:
-      "The all media type is a category of media that will work for all media devices.",
+    Explanation: "The all media type is a category of media that will work for all media devices.",
     Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
   },
   {
@@ -499,14 +432,12 @@ const fullQuiz = [
     Link: "https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-comment-your-javascript-code/16783",
   },
   {
-    Question:
-      "Which Linux command displays information about the Operating System?",
+    Question: "Which Linux command displays information about the Operating System?",
     Answer: "uname",
     Distractor1: "echo",
     Distractor2: "man",
     Distractor3: "find",
-    Explanation:
-      "Calling uname without any options will return the Operating System codename. The m option shows the hardware name and the p option prints the processor architecture name.",
+    Explanation: "Calling uname without any options will return the Operating System codename. The m option shows the hardware name and the p option prints the processor architecture name.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
   },
   {
@@ -515,8 +446,7 @@ const fullQuiz = [
     Distractor1: "2001",
     Distractor2: "1910",
     Distractor3: "2030",
-    Explanation:
-      "The first version of the freeCodeCamp curriculum went live in 2014, from Quincy Larson's closet office in San Francisco. Other developers quickly stepped in to help expand the curriculum and save him from madness.",
+    Explanation: "The first version of the freeCodeCamp curriculum went live in 2014, from Quincy Larson's closet office in San Francisco. Other developers quickly stepped in to help expand the curriculum and save him from madness.",
     Link: "https://www.freecodecamp.org/news/about/",
   },
   {
@@ -525,8 +455,7 @@ const fullQuiz = [
     Distractor1: "“Hihi”",
     Distractor2: "“HiHiHiHi”",
     Distractor3: "A SyntaxError",
-    Explanation:
-      "The * operator in Python can be used to repeat a string a given number of times. In this case, the string “Hi” is repeated two times. ",
+    Explanation: "The * operator in Python can be used to repeat a string a given number of times. In this case, the string “Hi” is repeated two times.",
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-python-operators",
   },
   {
