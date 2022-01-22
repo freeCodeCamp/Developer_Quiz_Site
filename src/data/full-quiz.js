@@ -1,9 +1,9 @@
 const fullQuiz = [
   {
     Question:
-     "Which of the following method returns the day of the month for the specified date according to local time?",
+     "Which of the following methods returns the day of the month for the specified date according to local time?",
     Answer: "getDate()",
-    Distractor1: "getDate()",
+    Distractor1: "getTheDate()",
     Distractor2: "getDay()",
     Distractor3: "getFullYear()",
     Explanation: 
@@ -13,10 +13,10 @@ const fullQuiz = [
 
 {
     Question: 
-    "Which of the following method returns the day of the week for the specified date according to local time?",
+    "Which of the following methods returns the day of the week for the specified date according to local time?",
     Answer: "getDay()",
     Distractor1: "getDate()",
-    Distractor2: "getDay()",
+    Distractor2: "getTheSpecificDay()",
     Distractor3: "getFullYear()",
     Explanation:
      "The getDay() method returns the day of the week for the specified date according to local time, where 0 represents Sunday. ",
@@ -25,11 +25,11 @@ const fullQuiz = [
 
 {
     Question:
-     "Which of the following method returns the year of the specified date according to local time?",
+     "Which of the following methods returns the year of the specified date according to local time?",
     Answer: "getFullYear()",
     Distractor1: "getDate()",
-    Distractor2: "getYear()",
-    Distractor3: "getFullYear()",
+    Distractor2: "listTheYear()",
+    Distractor3: "getMyFullYearNow()",
     Explanation: 
     "The getFullYear() method returns the year of the specified date according to local time. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
@@ -37,21 +37,21 @@ const fullQuiz = [
 
 {
     Question:
-     "Which of the following method returns the day of the hour for the specified date, according to local time?",
+     "Which of the following methods returns the day of the hour for the specified date, according to local time?",
     Answer: "getHours()",
-    Distractor1: "getHours()",
+    Distractor1: "getMyHour()",
     Distractor2: "getMilliseconds()",
-    Distractor3: "getMinutes()",
+    Distractor3: "getHour()",
     Explanation: 
     "The getHours() method returns the hour for the specified date, according to local time. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours",
   },
 {
     Question:
-     "Which of the following method returns the milliseconds in the specified date according to local time?",
+     "Which of the following methods returns the milliseconds in the specified date according to local time?",
     Answer: "getMilliseconds()",
-    Distractor1: "getHours()",
-    Distractor2: "getMilliseconds()",
+    Distractor1: "getMillisec()",
+    Distractor2: "getTheMillisecondsNow()",
     Distractor3: "getMinutes()",
     Explanation: 
     "The getMilliseconds() method returns the milliseconds in the specified date according to local time. ",
@@ -59,20 +59,20 @@ const fullQuiz = [
   },
 {
     Question: 
-    "Which of the following method returns the minutes in the specified date according to local time?",
+    "Which of the following methods returns the minutes in the specified date according to local time?",
     Answer: "getMinutes()",
-    Distractor1: "getHours()",
+    Distractor1: "getMin()",
     Distractor2: "getMilliseconds()",
-    Distractor3: "getMinutes()",
+    Distractor3: "getTheMinutes()",
     Explanation: 
     "The getMinutes() method returns the minutes in the specified date according to local time. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes",
   },
 {
     Question: 
-    "Which of the following method returns the month in the specified date according to local time, as a zero-based value?",
+    "Which of the following methods returns the month in the specified date according to local time, as a zero-based value?",
     Answer: "getMonth()",
-    Distractor1: "getMonth()",
+    Distractor1: "getTheMonth()",
     Distractor2: "getSeconds()",
     Distractor3: "getTime()",
     Explanation:
@@ -81,10 +81,10 @@ const fullQuiz = [
   },
 {
     Question:
-     "Which of the following method returns the seconds in the specified date according to local time?",
+     "Which of the following methods returns the seconds in the specified date according to local time?",
     Answer: "getSeconds()",
-    Distractor1: "getMonth()",
-    Distractor2: "getSeconds()",
+    Distractor1: "getSec()",
+    Distractor2: "getTheSeconds()",
     Distractor3: "getTime()",
     Explanation: 
     "The getSeconds() method returns the seconds in the specified date according to local time. ",
@@ -92,13 +92,13 @@ const fullQuiz = [
   },
 {
     Question: 
-    "Which of the following method returns returns the number of milliseconds* since the Unix Epoch?",
+    "Which of the following methods returns the number of milliseconds since the Unix Epoch?",
     Answer: "getTime()",
-    Distractor1: "getMonth()",
+    Distractor1: "getMilliseconds()",
     Distractor2: "getSeconds()",
-    Distractor3: "getTime()",
+    Distractor3: "getTheTime()",
     Explanation:
-     "The getTime() method returns the number of milliseconds* since the Unix Epoch.getTime() always uses UTC for time representation. For example, a client browser in one timezone, getTime() will be the same as a client browser in any other timezone. ",
+     "The getTime() method returns the number of milliseconds since the Unix Epoch. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime",
   },
   {
