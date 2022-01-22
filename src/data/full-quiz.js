@@ -1,5 +1,23 @@
 const fullQuiz = [
   {
+    Question: "Which one of these is NOT a common time complexity equation for BigO notation?",
+    Answer: "O(n14)",
+    Distractor1: "O(1)",
+    Distractor2: "O(log n)",
+    Distractor3: "O(n)",
+    Explanation: "O(1), O(log n), O(n) are just some of the common time complexity equations for BigO notation.",
+    Link: "https://www.youtube.com/watch?v=zg9ih6SVACc&t=867s",
+  },
+  {
+    Question: "What are parallel arrays?",
+    Answer: "two or more arrays that contain the same number of elements and have corresponding values in the same position",
+    Distractor1: "arrays that only hold strings",
+    Distractor2: "arrays that only hold numbers",
+    Distractor3: "a special type of nested arrays",
+    Explanation: "Parallel arrays contain the same number of elements and have corresponding values in the same position.",
+    Link: "https://www.youtube.com/watch?v=zg9ih6SVACc&t=1379s",
+  },
+  {
     Question: "Which method can be used to replace parts of a string?",
     Answer: "replace()",
     Distractor1: "switch()",
