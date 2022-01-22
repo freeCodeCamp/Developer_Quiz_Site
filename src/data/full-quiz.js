@@ -1,4 +1,47 @@
 const fullQuiz = [
+  
+    {
+    Question: "With SQL, how do you select all the records from a table named 'Persons' where the value of the column 'FirstName' starts with an 'a'?",
+    Answer: "SELECT * FROM Persons WHERE FirstName LIKE ‘a%’",
+    Distractor1: "SELECT * FROM Persons WHERE FirstName=’a’",
+    Distractor2: " SELECT * FROM Persons WHERE FirstName=’%a%’",
+    Distractor3: "SELECT * FROM Persons WHERE FirstName=_a",
+    Explanation: "The SQL LIKE clause is used to compare a value to similar values using wildcard operators.",
+    Link: "https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/",
+   },
+  
+  {
+    Question: "Which SQL statement is used to insert new data in a database?",
+    Answer: "INSERT INTO",
+    Distractor1: "ADD NEW",
+    Distractor2: "ADD RECORD",
+    Distractor3: "INSERT NEW",
+    Explanation: "To insert a new row or data into table in a database INSERT INTO statement is used",
+    Link: "https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/",
+   },
+  
+   {
+    Question: "Which SQL statement is used to extract data from a database?",
+    Answer: "SELECT",
+    Distractor1: "GET",
+    Distractor2: "EXTRACT",
+    Distractor3: "FIND",
+    Explanation: "SELECT statement in SQL is used to fetch data from database",
+    Link: "https://www.freecodecamp.org/news/sql-select-statements/",
+   },
+  
+  
+  {
+    Question: "What does SQL stand for?",
+    Answer: "Structured Query Language",
+    Distractor1: "Simple Query Language",
+    Distractor2: "Strong Question Language",
+    Distractor3: "Syntax Query Language",
+    Explanation: "SQL stand for Structured Query Language",
+    Link: "https://www.freecodecamp.org/news/learn-sql-free-relational-database-courses-for-beginners/",
+    
+  },
+  
   {
     Question: "Which one of these is NOT a common time complexity equation for BigO notation?",
     Answer: "O(n14)",
