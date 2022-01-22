@@ -35,6 +35,108 @@ const fullQuiz = [
   },
   {
     Question:
+     "Which of the following methods returns the day of the month for the specified date according to local time?",
+    Answer: "getDate()",
+    Distractor1: "getTheDate()",
+    Distractor2: "getDay()",
+    Distractor3: "getFullYear()",
+    Explanation: 
+    "The getDate() method returns the day of the month for the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
+  },
+
+{
+    Question: 
+    "Which of the following methods returns the day of the week for the specified date according to local time?",
+    Answer: "getDay()",
+    Distractor1: "getDate()",
+    Distractor2: "getTheSpecificDay()",
+    Distractor3: "getFullYear()",
+    Explanation:
+     "The getDay() method returns the day of the week for the specified date according to local time, where 0 represents Sunday. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay",
+  },
+
+{
+    Question:
+     "Which of the following methods returns the year of the specified date according to local time?",
+    Answer: "getFullYear()",
+    Distractor1: "getDate()",
+    Distractor2: "listTheYear()",
+    Distractor3: "getMyFullYearNow()",
+    Explanation: 
+    "The getFullYear() method returns the year of the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
+  },
+
+{
+    Question:
+     "Which of the following methods returns the day of the hour for the specified date, according to local time?",
+    Answer: "getHours()",
+    Distractor1: "getMyHour()",
+    Distractor2: "getMilliseconds()",
+    Distractor3: "getHour()",
+    Explanation: 
+    "The getHours() method returns the hour for the specified date, according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours",
+  },
+{
+    Question:
+     "Which of the following methods returns the milliseconds in the specified date according to local time?",
+    Answer: "getMilliseconds()",
+    Distractor1: "getMillisec()",
+    Distractor2: "getTheMillisecondsNow()",
+    Distractor3: "getMinutes()",
+    Explanation: 
+    "The getMilliseconds() method returns the milliseconds in the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds",
+  },
+{
+    Question: 
+    "Which of the following methods returns the minutes in the specified date according to local time?",
+    Answer: "getMinutes()",
+    Distractor1: "getMin()",
+    Distractor2: "getMilliseconds()",
+    Distractor3: "getTheMinutes()",
+    Explanation: 
+    "The getMinutes() method returns the minutes in the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes",
+  },
+{
+    Question: 
+    "Which of the following methods returns the month in the specified date according to local time, as a zero-based value?",
+    Answer: "getMonth()",
+    Distractor1: "getTheMonth()",
+    Distractor2: "getSeconds()",
+    Distractor3: "getTime()",
+    Explanation:
+     "The getMonth() method returns the month in the specified date according to local time, as a zero-based value (where zero indicates the first month of the year). ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth",
+  },
+{
+    Question:
+     "Which of the following methods returns the seconds in the specified date according to local time?",
+    Answer: "getSeconds()",
+    Distractor1: "getSec()",
+    Distractor2: "getTheSeconds()",
+    Distractor3: "getTime()",
+    Explanation: 
+    "The getSeconds() method returns the seconds in the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds",
+  },
+{
+    Question: 
+    "Which of the following methods returns the number of milliseconds since the Unix Epoch?",
+    Answer: "getTime()",
+    Distractor1: "getMilliseconds()",
+    Distractor2: "getSeconds()",
+    Distractor3: "getTheTime()",
+    Explanation:
+     "The getTime() method returns the number of milliseconds since the Unix Epoch. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime",
+  },
+  {
+    Question:
       "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
     Answer: "getElementsByClassName()",
     Distractor1: "querySelector()",
