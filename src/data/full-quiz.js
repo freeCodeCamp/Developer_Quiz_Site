@@ -5821,7 +5821,7 @@ const fullQuiz = [
   },
   {
     Question: "How do you create a promise inside a function in JavaScript ?",
-    Answer: "return new Promise((resolve, reject))",
+    Answer: "return new Promise((resolve, reject) => {})",
     Distractor1: "return new Promise(resolve, reject)",
     Distractor2: "return new Promise((resolve, reject))",
     Distractor3: "return Promise((reject, resolve))",
