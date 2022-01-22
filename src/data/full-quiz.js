@@ -5814,7 +5814,7 @@ const fullQuiz = [
     Question: "What is the value of x ? let x = undefined || 1;",
     Answer: "1",
     Distractor1: "2",
-    Distractor2: "1",
+    Distractor2: "undefined",
     Distractor3: "null",
     Explanation: "The value of x is 1 because undefined is a falsy value and that's why 1 is assigned to the variable x.",
     Link: "https://www.freecodecamp.org/news/javascript-logical-operators/",
