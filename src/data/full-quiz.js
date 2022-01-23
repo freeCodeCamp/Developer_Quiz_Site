@@ -1,5 +1,4 @@
-const fullQuiz = [
-  
+const fullQuiz = [  
     {
     Question: "With SQL, how do you select all the records from a table named 'Persons' where the value of the column 'FirstName' starts with an 'a'?",
     Answer: "SELECT * FROM Persons WHERE FirstName LIKE ‘a%’",
@@ -42,6 +41,80 @@ const fullQuiz = [
     
   },
   
+
+    {
+    Question: "What will be the value of output? let output = null ?? 20",
+    Answer: "20",
+    Distractor1: "undefined",
+    Distractor2: "null",
+    Distractor3: "Syntax error",
+    Explanation: "The nullish coalescing operator in JavaScript will return the right-hand side operand if the left-hand side operand is null or undefined.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator",
+  },
+  {
+    Question: "In the global execution context, 'this' refers to the ______ object whether in strict mode or not.",
+    Answer: "window",
+    Distractor1: "null",
+    Distractor2: "undefined",
+    Distractor3: "document",
+    Explanation: "In the global execution context, the 'this' keyword always points to the window object",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this",
+  },
+  {
+    Question: "Which queue is emptied first by an event loop in JavaScript?",
+    Answer: "Microtask queue",
+    Distractor1: "Callback queue (Macrotask queue)",
+    Distractor2: "None",
+    Distractor3: "Both",
+    Explanation: "An event loop first empties the Microtask queue and once it is empty it starts to empty the Callback queue.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+  },
+  {
+    Question: "Which of the following is NOT in the Temporal Dead Zone(TDZ) during hoisting?",
+    Answer: "var",
+    Distractor1: "let",
+    Distractor2: "const",
+    Distractor3: "class",
+    Explanation: "var is hoisted with the default value of undefined while let, const and classes are hoisted but are in the Temporal Dead Zone(TDZ) until the declaration is executed.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting",
+  },
+  {
+    Question: "Which of the following expressions will return true in JavaScript?",
+    Answer: "null >= 0",
+    Distractor1: "null == 0",
+    Distractor2: "null === 0",
+    Distractor3: "null > 0",
+    Explanation: "null >= 0 and null <= 0 will both result in true because these operators will convert null to 0. With the == operator, null only equals undefined.",
+    Link: "https://262.ecma-international.org/5.1/#sec-11.8.5",
+  },
+  {
+    Question: "Which of the following is a common web API used with JavaScript?",
+    Answer: "console",
+    Distractor1: "Array",
+    Distractor2: "Object",
+    Distractor3: "let, var, const",
+    Explanation: "console is part of a web API which is provided by browsers and Node.js.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/console",
+  },
+  {
+    Question: "Which of the following methods returns a function?",
+    Answer: "bind",
+    Distractor1: "apply",
+    Distractor2: "call",
+    Distractor3: "None of given",
+    Explanation: "The bind function returns a new function with given arguments as the new function's 'this' keyword.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_objects/Function/bind",
+  },
+  {
+    Question: "What is a first class function?",
+    Answer: "The ability to send and receive functions like values.",
+    Distractor1: "Functions with higher priority than others.",
+    Distractor2: "Functions declared in classes",
+    Distractor3: "Functions that only return numbers",
+    Explanation: "If functions can be sent and received just like values, than that languge is said to have first class functions. They are also called first class citizens.",
+    Link: "https://www.freecodecamp.org/news/discover-the-power-of-first-class-functions-fd0d7b599b69/",
+  },
+
   {
     Question: "Which one of these is NOT a common time complexity equation for BigO notation?",
     Answer: "O(n14)",
