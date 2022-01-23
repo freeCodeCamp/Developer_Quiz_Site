@@ -1,4 +1,13 @@
 const fullQuiz = [
+  {
+    Question: "Which is the object that defines methods that allow complete control over page content?",
+    Answer: "The client-side document object",
+    Distractor1: "The server-side document object",
+    Distractor2: "Both client-side and server-side document object",
+    Distractor3: "Web document object",
+    Explanation: "A web page is divided into two object documents in which one is client-side document object and the other is server-side document object. The client-side document object defines methods that allow complete control over page content.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects",
+  },
     {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
