@@ -36,7 +36,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Hoisting",
   },
   {
-    Question: "Which of the following expression will return true in JavaScript?",
+    Question: "Which of the following expressions will return true in JavaScript?",
     Answer: "null >= 0",
     Distractor1: "null == 0",
     Distractor2: "null === 0",
