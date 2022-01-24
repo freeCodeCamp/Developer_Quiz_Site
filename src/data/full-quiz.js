@@ -1,4 +1,13 @@
 const fullQuiz = [
+  {
+    Question: "Select the right syntax of the Arrow function (ES6)?",
+    Answer: "let variable = () => {//code block}",
+    Distractor1: "let variable => (){//code block}",
+    Distractor2: "let variable = function() => {//code block}",
+    Distractor3: "let variable = function(){//code block}",
+    Explanation: "ES6 arrow functions provide you with an alternative way to write a shorter syntax compared to the function expression.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+  },
     {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
