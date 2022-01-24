@@ -1,4 +1,22 @@
 const fullQuiz = [
+  {
+    Question: "What is the function of resize2fs command?",
+    Answer: "This can be used to change the size of an ext2 or ext3 filesystem.",
+    Distractor1: "This is used manipulate the size of partitions.",
+    Distractor2: "This is used to create an ext2, ext3, or ext4 filesystem",
+    Distractor3: "This is used to check the family of filesystems.",
+    Explanation: "The resize2fs program will resize ext2, ext3, or ext4 file systems. It can be used to enlarge or shrink an unmounted file system located on device. The resize2fs program does not manipulate the size of partitions.",
+    Link: "http://manpages.ubuntu.com/manpages/bionic/man8/resize2fs.8.html",
+  },
+  {
+    Question: "Which Command Is Used To Display Information About The Processes Using A Filesystem?",
+    Answer: "fuser",
+    Distractor1: "ps",
+    Distractor2: "top",
+    Distractor3: "grep",
+    Explanation: "The fuser utility displays the process IDs of the processes that are using the files specified as arguments.",
+    Link: "https://docs.oracle.com/cd/E88353_01/html/E72487/fuser-8.html",
+  },
     {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
