@@ -2,7 +2,7 @@ const fullQuiz = [
   {
     Question: "Which of the following is correct for arrays?",
     Answer: "Size of an array can not be changed once intialized",
-    Distractor1: "Insertion and deletion of an element is efficient",
+    Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
     Distractor2: "A single array can contain data of different data types",
     Distractor3: "It can only be one-dimensional",
     Explanation: "When you create an array, you are allocated a block of contiguous memory and in order to change it's size, you will have to create a new array.",
