@@ -17,6 +17,15 @@ const fullQuiz = [
     Explanation: "The fuser utility displays the process IDs of the processes that are using the files specified as arguments.",
     Link: "https://docs.oracle.com/cd/E88353_01/html/E72487/fuser-8.html",
   },
+  {
+    Question: "Select the right syntax for an ES6 arrow function:",
+    Answer: "let variable = () => {//code block}",
+    Distractor1: "let variable => (){//code block}",
+    Distractor2: "let variable = function() => {//code block}",
+    Distractor3: "let variable = function(){//code block}",
+    Explanation: "ES6 arrow functions provide you with an alternative way to write shorter syntax compared to the traditional function expression.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+  },
     {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
