@@ -1,5 +1,14 @@
 const fullQuiz = [
   {
+    Question: "Which of the following is correct for arrays?",
+    Answer: "Size of an array can not be changed once intialized",
+    Distractor1: "Insertion and deletion of an element is efficient",
+    Distractor2: "A single array can contain data of different data types",
+    Distractor3: "It can only be one-dimensional",
+    Explanation: "When you create an array, you are allocated a block of contiguous memory and in order to change it's size, you will have to create a new array.",
+    Link: "https://youtu.be/zg9ih6SVACc?t=1470",
+  },
+  {
     Question: "Select the right syntax for an ES6 arrow function:",
     Answer: "let variable = () => {//code block}",
     Distractor1: "let variable => (){//code block}",
@@ -5908,15 +5917,6 @@ const fullQuiz = [
     Distractor3: "return Promise((reject, resolve))",
     Explanation: "You can use a promise inside a function with the following syntax: return new Promise((resolve, reject) => {})",
     Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
-  },
-  {
-    Question: "Which of the following is correct for arrays?",
-    Answer: "Size of an array can not be changed once intialized",
-    Distractor1: "Insertion and deletion of an element is efficient",
-    Distractor2: "A single array can contain data of different data types",
-    Distractor3: "It can only be one-dimensional",
-    Explanation: "When you create an array, you are allocated a block of contiguous memory and in order to change it's size, you will have to create a new array.",
-    Link: "https://youtu.be/zg9ih6SVACc?t=1470",
   },
 ];
 export default fullQuiz;
