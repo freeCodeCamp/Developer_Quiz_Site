@@ -1,5 +1,6 @@
+
 const fullQuiz = [  
-    {
+   {
     Question: "With SQL, how do you select all the records from a table named 'Persons' where the value of the column 'FirstName' starts with an 'a'?",
     Answer: "SELECT * FROM Persons WHERE FirstName LIKE ‘a%’",
     Distractor1: "SELECT * FROM Persons WHERE FirstName=’a’",
@@ -7,8 +8,7 @@ const fullQuiz = [
     Distractor3: "SELECT * FROM Persons WHERE FirstName=_a",
     Explanation: "The SQL LIKE clause is used to compare a value to similar values using wildcard operators.",
     Link: "https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/",
-   },
-  
+  },
   {
     Question: "Which SQL statement is used to insert new data in a database?",
     Answer: "INSERT INTO",
@@ -17,9 +17,8 @@ const fullQuiz = [
     Distractor3: "INSERT NEW",
     Explanation: "To insert a new row or data into table in a database INSERT INTO statement is used",
     Link: "https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/",
-   },
-  
-   {
+  },
+  {
     Question: "Which SQL statement is used to extract data from a database?",
     Answer: "SELECT",
     Distractor1: "GET",
@@ -27,9 +26,7 @@ const fullQuiz = [
     Distractor3: "FIND",
     Explanation: "SELECT statement in SQL is used to fetch data from database",
     Link: "https://www.freecodecamp.org/news/sql-select-statements/",
-   },
-  
-  
+  },
   {
     Question: "What does SQL stand for?",
     Answer: "Structured Query Language",
@@ -40,9 +37,43 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-sql-free-relational-database-courses-for-beginners/",
     
   },
-  
-
-    {
+  {
+    Question: "Which of the following is correct for arrays?",
+    Answer: "Size of an array can not be changed once intialized",
+    Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
+    Distractor2: "A single array can contain data of different data types",
+    Distractor3: "It can only be one-dimensional",
+    Explanation: "When you create an array, you are allocated a block of contiguous memory and in order to change it's size, you will have to create a new array.",
+    Link: "https://youtu.be/zg9ih6SVACc?t=1470",
+  },
+  {
+    Question: "What is the function of the resize2fs command?",
+    Answer: "This can be used to change the size of an ext2 or ext3 filesystem.",
+    Distractor1: "This is used manipulate the size of partitions.",
+    Distractor2: "This is used to create an ext2, ext3, or ext4 filesystem",
+    Distractor3: "This is used to check the family of filesystems.",
+    Explanation: "The resize2fs program will resize ext2, ext3, or ext4 file systems. It can be used to enlarge or shrink an unmounted file system located on the device. The resize2fs program does not manipulate the size of partitions.",
+    Link: "http://manpages.ubuntu.com/manpages/bionic/man8/resize2fs.8.html",
+  },
+  {
+    Question: "Which command is used to display information about the processes using a filesystem?",
+    Answer: "fuser",
+    Distractor1: "ps",
+    Distractor2: "top",
+    Distractor3: "grep",
+    Explanation: "The fuser utility displays the process IDs of the processes that are using the files specified as arguments.",
+    Link: "https://docs.oracle.com/cd/E88353_01/html/E72487/fuser-8.html",
+  },
+  {
+    Question: "Select the right syntax for an ES6 arrow function:",
+    Answer: "let variable = () => {//code block}",
+    Distractor1: "let variable => (){//code block}",
+    Distractor2: "let variable = function() => {//code block}",
+    Distractor3: "let variable = function(){//code block}",
+    Explanation: "ES6 arrow functions provide you with an alternative way to write shorter syntax compared to the traditional function expression.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+  },
+  {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
     Distractor1: "undefined",
@@ -134,7 +165,7 @@ const fullQuiz = [
     Link: "https://www.youtube.com/watch?v=zg9ih6SVACc&t=1379s",
   },
   {
-    Question: "Which method can be used to replace parts of a string?",
+    Question: "Which method can be used to replace parts of a string in Python?",
     Answer: "replace()",
     Distractor1: "switch()",
     Distractor2: "repl()",
