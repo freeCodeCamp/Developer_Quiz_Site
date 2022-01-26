@@ -1,5 +1,14 @@
 const fullQuiz = [
   {
+    Question: "Which of the following is correct for arrays?",
+    Answer: "Size of an array can not be changed once intialized",
+    Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
+    Distractor2: "A single array can contain data of different data types",
+    Distractor3: "It can only be one-dimensional",
+    Explanation: "When you create an array, you are allocated a block of contiguous memory and in order to change it's size, you will have to create a new array.",
+    Link: "https://youtu.be/zg9ih6SVACc?t=1470",
+  },
+  {
     Question: "What is the function of the resize2fs command?",
     Answer: "This can be used to change the size of an ext2 or ext3 filesystem.",
     Distractor1: "This is used manipulate the size of partitions.",
@@ -117,7 +126,7 @@ const fullQuiz = [
     Link: "https://www.youtube.com/watch?v=zg9ih6SVACc&t=1379s",
   },
   {
-    Question: "Which method can be used to replace parts of a string?",
+    Question: "Which method can be used to replace parts of a string in Python?",
     Answer: "replace()",
     Distractor1: "switch()",
     Distractor2: "repl()",
