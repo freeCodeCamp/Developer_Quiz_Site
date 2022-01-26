@@ -1,6 +1,17 @@
 const fullQuiz = [
   {
     Question:
+      "Which comparison operator is used to express strict equality, meaning that two compared values have the same type and equal value?",
+    Answer: "===",
+    Distractor1: ">=",
+    Distractor2: "+=",
+    Distractor3: "<=",
+    Explanation:
+    "The strict equality operator returns true if two values have the same type and the same value. If the two compared values have different types, the result is false.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality",
+  },
+  {
+    Question:
       "Which of the following is the default separator in the join() method in JavaScript?",
     Answer: "comma (',')",
     Distractor1: "space (' ')",
