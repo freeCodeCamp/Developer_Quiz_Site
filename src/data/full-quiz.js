@@ -1,5 +1,14 @@
 const fullQuiz = [
   {
+    Question: "What are the outputs for type(1) and type((1,)) in Python?",
+    Answer: "<class 'int'>  <class 'tuple'>",
+    Distractor1: "<class 'str'> <class 'int'>",
+    Distractor2: "<class 'dict'>  <class 'list'>",
+    Distractor3: "<class 'int'> <class 'int'> ",
+    Explanation: "type(1) will return <class 'int'> and type((1,)) will return <class 'tuple'>",
+    Link: "https://www.freecodecamp.org/news/python-tuple-vs-list-what-is-the-difference/",
+  },
+  {
     Question: "Which of the following is correct for arrays?",
     Answer: "Size of an array can not be changed once intialized",
     Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
