@@ -1,5 +1,14 @@
 const fullQuiz = [
   {
+    Question: "What is the data type of (1) and (1,) ?",
+    Answer: "<class 'int'>  <class 'tuple'>",
+    Distractor1: "<class 'tuple'> <class 'int'>",
+    Distractor2: "<class 'int'>  <class 'tuple'>",
+    Distractor3: "<class 'int'> <class 'int'> ",
+    Explanation: "Here (1) means only 1 but if we add coma(,) then it will becomes a tuple.",
+    Link: "https://www.freecodecamp.org/news/python-tuple-vs-list-what-is-the-difference/",
+  },
+  {
     Question: "Which of the following is correct for arrays?",
     Answer: "Size of an array can not be changed once intialized",
     Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
