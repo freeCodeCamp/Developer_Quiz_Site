@@ -1,11 +1,11 @@
 const fullQuiz = [
   {
-    Question: "What is the data type of (1) and (1,) ?",
+    Question: "What are the outputs for type(1) and type((1,)) in Python?",
     Answer: "<class 'int'>  <class 'tuple'>",
-    Distractor1: "<class 'tuple'> <class 'int'>",
-    Distractor2: "<class 'int'>  <class 'tuple'>",
+    Distractor1: "<class 'str'> <class 'int'>",
+    Distractor2: "<class 'dict'>  <class 'list'>",
     Distractor3: "<class 'int'> <class 'int'> ",
-    Explanation: "Here (1) means only 1 but if we add coma(,) then it will becomes a tuple.",
+    Explanation: "type(1) will return <class 'int'> and type((1,)) will return <class 'tuple'>",
     Link: "https://www.freecodecamp.org/news/python-tuple-vs-list-what-is-the-difference/",
   },
   {
