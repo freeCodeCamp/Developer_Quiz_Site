@@ -1,5 +1,14 @@
 const fullQuiz = [
   {
+    Question: "What is a maximum length for a filename under Linux?",
+    Answer: "255 Bytes",
+    Distractor1: "225 Bytes",
+    Distractor2: "235 Bytes",
+    Distractor3: "255 Bytes",
+    Explanation: "The maximum length for a file name is 255 bytes. The maximum combined length of both the file name and path name is 4096 bytes.",
+    Link: "https://www.ibm.com/docs/en/spectrum-protect/8.1.9?topic=parameters-file-specification-syntax",
+  },
+  {
     Question: "What are the outputs for type(1) and type((1,)) in Python?",
     Answer: "<class 'int'>  <class 'tuple'>",
     Distractor1: "<class 'str'> <class 'int'>",
