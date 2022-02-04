@@ -9,6 +9,15 @@ const fullQuiz = [
     Link: "https://www.ibm.com/docs/en/spectrum-protect/8.1.9?topic=parameters-file-specification-syntax",
   },
   {
+    Question: "An Example for LIFO structure is",
+    Answer: "Stacks",
+    Distractor1: "Stacks",
+    Distractor2: "Trees",
+    Distractor3: "Queues",
+    Explanation: "Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(last in first out) or FILO(First In Last Out)",
+    Link: "https://www.geeksforgeeks.org/stack-data-structure/",
+  },
+  {
     Question: "What are the outputs for type(1) and type((1,)) in Python?",
     Answer: "<class 'int'>  <class 'tuple'>",
     Distractor1: "<class 'str'> <class 'int'>",
