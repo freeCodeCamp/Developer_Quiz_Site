@@ -1,5 +1,6 @@
 const fullQuiz = [
   {
+
     Question: "Which comparison operator is used to express strict equality, meaning that two compared values have the same type and equal value?",
     Answer: "===",
     Distractor1: ">=",
@@ -7,6 +8,42 @@ const fullQuiz = [
     Distractor3: "<=",
     Explanation: "The strict equality operator returns true if two values have the same type and the same value. If the two compared values have different types, the result is false.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality",
+  },
+  {
+    Question: "What is a maximum length for a filename under Linux?",
+    Answer: "255 Bytes",
+    Distractor1: "225 Bytes",
+    Distractor2: "235 Bytes",
+    Distractor3: "295 Bytes",
+    Explanation: "The maximum length for a file name is 255 bytes. The maximum combined length of both the file name and path name is 4096 bytes.",
+    Link: "https://www.ibm.com/docs/en/spectrum-protect/8.1.9?topic=parameters-file-specification-syntax",
+  },
+  {
+    Question: "Which one of these data structures follows the LIFO(Last In First Out) method?",
+    Answer: "Stacks",
+    Distractor1: "Priority Queues",
+    Distractor2: "Trees",
+    Distractor3: "Queues",
+    Explanation: "A stack is a linear data structure that uses the LIFO(Last In First Out) method.",
+    Link: "https://youtu.be/RBSGKlAvoiM?t=3567",
+  },
+  {
+    Question: "Which of the following is a Divide and Conquer algorithm?",
+    Answer: "Merge Sort",
+    Distractor1: "Selection Sort",
+    Distractor2: "Heap Sort",
+    Distractor3: "Bubble Sort",
+    Explanation: "Merge Sort recursively splits the array into smaller arrays, sorts those arrays and merges them into one sorted array.",
+    Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
+  },
+  {
+    Question: "What is the worst case time complexity for accessing an element in a BST(Binary Search Tree)?",
+    Answer: "O(n)",
+    Distractor1: "O(n*logn)",
+    Distractor2: "O(n*n)",
+    Distractor3: "O(logn)",
+    Explanation: "The worst case time complexity would be O(n) because we might need to visit all of the nodes.",
+    Link: "https://www.freecodecamp.org/news/binary-search-tree-what-is-it/",
   },
   {
     Question: "What are the outputs for type(1) and type((1,)) in Python?",
@@ -19,7 +56,7 @@ const fullQuiz = [
   },
   {
     Question: "Which of the following is correct for arrays?",
-    Answer: "Size of an array can not be changed once intialized",
+    Answer: "Size of an array can not be changed once initialized",
     Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
     Distractor2: "A single array can contain data of different data types",
     Distractor3: "It can only be one-dimensional",
@@ -53,7 +90,7 @@ const fullQuiz = [
     Explanation: "ES6 arrow functions provide you with an alternative way to write shorter syntax compared to the traditional function expression.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
   },
-    {
+  {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
     Distractor1: "undefined",
