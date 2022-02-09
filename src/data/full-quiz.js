@@ -1,6 +1,6 @@
 const fullQuiz = [
   {
-    Question: "In JavaScript, a variable that has been declared but not assigned a value is known as undefined.",
+    Question: "In JavaScript, a variable that has been declared but not assigned a value is known as ____________.",
     Answer: "undefined",
     Distractor1: "unknown",
     Distractor2: "unassigned",
