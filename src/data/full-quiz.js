@@ -18,8 +18,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
   },
   {
-    Question:
-      "What is the index of the first element in an array in JavaScript?",
+    Question: "What is the index of the first element in an array in JavaScript?",
     Answer: "0",
     Distractor1: "1",
     Distractor2: "first",
