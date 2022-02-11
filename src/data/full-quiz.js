@@ -73,7 +73,7 @@ const fullQuiz = [
   },
   {
     Question: "Which of the following is correct for arrays?",
-    Answer: "Size of an array can not be changed once intialized",
+    Answer: "Size of an array can not be changed once initialized",
     Distractor1: "Insertion and deletion of elements has a time complexity of O(1)",
     Distractor2: "A single array can contain data of different data types",
     Distractor3: "It can only be one-dimensional",
@@ -107,7 +107,7 @@ const fullQuiz = [
     Explanation: "ES6 arrow functions provide you with an alternative way to write shorter syntax compared to the traditional function expression.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
   },
-    {
+  {
     Question: "What will be the value of output? let output = null ?? 20",
     Answer: "20",
     Distractor1: "undefined",
