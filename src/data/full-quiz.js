@@ -15,7 +15,7 @@ const fullQuiz = [
     Distractor2: "array.concat()",
     Distractor3: "array.push()",
     Explanation: "Assigning 0 to the length property of the array will clear the contents of the array.",
-    Link: "hhttps://www.tutorialspoint.com/in-javascript-how-to-empty-an-array",
+    Link: "https://www.freecodecamp.org/news/check-if-javascript-array-is-empty-or-not-with-length/",
   },  
   {
     Question: "In JavaScript, a variable that has been declared but not assigned a value is known as ____________.",
