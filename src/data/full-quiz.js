@@ -1,5 +1,23 @@
 const fullQuiz = [
   {
+    Question: "In JavaScript, a variable declared with the _________ keyword must be assigned an initial value.",
+    Answer: "const",
+    Distractor1: "finally",
+    Distractor2: "new",
+    Distractor3: "var",
+    Explanation: "The value of a const variable must be specified when the varible is declared.",
+    Link: "https://www.freecodecamp.org/news/let-me-be-a-const-ant-not-a-var-iable-1be52d153462/",
+  },  
+  {
+    Question: "Given the array, 'let array = [0, 1, 2, 3]', what is a valid way to clear all of the the array's values?",
+    Answer: "array.length = 0",
+    Distractor1: "array.none()",
+    Distractor2: "array.concat()",
+    Distractor3: "array.push()",
+    Explanation: "Assigning 0 to the length property of the array will clear the contents of the array.",
+    Link: "https://www.freecodecamp.org/news/check-if-javascript-array-is-empty-or-not-with-length/",
+  },  
+  {
     Question: "In JavaScript, a variable that has been declared but not assigned a value is known as ____________.",
     Answer: "undefined",
     Distractor1: "unknown",
