@@ -1,12 +1,12 @@
 const fullQuiz = [
   { 
     Question: "Which of the following is a wildcard character that can be used with the SQL LIKE statement?",
-  Answer: "%",
-  Distractor1: "$",
-  Distractor2: "!",
-  Diatractor3: "@",
-  Explanation: "You can use the % and _ wildcards with the SQL LIKE statement to compare values from an SQL table.",
-  Link: "https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/",
+    Answer: "%",
+    Distractor1: "$",
+    Distractor2: "!",
+    Diatractor3: "@",
+    Explanation: "You can use the % and _ wildcards with the SQL LIKE statement to compare values from an SQL table.",
+    Link: "https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/",
   },
   {
     Question: "In JavaScript, a variable declared with the _________ keyword must be assigned an initial value.",
