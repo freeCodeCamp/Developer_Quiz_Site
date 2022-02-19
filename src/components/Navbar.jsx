@@ -6,7 +6,9 @@ const Navbar = () => {
     <>
       <header>
         <nav className="homepage-navbar">
-          <img className="website-logo" src={fccLogo} alt="freeCodeCamp logo" />
+          <a target="_blank" rel="noreferrer" href="https://www.freecodecamp.org/">
+            <img className="website-logo" src={fccLogo} alt="freeCodeCamp logo" />
+          </a>
         </nav>
       </header>
     </>
