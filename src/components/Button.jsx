@@ -8,7 +8,7 @@ const Button = ({ text, isTransparent, size, handleClick }) => {
       classes = `${classes} large-btn`;
     }
 
-    if (!!isTransparent) {
+    if (isTransparent) {
       classes = `${classes} transparent-btn`;
     }
 
