@@ -1,4 +1,22 @@
 const fullQuiz = [
+  {
+    Question: "In JavaScript, all objects inherit a built-in property from a  ___________________.",
+    Answer: "prototype",
+    Distractor1: "instance variable",
+    Distractor2: "node",
+    Distractor3: "accessor",
+    Explanation: "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
+    Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
+  },  
+  {
+    Question: "Every JavaScript class has a special ____________ method that is used to create a new object instance of the class.",
+    Answer: "constructor",
+    Distractor1: "starter",
+    Distractor2: "assign",
+    Distractor3: "apply",
+    Explanation: "Assigning 0 to the length property of the array will clear the contents of the array.",
+    Link: "https://www.freecodecamp.org/news/how-javascript-implements-oop/",
+  }, 
   { 
     Question: "Which of the following is a wildcard character that can be used with the SQL LIKE statement?",
     Answer: "%",
