@@ -6098,5 +6098,14 @@ const fullQuiz = [
     Explanation: "You can use a promise inside a function with the following syntax: return new Promise((resolve, reject) => {})",
     Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
   },
+  {
+    Question: "What command is used to search string in Linux?",
+    Answer: "grep",
+    Distractor1: "chmod",
+    Distractor2: "sudo",
+    Distractor3: "ping",
+    Explanation: "Grep command will help us to find the entered string.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-grep-command",
+  },
 ];
 export default fullQuiz;
