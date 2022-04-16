@@ -6097,6 +6097,17 @@ const fullQuiz = [
     Distractor3: "return Promise((reject, resolve))",
     Explanation: "You can use a promise inside a function with the following syntax: return new Promise((resolve, reject) => {})",
     Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
+
+  },
+  {
+    Question: "What type of language the JavaScript is ?",
+    Answer: "Object Based Language",
+    Distractor1: "Programming",
+    Distractor2: "Assembly",
+    Distractor3: "Microprocessor",
+    Explanation: "JavaScript is an Object Based Language.",
+    Link: "https://www.freecodecamp.org/news/what-is-javascript/",
+
   },
 ];
 export default fullQuiz;
