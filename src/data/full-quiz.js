@@ -6098,5 +6098,14 @@ const fullQuiz = [
     Explanation: "You can use a promise inside a function with the following syntax: return new Promise((resolve, reject) => {})",
     Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
   },
+  {
+    Question: "What is the correct syntax for "if A is equal to B" ?",
+    Answer: "if(A === B)",
+    Distractor1: "if(A == B)",
+    Distractor2: "if(A = B)",
+    Distractor3: "if(A.equals(B))",
+    Explanation: "if we need to say if A is equal to B we use the triple-equal operator, otherwise we can use the double-equals one (converting types) check docs",
+    Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
+  },
 ];
 export default fullQuiz;
