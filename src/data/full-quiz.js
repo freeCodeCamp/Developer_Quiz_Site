@@ -6099,13 +6099,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
   },
   {
-    Question: "What is the correct syntax for "if A is equal to B" ?",
+    Question: "What is the correct syntax to check if two variables are strictly equal?",
     Answer: "if(A === B)",
     Distractor1: "if(A == B)",
     Distractor2: "if(A = B)",
     Distractor3: "if(A.equals(B))",
-    Explanation: "if we need to say if A is equal to B we use the triple-equal operator, otherwise we can use the double-equals one (converting types) check docs",
-    Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
+    Explanation: "The triple equals operator (===) will check for strict equality because it checks for the same data type and value.",
+    Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
   },
 ];
 export default fullQuiz;
