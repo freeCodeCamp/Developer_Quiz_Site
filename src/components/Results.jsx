@@ -3,7 +3,7 @@ const Results = ({ points, totalPoints, resetQuiz }) => {
     <div className="results-div" >
       <h1 className="results-heading">Results</h1>
       <h2>{points === totalPoints ? 'Wow! Perfect Score!' : 'You received'} {points} out of {totalPoints} points</h2>
-      <p className="results-text">Wanna learn how to code? Download the free 
+      <p className="results-text">Wanna learn how to code? Download the free:&nbsp;
         <a
           className="results-rpg-link"
           target="_blank"
