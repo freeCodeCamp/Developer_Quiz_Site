@@ -130,7 +130,7 @@ const QuizTemplate = ({ home }) => {
 
   return (
     <>
-      <Button handleClick={home} text="Home" isTransparent={false} />
+      <Button handleClick={home} text="Home" isTransparent={false} size={""} />
       <FCCLogo />
       {showOptions ?
         <SelectQuiz {...selectQuizProps} /> :

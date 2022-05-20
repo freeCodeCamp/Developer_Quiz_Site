@@ -5,8 +5,9 @@ import Navbar from './Navbar';
 import Button from './Button';
 import HeroSection from './HeroSection';
 import '../stylesheets/HomepageRow.css';
+import { MouseEventHandler } from 'react';
 
-const WelcomePage = ({ start }) => {
+const WelcomePage : React.FC<{start:MouseEventHandler<HTMLElement>}> = ({ start }) => {
   return (
     <>
       <Navbar />
@@ -21,7 +22,7 @@ const WelcomePage = ({ start }) => {
             <h2 className="featurette-heading">Want to test your programming knowledge?</h2>
             <p className="lead">Brush up on HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and general Computer Science concepts, with <span style={{ fontWeight: '700' }}>600+</span> questions.</p>
             <p className="lead">Take our quiz and have fun learning!</p>
-            <Button handleClick={start} text="Quiz" isTransparent={false} />
+            <Button handleClick={start} text="Quiz" isTransparent={false} size={""} />
           </div>
           <div className="col-md-5 content-img-container">
             <img src={mainCharacter} className="img-fluid rounded content-section-img" id="main-character-img" alt="main female character from rpg game" />

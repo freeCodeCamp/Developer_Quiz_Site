@@ -1,4 +1,6 @@
-const Results = ({ points, totalPoints, resetQuiz }) => {
+import { MouseEventHandler } from "react";
+
+const Results: React.FC<{ points:number,totalPoints: number,resetQuiz: MouseEventHandler<HTMLButtonElement>}> = ({ points, totalPoints, resetQuiz }) => {
   return (
     <div className="results-div" >
       <h1 className="results-heading">Results</h1>

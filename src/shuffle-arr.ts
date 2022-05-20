@@ -1,6 +1,6 @@
 //fisher yates shuffle
-const shuffle = (array) => {
-  let currentIndex = array.length, randomIndex;
+const shuffle = (array: any[]) => {
+  let currentIndex = array.length, randomIndex: number;
 
   while (currentIndex > 0) {
 

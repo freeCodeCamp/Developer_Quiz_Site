@@ -3,16 +3,17 @@ import QuizTemplate from './components/QuizTemplate';
 import { useState } from 'react';
 
 
-const App = () => {
+const App: React.FC = () => {
   const [isHomePage, setIsHomePage] = useState(true);
   const toggleHomePage = () => setIsHomePage(!isHomePage);
   return (
     <>
-      {isHomePage ?
-        <WelcomePage start={toggleHomePage} /> :
-        <QuizTemplate home={toggleHomePage} />
-      }
-    </>
+    {
+      isHomePage?
+        <WelcomePage start = { toggleHomePage } /> :
+  <QuizTemplate home={ toggleHomePage } />
+}
+</>
   );
 }
 export default App;
