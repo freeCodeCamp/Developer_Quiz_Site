@@ -1,6 +1,7 @@
+import React from 'react';
 import fCClogo from '../images/fcc_primary_large.png';
 
-const FCCLogo = () => {
+const FCCLogo : React.FC = () => {
   return (
     <img
       className="fcc-logo"

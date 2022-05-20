@@ -34,12 +34,12 @@ const QuizTemplate = ({ home }) => {
     };
   }, []);
 
-  const alertUser = (e) => {
+  const alertUser = (e: { preventDefault: () => void; returnValue: string; }) => {
     e.preventDefault();
     e.returnValue = "";
   };
 
-  const startQuiz = (e) => {
+  const startQuiz = (e: { target: { value: any; }; }) => {
     setShowOptions(false);
     let userAnswer = e.target.value;
     setQuiz(shuffle(quiz).slice(0, userAnswer));
@@ -75,12 +75,12 @@ const QuizTemplate = ({ home }) => {
     setQuestionNumber(1)
   };
 
-  const shuffleModalResponses = (responses) => {
+  const shuffleModalResponses = (responses: any[]) => {
     let shuffleModalArr = shuffle(responses);
     return shuffleModalArr[0];
   };
 
-  const checkAnswer = (e) => {
+  const checkAnswer = (e: { target: { value: any; }; }) => {
     setChooseAnswer(true)
     let userAnswer = e.target.value;
     if (userAnswer !== currQuestion.Answer) {
