@@ -1,7 +1,9 @@
 import Modal from "react-bootstrap/Modal";
 import "bootstrap/dist/css/bootstrap.min.css";
+import React, { MouseEventHandler } from "react";
 
-const QuizModal = ({ message, points, displayExplanation, showReference, nextQuestion, show }) => {
+const QuizModal: React.FC<{ message: string, points: number, displayExplanation: string, showReference: string, nextQuestion: MouseEventHandler, show: boolean }> =
+  ({ message, points, displayExplanation, showReference, nextQuestion, show }) => {
 
   return (
     <>

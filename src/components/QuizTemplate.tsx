@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, MouseEventHandler } from 'react';
 import SelectQuiz from './SelectQuiz';
 import fullQuiz from '../data/full-quiz';
 import Results from './Results';
@@ -9,7 +9,7 @@ import Questions from './Questions';
 import '../stylesheets/App.css';
 import { correctModalResponses, incorrectModalResponses } from '../data/modal-responses';
 
-const QuizTemplate = ({ home }) => {
+const QuizTemplate : React.FC<{home: MouseEventHandler}> = ({ home }) => {
   const [quiz, setQuiz] = useState(fullQuiz);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
@@ -21,7 +21,7 @@ const QuizTemplate = ({ home }) => {
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(true);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
-  const choicesArr = [];
+  const choicesArr : string[][] = [];
   let currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
@@ -53,7 +53,7 @@ const QuizTemplate = ({ home }) => {
   //shuffle the right and wrong answers
   quiz.forEach(obj => {
     let arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
-    choicesArr.push(shuffle(arr))
+    choicesArr.push(shuffle<string>(arr))
   });
 
   const nextQuestion = () => {

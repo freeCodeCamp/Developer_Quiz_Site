@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
-import SelectQuiz from "./components/SelectQuiz";
 import WelcomePage from './components/WelcomePage';
 
 describe('App', () => {

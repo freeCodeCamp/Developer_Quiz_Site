@@ -1,6 +1,6 @@
 import QuizModal from './QuizModal';
 
-const Questions = ({ currQuestion, questionNumber, totalQuestions, modalProps, chooseAnswer, points, choicesArr, checkAnswer }) => {
+const Questions: React.FC<{ currQuestion: { Question: string }, questionNumber: number, totalQuestions: number, modalProps: any, chooseAnswer: any, points: number, choicesArr: string[][], checkAnswer: Function}>= ({ currQuestion, questionNumber, totalQuestions, modalProps, chooseAnswer, points, choicesArr, checkAnswer }) => {
   return (
     <>
       <h1 className='quiz-heading'>{currQuestion.Question}</h1>
@@ -13,7 +13,7 @@ const Questions = ({ currQuestion, questionNumber, totalQuestions, modalProps, c
         {chooseAnswer ?
           <QuizModal {...modalProps} /> :
           <div className='w-50 quiz-answers-div'>
-            {choicesArr[questionNumber - 1].map((btn, index) => (
+            {choicesArr[questionNumber - 1].map((btn: string | string[] | number , index: number) => (
               <button
                 className="answers-btns"
                 value={btn}
