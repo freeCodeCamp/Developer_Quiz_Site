@@ -1,23 +1,46 @@
-import QuizModal from './QuizModal';
+import QuizModal from "./QuizModal";
+import React, { MouseEventHandler } from "react";
 
-const Questions: React.FC<{ currQuestion: { Question: string }, questionNumber: number, totalQuestions: number, modalProps: any, chooseAnswer: any, points: number, choicesArr: string[][], checkAnswer: Function}>= ({ currQuestion, questionNumber, totalQuestions, modalProps, chooseAnswer, points, choicesArr, checkAnswer }) => {
+interface QuizQuestion
+{
+    message: string;
+    points: number;
+    displayExplanation: string;
+    showReference: string;
+    nextQuestion: MouseEventHandler;
+    show: boolean;
+}
+
+interface QuizProps
+{
+  currQuestion: { Question: string },
+  questionNumber: number,
+  totalQuestions: number,
+  modalProps: QuizQuestion,
+  chooseAnswer: boolean,
+  points: number,
+  choicesArr: string[][],
+  checkAnswer: (e:React.MouseEvent<HTMLButtonElement, MouseEvent>) => void
+}
+
+const Questions: React.FC<QuizProps> = (QuizProps) => {
   return (
     <>
-      <h1 className='quiz-heading'>{currQuestion.Question}</h1>
+      <h1 className='quiz-heading'>{QuizProps.currQuestion.Question}</h1>
       <div className="quiz-text mt-4">
-        <p>Question: {questionNumber}/{totalQuestions}</p>
-        <p>Points: {points}</p>
+        <p>Question: {QuizProps.questionNumber}/{QuizProps.totalQuestions}</p>
+        <p>Points: {QuizProps.points}</p>
       </div>
 
       <div className="quiz-div">
-        {chooseAnswer ?
-          <QuizModal {...modalProps} /> :
+        {QuizProps.chooseAnswer ?
+          <QuizModal {...QuizProps.modalProps} /> :
           <div className='w-50 quiz-answers-div'>
-            {choicesArr[questionNumber - 1].map((btn: string | string[] | number , index: number) => (
+            {QuizProps.choicesArr[QuizProps.questionNumber - 1].map((btn: string | string[] | number , index: number) => (
               <button
                 className="answers-btns"
                 value={btn}
-                onClick={(e) => checkAnswer(e, "value")}
+                onClick={(e) => QuizProps.checkAnswer(e)}
                 key={index}>{btn}
               </button>
             ))}
@@ -25,6 +48,6 @@ const Questions: React.FC<{ currQuestion: { Question: string }, questionNumber: 
         }
       </div>
     </>
-  )
-}
+  );
+};
 export default Questions;

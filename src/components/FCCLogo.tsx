@@ -1,5 +1,5 @@
-import React from 'react';
-import fCClogo from '../images/fcc_primary_large.png';
+import React from "react";
+import fCClogo from "../images/fcc_primary_large.png";
 
 const FCCLogo : React.FC = () => {
   return (
@@ -8,8 +8,8 @@ const FCCLogo : React.FC = () => {
       src={fCClogo}
       alt="freeCodeCamp logo"
     />
-  )
-}
-export default FCCLogo
+  );
+};
+export default FCCLogo;
 
 

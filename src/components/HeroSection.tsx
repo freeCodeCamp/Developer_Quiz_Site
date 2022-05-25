@@ -1,6 +1,7 @@
-import React, { MouseEventHandler } from 'react';
-import Button from './Button';
-import '../stylesheets/HeroSection.css';
+import React, { MouseEventHandler } from "react";
+import Button from "./Button";
+import "../stylesheets/HeroSection.css";
+
 
 const HeroSection : React.FC<{start:MouseEventHandler<HTMLElement>}> = ({ start}) => {
   return (
@@ -19,6 +20,6 @@ const HeroSection : React.FC<{start:MouseEventHandler<HTMLElement>}> = ({ start}
       </div>
     </div>
   );
-}
+};
 
 export default HeroSection;

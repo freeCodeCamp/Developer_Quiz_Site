@@ -1,5 +1,6 @@
-import '../stylesheets/Navbar.css';
-import fccLogo from '../images/fcc_primary_large.png'
+import "../stylesheets/Navbar.css";
+import fccLogo from "../images/fcc_primary_large.png";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -13,6 +14,6 @@ const Navbar = () => {
       </header>
     </>
   );
-}
+};
 
 export default Navbar;

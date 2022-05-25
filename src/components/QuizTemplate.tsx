@@ -1,28 +1,33 @@
-import { useState, useEffect, MouseEventHandler } from 'react';
-import SelectQuiz from './SelectQuiz';
-import fullQuiz from '../data/full-quiz';
-import Results from './Results';
-import shuffle from '../shuffle-arr';
-import Button from './Button';
-import FCCLogo from './FCCLogo';
-import Questions from './Questions';
-import '../stylesheets/App.css';
-import { correctModalResponses, incorrectModalResponses } from '../data/modal-responses';
+import React,{ useState, useEffect } from "react";
+import SelectQuiz from "./SelectQuiz";
+import fullQuiz from "../data/full-quiz";
+import Results from "./Results";
+import shuffle from "../shuffle-arr";
+import Button from "./Button";
+import FCCLogo from "./FCCLogo";
+import Questions from "./Questions";
+import "../stylesheets/App.css";
+import { correctModalResponses, incorrectModalResponses } from "../data/modal-responses";
 
-const QuizTemplate : React.FC<{home: MouseEventHandler}> = ({ home }) => {
+interface QuizProps 
+{
+  home:React.MouseEventHandler
+}
+
+const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
   const [quiz, setQuiz] = useState(fullQuiz);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
-  const [message, setMessage] = useState('');
-  const [displayExplanation, setDisplayExplanation] = useState('');
-  const [showReference, setShowReference] = useState('');
+  const [message, setMessage] = useState("");
+  const [displayExplanation, setDisplayExplanation] = useState("");
+  const [showReference, setShowReference] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(true);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
   const choicesArr : string[][] = [];
-  let currQuestion = quiz[questionNumber - 1];
+  const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
 
@@ -39,9 +44,9 @@ const QuizTemplate : React.FC<{home: MouseEventHandler}> = ({ home }) => {
     e.returnValue = "";
   };
 
-  const startQuiz = (e: { target: { value: any; }; }) => {
+  const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setShowOptions(false);
-    let userAnswer = e.target.value;
+    const userAnswer = parseInt(e.currentTarget.value);
     setQuiz(shuffle(quiz).slice(0, userAnswer));
   };
 
@@ -52,48 +57,48 @@ const QuizTemplate : React.FC<{home: MouseEventHandler}> = ({ home }) => {
 
   //shuffle the right and wrong answers
   quiz.forEach(obj => {
-    let arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
-    choicesArr.push(shuffle<string>(arr))
+    const arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
+    choicesArr.push(shuffle<string>(arr));
   });
 
   const nextQuestion = () => {
     if (questionNumber >= quiz.length) {
-      setIsResults(true)
-      return
+      setIsResults(true);
+      return;
     }
-    setQuestionNumber(curr => curr + 1)
-    setChooseAnswer(false)
+    setQuestionNumber(curr => curr + 1);
+    setChooseAnswer(false);
   };
 
   const resetQuiz = () => {
-    setQuiz(fullQuiz)
-    setIsResults(false)
-    setShow(false)
-    setShowOptions(true)
-    setChooseAnswer(false)
-    setPoints(0)
-    setQuestionNumber(1)
+    setQuiz(fullQuiz);
+    setIsResults(false);
+    setShow(false);
+    setShowOptions(true);
+    setChooseAnswer(false);
+    setPoints(0);
+    setQuestionNumber(1);
   };
 
-  const shuffleModalResponses = (responses: any[]) => {
-    let shuffleModalArr = shuffle(responses);
+  const shuffleModalResponses = (responses: string[]) => {
+    const shuffleModalArr = shuffle<string>(responses);
     return shuffleModalArr[0];
   };
 
-  const checkAnswer = (e: { target: { value: any; }; }) => {
-    setChooseAnswer(true)
-    let userAnswer = e.target.value;
+  const checkAnswer = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    setChooseAnswer(true);
+    const userAnswer = e.currentTarget.value;
     if (userAnswer !== currQuestion.Answer) {
       setMessage(shuffleModalResponses(incorrectModalResponses));
-      setDisplayExplanation(currQuestion.Explanation)
-      setShowReference(currQuestion.Link)
-      handleShow()
+      setDisplayExplanation(currQuestion.Explanation);
+      setShowReference(currQuestion.Link);
+      handleShow();
     } else {
-      setPoints(curr => curr + 1)
-      setMessage(shuffleModalResponses(correctModalResponses))
-      setDisplayExplanation(currQuestion.Explanation)
-      setShowReference(currQuestion.Link)
-      handleShow()
+      setPoints(curr => curr + 1);
+      setMessage(shuffleModalResponses(correctModalResponses));
+      setDisplayExplanation(currQuestion.Explanation);
+      setShowReference(currQuestion.Link);
+      handleShow();
     }
   };
 
@@ -130,7 +135,7 @@ const QuizTemplate : React.FC<{home: MouseEventHandler}> = ({ home }) => {
 
   return (
     <>
-      <Button handleClick={home} text="Home" isTransparent={false} size={""} />
+      <Button handleClick={QuizProps.home} text="Home" isTransparent={false} size={""} />
       <FCCLogo />
       {showOptions ?
         <SelectQuiz {...selectQuizProps} /> :
@@ -138,8 +143,8 @@ const QuizTemplate : React.FC<{home: MouseEventHandler}> = ({ home }) => {
           <Results  {...resultsProps} /> : <Questions {...questionProps} {...modalProps} />
       }
     </>
-  )
-}
+  );
+};
 export default QuizTemplate;
 
 

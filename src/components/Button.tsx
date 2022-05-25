@@ -1,26 +1,35 @@
 import "../stylesheets/Button.css";
-import { MouseEventHandler, useMemo } from "react";
+import React,{ MouseEventHandler, useMemo } from "react";
 
-const Button: React.FC<{ text: String, isTransparent: boolean, size: string, handleClick: MouseEventHandler<HTMLElement> }>
-  = ({ text, isTransparent, size, handleClick }) => {
-  const getButtonClasses = useMemo(() => {
-    let classes = "btn-default";
-    if (size === "large") {
-      classes = `${classes} large-btn`;
-    }
 
-    if (isTransparent) {
-      classes = `${classes} transparent-btn`;
-    }
+interface ButtonProps{
+    text : string,
+    isTransparent : boolean,
+    size : string,
+    handleClick : MouseEventHandler 
+}
 
-    return classes;
-  }, [size, isTransparent]);
 
-  return (
-    <button onClick={handleClick} className={getButtonClasses}>
-      {text}
-    </button>
-  );
-};
+const Button: React.FC<ButtonProps>
+  = (ButtonProps) => {
+    const getButtonClasses = useMemo(() => {
+      let classes = "btn-default";
+      if (ButtonProps.size === "large") {
+        classes = `${classes} large-btn`;
+      }
+
+      if (ButtonProps.isTransparent) {
+        classes = `${classes} transparent-btn`;
+      }
+
+      return classes;
+    }, [ButtonProps.size, ButtonProps.isTransparent]);
+
+    return (
+      <button onClick={ButtonProps.handleClick} className={getButtonClasses}>
+        {ButtonProps.text}
+      </button>
+    );
+  };
 
 export default Button;
