@@ -1,6 +1,6 @@
 //fisher yates shuffle
-const shuffle = (array) => {
-  let currentIndex = array.length, randomIndex;
+function shuffle<Type>(array: Type[]): Type[] {
+  let currentIndex = array.length, randomIndex: number;
 
   while (currentIndex > 0) {
 
@@ -12,5 +12,6 @@ const shuffle = (array) => {
   }
 
   return array;
-};
+}
+
 export default shuffle;

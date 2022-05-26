@@ -1,8 +1,9 @@
-import React from 'react';
-import Button from './Button';
-import '../stylesheets/HeroSection.css';
+import React, { MouseEventHandler } from "react";
+import Button from "./Button";
+import "../stylesheets/HeroSection.css";
 
-const HeroSection = ({ start }) => {
+
+const HeroSection : React.FC<{start:MouseEventHandler<HTMLElement>}> = ({ start}) => {
   return (
     <div className="hero-container">
       <div className="hero-content">
@@ -14,11 +15,11 @@ const HeroSection = ({ start }) => {
           <Button
             text="Get started (it's free)"
             handleClick={start}
-            size="large" />
+            size="large" isTransparent={false} />
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default HeroSection;
