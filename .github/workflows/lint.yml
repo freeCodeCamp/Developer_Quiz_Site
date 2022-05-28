@@ -2,7 +2,7 @@ name: Lint
 on:
   push:
     branches-ignore:
-      - 'renovate/**'
+      - "renovate/**"
   pull_request:
 
 permissions:
@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: 'npm'
+          cache: "npm"
 
       - name: Lint Source Files
         run: |
