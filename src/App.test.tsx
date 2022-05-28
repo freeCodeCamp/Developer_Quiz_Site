@@ -13,6 +13,6 @@ describe("App", () => {
 describe("Welcome Page", () => {
   it("renders without crashing", () => {
     const div = document.createElement("div");
-    ReactDOM.render(<WelcomePage start={undefined}/>, div);
+    ReactDOM.render(<WelcomePage start={undefined} />, div);
   });
 });

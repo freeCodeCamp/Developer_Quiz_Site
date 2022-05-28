@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import SelectQuiz from "./SelectQuiz";
 import fullQuiz from "../data/full-quiz";
 import Results from "./Results";
@@ -7,14 +7,16 @@ import Button from "./Button";
 import FCCLogo from "./FCCLogo";
 import Questions from "./Questions";
 import "../stylesheets/App.css";
-import { correctModalResponses, incorrectModalResponses } from "../data/modal-responses";
+import {
+  correctModalResponses,
+  incorrectModalResponses,
+} from "../data/modal-responses";
 
-interface QuizProps 
-{
-  home:React.MouseEventHandler
+interface QuizProps {
+  home: React.MouseEventHandler;
 }
 
-const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
+const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
   const [quiz, setQuiz] = useState(fullQuiz);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
@@ -26,7 +28,7 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(true);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
-  const choicesArr : string[][] = [];
+  const choicesArr: string[][] = [];
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
@@ -39,7 +41,10 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
     };
   }, []);
 
-  const alertUser = (e: { preventDefault: () => void; returnValue: string; }) => {
+  const alertUser = (e: {
+    preventDefault: () => void;
+    returnValue: string;
+  }) => {
     e.preventDefault();
     e.returnValue = "";
   };
@@ -50,13 +55,11 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
     setQuiz(shuffle(quiz).slice(0, userAnswer));
   };
 
-
   //function for toggling the react-bootstrap modal
   const handleShow = () => setShow(true);
 
-
   //shuffle the right and wrong answers
-  quiz.forEach(obj => {
+  quiz.forEach((obj) => {
     const arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
     choicesArr.push(shuffle<string>(arr));
   });
@@ -66,7 +69,7 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
       setIsResults(true);
       return;
     }
-    setQuestionNumber(curr => curr + 1);
+    setQuestionNumber((curr) => curr + 1);
     setChooseAnswer(false);
   };
 
@@ -94,7 +97,7 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
       setShowReference(currQuestion.Link);
       handleShow();
     } else {
-      setPoints(curr => curr + 1);
+      setPoints((curr) => curr + 1);
       setMessage(shuffleModalResponses(correctModalResponses));
       setDisplayExplanation(currQuestion.Explanation);
       setShowReference(currQuestion.Link);
@@ -104,7 +107,7 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
 
   const selectQuizProps = {
     startQuiz,
-    selectQuizArr
+    selectQuizArr,
   };
 
   const modalProps = {
@@ -113,13 +116,13 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
     displayExplanation,
     showReference,
     show,
-    nextQuestion
+    nextQuestion,
   };
 
   const resultsProps = {
     points,
     totalPoints,
-    resetQuiz
+    resetQuiz,
   };
 
   const questionProps = {
@@ -130,30 +133,26 @@ const QuizTemplate : React.FC<QuizProps > = (QuizProps) => {
     chooseAnswer,
     points,
     choicesArr,
-    checkAnswer
+    checkAnswer,
   };
 
   return (
     <>
-      <Button handleClick={QuizProps.home} text="Home" isTransparent={false} size={""} />
+      <Button
+        handleClick={QuizProps.home}
+        text="Home"
+        isTransparent={false}
+        size={""}
+      />
       <FCCLogo />
-      {showOptions ?
-        <SelectQuiz {...selectQuizProps} /> :
-        isResults ?
-          <Results  {...resultsProps} /> : <Questions {...questionProps} {...modalProps} />
-      }
+      {showOptions ? (
+        <SelectQuiz {...selectQuizProps} />
+      ) : isResults ? (
+        <Results {...resultsProps} />
+      ) : (
+        <Questions {...questionProps} {...modalProps} />
+      )}
     </>
   );
 };
 export default QuizTemplate;
-
-
-
-
-
-
-
-
-
-
-
