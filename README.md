@@ -13,7 +13,7 @@ The [developerquiz.org](https://developerquiz.org/) website is the companion to 
 - Python 🐍
 - Git 📁
 - SQL 📊
-- IT 🖥️ 
+- IT 🖥️
 - and Computer Science Concepts 🤖
 
 All questions are beginner friendly and approachable to all levels, so they are ideal for refreshing your programming knowledge.
@@ -24,19 +24,20 @@ freeCodeCamp creates thousands of articles, videos and courses on a variety of c
 
 All of the helpful and thoughtful resources are made possible by the generous donations of kind people.
 
-Have a look  [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/) at the different ways  you can support our non-profit's  mission and make tech education accessible to all.
+Have a look [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/) at the different ways you can support our non-profit's mission and make tech education accessible to all.
 
 ## How to run the quiz questions locally
+
 Here are directions on how to fork the freeCodeCamp/Developer_Quiz_Site repository:<br>
 https://docs.github.com/en/get-started/quickstart/fork-a-repo
 
 In the command line:
 
-1) Clone the repo by typing `git clone https://github.com/YOUR-GITHUB-USERNAME/Developer_Quiz_Site.git`
-2) Then type `cd Developer_Quiz_Site` to go into the project's directory.
-3) Install dependencies with `npm install`
-4) Run the project with `npm start`
-5) Have fun 🚀
+1. Clone the repo by typing `git clone https://github.com/YOUR-GITHUB-USERNAME/Developer_Quiz_Site.git`
+2. Then type `cd Developer_Quiz_Site` to go into the project's directory.
+3. Install dependencies with `npm install`
+4. Run the project with `npm start`
+5. Have fun 🚀
 
 ### How to contribute
 

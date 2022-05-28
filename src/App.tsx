@@ -1,7 +1,6 @@
 import WelcomePage from "./components/WelcomePage";
 import QuizTemplate from "./components/QuizTemplate";
-import React,{ useState } from "react";
-
+import React, { useState } from "react";
 
 const App: React.FC = () => {
   const [isHomePage, setIsHomePage] = useState(true);
@@ -17,7 +16,3 @@ const App: React.FC = () => {
   );
 };
 export default App;
-
-
-
-

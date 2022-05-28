@@ -8,10 +8,6 @@
     "allowJs": false,
     "noImplicitAny": true,
     "moduleResolution": "node",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
+    "lib": ["dom", "dom.iterable", "esnext"]
   }
 }
