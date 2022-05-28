@@ -1,0 +1,36 @@
+name: Lint
+on:
+  push:
+    branches-ignore:
+      - "renovate/**"
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-20.04
+
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: [16.x]
+
+    steps:
+      - name: Checkout Source Files
+        uses: actions/checkout@v3
+
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: "npm"
+
+      - name: Lint Source Files
+        run: |
+          echo npm version $(npm -v)
+          npm ci
+          npm run lint
+          npm run lint-style
