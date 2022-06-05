@@ -6554,11 +6554,11 @@ const fullQuiz = [
   },
   {
     Question: "What does HTML stand for?",
-    Answer: "Hyper Text Markup Language",
+    Answer: "HyperText Markup Language",
     Distractor1: "Hyper Text Marked Language",
     Distractor2: "Hyper Text Marked Links",
     Distractor3: "Hyper Text Machine Language",
-    Explanation: "HTML stands for Hyper Text Markup Language",
+    Explanation: "HTML stands for HyperText Markup Language",
     Link: "https://www.freecodecamp.org/news/html-crash-course/",
   },
   {
