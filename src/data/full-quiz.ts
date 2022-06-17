@@ -1,7 +1,7 @@
 const fullQuiz = [
   {
     Question:
-      "In Javascript, which built-in method/object will return the unique values of an array?",
+      "In JavaScript, which built-in method/object will return the unique values of an array?",
     Answer: "Set",
     Distractor1: "map()",
     Distractor2: "reduce()",
