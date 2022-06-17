@@ -1,11 +1,13 @@
 const fullQuiz = [
   {
-    Question: "In Javascript, which built-in method/object will return the unique values of an array?",
+    Question:
+      "In Javascript, which built-in method/object will return the unique values of an array?",
     Answer: "Set",
     Distractor1: "map()",
     Distractor2: "reduce()",
     Distractor3: "filter()",
-    Explanation: "The Set object lets you store unique values of any type, whether primitive values or object references. Set removes duplicate entries.",
+    Explanation:
+      "The Set object lets you store unique values of any type, whether primitive values or object references. Set removes duplicate entries.",
     Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/",
   },
   {
