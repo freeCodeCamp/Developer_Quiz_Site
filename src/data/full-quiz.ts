@@ -1,6 +1,28 @@
 const fullQuiz = [
   {
     Question:
+      "What is the basic language of the computer?",
+    Answer: "Binary",
+    Distractor1: "HyperText Markup Language",
+    Distractor2: "Cascading Stylesheet",
+    Distractor3: "JavaScipt",
+    Explanation:
+      "Computers are simplistic and understand binary, other languages (such as Python, Java, etc) were created to help humans write instructions for computers and understand it.",
+    Link: "https://youtu.be/F0WoVEr0-44?t=336",
+  },
+  {
+    Question:
+      "Where is the CPU located in a computer?",
+    Answer: "motherboard",
+    Distractor1: "RAM (random access memory",
+    Distractor2: "Hard drive",
+    Distractor3: "Power supply unit",
+    Explanation:
+      "You'll find the CPU located on a computer's motherboard.",
+    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
+  },
+  {
+    Question:
       "In JavaScript, which built-in method/object will return the unique values of an array?",
     Answer: "Set",
     Distractor1: "map()",
