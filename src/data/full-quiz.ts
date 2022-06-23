@@ -7,7 +7,7 @@ const fullQuiz = [
     Distractor2: "Cascading Style Sheets",
     Distractor3: "JavaScript",
     Explanation:
-      "Computers are simplistic and understand binary, other languages (such as Python, Java, etc) were created to help humans write instructions for computers and understand it.",
+      "Computers are simplistic and understand binary, other languages (such as Python, Java, etc) were created to help humans write instructions for computers and interpret it.",
     Link: "https://youtu.be/F0WoVEr0-44?t=336",
   },
   {
