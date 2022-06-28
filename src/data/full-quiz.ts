@@ -6,28 +6,7 @@ const fullQuiz = [
     Distractor2: "Cascading Style Sheets",
     Distractor3: "JavaScript",
     Explanation: "Computers are simplistic and understand binary. Programming languages such as Python and Java were created to help humans write instructions for computers and interpret it.",
-  },
-  {
-    Question:
-      "What is the basic language of a computer?",
-    Answer: "Binary",
-    Distractor1: "HyperText Markup Language",
-    Distractor2: "Cascading Style Sheets",
-    Distractor3: "JavaScript",
-    Explanation:
-      "Computers are simplistic and understand binary, other languages (such as Python, Java, etc) were created to help humans write instructions for computers and interpret it.",
     Link: "https://youtu.be/F0WoVEr0-44?t=336",
-  },
-  {
-    Question:
-      "Where is the CPU located in a computer?",
-    Answer: "Motherboard",
-    Distractor1: "RAM (random access memory",
-    Distractor2: "Hard drive",
-    Distractor3: "Power supply unit",
-    Explanation:
-      "You'll find the CPU located on a computer's motherboard.",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
     Question:
