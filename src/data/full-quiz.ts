@@ -1,5 +1,13 @@
 const fullQuiz = [
   {
+    Question: "What is the basic language of a computer?",
+    Answer: "Binary",
+    Distractor1: "HyperText Markup Language",
+    Distractor2: "Cascading Style Sheets",
+    Distractor3: "JavaScript",
+    Explanation: "Computers are simplistic and understand binary. Programming languages such as Python and Java were created to help humans write instructions for computers and interpret it.",
+  },
+  {
     Question:
       "What is the basic language of a computer?",
     Answer: "Binary",
