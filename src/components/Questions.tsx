@@ -4,6 +4,7 @@ import React, { MouseEventHandler } from "react";
 interface QuizQuestion {
   message: string;
   points: number;
+  chosenAnswer: string;
   displayExplanation: string;
   showReference: string;
   nextQuestion: MouseEventHandler;
