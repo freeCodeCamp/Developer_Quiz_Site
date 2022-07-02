@@ -5616,10 +5616,10 @@ const fullQuiz = [
   {
     Question: "What does Mbps stand for?",
     Answer: "Megabits per second",
-    Distractor1: "Megabyte per second",
-    Distractor2: "Megabit per sound",
-    Distractor3: "Megabyte per system",
-    Explanation: "Mbps stands for Megabits per second.",
+    Distractor1: "Megabytes per second",
+    Distractor2: "Megabits per sound",
+    Distractor3: "Megabytes per system",
+    Explanation: "Mbps stands for Megabits per second, not to be confused with MBps (with a capital B) that stands for Megabytes per second.",
     Link: "https://en.wikipedia.org/wiki/Data-rate_units#Megabit_per_second",
   },
   {
