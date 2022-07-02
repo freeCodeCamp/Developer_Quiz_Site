@@ -26,7 +26,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "fix-style": "npm run lint -- --fix",
-    "lint-style": "prettier --list-different ."
+    "lint-style": "prettier --list-different .",
+    "format": "prettier --write \"**/*.{ts,tsx,json}\""
   },
   "eslintConfig": {
     "extends": [
@@ -56,7 +57,19 @@
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.30.0",
+    "husky": "^8.0.1",
+    "lint-staged": "^13.0.3",
     "prettier": "^2.6.2",
+    "pretty-quick": "^3.1.3",
     "typescript": "^4.7.2"
+  },
+  "lint-staged": {
+    "*.ts": "eslint",
+    "*.tsx": "eslint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged && pretty-quick --staged"
+    }
   }
 }
