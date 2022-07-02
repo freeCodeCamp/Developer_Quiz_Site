@@ -5,7 +5,8 @@ const fullQuiz = [
     Distractor1: "HyperText Markup Language",
     Distractor2: "Cascading Style Sheets",
     Distractor3: "JavaScript",
-    Explanation: "Computers are simplistic and understand binary. Programming languages such as Python and Java were created to help humans write instructions for computers and interpret it.",
+    Explanation:
+      "Computers are simplistic and understand binary. Programming languages such as Python and Java were created to help humans write instructions for computers and interpret it.",
     Link: "https://youtu.be/F0WoVEr0-44?t=336",
   },
   {
@@ -7031,6 +7032,17 @@ const fullQuiz = [
     Explanation:
       "The triple equals operator (===) will check for strict equality because it checks for the same data type and value.",
     Link: "https://www.freecodecamp.org/news/javascript-promises-explained/",
+  },
+  {
+    Question:
+      "Which of the following relational database management systems (RDBMS) should never be used to store data in a production app?",
+    Answer: "Microsoft Access",
+    Distractor1: "Microsoft SQL Server",
+    Distractor2: "MongoDB",
+    Distractor3: "PostgreSQL",
+    Explanation:
+      "Microsoft Access does not offer as much security, availability, and stability as SQL Server.",
+    Link: "https://en.wikipedia.org/wiki/Microsoft_Access",
   },
 ];
 export default fullQuiz;

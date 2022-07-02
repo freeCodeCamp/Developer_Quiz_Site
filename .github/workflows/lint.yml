@@ -33,4 +33,4 @@ jobs:
           echo npm version $(npm -v)
           npm ci
           npm run lint
-          npm run lint-style
+          
