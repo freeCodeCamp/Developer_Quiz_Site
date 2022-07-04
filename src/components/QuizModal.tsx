@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import React, { MouseEventHandler } from "react";
 
 interface QuizQuestion {
+  chosenAnswer: string;
   message: string;
   points: number;
   displayExplanation: string;
@@ -22,6 +23,10 @@ const QuizModal: React.FC<QuizQuestion> = (QuizQuestion) => {
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>
+          <p>
+            <b>Your Answer:</b>
+          </p>
+          <p>{QuizQuestion.chosenAnswer}</p>
           <p>
             <b>Answer:</b>
           </p>
