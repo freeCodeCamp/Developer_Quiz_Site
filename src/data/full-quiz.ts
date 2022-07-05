@@ -88,7 +88,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "In JavaScript, in a switch statement, the __________________ case executes if none of the options are true.",
+      "In a JavaScript switch statement, the __________________ case executes if none of the options are true.",
     Answer: "default",
     Distractor1: "override",
     Distractor2: "else",
@@ -1593,13 +1593,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/",
   },
   {
-    Question: "In CSS, what does align-items do in flexbox?",
+    Question: "In CSS Flexbox, what does align-items do?",
     Answer: "aligns the items along the cross axis",
     Distractor1: "aligns the items to the right of the y axis",
     Distractor2: "aligns the items to the right of the x axis",
     Distractor3: "aligns the items to the right of the z axis",
     Explanation:
-      "In flexbox, align-items aligns the items along the cross axis",
+      "In CSS Flexbox, align-items aligns the items along the cross axis",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -1710,13 +1710,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/exception-handling-python/",
   },
   {
-    Question: "In CSS, how do you allow items to move to a new line in flexbox?",
+    Question: "In CSS Flexbox, how do you allow items to move to a new line?",
     Answer: "flex-wrap: wrap;",
     Distractor1: "flex: wrap;",
     Distractor2: "flex-wrap: wrap-items;",
     Distractor3: "flex-wrap: item-wrap;",
     Explanation:
-      "In flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space",
+      "In CSS Flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -2779,13 +2779,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "In CSS, how do you set the flex container to reverse the items in a row?",
+      "In CSS Flexbox, how do you set the flex container to reverse the items in a row?",
     Answer: "flex-direction: row-reverse;",
     Distractor1: "flex-direction: reverse-row;",
     Distractor2: "flex-row: row-reverse;",
     Distractor3: "flex-direction: set-row-reverse;",
     Explanation:
-      "In CSS, you can apply flex-direction: row-reverse; to the container whose items you want to display in a row, with their order reversed.",
+      "In CSS Flexbox, you can apply flex-direction: row-reverse; to the container whose items you want to display in a row, with their order reversed.",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -2810,13 +2810,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "In CSS, how do you set the flex container to reverse the items in a column?",
+      "In CSS Flexbox, how do you set the flex container to reverse the items in a column?",
     Answer: "flex-direction: column-reverse;",
     Distractor1: "flex-direction: reverse-c;",
     Distractor2: "flex-direction: column-r;",
     Distractor3: "flex-direction: column-rev;",
     Explanation:
-      "In CSS, you can apply flex-direction: column-reverse; to the container whose items you want to display in a column, with their order reversed.",
+      "In CSS Flexbox, you can apply flex-direction: column-reverse; to the container whose items you want to display in a column, with their order reversed.",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -3037,12 +3037,12 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
   },
   {
-    Question: "In CSS, what does align-self do in flexbox?",
+    Question: "In CSS Flexbox, what does align-self do?",
     Answer: "adjusts the alignment for an element",
     Distractor1: "adjust the alignment for all elements",
     Distractor2: "adjusts the alignment for hr elements",
     Distractor3: "adjusts the alignment for an img element",
-    Explanation: "In flexbox, align-self adjusts the alignment for an element",
+    Explanation: "In CSS Flexbox, align-self adjusts the alignment for an element",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -3246,13 +3246,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "In CSS, how do you set the flex container to arrange the items in a column?",
+      "In CSS Flexbox, how do you set the flex container to arrange the items in a column?",
     Answer: "flex-direction: column;",
     Distractor1: "flex-direction: row;",
     Distractor2: "flex-column: column;",
     Distractor3: "flex-direction: set-column;",
     Explanation:
-      "In CSS, you can apply flex-direction: column; to the container whose items you want arrange in a column",
+      "In CSS Flexbox, you can apply flex-direction: column; to the container whose items you want arrange in a column",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -4497,13 +4497,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-whoami-command",
   },
   {
-    Question: "In CSS, what does justify-content do in flexbox?",
+    Question: "In CSS Flexbox, what does justify-content do?",
     Answer: "aligns the items along the main axis",
     Distractor1: "aligns the items to right of the y axis",
     Distractor2: "aligns the items to the left of  the x and y axis",
     Distractor3: "aligns the items to the right of the x axis",
     Explanation:
-      "In flexbox, justify-content is used to align the items in the container along the main axis",
+      "In CSS Flexbox, justify-content is used to align the items in the container along the main axis",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -4518,13 +4518,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
   },
   {
-    Question: "How do you create a flexbox container in CSS?",
+    Question: "How do you create a flexbox container in CSS Flexbox?",
     Answer: "display:flex;",
     Distractor1: "display:flexbox;",
     Distractor2: "display:flexcontainer;",
     Distractor3: "display:flexB;",
     Explanation:
-      "You can apply flexbox to an HTML container by using display:flex;",
+      "You can apply CSS Flexbox to an HTML container by using display:flex;",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -4851,13 +4851,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
   },
   {
-    Question: "In Flexbox, which one is NOT used with justify-content?",
+    Question: "In CSS Flexbox, which one is NOT used with justify-content?",
     Answer: "flex-middle",
     Distractor1: "flex-start",
     Distractor2: "flex-end",
     Distractor3: "space-around",
     Explanation:
-      "In flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between",
+      "In CSS Flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -5549,13 +5549,13 @@ const fullQuiz = [
     Link: "https://devdocs.io/css/color_value/rgba()",
   },
   {
-    Question: "In Flexbox, which one is NOT used with align-items?",
+    Question: "In CSS Flexbox, which one is NOT used with align-items?",
     Answer: "align-middle",
     Distractor1: "flex-end",
     Distractor2: "flex-start",
     Distractor3: "baseline",
     Explanation:
-      "In flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch",
+      "In CSS Flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -5684,13 +5684,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-gzip-command",
   },
   {
-    Question: "Which one is NOT used with align-content?",
+    Question: "In CSS Flexbox, which one is NOT used with align-content?",
     Answer: "align-bottom",
     Distractor1: "center",
     Distractor2: "space-around",
     Distractor3: "stretch",
     Explanation:
-      "In flexbox, some of the options for align-content include center, stretch, space-around and space-between",
+      "In CSS Flexbox, some of the options for align-content include center, stretch, space-around and space-between",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
