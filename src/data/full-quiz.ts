@@ -5471,13 +5471,13 @@ const fullQuiz = [
   {
     Question:
       "What chat tool does freeCodeCamp use for its main self-hosted chat server?",
-    Answer: "RocketChat",
+    Answer: "Discord",
     Distractor1: "Slack",
-    Distractor2: "Discord",
+    Distractor2: "RocketChat",
     Distractor3: "Gitter",
     Explanation:
-      "The freeCodeCamp contributor community communicates mostly through our self-hosted Rocket Chat instance at https://chat.freecodecamp.org. This said, we do have an active Discord server, and in the past have used both Slack and Gitter.",
-    Link: "https://www.freecodecamp.org/news/introducing-freecodecamp-chat/",
+      "The freeCodeCamp contributor community communicates mostly through our active Discord server, and in the past have used RocketChat, Slack, and Gitter.",
+    Link: "https://www.freecodecamp.org/news/freecodecamp-discord-chat-room-server/",
   },
   {
     Question:
