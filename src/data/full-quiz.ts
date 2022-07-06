@@ -33,7 +33,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Every JavaScript class has a special ____________ method that is used to create a new object instance of the class.",
+      "In JavaScript, every class has a special ____________ method that is used to create a new object instance of the class.",
     Answer: "constructor",
     Distractor1: "starter",
     Distractor2: "assign",
@@ -44,7 +44,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following is a wildcard character that can be used with the SQL LIKE statement?",
+      "In SQL, which of the following is a wildcard character that can be used with the LIKE statement?",
     Answer: "%",
     Distractor1: "$",
     Distractor2: "!",
@@ -66,7 +66,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Given the array, 'let array = [0, 1, 2, 3]', what is a valid way to clear all of the the array's values?",
+      "In JavaScript, given the array, 'let array = [0, 1, 2, 3]', what is a valid way to clear all of the the array's values?",
     Answer: "array.length = 0",
     Distractor1: "array.none()",
     Distractor2: "array.concat()",
@@ -88,7 +88,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "A variable that has been declared and assigned a value of 'no value' is ___________________",
+      "In JavaScript, a variable that has been declared and assigned a value of 'no value' is ___________________",
     Answer: "null",
     Distractor1: "non-value",
     Distractor2: "empty",
@@ -98,7 +98,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the index of the first element in an array in JavaScript?",
+      "In JavaScript, what is the index of the first element in an array?",
     Answer: "0",
     Distractor1: "1",
     Distractor2: "first",
@@ -109,7 +109,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "In a switch statement, the __________________ case executes if none of the options are true.",
+      "In a JavaScript switch statement, the __________________ case executes if none of the options are true.",
     Answer: "default",
     Distractor1: "override",
     Distractor2: "else",
@@ -120,7 +120,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which comparison operator is used to express strict equality in JavaScript?",
+      "In JavaScript, which comparison operator is used to express strict equality?",
     Answer: "===",
     Distractor1: ">=",
     Distractor2: "+=",
@@ -130,7 +130,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality",
   },
   {
-    Question: "What is a maximum length for a filename under Linux?",
+    Question: "In Linux, what is a maximum length for a filename?",
     Answer: "255 Bytes",
     Distractor1: "225 Bytes",
     Distractor2: "235 Bytes",
@@ -140,7 +140,7 @@ const fullQuiz = [
     Link: "https://www.ibm.com/docs/en/spectrum-protect/8.1.9?topic=parameters-file-specification-syntax",
   },
   {
-    Question: "What is function overloading?",
+    Question: "In object-oriented programming, what is function overloading?",
     Answer:
       "multiple functions with the same name but with different parameters",
     Distractor1: "functions that only return undefined",
@@ -205,7 +205,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/binary-search-tree-what-is-it/",
   },
   {
-    Question: "What are the outputs for type(1) and type((1,)) in Python?",
+    Question: "In Python, what are the outputs for type(1) and type((1,))?",
     Answer: "<class 'int'>  <class 'tuple'>",
     Distractor1: "<class 'str'> <class 'int'>",
     Distractor2: "<class 'dict'>  <class 'list'>",
@@ -226,9 +226,8 @@ const fullQuiz = [
     Link: "https://youtu.be/zg9ih6SVACc?t=1470",
   },
   {
-    Question: "What is the function of the resize2fs command?",
-    Answer:
-      "This can be used to change the size of an ext2 or ext3 filesystem.",
+    Question: "In Linux, what does the resize2fs command do?",
+    Answer: "This can be used to change the size of an ext2 or ext3 filesystem.",
     Distractor1: "This is used manipulate the size of partitions.",
     Distractor2: "This is used to create an ext2, ext3, or ext4 filesystem",
     Distractor3: "This is used to check the family of filesystems.",
@@ -237,8 +236,7 @@ const fullQuiz = [
     Link: "http://manpages.ubuntu.com/manpages/bionic/man8/resize2fs.8.html",
   },
   {
-    Question:
-      "Which command is used to display information about the processes using a filesystem?",
+    Question: "In Linux, which command is used to display information about the processes using a filesystem?",
     Answer: "fuser",
     Distractor1: "ps",
     Distractor2: "top",
@@ -248,7 +246,7 @@ const fullQuiz = [
     Link: "https://docs.oracle.com/cd/E88353_01/html/E72487/fuser-8.html",
   },
   {
-    Question: "Select the right syntax for an ES6 arrow function:",
+    Question: "In JavaScript, select the right syntax for an ES6 arrow function:",
     Answer: "let variable = () => {//code block}",
     Distractor1: "let variable => (){//code block}",
     Distractor2: "let variable = function() => {//code block}",
@@ -258,7 +256,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
   },
   {
-    Question: "What will be the value of output? let output = null ?? 20",
+    Question: "In JavaScript, what will be the value of output? let output = null ?? 20",
     Answer: "20",
     Distractor1: "undefined",
     Distractor2: "null",
@@ -269,7 +267,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "In the global execution context, 'this' refers to the ______ object whether in strict mode or not.",
+      "In JavaScript, in the global execution context, 'this' refers to the ______ object whether in strict mode or not.",
     Answer: "window",
     Distractor1: "null",
     Distractor2: "undefined",
@@ -279,7 +277,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this",
   },
   {
-    Question: "Which queue is emptied first by an event loop in JavaScript?",
+    Question: "In JavaScript, which queue is emptied first by an event loop?",
     Answer: "Microtask queue",
     Distractor1: "Callback queue (Macrotask queue)",
     Distractor2: "None",
@@ -290,7 +288,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following is NOT in the Temporal Dead Zone(TDZ) during hoisting?",
+      "In JavaScript, which of the following is NOT in the Temporal Dead Zone(TDZ) during hoisting?",
     Answer: "var",
     Distractor1: "let",
     Distractor2: "const",
@@ -301,7 +299,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following expressions will return true in JavaScript?",
+      "In JavaScript, which of the following expressions will return true?",
     Answer: "null >= 0",
     Distractor1: "null == 0",
     Distractor2: "null === 0",
@@ -312,7 +310,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following is a common web API used with JavaScript?",
+      "In JavaScript, which of the following is a commonly used web API?",
     Answer: "console",
     Distractor1: "Array",
     Distractor2: "Object",
@@ -322,7 +320,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/console",
   },
   {
-    Question: "Which of the following methods returns a function?",
+    Question: "In JavaScript, which of the following methods returns a function?",
     Answer: "bind",
     Distractor1: "apply",
     Distractor2: "call",
@@ -343,13 +341,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these is NOT a common time complexity equation for BigO notation?",
+      "Which one of these is NOT a common time complexity equation for Big O notation?",
     Answer: "O(n14)",
     Distractor1: "O(1)",
     Distractor2: "O(log n)",
     Distractor3: "O(n)",
     Explanation:
-      "O(1), O(log n), O(n) are just some of the common time complexity equations for BigO notation.",
+      "O(1), O(log n), O(n) are just some of the common time complexity equations for Big O notation.",
     Link: "https://www.youtube.com/watch?v=zg9ih6SVACc&t=867s",
   },
   {
@@ -365,7 +363,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which method can be used to replace parts of a string in Python?",
+      "In Python, which method can be used to replace parts of a string?",
     Answer: "replace()",
     Distractor1: "switch()",
     Distractor2: "repl()",
@@ -375,7 +373,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-string-methods-tutorial-how-to-use-find-and-replace-on-python-strings/",
   },
   {
-    Question: "What is the correct way to create a function in Python?",
+    Question: "In Python, what is the correct way to create a function?",
     Answer: "def function_name(parameters):",
     Distractor1: "function function_name(parameter):",
     Distractor2: "definition function_name {[parameters]}:",
@@ -385,7 +383,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/functions-in-python-a-beginners-guide/",
   },
   {
-    Question: "What is a correct syntax to output 'Hello World' in Python?",
+    Question: "In Python, what is a correct syntax to output 'Hello World'?",
     Answer: "print('Hello World')",
     Distractor1: "echo('Hello World')",
     Distractor2: "p('Hello World')",
@@ -395,7 +393,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following methods returns the day of the month for the specified date according to local time?",
+      "In JavaScript, which of the following methods returns the day of the month for the specified date according to local time?",
     Answer: "getDate()",
     Distractor1: "getTheDate()",
     Distractor2: "getDay()",
@@ -407,7 +405,7 @@ const fullQuiz = [
 
   {
     Question:
-      "Which of the following methods returns the day of the week for the specified date according to local time?",
+      "In JavaScript, which of the following methods returns the day of the week for the specified date according to local time?",
     Answer: "getDay()",
     Distractor1: "getDate()",
     Distractor2: "getTheSpecificDay()",
@@ -419,7 +417,7 @@ const fullQuiz = [
 
   {
     Question:
-      "Which of the following methods returns the year of the specified date according to local time?",
+      "In JavaScript, which of the following methods returns the year of the specified date according to local time?",
     Answer: "getFullYear()",
     Distractor1: "getDate()",
     Distractor2: "listTheYear()",
@@ -431,7 +429,7 @@ const fullQuiz = [
 
   {
     Question:
-      "Which of the following methods returns the day of the hour for the specified date, according to local time?",
+      "In JavaScript, which of the following methods returns the day of the hour for the specified date, according to local time?",
     Answer: "getHours()",
     Distractor1: "getMyHour()",
     Distractor2: "getMilliseconds()",
@@ -442,7 +440,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following methods returns the milliseconds in the specified date according to local time?",
+      "In JavaScript, which of the following methods returns the milliseconds in the specified date according to local time?",
     Answer: "getMilliseconds()",
     Distractor1: "getMillisec()",
     Distractor2: "getTheMillisecondsNow()",
@@ -453,7 +451,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following methods returns the minutes in the specified date according to local time?",
+      "In JavaScript, which of the following methods returns the minutes in the specified date according to local time?",
     Answer: "getMinutes()",
     Distractor1: "getMin()",
     Distractor2: "getMilliseconds()",
@@ -464,7 +462,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following methods returns the month in the specified date according to local time, as a zero-based value?",
+      "In JavaScript, which of the following methods returns the month in the specified date according to local time, as a zero-based value?",
     Answer: "getMonth()",
     Distractor1: "getTheMonth()",
     Distractor2: "getSeconds()",
@@ -475,7 +473,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following methods returns the seconds in the specified date according to local time?",
+      "In JavaScript, which of the following methods returns the seconds in the specified date according to local time?",
     Answer: "getSeconds()",
     Distractor1: "getSec()",
     Distractor2: "getTheSeconds()",
@@ -486,7 +484,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following methods returns the number of milliseconds since the Unix Epoch?",
+      "In JavaScript, which of the following methods returns the number of milliseconds since the Unix Epoch?",
     Answer: "getTime()",
     Distractor1: "getMilliseconds()",
     Distractor2: "getSeconds()",
@@ -497,7 +495,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
+      "In JavaScript, which method returns an HTMLCollection object that consists of all of the elements that have the same class name?",
     Answer: "getElementsByClassName()",
     Distractor1: "querySelector()",
     Distractor2: "getElementsByName()",
@@ -507,7 +505,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName",
   },
   {
-    Question: "Which operator is used to concatenate strings in JavaScript?",
+    Question: "In JavaScript, which operator is used to concatenate strings?",
     Answer: "+",
     Distractor1: "*",
     Distractor2: "&",
@@ -518,7 +516,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What method is used to arrange array values into alphabetical and/or ascending order?",
+      "In JavaScript, what method is used to arrange array values into alphabetical and/or ascending order?",
     Answer: "sort()",
     Distractor1: "shift()",
     Distractor2: "unshift()",
@@ -529,7 +527,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What method is used to arrange array values into descending order?",
+      "In JavaScript, what method is used to arrange array values into descending order?",
     Answer: "reverse()",
     Distractor1: "from()",
     Distractor2: "unshift()",
@@ -540,7 +538,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "The ____________ method returns the index position of the first occurrence of a value in a string.",
+      "In JavaScript, the ____________ method returns the index position of the first occurrence of a value in a string.",
     Answer: "indexOf()",
     Distractor1: "getPosition()",
     Distractor2: "valueOf()",
@@ -551,7 +549,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following is the default separator in the join() method in JavaScript?",
+      "In JavaScript, which of the following is the default separator in the join() method?",
     Answer: "comma (',')",
     Distractor1: "space (' ')",
     Distractor2: "empty string ('')",
@@ -562,7 +560,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which method boils an array down to a single value in JavaScript?",
+      "In JavaScript, which method boils an array down to a single value?",
     Answer: "reduce()",
     Distractor1: "map()",
     Distractor2: "filter()",
@@ -573,7 +571,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which JavaScript method creates a new array and returns all of the items which pass the condition specified in the callback?",
+      "In JavaScript, which method creates a new array and returns all of the items which pass the condition specified in the callback?",
     Answer: "filter()",
     Distractor1: "split()",
     Distractor2: "concat()",
@@ -584,7 +582,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method in JavaScript?",
+      "In JavaScript, which method iterates over the elements of an array and creates a new array based on the results of the function specified within said method?",
     Answer: "map()",
     Distractor1: "reverse()",
     Distractor2: "split()",
@@ -605,7 +603,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which pair of symbols can be used in place of quotes to define a string?",
+      "In JavaScript, which pair of symbols can be used in place of quotes to define a string?",
     Answer: "Template literals : ``",
     Distractor1: "Square brackets: []",
     Distractor2: "Curly braces: {}",
@@ -616,7 +614,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method that is used to convert a string into an array?",
+      "In JavaScript, what is the name of the method that is used to convert a string into an array?",
     Answer: "split()",
     Distractor1: "slice()",
     Distractor2: "trim()",
@@ -636,8 +634,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-big-o-notation/",
   },
   {
-    Question:
-      "Which Linux command prints the path to the current directory you are in?",
+    Question: "In Linux, which command prints the path to the current directory you are in?",
     Answer: "pwd",
     Distractor1: "cat",
     Distractor2: "cd",
@@ -647,7 +644,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
   },
   {
-    Question: "What is the new line character in Python?",
+    Question: "In Python, what is the new line character?",
     Answer: "\\n",
     Distractor1: "\\s",
     Distractor2: "\\new",
@@ -657,7 +654,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What CSS selector is used to set the style of links for the moment they are clicked?",
+      "In CSS, what selector is used to set the style of links for the moment they are clicked?",
     Answer: "a:active",
     Distractor1: "a:hover",
     Distractor2: "a:visited",
@@ -667,7 +664,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
   },
   {
-    Question: "How can you create an empty dictionary in Python?",
+    Question: "In Python, how can you create an empty dictionary?",
     Answer: "{}",
     Distractor1: "[]",
     Distractor2: "()",
@@ -686,7 +683,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these values represents 20% of the viewport height?",
+      "In CSS, which one of these values represents 20% of the viewport height?",
     Answer: "20vh",
     Distractor1: "200vh",
     Distractor2: "2vh",
@@ -695,7 +692,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
   },
   {
-    Question: "How can you create an empty set in Python?",
+    Question: "In Python, how can you create an empty set?",
     Answer: "set()",
     Distractor1: "{}",
     Distractor2: "dict()",
@@ -705,7 +702,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-sets-detailed-visual-introduction/",
   },
   {
-    Question: "Which one of these values represents 10% of the viewport width?",
+    Question: "In CSS, which one of these values represents 10% of the viewport width?",
     Answer: "10vw",
     Distractor1: "10vh",
     Distractor2: "100vw",
@@ -714,7 +711,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
   },
   {
-    Question: "Empty sequences, collections and the number 0 are...",
+    Question: "In Python, the value of empty sequences, collections, and the number 0 are all ...",
     Answer: "Falsy",
     Distractor1: "Truthy",
     Distractor2: "FALSENESS",
@@ -725,7 +722,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What JavaScript method removes the first element of an array and returns it?",
+      "In JavaScript, what method removes the first element of an array and returns it?",
     Answer: ".shift()",
     Distractor1: ".push()",
     Distractor2: ".pop()",
@@ -735,7 +732,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
   },
   {
-    Question: "What does the animation-fill-mode property do in the CSS?",
+    Question: "In CSS, what does the animation-fill-mode property do?",
     Answer: "It is used to style the element after the animation ends.",
     Distractor1: "It sets a delay for the animation to start.",
     Distractor2: "It sets how many times an animation should run.",
@@ -745,7 +742,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
   },
   {
-    Question: "Which Linux command is used to send HTTP requests?",
+    Question: "In Linux, which command is used to send HTTP requests?",
     Answer: "curl",
     Distractor1: "tar",
     Distractor2: "uname",
@@ -756,7 +753,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the HTML character entity for the left single quote symbol?",
+      "In HTML, what is the character entity for the left single quote symbol?",
     Answer: "&lsquo;",
     Distractor1: "&rsquo;",
     Distractor2: "&leftquo;",
@@ -767,7 +764,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to remove adjacent duplicate lines inside a file?",
+      "In Linux, which command is used to remove adjacent duplicate lines inside a file?",
     Answer: "uniq",
     Distractor1: "sort",
     Distractor2: "rm",
@@ -778,7 +775,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the HTML element that shows content added to the document?",
+      "In HTML, what is the element tag that shows content added to the document?",
     Answer: "<ins>",
     Distractor1: "<map>",
     Distractor2: "<mark>",
@@ -787,7 +784,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/ins",
   },
   {
-    Question: "Type of CSS unit that is relative to another length value.",
+    Question: "In CSS, this type of unit is defined by comparing to another length value.",
     Answer: "Relative",
     Distractor1: "Absolute",
     Distractor2: "Fixed",
@@ -797,7 +794,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#why-learn-css-relative-units",
   },
   {
-    Question: "What does the title attribute do in the img tag?",
+    Question: "In HTML, what does the title attribute do in the img tag?",
     Answer: "it provides additional information about the image",
     Distractor1: "it creates a title above the img tag",
     Distractor2: "it creates a title below the img tag",
@@ -807,7 +804,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
-    Question: "Which Linux command is used to create multiple nested folders?",
+    Question: "In Linux, which command is used to create multiple nested folders?",
     Answer: "mkdir -p",
     Distractor1: "mkdir -27",
     Distractor2: "makedir",
@@ -818,7 +815,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS grid property used to position items inside grid containers along the main axis?",
+      "In CSS, what is the name of the CSS grid property used to position items inside grid containers along the main axis?",
     Answer: "justify-items",
     Distractor1: "justify-content",
     Distractor2: "justify-rows",
@@ -828,7 +825,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "What does the src attribute do in the img tag?",
+    Question: "In HTML, what does the src attribute do in the img tag?",
     Answer: "Represents the source for the image",
     Distractor1: "Provides descriptive text for the image",
     Distractor2: "Provides the height of the image",
@@ -838,7 +835,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
-    Question: "How do you write a comment in HTML?",
+    Question: "In HTML, how do you write a comment?",
     Answer: "<!-- I am a comment! -->",
     Distractor1: "X!--I am a comment!--X",
     Distractor2: "V!--I am a comment!--V",
@@ -847,7 +844,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-comment-how-to-comment-out-a-line-or-tag-in-html/",
   },
   {
-    Question: "What is the “greater than” operator in Python?",
+    Question: "In Python, what is the “greater than” operator?",
     Answer: ">",
     Distractor1: ">=",
     Distractor2: "<",
@@ -858,7 +855,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these methods is NOT used to select elements in an HTML document?",
+      "In HTML, which one of these methods is NOT used to select DOM elements?",
     Answer: "typeof",
     Distractor1: "getElementById",
     Distractor2: "querySelector",
@@ -869,7 +866,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the technique used to extract an object's values into new variables?",
+      "In JavaScript, what is the name of the technique used to extract an object's values into new variables?",
     Answer: "Object destructuring",
     Distractor1: "Array destructuring",
     Distractor2: "Hoisting",
@@ -890,7 +887,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-design-thinking-process-explained/",
   },
   {
-    Question: "Which one of these methods modifies an array in place?",
+    Question: "In JavaScript, which one of these methods modifies an array in place?",
     Answer: ".splice()",
     Distractor1: ".slice()",
     Distractor2: ".filter()",
@@ -901,7 +898,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which is the default shell provided with most Linux based systems?",
+      "In Linux, which is the default shell?",
     Answer: "Bourne Again SHell",
     Distractor1: "PowerSHell",
     Distractor2: "Emacs",
@@ -912,7 +909,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What aggregate function in SQL allows you to count the number of rows and return that count as a column in the result set?",
+      "In SQL, what aggregate function allows you to count the number of rows and returns that count as a column in the result set?",
     Answer: "COUNT()",
     Distractor1: "AVG()",
     Distractor2: "MINIMUM()",
@@ -922,7 +919,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "With which wildcard can you select ALL files in a directory?",
+    Question: "In grep, which wildcard can you use to select ALL files in a directory?",
     Answer: "*",
     Distractor1: "?",
     Distractor2: "[]",
@@ -942,7 +939,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
-    Question: "What is the all media type in a CSS media query?",
+    Question: "In CSS, what is the all media type in a CSS media query?",
     Answer: "A category of media that works for all devices.",
     Distractor1: "A category of media that only works for mobile devices.",
     Distractor2: "A category of media that only works for print media.",
@@ -952,7 +949,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
   },
   {
-    Question: "How do you write a multiline comment in JavaScript?",
+    Question: "In JavaScript, how do you write a multiline comment?",
     Answer: "/* */",
     Distractor1: "//",
     Distractor2: "<!-- -->",
@@ -962,7 +959,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command displays information about the Operating System?",
+      "In Linux, which command displays information about the Operating System?",
     Answer: "uname",
     Distractor1: "echo",
     Distractor2: "man",
@@ -982,7 +979,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/about/",
   },
   {
-    Question: "What is the result of this Python code: “Hi” * 2?",
+    Question: "In Python, what is the result of this code: “Hi” * 2?",
     Answer: "“HiHi”",
     Distractor1: "“Hihi”",
     Distractor2: "“HiHiHiHi”",
@@ -1003,7 +1000,7 @@ const fullQuiz = [
     Link: "https://docs.python.org/3/glossary.html",
   },
   {
-    Question: "What is the mark element in HTML?",
+    Question: "In HTML, what is the mark element?",
     Answer: "An element used to highlight text",
     Distractor1: "A tag used to create an ordered list",
     Distractor2: "A tag used to create quotes",
@@ -1012,7 +1009,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
   },
   {
-    Question: "What attribute can you add to <input> to create a checkbox?",
+    Question: "In HTML, what attribute can you add to <input> to create a checkbox?",
     Answer: 'type="checkbox"',
     Distractor1: 'type="c"',
     Distractor2: 'type="box"',
@@ -1023,7 +1020,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Unix command is used to move the cursor one character to the left in the VIM editor?",
+      "In the Vim text editor, which command is used to move the cursor one character to the left?",
     Answer: "h",
     Distractor1: "j",
     Distractor2: "k",
@@ -1034,7 +1031,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML element is a generic container for other HTML elements?",
+      "In HTML, what element is a generic container for other HTML elements?",
     Answer: "<div>",
     Distractor1: "<p>",
     Distractor2: "<a>",
@@ -1044,7 +1041,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/div",
   },
   {
-    Question: "How can you abbreviate the following Hex code? #FF0000",
+    Question: "In CSS, how can you abbreviate the following Hex code? #FF0000",
     Answer: "#F00",
     Distractor1: "#0F0",
     Distractor2: "#00F",
@@ -1054,7 +1051,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker/",
   },
   {
-    Question: "What is the logical AND operator in JavaScript?",
+    Question: "In JavaScript, what is the logical AND operator?",
     Answer: "&&",
     Distractor1: "||",
     Distractor2: "!",
@@ -1063,7 +1060,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-logical-operators/",
   },
   {
-    Question: "Which Linux command is used for creating files?",
+    Question: "In Linux, which command is used for creating files?",
     Answer: "touch",
     Distractor1: "mv",
     Distractor2: "man",
@@ -1073,7 +1070,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-touch-command",
   },
   {
-    Question: "What does DML stand for?",
+    Question: "In SQL, what does DML stand for?",
     Answer: "Data Manipulation Language",
     Distractor1: "Data Definition Language",
     Distractor2: "Data Control Language",
@@ -1083,7 +1080,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these types of loops will always run at least once in JavaScript?",
+      "In JavaScript, which one of these types of loops will always run at least once?",
     Answer: "Do... While Loop",
     Distractor1: "While Loop",
     Distractor2: "For Loop",
@@ -1093,7 +1090,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/",
   },
   {
-    Question: "What does the animation-direction property do in CSS?",
+    Question: "In CSS, what does the animation-direction property do?",
     Answer: "It sets the direction of the animation.",
     Distractor1: "It sets how many times an animation should run.",
     Distractor2: "It is used to style the element after the animation ends.",
@@ -1103,7 +1100,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
   },
   {
-    Question: "What is the “less than or equal to” operator in Python?",
+    Question: "In Python, what is the “less than or equal to” operator?",
     Answer: "<=",
     Distractor1: "<",
     Distractor2: ">",
@@ -1114,7 +1111,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in Python function returns the largest item in an iterable or the largest of two or more arguments?",
+      "In Python, what built-in function returns the largest item in an iterable or the largest of two or more arguments?",
     Answer: "max()",
     Distractor1: "min()",
     Distractor2: "maximum()",
@@ -1153,7 +1150,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/exabyte-definition/",
   },
   {
-    Question: "Which one of these options is not a Python keyword?",
+    Question: "In Python, which of these is not a keyword?",
     Answer: "forward",
     Distractor1: "if",
     Distractor2: "return",
@@ -1173,7 +1170,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in data structure in Python can store key-value pairs? ",
+      "In Python, what built-in data structure can store key-value pairs? ",
     Answer: "Dictionary",
     Distractor1: "List",
     Distractor2: "Boolean",
@@ -1202,7 +1199,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the value that stretches the repeated images in the background-repeat property?",
+      "In CSS, what is the name of the value that stretches the repeated images in the background-repeat property?",
     Answer: "round",
     Distractor1: "space",
     Distractor2: "around",
@@ -1213,7 +1210,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method used to add new elements to the DOM tree?",
+      "In HTML, what is the name of the method used to add new elements to the DOM tree?",
     Answer: "document.createElement()",
     Distractor1: "Callback function",
     Distractor2: ".querySelectorAll()",
@@ -1224,7 +1221,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "The column or set of columns that uniquely identifies each row in a table is known as a...",
+      "In SQL, the column or set of columns that uniquely identifies each row in a table is known as a...",
     Answer: "Primary Key",
     Distractor1: "Secondary Key",
     Distractor2: "First Key",
@@ -1234,7 +1231,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-sql-primary-key-constraint-explained/",
   },
   {
-    Question: "Code Radio is:",
+    Question: "freeCodeCamp's Code Radio is:",
     Answer: "An internet radio that plays music you can code to",
     Distractor1:
       "A form of communication America used during World War II created by the Navajo people",
@@ -1246,7 +1243,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the HTML element used to draw graphics and animations on the page?",
+      "In HTML, what is the name of the element used to draw graphics and animations on the page?",
     Answer: "<canvas>",
     Distractor1: "<bdo>",
     Distractor2: "<table>",
@@ -1256,7 +1253,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/canvas",
   },
   {
-    Question: "What is the speech media type in a CSS media query?",
+    Question: "In CSS, what is the speech media type in a CSS media query?",
     Answer:
       "A category of media that works for devices like screen readers where the content is read out loud to the user.",
     Distractor1: "A category of media that works for devices with screens.",
@@ -1278,7 +1275,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
   },
   {
-    Question: "How do you integrate changes from one branch to another in Git?",
+    Question: "In Git, how do you integrate changes from one branch to another?",
     Answer: "git merge",
     Distractor1: "git copy into",
     Distractor2: "git merge --docs",
@@ -1288,7 +1285,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What HTML tag is used to create an unordered (bulleted) list?",
+    Question: "In HTML, what tag is used to create an unordered (bulleted) list?",
     Answer: "<ul>",
     Distractor1: "<ol>",
     Distractor2: "<li>",
@@ -1298,7 +1295,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/",
   },
   {
-    Question: "What is the caption tag in an HTML table?",
+    Question: "In HTML, what is the caption tag in a table?",
     Answer: "An element used to create captions for a table",
     Distractor1: "An element used to create images in a table",
     Distractor2: "An element used to create links in a table",
@@ -1308,7 +1305,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/",
   },
   {
-    Question: "What HTML tag is used to create a column (cell) in a table?",
+    Question: "In HTML, what tag is used to create a column (cell) in a table?",
     Answer: "<td>",
     Distractor1: "<table>",
     Distractor2: "<tcol>",
@@ -1327,7 +1324,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property used to get the text content of a node in the DOM?",
+      "In HTML, what is the name of the property used to get the text content of a node in the DOM?",
     Answer: "textContent",
     Distractor1: "text-content",
     Distractor2: "content",
@@ -1337,7 +1334,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
   },
   {
-    Question: "Which one is NOT an example of a relative unit in CSS?",
+    Question: "In CSS, which one is NOT an example of a relative unit?",
     Answer: "px",
     Distractor1: "rem",
     Distractor2: "em",
@@ -1346,7 +1343,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
   },
   {
-    Question: "What is the JavaScript keyword used to define a constant?",
+    Question: "In JavaScript, what is the JavaScript keyword used to define a constant?",
     Answer: "const",
     Distractor1: "var",
     Distractor2: "let",
@@ -1356,7 +1353,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-variables-beginners-guide/",
   },
   {
-    Question: "What HTML tag is used to embed audio into a document?",
+    Question: "In HTML, what tag is used to embed audio into a document?",
     Answer: "<audio>",
     Distractor1: "<video>",
     Distractor2: "<sound>",
@@ -1377,7 +1374,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/devdocs-is-joining-the-freecodecamp-community-ae185a1c14a6/",
   },
   {
-    Question: "What does the animation-duration property do in CSS?",
+    Question: "In CSS, what does the animation-duration property do?",
     Answer: "It determines how long an animation should last in seconds.",
     Distractor1: "It is used to style the element after the animation ends.",
     Distractor2: "It sets the direction of the element.",
@@ -1388,7 +1385,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used for counting the total amount of lines, words, and bytes in a file?",
+      "In Linux, which command is used for counting the total amount of lines, words, and bytes in a file?",
     Answer: "wc",
     Distractor1: "countl",
     Distractor2: "countw",
@@ -1398,7 +1395,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
   },
   {
-    Question: "What is the name of the tag nested inside the select tag?",
+    Question: "In HTML, what is the name of the tag nested inside the select tag?",
     Answer: "option tag",
     Distractor1: "h1 tag",
     Distractor2: "code tag",
@@ -1410,7 +1407,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the technique used to extract array values into new variables?",
+      "In JavaScript, what is the name of the technique used to extract array values into new variables?",
     Answer: "Array destructuring",
     Distractor1: "typeof",
     Distractor2: "async",
@@ -1420,7 +1417,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/array-vs-object-destructuring-in-javascript/",
   },
   {
-    Question: "How do you change the background-image of an element in CSS?",
+    Question: "In CSS, how do you change the background-image of an element?",
     Answer: 'background-image: url("path_to_image");',
     Distractor1: 'background-img: url("path_to_image");',
     Distractor2: 'background_image: url("path_to_image");',
@@ -1430,7 +1427,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-background-image-with-html-example-code/",
   },
   {
-    Question: "What is the media type in a CSS media query?",
+    Question: "In CSS, what is the media type in a CSS media query?",
     Answer: "The category of media for the device.",
     Distractor1: "A set of rules that only applies to mobile devices",
     Distractor2: "A category only for print media.",
@@ -1439,7 +1436,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
   },
   {
-    Question: "What is the semantic meaning behind the <i> tag?",
+    Question: "In HTML, what is the semantic meaning behind the <i> tag?",
     Answer: "span of text that represents a change in mood or quality of text",
     Distractor1: "block of text used to highlight misspelled words",
     Distractor2: "span of text used to signal high importance",
@@ -1461,7 +1458,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method used to see if one string is found in another?",
+      "In JavaScript, what is the name of the method used to see if one string is found in another?",
     Answer: ".includes()",
     Distractor1: ".padEnd()",
     Distractor2: ".slice()",
@@ -1471,7 +1468,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-string-contains-how-to-use-js-includes/",
   },
   {
-    Question: "What is the HTML character entity for double quotes?",
+    Question: "In HTML, what is the character entity for double quotes?",
     Answer: "&quot;",
     Distractor1: "&quotes;",
     Distractor2: "&doublequot;",
@@ -1481,7 +1478,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/",
   },
   {
-    Question: "What is the HTML character entity for the degree symbol?",
+    Question: "In HTML, what is the character entity for the degree symbol?",
     Answer: "&deg;",
     Distractor1: "&degree;",
     Distractor2: "&d;",
@@ -1491,7 +1488,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/",
   },
   {
-    Question: "Which Linux command is used to move into a directory?",
+    Question: "In Linux, which command is used to move into a directory?",
     Answer: "cd",
     Distractor1: "mv",
     Distractor2: "pwd",
@@ -1501,7 +1498,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "What keyword is used in JavaScript to define a function?",
+    Question: "In JavaScript, what keyword is used to define a function?",
     Answer: "function",
     Distractor1: "def",
     Distractor2: "func",
@@ -1512,7 +1509,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What value does a Python function return by default if it doesn't have a return statement?",
+      "In Python, what value does a function return by default if it doesn't have a return statement?",
     Answer: "None",
     Distractor1: "0",
     Distractor2: "An empty string",
@@ -1534,7 +1531,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
-    Question: "What Python keyword is used to define a class?",
+    Question: "In Python, what keyword is used to define a class?",
     Answer: "class",
     Distractor1: "def",
     Distractor2: "blueprint",
@@ -1543,7 +1540,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-object-oriented-programming-with-python/",
   },
   {
-    Question: "How do you push a local branch to a remote repository in Git?",
+    Question: "In Git, how do you push a local branch to a remote repository?",
     Answer: "git push -u <remote> <branch-name>",
     Distractor1: "git push -u <branch-name> <remote>",
     Distractor2: "git copy url <branch-name> <remote>",
@@ -1554,7 +1551,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
   {
-    Question: "What  makes up an element in HTML?",
+    Question: "In HTML, what makes up an element?",
     Answer:
       "The opening tag, any attributes, text, or other content in between, and the closing tag",
     Distractor1: "Just the closing tag",
@@ -1566,7 +1563,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in Python function returns the smallest item in an iterable or the smallest of two or more arguments?",
+      "In Python, what built-in function returns the smallest item in an iterable or the smallest of two or more arguments?",
     Answer: "min()",
     Distractor1: "max()",
     Distractor2: "minimum()",
@@ -1577,7 +1574,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML attribute should you add to set a minimum value for a numerical <input> field?",
+      "In HTML, what attribute should you add to set a minimum value for a numerical <input> field?",
     Answer: "min",
     Distractor1: "minimum",
     Distractor2: "max",
@@ -1598,7 +1595,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/hdd-hard-disk-drive-definition/",
   },
   {
-    Question: "How do you set your username in Git?",
+    Question: "In Git, how do you set your username for commits you make on all cloned repositories on your computer?",
     Answer: 'git config --global user.name "YOUR_USERNAME"',
     Distractor1: 'git config --global password "YOUR_USERNAME"',
     Distractor2: 'git config &user "YOUR_USERNAME"',
@@ -1608,7 +1605,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What are meta tags in HTML?",
+    Question: "In HTML, what are meta tags?",
     Answer: "defines metadata for the HTML document",
     Distractor1: "defines the number of elements in the HTML document",
     Distractor2: "defines the number of img tags in the HTML document",
@@ -1617,18 +1614,18 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/",
   },
   {
-    Question: "What does align-items do in flexbox?",
+    Question: "In CSS Flexbox, what does align-items do?",
     Answer: "aligns the items along the cross axis",
     Distractor1: "aligns the items to the right of the y axis",
     Distractor2: "aligns the items to the right of the x axis",
     Distractor3: "aligns the items to the right of the z axis",
     Explanation:
-      "In flexbox, align-items aligns the items along the cross axis",
+      "In CSS Flexbox, align-items aligns the items along the cross axis",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
     Question:
-      "What SQL statement is used to combine groups and aggregate data?",
+      "In SQL, what statement is used to combine groups and aggregate data?",
     Answer: "GROUP BY",
     Distractor1: "UPDATE",
     Distractor2: "CLASSIFY",
@@ -1638,7 +1635,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "What is the HTML character entity for the Euro sign?",
+    Question: "In HTML, what is the character entity for the Euro sign?",
     Answer: "&euro;",
     Distractor1: "&esign;",
     Distractor2: "&eurosign;",
@@ -1659,7 +1656,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method that extracts a portion of an array and returns a new array?",
+      "In JavaScript, what is the name of the method that extracts a portion of an array and returns a new array?",
     Answer: ".slice()",
     Distractor1: ".splice()",
     Distractor2: ".pop()",
@@ -1669,7 +1666,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-array-slice-vs-splice-whats-the-difference/",
   },
   {
-    Question: "What is a colspan attribute in an HTML table?",
+    Question: "In HTML, what is a colspan attribute in a table?",
     Answer: "Represents the number of columns a cell should span in a table",
     Distractor1: "Represents the number of rows a cell should span in a table",
     Distractor2: "Represents the number of links in a table",
@@ -1692,7 +1689,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ping-definition/",
   },
   {
-    Question: "Which Linux command deletes a directory with files inside it?",
+    Question: "In Linux, which command deletes a directory with files inside it?",
     Answer: "rm -rf",
     Distractor1: "rmdir",
     Distractor2: "rm",
@@ -1702,7 +1699,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command",
   },
   {
-    Question: "How do you initialize a new Git repository?",
+    Question: "In Git, how do you initialize a new Git repository?",
     Answer: "git init",
     Distractor1: "git create new repo",
     Distractor2: "git config init repo",
@@ -1713,7 +1710,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML attribute should you add to set a maximum value for a numerical <input> field?",
+      "In HTML, what attribute should you add to set a maximum value for a numerical <input> field?",
     Answer: "max",
     Distractor1: "maximum",
     Distractor2: "min",
@@ -1724,7 +1721,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the exception raised in Python when a name that you are referencing in the code doesn't exist?",
+      "In Python, what is the name of the exception raised when a name that you are referencing in the code doesn't exist?",
     Answer: "NameError",
     Distractor1: "KeyError",
     Distractor2: "IndexError",
@@ -1734,17 +1731,17 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/exception-handling-python/",
   },
   {
-    Question: "How do you allow items to move to a new line in flexbox?",
+    Question: "In CSS Flexbox, how do you allow items to move to a new line?",
     Answer: "flex-wrap: wrap;",
     Distractor1: "flex: wrap;",
     Distractor2: "flex-wrap: wrap-items;",
     Distractor3: "flex-wrap: item-wrap;",
     Explanation:
-      "In flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space",
+      "In CSS Flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
-    Question: "Which HTML tag is used to create an ordered list?",
+    Question: "In HTML, which tag is used to create an ordered list?",
     Answer: "<ol>",
     Distractor1: "<ul>",
     Distractor2: "<img>",
@@ -1754,7 +1751,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What attribute should you add to the <input> element to create a radio button?",
+      "In HTML, what attribute should you add to the <input> element to create a radio button?",
     Answer: 'type="radio"',
     Distractor1: 'type="checkbox"',
     Distractor2: 'type="check"',
@@ -1765,7 +1762,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to count JUST the number of bytes in a file?",
+      "In Linux, which command is used to count JUST the number of bytes in a file?",
     Answer: "wc -c",
     Distractor1: "wc -w",
     Distractor2: "wc -l",
@@ -1775,7 +1772,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
   },
   {
-    Question: "What HTML tag is used to create a table?",
+    Question: "In HTML, what tag is used to create a table?",
     Answer: "<table>",
     Distractor1: "<t>",
     Distractor2: "<tbl>",
@@ -1785,7 +1782,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these operators is used to raise a number to the power of an exponent in Python? ",
+      "In Python, which one of these operators is used to raise a number to the power of an exponent? ",
     Answer: "**",
     Distractor1: "*",
     Distractor2: "^",
@@ -1795,7 +1792,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-python-operators",
   },
   {
-    Question: "What does the cd command stand for in Linux?",
+    Question: "In Linux, what does the cd command stand for?",
     Answer: "change directory",
     Distractor1: "create directory",
     Distractor2: "created directory",
@@ -1804,7 +1801,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command",
   },
   {
-    Question: "How do you change the background color in CSS?",
+    Question: "In CSS, how do you change the background color?",
     Answer: "background-color: pink;",
     Distractor1: "bg-color: pink;",
     Distractor2: "backgroundColor: pink;",
@@ -1814,7 +1811,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-background-color-how-to-change-the-background-color-in-html/",
   },
   {
-    Question: "What is the default position property in CSS?",
+    Question: "In CSS, what is the default position property?",
     Answer: "position: static;",
     Distractor1: "position: relative;",
     Distractor2: "position: top;",
@@ -1825,7 +1822,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in Python function returns a number rounded to a given number of digits of precision after the decimal point?",
+      "In Python, what built-in function returns a number rounded to a given number of digits of precision after the decimal point?",
     Answer: "round()",
     Distractor1: "rounding()",
     Distractor2: "approximate()",
@@ -1836,7 +1833,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS property used to position items inside the grid container along the y-axis?",
+      "In CSS, what is the name of the property used to position items inside the grid container along the y-axis?",
     Answer: "align-items",
     Distractor1: "grid-columns",
     Distractor2: "grid-template-columns",
@@ -1847,7 +1844,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What CSS selector is used to set the style of links when the user moves the mouse over them?",
+      "In CSS, what selector is used to set the style of links when the user moves the mouse over them?",
     Answer: "a:hover",
     Distractor1: "a:visited",
     Distractor2: "a:active",
@@ -1858,7 +1855,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the HTML element used to show that content was deleted from the document?",
+      "In HTML, what is the name of the element used to show that content was deleted from the document?",
     Answer: "<del>",
     Distractor1: "<figure>",
     Distractor2: "<embed>",
@@ -1868,7 +1865,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/del",
   },
   {
-    Question: "Which tag is used to represent the footer for an HTML table?",
+    Question: "In HTML, which tag is used to represent the footer for a table?",
     Answer: "<tfoot>",
     Distractor1: "<tfooter>",
     Distractor2: "<tfooting>",
@@ -1908,7 +1905,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/terabyte-definition/",
   },
   {
-    Question: "Which one is NOT an attribute for the <select> tag?",
+    Question: "In HTML, which one is NOT an attribute for the <select> tag?",
     Answer: "src",
     Distractor1: "name",
     Distractor2: "multiple",
@@ -1919,7 +1916,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method used to select elements in an HTML document by referencing the id name?",
+      "In HTML, what is the name of the method used to select elements in an HTML document by referencing the id name?",
     Answer: ".getElementById()",
     Distractor1: ".getElementByClass()",
     Distractor2: ".getId()",
@@ -1930,7 +1927,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag represents a thematic break (horizontal line) element?",
+      "In HTML, which tag represents a thematic break (horizontal line) element?",
     Answer: "<hr>",
     Distractor1: "<br>",
     Distractor2: "<line>",
@@ -1940,7 +1937,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/hr",
   },
   {
-    Question: "What is a span tag in HTML?",
+    Question: "In HTML, what is a span tag?",
     Answer: "A generic inline container for grouping content",
     Distractor1: "A container used to only group footer links",
     Distractor2: "A container used to only header content",
@@ -1951,7 +1948,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS grid property used to set the number and height of the rows?",
+      "In CSS, what is the name of the CSS grid property used to set the number and height of the rows?",
     Answer: "grid-template-rows",
     Distractor1: "grid-template-columns",
     Distractor2: "grid-rows",
@@ -1972,7 +1969,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to remove all previous commands and output from the terminal?",
+      "In Linux, which command is used to remove all previous commands and output from the terminal?",
     Answer: "clear",
     Distractor1: "exit",
     Distractor2: "deleting",
@@ -1982,7 +1979,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "What is the header element in HTML?",
+    Question: "In HTML, what is the header element?",
     Answer:
       "A tag used to group introductory content including navigation links",
     Distractor1: "A tag used to group comment tags",
@@ -2015,7 +2012,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What does the no-repeat value do in the background-repeat property?",
+      "In CSS, what does the no-repeat value do in the background-repeat property?",
     Answer: "Sets no repetition for the background image",
     Distractor1: "Repeats the image along the z-axis",
     Distractor2: "Repeats the image along the y-axis",
@@ -2026,7 +2023,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What function can you use to transform a number represented as a string into an integer in Python?",
+      "In Python, what function can you use to transform a number represented as a string into an integer?",
     Answer: "int()",
     Distractor1: "float()",
     Distractor2: "complex()",
@@ -2037,7 +2034,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these options is NOT a value used for the justify-content property?",
+      "In CSS, which one of these options is NOT a value used for the justify-content property?",
     Answer: "repeat",
     Distractor1: "space-around",
     Distractor2: "space-between",
@@ -2058,7 +2055,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the SQL command used to change the structure of a table?",
+      "In SQL, what is the command used to change the structure of a table?",
     Answer: "ALTER TABLE",
     Distractor1: "CHANGE TABLE",
     Distractor2: "UPDATE TABLE",
@@ -2068,7 +2065,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "How do you add a specific file in Git?",
+    Question: "In Git, how do you add a specific file to be committed?",
     Answer: "git add filename",
     Distractor1: "git add < filename",
     Distractor2: "git add *filename",
@@ -2078,7 +2075,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What is the “greater than or equal to” operator in Python?",
+    Question: "In Python, what is the “greater than or equal to” operator?",
     Answer: ">=",
     Distractor1: ">",
     Distractor2: "<",
@@ -2098,7 +2095,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/url-definition/",
   },
   {
-    Question: "What does the animation-iteration-count property do in CSS?",
+    Question: "In CSS, what does the animation-iteration-count property do?",
     Answer: "It sets how many times an animation should run.",
     Distractor1:
       "It sets a name used to describe the animation applied to the element.",
@@ -2129,7 +2126,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/about/",
   },
   {
-    Question: "What Python keyword is used to define a function in Python?",
+    Question: "In Python, what keyword is used to define a function?",
     Answer: "def",
     Distractor1: "class",
     Distractor2: "if",
@@ -2138,7 +2135,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-functions-in-python",
   },
   {
-    Question: "What is the purpose of the rel attribute in the <link> tag?",
+    Question: "In HTML, what is the purpose of the rel attribute in the <link> tag?",
     Answer:
       "It shows the relationship between the HTML file and the linked document.",
     Distractor1:
@@ -2152,7 +2149,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/",
   },
   {
-    Question: "What are script tags in HTML?",
+    Question: "In HTML, what are <script> tags?",
     Answer: "they're used for client side JavaScript code",
     Distractor1: "used for server side JavaScript code",
     Distractor2: "used to link SQL databases",
@@ -2162,7 +2159,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property used to position one grid item in a container along the y-axis?",
+      "In CSS, what is the name of the property used to position one grid item in a container along the y-axis?",
     Answer: "align-self",
     Distractor1: "grid-columns",
     Distractor2: "space-around",
@@ -2172,7 +2169,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "What do you use to write comments in Python?",
+    Question: "In Python, what do you use to write comments?",
     Answer: "#",
     Distractor1: "!",
     Distractor2: "//",
@@ -2183,7 +2180,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Non-empty sequences, non-empty collections, and numerical values different from 0 are...",
+      "In Python, non-empty sequences, non-empty collections, and numerical values different from 0 are...",
     Answer: "Truthy",
     Distractor1: "Falsy",
     Distractor2: "TRUENESS",
@@ -2193,7 +2190,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",
   },
   {
-    Question: "What tag would you use to create a level 1 section heading? ",
+    Question: "In HTML, what tag would you use to create a level 1 section heading? ",
     Answer: "<h1>",
     Distractor1: "<t1>",
     Distractor2: "<1h>",
@@ -2235,7 +2232,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/algorithms-explained-what-they-are-and-common-sorting-algorithms/",
   },
   {
-    Question: "Which HTML tag represents a line break element?",
+    Question: "In HTML, Which tag represents a line break element?",
     Answer: "<br>",
     Distractor1: "<hr>",
     Distractor2: "<break>",
@@ -2244,7 +2241,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-line-break-how-to-break-a-line-with-the-html-br-tag/",
   },
   {
-    Question: "What does the animation-play-state property do in CSS?",
+    Question: "In CSS, what does the animation-play-state property do?",
     Answer: "It is used to pause the animation if it is set to paused.",
     Distractor1: "It determines how long an animation should last in seconds.",
     Distractor2: "It is used to style the element after the animation ends.",
@@ -2274,7 +2271,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/web-safe-fonts/",
   },
   {
-    Question: "How do you add a smooth scroll to the html element?",
+    Question: "In CSS, how do you add a smooth scroll to an HTML element?",
     Answer: "scroll-behavior: smooth;",
     Distractor1: "scroll-behavior: smooth-scroll;",
     Distractor2: "scroll: smooth;",
@@ -2284,7 +2281,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
   },
   {
-    Question: "Which tag is used to represent the main body for an HTML table?",
+    Question: "In HTML, which tag is used to represent the main body for a table?",
     Answer: "<tbody>",
     Distractor1: "<tmain>",
     Distractor2: "<content>",
@@ -2295,7 +2292,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What attribute can you add to a <video> tag to add the browser's default video controls to the embedded video?",
+      "In HTML, what attribute can you add to a <video> tag to add the browser's default video controls to the embedded video?",
     Answer: "controls",
     Distractor1: "control",
     Distractor2: "c",
@@ -2306,7 +2303,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What method is used to remove a key-value pair from a dictionary in Python and return its value?",
+      "In Python, what method is used to remove a key-value pair from a dictionary and return its value?",
     Answer: ".pop()",
     Distractor1: ".push()",
     Distractor2: ".append()",
@@ -2316,7 +2313,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-dictionaries-detailed-visual-introduction/",
   },
   {
-    Question: "What is a rowspan attribute in an HTML table?",
+    Question: "In HTML, what is a rowspan attribute in a table?",
     Answer: "Represents the number of rows a cell should span in a table",
     Distractor1:
       "Represents the number of columns a cell should span in a table",
@@ -2358,7 +2355,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which flag (or option) is used with the ln command to create a soft link in Linux?",
+      "In Linux, which flag (or option) is used with the ln command to create a soft link?",
     Answer: "-s",
     Distractor1: "-l",
     Distractor2: "-a",
@@ -2368,7 +2365,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command",
   },
   {
-    Question: "Which one of these operators is the equality operator?",
+    Question: "In JavaScript, which one of these operators is the equality operator?",
     Answer: "==",
     Distractor1: "?",
     Distractor2: "!=",
@@ -2378,7 +2375,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
   },
   {
-    Question: "Which Linux command calculates the size of a directory?",
+    Question: "In Linux, which command calculates the size of a directory?",
     Answer: "du",
     Distractor1: "wc",
     Distractor2: "wc -c",
@@ -2389,7 +2386,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the function used to set the width of all columns in CSS grid?",
+      "In CSS, what is the name of the function used to set the width of all columns in CSS grid?",
     Answer: "repeat()",
     Distractor1: "set-width()",
     Distractor2: "width-all()",
@@ -2430,7 +2427,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-definitive-node-js-handbook-6912378afc6e/",
   },
   {
-    Question: "What HTML attribute is used to make an <input> field required?",
+    Question: "In HTML, what attribute is used to make an <input> field required?",
     Answer: "required",
     Distractor1: "mandatory",
     Distractor2: "must",
@@ -2441,7 +2438,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property used to repeat a background image?",
+      "In CSS, what is the name of the property used to repeat a background image?",
     Answer: "background-repeat",
     Distractor1: "background-position-x",
     Distractor2: "background-position-y",
@@ -2451,7 +2448,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
   },
   {
-    Question: "What HTML tag is used to represent an abbreviation or acronym?",
+    Question: "In HTML, what tag is used to represent an abbreviation or acronym?",
     Answer: "<abbr>",
     Distractor1: "<abr>",
     Distractor2: "<abbreviation>",
@@ -2462,7 +2459,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the character entity of the greater than symbol in HTML?",
+      "In HTML, what is the character entity of the greater than symbol?",
     Answer: "&gt;",
     Distractor1: "&greaterthan;",
     Distractor2: "&greater;",
@@ -2472,7 +2469,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/",
   },
   {
-    Question: "What is the character entity of the less than symbol in HTML?",
+    Question: "In HTML, what is the character entity of the less than symbol?",
     Answer: "&lt;",
     Distractor1: "&lessthan;",
     Distractor2: "&less;",
@@ -2481,7 +2478,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-space-how-to-add-a-non-breaking-space-with-the-nbsp-character-entity/",
   },
   {
-    Question: "What is the floor division operator in Python?",
+    Question: "In Python, what is the floor division operator?",
     Answer: "//",
     Distractor1: "/",
     Distractor2: "*",
@@ -2501,7 +2498,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-future-of-the-freecodecamp-forum/",
   },
   {
-    Question: "How is the title attribute used in the abbr tag in HTML?",
+    Question: "In HTML, how is the title attribute used in the abbr tag?",
     Answer: "provides descriptive text for the abbr tag",
     Distractor1: "provides links for the abbr tag",
     Distractor2: "bolds the abbr tag",
@@ -2511,7 +2508,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/abbr",
   },
   {
-    Question: "Which Unix command opens the VIM command-line editor?",
+    Question: "In Linux, which command opens the VIM command-line editor?",
     Answer: "vi",
     Distractor1: "open",
     Distractor2: "open vim",
@@ -2521,7 +2518,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What CSS selector would you use to select all elements with the class of blue-text?",
+      "In CSS, what selector would you use to select all elements with the class of blue-text?",
     Answer: ".blue-text",
     Distractor1: "#blue-text",
     Distractor2: "a[blue-text]",
@@ -2531,7 +2528,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
   },
   {
-    Question: "What is the media attribute in the link tag?",
+    Question: "In CSS, what is the media attribute in the link tag?",
     Answer:
       "Specifies the type of media that should be used when importing the linked content",
     Distractor1:
@@ -2545,7 +2542,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/",
   },
   {
-    Question: "Which HTML tag supports mailto links?",
+    Question: "In HTML, which tag supports mailto links?",
     Answer: "anchor tag",
     Distractor1: "paragraph tag",
     Distractor2: "script tag",
@@ -2555,7 +2552,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/mailto-link-how-to-make-an-html-email-link-example-code/",
   },
   {
-    Question: "How do you add two non-breaking spaces in HTML?",
+    Question: "In HTML, how do you add two non-breaking spaces?",
     Answer: "&ensp;",
     Distractor1: "&twospaces;",
     Distractor2: "&e-n-s-p;",
@@ -2566,7 +2563,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the exception raised in Python when you try to divide by zero?",
+      "In Python, what is the name of the exception raised when you try to divide by zero?",
     Answer: "ZeroDivisionError",
     Distractor1: "TypeError",
     Distractor2: "NameError",
@@ -2577,7 +2574,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML tag is used to represent that a section quotes from another source?",
+      "In HTML, what tag is used to represent that a section quotes from another source?",
     Answer: "<blockquote>",
     Distractor1: "<quote>",
     Distractor2: "<q>",
@@ -2587,7 +2584,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
   },
   {
-    Question: "What is the title tag in HTML?",
+    Question: "In HTML, what is the title tag?",
     Answer: "defines the title for the HTML document",
     Distractor1: "defines the subtitle for the HTML document",
     Distractor2: "displays the headings for the HTML document",
@@ -2606,7 +2603,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-virtual-machine-and-how-to-setup-a-vm-on-windows-linux-and-mac/",
   },
   {
-    Question: "What is the time tag in HTML?",
+    Question: "In HTML, what is the time tag?",
     Answer: "a tag used to represent the time and/or date",
     Distractor1: "used to convert minutes to seconds",
     Distractor2: "used to convert seconds to milliseconds",
@@ -2625,7 +2622,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
   },
   {
-    Question: "What is the syntax for creating a mailto link?",
+    Question: "In HTML, what is the syntax for creating a mailto link?",
     Answer: '<a href="mailto:johndoe@fakeemail.com">Example mailto link</a>',
     Distractor1:
       '<a name="mailto:johndoe@fakeemail.com">Example mailto link</a>',
@@ -2639,7 +2636,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What logical operator in Python returns True if the operand is False?",
+      "In Python, what logical operator returns True if the operand is False?",
     Answer: "not",
     Distractor1: "and",
     Distractor2: "or",
@@ -2660,7 +2657,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What string method returns the character at the specified index in JavaScript?",
+      "In JavaScript, what string method returns the character at the specified index?",
     Answer: ".charAt()",
     Distractor1: ".getChar()",
     Distractor2: ".char()",
@@ -2670,7 +2667,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/javascript/global_objects/string/charat",
   },
   {
-    Question: "Which Linux command is used to count JUST the words in a file?",
+    Question: "In Linux, which command is used to count JUST the words in a file?",
     Answer: "wc -w",
     Distractor1: "wc -l",
     Distractor2: "wc -c",
@@ -2689,7 +2686,7 @@ const fullQuiz = [
     Link: "https://en.wikipedia.org/wiki/Python_(programming_language)",
   },
   {
-    Question: "What HTML tag is used to add an external JavaScript file?",
+    Question: "In HTML, What tag is used to add an external JavaScript file?",
     Answer: "<script>",
     Distractor1: "<link>",
     Distractor2: "<a>",
@@ -2699,7 +2696,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/link-javascript-to-html-with-the-src/",
   },
   {
-    Question: "Which Linux command is used for creating links between files?",
+    Question: "In Linux, which command is used for creating links between files?",
     Answer: "ln",
     Distractor1: "ls",
     Distractor2: "link",
@@ -2749,7 +2746,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the HTML element that specifies the base URL for all relative URLs in a document?",
+      "In HTML, what is the name of the element that specifies the base URL for all relative URLs in a document?",
     Answer: "<base>",
     Distractor1: "<bdi>",
     Distractor2: "<a>",
@@ -2759,7 +2756,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/base",
   },
   {
-    Question: "What does the multiple attribute do in the select tag?",
+    Question: "In HTML, what does the multiple attribute do in the select tag?",
     Answer: "allows the user to choose multiple options in the select tag",
     Distractor1: "a way to add multiple select tags",
     Distractor2: "a way to add multiple option tags",
@@ -2770,7 +2767,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property that clips the background image to inside the container?",
+      "In CSS, what is the name of the property that clips the background image to inside the container?",
     Answer: "background-clip",
     Distractor1: "background-color",
     Distractor2: "background-position",
@@ -2803,13 +2800,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you set the flex container to reverse the items in a row?",
+      "In CSS Flexbox, how do you set the flex container to reverse the items in a row?",
     Answer: "flex-direction: row-reverse;",
     Distractor1: "flex-direction: reverse-row;",
     Distractor2: "flex-row: row-reverse;",
     Distractor3: "flex-direction: set-row-reverse;",
     Explanation:
-      "In CSS, you can apply flex-direction: row-reverse; to the container whose items you want to display in a row, with their order reversed.",
+      "In CSS Flexbox, you can apply flex-direction: row-reverse; to the container whose items you want to display in a row, with their order reversed.",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -2823,7 +2820,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/lcd-definition/",
   },
   {
-    Question: "What is the HTML character entity for the copyright symbol?",
+    Question: "In HTML, what is the character entity for the copyright symbol?",
     Answer: "&copy;",
     Distractor1: "&copyright;",
     Distractor2: "&cright;",
@@ -2834,13 +2831,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you set the flex container to reverse the items in a column?",
+      "In CSS Flexbox, how do you set the flex container to reverse the items in a column?",
     Answer: "flex-direction: column-reverse;",
     Distractor1: "flex-direction: reverse-c;",
     Distractor2: "flex-direction: column-r;",
     Distractor3: "flex-direction: column-rev;",
     Explanation:
-      "In CSS, you can apply flex-direction: column-reverse; to the container whose items you want to display in a column, with their order reversed.",
+      "In CSS Flexbox, you can apply flex-direction: column-reverse; to the container whose items you want to display in a column, with their order reversed.",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -2854,7 +2851,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What does list-style-type: circle; do in CSS?",
+    Question: "In CSS, what does list-style-type: circle; do?",
     Answer: "Applies circles to all of the list items in an unordered list.",
     Distractor1: "Applies discs to all of the list items in an unordered list.",
     Distractor2:
@@ -2867,7 +2864,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you create a connection between a local repository and a remote one in Git?",
+      "In Git, how do you create a connection between a local repository and a remote one?",
     Answer: "git remote add origin git-url",
     Distractor1: "git add remote and local",
     Distractor2: "git remote local",
@@ -2877,7 +2874,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "How can you create a new branch and switch to it in Git?",
+    Question: "In Git, how can you create a new branch and switch to it?",
     Answer: "git checkout -b branch-name",
     Distractor1: "git switch branch-name",
     Distractor2: "git switch to branch-name",
@@ -2888,7 +2885,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these values is NOT used for the background-position property?",
+      "In CSS, which one of these values is NOT used for the background-position property?",
     Answer: "side-left",
     Distractor1: "top",
     Distractor2: "bottom",
@@ -2908,7 +2905,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells",
   },
   {
-    Question: "What does the vw unit stand for?",
+    Question: "In CSS, what does the vw unit stand for?",
     Answer: "viewport width",
     Distractor1: "view width height",
     Distractor2: "viewport weight",
@@ -2918,7 +2915,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following Linux commands is used to showcase the contents stored in a file?",
+      "In Linux, which of the following commands is used to showcase the contents stored in a file?",
     Answer: "less",
     Distractor1: "open",
     Distractor2: "man",
@@ -2928,7 +2925,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What SQL command allows you to filter the data aggregated by the GROUP BY clause so that the user gets a limited set of records to view?",
+      "In SQL, what command allows you to filter the data aggregated by the GROUP BY clause so that the user gets a limited set of records to view?",
     Answer: "HAVING",
     Distractor1: "LIMIT",
     Distractor2: "QUERY",
@@ -2938,7 +2935,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "What function can you call to open a file in Python?",
+    Question: "In Python, what function can you call to open a file?",
     Answer: "open()",
     Distractor1: "read()",
     Distractor2: "extend()",
@@ -2958,7 +2955,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag is used to make text bold and mark it as important text?",
+      "In HTML, which tag is used to make text bold and mark it as important text?",
     Answer: "<strong>",
     Distractor1: "<b>",
     Distractor2: "<em>",
@@ -2968,7 +2965,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/strong",
   },
   {
-    Question: "What is a staged state in Git?",
+    Question: "In Git, what is a staged state?",
     Answer: "the files are ready to be committed",
     Distractor1: "the files are ready to be deleted",
     Distractor2: "a new local repository has been created",
@@ -2987,7 +2984,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
-    Question: "Which one is NOT a supported format for the img tag?",
+    Question: "In HTML, which one is NOT a supported format for the img tag?",
     Answer: "txt",
     Distractor1: "png",
     Distractor2: "WebP",
@@ -2998,7 +2995,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to copy a whole folder and its contents?",
+      "In Linux, which command is used to copy a whole folder and its contents?",
     Answer: "cp -r",
     Distractor1: "cp -saving",
     Distractor2: "mv",
@@ -3009,7 +3006,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What Python module provides access to the mathematical functions defined by the C standard?",
+      "In Python, what module provides access to the mathematical functions defined by the C standard?",
     Answer: "math",
     Distractor1: "functions",
     Distractor2: "algebra",
@@ -3030,7 +3027,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag is used to make text italic with emphasis on its content?",
+      "In HTML, which tag is used to make text italic with emphasis on its content?",
     Answer: "<em>",
     Distractor1: "<i>",
     Distractor2: "<b>",
@@ -3051,7 +3048,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What value is returned by default in JavaScript when a function doesn't have a return statement?",
+      "In JavaScript, what value is returned by default when a function doesn't have a return statement?",
     Answer: "undefined",
     Distractor1: "None",
     Distractor2: "concat",
@@ -3061,17 +3058,17 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions",
   },
   {
-    Question: "What does align-self do in flexbox?",
+    Question: "In CSS Flexbox, what does align-self do?",
     Answer: "adjusts the alignment for an element",
     Distractor1: "adjust the alignment for all elements",
     Distractor2: "adjusts the alignment for hr elements",
     Distractor3: "adjusts the alignment for an img element",
-    Explanation: "In flexbox, align-self adjusts the alignment for an element",
+    Explanation: "In CSS Flexbox, align-self adjusts the alignment for an element",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
     Question:
-      "What JavaScript operator takes an array and spreads it into its individual elements?",
+      "In JavaScript, what operator takes an array and spreads it into its individual elements?",
     Answer: "Spread operator",
     Distractor1: "Rest operator",
     Distractor2: "Division Operator",
@@ -3090,7 +3087,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/algorithm-definition/",
   },
   {
-    Question: "What does the animation-name property do in CSS?",
+    Question: "In CSS, what does the animation-name property do?",
     Answer:
       "It is a name used to describe the animation applied to the element.",
     Distractor1: "It sets the duration of the animation.",
@@ -3102,7 +3099,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS grid property used to set the space for grid cells in rows and columns?",
+      "In CSS, what is the name of the grid property used to set the space for grid cells in rows and columns?",
     Answer: "grid-template-areas",
     Distractor1: "grid-template-rows",
     Distractor2: "fraction unit",
@@ -3112,7 +3109,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "How do you add all of the files in the local Git repository?",
+    Question: "In Git, how do you add all of the files in the local Git repository?",
     Answer: "git add .",
     Distractor1: "git add all files",
     Distractor2: "git add --all files",
@@ -3122,7 +3119,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What is the universal selector in CSS?",
+    Question: "In CSS, what is the universal selector?",
     Answer: "*",
     Distractor1: "#",
     Distractor2: "$",
@@ -3153,7 +3150,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to display the current running processes?",
+      "In Linux, which command is used to display the current running processes?",
     Answer: "ps",
     Distractor1: "ls",
     Distractor2: "pwd",
@@ -3164,7 +3161,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property used to change the position of the background image?",
+      "In CSS, what is the name of the property used to change the position of the background image?",
     Answer: "background-position",
     Distractor1: "background-clip",
     Distractor2: "background-color",
@@ -3186,7 +3183,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ram-definition/",
   },
   {
-    Question: "How can you delete a branch from a repository in Git?",
+    Question: "In Git, how can you delete a branch from a repository?",
     Answer: "git branch -d <branch-name>",
     Distractor1: "git branch <branch-name>",
     Distractor2: "git delete <branch-name>",
@@ -3196,7 +3193,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
   {
-    Question: "What is the pre tag in HTML?",
+    Question: "In HTML, what is the pre tag?",
     Answer: "a tag used for preformatted sections of text",
     Distractor1: "small text for h1 tags only",
     Distractor2: "a generic block container to hold other elements",
@@ -3206,7 +3203,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS property used to position one individual grid item inside a grid container along the x-axis?",
+      "In CSS, what is the name of the property used to position one individual grid item inside a grid container along the x-axis?",
     Answer: "justify-self",
     Distractor1: "align-content",
     Distractor2: "grid-template-areas",
@@ -3216,7 +3213,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "What is the nav element in HTML?",
+    Question: "In HTML, what is the nav element?",
     Answer: "A container for navigation links",
     Distractor1: "A container for quotes",
     Distractor2: "A container for paragraph tags",
@@ -3227,7 +3224,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What Python function returns True if any element of the iterable evaluates to True?",
+      "In Python, what function returns True if any element of the iterable evaluates to True?",
     Answer: "any()",
     Distractor1: "all()",
     Distractor2: "none()",
@@ -3247,7 +3244,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/bit-definition/",
   },
   {
-    Question: "What is the <th> tag in HTML?",
+    Question: "In HTML, what is the <th> tag?",
     Answer: "An element used to create table headings in a table",
     Distractor1: "An element that represents a row in a table",
     Distractor2: "An element used to create data cells in a table",
@@ -3259,7 +3256,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these values does NOT apply to the CSS all shorthand property?",
+      "In CSS, which one of these values does NOT apply to the all shorthand property?",
     Answer: "position",
     Distractor1: "unset",
     Distractor2: "initial",
@@ -3270,17 +3267,17 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you set the flex container to arrange the items in a column?",
+      "In CSS Flexbox, how do you set the flex container to arrange the items in a column?",
     Answer: "flex-direction: column;",
     Distractor1: "flex-direction: row;",
     Distractor2: "flex-column: column;",
     Distractor3: "flex-direction: set-column;",
     Explanation:
-      "In CSS, you can apply flex-direction: column; to the container whose items you want arrange in a column",
+      "In CSS Flexbox, you can apply flex-direction: column; to the container whose items you want arrange in a column",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
-    Question: "What is the HTML character entity for the ampersand sign?",
+    Question: "In HTML, what is the character entity for the ampersand sign?",
     Answer: "&amp;",
     Distractor1: "&amper;",
     Distractor2: "&and;",
@@ -3290,7 +3287,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/",
   },
   {
-    Question: "What is the SQL command to create a table?",
+    Question: "In SQL, what is the command to create a table?",
     Answer: "CREATE TABLE <table-name>",
     Distractor1: "TABLE CREATE <table-name>",
     Distractor2: "NEW TABLE <table-name>",
@@ -3310,7 +3307,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-crash-course/",
   },
   {
-    Question: "What is a common use for the <u> tag?",
+    Question: "In HTML, what is a common use for the <u> tag?",
     Answer: "to point out misspelled words",
     Distractor1: "to change the color for text",
     Distractor2: "to create an unordered list",
@@ -3319,7 +3316,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-underline-text-how-to-use-the-u-tag-with-example-code/",
   },
   {
-    Question: "How do you add four non-breaking spaces in HTML?",
+    Question: "In HTML, how do you add four non-breaking spaces?",
     Answer: "&emsp;",
     Distractor1: "&fourspaces;",
     Distractor2: "&e-m-s-p;",
@@ -3330,7 +3327,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag is used to make text italic without emphasis on its content?",
+      "In HTML, which tag is used to make text italic without emphasis on its content?",
     Answer: "<i>",
     Distractor1: "<em>",
     Distractor2: "<b>",
@@ -3351,7 +3348,7 @@ const fullQuiz = [
     Link: "https://www.python.org/dev/peps/pep-0008/#function-and-variable-names",
   },
   {
-    Question: "What HTML tag is used to create a header in a table?",
+    Question: "In HTML, what tag is used to create a header in a table?",
     Answer: "<th>",
     Distractor1: "<header>",
     Distractor2: "<theader>",
@@ -3360,7 +3357,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/",
   },
   {
-    Question: "How can you create an empty list in Python?",
+    Question: "In Python, how can you create an empty list?",
     Answer: "[]",
     Distractor1: "dict()",
     Distractor2: "??",
@@ -3371,7 +3368,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What JavaScript method removes the last element of an array and returns it?",
+      "In JavaScript, what method removes the last element of an array and returns it?",
     Answer: ".pop()",
     Distractor1: ".push()",
     Distractor2: ".shift()",
@@ -3382,7 +3379,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the exception raised in Python when an operation or function is applied to an object of an inappropriate type? ",
+      "In Python, what is the name of the exception raised when an operation or function is applied to an object of an inappropriate type? ",
     Answer: "TypeError",
     Distractor1: "NameError",
     Distractor2: "KeyError",
@@ -3403,7 +3400,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these values is NOT used for the background-origin property?",
+      "In CSS, which one of these values is NOT used for the background-origin property?",
     Answer: "box-sizing",
     Distractor1: "border-box",
     Distractor2: "padding-box",
@@ -3433,7 +3430,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you push changes from the main branch of a local Git repository to a remote repository (origin)?",
+      "In Git, how do you push changes from the main branch of a local Git repository to a remote repository (origin)?",
     Answer: "git push -u origin main",
     Distractor1: "git push changes",
     Distractor2: "git push all changes",
@@ -3443,7 +3440,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What is the blockquote element in HTML?",
+    Question: "In HTML, what is the blockquote element?",
     Answer: "A tag used to quote text from another source",
     Distractor1: "A tag used to number quotes",
     Distractor2: "A tag used to style quotes",
@@ -3464,7 +3461,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these variable declarations can be redeclared within its scope?",
+      "In JavaScript, which one of these variable declarations can be redeclared within its scope?",
     Answer: "var",
     Distractor1: "splice",
     Distractor2: "object.freeze",
@@ -3475,7 +3472,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS grid property used to create gaps between columns?",
+      "In CSS, what is the name of the CSS grid property used to create gaps between columns?",
     Answer: "column-gap",
     Distractor1: "set-width",
     Distractor2: "fit-unit",
@@ -3485,7 +3482,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "How do you commit files in Git?",
+    Question: "In Git, how do you commit files to the history of changes?",
     Answer: 'git commit -m "commit message"',
     Distractor1: "git commit --add message",
     Distractor2: "git commit < add message",
@@ -3496,7 +3493,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag is used to make inline text be displayed as subscript?",
+      "In HTML, which tag is used to make inline text be displayed as subscript?",
     Answer: "<sub>",
     Distractor1: "<subs>",
     Distractor2: "<s>",
@@ -3506,7 +3503,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What SQL command allows you to rename a column or table using an alias?",
+      "In SQL, what command allows you to rename a column or table using an alias?",
     Answer: "AS",
     Distractor1: "ALIASES",
     Distractor2: "SET",
@@ -3517,7 +3514,7 @@ const fullQuiz = [
   },
   {
     Question:
-      'Which one of the following options prints "Hello, World!" without starting a new line at the end?',
+      'In Python, which one of the following options prints "Hello, World!" without starting a new line at the end?',
     Answer: 'print("Hello, World!", end="")',
     Distractor1: 'print("Hello, World!")',
     Distractor2: 'print("Hello, World!", end="\\n")',
@@ -3557,7 +3554,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command deletes a directory that has NO files inside it?",
+      "In Linux, which command deletes a directory that has NO files inside it?",
     Answer: "rmdir",
     Distractor1: "mkdir",
     Distractor2: "rm",
@@ -3577,7 +3574,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
   },
   {
-    Question: "What does the src attribute do in the link tag?",
+    Question: "In HTML, what does the src attribute do in the link tag?",
     Answer: "tells the computer where to import the document",
     Distractor1: "tells the computer where to export the document",
     Distractor2: "specifies the number of link tags in the HTML document",
@@ -3587,7 +3584,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/",
   },
   {
-    Question: "What does DDL stand for?",
+    Question: "In SQL, what does DDL stand for?",
     Answer: "Data Definition Language",
     Distractor1: "Data Manipulation Language",
     Distractor2: "Data Control Language",
@@ -3597,7 +3594,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What SQL clause is used to limit the number of rows returned by a query based on specific criteria?",
+      "In SQL, what clause is used to limit the number of rows returned by a query based on specific criteria?",
     Answer: "WHERE",
     Distractor1: "LIMIT",
     Distractor2: "FILTER",
@@ -3607,7 +3604,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "What HTML tag is used to embed video?",
+    Question: "In HTML, what tag is used to embed video?",
     Answer: "<video>",
     Distractor1: "<vid>",
     Distractor2: "<v>",
@@ -3616,7 +3613,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html5-video/",
   },
   {
-    Question: "What does the optgroup element do in HTML?",
+    Question: "In HTML, what does the optgroup element do?",
     Answer: "groups option elements together in the select tag",
     Distractor1: "groups labels together in the select tag",
     Distractor2: "groups form tags together",
@@ -3626,7 +3623,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-select-tag-how-to-make-a-dropdown-menu-or-combo-list/",
   },
   {
-    Question: "How is the and operator used in a media query?",
+    Question: "In CSS, how is the and operator used in a media query?",
     Answer: "It is used to join multiple media features.",
     Distractor1: "It is used to reverse a true query into a false query.",
     Distractor2: "It is used to separate multiple media features by commas.",
@@ -3655,7 +3652,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/",
   },
   {
-    Question: "What is the code element in HTML?",
+    Question: "In HTML, what is the <code> element?",
     Answer: "An HTML element used for displaying code snippets",
     Distractor1: "An HTML element used for displaying images",
     Distractor2: "An HTML element used for displaying links",
@@ -3684,7 +3681,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/",
   },
   {
-    Question: "What is the range of values for the tabindex attribute?",
+    Question: "In HTML, what is the range of values for the tabindex attribute?",
     Answer: "0 to 32767",
     Distractor1: "-9 to 30",
     Distractor2: "0 to 578",
@@ -3694,7 +3691,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/",
   },
   {
-    Question: "How can you get the length of a string in JavaScript?",
+    Question: "In JavaScript, how can you get the length of a string?",
     Answer: ".length",
     Distractor1: "len()",
     Distractor2: "length()",
@@ -3705,7 +3702,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Unix command is used for exiting VIM WITHOUT saving the changes you made?",
+      "In Unix, which command is used for exiting VIM WITHOUT saving the changes you made?",
     Answer: ":q!",
     Distractor1: ":wq",
     Distractor2: ":i",
@@ -3715,7 +3712,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-exit-vim/",
   },
   {
-    Question: "Which HTML tag is used to create an image?",
+    Question: "In HTML, which tag is used to create an image?",
     Answer: "<img>",
     Distractor1: "<image>",
     Distractor2: "<i>",
@@ -3724,7 +3721,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
-    Question: "Which Linux command is used for creating directories (folders)?",
+    Question: "In Linux, which command is used for creating directories (folders)?",
     Answer: "mkdir",
     Distractor1: "mkcd",
     Distractor2: "cd",
@@ -3734,7 +3731,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command",
   },
   {
-    Question: "What does X-UA-Compatible mean?",
+    Question: "In HTML, what does X-UA-Compatible mean?",
     Answer: "specifies the document mode for Internet Explorer.",
     Distractor1: "specifies the document mode for Google chrome",
     Distractor2: "specifies the document mode for Safari",
@@ -3745,7 +3742,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What attribute can you add to <input> to create a submit button?",
+      "In HTML, what attribute can you add to <input> to create a submit button?",
     Answer: 'type="submit"',
     Distractor1: 'type="send"',
     Distractor2: 'type="end"',
@@ -3756,7 +3753,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How many spaces are recommended per level of indentation in Python?",
+      "In Python, how many spaces are recommended per level of indentation?",
     Answer: "4",
     Distractor1: "10",
     Distractor2: "20",
@@ -3766,7 +3763,7 @@ const fullQuiz = [
     Link: "https://www.python.org/dev/peps/pep-0008/#indentation",
   },
   {
-    Question: "How do you add content after an element?",
+    Question: "In CSS, how do you add content after an element?",
     Answer: "::after",
     Distractor1: "::after-content",
     Distractor2: "::add",
@@ -3776,7 +3773,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
   },
   {
-    Question: "Which description is NOT an appropriate use for the <i> tag?",
+    Question: "In HTML, which description is NOT an appropriate use for the <i> tag?",
     Answer: "used to place emphasis on a word or span of text",
     Distractor1: "taxonomic descriptions",
     Distractor2: "to show someone's thoughts",
@@ -3786,7 +3783,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/",
   },
   {
-    Question: "What does the animation-delay property do in CSS?",
+    Question: "In CSS, what does the animation-delay property do?",
     Answer: "It sets a delay for the animation to start.",
     Distractor1: "It determines how long an animation should last in seconds.",
     Distractor2: "It pauses the animation if the animation is running.",
@@ -3798,7 +3795,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which built-in Python function is used for taking user input in Python?",
+      "In Python, which built-in function is used for taking user input?",
     Answer: "input()",
     Distractor1: "in()",
     Distractor2: "user()",
@@ -3808,7 +3805,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these options is NOT a value used for the justify-items property?",
+      "In CSS, which one of these options is NOT a value used for the justify-items property?",
     Answer: "gap",
     Distractor1: "start",
     Distractor2: "end",
@@ -3829,7 +3826,7 @@ const fullQuiz = [
     Link: "https://en.wikipedia.org/wiki/Syntax_(programming_languages)",
   },
   {
-    Question: "What is the default styling for the <u> tag?",
+    Question: "In HTML, what is the default styling for the <u> tag?",
     Answer: "Single underline",
     Distractor1: "Line through",
     Distractor2: "Line above the text",
@@ -3839,7 +3836,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the value that evenly distributes space in the background-repeat property?",
+      "In CSS, what is the name of the value that evenly distributes space in the background-repeat property?",
     Answer: "space",
     Distractor1: "repeat",
     Distractor2: "no-repeat",
@@ -3868,7 +3865,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-dictionaries-detailed-visual-introduction/",
   },
   {
-    Question: "What is a section element in HTML?",
+    Question: "In HTML, what is a section element?",
     Answer: "A tag used to group related content into sections",
     Distractor1: "A tag used to group images",
     Distractor2: "A tag to group headings",
@@ -3878,7 +3875,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
   },
   {
-    Question: "Are tuples mutable or immutable in Python?",
+    Question: "In Python, are tuples mutable or immutable?",
     Answer: "Immutable",
     Distractor1: "Mutable",
     Distractor2: "Neither Mutable or Immutable",
@@ -3899,7 +3896,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method that converts all of the letters in a string to lowercase?",
+      "In JavaScript, what is the name of the method that converts all of the letters in a string to lowercase?",
     Answer: "toLowerCase",
     Distractor1: "toUpperCase",
     Distractor2: "toLow",
@@ -3909,7 +3906,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-tolowercase-how-to-convert-a-string-to-lowercase-and-uppercase-in-js/",
   },
   {
-    Question: "What does the Doctype do in HTML?",
+    Question: "In HTML, what does the Doctype do?",
     Answer: "specifies the HTML version for the document",
     Distractor1: "specifies the type of CSS used",
     Distractor2: "specifies the type of JavaScript used",
@@ -3920,7 +3917,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the relative unit that is based on the root element's font size?",
+      "In CSS, what is the name of the relative unit that is based on the root element's font size?",
     Answer: "rem",
     Distractor1: "em",
     Distractor2: "px",
@@ -3941,7 +3938,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "The amount of space between an element's content and its border is known as...",
+      "In CSS, the amount of space between an element's content and its border is known as...",
     Answer: "Padding",
     Distractor1: "Margin",
     Distractor2: "White Space",
@@ -3963,7 +3960,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in Python function allows you to iterate over multiple iterables in parallel by returning a tuple with an item from each one?",
+      "In Python, what built-in function allows you to iterate over multiple iterables in parallel by returning a tuple with an item from each one?",
     Answer: "zip()",
     Distractor1: "iterate()",
     Distractor2: "print()",
@@ -3973,7 +3970,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-zip-function-in-python-explained-with-examples/",
   },
   {
-    Question: "What are the three types of scope in JavaScript?",
+    Question: "In JavaScript, what are the three types of scope?",
     Answer: "global, function, block",
     Distractor1: "global, function, map",
     Distractor2: "reduce, function, block",
@@ -3984,7 +3981,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the exception raised in Python when the interpreter detects that the maximum recursion depth is exceeded?",
+      "In Python, what is the name of the exception raised when the interpreter detects that the maximum recursion depth is exceeded?",
     Answer: "RecursionError",
     Distractor1: "IndexError",
     Distractor2: "Infinite Loop",
@@ -4035,7 +4032,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
-    Question: "What does the <bdi> HTML element stand for?",
+    Question: "In HTML, what does the <bdi> element stand for?",
     Answer: "Bidirectional Isolate",
     Distractor1: "Biodecision Isolate",
     Distractor2: "BiometicDirection Image",
@@ -4044,7 +4041,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/bdi",
   },
   {
-    Question: "What Python operator is used to check if two values are equal?",
+    Question: "In Python, what operator is used to check if two values are equal?",
     Answer: "==",
     Distractor1: "=",
     Distractor2: "===",
@@ -4055,7 +4052,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these values is NOT used for the background-attachment property?",
+      "In CSS, which one of these values is NOT used for the background-attachment property?",
     Answer: "inherit",
     Distractor1: "local",
     Distractor2: "scroll",
@@ -4065,7 +4062,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
   },
   {
-    Question: "What is the default value for the tabindex attribute?",
+    Question: "In HTML, what is the default value for the tabindex attribute?",
     Answer: "0",
     Distractor1: "12",
     Distractor2: "14",
@@ -4084,7 +4081,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is a common breakpoint range used for tablet devices in a media query?",
+      "In CSS, what is a common breakpoint range used for tablet devices in a media query?",
     Answer: "481px - 768px",
     Distractor1: "300px - 7000px",
     Distractor2: "2px - 68px",
@@ -4106,7 +4103,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command prints to the terminal the argument that is passed to it?",
+      "In Linux, which command prints to the terminal the argument that is passed to it?",
     Answer: "echo",
     Distractor1: "man",
     Distractor2: "print",
@@ -4116,7 +4113,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "What operator is used in Python to concatenate strings?",
+    Question: "In Python, what operator is used in Python to concatenate strings?",
     Answer: "+",
     Distractor1: "*",
     Distractor2: "-",
@@ -4126,7 +4123,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-python-operators",
   },
   {
-    Question: "What is the figcaption tag in HTML?",
+    Question: "In HTML, what is the figcaption tag in HTML?",
     Answer: "a text description for the content inside the figure element",
     Distractor1: "a caption for the table element",
     Distractor2: "a caption for the form element",
@@ -4137,7 +4134,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you check for the version of Git installed on your machine?",
+      "In Git, how do you check for the version of Git installed on your machine?",
     Answer: "git --version",
     Distractor1: "git &version",
     Distractor2: "git <version>",
@@ -4148,7 +4145,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which open source community has been the biggest inspiration to freeCodeCamp?",
+      "Which open-source community has been the biggest inspiration to freeCodeCamp?",
     Answer: "Wikipedia",
     Distractor1: "Linux",
     Distractor2: "Mozilla Firefox",
@@ -4158,7 +4155,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/welcome-to-the-abundance-economy-there-are-free-lunches-all-over-the-place-b9d0a417fd1a/",
   },
   {
-    Question: "What is the table tag in HTML?",
+    Question: "In HTML, what is the table tag?",
     Answer: "An element to create rows and columns of data in HTML",
     Distractor1: "An element to embed sound in an HTML document",
     Distractor2: "An element to represent side comments",
@@ -4168,7 +4165,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these options is NOT a valid value for the font-weight property?",
+      "In CSS, which one of these options is NOT a valid value for the font-weight property?",
     Answer: "bolding",
     Distractor1: "bold",
     Distractor2: "900",
@@ -4188,7 +4185,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command provides information on all other commands available?",
+      "In Linux, which command provides information on all other commands available?",
     Answer: "man",
     Distractor1: "echo",
     Distractor2: "ls",
@@ -4198,7 +4195,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command",
   },
   {
-    Question: "How do you add a non-breaking space in HTML?",
+    Question: "In HTML, how do you add a non-breaking space?",
     Answer: "&nbsp;",
     Distractor1: "&breakingspace;",
     Distractor2: "&nonbreaking;",
@@ -4219,7 +4216,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method used to attach an event to an HTML element like a button?",
+      "In HTML, what is the name of the method used to attach an event to an HTML element like a button?",
     Answer: ".addEventListener()",
     Distractor1: "Hoisting",
     Distractor2: ".getElementById()",
@@ -4241,7 +4238,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is a common breakpoint range used for laptop devices in a media query?",
+      "In CSS, what is a common breakpoint range used for laptop devices in a media query?",
     Answer: "769px -1024px",
     Distractor1: "7px -10px",
     Distractor2: "69px -124px",
@@ -4251,7 +4248,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
   },
   {
-    Question: "Which Linux command lists the contents of a directory?",
+    Question: "In Linux, which command lists the contents of a directory?",
     Answer: "ls",
     Distractor1: "ln",
     Distractor2: "look",
@@ -4272,7 +4269,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
-    Question: "What is the viewport meta tag in HTML?",
+    Question: "In HTML, what is the viewport meta tag?",
     Answer:
       "renders the width of the page to the width of the device's screen size.",
     Distractor1: "sets the viewport for phones only",
@@ -4284,7 +4281,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these options is NOT a value used for the align-content property?",
+      "In CSS, which one of these options is NOT a value used for the align-content property?",
     Answer: "row-gap",
     Distractor1: "space-between",
     Distractor2: "center",
@@ -4294,7 +4291,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "Which one of these options is a valid comment in Python?",
+    Question: "In Python, which one of these options is a valid comment?",
     Answer: "# This is a comment",
     Distractor1: "//! This is a comment",
     Distractor2: "* This is a comment",
@@ -4316,7 +4313,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the HTML character entity for the right double quote symbol?",
+      "In HTML, what is the character entity for the right double quote symbol?",
     Answer: "&rdquo;",
     Distractor1: "&rdquotes;",
     Distractor2: "&rightdquo;",
@@ -4327,7 +4324,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What attribute can you add to <input> to create an input field for a password?",
+      "In HTML, what attribute can you add to <input> to create an input field for a password?",
     Answer: 'type="password"',
     Distractor1: 'type="pass"',
     Distractor2: 'type="secret"',
@@ -4337,7 +4334,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-form-input-type-and-submit-button-example/",
   },
   {
-    Question: "How can you pull changes made to the remote repository in Git?",
+    Question: "In Git, how can you pull changes made to the remote repository?",
     Answer: "git pull <remote>",
     Distractor1: "git <remote> pull",
     Distractor2: "git push <remote>",
@@ -4347,7 +4344,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
   {
-    Question: "What is the button tag in HTML?",
+    Question: "In HTML, what is the button tag?",
     Answer: "A tag used to create buttons for your HTML page",
     Distractor1: "A tag used to create images",
     Distractor2: "A tag used to create quotes",
@@ -4356,7 +4353,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/",
   },
   {
-    Question: "Which one of these options is a valid variable name in Python?",
+    Question: "In Python, which one of these options is a valid variable name?",
     Answer: "my_variable_59",
     Distractor1: "59my_variable",
     Distractor2: "my^_variable",
@@ -4366,7 +4363,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-variable-definitions-in-python",
   },
   {
-    Question: "How do you make the text for an element all lowercase?",
+    Question: "In CSS, how do you make the text for an element all lowercase?",
     Answer: "text-transform: lowercase;",
     Distractor1: "text-transform: lower;",
     Distractor2: "text-transform: to-lower;",
@@ -4394,7 +4391,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/",
   },
   {
-    Question: "How do you clone a remote repository in Git?",
+    Question: "In Git, how do you clone a remote repository?",
     Answer: "git clone",
     Distractor1: "git copy",
     Distractor2: "git copy url",
@@ -4404,7 +4401,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "Which tag is used to represent the header for an HTML table?",
+    Question: "In HTML, which tag is used to represent the header for a table?",
     Answer: "<thead>",
     Distractor1: "<img>",
     Distractor2: "<tbody>",
@@ -4414,7 +4411,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/",
   },
   {
-    Question: "What is the blockquote tag in HTML?",
+    Question: "In HTML, what is the blockquote tag?",
     Answer: "a block of text that represents a quote",
     Distractor1: "a generic block container to hold other elements",
     Distractor2: "a generic inline element",
@@ -4434,7 +4431,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-programming/",
   },
   {
-    Question: "What built-in Python function returns the length of a sequence?",
+    Question: "In Python, what built-in function returns the length of a sequence?",
     Answer: "len()",
     Distractor1: "length()",
     Distractor2: "size()",
@@ -4444,7 +4441,7 @@ const fullQuiz = [
     Link: "https://docs.python.org/3/library/functions.html#len",
   },
   {
-    Question: "What method adds an element to the end of a list in Python?",
+    Question: "In Python, what method adds an element to the end of a list?",
     Answer: ".append()",
     Distractor1: ".add()",
     Distractor2: ".join()",
@@ -4455,7 +4452,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What JavaScript operator allows you to create a function that takes a variable number of arguments?",
+      "In JavaScript, what operator allows you to create a function that takes a variable number of arguments?",
     Answer: "Rest operator",
     Distractor1: "Spread operator",
     Distractor2: "Division Operator",
@@ -4466,7 +4463,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property used to adjust the size of a background image in CSS?",
+      "In CSS, what is the name of the property used to adjust the size of a background image?",
     Answer: "background-size",
     Distractor1: "background-repeat",
     Distractor2: "background-origin",
@@ -4477,7 +4474,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS property that sets the opacity of an HTML element?",
+      "In CSS, what is the name of the property that sets the opacity of an HTML element?",
     Answer: "opacity",
     Distractor1: "margin",
     Distractor2: "padding",
@@ -4488,7 +4485,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the exception raised in Python when you try to index a list, tuple, or string beyond the permitted boundaries?",
+      "In Python, what is the name of the exception raised in Python when you try to index a list, tuple, or string beyond the permitted boundaries?",
     Answer: "IndexError",
     Distractor1: "KeyError",
     Distractor2: "NameError",
@@ -4511,7 +4508,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used for displaying the name of the current user logged in the terminal?",
+      "In Linux, which command is used for displaying the name of the current user logged in the terminal?",
     Answer: "whoami",
     Distractor1: "cat",
     Distractor2: "echo",
@@ -4521,18 +4518,18 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-whoami-command",
   },
   {
-    Question: "What does justify-content do in flexbox?",
+    Question: "In CSS Flexbox, what does justify-content do?",
     Answer: "aligns the items along the main axis",
     Distractor1: "aligns the items to right of the y axis",
     Distractor2: "aligns the items to the left of  the x and y axis",
     Distractor3: "aligns the items to the right of the x axis",
     Explanation:
-      "In flexbox, justify-content is used to align the items in the container along the main axis",
+      "In CSS Flexbox, justify-content is used to align the items in the container along the main axis",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
     Question:
-      "What is the name of the rule that will override CSS style for an element?",
+      "In CSS, what is the name of the rule that will override CSS style for an element?",
     Answer: "!important",
     Distractor1: "!override",
     Distractor2: "!change",
@@ -4542,17 +4539,17 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
   },
   {
-    Question: "How do you create a flexbox container in CSS?",
+    Question: "How do you create a flexbox container in CSS Flexbox?",
     Answer: "display:flex;",
     Distractor1: "display:flexbox;",
     Distractor2: "display:flexcontainer;",
     Distractor3: "display:flexB;",
     Explanation:
-      "You can apply flexbox to an HTML container by using display:flex;",
+      "You can apply CSS Flexbox to an HTML container by using display:flex;",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
-    Question: "What HTML tag is used to make text bold?",
+    Question: "In HTML, what tag is used to make text bold?",
     Answer: "<b>",
     Distractor1: "<br>",
     Distractor2: "<bold>",
@@ -4562,7 +4559,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-bold-text-tutorial-how-to-use-the-b-tag/",
   },
   {
-    Question: "Which Linux command shows all previously executed commands?",
+    Question: "In Linux, which command shows all previously executed commands?",
     Answer: "history",
     Distractor1: "memory",
     Distractor2: "review",
@@ -4572,7 +4569,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "What does the alt attribute do in the img tag?",
+    Question: "In HTML, what does the alt attribute do in the img tag?",
     Answer: "It provides a description of the image",
     Distractor1: "It provides the time when the image was taken",
     Distractor2: "It provides the source for the image",
@@ -4581,7 +4578,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
-    Question: "Which HTML tag is used to represent a set of navigation links?",
+    Question: "In HTML, which tag is used to represent a set of navigation links?",
     Answer: "<nav>",
     Distractor1: "<navigation>",
     Distractor2: "<link>",
@@ -4601,7 +4598,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
-    Question: "Which one of these attributes does NOT work with the img tag?",
+    Question: "In HTML, which one of these attributes does NOT work with the img tag?",
     Answer: "capture",
     Distractor1: "src",
     Distractor2: "alt",
@@ -4611,7 +4608,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/img-html-image-tag-tutorial/",
   },
   {
-    Question: "What does . mean in a Linux directory path?",
+    Question: "In Linux, what does . mean in a directory path?",
     Answer: "Refers to the current folder",
     Distractor1: "Refers to the parent folder",
     Distractor2: "Refers to the root of the file structure",
@@ -4622,7 +4619,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What type of join in SQL returns all rows for which there is a match in either of the tables?",
+      "In SQL, what type of join returns all rows for which there is a match in either of the tables?",
     Answer: "FULL OUTER JOIN",
     Distractor1: "RIGHT OUTER JOIN",
     Distractor2: "LEFT OUTER JOIN",
@@ -4633,7 +4630,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of a function that is passed as an argument to another function?",
+      "In JavaScript, what is the name of a function that is passed as an argument to another function?",
     Answer: "Callback function",
     Distractor1: "Arrow function",
     Distractor2: "Anonymous function",
@@ -4653,7 +4650,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What string method combines the text of two or more strings and returns a new string?",
+      "In JavaScript, what string method combines the text of two or more strings and returns a new string?",
     Answer: ".concat()",
     Distractor1: ".combine()",
     Distractor2: ".string()",
@@ -4664,7 +4661,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS property used to position the grid inside the grid container along the y-axis?",
+      "In CSS, what is the name of the CSS property used to position the grid inside the grid container along the y-axis?",
     Answer: "align-content",
     Distractor1: "justify-content",
     Distractor2: "end",
@@ -4685,7 +4682,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is a common breakpoint range used for desktops and large screens in a media query?",
+      "In CSS, what is a common breakpoint range used for desktops and large screens in a media query?",
     Answer: "1025px - 1200px",
     Distractor1: "25px - 120px",
     Distractor2: "125px - 12,000px",
@@ -4705,7 +4702,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the HTML element used to create a dialog box?",
+      "In HTML, what is the name of the element used to create a dialog box?",
     Answer: "<dialog>",
     Distractor1: "<dialogging>",
     Distractor2: "<dt>",
@@ -4714,7 +4711,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/dialog",
   },
   {
-    Question: "Which Linux command deletes a file?",
+    Question: "In Linux, which command deletes a file?",
     Answer: "rm",
     Distractor1: "rmdirs",
     Distractor2: "touch",
@@ -4725,7 +4722,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What Python module implements pseudo-random number generators for various distributions?",
+      "In Python, what module implements pseudo-random number generators for various distributions?",
     Answer: "random",
     Distractor1: "random_numbers",
     Distractor2: "generate",
@@ -4735,7 +4732,7 @@ const fullQuiz = [
     Link: "https://docs.python.org/3/library/random.html",
   },
   {
-    Question: "What does the A stand for in HSLA?",
+    Question: "In CSS, what does the A stand for in HSLA?",
     Answer: "Alpha",
     Distractor1: "Alphabetical",
     Distractor2: "Ambiguous",
@@ -4746,7 +4743,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What type of join in SQL returns all the records from the left table and the matching records from the right table?",
+      "In SQL, what type of join returns all the records from the left table and the matching records from the right table?",
     Answer: "LEFT OUTER JOIN",
     Distractor1: "FULL OUTER JOIN",
     Distractor2: "INNER JOIN",
@@ -4757,7 +4754,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How can you see the current status of the current branch in Git?",
+      "In Git, how can you see the current status of the current branch?",
     Answer: "git status",
     Distractor1: "git info",
     Distractor2: "git show status",
@@ -4768,7 +4765,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What does the repeat-y value do in the background-repeat property?",
+      "In CSS, what does the repeat-y value do in the background-repeat property?",
     Answer: "It repeats the image along the y-axis.",
     Distractor1: "It repeats the image along the x-axis.",
     Distractor2: "It repeats the image along both of the x-axis and y-axis.",
@@ -4777,7 +4774,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
   },
   {
-    Question: "How can you add color to Git output?",
+    Question: "In Git, how can you add color to git command outputs?",
     Answer: "git config --global color.ui true",
     Distractor1: "git config --global color.ui false",
     Distractor2: "git set --global color.ui true",
@@ -4787,7 +4784,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/best-git-tutorial/",
   },
   {
-    Question: "What HTML attribute is used when creating a hyperlink?",
+    Question: "In HTML, what attribute is used when creating a hyperlink?",
     Answer: "href",
     Distractor1: "src",
     Distractor2: "id",
@@ -4807,7 +4804,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in Python function returns a new sorted list from the items in an iterable?",
+      "In Python, what built-in function returns a new sorted list from the items in an iterable?",
     Answer: "sorted()",
     Distractor1: "sorting()",
     Distractor2: "print()",
@@ -4836,7 +4833,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method used to find all of the elements in the DOM that match a CSS selector and return a list of all of those nodes?",
+      "In HTML, what is the name of the method used to find all of the elements in the DOM that match a CSS selector and return a list of all of those nodes?",
     Answer: ".querySelectorAll()",
     Distractor1: "Array destructuring",
     Distractor2: ".includes() method",
@@ -4855,7 +4852,7 @@ const fullQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-origins-of-linux-and-the-free-software-movement-a-brief-history/19527",
   },
   {
-    Question: "What SQL statement is used to update a record in a table?",
+    Question: "In SQL, what statement is used to update a record in a table?",
     Answer: "UPDATE",
     Distractor1: "CHANGE",
     Distractor2: "SELECT",
@@ -4865,7 +4862,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "Which Linux command is used to count JUST the lines in a file?",
+    Question: "In Linux, which command is used to count JUST the lines in a file?",
     Answer: "wc -l",
     Distractor1: "wc -9",
     Distractor2: "wc -w",
@@ -4875,13 +4872,13 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
   },
   {
-    Question: "Which one is NOT used with justify-content?",
+    Question: "In CSS Flexbox, which one is NOT used with justify-content?",
     Answer: "flex-middle",
     Distractor1: "flex-start",
     Distractor2: "flex-end",
     Distractor3: "space-around",
     Explanation:
-      "In flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between",
+      "In CSS Flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
@@ -4897,7 +4894,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the exception raised in Python when you try to access the value of a key that doesn't exist in a dictionary?",
+      "In Python, what is the name of the exception raised when you try to access the value of a key that doesn't exist in a dictionary?",
     Answer: "KeyError",
     Distractor1: "IndexError",
     Distractor2: "NameError",
@@ -4907,7 +4904,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/exception-handling-python/",
   },
   {
-    Question: "What is the <tr> tag in HTML?",
+    Question: "In HTML, what is the <tr> tag?",
     Answer: "An element that represents a row in a table",
     Distractor1: "A tag used to create buttons for your HTML page",
     Distractor2: "A container used to only group headings",
@@ -4916,7 +4913,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/",
   },
   {
-    Question: "How do you change the font-size of an h1 tag using inline CSS?",
+    Question: "In HTML, how do you change the font-size of an h1 tag using inline CSS?",
     Answer: '<h1 style="font-size: 4rem">freeCodeCamp</h1>',
     Distractor1: '<h1 css="font-size: 4rem">freeCodeCamp</h1>',
     Distractor2: '<h1 font="font-size: 4rem">freeCodeCamp</h1>',
@@ -4926,7 +4923,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-font-style-how-to-change-text-color-and-size-with-an-html-tag/",
   },
   {
-    Question: "What is the footer element in HTML?",
+    Question: "In HTML, what is the footer element?",
     Answer: "A tag used to specify the footer of the HTML document",
     Distractor1: "A tag used to specify the header of the HTML document",
     Distractor2: "A tag used to specify a paragraph of the HTML document",
@@ -4946,7 +4943,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How can you cast a value of any data type into a string in Python?",
+      "In Python, how can you cast a value of any data type into a string?",
     Answer: "Using the str() function",
     Distractor1: "Using the int() function",
     Distractor2: "Using the string() function",
@@ -4956,7 +4953,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-typecasting-in-python-in-five-minutes-90d42c439743/",
   },
   {
-    Question: "How many pixels are equivalent to 1 rem unit?",
+    Question: "In CSS, how many pixels are equivalent to 1 rem unit?",
     Answer: "16",
     Distractor1: "32",
     Distractor2: "12",
@@ -4966,7 +4963,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "A value that evaluates to False in a boolean context is known as...",
+      "In Python, a value that evaluates to False in a boolean context is known as...",
     Answer: "Falsy",
     Distractor1: "FALSENESS",
     Distractor2: "Truth",
@@ -4977,7 +4974,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag is used to make inline text be displayed as superscript?",
+      "In HTML, which tag is used to make inline text be displayed as superscript?",
     Answer: "<sup>",
     Distractor1: "<super>",
     Distractor2: "<sub>",
@@ -4986,7 +4983,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/sup",
   },
   {
-    Question: "What CSS selector is used to set the style of visited links?",
+    Question: "In CSS, what selector is used to set the style of visited links?",
     Answer: "a:visited",
     Distractor1: "a:hover",
     Distractor2: "a:active",
@@ -4995,7 +4992,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
   },
   {
-    Question: "How do you switch back to the main branch in Git?",
+    Question: "In Git, how do you switch back to the main branch?",
     Answer: "git checkout main",
     Distractor1: "git switch main",
     Distractor2: "git change main",
@@ -5006,7 +5003,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to sort the contents of a file alphabetically and numerically?",
+      "In Linux, which command is used to sort the contents of a file alphabetically and numerically?",
     Answer: "sort",
     Distractor1: "wc",
     Distractor2: "cat",
@@ -5026,7 +5023,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is a common breakpoint range used for mobile devices in a media query?",
+      "In CSS, what is a common breakpoint range used for mobile devices in a media query?",
     Answer: "320px - 480px",
     Distractor1: "1000px - 5000px",
     Distractor2: "100px - 150px",
@@ -5058,7 +5055,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS grid property used to create gaps between rows?",
+      "In CSS, what is the name of the CSS grid property used to create gaps between rows?",
     Answer: "row-gap",
     Distractor1: "grid-template-rows",
     Distractor2: "grid-columns",
@@ -5078,7 +5075,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/",
   },
   {
-    Question: "Which Linux command changes passwords for user accounts?",
+    Question: "In Linux, which command changes passwords for user accounts?",
     Answer: "passwd",
     Distractor1: "chpass",
     Distractor2: "chpasswd",
@@ -5089,7 +5086,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "If you try to access a key that does not exist in a Python dictionary, you will get a...",
+      "In Python, if you try to access a key that does not exist in a dictionary, you will get a...",
     Answer: "KeyError",
     Distractor1: "Spelling Error",
     Distractor2: "ValueError",
@@ -5110,7 +5107,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-function-examples-how-to-declare-and-invoke-with-parameters-2/",
   },
   {
-    Question: "What is the code used to create a CSS grid container?",
+    Question: "In CSS, what is the code used to create a CSS grid container?",
     Answer: "display: grid;",
     Distractor1: "display: flex;",
     Distractor2: "display: grid-box;",
@@ -5121,7 +5118,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What Python function returns the string representing a character whose Unicode code point is the integer passed as an argument?",
+      "In Python, what function returns the string representing a character whose Unicode code point is the integer passed as an argument?",
     Answer: "chr()",
     Distractor1: "ord()",
     Distractor2: "str()",
@@ -5131,7 +5128,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-function-guide-with-examples/",
   },
   {
-    Question: "How do you add content before an element?",
+    Question: "In CSS, how do you add content before an element?",
     Answer: "::before",
     Distractor1: "::add-content",
     Distractor2: "::before-content",
@@ -5141,7 +5138,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
   },
   {
-    Question: "What is the small tag in HTML?",
+    Question: "In HTML, what is the small tag?",
     Answer:
       "a tag used to represent small text for side comments or copyright information",
     Distractor1: "small text for div elements only",
@@ -5162,7 +5159,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the HTML character entity for the right single quote symbol?",
+      "In HTML, what is the character entity for the right single quote symbol?",
     Answer: "&rsquo;",
     Distractor1: "&lsquo;",
     Distractor2: "&rightquo;",
@@ -5173,7 +5170,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the tag that adds emphasis on a word or span of text?",
+      "In HTML, what is the name of the tag that adds emphasis on a word or span of text?",
     Answer: "<em>",
     Distractor1: "<p>",
     Distractor2: "<i>",
@@ -5184,7 +5181,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the constraint used in SQL to limit the range of values that can be placed in a column?",
+      "In SQL, what is the constraint used in SQL to limit the range of values that can be placed in a column?",
     Answer: "CHECK",
     Distractor1: "RANGE",
     Distractor2: "RESTRICT",
@@ -5213,7 +5210,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "How do you set your email in Git?",
+    Question: "In Git, how do you set your email associated with your commits?",
     Answer: 'git config --global user.email "YOUR_EMAIL"',
     Distractor1: 'git config --global set email address "YOUR_EMAIL"',
     Distractor2: 'git config --email address "YOUR_EMAIL"',
@@ -5224,7 +5221,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What built-in Python function returns a reverse iterator that allows you to iterate over the elements of an iterable in reverse order?",
+      "In Python, what built-in function returns a reverse iterator that allows you to iterate over the elements of an iterable in reverse order?",
     Answer: "reversed()",
     Distractor1: "sorted()",
     Distractor2: "reversing()",
@@ -5246,7 +5243,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the data type of the value returned by the input() function in Python?",
+      "In Python, what is the data type of the value returned by the input() function?",
     Answer: "String",
     Distractor1: "Integer",
     Distractor2: "Boolean",
@@ -5266,7 +5263,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How can you change the text editor used to write commit messages in Git?",
+      "In Git, how can you change the text editor used to write commit messages?",
     Answer: "git config --global core.editor <editor>",
     Distractor1: "git config email <editor>",
     Distractor2: "git set editor <editor>",
@@ -5277,7 +5274,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following operators is NOT a bitwise operator in Python?",
+      "In Python, which of the following operators is NOT a bitwise operator?",
     Answer: "%",
     Distractor1: "&",
     Distractor2: "|",
@@ -5288,7 +5285,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How can you check for the status of your working directory in Git?",
+      "In Git, how can you check for the status of your working directory?",
     Answer: "git status",
     Distractor1: "git check status",
     Distractor2: "git share status",
@@ -5298,7 +5295,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "How do you create a button using the <input> tag in HTML?",
+    Question: "In HTML, how do you create a button using the <input> tag?",
     Answer: '<input type="button" value="Sample Button" />',
     Distractor1: '<input type="checkbox" value="Sample Button" />',
     Distractor2: '<input type="date" value="Sample Button" />',
@@ -5309,7 +5306,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the CSS property used to position the grid inside the grid container along the x-axis?",
+      "In CSS Grid, what is the name of the CSS property used to position the grid inside the grid container along the x-axis?",
     Answer: "justify-content",
     Distractor1: "grid-template-areas",
     Distractor2: "grid-template-rows",
@@ -5329,7 +5326,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ipv4-vs-ipv6-what-is-the-difference-between-ip-addressing-schemes/",
   },
   {
-    Question: "How do you create a new branch and switch to it in Git?",
+    Question: "In Git, how do you create a new branch and switch to it?",
     Answer: "git checkout -b new-branch-name",
     Distractor1: "git create -b new-branch-name",
     Distractor2: "git change -b new-branch-name",
@@ -5340,7 +5337,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What Python function returns True if all the elements of an iterable evaluate to True?",
+      "In Python, what function returns True if all the elements of an iterable evaluate to True?",
     Answer: "all()",
     Distractor1: "any()",
     Distractor2: "none()",
@@ -5351,7 +5348,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which command is used to display the NAME of the operating system?",
+      "In Linux, which command is used to display the NAME of the operating system?",
     Answer: "uname -o",
     Distractor1: "uname -r",
     Distractor2: "uname -k",
@@ -5360,7 +5357,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
   },
   {
-    Question: "What is the main element in HTML?",
+    Question: "In HTML, what is the main element?",
     Answer: "A tag used for the main content of the HTML page",
     Distractor1: "A tag used only to contain images",
     Distractor2: "A tag used to only contain links",
@@ -5370,7 +5367,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
   },
   {
-    Question: "What does the vh unit stand for?",
+    Question: "In CSS, what does the vh unit stand for?",
     Answer: "viewport height",
     Distractor1: "viewport width",
     Distractor2: "view heights",
@@ -5379,7 +5376,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
   },
   {
-    Question: "What does the bdo element do?",
+    Question: "In HTML, what does the bdo element do?",
     Answer:
       "overrides the current direction and renders the text in a new direction",
     Distractor1: "highlights the current text",
@@ -5390,7 +5387,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/bdo",
   },
   {
-    Question: "Are lists mutable or immutable in Python?",
+    Question: "In Python, are lists mutable or immutable?",
     Answer: "Mutable",
     Distractor1: "Immutable",
     Distractor2: "Neither Mutable or Immutable",
@@ -5400,7 +5397,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-data-types-and-built-in-data-structures-in-python",
   },
   {
-    Question: "What is the logical OR operator in JavaScript?",
+    Question: "In JavaScript, what is the logical OR operator?",
     Answer: "||",
     Distractor1: "&&",
     Distractor2: "!",
@@ -5451,7 +5448,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
-    Question: "What does the HTML datalist element do?",
+    Question: "In HTML, what does the datalist element do?",
     Answer: "provides a dropdown list of recommended options",
     Distractor1: "Provides a list of image tags",
     Distractor2: "Provides a dropdown list of tables",
@@ -5462,7 +5459,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the HTML element that creates an area inside an image map?",
+      "In HTML, what is the name of the element that creates an area inside an image map?",
     Answer: "<area>",
     Distractor1: "<img>",
     Distractor2: "<blink>",
@@ -5484,7 +5481,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What aggregate function in SQL allows you to calculate the average of a numeric column from the set of rows returned by a query?",
+      "In SQL, what aggregate function allows you to calculate the average of a numeric column from the set of rows returned by a query?",
     Answer: "AVG()",
     Distractor1: "COUNT()",
     Distractor2: "MINIMUM()",
@@ -5494,7 +5491,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "Which Linux command verifies that an IP address exists?",
+    Question: "In Linux, which command verifies that an IP address exists?",
     Answer: "ping",
     Distractor1: "which",
     Distractor2: "uname",
@@ -5515,7 +5512,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-javascript-javascript-code-explained-in-plain-english/",
   },
   {
-    Question: "What is the screen media type in a CSS media query?",
+    Question: "In CSS, what is the screen media type in a CSS media query?",
     Answer: "A category of media that works for devices with screens.",
     Distractor1:
       "A category of media that works for media in print preview mode.",
@@ -5534,7 +5531,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/petabyte-definition/",
   },
   {
-    Question: "How do you create a submit button in HTML?",
+    Question: "In HTML, how do you create a submit button?",
     Answer: '<input type="submit" value="Submit" />',
     Distractor1: '<input type="number" value="Submit" />',
     Distractor2: '<input type="email" value="Submit" />',
@@ -5545,7 +5542,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to copy the contents of one file to another one?",
+      "In Linux, which command is used to copy the contents of one file to another one?",
     Answer: "cp",
     Distractor1: "rm ",
     Distractor2: "rmdir",
@@ -5554,7 +5551,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "What does the <u> tag stand for?",
+    Question: "In HTML, what does the <u> tag stand for?",
     Answer: "Unarticulated Annotation element",
     Distractor1: "Unarticulated Anchor element",
     Distractor2: "Unarticulated Aside element",
@@ -5563,7 +5560,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-underline-text-how-to-use-the-u-tag-with-example-code/",
   },
   {
-    Question: "What does the A in RGBA stand for?",
+    Question: "In CSS, what does the A in RGBA stand for?",
     Answer: "Alpha",
     Distractor1: "Alphabetical",
     Distractor2: "Ambiguous",
@@ -5573,18 +5570,18 @@ const fullQuiz = [
     Link: "https://devdocs.io/css/color_value/rgba()",
   },
   {
-    Question: "Which one is NOT used with align-items?",
+    Question: "In CSS Flexbox, which one is NOT used with align-items?",
     Answer: "align-middle",
     Distractor1: "flex-end",
     Distractor2: "flex-start",
     Distractor3: "baseline",
     Explanation:
-      "In flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch",
+      "In CSS Flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
     Question:
-      'How can you check if the key "Nora" is in the "names" dictionary?',
+      'In Python, how can you check if the key "Nora" is in the "names" dictionary?',
     Answer: '"Nora" in names',
     Distractor1: 'names in "Nora"',
     Distractor2: '"Nora" is in names',
@@ -5595,7 +5592,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What method takes an iterable as an argument and adds the elements of that iterable to a list as individual elements?",
+      "In Python, what method takes an iterable as an argument and adds the elements of that iterable to a list as individual elements?",
     Answer: ".extend()",
     Distractor1: ".append()",
     Distractor2: ".join()",
@@ -5616,7 +5613,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method that returns true if at least one of the elements in an array passes the test implemented by the function provided?",
+      "In JavaScript, what is the name of the method that returns true if at least one of the elements in an array passes the test implemented by the function provided?",
     Answer: ".some()",
     Distractor1: ".findIndex()",
     Distractor2: ".includes()",
@@ -5645,7 +5642,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "A structured set of data stored in a computer designed for efficient storage, retrieval, and maintenance is known as...",
+      "In SQL, a structured set of data stored in a computer designed for efficient storage, retrieval, and maintenance is known as...",
     Answer: "Database",
     Distractor1: "Dataset",
     Distractor2: "Query",
@@ -5656,7 +5653,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "The integer used to refer to a character in a string or an element in a list or tuple is known as an...",
+      "In Python, the integer used to refer to a character in a string or an element in a list or tuple is known as an...",
     Answer: "index",
     Distractor1: "integer",
     Distractor2: "location",
@@ -5667,7 +5664,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What does the repeat-x value do in the background-repeat property?",
+      "In CSS, what does the repeat-x value do in the background-repeat property?",
     Answer: "It repeats the image along the x-axis.",
     Distractor1: "It repeats the image along the y-axis.",
     Distractor2: "It repeats the image along the z-axis.",
@@ -5678,7 +5675,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the correct code for linking a CSS stylesheet to an HTML file?",
+      "In HTML, what is the correct code for linking a CSS stylesheet to an HTML file?",
     Answer: '<link rel="stylesheet" src="style.css">',
     Distractor1: '<anchor rel="stylesheet" src="style.css">',
     Distractor2: '<links rel="stylesheet" src="style.css"></links>',
@@ -5699,7 +5696,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
   },
   {
-    Question: "Which Linux command is used to compress files?",
+    Question: "In Linux, which command is used to compress files?",
     Answer: "gzip",
     Distractor1: "tar",
     Distractor2: "chown",
@@ -5708,17 +5705,17 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-gzip-command",
   },
   {
-    Question: "Which one is NOT used with align-content?",
+    Question: "In CSS Flexbox, which one is NOT used with align-content?",
     Answer: "align-bottom",
     Distractor1: "center",
     Distractor2: "space-around",
     Distractor3: "stretch",
     Explanation:
-      "In flexbox, some of the options for align-content include center, stretch, space-around and space-between",
+      "In CSS Flexbox, some of the options for align-content include center, stretch, space-around and space-between",
     Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
   },
   {
-    Question: "How is the comma operator used in a media query?",
+    Question: "In CSS, how is the comma operator used in a media query?",
     Answer:
       "It separates multiple media features by commas and it applies the styles inside the curly braces if one of the conditions is true.",
     Distractor1:
@@ -5740,7 +5737,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
   {
-    Question: "What HTML tag is used to create a form?",
+    Question: "In HTML, what tag is used to create a form?",
     Answer: "<form>",
     Distractor1: "<f>",
     Distractor2: "<th>",
@@ -5749,7 +5746,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-form-input-type-and-submit-button-example/",
   },
   {
-    Question: "What is the type attribute in the link tag?",
+    Question: "In HTML, what is the type attribute in the link tag?",
     Answer: "describes the type of content for the linked document",
     Distractor1: "provides descriptive text for an img",
     Distractor2: "opens up the link tag in another browser window",
@@ -5780,7 +5777,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What is the logical NOT operator in JavaScript?",
+    Question: "In JavaScript, what is the logical NOT operator?",
     Answer: "!",
     Distractor1: "&&",
     Distractor2: "||",
@@ -5790,7 +5787,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What attribute can you add to <input> to define a range of valid values for the user input?",
+      "In HTML, what attribute can you add to <input> to define a range of valid values for the user input?",
     Answer: 'type="range"',
     Distractor1: 'type="r"',
     Distractor2: 'type="maxmin"',
@@ -5800,7 +5797,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/range",
   },
   {
-    Question: "What is the HTML character entity for the trademark symbol?",
+    Question: "In HTML, what is the character entity for the trademark symbol?",
     Answer: "&trade;",
     Distractor1: "&trademark;",
     Distractor2: "&tmark;",
@@ -5810,7 +5807,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/ascii-table-hex-to-ascii-value-character-code-chart-2/",
   },
   {
-    Question: "What are the html tags?",
+    Question: "In HTML, what are the html tags?",
     Answer: "root element that contains all other HTML tags",
     Distractor1: "an element that only contains all paragraph tags",
     Distractor2: "an element that only contains all image tags",
@@ -5830,7 +5827,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
   },
   {
-    Question: "Which HTML element contains the select tag?",
+    Question: "In HTML, which element contains the select tag?",
     Answer: "form tag",
     Distractor1: "anchor tag",
     Distractor2: "img tag",
@@ -5841,7 +5838,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "A computer programming language used for inserting, deleting, and updating data in a database is known as a...",
+      "In SQL, a computer programming language used for inserting, deleting, and updating data in a database is known as a...",
     Answer: "Data Manipulation Language",
     Distractor1: "Data Definition Language",
     Distractor2: "Data Control Language",
@@ -5862,7 +5859,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What value should be assigned to the text-decoration property to remove an underline from links?",
+      "In CSS, what value should be assigned to the text-decoration property to remove an underline from links?",
     Answer: "none",
     Distractor1: "underline",
     Distractor2: "overline",
@@ -5873,7 +5870,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the SQL command used to order the results in ascending or descending order?",
+      "In SQL, what is the command used to order the results in ascending or descending order?",
     Answer: "ORDER BY",
     Distractor1: "SORT BY",
     Distractor2: "ASCENDING",
@@ -5906,7 +5903,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-while-loop-tutorial/",
   },
   {
-    Question: "What HTML tag is used to italicize text?",
+    Question: "In HTML, what tag is used to italicize text?",
     Answer: "<i>",
     Distractor1: "<b>",
     Distractor2: "<span>",
@@ -5915,7 +5912,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-italics-tutorial-how-to-make-text-italic-with-the-i-tag/",
   },
   {
-    Question: "What is the addition assignment operator in Python?",
+    Question: "In Python, what is the addition assignment operator?",
     Answer: " +=",
     Distractor1: " =+",
     Distractor2: " +",
@@ -5925,7 +5922,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
   },
   {
-    Question: "What is the meaning of PEP in Python?",
+    Question: "In Python, what is the meaning of PEP?",
     Answer: "Python Enhancement Proposal",
     Distractor1: "Python Experimentation Platform",
     Distractor2: "Python Excellent Performance",
@@ -5935,7 +5932,7 @@ const fullQuiz = [
     Link: "https://www.python.org/dev/peps/pep-0001/#what-is-a-pep",
   },
   {
-    Question: "What are the conditions that decide if a media rule is applied?",
+    Question: "In CSS, what are the conditions that decide if a media rule is applied?",
     Answer: "Breakpoints",
     Distractor1: "Breaks",
     Distractor2: "Points",
@@ -5946,7 +5943,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "The amount of space between an element's border and its surrounding elements is known as...",
+      "In CSS, the amount of space between an element's border and its surrounding elements is known as...",
     Answer: "Margin",
     Distractor1: "Padding",
     Distractor2: "White Space",
@@ -5957,7 +5954,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method used to find elements that match one of more selectors?",
+      "In HTML, what is the name of the method used to find elements that match one of more selectors?",
     Answer: ".querySelector()",
     Distractor1: ".textContent()",
     Distractor2: ".padEnd()",
@@ -5967,7 +5964,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
   },
   {
-    Question: "What is the correct way to write Boolean values in Python?",
+    Question: "In Python, what is the correct way to write Boolean values?",
     Answer: "True/False",
     Distractor1: "true/false",
     Distractor2: "TRUE/FALSE",
@@ -5977,7 +5974,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/",
   },
   {
-    Question: "What does DCL stand for?",
+    Question: "In SQL, what does DCL stand for?",
     Answer: "Data Control Language",
     Distractor1: "Data Manipulation Language",
     Distractor2: "Data Definition Language",
@@ -5986,7 +5983,7 @@ const fullQuiz = [
     Link: "https://en.wikipedia.org/wiki/Data_control_language",
   },
   {
-    Question: "What is an aside element in HTML?",
+    Question: "In HTML, what is an aside element?",
     Answer: "An HTML element typically used for sidebar information",
     Distractor1: "An HTML element typically used for footer information",
     Distractor2: "An HTML element typically used for header information",
@@ -5996,7 +5993,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
   },
   {
-    Question: "What is the “less than” operator in Python?",
+    Question: "In Python, what is the “less than” operator?",
     Answer: "<",
     Distractor1: ">",
     Distractor2: "<=",
@@ -6016,7 +6013,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
-    Question: "What does .. mean in a Linux directory path?",
+    Question: "In Linux, what does .. mean in a directory path?",
     Answer: "Refers to the parent folder",
     Distractor1: "Refers to the current folder",
     Distractor2: "Refers to no directory",
@@ -6027,7 +6024,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property that determines if the background image is in a scroll, fixed, or local position?",
+      "In CSS, what is the name of the property that determines if the background image is in a scroll, fixed, or local position?",
     Answer: "background-attachment",
     Distractor1: "background-origin",
     Distractor2: "background-clip",
@@ -6037,7 +6034,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
   },
   {
-    Question: "What Python keyword is used to return a value from a function?",
+    Question: "In Python, what keyword is used to return a value from a function?",
     Answer: "return",
     Distractor1: "pass",
     Distractor2: "continue",
@@ -6048,7 +6045,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these operators has the highest precedence in Python?",
+      "In Python, which one of these operators has the highest precedence?",
     Answer: "**",
     Distractor1: "/",
     Distractor2: "*",
@@ -6059,7 +6056,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Unix command is used for exiting VIM AND saving the changes you made?",
+      "In Vim, which command is used for exiting AND saving the changes you made on a file?",
     Answer: ":wq",
     Distractor1: ":q!",
     Distractor2: ":h",
@@ -6070,7 +6067,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the element that connects content to a machine-readable translation?",
+      "In HTML, what is the name of the element that connects content to a machine-readable translation?",
     Answer: "<data>",
     Distractor1: "<del>",
     Distractor2: "<dd>",
@@ -6080,7 +6077,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/data",
   },
   {
-    Question: "What do H, S, and L in HSL stand for?",
+    Question: "In CSS, what do H, S, and L in HSL stand for?",
     Answer: "Hue, Saturation, Lightness",
     Distractor1: "Hue, Saturation, Lightning",
     Distractor2: "Hue, Style, Lightness",
@@ -6090,7 +6087,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What type of join in SQL returns all the records from the right table and the matching records from the left table?",
+      "In SQL, what type of join returns all the records from the right table and the matching records from the left table?",
     Answer: "RIGHT OUTER JOIN",
     Distractor1: "LEFT OUTER JOIN",
     Distractor2: "FULL OUTER JOIN",
@@ -6101,7 +6098,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What logical operator in Python returns True if any of the operands are True?",
+      "In Python, what logical operator returns True if any of the operands are True?",
     Answer: "or",
     Distractor1: "and",
     Distractor2: "not",
@@ -6132,7 +6129,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What Python function can you call to get interactive help on writing Python programs and using Python modules?",
+      "In Python, what function can you call to get interactive help on writing Python programs and using Python modules?",
     Answer: "help()",
     Distractor1: "please()",
     Distractor2: "helpme()",
@@ -6143,7 +6140,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How can you list all the local branches in your repository in Git?",
+      "In Git, how can you list all the local branches in your repository?",
     Answer: "git branch",
     Distractor1: "git list",
     Distractor2: "git ls",
@@ -6154,7 +6151,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which one of these values is NOT used for the background-repeat property?",
+      "In CSS, which one of these values is NOT used for the background-repeat property?",
     Answer: "repeat-z-axis",
     Distractor1: "no-repeat",
     Distractor2: "repeat",
@@ -6164,7 +6161,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
   },
   {
-    Question: "What attribute should you add to <input> to create a checkbox?",
+    Question: "In HTML, what attribute should you add to <input> to create a checkbox?",
     Answer: 'type="checkbox"',
     Distractor1: 'type="radio"',
     Distractor2: 'type="check"',
@@ -6175,7 +6172,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How do you print all columns in a file named demo.txt using the awk command?",
+      "In awk, how do you print all columns in a file named demo.txt?",
     Answer: "awk '{print $0}' demo.txt",
     Distractor1: "awk '{print $1}' demo.txt",
     Distractor2: "awk '{print $1, $2}' demo.txt",
@@ -6205,7 +6202,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
   },
   {
-    Question: "Which Linux command is used to rename files and folders?",
+    Question: "In Linux, which command is used to rename files and folders?",
     Answer: "mv",
     Distractor1: "touch",
     Distractor2: "mkdir",
@@ -6215,7 +6212,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "What does the ls -a command do?",
+    Question: "In Linux, what does the ls -a command do?",
     Answer: "lists out the directories and files - including all hidden files",
     Distractor1: "lists only the hidden files",
     Distractor2: "lists files and then deletes them",
@@ -6226,7 +6223,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Linux command is used to change the owner of a file/directory?",
+      "In Linux, which command is used to change the owner of a file/directory?",
     Answer: "chown",
     Distractor1: "uname",
     Distractor2: "whoami",
@@ -6237,7 +6234,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which HTML tag is used to represent the main content of a website?",
+      "In HTML, which tag is used to represent the main content of a website?",
     Answer: "<main>",
     Distractor1: "<dom>",
     Distractor2: "<content>",
@@ -6247,7 +6244,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/main",
   },
   {
-    Question: "How do you make an image circular or oval?",
+    Question: "In CSS, how do you make an image circular or oval?",
     Answer: "border-radius: 50%;",
     Distractor1: "border-radius: 10%;",
     Distractor2: "border-radius: 0;",
@@ -6258,7 +6255,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the process that moves variables, functions, and classes to the top of the scope?",
+      "In JavaScript, what is the name of the process that moves variables, functions, and classes to the top of the scope?",
     Answer: "Hoisting",
     Distractor1: "Setter",
     Distractor2: "Break",
@@ -6268,7 +6265,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/",
   },
   {
-    Question: "Which HTML tag is used to create a description list?",
+    Question: "In HTML, which tag is used to create a description list?",
     Answer: "<dl>",
     Distractor1: "<del>",
     Distractor2: "<des>",
@@ -6277,7 +6274,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-list-how-to-use-bullet-points-ordered-and-unordered-lists/",
   },
   {
-    Question: "What are the three ways to declare a variable in JavaScript?",
+    Question: "In JavaScript, what are the three ways to declare a variable?",
     Answer: "var, let, const",
     Distractor1: "variable, let, const",
     Distractor2: "var, let-var, const",
@@ -6287,7 +6284,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/",
   },
   {
-    Question: "How do you make all of the text for an element uppercase?",
+    Question: "In CSS, how do you make all of the text for an element uppercase?",
     Answer: "text-transform: uppercase;",
     Distractor1: "text-transform: toUpper;",
     Distractor2: "text-transform: upper;",
@@ -6297,7 +6294,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
   },
   {
-    Question: "What is a div tag in HTML?",
+    Question: "In HTML, what is a div tag?",
     Answer: "A generic block level container for grouping content",
     Distractor1: "A container used to only group images",
     Distractor2: "A container used to only group headings",
@@ -6307,7 +6304,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/",
   },
   {
-    Question: "What is the print media type in a CSS media query?",
+    Question: "In CSS, what is the print media type in a CSS media query?",
     Answer:
       "A category of media that works for devices where the media is in print preview mode.",
     Distractor1: "A type of media only for 4k monitors.",
@@ -6318,7 +6315,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
   },
   {
-    Question: "What are the head tags in HTML?",
+    Question: "In HTML, what are the head tags?",
     Answer: "a tag that contains metadata for a website",
     Distractor1: "a tag that contains table cells for a table",
     Distractor2: "a tag that contains header elements",
@@ -6329,7 +6326,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which keyboard shortcut will stop running the Linux ping command?",
+      "In Linux, which keyboard shortcut will stop running the ping command?",
     Answer: "Ctrl-C",
     Distractor1: "command-D",
     Distractor2: "ctrl-D",
@@ -6349,17 +6346,17 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/best-css-and-css3-tutorial/",
   },
   {
-    Question: "The values of a table are known as...",
+    Question: "In SQL, the values of a table are known as...",
     Answer: "Fields",
     Distractor1: "API",
     Distractor2: "Query",
     Distractor3: "Database",
-    Explanation: "The values of a table are known as fields.",
+    Explanation: "The values of a SQL database table are known as fields.",
     Link: "https://www.freecodecamp.org/news/sql-and-databases-explained-in-plain-english/",
   },
   {
     Question:
-      "What is the HTML character entity for the left double quote symbol?",
+      "In HTML, what is the character entity for the left double quote symbol?",
     Answer: "&ldquo;",
     Distractor1: "&leftdouble;",
     Distractor2: "&ldquotes;",
@@ -6370,7 +6367,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What JavaScript keyword is used to declare a variable that can only be used in the scope of declaration?",
+      "In JavaScript, what keyword is used to declare a variable that can only be used in the scope of declaration?",
     Answer: "let",
     Distractor1: "splice",
     Distractor2: "concat",
@@ -6399,7 +6396,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/tcp-vs-udp/",
   },
   {
-    Question: "What does the size attribute do in the select tag?",
+    Question: "In HTML, what does the size attribute do in the select tag?",
     Answer: "sets the number of options shown on default",
     Distractor1: "sets the width of the select tag",
     Distractor2: "sets the height of the select tag",
@@ -6409,7 +6406,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-select-tag-how-to-make-a-dropdown-menu-or-combo-list/",
   },
   {
-    Question: "Which value of the target attribute opens a link in a new tab?",
+    Question: "In HTML, which value of the target attribute opens a link in a new tab?",
     Answer: "_blank",
     Distractor1: "_parent",
     Distractor2: "_self",
@@ -6419,7 +6416,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-html-link-beginners/",
   },
   {
-    Question: "What HTML tag is used for creating a hyperlink?",
+    Question: "In HTML, what tag is used for creating a hyperlink?",
     Answer: "<a>",
     Distractor1: "<hyperlink>",
     Distractor2: "<href>",
@@ -6429,7 +6426,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-html-link-beginners/",
   },
   {
-    Question: "How is the not operator used in a media query?",
+    Question: "In CSS, how is the not operator used in a media query?",
     Answer:
       "It reverses a true query into a false query and a false query into a true query.",
     Distractor1: "It joins multiple media features.",
@@ -6441,7 +6438,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the property used to change the origin of the background image?",
+      "In CSS, what is the name of the property used to change the origin of the background image?",
     Answer: "background-origin",
     Distractor1: "background-position",
     Distractor2: "background-clip",
@@ -6452,7 +6449,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the attribute that allows you to set an element's tab position?",
+      "In HTML, what is the name of the attribute that allows you to set an element's tab position?",
     Answer: "tabindex",
     Distractor1: "style",
     Distractor2: "hover",
@@ -6462,7 +6459,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/",
   },
   {
-    Question: "What is the modulo operator in Python?",
+    Question: "In Python, what is the modulo operator?",
     Answer: "%",
     Distractor1: "//",
     Distractor2: "/",
@@ -6473,7 +6470,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Part of a SQL query that determines which columns of data to show in the results.",
+      "In SQL, this is part of a query that determines which columns of data to show in the results.",
     Answer: "SELECT",
     Distractor1: "TABLE",
     Distractor2: "CREATE",
@@ -6482,7 +6479,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "What is the role of media queries in CSS?",
+    Question: "In CSS, what is the role of media queries?",
     Answer: "They help create responsive websites",
     Distractor1: "They create links to other webpages",
     Distractor2: "They add interactivity to a static webpage",
@@ -6492,17 +6489,17 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-media-queries-by-building-projects/",
   },
   {
-    Question: "An individual entry in a table of a database is known as...",
+    Question: "In SQL, an individual entry in a table of a database is known as...",
     Answer: "Record/Row",
     Distractor1: "Column",
     Distractor2: "Cell",
     Distractor3: "Query",
     Explanation:
-      "An individual entry in a table of a database is known as record or row.",
+      "An individual entry in a table of a database table is known as record or row.",
     Link: "https://www.freecodecamp.org/news/sql-and-databases-explained-in-plain-english/",
   },
   {
-    Question: "It is recommended to write HTML tags in...",
+    Question: "In HTML, it is recommended to write HTML tags in...",
     Answer: "Lowercase",
     Distractor1: "Uppercase",
     Distractor2: "camelCase",
@@ -6521,7 +6518,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What method joins all of the elements of an array into a string in JavaScript?",
+      "In JavaScript, what method joins all of the elements of an array into a string?",
     Answer: ".join()",
     Distractor1: ".char()",
     Distractor2: ".fill()",
@@ -6531,7 +6528,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/javascript/global_objects/array/join",
   },
   {
-    Question: "What is an at-rule in CSS?",
+    Question: "In CSS, what is an at-rule?",
     Answer:
       "A rule that dictates what the CSS will look like based on certain conditions.",
     Distractor1: "A rule that dictates how to format the HTML.",
@@ -6542,7 +6539,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
   },
   {
-    Question: "What does the <dl> tag stand for in HTML?",
+    Question: "In HTML, what does the <dl> tag stand for?",
     Answer: "Description List",
     Distractor1: "Data List",
     Distractor2: "Dialog List",
@@ -6553,7 +6550,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What JavaScript method adds an element to the beginning of an array?",
+      "In JavaScript, what method adds an element to the beginning of an array?",
     Answer: ".unshift()",
     Distractor1: ".push()",
     Distractor2: ".pop()",
@@ -6584,7 +6581,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the method that converts all of the letters in a string to uppercase?",
+      "In JavaScript, What is the name of the method that converts all of the letters in a string to uppercase?",
     Answer: "toUpperCase",
     Distractor1: "toLowerCase",
     Distractor2: "toUpper",
@@ -6595,7 +6592,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "How can you list all the commits in a local repository in reverse chronological order?",
+      "In Git, how can you list all the commits in a local repository in reverse chronological order?",
     Answer: "git log",
     Distractor1: "git show",
     Distractor2: "git ls",
@@ -6625,7 +6622,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/web-application-security-understanding-the-browser-5305ed2f1dac/",
   },
   {
-    Question: "How do you write an inline comment in JavaScript?",
+    Question: "In JavaScript, how do you write an inline comment?",
     Answer: "// Comment",
     Distractor1: "/* Comment",
     Distractor2: "# Comment",
@@ -6643,7 +6640,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/gigabyte-definition/",
   },
   {
-    Question: "How can you write a “Hello, World” program in Python?",
+    Question: "In Python, how can you write a “Hello, World” program?",
     Answer: "print(“Hello, World!”)",
     Distractor1: "console.log(“Hello, World!”)",
     Distractor2: "show(“Hello, World!”)",
@@ -6654,7 +6651,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the relative unit that is based on its parent's font size?",
+      "In CSS, what is the name of the relative unit that is based on its parent's font size?",
     Answer: "em",
     Distractor1: "rem",
     Distractor2: "vh",
@@ -6663,7 +6660,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
   },
   {
-    Question: "Type of CSS unit that is tied to physical units of length. ",
+    Question: "In CSS, this is the type of unit that is tied to physical units of length. ",
     Answer: "Absolute",
     Distractor1: "Relative",
     Distractor2: "Fixed",
@@ -6674,7 +6671,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What CSS property is used to customize the marker of a list item?",
+      "In CSS, what property is used to customize the marker of a list item?",
     Answer: "list-style-type",
     Distractor1: "list-style",
     Distractor2: "list-marker-type",
@@ -6684,7 +6681,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-style-lists-with-css/",
   },
   {
-    Question: "How do you define a variable in Python?",
+    Question: "In Python, how do you define a variable?",
     Answer: "<variable_name> = <value>",
     Distractor1: "<value> = <variable_name>",
     Distractor2: "<value> <= <variable_name>",
@@ -6695,7 +6692,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which Unix command is used to allow you start typing in the VIM editor?",
+      "In Vim, pressing this keystroke allows you start typing in the editor.",
     Answer: "i",
     Distractor1: "esc",
     Distractor2: ":q!",
@@ -6706,7 +6703,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML attribute can you add to <input> to match a pattern with a regular expression?",
+      "In HTML, what attribute can you add to <input> to match a pattern with a regular expression?",
     Answer: "pattern",
     Distractor1: "regex",
     Distractor2: "match",
@@ -6736,7 +6733,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/python-f-strings-tutorial-how-to-use-f-strings-for-string-formatting/",
   },
   {
-    Question: "What is metadata in an HTML file?",
+    Question: "In HTML, what is metadata in an HTML file?",
     Answer: "Information about the webpage that is not directly displayed.",
     Distractor1: "Information about the users of the website",
     Distractor2: "Information about the server that hosts the webpage.",
@@ -6746,7 +6743,7 @@ const fullQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/head",
   },
   {
-    Question: "What does the spread operator do?",
+    Question: "In JavaScript, what does the spread operator do?",
     Answer:
       "It can be used to copy portions of an array or object into another array or object.",
     Distractor1:
@@ -6759,7 +6756,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-use-es6-javascript-features-in-react/",
   },
   {
-    Question: "What does the animation-timing-function property do in CSS?",
+    Question: "In CSS, what does the animation-timing-function property do?",
     Answer: "It determines when the animation should speed up or slow down.",
     Distractor1: "It sets the direction for the element.",
     Distractor2: "It is used to style the element after the animation ends.",
@@ -6770,7 +6767,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
   },
   {
-    Question: "What is a modified state in Git?",
+    Question: "In Git, what is a modified state?",
     Answer:
       "changes have been made to the files but those changes are not saved yet",
     Distractor1: "a new local repository has been created",
@@ -6782,7 +6779,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "What are the body tags in HTML?",
+    Question: "In HTML, what are the body tags?",
     Answer: "defines the body content for the HTML document",
     Distractor1: "defines the header content for the HTML document",
     Distractor2: "defines the image content for the HTML document",
@@ -6791,7 +6788,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/",
   },
   {
-    Question: "What is the <td> tag in HTML?",
+    Question: "In HTML, what is the <td> tag?",
     Answer: "An element used to create data cells in a table",
     Distractor1: "A tag that represents an abbreviation",
     Distractor2: "A tag used to create word breaks",
@@ -6801,7 +6798,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/html-tables-table-tutorial-with-css-example-code/",
   },
   {
-    Question: "What does the details element do in HTML?",
+    Question: "In HTML, what does the details element do?",
     Answer:
       "displays information when the element is toggled to the open state",
     Distractor1: "renders text from right to left",
@@ -6813,7 +6810,7 @@ const fullQuiz = [
     Link: "https://devdocs.io/html/element/details",
   },
   {
-    Question: "How can you convert a string to an integer in JavaScript?",
+    Question: "In JavaScript, how can you convert a string to an integer?",
     Answer: "parseInt()",
     Distractor1: "parseString()",
     Distractor2: "parseInteger()",
@@ -6845,7 +6842,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What HTML tag is used to target specific inline content such as text?",
+      "In HTML, what tag is used to target specific inline content such as text?",
     Answer: "<span>",
     Distractor1: "<div>",
     Distractor2: "<s>",
@@ -6855,7 +6852,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/",
   },
   {
-    Question: "Which command is used to create an archive in Linux?",
+    Question: "In Linux, which command is used to create an archive?",
     Answer: "tar",
     Distractor1: "gzip",
     Distractor2: "gunzip",
@@ -6876,7 +6873,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the name of the grid property used to set the number and width of columns?",
+      "In CSS Grid, what is the name of the grid property used to set the number and width of columns?",
     Answer: "grid-template-columns",
     Distractor1: "grid-columns",
     Distractor2: "flex-template-columns",
@@ -6886,7 +6883,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "What is the article tag in HTML?",
+    Question: "In HTML, what is the <article> tag?",
     Answer:
       "A tag used for content that is independent from the main content of the HTML page",
     Distractor1: "A tag used for quotes",
@@ -6908,7 +6905,7 @@ const fullQuiz = [
     Link: "https://docs.python.org/3/glossary.html",
   },
   {
-    Question: "What JavaScript method adds an element to the end of an array?",
+    Question: "In JavaScript, what method adds an element to the end of an array?",
     Answer: ".push()",
     Distractor1: ".pop()",
     Distractor2: ".shift()",
@@ -6917,7 +6914,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-javascript-array-handbook/",
   },
   {
-    Question: "What is the address tag in HTML?",
+    Question: "In HTML, what is the <address> tag?",
     Answer: "a section to place address information",
     Distractor1: "a place for links",
     Distractor2: "a place for images",
@@ -6928,7 +6925,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What type of join in SQL returns rows that have a match in both tables?",
+      "In SQL, what type of join returns rows that have a match in both tables?",
     Answer: "INNER JOIN",
     Distractor1: "FULL OUTER JOIN",
     Distractor2: "RIGHT OUTER JOIN",
@@ -6938,7 +6935,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-sql-join-statements/",
   },
   {
-    Question: "Normalized databases are optimized to reduce...",
+    Question: "In SQL, normalized databases are optimized to reduce...",
     Answer: "Data redundancy",
     Distractor1: "Read time",
     Distractor2: "Query size",
@@ -6949,7 +6946,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What logical operator in Python returns True if both operands are True?",
+      "In Python, what logical operator returns True if both operands are True?",
     Answer: "and",
     Distractor1: "or",
     Distractor2: "not",
@@ -6959,7 +6956,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
   },
   {
-    Question: "Which of the following is the pipe symbol in Linux?",
+    Question: "In Linux, which of the following is the pipe symbol?",
     Answer: "|",
     Distractor1: "/",
     Distractor2: "+",
@@ -6970,7 +6967,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What operator can you use in Python to check if a value is in a sequence?",
+      "In Python, what operator can you use to check if a value is in a sequence?",
     Answer: "in",
     Distractor1: "member",
     Distractor2: "inside",
@@ -6981,7 +6978,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "A value that evaluates to True in a boolean context is known as...",
+      "In Python, a value that evaluates to True in a boolean context is known as...",
     Answer: "Truthy",
     Distractor1: "TRUENESS",
     Distractor2: "Falsy",
@@ -7003,7 +7000,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/pram-definition/",
   },
   {
-    Question: "What is the value of x ? let x = undefined || 1;",
+    Question: "In JavaScript, what is the value of x ? let x = undefined || 1;",
     Answer: "1",
     Distractor1: "2",
     Distractor2: "undefined",
@@ -7013,7 +7010,7 @@ const fullQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-logical-operators/",
   },
   {
-    Question: "How do you create a promise inside a function in JavaScript ?",
+    Question: "In JavaScript, how do you create a promise inside a function?",
     Answer: "return new Promise((resolve, reject) => {})",
     Distractor1: "return new Promise(resolve, reject)",
     Distractor2: "return new Promise((resolve, reject))",
@@ -7024,7 +7021,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What is the correct syntax to check if two variables are strictly equal?",
+      "In JavaScript, what is the correct syntax to check if two variables are strictly equal?",
     Answer: "if(A === B)",
     Distractor1: "if(A == B)",
     Distractor2: "if(A = B)",
