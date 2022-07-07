@@ -25,6 +25,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "eslint .",
+    "pretty-quick": "pretty-quick",
     "fix-style": "npm run lint -- --fix",
     "lint-style": "prettier --list-different .",
     "format": "prettier --write \"**/*.{ts,tsx,json}\""
