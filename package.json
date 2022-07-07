@@ -28,7 +28,8 @@
     "pretty-quick": "pretty-quick",
     "fix-style": "npm run lint -- --fix",
     "lint-style": "prettier --list-different .",
-    "format": "prettier --write \"**/*.{ts,tsx,json}\""
+    "format": "prettier --write \"**/*.{ts,tsx,json}\"",
+    "prepare": "husky install"
   },
   "eslintConfig": {
     "extends": [
