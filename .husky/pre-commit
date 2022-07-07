@@ -1,6 +1,4 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npm run pretty-quick
-pretty-quick --staged
-npm test
+npx pretty-quick --staged
