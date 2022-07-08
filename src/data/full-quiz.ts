@@ -5470,7 +5470,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "What chat tool does freeCodeCamp use for its main self-hosted chat server?",
+      "What chat tool does freeCodeCamp use for its main chat server?",
     Answer: "Discord",
     Distractor1: "Slack",
     Distractor2: "RocketChat",
