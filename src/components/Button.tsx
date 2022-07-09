@@ -9,18 +9,8 @@ interface ButtonProps {
 }
 
 const Button: React.FC<ButtonProps> = (ButtonProps) => {
-  const getButtonClasses = useMemo(
-
-
-
-  
-  
-  
-  
-  
-  
-    () => {
-      let classes = "btn-default";
+  const getButtonClasses = useMemo(() => {
+    let classes = "btn-default";
     if (ButtonProps.size === "large") {
       classes = `${classes} large-btn`;
     }
