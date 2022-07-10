@@ -1,5 +1,5 @@
 import "../stylesheets/Navbar.css";
-import fccLogo from "../images/fcc_primary_large.png";
+import fccLogo from "../images/fcc_primary_large.webp";
 import React from "react";
 
 const Navbar = () => {
