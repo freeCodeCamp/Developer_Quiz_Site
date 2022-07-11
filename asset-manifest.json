@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.0ff5fe85.css",
-    "main.js": "/static/js/main.932e47ca.js",
+    "main.css": "/static/css/main.c0538229.css",
+    "main.js": "/static/js/main.1931da07.js",
     "static/js/787.211b8f8f.chunk.js": "/static/js/787.211b8f8f.chunk.js",
-    "static/media/rpg-menu.png": "/static/media/rpg-menu.9a57e6e04b8903dff3a9.png",
-    "static/media/background.png": "/static/media/background.f14951415d793e01cff8.png",
-    "static/media/main-character.png": "/static/media/main-character.1fbdd0a90e988ccdb75a.png",
-    "static/media/fcc_background.png": "/static/media/fcc_background.fdfca80c9987080c8f44.png",
-    "static/media/fcc_primary_large.png": "/static/media/fcc_primary_large.5486935b905c7949600c.png",
+    "static/media/background.webp": "/static/media/background.13403350a93e956c5bd9.webp",
+    "static/media/rpg-menu.webp": "/static/media/rpg-menu.5a7b730663ce007b4ff3.webp",
+    "static/media/main-character.webp": "/static/media/main-character.7da72ce5483cdf53439f.webp",
+    "static/media/fcc_background.webp": "/static/media/fcc_background.a7ccd4dc963c5e8adf72.webp",
+    "static/media/fcc_primary_large.webp": "/static/media/fcc_primary_large.b24d5391807f0fdf6536.webp",
     "index.html": "/index.html",
-    "main.0ff5fe85.css.map": "/static/css/main.0ff5fe85.css.map",
-    "main.932e47ca.js.map": "/static/js/main.932e47ca.js.map",
+    "main.c0538229.css.map": "/static/css/main.c0538229.css.map",
+    "main.1931da07.js.map": "/static/js/main.1931da07.js.map",
     "787.211b8f8f.chunk.js.map": "/static/js/787.211b8f8f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ff5fe85.css",
-    "static/js/main.932e47ca.js"
+    "static/css/main.c0538229.css",
+    "static/js/main.1931da07.js"
   ]
 }
