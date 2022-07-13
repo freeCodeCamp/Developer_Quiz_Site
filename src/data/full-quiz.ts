@@ -1,4 +1,24 @@
 const fullQuiz = [
+   {
+    Question: "Which one of the following is used to implement dynamic binding in C++?",
+    Answer: "Virtual function",
+    Distractor1: "Friend functiom",
+    Distractor2: "Static function",
+    Distractor3: "Const function",
+    Explanation:
+      "In dynamic binding, the code to be executed in response to a function call is decided at runtime. C++ has virtual functions to support this.",
+    Link: "https://en.cppreference.com/w/cpp/language/virtual",
+  },
+  {
+    Question: "What type of inheritance may lead to the diamond problem?",
+    Answer: "Multiple inheritance",
+    Distractor1: "Single inheritance",
+    Distractor2: "Hierarchical inheritance ",
+    Distractor3: "Multilevel inheritance",
+    Explanation:
+      "Multiple inheritance causes the ambiguity as to which parent class a particular feature is to be inherited from if more than one parent class implements said feature",
+    Link: "https://www.freecodecamp.org/news/multiple-inheritance-in-c-and-the-diamond-problem-7c12a9ddbbec/",
+  },
   {
     Question: "What is the basic language of a computer?",
     Answer: "Binary",
