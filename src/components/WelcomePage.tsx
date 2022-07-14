@@ -28,8 +28,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
             </h2>
             <p className="lead">
               Brush up on HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and
-              general Computer Science concepts, with{" "}
-              <span style={{ fontWeight: "700" }}>600+</span> questions.
+              general Computer Science concepts, with 600+ questions.
             </p>
             <p className="lead">Take our quiz and have fun learning!</p>
             <Button
@@ -69,10 +68,10 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
               .
             </p>
             <p className="lead">
-              freeCodeCamp&apos;s mission is to help people{" "}
-              <strong>learn to code for free</strong>. We accomplish this by
-              creating thousands of videos, articles, and interactive coding
-              lessons - all freely available to the public.
+              freeCodeCamp&apos;s mission is to help people learn to code for
+              free. We accomplish this by creating thousands of videos,
+              articles, and interactive coding lessons - all freely available to
+              the public.
             </p>
           </div>
           <div className="col-md-5 order-md-1 content-img-container">

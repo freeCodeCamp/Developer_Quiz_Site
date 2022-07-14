@@ -11,7 +11,8 @@ const HeroSection: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
         <div className="hero-text">
           <h1>Learn to Code RPG Quiz</h1>
           <h2>
-            Practice with <strong>600+</strong> Questions
+            Practice with <strong style={{ fontSize: "2rem" }}>600+</strong>{" "}
+            Questions
           </h2>
         </div>
         <div className="hero-button">

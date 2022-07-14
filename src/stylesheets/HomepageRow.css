@@ -1,5 +1,5 @@
-p {
-  font-size: 19.8px;
+* {
+  font-size: max(16px);
 }
 
 .featurette-heading {
