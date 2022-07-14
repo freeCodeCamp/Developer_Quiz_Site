@@ -23,14 +23,11 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
           style={{ backgroundColor: "#0a0a23" }}
         >
           <div className="col-md-7 content-text-container">
-            <h2 className="featurette-heading">
-              Want to test your programming knowledge?
-            </h2>
+            <h2 className="featurette-heading">Want to test your knowledge?</h2>
             <p className="lead">
-              Brush up on HTML, CSS, JavaScript, Linux, Python, Git, SQL, IT and
-              general Computer Science concepts, with 600+ questions.
+              Brush up on your programming knowledge with 600+ questions.
             </p>
-            <p className="lead">Take our quiz and have fun learning!</p>
+
             <Button
               handleClick={start}
               text="Quiz"
@@ -66,12 +63,6 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
                 freeCodeCamp.org
               </a>
               .
-            </p>
-            <p className="lead">
-              freeCodeCamp&apos;s mission is to help people learn to code for
-              free. We accomplish this by creating thousands of videos,
-              articles, and interactive coding lessons - all freely available to
-              the public.
             </p>
           </div>
           <div className="col-md-5 order-md-1 content-img-container">
