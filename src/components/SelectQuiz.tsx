@@ -10,16 +10,18 @@ const SelectQuiz: React.FC<SelectQuizProps> = (SelectQuizProps) => {
     <div className="select-quiz-styles">
       <h2 className="quiz-heading">Choose a length for the Quiz</h2>
       <div className="w-25 select-btn-div">
-        {SelectQuizProps.selectQuizArr.map((choice: number, index: number) => (
-          <button
-            className="select-btns"
-            onClick={(e) => SelectQuizProps.startQuiz(e)}
-            value={choice}
-            key={index}
-          >
-            {choice > 600 ? `All (${choice})` : `${choice}`}
-          </button>
-        ))}
+        {SelectQuizProps.selectQuizArr.map(
+          (choice: number, index: number, array: number[]) => (
+            <button
+              className="select-btns"
+              onClick={(e) => SelectQuizProps.startQuiz(e)}
+              value={choice}
+              key={index}
+            >
+              {index == array.length - 1 ? `All (${choice})` : `${choice}`}
+            </button>
+          )
+        )}
       </div>
     </div>
   );
