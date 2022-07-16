@@ -1,5 +1,15 @@
 const fullQuiz = [
    {
+    Question: "Which command is used to calculate the size of a directory as a whole?",
+    Answer: "du",
+    Distractor1: "pwd",
+    Distractor2: "uname",
+    Distractor3: "ls",
+    Explanation:
+      "The du command is a standard Linux/Unix command that allows a user to gain disk usage information quickly.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-du-command",
+   },
+   {
     Question: "Which one of the following is used to implement dynamic binding in C++?",
     Answer: "Virtual function",
     Distractor1: "Friend functiom",
