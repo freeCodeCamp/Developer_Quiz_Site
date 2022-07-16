@@ -1,4 +1,14 @@
 const fullQuiz = [
+  {
+    Question: "In vim editor, which mode helps us to copy, paste and delete the text?",
+    Answer: "visual mode",
+    Distractor1: "yanking mode",
+    Distractor2: "insert mode",
+    Distractor3: "normal mode",
+    Explanation:
+      "Visual Mode in vim helps the user to copy, paste and delete the text as like a normal editor.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-vim-editor-command",
+  },
    {
     Question: "Which one of the following is used to implement dynamic binding in C++?",
     Answer: "Virtual function",
