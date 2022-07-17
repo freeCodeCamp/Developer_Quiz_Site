@@ -1,14 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-import WelcomePage from "./components/WelcomePage";
+import WelcomePage from "../components/WelcomePage";
+import { cleanup } from "@testing-library/react";
 
-describe("App", () => {
-  it("renders without crashing", () => {
-    const div = document.createElement("div");
-    ReactDOM.render(<App />, div);
-  });
-});
+afterEach(cleanup);
 
 describe("Welcome Page", () => {
   it("renders without crashing", () => {
