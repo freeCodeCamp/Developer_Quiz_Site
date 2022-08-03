@@ -80,7 +80,7 @@ const fullQuiz = [
     Answer: "%",
     Distractor1: "$",
     Distractor2: "!",
-    Diatractor3: "@",
+    Distractor3: "@",
     Explanation:
       "You can use the % and _ wildcards with the SQL LIKE statement to compare values from an SQL table.",
     Link: "https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/",
