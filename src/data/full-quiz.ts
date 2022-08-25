@@ -1,6 +1,17 @@
 const fullQuiz = [
   {
     Question:
+      "In Javascript, what is the name of the method used to remove white space from the beginning and end of a string?",
+    Answer: ".trim()",
+    Distractor1: ".substring()",
+    Distractor2: ".reduce()",
+    Distractor3: ".slice()",
+    Explanation: 
+      "The .trim() method removes white space (including space, tab, etc.) from both ends of a string and returns a new string without modifying the original.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim",
+  },
+  {
+    Question:
       "In the vim editor, which mode helps us to copy, paste and delete the text?",
     Answer: "visual mode",
     Distractor1: "yanking mode",
