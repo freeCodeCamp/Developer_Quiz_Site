@@ -1,7 +1,7 @@
 const fullQuiz = [
   {
     Question:
-      "In Javascript, what is the name of the method used to remove white space from the beginning and end of a string?",
+      "In JavaScript, what is the name of the method used to remove white space from the beginning and end of a string?",
     Answer: ".trim()",
     Distractor1: ".substring()",
     Distractor2: ".reduce()",
