@@ -1034,7 +1034,7 @@ const fullQuiz = [
   },
   {
     Question: "In Python, what is the result of this code: “Hi” * 2?",
-    Answer: "“HiHi”",
+    Answer: "HiHi",
     Distractor1: "“Hihi”",
     Distractor2: "“HiHiHiHi”",
     Distractor3: "A SyntaxError",
