@@ -4,6 +4,7 @@ export const correctModalResponses = [
   "Correct! You're so smart!",
   "Correct! You are really good at this!",
   "Correct! Keep up the good work!",
+  "Correct! You're doing great!",
 ];
 
 export const incorrectModalResponses = [
