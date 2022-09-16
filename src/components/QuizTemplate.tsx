@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SelectQuiz from "./SelectQuiz";
-import fullQuiz from "../data/cpp-quiz";
+import fullQuiz from "../data/full-quiz copy";
 import cppQuiz from "../data/cpp-quiz";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
