@@ -1,13 +1,13 @@
 const fullQuiz = [
   {
     Question:
-      "Which one of these data structure follows the FIFO (First In First Out) method?",
+      "Which one of these data structures follows the FIFO (First In First Out) method?",
     Answer: "Queue",
     Distractor1: "Stack",
     Distractor2: "Array",
     Distractor3: "Linked List",
     Explanation:
-      "Queue follows the First In First Out (FIFO) method as the element which gets inserted first gets removed first.",
+      "A queue follows the First In First Out (FIFO) method as the element which gets inserted first gets removed first.",
     Link: "https://youtu.be/B31LgI4Y4DQ?t=16410",
   },
   {
