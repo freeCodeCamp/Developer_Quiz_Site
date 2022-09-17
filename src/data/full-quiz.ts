@@ -7165,7 +7165,7 @@ const fullQuiz = [
   },
   {
     Question:
-      "Which of the following type of Hackers protect civilians and organizations by finding and reporting vulnerabilites in the system?",
+      "Which of the following type of Hackers protect civilians and organizations by finding and reporting vulnerabilities in the system?",
     Answer: "White Hat Hackers",
     Distractor1: "Grey Hat Hackers",
     Distractor2: "Black Hat Hackers",
