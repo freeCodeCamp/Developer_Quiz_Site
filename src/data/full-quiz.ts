@@ -7174,6 +7174,7 @@ const fullQuiz = [
       "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
+  {
       Question:
       "Which of the following is NOT one of the four core principles of the Agile methodology?",
     Answer: "Comprehensive documentation over working software",
@@ -7184,7 +7185,7 @@ const fullQuiz = [
       "Instead of detailed specifications and planning, Agile prioritizes shipping working software and making incremental changes based on feedback.",
     Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
   },
-      {
+  {
     Question:
       "Which of the following is NOT an Agile framework?",
     Answer: "Waterfall",
