@@ -7171,7 +7171,7 @@ const fullQuiz = [
     Distractor2: "Black Hat Hackers",
     Distractor3: "Red Hat Hackers",
     Explanation:
-      "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Tester, Security Analyst, CISO etc where they perform tasks like scanning the network, configuring Intrution Detection Systems, ethically hacking the system to find and report vulnerabilites, programming honeypots and monitoring the network for any suspicious activity",
+      "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
 ];
