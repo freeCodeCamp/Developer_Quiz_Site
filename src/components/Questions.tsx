@@ -28,7 +28,7 @@ const Questions: React.FC<QuizProps> = (QuizProps) => {
       <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
       <br />
       <div className="quiz-text">
-        <p>{QuizProps.currQuestion.Question}</p>
+        <h2>{QuizProps.currQuestion.Question}</h2>
       </div>
       <div className="quiz-text mt-4">
         <p>
