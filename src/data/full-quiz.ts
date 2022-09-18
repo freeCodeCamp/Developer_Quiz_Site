@@ -7152,5 +7152,49 @@ const fullQuiz = [
       "Npm scripts allow commandline tools to be called directly without relying on external plugins.",
     Link: "https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/",
   },
+  {
+    Question:
+      "Which of the following type of Hackers look for vulnerable computers over the internet, exploit them and use them for their advantage?",
+    Answer: "Black Hat Hackers",
+    Distractor1: "Red Hat Hackers",
+    Distractor2: "White Hat Hackers",
+    Distractor3: "Grey Hat Hackers",
+    Explanation:
+      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , therby getting access to private and sensitive data",
+    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+    Question:
+      "Which of the following type of Hackers protect civilians and organizations by finding and reporting vulnerabilities in the system?",
+    Answer: "White Hat Hackers",
+    Distractor1: "Grey Hat Hackers",
+    Distractor2: "Black Hat Hackers",
+    Distractor3: "Red Hat Hackers",
+    Explanation:
+      "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
+    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+      Question:
+      "Which of the following is NOT one of the four core principles of the Agile methodology?",
+    Answer: "Comprehensive documentation over working software",
+    Distractor1: "Individuals and interactions over processes and tools",
+    Distractor2: "Responding to change over following a plan",
+    Distractor3: "Customer collaboration over contract negotiation",
+    Explanation:
+      "Instead of detailed specifications and planning, Agile prioritizes shipping working software and making incremental changes based on feedback.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+  },
+  {
+    Question:
+      "Which of the following is NOT an Agile framework?",
+    Answer: "Waterfall",
+    Distractor1: "Scrum",
+    Distractor2: "Kanban",
+    Distractor3: "XP (Extreme Programming)",
+    Explanation:
+      "Waterfall is an opposing project management methodology that has little to no room for feedback or iteration until the product is completely built and tested.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+  },
 ];
 export default fullQuiz;
