@@ -7198,13 +7198,13 @@ const fullQuiz = [
   },
   {
     Question:
-      "In a Scrum team, who is a Scrum Master?",
+      "In a Scrum team, what is a Scrum Master?",
     Answer: "A servant leader whose role is to support the rest of the team and the organization",
     Distractor1: "A project manager who's main role is to ensure the Developers deliver in time",
     Distractor2: "An external resource temporarily assigned to the team to audit their work",
     Distractor3: "Scrum Master is not a role officially recognized by the Scrum guide",
     Explanation:
-      "According to the Scrum Guide, the Scrum Master is a Servant Leader. So they're a leader who supports their colleagues in their activities. But not someone who just assigns tasks or bosses other people around.",
+      "The Scrum Master is a leader who supports their colleagues in their activities and does more than just assign tasks."
     Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
   },
   {
