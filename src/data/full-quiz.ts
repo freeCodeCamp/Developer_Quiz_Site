@@ -7204,7 +7204,7 @@ const fullQuiz = [
     Distractor2: "An external resource temporarily assigned to the team to audit their work",
     Distractor3: "Scrum Master is not a role officially recognized by the Scrum guide",
     Explanation:
-      "The Scrum Master is a leader who supports their colleagues in their activities and does more than just assign tasks."
+      "The Scrum Master is a leader who supports their colleagues in their activities and does more than just assign tasks.",
     Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
   },
   {
