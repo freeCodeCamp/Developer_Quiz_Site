@@ -7240,5 +7240,25 @@ const fullQuiz = [
       "According to the Scrum Guide, the Product Backlog is never complete. Initially, it contains only the best-understood requirements.",
     Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts-2-sprint-harder/",
   },
+  {
+    Question:
+      "Choose the correct option?",
+    Answer: "Little O (o()) describes the upper bound excluding the exact bound",
+    Distractor1: "Big O (O()) describes the lower bound of the complexity.",
+    Distractor2: "Omega (Ω()) describes the upper bound of the complexity",
+    Distractor3: "Theta (Θ()) describes the lower bound excluding the exact bound",
+    Explanation: "Big O (O()) - Upper Bound ,Omega (Ω()) - Lower Bound , Theta (Θ()) - exact bound & Little O (o()) - describes the upper bound excluding the exact bound of the complexity ",
+    Link: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+  },
+  {
+    Question:
+      "Choose the correct option?",
+    Answer: "All of these",
+    Distractor1: "O(log(n)) is more complex than O(1), but less complex than polynomials",
+    Distractor2: "Complexity of polynomials increases as the exponent increases",
+    Distractor3: "O(1) has the least complexity",
+    Explanation: "O(1) often called as constant time is best for algorithms\nO(log(n)) is less complex than O(√n), because the square root function can be considered a polynomial, where the exponent is 0.5.\nHigher the power of n, more complext it becomes.For example, O(n⁵) is more complex than O(n⁴)",
+    Link: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+  },
 ];
 export default fullQuiz;
