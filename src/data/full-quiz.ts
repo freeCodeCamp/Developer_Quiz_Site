@@ -7240,5 +7240,25 @@ const fullQuiz = [
       "According to the Scrum Guide, the Product Backlog is never complete. Initially, it contains only the best-understood requirements.",
     Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts-2-sprint-harder/",
   },
+  {
+    Question:
+      "Which one of the following options is correct?",
+    Answer: "Little O (o()) describes the upper bound excluding the exact bound",
+    Distractor1: "Big O (O()) describes the lower bound of the complexity.",
+    Distractor2: "Omega (Ω()) describes the upper bound of the complexity",
+    Distractor3: "Theta (Θ()) describes the lower bound excluding the exact bound",
+    Explanation: "Little O (o()) describes the upper bound excluding the exact bound of the complexity ",
+    Link: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+  },
+  {
+    Question:
+      "Which one of the following options is correct?",
+    Answer: "All of these",
+    Distractor1: "O(log(n)) is more complex than O(1), but less complex than polynomials",
+    Distractor2: "Complexity of polynomials increases as the exponent increases",
+    Distractor3: "O(1) has the least complexity",
+    Explanation: "All of the above options about Big O are correct.",
+    Link: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+  },
 ];
 export default fullQuiz;
