@@ -7263,6 +7263,9 @@ const fullQuiz = [
     Explanation:
       "Arrays start at index 0 and NOT index 1",
     Link: "https://www.freecodecamp.org/news/how-to-learn-the-c-programming-language/",
+  },
+  {
+    Question:
       "Which of the following type of Hackers look for vulnerable computers over the internet, exploit them and use them for their advantage?",
     Answer: "Black Hat Hackers",
     Distractor1: "Red Hat Hackers",
