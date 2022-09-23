@@ -17,7 +17,7 @@ const fullQuiz = [
     Distractor1: ".substring()",
     Distractor2: ".reduce()",
     Distractor3: ".slice()",
-    Explanation: 
+    Explanation:
       "The .trim() method removes white space (including space, tab, etc.) from both ends of a string and returns a new string without modifying the original.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/trim",
   },
@@ -7263,6 +7263,111 @@ const fullQuiz = [
     Explanation:
       "Arrays start at index 0 and NOT index 1",
     Link: "https://www.freecodecamp.org/news/how-to-learn-the-c-programming-language/",
+      "Which of the following type of Hackers look for vulnerable computers over the internet, exploit them and use them for their advantage?",
+    Answer: "Black Hat Hackers",
+    Distractor1: "Red Hat Hackers",
+    Distractor2: "White Hat Hackers",
+    Distractor3: "Grey Hat Hackers",
+    Explanation:
+      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , therby getting access to private and sensitive data",
+    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+    Question:
+      "Which of the following type of Hackers protect civilians and organizations by finding and reporting vulnerabilities in the system?",
+    Answer: "White Hat Hackers",
+    Distractor1: "Grey Hat Hackers",
+    Distractor2: "Black Hat Hackers",
+    Distractor3: "Red Hat Hackers",
+    Explanation:
+      "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
+    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+      Question:
+      "Which of the following is NOT one of the four core principles of the Agile methodology?",
+    Answer: "Comprehensive documentation over working software",
+    Distractor1: "Individuals and interactions over processes and tools",
+    Distractor2: "Responding to change over following a plan",
+    Distractor3: "Customer collaboration over contract negotiation",
+    Explanation:
+      "Instead of detailed specifications and planning, Agile prioritizes shipping working software and making incremental changes based on feedback.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+  },
+  {
+    Question:
+      "Which of the following is NOT an Agile framework?",
+    Answer: "Waterfall",
+    Distractor1: "Scrum",
+    Distractor2: "Kanban",
+    Distractor3: "XP (Extreme Programming)",
+    Explanation:
+      "Waterfall is an opposing project management methodology that has little to no room for feedback or iteration until the product is completely built and tested.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+  },
+  {
+    Question:
+      "In a Scrum team, what is a Scrum Master?",
+    Answer: "A servant leader whose role is to support the rest of the team and the organization",
+    Distractor1: "A project manager who's main role is to ensure the Developers deliver in time",
+    Distractor2: "An external resource temporarily assigned to the team to audit their work",
+    Distractor3: "Scrum Master is not a role officially recognized by the Scrum guide",
+    Explanation:
+      "The Scrum Master is a leader who supports their colleagues in their activities and does more than just assign tasks.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
+  },
+  {
+    Question:
+      "In a Scrum team, who is responsible for stories estimation?",
+    Answer: "The Developers",
+    Distractor1: "The Product Owner",
+    Distractor2: "The Scrum Master",
+    Distractor3: "The Product Owner and the Scrum Master",
+    Explanation:
+      "According to the Scrum Guide, only members of the development team are allowed to estimate development effort. Neither Scrum Master, nor Product Owner.",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/",
+  },
+  {
+    Question:
+      "In a Scrum team, who is responsible for setting priorities?",
+    Answer: "The Product Owner",
+    Distractor1: "The Developers",
+    Distractor2: "The Scrum Master",
+    Distractor3: "The Product Owner and the Scrum Master",
+    Explanation:
+      "According to the Scrum Guide, the Product Owner has the final say when prioritizing the Product Backlog.",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/",
+  },
+  {
+    Question:
+      "In a project adopting the Scrum framework, when is the Product Backlog completed?",
+    Answer: "Never",
+    Distractor1: "Before the project starts",
+    Distractor2: "There is no precise limit, but it is advised to complete it before the fourth Sprint",
+    Distractor3: "It is mandatory for the Product Backlog to be completed before the fourth Sprint",
+    Explanation:
+      "According to the Scrum Guide, the Product Backlog is never complete. Initially, it contains only the best-understood requirements.",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts-2-sprint-harder/",
+  },
+  {
+    Question:
+      "Which one of the following options is correct?",
+    Answer: "Little O (o()) describes the upper bound excluding the exact bound",
+    Distractor1: "Big O (O()) describes the lower bound of the complexity.",
+    Distractor2: "Omega (Ω()) describes the upper bound of the complexity",
+    Distractor3: "Theta (Θ()) describes the lower bound excluding the exact bound",
+    Explanation: "Little O (o()) describes the upper bound excluding the exact bound of the complexity ",
+    Link: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
+  },
+  {
+    Question:
+      "Which one of the following options is correct?",
+    Answer: "All of these",
+    Distractor1: "O(log(n)) is more complex than O(1), but less complex than polynomials",
+    Distractor2: "Complexity of polynomials increases as the exponent increases",
+    Distractor3: "O(1) has the least complexity",
+    Explanation: "All of the above options about Big O are correct.",
+    Link: "https://www.freecodecamp.org/news/big-o-notation-why-it-matters-and-why-it-doesnt-1674cfa8a23c/",
   },
 ];
 export default fullQuiz;
