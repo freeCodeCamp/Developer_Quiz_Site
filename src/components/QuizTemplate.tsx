@@ -3,6 +3,17 @@ import SelectQuiz from "./SelectQuiz";
 import fullQuiz from "../data/full-quiz";
 import cssQuiz from "../data/css-quiz";
 import cppQuiz from "../data/cpp-quiz";
+import dockerQuiz from "../data/docker-quiz";
+import freecodecampQuiz from "../data/freecodecamp-quiz";
+import generalCSQuiz from "../data/general-cs-quiz";
+import gitQuiz from "../data/git-quiz";
+import htmlQuiz from "../data/html-quiz";
+import itQuiz from "../data/it-quiz";
+import javascriptQuiz from "../data/javascript-quiz";
+import linuxQuiz from "../data/linux-quiz";
+import networkQuiz from "../data/network-quiz";
+import pythonQuiz from "../data/python-quiz";
+import sqlQuiz from "../data/sql-quiz";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
 import Button from "./Button";
@@ -19,7 +30,9 @@ interface QuizProps {
 }
 
 const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
-  const [quiz, setQuiz] = useState([...cssQuiz, ...cppQuiz]);
+  const [quiz, setQuiz] = useState([...cppQuiz, ...cssQuiz, ...dockerQuiz, ...freecodecampQuiz, 
+                                    ...generalCSQuiz, ...gitQuiz, ...htmlQuiz, ...itQuiz, 
+                                    ...javascriptQuiz, ...linuxQuiz, ...networkQuiz, ...pythonQuiz, ...sqlQuiz]);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
