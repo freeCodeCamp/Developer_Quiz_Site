@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SelectQuiz from "./SelectQuiz";
-import fullQuiz from "../data/full-quiz copy";
+import fullQuiz from "../data/full-quiz";
+import cssQuiz from "../data/css-quiz";
 import cppQuiz from "../data/cpp-quiz";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
@@ -18,7 +19,7 @@ interface QuizProps {
 }
 
 const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
-  const [quiz, setQuiz] = useState(fullQuiz);
+  const [quiz, setQuiz] = useState([...cssQuiz, ...cppQuiz]);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
