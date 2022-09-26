@@ -66,6 +66,6 @@ If you need any help, please reach out on the [freeCodeCamp discord channel](htt
 
 If you are interested in proposing new features, please open up a new [GitHub discussion](https://github.com/freeCodeCamp/Developer_Quiz_Site/discussions) with details for the proposed feature.
 
-## How to report bugs and typos in the documentation
+## How to report bugs in the codebase and typos in the documentation
 
 If you spot a bug in the codebase or issues with the documentation, please open up a [GitHub issue](https://github.com/freeCodeCamp/Developer_Quiz_Site/issues) detailing the problem.
