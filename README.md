@@ -26,7 +26,7 @@ All of the helpful and thoughtful resources are made possible by the generous do
 
 Have a look [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/) at the different ways you can support our non-profit's mission and make tech education accessible to all.
 
-## How to run the quiz questions locally
+## How to run the project locally
 
 Here are directions on how to fork the freeCodeCamp/Developer_Quiz_Site repository:<br>
 https://docs.github.com/en/get-started/quickstart/fork-a-repo
@@ -49,7 +49,7 @@ You can contribute by fixing bugs in the codebase, proposing new features or add
 
 Make sure to first read through the [Code of Conduct](https://www.freecodecamp.org/news/code-of-conduct/).
 
-Then, see the ways you can contribute [here](https://contribute.freecodecamp.org/#/).
+Then, read through our [Contributing Documentation](CONTRIBUTING.md).
 
 ### How to report bugs
 
