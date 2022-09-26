@@ -1,6 +1,6 @@
 # Contributing Documentation
 
-Thank you for your interest in contributing to the Developer Quiz site. [developerquiz.org](developerquiz.org) is the companion website to the [Learn to Code RPG Game](https://www.freecodecamp.org/news/learn-to-code-rpg/), a visual novel game developed by freeCodeCamp to help you learn how to code.
+Thank you for your interest in contributing to the Developer Quiz site. [developerquiz.org](https://developerquiz.org/) is the companion website to the [Learn to Code RPG Game](https://www.freecodecamp.org/news/learn-to-code-rpg/), a visual novel game developed by freeCodeCamp to help you learn how to code.
 
 ## How to setup the project locally
 
