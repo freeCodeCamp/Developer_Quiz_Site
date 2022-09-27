@@ -2283,8 +2283,6 @@ const fullQuiz = [
     Explanation:
       "SQL is used to store, manipulate, and retrieve data in relational database management systems. ",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
-    Difficulty: 1,
-    Category: "SQL",
   },
   {
     Question: "What is RGB?",
@@ -2295,8 +2293,6 @@ const fullQuiz = [
     Explanation:
       "RGB is an acronym that stands for Red Green Blue. It expresses colors in terms of the amount of red, green, and blue they are made up of and uses a human counting system with integers ranging from 0-255 or a percentage ranging from (0% - 100%).",
     Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
-    Difficulty: 1,
-    Category: "css",
   },
   {
     Question: "What is an algorithm?",

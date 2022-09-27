@@ -140,25 +140,6 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Software_bug",
   },
   {
-    Question: "Which one is NOT a main component of a CPU?",
-    Answer: "AXLE",
-    Distractor1: "Control Unit",
-    Distractor2: "Arithmetic Logic Unit",
-    Distractor3: "Registers",
-    Explanation:
-      "The Control Unit, Arithmetic Logic Unit, and Registers are important parts of the CPU. ",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
-  },
-  {
-    Question: "Where is the CPU located on a computer?",
-    Answer: "The motherboard",
-    Distractor1: "Graphics Processing Unit",
-    Distractor2: "Random Access Memory",
-    Distractor3: "Solid State Drive",
-    Explanation: "The CPU is located on the motherboard of a computer.",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
-  },
-  {
     Question: "What is a Floating point number?",
     Answer: "A number with a decimal point",
     Distractor1: "A number greater than 100",
@@ -175,29 +156,6 @@ const generalCSQuiz = [
     Distractor3: "1 million bytes",
     Explanation: "A Zettabyte is composed of 1 sextillion bytes",
     Link: "https://www.freecodecamp.org/news/zettabyte-definition/",
-  },
-  {
-    Question: "What are registers inside a CPU responsible for?",
-    Answer: "They temporarily hold data the CPU needs fast access to",
-    Distractor1: "They help improve the speed of your computer",
-    Distractor2:
-      "They check and confirm every process that is happening on your computer",
-    Distractor3:
-      "They are responsible for carrying out all mathematical and logical operations",
-    Explanation:
-      "Registers are an extremely fast memory location. The data and instructions that are being processed during the fetch-execute cycle a CPU performs are stored there, for quick access by the processor.",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
-  },
-  {
-    Question: "What is a Hard Disk Drive? ",
-    Answer:
-      "A type of storage device that holds data including the operating system, applications, and files",
-    Distractor1: "A device to record sound to a disk",
-    Distractor2: "A device for the computer's short term memory",
-    Distractor3: "A port used to connect to a computer to other devices",
-    Explanation:
-      "A type of storage device that holds data including the operating system, applications, and files",
-    Link: "https://www.freecodecamp.org/news/hdd-hard-disk-drive-definition/",
   },
   {
     Question:
@@ -238,17 +196,6 @@ const generalCSQuiz = [
     Explanation:
       "The values that an operator operates on are known as operands.",
     Link: "https://en.wikipedia.org/wiki/Operand",
-  },
-  {
-    Question:
-      "Which of the following is NOT considered a piece of computer hardware?",
-    Answer: "The Operating System  ",
-    Distractor1: "The CPU (Central Processing Unit)",
-    Distractor2: "The keyboard",
-    Distractor3: "The mouse",
-    Explanation:
-      "Hardware are the physical components you can touch, and they are located on both the outside and the inside of a computer.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
     Question: "What is an algorithm?",
@@ -328,16 +275,6 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/yottabyte-definition/",
   },
   {
-    Question: "Which of the following is an example of volatile memory?",
-    Answer: "RAM (Random Access Memory)",
-    Distractor1: "SSD (Solid State Drive)",
-    Distractor2: "MRAM ",
-    Distractor3: "ROM",
-    Explanation:
-      "While RAM is very fast, it is a type of volatile memory. This means that it only stores information while the computer is on. Unlike an HDD or SSD, once you shut down your computer, everything stored in RAM is lost.",
-    Link: "https://www.freecodecamp.org/news/ram-definition/",
-  },
-  {
     Question: "How many bytes make up a Kilobyte?",
     Answer: "1,000 bytes",
     Distractor1: "100 bytes",
@@ -389,17 +326,6 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "An application software for accessing the World Wide Web is known as...",
-    Answer: "Browser",
-    Distractor1: "IDE",
-    Distractor2: "API",
-    Distractor3: "Bug",
-    Explanation:
-      "An application software for accessing the World Wide Web is known as the browser.",
-    Link: "https://www.freecodecamp.org/news/web-application-security-understanding-the-browser-5305ed2f1dac/",
-  },
-  {
-    Question:
       "Each one of the alternative sequence of statements in a conditional statement is known as...",
     Answer: "Branch",
     Distractor1: "Decision",
@@ -408,25 +334,6 @@ const generalCSQuiz = [
     Explanation:
       "Each one of the alternative sequence of statements in a conditional statement is known as a branch.",
     Link: "https://www.freecodecamp.org/news/python-if-else-statement-conditional-statements-explained/",
-  },
-  {
-    Question: "What does WWW stand for?",
-    Answer: "World Wide Web",
-    Distractor1: "World Web Wide",
-    Distractor2: "Wide World Web",
-    Distractor3: "World World Web",
-    Explanation: "WWW stands for World Wide Web.",
-    Link: "https://www.britannica.com/topic/World-Wide-Web",
-  },
-  {
-    Question: "Which one is NOT an internal piece of hardware in a computer?",
-    Answer: "GAMMA",
-    Distractor1: "motherboard",
-    Distractor2: "Central Processing Unit",
-    Distractor3: "Graphics Processing Unit",
-    Explanation:
-      "Some important pieces of a computer's internal hardware include a motherboard, CPU, GPU, RAM and HDD.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-pc-computer-definition-and-computer-basics-for-beginners/",
   },
   {
     Question: "What is an infinite loop?",
@@ -441,16 +348,6 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/python-while-loop-tutorial/",
   },
   {
-    Question: "What CPU component is responsible for comparing data?",
-    Answer: "The Arithmetic Logic Unit",
-    Distractor1: "The Control Unit",
-    Distractor2: "Registers",
-    Distractor3: "RAM",
-    Explanation:
-      "The ALU (short for Arithmetic Logic Unit), is the part where all mathematical calculations take place, such as addition, subtraction, multiplication, and division. The ALU is also responsible for all of the logical operations for decision making, such as comparing data.",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
-  },
-    {
     Question: "What is pair programming?",
     Answer: "Two people coding together on one computer",
     Distractor1: "One person coding on two computers at the same time",
