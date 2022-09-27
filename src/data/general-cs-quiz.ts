@@ -450,18 +450,7 @@ const generalCSQuiz = [
       "The ALU (short for Arithmetic Logic Unit), is the part where all mathematical calculations take place, such as addition, subtraction, multiplication, and division. The ALU is also responsible for all of the logical operations for decision making, such as comparing data.",
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
-  {
-    Question:
-      "Which part of the CPU is responsible for carrying out mathematical operations?",
-    Answer: "The Arithmetic Logic Unit",
-    Distractor1: "The Control Unit",
-    Distractor2: "Registers",
-    Distractor3: "Cache Memory",
-    Explanation:
-      "The ALU (short for Arithmetic Logic Unit), is a digital circuit that performs arithmetic operations such as addition, subtraction, multiplication, and division.",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
-  },
-  {
+    {
     Question: "What is pair programming?",
     Answer: "Two people coding together on one computer",
     Distractor1: "One person coding on two computers at the same time",
@@ -668,28 +657,6 @@ const generalCSQuiz = [
     Explanation:
       "Recursion is the process by which a function calls itself directly or indirectly during its execution. This works for problems that can be solved by solving smaller instances of the same problem. ",
     Link: "https://www.freecodecamp.org/news/understanding-recursion-in-programming/",
-  },
-  {
-    Question:
-      "Which open-source community has been the biggest inspiration to freeCodeCamp?",
-    Answer: "Wikipedia",
-    Distractor1: "Linux",
-    Distractor2: "Mozilla Firefox",
-    Distractor3: "Open Office",
-    Explanation:
-      "All of these projects have been a source of inspiration, but Wikipedia is the closest analog to what the freeCodeCamp community would ultimately like to become: hundreds of languages represented, with thousands of contributors from a wide variety of backgrounds and interests.",
-    Link: "https://www.freecodecamp.org/news/welcome-to-the-abundance-economy-there-are-free-lunches-all-over-the-place-b9d0a417fd1a/",
-  },
-  {
-    Question: "What is a Solid State Drive?",
-    Answer:
-      "A type of storage device that uses flash memory to store and access data",
-    Distractor1: "A device to record text to a disk",
-    Distractor2: "A device to translate code from one language to another ",
-    Distractor3: "A screen editor used for Unix",
-    Explanation:
-      "A type of storage device that uses flash memory to store and access data",
-    Link: "https://www.freecodecamp.org/news/ssd-solid-state-drive-definition/",
   },
   {
     Question:

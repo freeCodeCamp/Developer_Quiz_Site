@@ -95,6 +95,17 @@ const freecodecampQuiz = [
           "The freeCodeCamp community created CamperBot early on to help out with automated tasks in our chat rooms. Since then, he has been helpful in many different places, including the freeCodeCamp forum. He is a helpful robot who runs on kindness.",
         Link: "https://www.freecodecamp.org/news/about/",
       },
+      {
+        Question:
+          "Which open-source community has been the biggest inspiration to freeCodeCamp?",
+        Answer: "Wikipedia",
+        Distractor1: "Linux",
+        Distractor2: "Mozilla Firefox",
+        Distractor3: "Open Office",
+        Explanation:
+          "All of these projects have been a source of inspiration, but Wikipedia is the closest analog to what the freeCodeCamp community would ultimately like to become: hundreds of languages represented, with thousands of contributors from a wide variety of backgrounds and interests.",
+        Link: "https://www.freecodecamp.org/news/welcome-to-the-abundance-economy-there-are-free-lunches-all-over-the-place-b9d0a417fd1a/",
+      },
 ];
 
 export default freecodecampQuiz;

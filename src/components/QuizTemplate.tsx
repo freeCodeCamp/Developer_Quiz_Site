@@ -8,7 +8,7 @@ import freecodecampQuiz from "../data/freecodecamp-quiz";
 import generalCSQuiz from "../data/general-cs-quiz";
 import gitQuiz from "../data/git-quiz";
 import htmlQuiz from "../data/html-quiz";
-import itQuiz from "../data/it-quiz";
+import itQuiz from "../data/information-technology-quiz";
 import javascriptQuiz from "../data/javascript-quiz";
 import linuxQuiz from "../data/linux-quiz";
 import networkQuiz from "../data/network-quiz";
