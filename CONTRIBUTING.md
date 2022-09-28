@@ -28,7 +28,10 @@ We are looking to add more quiz questions for the following categories:
 - Agile
 - Security
 
-All of the quiz questions can be added to this [quiz file](./src/data/full-quiz.ts). Before you add any quiz questions, please check to make sure that it does not already exist in the file. If your quiz question does not exist, then add it to the top of the [quiz file](./src/data/full-quiz.ts).
+The quiz question categories can be found in the `data` folder.
+https://github.com/freeCodeCamp/Developer_Quiz_Site/tree/main/src/data
+
+Before you add any quiz questions, please check to make sure that it does not already exist in the file.
 
 All questions follow this format:
 
@@ -60,7 +63,7 @@ You can read more about how to create timestamps in this [helpful article](https
 7. Open up a pull request (PR) directed to our `main` branch.
 8. Then the maintainers will review your PR and either request changes or approve it.
 
-If you need any help, please reach out on the [freeCodeCamp discord channel](https://discord.com/invite/KVUmVXA).
+If you need any help, please reach out on the [freeCodeCamp forum](https://forum.freecodecamp.org/).
 
 ## How to propose new features
 
