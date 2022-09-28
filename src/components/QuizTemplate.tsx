@@ -31,10 +31,22 @@ interface QuizProps {
 }
 
 const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
-  const [quiz, setQuiz] = useState([...cssQuiz, ...freecodecampQuiz, 
-                                    ...generalCSQuiz, ...gitQuiz, ...htmlQuiz, ...informationTechnologyQuiz, 
-                                    ...javascriptQuiz, ...linuxQuiz, ...pythonQuiz, ...sqlQuiz,
-                                    ...agileQuiz, ...qualityAssuranceQuiz, ...securityQuiz]);
+  const allCategories = [
+    ...cssQuiz,
+    ...freecodecampQuiz,
+    ...generalCSQuiz,
+    ...gitQuiz,
+    ...htmlQuiz,
+    ...informationTechnologyQuiz,
+    ...javascriptQuiz,
+    ...linuxQuiz,
+    ...pythonQuiz,
+    ...sqlQuiz,
+    ...agileQuiz,
+    ...qualityAssuranceQuiz,
+    ...securityQuiz,
+  ];
+  const [quiz, setQuiz] = useState(allCategories);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
@@ -92,10 +104,7 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
   };
 
   const resetQuiz = () => {
-    setQuiz([...cssQuiz, ...freecodecampQuiz, 
-      ...generalCSQuiz, ...gitQuiz, ...htmlQuiz, ...informationTechnologyQuiz, 
-      ...javascriptQuiz, ...linuxQuiz, ...pythonQuiz, ...sqlQuiz,
-      ...agileQuiz, ...qualityAssuranceQuiz, ...securityQuiz]);
+    setQuiz(allCategories);
     setIsResults(false);
     setShow(false);
     setShowOptions(true);

@@ -45,7 +45,7 @@ This open source project is a work in progress and ever evolving.
 
 We welcome all contributions, suggestions and ideas for improvement from the community.
 
-You can contribute by fixing bugs in the codebase, proposing new features or adding new questions to the [quiz file](https://github.com/freeCodeCamp/Developer_Quiz_Site/blob/main/src/data/full-quiz.ts).
+You can contribute by fixing bugs in the codebase, proposing new features or adding new questions.
 
 Make sure to first read through the [Code of Conduct](https://www.freecodecamp.org/news/code-of-conduct/).
 
