@@ -8,7 +8,7 @@ const fullQuiz = [
     Distractor3: "none of the mentioned",
     Explanation:
       "tPython supports the creation of anonymous functions (i.e. functions that are not bound to a name) at runtime, using a construct called lambda. Lambda functions are restricted to a single expression. They can be used wherever normal functions can be used.",
-    Link: "https://www.freecodecamp.org/news/python-functions,
+    Link: "https://www.sanfoundry.com/1000-python-questions-answers"/,
   },
   {
     Question:
