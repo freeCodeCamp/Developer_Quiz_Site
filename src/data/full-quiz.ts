@@ -1,6 +1,17 @@
 const fullQuiz = [
   {
     Question:
+      "What command is used to create a new table in SQL?",
+    Answer: "Create table",
+    Distractor1: "Build table",
+    Distractor2: "Generate table",
+    Distractor3: "build db",
+    Explanation:
+      "The CREATE TABLE command is used to create a new table in SQL.",
+    Link: "https://www.interviewbit.com/sql-mcq/",
+  },
+  {
+    Question:
       "Which one of these data structures follows the FIFO (First In First Out) method?",
     Answer: "Queue",
     Distractor1: "Stack",
