@@ -1,5 +1,16 @@
 const generalCSQuiz = [
   {
+    Question:
+      "Which one of these data structures follows the FIFO(First In First Out) method?",
+    Answer: "Queues",
+    Distractor1: "Arrays",
+    Distractor2: "Trees",
+    Distractor3: "Stacks",
+    Explanation:
+      "A queue is defined as a linear data structure that is open at both ends and the operations are performed in First In First Out (FIFO) order.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=4558s",
+  },
+  {
     Question: "What is the basic language of a computer?",
     Answer: "Binary",
     Distractor1: "HyperText Markup Language",
