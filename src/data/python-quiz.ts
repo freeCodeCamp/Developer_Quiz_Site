@@ -1,5 +1,15 @@
 const pythonQuiz = [
   {
+    Question: "In Python, which one of these is not a Dunder method?",
+    Answer: "__func",
+    Distractor1: "__init__",
+    Distractor2: "__add__",
+    Distractor3: "__len__ ",
+    Explanation:
+      "Dunder methods are names that are preceded and succeeded by double underscores, hence __func method is not a Dunder method.",
+    Link: "https://www.geeksforgeeks.org/dunder-magic-methods-python/",
+  },
+  {
     Question: "In Python, what are the outputs for type(1) and type((1,))?",
     Answer: "<class 'int'>  <class 'tuple'>",
     Distractor1: "<class 'str'> <class 'int'>",
