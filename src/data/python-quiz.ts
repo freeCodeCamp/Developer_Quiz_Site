@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor3: "__len__ ",
     Explanation:
       "Dunder methods are names that are preceded and succeeded by double underscores, hence __func method is not a Dunder method.",
-    Link: "https://www.geeksforgeeks.org/dunder-magic-methods-python/",
+    Link: "https://docs.python.org/3/reference/lexical_analysis.html?highlight=dunder#reserved-classes-of-identifiers",
   },
   {
     Question: "In Python, what are the outputs for type(1) and type((1,))?",
