@@ -1,7 +1,7 @@
 const javascriptQuiz = [
   {
     Question:
-      "Which of the following scoping type does JavaScript use?",
+      "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
     Distractor2: "Segmental",
