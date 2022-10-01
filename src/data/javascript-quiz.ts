@@ -1018,6 +1018,17 @@ const javascriptQuiz = [
     Explanation: "DOM stands for Document Object Model.",
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
   },
+  {
+    Question:
+      "How can you change the background color of an HTML element using JavaScript?",
+    Answer: "element.style.backgroundColor = 'red'",
+    Distractor1: "element.style.backgroundcolor = 'red'",
+    Distractor2: "element.style.background-color = 'red'",
+    Distractor3: "element.style.backgroundColor = 'red'",
+    Explanation:
+      "Javascript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
+    Link: "https://youtu.be/5fb2aPlgoys?t=704",
+  },
 ];
 
 export default javascriptQuiz;
