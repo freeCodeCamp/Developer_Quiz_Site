@@ -18,7 +18,7 @@ const securityQuiz = [
     Distractor2: "Autopsy",
     Distractor3: "Wireshark",
     Explanation:
-      "Nmap is a free and open-source network scanner that can be used to scan a network for active hosts and open ports.It is also used to detect the operating system and services running on a host.",
+      "Nmap is a free and open-source network scanner that can be used to scan a network for active hosts and open ports.  It is also used to detect the operating system and services running on a host.",
     Link: "https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/",
   },
 {
