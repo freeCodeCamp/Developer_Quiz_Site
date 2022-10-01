@@ -699,10 +699,10 @@ const linuxQuiz = [
   {
     Question:
       "In Linux, what is the correct syntax for changing permissions using absolute mode?",
-    Answer: "using numbers and mathematical operators",
-    Distractor1: "using chmod",
-    Distractor2: "using chown",
-    Distractor3: "cannot change",
+    Answer: "chmod 451 file-name",
+    Distractor1: "permissions 451 file-name",
+    Distractor2: "change 451 file-name",
+    Distractor3: "chown 451 file-name",
     Explanation:
       "Absolute mode uses numbers to represent permissions and mathematical operators to modify them.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
