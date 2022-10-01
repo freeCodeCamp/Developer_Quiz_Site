@@ -1,6 +1,6 @@
 const htmlQuiz = [
   {
-    Question: "What is the primary purpose of the <canvas> tag?",
+    Question: "In HTML, what is the primary purpose of the <canvas> tag?",
     Answer: "It allows drawing on a bitmap via JavaScript.",
     Distractor1: "It displays annotated images.",
     Distractor2: "It allows vector images to be rendered on the webpage.",
