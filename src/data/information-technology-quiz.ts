@@ -1,6 +1,6 @@
 const informationTechnologyQuiz = [
   {
-    Question: "Which of the follwing validates the integrity of data?",
+    Question: "Which of the following validates the integrity of data?",
     Answer:
       "Hashing",
     Distractor1: "Compression",
