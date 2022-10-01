@@ -302,6 +302,16 @@ const gitQuiz = [
       "In the command line, you can use git checkout -b new-branch-name to create a new branch and switch to it",
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
+  {
+    Question: "In Git, how do you rename current branch?",
+    Answer: "git branch -m new-name",
+    Distractor1: "git rename -b new-name",
+    Distractor2: "git change -b new-branch-name",
+    Distractor3: "git branch --rename new-name",
+    Explanation:
+      "In the command line, you can use git branch -m new-name to rename the current branch.",
+    Link: "https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/",
+  },
 ];
 
 export default gitQuiz;
