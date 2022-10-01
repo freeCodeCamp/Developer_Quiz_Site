@@ -1,5 +1,16 @@
 const javascriptQuiz = [
   {
+    Question:
+      "Which of the following scoping type does JavaScript use?",
+    Answer: "Lexical",
+    Distractor1: "Sequential",
+    Distractor2: "Segmental",
+    Distractor3: "Literal",
+    Explanation:
+      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
+    Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
+  },
+  {
     Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
     Answer: "a number",
     Distractor1: "a string",
