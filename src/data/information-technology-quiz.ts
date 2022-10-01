@@ -1,5 +1,16 @@
 const informationTechnologyQuiz = [
   {
+    Question: "Which of the following validates the integrity of data?",
+    Answer:
+      "Hashing",
+    Distractor1: "Compression",
+    Distractor2: "Stenography",
+    Distractor3: "Symmetric Encryption",
+    Explanation:
+      "Hashing is a one-way function that takes an input and produces a fixed-length output. It is used to validate the integrity of data.",
+    Link: "https://www.freecodecamp.org/news/what-is-hashing/",
+  },
+  {
     Question: "What is PRAM?",
     Answer:
       "A battery powered RAM for older Mac computers that holds important information for your system",
