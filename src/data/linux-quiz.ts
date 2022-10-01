@@ -698,7 +698,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, how do you change permissions using absolute mode",
+      "In Linux, what is the correct syntax for changing permissions using absolute mode?",
     Answer: "using numbers and mathematical operators",
     Distractor1: "using chmod",
     Distractor2: "using chown",
