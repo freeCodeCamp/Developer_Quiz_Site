@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which command helps in listing all the enviroment variables?",
+    Answer: "printenv",
+    Distractor1: "lsenv",
+    Distractor2: "listenv",
+    Distractor3: "printvar",
+    Explanation:
+      "The command printenv helps in listing all the environment variables, set either by the system, or by your own shell scripts and configuration.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-printenv-command",
+  },
+  {
     Question: "In Linux, what is a maximum length for a filename?",
     Answer: "255 Bytes",
     Distractor1: "225 Bytes",
