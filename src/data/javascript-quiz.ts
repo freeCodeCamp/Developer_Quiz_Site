@@ -11,6 +11,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "Which Web API used with JavaScript provides information about the size and position of an element?",
+    Answer: ".getBoundingClientRect()",
+    Distractor1: ".getOwnPropertyDescriptors()",
+    Distractor2: ".assign()",
+    Distractor3: ".entries()",
+    Explanation:
+      "The Element.getBoundingClientRect() method returns a DOMRect object providing information about the size of an element and its position relative to the viewport.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect",
+  },
+  {
+    Question:
       "In JavaScript, what is the name of the method used to remove white space from the beginning and end of a string?",
     Answer: ".trim()",
     Distractor1: ".substring()",
