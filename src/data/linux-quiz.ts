@@ -684,6 +684,39 @@ const linuxQuiz = [
       "Users in Linux have a password assigned. You can change the password using the passwd command.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
+  {
+    Question:
+      "In Linux, how do you change permissions using the chmod command?",
+    Answer: "chmod permissions filename",
+    Distractor1: "permissions filename chmod",
+    Distractor2: "chmod filename",
+    Distractor3: "chmod permissions",
+    Explanation:
+      "'permissions' can be read, write, execute or a combination of them. 'filename' is the name of the file for which the permissions need to change.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "In Linux, how do you change user and group ownership simultaneously?",
+    Answer: "chown user:group filename",
+    Distractor1: "chmod user:group filename",
+    Distractor2: "chown user::group filename",
+    Distractor3: "chmod user::group filename",
+    Explanation:
+      "We can use chown to change user and group simultaneously",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "In Linux, what is the correct syntax for changing permissions using absolute mode?",
+    Answer: "chmod 451 file-name",
+    Distractor1: "permissions 451 file-name",
+    Distractor2: "change 451 file-name",
+    Distractor3: "chown 451 file-name",
+    Explanation:
+      "Absolute mode uses numbers to represent permissions and mathematical operators to modify them.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
 ];
 
 export default linuxQuiz;
