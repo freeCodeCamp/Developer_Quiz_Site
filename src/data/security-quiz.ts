@@ -1,5 +1,5 @@
 const securityQuiz = [
-{
+  {
     Question:
       "Which of the following type of Hackers look for vulnerable computers over the internet, exploit them and use them for their advantage?",
     Answer: "Black Hat Hackers",
@@ -20,6 +20,16 @@ const securityQuiz = [
     Explanation:
       "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+    Question: "Which of the following is NOT a JWT segment?",
+    Answer: "Transit",
+    Distractor1: "Header",
+    Distractor2: "Payload",
+    Distractor3: "Transit",
+    Explanation:
+      "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
+    Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
   },
 ];
 
