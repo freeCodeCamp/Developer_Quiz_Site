@@ -1,7 +1,7 @@
 const javascriptQuiz = [
   {
     Question:
-      "In JavaScript, which built-in method will provide an information about size and position of an element?",
+      "Which Web API used with JavaScript provides information about the size and position of an element?",
     Answer: ".getBoundingClientRect()",
     Distractor1: ".getOwnPropertyDescriptors()",
     Distractor2: ".assign()",
