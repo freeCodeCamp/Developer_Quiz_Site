@@ -1,5 +1,15 @@
 const javascriptQuiz = [
   {
+    Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
+    Answer: "a number",
+    Distractor1: "a string",
+    Distractor2: "an array",
+    Distractor3: "a sum",
+    Explanation:
+      "The unary plus operator (+) attempts to convert its operand to a number.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
+  },
+  {
     Question:
       "In JavaScript, what is the name of the method used to remove white space from the beginning and end of a string?",
     Answer: ".trim()",
