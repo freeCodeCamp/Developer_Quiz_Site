@@ -21,6 +21,17 @@ const securityQuiz = [
       "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
+  {
+    Question:
+      "How to Change Permissions in Linux Using the chmod Command?",
+    Answer: "chmod permissions filename",
+    Distractor1: "permissions filename chmod",
+    Distractor2: "chmod filename",
+    Distractor3: "chmod permissions",
+    Explanation:
+      "'permissions' can be read, write, execute or a combination of them. 'filename' is the name of the file for which the permissions need to change.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  }
 ];
 
 export default securityQuiz;
