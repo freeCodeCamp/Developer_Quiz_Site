@@ -303,7 +303,7 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
   },
   {
-    Question: "In Git, how do you rename current branch?",
+    Question: "In Git, how do you rename the current branch?",
     Answer: "git branch -m new-name",
     Distractor1: "git rename -b new-name",
     Distractor2: "git change -b new-branch-name",
