@@ -1018,6 +1018,17 @@ const javascriptQuiz = [
     Explanation: "DOM stands for Document Object Model.",
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
   },
+  {
+    Question:
+      "When an operator value is NULL, the typeof returned by the operator is:",
+    Answer: "Object",
+    Distractor1: "Undefined",
+    Distractor2: "Integer",
+    Distractor3: "Boolean",
+    Explanation:
+      "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
+    Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
+  },
 ];
 
 export default javascriptQuiz;
