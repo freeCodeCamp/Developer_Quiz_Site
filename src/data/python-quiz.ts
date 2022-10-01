@@ -919,6 +919,15 @@ const pythonQuiz = [
       "In Python, we start a comment with a hash symbol #. A line that starts with this symbol will be interpreted as a comment in a Python program. ",
     Link: "https://forum.freecodecamp.org/t/how-to-comment-your-code-in-python-explained-with-examples/19220",
   },
+  { 
+    Question: "Which type of Programming does Python support?",
+    Answer: "# all of the mentioned", 
+    Distractor1: "structured programming", 
+    Distractor2: "object-oriented programming", 
+    Distractor3: "all of the mentioned", 
+    Explanation: "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.", 
+    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
+  },
 ];
 
 export default pythonQuiz;
