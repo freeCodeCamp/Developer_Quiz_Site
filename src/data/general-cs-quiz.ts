@@ -714,6 +714,15 @@ const generalCSQuiz = [
     Explanation: "SVG stands for Scalable Vector Graphics.",
     Link: "https://www.freecodecamp.org/news/use-svg-images-in-css-html/",
   },
+  {
+    Question: "Are JPEG and JPG sare the same?",
+    Answer: "Yes",
+    Distractor1: "May Be",
+    Distractor2: "No",
+    Distractor3: "Can't be said",
+    Explanation: "Yes - the only difference is that, traditionally, file extensions are only 3 characters long. '.jpg' is a shortened form of '.jpeg'.",
+    Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
+  },
 ];
 
 export default generalCSQuiz;
