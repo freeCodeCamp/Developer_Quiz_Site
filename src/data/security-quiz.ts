@@ -26,7 +26,7 @@ const securityQuiz = [
     Answer: "Transit",
     Distractor1: "Header",
     Distractor2: "Payload",
-    Distractor3: "Security",
+    Distractor3: "Crypto",
     Explanation:
       "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
     Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
