@@ -1020,7 +1020,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, When an operator value is NULL, the typeof returned by the operator is:",
+      "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
     Answer: "Object",
     Distractor1: "Undefined",
     Distractor2: "Integer",
