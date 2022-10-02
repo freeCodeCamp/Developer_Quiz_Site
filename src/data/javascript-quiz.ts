@@ -6,7 +6,7 @@ const javascriptQuiz = [
     Distractor1: "insertAdjacentHTML",
     Distractor2: "insertElement",
     Distractor3: "setHTML",
-    Explanation: "The innerHTML is a property of the Element that allows you to get or set the HTML markup contained within the element.",
+    Explanation: "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
     Link: "https://youtu.be/jS4aFq5-91M?t=18781"
   },
   {
