@@ -1,6 +1,6 @@
 const pythonQuiz = [
   {
-    Question: "In Python, which Type casting method let users convert a specific data type into required data type?",
+    Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
     Answer: "Explicit Type Conversion",
     Distractor1: "Implicit Type Conversion",
     Distractor2: "Default Type Conversion",
