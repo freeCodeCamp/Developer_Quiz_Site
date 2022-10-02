@@ -737,7 +737,7 @@ const pythonQuiz = [
   },
   {
     Question: "In Python, the values of a dictionary can be...",
-    Answer: "Immutable or Mutable",
+    Answer: "Both Mutable and Immutable",
     Distractor1: "only immutable",
     Distractor2: "only mutable",
     Distractor3: "Neither will work",
@@ -772,7 +772,7 @@ const pythonQuiz = [
       "In Python, what is the name of the exception raised when the interpreter detects that the maximum recursion depth is exceeded?",
     Answer: "RecursionError",
     Distractor1: "IndexError",
-    Distractor2: "Infinite Loop",
+    Distractor2: "TypeError",
     Distractor3: "NameError",
     Explanation:
       "A RecursionError occurs when the interpreter detects that the maximum recursion depth is exceeded. This usually occurs when the recursive process never reaches the base case. ",
@@ -783,7 +783,7 @@ const pythonQuiz = [
       "In Python, what operator is used to check if two values are equal?",
     Answer: "==",
     Distractor1: "=",
-    Distractor2: "===",
+    Distractor2: "!=",
     Distractor3: "!==",
     Explanation:
       "The == operator is used to check if two values are equal in Python. It returns True if the values are equal and False otherwise.",
@@ -816,7 +816,7 @@ const pythonQuiz = [
     Answer: "len()",
     Distractor1: "length()",
     Distractor2: "size()",
-    Distractor3: "s()",
+    Distractor3: "index()",
     Explanation:
       "The len() function returns the length (number of items) of an object.",
     Link: "https://docs.python.org/3/library/functions.html#len",
@@ -946,6 +946,33 @@ const pythonQuiz = [
     Distractor3: "__package__",
     Explanation: "We cannot create a Python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
     Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
+  },
+  {
+    Question: "What do partition() function do?",
+    Answer: "Splits the string at the first occurence and returns a tuple",
+    Distractor1: "Splits the string at the first occurence and returns a list",
+    Distractor2: "Splits the string equally",
+    Distractor3: "Split the string at any occurence of the given argument",
+    Explanation: "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
+    Link: "https://www.w3schools.com/python/ref_string_partition.asp",
+  },
+  {
+    Question: "An empty/null statement in Python is",
+    Answer: "pass",
+    Distractor1: "continue",
+    Distractor2: "over",
+    Distractor3: "continue",
+    Explanation: "An empty statement is a statement that do nothing. Python offers pass statement as empty statement",
+    Link: "https://www.geeksforgeeks.org/how-to-write-an-empty-function-in-python-pass-statement/",
+  },
+  {
+    Question: "Function range(4) will yeild an iterable sequence like: ",
+    Answer: "[1,2,3,4]",
+    Distractor1: "[0,1,2,3,4]",
+    Distractor2: "[0,1,2,3]",
+    Distractor3: "[4]",
+    Explanation: "If you don't specify the start index, the default start index of 0 is used.",
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
   },
 ];
 
