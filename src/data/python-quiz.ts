@@ -962,7 +962,7 @@ const pythonQuiz = [
     Distractor1: "continue",
     Distractor2: "over",
     Distractor3: "continue",
-    Explanation: "An empty statement is a statement that do nothing. Python offers pass statement as empty statement",
+    Explanation: "An empty statement is a statement that does nothing. Python offers the pass statement as an empty statement.",
     Link: "https://www.geeksforgeeks.org/how-to-write-an-empty-function-in-python-pass-statement/",
   },
   {
