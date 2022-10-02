@@ -14,6 +14,9 @@ The [developerquiz.org](https://developerquiz.org/) website is the companion to 
 - Git 📁
 - SQL 📊
 - IT 🖥️
+- Quality Assurance ✅
+- Agile ⏩
+- Security 🔒
 - and Computer Science Concepts 🤖
 
 All questions are beginner friendly and approachable to all levels, so they are ideal for refreshing your programming knowledge.

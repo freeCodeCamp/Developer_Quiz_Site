@@ -324,6 +324,15 @@ const sqlQuiz = [
       "The CHECK constraint is used to limit the range of values that can be placed in a column.",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
+  {
+    Question: "In SQL, what is the command used to delete a table?",
+    Answer: "DROP TABLE table_name",
+    Distractor1: "REMOVE TABLE table_name",
+    Distractor2: "DELETE TABLE table_name",
+    Distractor3: "ALTER TABLE table_name",
+    Explanation: "The DROP TABLE command is used to delete an entire table.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
 ];
 
 export default sqlQuiz;

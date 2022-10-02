@@ -1,5 +1,15 @@
 const htmlQuiz = [
   {
+    Question: "In HTML, what is the primary purpose of the <canvas> tag?",
+    Answer: "It allows drawing on a bitmap via JavaScript.",
+    Distractor1: "It displays annotated images.",
+    Distractor2: "It allows vector images to be rendered on the webpage.",
+    Distractor3: "It allows raster images to be rendered on the webpage.",
+    Explanation:
+      "The <canvas> tag is used to draw graphics on a webpage using JavaScript. It is a container for graphics, and does not actually render anything itself.",
+    Link: "https://www.freecodecamp.org/news/full-overview-of-the-html-canvas-6354216fba8d/",
+  },
+  {
     Question: "In HTML, what is the <address> tag?",
     Answer: "a section to place address information",
     Distractor1: "a place for links",

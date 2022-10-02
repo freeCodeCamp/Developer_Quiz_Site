@@ -1,6 +1,17 @@
 const agileQuiz = [
 {
     Question:
+      "According to the Agile Manifesto, your highest priority is to _.",
+    Answer: "satisfy the customer/client requirmenets",
+    Distractor1: "achieve the desired Return of Investment",
+    Distractor2: "minimize change requests from the customer/client",
+    Distractor3: "deliver the project on time",
+    Explanation:
+      "According to the Agile Manifesto,your highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
+    Link: "https://forum.freecodecamp.org/t/the-agile-manifesto-explained/16151",
+  },
+  {
+    Question:
       "In a Scrum team, what is a Scrum Master?",
     Answer: "A servant leader whose role is to support the rest of the team and the organization",
     Distractor1: "A project manager who's main role is to ensure the Developers deliver in time",

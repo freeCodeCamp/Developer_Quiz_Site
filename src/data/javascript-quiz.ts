@@ -1,6 +1,38 @@
 const javascriptQuiz = [
   {
     Question:
+      "Which of the following scoping types does JavaScript use?",
+    Answer: "Lexical",
+    Distractor1: "Sequential",
+    Distractor2: "Segmental",
+    Distractor3: "Literal",
+    Explanation:
+      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
+    Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
+  },
+  {
+    Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
+    Answer: "a number",
+    Distractor1: "a string",
+    Distractor2: "an array",
+    Distractor3: "a sum",
+    Explanation:
+      "The unary plus operator (+) attempts to convert its operand to a number.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
+  },
+  {
+    Question:
+      "Which Web API used with JavaScript provides information about the size and position of an element?",
+    Answer: ".getBoundingClientRect()",
+    Distractor1: ".getOwnPropertyDescriptors()",
+    Distractor2: ".assign()",
+    Distractor3: ".entries()",
+    Explanation:
+      "The Element.getBoundingClientRect() method returns a DOMRect object providing information about the size of an element and its position relative to the viewport.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect",
+  },
+  {
+    Question:
       "In JavaScript, what is the name of the method used to remove white space from the beginning and end of a string?",
     Answer: ".trim()",
     Distractor1: ".substring()",
@@ -1024,10 +1056,21 @@ const javascriptQuiz = [
     Answer: "element.style.backgroundColor = 'red'",
     Distractor1: "element.style.backgroundcolor = 'red'",
     Distractor2: "element.style.background-color = 'red'",
-    Distractor3: "element.style.backgroundColor = 'red'",
+    Distractor3: "element.style.bgColor = 'red'",
     Explanation:
       "Javascript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
     Link: "https://youtu.be/5fb2aPlgoys?t=704",
+    },
+    {
+    Question:
+      "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
+    Answer: "Object",
+    Distractor1: "Undefined",
+    Distractor2: "Integer",
+    Distractor3: "Boolean",
+    Explanation:
+      "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
+    Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
 ];
 

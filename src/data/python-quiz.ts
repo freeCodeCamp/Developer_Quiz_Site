@@ -1,5 +1,15 @@
 const pythonQuiz = [
   {
+    Question: "In Python, which one of these is not a Dunder method?",
+    Answer: "__func",
+    Distractor1: "__init__",
+    Distractor2: "__add__",
+    Distractor3: "__len__ ",
+    Explanation:
+      "Dunder methods are names that are preceded and succeeded by double underscores, hence __func method is not a Dunder method.",
+    Link: "https://docs.python.org/3/reference/lexical_analysis.html?highlight=dunder#reserved-classes-of-identifiers",
+  },
+  {
     Question: "In Python, what are the outputs for type(1) and type((1,))?",
     Answer: "<class 'int'>  <class 'tuple'>",
     Distractor1: "<class 'str'> <class 'int'>",
@@ -908,6 +918,15 @@ const pythonQuiz = [
     Explanation:
       "In Python, we start a comment with a hash symbol #. A line that starts with this symbol will be interpreted as a comment in a Python program. ",
     Link: "https://forum.freecodecamp.org/t/how-to-comment-your-code-in-python-explained-with-examples/19220",
+  },
+  { 
+    Question: "Which type of programming paradigm does Python support?",
+    Answer: "all of the mentioned paradigms", 
+    Distractor1: "structured programming", 
+    Distractor2: "object-oriented programming", 
+    Distractor3: "functional", 
+    Explanation: "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.", 
+    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
   },
 ];
 
