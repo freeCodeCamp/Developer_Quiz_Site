@@ -1,6 +1,17 @@
 const securityQuiz = [
   {
     Question:
+      "What is the most common way to get hacked?",
+    Answer: "C",
+    Distractor1: "Simple passwords",
+    Distractor2: "Dating a hacker",
+    Distractor3: "MitM attacks (Man in the Middle Attacks)",
+    Explanation:
+      "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
+    Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
+  },
+  {
+    Question:
       "Which programming language is most susceptible to buffer overflow attacks?",
     Answer: "C",
     Distractor1: "Java",
