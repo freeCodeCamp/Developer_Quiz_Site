@@ -772,7 +772,7 @@ const pythonQuiz = [
       "In Python, what is the name of the exception raised when the interpreter detects that the maximum recursion depth is exceeded?",
     Answer: "RecursionError",
     Distractor1: "IndexError",
-    Distractor2: "TypeError",
+    Distractor2: "Infinite Loop",
     Distractor3: "NameError",
     Explanation:
       "A RecursionError occurs when the interpreter detects that the maximum recursion depth is exceeded. This usually occurs when the recursive process never reaches the base case. ",
@@ -783,7 +783,7 @@ const pythonQuiz = [
       "In Python, what operator is used to check if two values are equal?",
     Answer: "==",
     Distractor1: "=",
-    Distractor2: "!=",
+    Distractor2: "===",
     Distractor3: "!==",
     Explanation:
       "The == operator is used to check if two values are equal in Python. It returns True if the values are equal and False otherwise.",
@@ -816,7 +816,7 @@ const pythonQuiz = [
     Answer: "len()",
     Distractor1: "length()",
     Distractor2: "size()",
-    Distractor3: "index()",
+    Distractor3: "s()",
     Explanation:
       "The len() function returns the length (number of items) of an object.",
     Link: "https://docs.python.org/3/library/functions.html#len",
