@@ -1,6 +1,17 @@
 const securityQuiz = [
   {
     Question:
+      "In digital security, what is a Man in the Middle Attack?",
+    Answer: "an attack where hackers can spy on your internet traffic and modify it",
+    Distractor1: "an attack where hackers can send emails with fake links",
+    Distractor2: "an attack where hackers can encrypt your files and demand payment",
+    Distractor3: "an attack where hackers can flood the system with network requests",
+    Explanation:
+      "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
+    Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
+  },
+  {
+    Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
     Answer: "Assymetric-key encryption",
     Distractor1: "MD5",
@@ -31,17 +42,6 @@ const securityQuiz = [
     Explanation:
       "Cross-site scripting(XSS) is a type of attack that exploits input validation vulnerabilities. It is a type of injection attack that allows an attacker to inject client-side scripts into web pages viewed by other users. The attacker can then execute scripts in the victim's browser, which can hijack user sessions ,deface web sites, or redirect the user to malicious sites.",
     Link: "https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/",
-  },
-  {
-    Question:
-      "In digital security, what is a Man in the Middle Attack?",
-    Answer: "an attack where hackers can spy on your internet traffic and modify it",
-    Distractor1: "an attack where hackers can send emails with fake links",
-    Distractor2: "an attack where hackers can encrypt your files and demand payment",
-    Distractor3: "an attack where hackers can flood the system with network requests",
-    Explanation:
-      "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
-    Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
   },
   {
     Question:
