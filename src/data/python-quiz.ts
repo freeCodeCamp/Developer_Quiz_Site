@@ -966,7 +966,7 @@ const pythonQuiz = [
     Link: "https://www.geeksforgeeks.org/how-to-write-an-empty-function-in-python-pass-statement/",
   },
   {
-    Question: "Function range(4) will yeild an iterable sequence like: ",
+    Question: "In Python, Function range(4) will yield an iterable sequence like: ",
     Answer: "[1,2,3,4]",
     Distractor1: "[0,1,2,3,4]",
     Distractor2: "[0,1,2,3]",
