@@ -1,6 +1,17 @@
 const sqlQuiz = [
   {
     Question:
+      "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
+    Answer: "HAVING",
+    Distractor1: "ADD",
+    Distractor2: "DISTINTC",
+    Distractor3: "LIMIT",
+    Explanation:
+      "In SQL, you will have to use the HAVING clause because the WHERE clause fails when used with aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/sql-having-how-to-group-and-count-with-a-having-statement/",
+  },
+  {
+    Question:
       "Which of the following relational database management systems (RDBMS) should never be used to store data in a production app?",
     Answer: "Microsoft Access",
     Distractor1: "Microsoft SQL Server",
