@@ -1,7 +1,7 @@
 const javascriptQuiz = [
   {
     Question:
-      "In Javascript, combination of function and its lexical environment is called?",
+      "In JavaScript, what is it called when you have a combination of a function and its lexical environment?",
     Answer: "Closure",
     Distractor1: "Debouncing",
     Distractor2: "Throttling",
