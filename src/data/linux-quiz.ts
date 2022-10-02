@@ -717,6 +717,39 @@ const linuxQuiz = [
       "Absolute mode uses numbers to represent permissions and mathematical operators to modify them.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
+  {
+    Question:
+      "In Linux, which command is used to display network status and generate protocol statistics?",
+    Answer: "netstat",
+    Distractor1: "ipconfig",
+    Distractor2: "ifconfig",
+    Distractor3: "netlist",
+    Explanation:
+      "Netstat command displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc.,",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
+  {
+    Question:
+      "In Linux, which command can be used to terminate a program?",
+    Answer: "kill",
+    Distractor1: "end",
+    Distractor2: "stop",
+    Distractor3: "finish",
+    Explanation:
+      "kill command sends a signal which ultimately terminates or kills a particular process or group of processes. If the user does not specify a signal to send with the kill command, the process is terminated using the default TERM signal.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command",
+  },  
+  {
+    Question:
+      "In Linux, which command can be used for cron jobs ?",
+    Answer: "crontab",
+    Distractor1: "cronaction",
+    Distractor2: "cronset",
+    Distractor3: "cronedit",
+    Explanation:
+      "The crontab command submits, edits, lists, or removes cron jobs. A cron job is a command run by the cron daemon at regularly scheduled intervals.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
+  },
 ];
 
 export default linuxQuiz;
