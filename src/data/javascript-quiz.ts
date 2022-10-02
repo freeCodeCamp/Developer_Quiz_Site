@@ -1,6 +1,16 @@
 const javascriptQuiz = [
   {
     Question:
+      "In Javascript, combination of function and its lexical environment is called?",
+    Answer: "Closure",
+    Distractor1: "Debouncing",
+    Distractor2: "Throttling",
+    Distractor3: "Scope Chaining",
+    Explanation: "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+  },
+  {
+    Question:
       "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
