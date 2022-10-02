@@ -2,10 +2,10 @@ const securityQuiz = [
   {
     Question:
       "In digital security, what is a Man in the Middle Attack?",
-    Answer: "MitM attacks (Man in the Middle Attacks)",
-    Distractor1: "Simple passwords",
-    Distractor2: "Default factory configuration on device",
-    Distractor3: "Eavesdroppers",
+    Answer: "an attack where hackers can spy on your internet traffic and modify it",
+    Distractor1: "an attack where hackers can send emails with fake links",
+    Distractor2: "an attack where hackers can encrypt your files and demand payment",
+    Distractor3: "an attack where hackers can flood the system with network requests",
     Explanation:
       "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
