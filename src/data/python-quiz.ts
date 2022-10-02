@@ -1,5 +1,15 @@
 const pythonQuiz = [
   {
+    Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
+    Answer: "Explicit Type Conversion",
+    Distractor1: "Implicit Type Conversion",
+    Distractor2: "Default Type Conversion",
+    Distractor3: "Widening Type Conversion",
+    Explanation:
+      "In Explicit Type Conversion, users convert the data type of an object to the required data type.",
+    Link: "https://www.freecodecamp.org/news/learn-typecasting-in-python-in-five-minutes-90d42c439743/#explicit-type-conversion",
+  },
+  {
     Question: "In Python, which one of these is not a Dunder method?",
     Answer: "__func",
     Distractor1: "__init__",
