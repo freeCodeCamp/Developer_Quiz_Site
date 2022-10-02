@@ -1,6 +1,17 @@
 const gitQuiz = [
   {
     Question:
+      "How would you store uncommited code for later?",
+    Answer: "git stah",
+    Distractor1: "git copy into notepad.exe",
+    Distractor2: "git save code",
+    Distractor3: "git clone --for later",
+    Explanation:
+      "In the command line, you can use git stash. Stashes are temporary storage spaces where you can store your code. When you’ve stored your code, you can move to other branches to do something else. When you’re done, you can put your code back from the stash using git stash pop. You won’t have to worry about losing any uncommitted changes!",
+    Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/",
+  },
+  {
+    Question:
       "In Git, how do you integrate changes from one branch to another?",
     Answer: "git merge",
     Distractor1: "git copy into",
