@@ -18,7 +18,7 @@ const securityQuiz = [
     Distractor2: "trojan",
     Distractor3: "worm",
     Explanation:
-      "Keylogger is a type of malware that records every keystroke made by the user.It is widely used to steal passwords, credit card numbers, and other sensitive information.It can also be used to monitor the user's activity and send the information to a third party.",
+      "Keylogger is a type of malware that records every keystroke made by the user. It is widely used to steal passwords, credit card numbers, and other sensitive information. It can also be used to monitor the user's activity and send the information to a third party.",
     Link: "https://www.freecodecamp.org/news/how-did-someone-get-my-password-2/",
   },
   {
