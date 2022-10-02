@@ -16,12 +16,12 @@ const javascriptQuiz = [
     Distractor1: "Debouncing",
     Distractor2: "Throttling",
     Distractor3: "Scope Chaining",
-    Explanation: "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
-    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e"
+    Explanation:
+      "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
+    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e",
   },
   {
-    Question:
-      "Which of the following scoping types does JavaScript use?",
+    Question: "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
     Distractor2: "Segmental",
@@ -31,7 +31,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
   },
   {
-    Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
+    Question:
+      "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
     Answer: "a number",
     Distractor1: "a string",
     Distractor2: "an array",
@@ -1080,8 +1081,8 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
     Link: "https://youtu.be/5fb2aPlgoys?t=704",
-    },
-    {
+  },
+  {
     Question:
       "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
     Answer: "Object",
@@ -1091,6 +1092,17 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
+  },
+  {
+    Question:
+      "What JavaScript keyword will return the type of a variable when you call it?",
+    Answer: "typeof",
+    Distractor1: "datatype",
+    Distractor2: "this",
+    Distractor3: "var",
+    Explanation:
+      "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
+    Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
   },
 ];
 
