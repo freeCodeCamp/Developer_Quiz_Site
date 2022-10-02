@@ -952,7 +952,7 @@ const pythonQuiz = [
     Answer: "Splits the string at the first occurrence and returns a tuple",
     Distractor1: "Splits the string at the first occurrence and returns a list",
     Distractor2: "Splits the string equally",
-    Distractor3: "Split the string at any occurence of the given argument",
+    Distractor3: "Split the string at any occurrence of the given argument",
     Explanation: "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
     Link: "https://www.w3schools.com/python/ref_string_partition.asp",
   },
