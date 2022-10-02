@@ -1,4 +1,13 @@
 const javascriptQuiz = [
+    {
+    Question: "Which of the following method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Answer: "addEventListener()",
+    Distractor1: "listenEvent()",
+    Distractor2: "callEvent()",
+    Distractor3: "eventWake()",
+    Explanation: "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
+  },
   {
     Question:
       "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
