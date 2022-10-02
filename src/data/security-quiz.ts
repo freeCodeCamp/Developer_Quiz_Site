@@ -2,7 +2,7 @@ const securityQuiz = [
   {
     Question:
       "What is the most common way to get hacked?",
-    Answer: "MitM attacks (Man in the Middle Attacks),
+    Answer: "MitM attacks (Man in the Middle Attacks)",
     Distractor1: "Simple passwords",
     Distractor2: "Dating a hacker",
     Distractor3: "Bluetooth",
