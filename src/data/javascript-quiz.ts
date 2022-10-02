@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor2: "append()",
     Distractor3: "lookupPrefix()",
     Explanation:
-      "The insertBefore() method of the Node interface inserts a node before a reference node as a child of a specified parent node.",
+      "The insertBefore() method insert a new child node before the reference node(The node we want to place before it) under the parent node and this method having two parameter: newNode and referenceNode",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
   },
   {
