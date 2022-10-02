@@ -1058,7 +1058,7 @@ const javascriptQuiz = [
     Distractor2: "element.style.background-color = 'red'",
     Distractor3: "element.style.bgColor = 'red'",
     Explanation:
-      "Javascript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
+      "JavaScript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
     Link: "https://youtu.be/5fb2aPlgoys?t=704",
     },
     {
