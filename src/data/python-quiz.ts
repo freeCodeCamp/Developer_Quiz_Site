@@ -948,7 +948,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
   },
   {
-    Question: "What do partition() function do?",
+    Question: "What does the partition() function do?",
     Answer: "Splits the string at the first occurence and returns a tuple",
     Distractor1: "Splits the string at the first occurrence and returns a list",
     Distractor2: "Splits the string equally",
