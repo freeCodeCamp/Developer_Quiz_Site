@@ -1,14 +1,14 @@
 const generalCSQuiz = [
   {
     Question:
-      "What is a subnet?",
-    Answer: "A smaller network within a larger one",
-    Distractor1: "A backup system for when a network crashes",
-    Distractor2: "A substitution method used in website domains",
-    Distractor3: "A cybersecurity access point",
+      "Which algorithm utilizes a pivot value to sort?",
+    Answer: "Quick Sort",
+    Distractor1: "Merge Sort",
+    Distractor2: "Bubble Sort",
+    Distractor3: "Insertion Sort",
     Explanation:
-      "A subnet, or subnetwork, is a smaller network within a larger one.",
-    Link: "https://www.freecodecamp.org/news/subnet-definition/",
+      "Quick sort works by selecting one element (called “the pivot”) and finding the index where the pivot should end up in the sorted array.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-algorithms-with-javascript-examples/#quick-sort",
   },
   {
     Question:
