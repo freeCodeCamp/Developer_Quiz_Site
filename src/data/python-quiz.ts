@@ -718,9 +718,9 @@ const pythonQuiz = [
     Question:
       "In Python, how many spaces are recommended per level of indentation?",
     Answer: "4",
-    Distractor1: "10",
-    Distractor2: "20",
-    Distractor3: "300",
+    Distractor1: "2",
+    Distractor2: "6",
+    Distractor3: "8",
     Explanation:
       "In Python, it is recommended to use 4 spaces per level of indentation.",
     Link: "https://www.python.org/dev/peps/pep-0008/#indentation",
