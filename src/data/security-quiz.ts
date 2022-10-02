@@ -1,5 +1,5 @@
 const securityQuiz = [
-{
+  {
     Question:
       "Which programming language is most susceptible to buffer overflow attacks?",
     Answer: "C",
@@ -10,7 +10,7 @@ const securityQuiz = [
       "C is a low-level language that allows for direct memory manipulation. This makes it more susceptible to buffer overflow attacks.",
     Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/",
   },
-{
+  {
     Question:
       "Which option is an open-source solution to scanning a network for active hosts and open ports?",
     Answer: "Nmap",
@@ -21,7 +21,7 @@ const securityQuiz = [
       "Nmap is a free and open-source network scanner that can be used to scan a network for active hosts and open ports.  It is also used to detect the operating system and services running on a host.",
     Link: "https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/",
   },
-{
+  {
     Question:
       "Which of the following type of Hackers look for vulnerable computers over the internet, exploit them and use them for their advantage?",
     Answer: "Black Hat Hackers",
@@ -42,6 +42,16 @@ const securityQuiz = [
     Explanation:
       "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+    Question: "Which of the following is NOT a JWT segment?",
+    Answer: "Transit",
+    Distractor1: "Header",
+    Distractor2: "Payload",
+    Distractor3: "Crypto",
+    Explanation:
+      "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
+    Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
   },
 ];
 

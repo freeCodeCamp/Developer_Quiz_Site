@@ -1,6 +1,16 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, what is it called when you have a combination of a function and its lexical environment?",
+    Answer: "Closure",
+    Distractor1: "Debouncing",
+    Distractor2: "Throttling",
+    Distractor3: "Scope Chaining",
+    Explanation: "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
+    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e"
+  },
+  {
+    Question:
       "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
@@ -1051,6 +1061,17 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
   },
   {
+    Question:
+      "How can you change the background color of an HTML element using JavaScript?",
+    Answer: "element.style.backgroundColor = 'red'",
+    Distractor1: "element.style.backgroundcolor = 'red'",
+    Distractor2: "element.style.background-color = 'red'",
+    Distractor3: "element.style.bgColor = 'red'",
+    Explanation:
+      "JavaScript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
+    Link: "https://youtu.be/5fb2aPlgoys?t=704",
+    },
+    {
     Question:
       "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
     Answer: "Object",
