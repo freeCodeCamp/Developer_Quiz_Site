@@ -1526,17 +1526,14 @@ const htmlQuiz = [
     Link: "https://devdocs.io/html/element/i",
   },
   {
-    Question:
-      "In HTML, responsive text size can be set with a" "vw" "unit, which means the",
-    Answer: "<viewport width>",
-    Distractor1: "<versatile width>",
-    Distractor2: "<viewing wide>",
-    Distractor3: "<view length>",
-    Explanation:
-      "The text size can be set with a vw unit, which means the viewport width.Viewport is the browser window size.Example 1vw = 1% of viewport width"
-         Link: "https://www.w3schools.com/html/html_responsive.asp",
-  },
-        
-
+  Question:
+  "In HTML, responsive text size can be set with a vw unit, which means the",
+   Answer: "<viewport width>",
+   Distractor1: "<versatile width>",
+   Distractor2: "<viewing wide>",
+   Distractor3: "<view length>",
+   Explanation: "The full form of VW is viewport width. It works like the percentage unit. Specifying 10vw is equivalent to occupying 10% of entire visible screen width.",
+   Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#why-learn-css-relative-units"
+  }
 ];
 export default htmlQuiz;
