@@ -957,7 +957,7 @@ const pythonQuiz = [
     Link: "https://www.w3schools.com/python/ref_string_partition.asp",
   },
   {
-    Question: "An empty/null statement in Python is",
+    Question: "What is an empty/null statement in Python called?",
     Answer: "pass",
     Distractor1: "continue",
     Distractor2: "over",
