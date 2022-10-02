@@ -725,6 +725,15 @@ const generalCSQuiz = [
     Explanation: "SVG stands for Scalable Vector Graphics.",
     Link: "https://www.freecodecamp.org/news/use-svg-images-in-css-html/",
   },
+  {
+    Question: "What is a Nibble?",
+    Answer: "Nibble is a four-bit aggregation",
+    Distractor1: "Nibble is an algorithm",
+    Distractor2: "Nibble is a four-bit aggregation",
+    Distractor3: "Nibble is a device",
+    Explanation: "A nibble is a four-bit aggregation, or half an octet. It is also known as half-byte or tetrade.",
+    Link: "https://en.wikipedia.org/wiki/Nibble/",
+  },
 ];
 
 export default generalCSQuiz;
