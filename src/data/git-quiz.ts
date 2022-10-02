@@ -2,7 +2,7 @@ const gitQuiz = [
   {
     Question:
       "In Git, how can you save uncommitted changes on your local machine so you can work on it later?",
-    Answer: "git stah",
+    Answer: "git stash",
     Distractor1: "git copy into notepad.exe",
     Distractor2: "git save code",
     Distractor3: "git clone --for later",
