@@ -1,6 +1,17 @@
 const generalCSQuiz = [
   {
     Question:
+      "What is a subnet?",
+    Answer: "A smaller network within a larger one",
+    Distractor1: "A backup system for when a network crashes",
+    Distractor2: "A substitution method used in website domains",
+    Distractor3: "A cybersecurity access point",
+    Explanation:
+      "A subnet, or subnetwork, is a smaller network within a larger one.",
+    Link: "https://www.freecodecamp.org/news/subnet-definition/",
+  },
+  {
+    Question:
       "Which one of these data structures follows the FIFO(First In First Out) method?",
     Answer: "Queues",
     Distractor1: "Arrays",
