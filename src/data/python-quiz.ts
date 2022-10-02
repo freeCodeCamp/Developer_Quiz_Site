@@ -950,7 +950,7 @@ const pythonQuiz = [
   {
     Question: "What do partition() function do?",
     Answer: "Splits the string at the first occurence and returns a tuple",
-    Distractor1: "Splits the string at the first occurence and returns a list",
+    Distractor1: "Splits the string at the first occurrence and returns a list",
     Distractor2: "Splits the string equally",
     Distractor3: "Split the string at any occurence of the given argument",
     Explanation: "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
