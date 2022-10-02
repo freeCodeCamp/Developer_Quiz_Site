@@ -29,7 +29,7 @@ const securityQuiz = [
     Distractor2: "SQL injection",
     Distractor3: "ARP spoofing",
     Explanation:
-      "Cross-site scripting(XSS) is a type of attack that exploits input validation vulnerabilities.It is a type of injection attack that allows an attacker to inject client-side scripts into web pages viewed by other users.The attacker can then execute scripts in the victim's browser,which can hijack user sessions,deface web sites,or redirect the user to malicious sites.",
+      "Cross-site scripting(XSS) is a type of attack that exploits input validation vulnerabilities. It is a type of injection attack that allows an attacker to inject client-side scripts into web pages viewed by other users. The attacker can then execute scripts in the victim's browser, which can hijack user sessions ,deface web sites, or redirect the user to malicious sites.",
     Link: "https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/",
   },
   {
