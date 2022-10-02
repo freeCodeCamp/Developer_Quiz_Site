@@ -1,6 +1,17 @@
 const generalCSQuiz = [
   {
     Question:
+      "Which algorithm utilizes a pivot value to sort?",
+    Answer: "Quick Sort",
+    Distractor1: "Merge Sort",
+    Distractor2: "Bubble Sort",
+    Distractor3: "Insertion Sort",
+    Explanation:
+      "Quick sort works by selecting one element (called “the pivot”) and finding the index where the pivot should end up in the sorted array.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-algorithms-with-javascript-examples/#quick-sort",
+  },
+  {
+    Question:
       "Which one of these data structures follows the FIFO(First In First Out) method?",
     Answer: "Queues",
     Distractor1: "Arrays",

@@ -1,6 +1,16 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
+    Answer: "innerHTML",
+    Distractor1: "insertAdjacentHTML",
+    Distractor2: "insertElement",
+    Distractor3: "setHTML",
+    Explanation: "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
+    Link: "https://youtu.be/jS4aFq5-91M?t=18781"
+  },
+  {
+    Question:
       "In JavaScript, what is it called when you have a combination of a function and its lexical environment?",
     Answer: "Closure",
     Distractor1: "Debouncing",
