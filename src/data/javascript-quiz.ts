@@ -6,7 +6,7 @@ const javascriptQuiz = [
     Distractor1: "Debouncing",
     Distractor2: "Throttling",
     Distractor3: "Scope Chaining",
-    Explanation: "A closure is the combination of a function bundled together (enclosed) with references to its surrounding state (the lexical environment). In other words, a closure gives you access to an outer function's scope from an inner function.",
+    Explanation: "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
   },
   {
