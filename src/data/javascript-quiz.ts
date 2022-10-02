@@ -1091,7 +1091,7 @@ const javascriptQuiz = [
     Distractor2: "this",
     Distractor3: "var",
     Explanation:
-      "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined. There are other uses as well.",
+      "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
     Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
   },
 ];
