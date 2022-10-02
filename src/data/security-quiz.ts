@@ -1,11 +1,11 @@
 const securityQuiz = [
   {
     Question:
-      "What is the most common way to get hacked?",
+      "Which way is the most common way to leak sensitive information from your device?",
     Answer: "MitM attacks (Man in the Middle Attacks)",
     Distractor1: "Simple passwords",
-    Distractor2: "Dating a hacker",
-    Distractor3: "Bluetooth",
+    Distractor2: "Default factory configuration on device",
+    Distractor3: "Eavesdroppers",
     Explanation:
       "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
