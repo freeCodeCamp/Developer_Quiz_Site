@@ -1,7 +1,7 @@
 const sqlQuiz = [
   {
     Question:
-      "What keyword is used when the WHERE clause fails when used with aggregate functions",
+      "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
     Answer: "HAVING",
     Distractor1: "ADD",
     Distractor2: "DISTINTC",
