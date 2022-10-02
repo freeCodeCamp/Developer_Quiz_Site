@@ -1,7 +1,7 @@
 const securityQuiz = [
   {
     Question:
-      "Which way is the most common way to leak sensitive information from your device?",
+      "In digital security, what is a Man in the Middle Attack?",
     Answer: "MitM attacks (Man in the Middle Attacks)",
     Distractor1: "Simple passwords",
     Distractor2: "Default factory configuration on device",
