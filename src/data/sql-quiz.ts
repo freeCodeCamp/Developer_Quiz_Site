@@ -333,6 +333,17 @@ const sqlQuiz = [
     Explanation: "The DROP TABLE command is used to delete an entire table.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
   },
+  {
+    Question:
+      "In SQL, what is the command used to give a record a date and time value from the system on execution?",
+    Answer: "NOW()",
+    Distractor1: "TIMESTAMP()",
+    Distractor2: "Y-M-D()",
+    Distractor3: "DATETIME()",
+    Explanation:
+      "The NOW() function gives the selected record a value of the current timestamp",
+    Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
+  },
 ];
 
 export default sqlQuiz;
