@@ -1,6 +1,17 @@
 const sqlQuiz = [
   {
     Question:
+      "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
+    Answer: "DISTINCT",
+    Distractor1: "GROUP BY",
+    Distractor2: "COUNT",
+    Distractor3: "WHERE",
+    Explanation:
+      "In SQL, the DISTINCT keyword will only count unique values that are NOT NULL. The computer will ignore any duplicate values.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/",
+  },
+  {
+    Question:
       "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
     Answer: "HAVING",
     Distractor1: "ADD",
