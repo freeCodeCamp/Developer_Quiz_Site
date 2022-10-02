@@ -1,12 +1,12 @@
 const qualityAssuranceQuiz = [
   {
-    Question: "What does QA and QC stand for?",
+    Question: "What do the terms QA and QC stand for?",
     Answer: "Quality Assurance and Quality Control ",
     Distractor1: "Quality Assets and Quality completion",
     Distractor2: "Quality Analyst and Quantum Computing",
     Distractor3: "Quality Assessment and Quality Computing",
     Explanation:
-      "Quality Assurance (commonly known as QA) and Queuing Control (commonly known as QC)",
+      "Quality Assurance (commonly known as QA) and Quality Control (commonly known as QC)",
     Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
   },
   {
@@ -17,7 +17,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "End to End",
     Explanation:
       "One of the most common sources of bugs is related to typos and incorrect types. Static Analysis Testing lets you catch typos and type errors as you write the code.",
-    Link: "https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests",
+    Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-2-part-3-be699ee7be60/",
   },
   {
     Question:
@@ -28,7 +28,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "End to End",
     Explanation:
       "Unit Testing lets us verify that individual, isolated parts work as expected.",
-    Link: "https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
   },
   {
     Question:
@@ -39,7 +39,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "End to End",
     Explanation:
       "Integration Testing lets us verify that several units work together in harmony.",
-    Link: "https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
   },
   {
     Question:
@@ -50,7 +50,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "Integration",
     Explanation:
       "End to End tests typically run the entire application (both frontend and backend) and your test will interact with the app just like a typical user would.",
-    Link: "https://kentcdodds.com/blog/static-vs-unit-vs-integration-vs-e2e-tests",
+    Link: "https://www.freecodecamp.org/news/end-to-end-testing-tutorial/",
   },
 ];
 
