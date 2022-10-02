@@ -1535,6 +1535,8 @@ const htmlQuiz = [
     Explanation:
       "The text size can be set with a vw unit, which means the viewport width.Viewport is the browser window size.Example 1vw = 1% of viewport width"
          Link: "https://www.w3schools.com/html/html_responsive.asp",
+  },
+        
 
 ];
 export default htmlQuiz;
