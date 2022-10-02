@@ -1,6 +1,17 @@
 const gitQuiz = [
   {
     Question:
+      "In Git, how can you save uncommitted changes on your local machine so you can work on it later?",
+    Answer: "git stash",
+    Distractor1: "git copy into notepad.exe",
+    Distractor2: "git save code",
+    Distractor3: "git clone --for later",
+    Explanation:
+      "Stashes are temporary storage spaces where you can store your code. When you’re done, you can put your code back from the stash using git stash pop. You won’t have to worry about losing any uncommitted changes!",
+    Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/",
+  },
+  {
+    Question:
       "In Git, how do you integrate changes from one branch to another?",
     Answer: "git merge",
     Distractor1: "git copy into",
