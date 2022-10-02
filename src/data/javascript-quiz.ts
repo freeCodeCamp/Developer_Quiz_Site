@@ -1,7 +1,7 @@
 const javascriptQuiz = [
   {
     Question:
-      "In JavaScript, Which Web API used to insert a child node anywhere under the parent node?",
+      "In JavaScript, which Web API is used to insert a child node anywhere under the parent node?",
     Answer: "insertBefore()",
     Distractor1: "prepend()",
     Distractor2: "append()",
