@@ -934,8 +934,7 @@ const pythonQuiz = [
     Distractor1: "__main__",
     Distractor2: "main.py",
     Distractor3: "__package__",
-    Explanation:
-      "We cannot create a python package without adding a __init__.py file, This file will tell Python to treat directories as modules.
+    Explanation: "We cannot create a python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
     Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
   },
 ];
