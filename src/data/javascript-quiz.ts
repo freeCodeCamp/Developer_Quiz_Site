@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor2: "Throttling",
     Distractor3: "Scope Chaining",
     Explanation: "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures"
+    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e"
   },
   {
     Question:
