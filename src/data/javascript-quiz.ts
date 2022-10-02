@@ -1,5 +1,14 @@
 const javascriptQuiz = [
-    {
+  {
+    Question: "The process of converting value from one type to another (such as string to number, object to boolean, and so on) is known as?",
+    Answer: "Type Coercion",
+    Distractor1: "Type Casting",
+    Distractor2: "Data Converting",
+    Distractor3: "Change Value",
+    Explanation: "Type coercion is the process of converting value from one type to another (such as string to number, object to boolean, and so on).",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
     Question: "Which of the following method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
     Answer: "addEventListener()",
     Distractor1: "listenEvent()",
