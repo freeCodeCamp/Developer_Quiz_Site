@@ -7,7 +7,7 @@ const sqlQuiz = [
     Distractor2: "DISTINTC",
     Distractor3: "LIMIT",
     Explanation:
-      "With the HAVING clause, you can arrange the data in your database into many groups when you use it with the GROUP BY keyword.",
+      "In SQL, you will have to use the HAVING clause because the WHERE clause fails when used with aggregate functions.",
     Link: "https://www.freecodecamp.org/news/sql-having-how-to-group-and-count-with-a-having-statement/",
   },
   {
