@@ -1,6 +1,17 @@
 const generalCSQuiz = [
   {
     Question:
+      "Which algorithm utilizes a pivot value to sort?",
+    Answer: "Quick Sort",
+    Distractor1: "Merge Sort",
+    Distractor2: "Bubble Sort",
+    Distractor3: "Insertion Sort",
+    Explanation:
+      "Quick sort works by selecting one element (called “the pivot”) and finding the index where the pivot should end up in the sorted array.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-algorithms-with-javascript-examples/#quick-sort",
+  },
+  {
+    Question:
       "Which one of these data structures follows the FIFO(First In First Out) method?",
     Answer: "Queues",
     Distractor1: "Arrays",
@@ -713,6 +724,15 @@ const generalCSQuiz = [
     Distractor3: "Screen Vector Graphics",
     Explanation: "SVG stands for Scalable Vector Graphics.",
     Link: "https://www.freecodecamp.org/news/use-svg-images-in-css-html/",
+  },
+  {
+    Question: "What is Lossless compression?",
+    Answer: "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Distractor1: "a sorting algorithm",
+    Distractor2: "a reverse algorithm",
+    Distractor3: "an algorithm that converts wav files to mp3 files",
+    Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
 ];
 

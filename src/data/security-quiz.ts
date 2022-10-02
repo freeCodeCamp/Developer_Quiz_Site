@@ -1,6 +1,50 @@
 const securityQuiz = [
   {
     Question:
+      "In digital security, what is a Man in the Middle Attack?",
+    Answer: "an attack where hackers can spy on your internet traffic and modify it",
+    Distractor1: "an attack where hackers can send emails with fake links",
+    Distractor2: "an attack where hackers can encrypt your files and demand payment",
+    Distractor3: "an attack where hackers can flood the system with network requests",
+    Explanation:
+      "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
+    Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
+  },
+  {
+    Question:
+      "Which of the following is a mechanism to ensure non-repudiation?",
+    Answer: "Assymetric-key encryption",
+    Distractor1: "MD5",
+    Distractor2: "Symmetric-key encryption",
+    Distractor3: "Caesar cipher",
+    Explanation:
+      "Assymetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/",
+  },
+  {
+    Question:
+      "What kind of application lurks in the process list,leverages Windows Hooks to intercept user inputs and has the potential to attack both the user's machine and their internet login information?",
+    Answer: "Keylogger",
+    Distractor1: "typethief",
+    Distractor2: "trojan",
+    Distractor3: "worm",
+    Explanation:
+      "Keylogger is a type of malware that records every keystroke made by the user. It is widely used to steal passwords, credit card numbers, and other sensitive information. It can also be used to monitor the user's activity and send the information to a third party.",
+    Link: "https://www.freecodecamp.org/news/how-did-someone-get-my-password-2/",
+  },
+  {
+    Question:
+      "Which of the following attack exploits input validation vulnerabilities?",
+    Answer: "Cross-site scripting(XSS)",
+    Distractor1: "DNS poisoning",
+    Distractor2: "SQL injection",
+    Distractor3: "ARP spoofing",
+    Explanation:
+      "Cross-site scripting(XSS) is a type of attack that exploits input validation vulnerabilities. It is a type of injection attack that allows an attacker to inject client-side scripts into web pages viewed by other users. The attacker can then execute scripts in the victim's browser, which can hijack user sessions ,deface web sites, or redirect the user to malicious sites.",
+    Link: "https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/",
+  },
+  {
+    Question:
       "Which programming language is most susceptible to buffer overflow attacks?",
     Answer: "C",
     Distractor1: "Java",
