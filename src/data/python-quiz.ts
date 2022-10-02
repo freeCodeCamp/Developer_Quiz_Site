@@ -1,5 +1,25 @@
 const pythonQuiz = [
   {
+    Question: "In Python, which of the following method returns last value from a list?",
+    Answer: "pop()",
+    Distractor1: "remove()",
+    Distractor2: "last()",
+    Distractor3: "end()",
+    Explanation:
+      "By default, if there is no index specified, the pop() method will remove the last item that is contained in the list. Besides just removing the item, pop() also returns it.",
+    Link: "https://www.freecodecamp.org/news/python-pop-how-to-pop-from-a-list-or-an-array-in-python/#howtousethepopmethodwithnoparameteranamenoparametera",
+  },
+  {
+    Question: "In Python, which of the following outputs 'camp'?",
+    Answer: "print('freecodecamp'[-4:])",
+    Distractor1: "print('freecodecamp'[8::-1])",
+    Distractor2: "print('freecodecamp'[8:11])",
+    Distractor3: "print('freecodecamp'[-4:10])",
+    Explanation:
+      "Here we use the negative index to start slicing 4th index from the end of the string.",
+    Link: "https://www.freecodecamp.org/news/python-substring-how-to-slice-a-string/#how-to-get-the-last-n-characters-of-a-string-in-python",
+  },
+  {
     Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
     Answer: "Explicit Type Conversion",
     Distractor1: "Implicit Type Conversion",
