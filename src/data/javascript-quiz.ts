@@ -1,6 +1,16 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, what is it called when you have a combination of a function and its lexical environment?",
+    Answer: "Closure",
+    Distractor1: "Debouncing",
+    Distractor2: "Throttling",
+    Distractor3: "Scope Chaining",
+    Explanation: "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
+    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e"
+  },
+  {
+    Question:
       "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
