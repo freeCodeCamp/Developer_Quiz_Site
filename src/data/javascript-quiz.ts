@@ -1,7 +1,39 @@
 const javascriptQuiz = [
   {
     Question:
-      "In JavaScript, which built-in method will provide an information about size and position of an element?",
+      "In JavaScript, Which Web API used to insert a child node anywhere under the parent node?",
+    Answer: "insertBefore()",
+    Distractor1: "prepend()",
+    Distractor2: "append()",
+    Distractor3: "lookupPrefix()",
+    Explanation:
+      "The insertBefore() method of the Node interface inserts a node before a reference node as a child of a specified parent node.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+  },
+  {
+    Question:
+      "Which of the following scoping types does JavaScript use?",
+    Answer: "Lexical",
+    Distractor1: "Sequential",
+    Distractor2: "Segmental",
+    Distractor3: "Literal",
+    Explanation:
+      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
+    Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
+  },
+  {
+    Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
+    Answer: "a number",
+    Distractor1: "a string",
+    Distractor2: "an array",
+    Distractor3: "a sum",
+    Explanation:
+      "The unary plus operator (+) attempts to convert its operand to a number.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
+  },
+  {
+    Question:
+      "Which Web API used with JavaScript provides information about the size and position of an element?",
     Answer: ".getBoundingClientRect()",
     Distractor1: ".getOwnPropertyDescriptors()",
     Distractor2: ".assign()",
@@ -1028,6 +1060,17 @@ const javascriptQuiz = [
     Distractor3: "Document Object Mainframe",
     Explanation: "DOM stands for Document Object Model.",
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/",
+  },
+  {
+    Question:
+      "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
+    Answer: "Object",
+    Distractor1: "Undefined",
+    Distractor2: "Integer",
+    Distractor3: "Boolean",
+    Explanation:
+      "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
+    Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
 ];
 
