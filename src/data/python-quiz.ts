@@ -928,6 +928,24 @@ const pythonQuiz = [
     Explanation: "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.", 
     Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
   },
+  { 
+    Question: "What is the maximum possible length of an identifier in Python?",
+    Answer: "none of the mentioned", 
+    Distractor1: "79 characters", 
+    Distractor2: "32 characters", 
+    Distractor3: "16 characters", 
+    Explanation: "Identifiers can be of any length.", 
+    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
+  },
+  { 
+    Question: "What arithmetic operators cannot be used with strings in Python?",
+    Answer: "-", 
+    Distractor1: "+", 
+    Distractor2: "-", 
+    Distractor3: "*", 
+    Explanation: "+ is used to concatenate and * is used to multiply strings", 
+    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
+  },
 ];
 
 export default pythonQuiz;
