@@ -1052,6 +1052,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "How can you change the background color of an HTML element using JavaScript?",
+    Answer: "element.style.backgroundColor = 'red'",
+    Distractor1: "element.style.backgroundcolor = 'red'",
+    Distractor2: "element.style.background-color = 'red'",
+    Distractor3: "element.style.bgColor = 'red'",
+    Explanation:
+      "JavaScript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
+    Link: "https://youtu.be/5fb2aPlgoys?t=704",
+    },
+    {
+    Question:
       "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
     Answer: "Object",
     Distractor1: "Undefined",
