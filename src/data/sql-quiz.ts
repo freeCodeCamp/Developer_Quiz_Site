@@ -7,7 +7,7 @@ const sqlQuiz = [
     Distractor2: "DISTINTC",
     Distractor3: "LIMIT",
     Explanation:
-      "The HAVING keyword was introduced because the WHERE clause fails when used with aggregate functions. So, you have to use the HAVING clause with aggregate functions instead of WHERE. With the HAVING clause, you can arrange the data in your database into many groups when you use it with the GROUP BY keyword. So, you can use it in a large database.",
+      "With the HAVING clause, you can arrange the data in your database into many groups when you use it with the GROUP BY keyword.",
     Link: "https://www.freecodecamp.org/news/sql-having-how-to-group-and-count-with-a-having-statement/",
   },
   {
