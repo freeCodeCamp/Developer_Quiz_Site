@@ -1,5 +1,5 @@
 .hero-container {
-  background-image: url('../images/background.png');
+  background-image: url("../images/background.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -29,7 +29,7 @@
   letter-spacing: 1px;
   line-height: 1.5em;
   box-shadow: inset -5px -6px #0a0a232e;
-} 
+}
 
 .hero-text h1 {
   font-weight: bold;

@@ -1,7 +1,7 @@
 /*Basic CSS reset*/
 
 * {
-  margin:0;
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -13,7 +13,7 @@ html {
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   background-color: #0a0a23;
   color: #ffffff;
 }
@@ -42,28 +42,32 @@ a:hover {
   align-items: center;
 }
 
-.quiz-heading, .results-heading {
+.quiz-heading,
+.results-heading {
   text-align: center;
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
 }
 
 .select-btn-div {
-  display: flex; 
-  flex-direction: column; 
-  margin: 20px;  
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
 }
 
-.select-btns, .answers-btns {
+.select-btns,
+.answers-btns {
   cursor: pointer;
   padding: 10px;
-  border-radius: 15px; 
+  border-radius: 15px;
   margin: 10px 0;
   background-color: #ffffff;
   border: none;
   font-size: 1.2rem;
 }
 
-.quiz-btn, .results-btn, .modal-btn {
+.quiz-btn,
+.results-btn,
+.modal-btn {
   background-color: #f1be32;
   border: 3px solid #feac32;
   font-size: 1.2rem;
@@ -78,9 +82,9 @@ a:hover {
 }
 
 .quiz-answers-div {
-  display: flex; 
+  display: flex;
   flex-direction: column;
-  margin: 20px
+  margin: 20px;
 }
 
 .quiz-btn {
@@ -91,6 +95,7 @@ a:hover {
 
 .quiz-text {
   display: flex;
+  padding: 0 10px;
   justify-content: space-evenly;
   font-size: 1.4rem;
 }
@@ -116,8 +121,8 @@ a:hover {
 .results-div {
   display: flex;
   flex-direction: column;
-  justify-content:  center; 
-  align-items:  center ;
+  justify-content: center;
+  align-items: center;
 }
 
 .results-text {

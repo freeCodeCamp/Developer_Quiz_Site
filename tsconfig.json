@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "esnext",
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "jsx": "preserve",
+    "allowJs": false,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "lib": ["dom", "dom.iterable", "esnext"]
+  }
+}
