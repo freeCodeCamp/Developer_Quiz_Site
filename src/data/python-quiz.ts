@@ -1,6 +1,6 @@
 const pythonQuiz = [
   {
-    Question: "What is the output of the following. aTuple=(10, 20, 30, 40, 50, 60, 70, 80). print(aTuple[2:5])",
+    Question: "What is the output of the following Python code: print((10, 20, 30, 40, 50, 60, 70, 80)[2:5])?",
     Answer: "(30, 40, 50)",
     Distractor1: "(10, 30 ,40, 50)",
     Distractor2: "(30, 40, 50)",
