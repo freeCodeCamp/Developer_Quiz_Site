@@ -1,18 +1,18 @@
 const htmlQuiz = [
   {
-    Question: "How many Heading tag are there in HTML5",
+    Question: "How many Heading tag are there in HTML5?",
     Answer: "6",
     Distractor1: "4",
     Distractor2: "8",
-    Distractor3: "6",
+    Distractor3: "1",
     Explanation:
       "There are 6 Heading tag in HTML5  by default",
     Link: "https://youtu.be/kUMe1FH4CHE?t=1219",
   },
   {
-    Question: "What is the font-size of the h1 heading tag",
+    Question: "What is the font-size of the h1 heading tag?",
     Answer: "2em",
-    Distractor1: "2em",
+    Distractor1: "3em",
     Distractor2: "3.4em",
     Distractor3: "2.7em",
     Explanation:
@@ -20,11 +20,11 @@ const htmlQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html/",
   },
   {
-    Question: "How is document type initialized in HTML5",
+    Question: "How is document type initialized in HTML5?",
     Answer: "<!DOCTYPE HTML>",
     Distractor1: "</DOCTYPE HTML>",
     Distractor2: "</DOCTYPE>",
-    Distractor3: "<!DOCTYPE HTML>",
+    Distractor3: "<!HTML>",
     Explanation:
       "Document type initialized in HTML5 is <!DOCTYPE HTML>",
     Link: "https://www.freecodecamp.org/news/html5-tags-you-might-not-know/",
