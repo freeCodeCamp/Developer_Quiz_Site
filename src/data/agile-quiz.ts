@@ -23,7 +23,7 @@ const agileQuiz = [
     Distractor1: "KanScrum",
     Distractor2: "ScrumKanban",
     Distractor3: "Kanrum",
-    Explanation: "Kanban is very flexible. It can be used in combination with Scrum, which is called Scrumban.",
+    Explanation: "Kanban is very flexible and it can be used in combination with Scrum, which is called Scrumban.",
     Link: "https://www.freecodecamp.org/news/what-is-kanban-the-agile-methodology-defined-and-how-to-use-it-for-your-software-development-team-2/",
  },  
  {
