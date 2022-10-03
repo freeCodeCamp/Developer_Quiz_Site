@@ -11,9 +11,15 @@ In the command line:
 
 1. Clone the repo by typing `git clone https://github.com/YOUR-GITHUB-USERNAME/Developer_Quiz_Site.git`
 2. Then type `cd Developer_Quiz_Site` to go into the project's directory.
-3. Install dependencies with `npm install`
-4. Run the project with `npm start`
-5. Have fun 🚀
+    - Option A: NPM
+      1. Ensure Node.js and NPM are installed on machine
+      2. Install dependecies with `npm install`
+      3. Run the project with `npm start`
+    - Option B: Docker
+      1. Once local changes are complete, build the docker image with `docker build -t developer-quiz-site .`
+      2. Run the docker container: `docker container run --rm -it -p 3000:3000 developer-quiz-site`
+      3. Visit `localhost:3000` in a browser to view the site!
+3. Have fun 🚀
 
 ## Guidelines for adding quiz questions
 
