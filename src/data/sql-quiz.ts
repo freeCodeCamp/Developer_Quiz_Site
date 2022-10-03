@@ -377,6 +377,19 @@ const sqlQuiz = [
       "You can select from INFORMATION_SCHEMA.COLUMNS and combine with a WHERE clause when needing to identify where a certain column is stored.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
   },
+  {
+    Question:
+      "In SQL If You Want To Undo a GRANT, you Should use",
+    Answer: "REVOKE",
+    Distractor1: "UNDO",
+    Distractor2: "DELETE",
+    Distractor3: "ROLLBACK",
+    Explanation:
+      "The REVOKE statement can be used to undo the action of a GRANT statement. It revokes a privilege from a grantee, but only if that exact privilege was granted to the same grantee before",
+    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html#:~:text=The%20REVOKE%20statement%20enables%20system,1.4%2C%20%E2%80%9CGRANT%20Statement%E2%80%9D."
+  },
+
+
 ];
 
 export default sqlQuiz;
