@@ -731,8 +731,17 @@ const generalCSQuiz = [
     Distractor1: "Nibble is an algorithm",
     Distractor2: "Nibble is a octet",
     Distractor3: "Nibble is a device",
-    Explanation: "A nibble is a four-bit aggregation, or half an octet. It is also known as half-byte or tetrade.",
+    Explanation: "a nibble is group of four bits or it's half of a byte.",
     Link: "https://en.wikipedia.org/wiki/Nibble/",
+  },
+  {
+    Question: "What is Lossless compression?",
+    Answer: "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Distractor1: "a sorting algorithm",
+    Distractor2: "a reverse algorithm",
+    Distractor3: "an algorithm that converts wav files to mp3 files",
+    Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
 ];
 
