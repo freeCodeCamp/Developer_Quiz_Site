@@ -725,7 +725,7 @@ const linuxQuiz = [
     Distractor2: "ifconfig",
     Distractor3: "netlist",
     Explanation:
-      "Netstat command displays various network related information such as network connections, routing tables, interface statistics, masquerade connections, multicast memberships etc.,",
+      "The netstat command can be used to display network connections and various protocol statistics.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
@@ -736,18 +736,18 @@ const linuxQuiz = [
     Distractor2: "stop",
     Distractor3: "finish",
     Explanation:
-      "kill command sends a signal which ultimately terminates or kills a particular process or group of processes. If the user does not specify a signal to send with the kill command, the process is terminated using the default TERM signal.",
+      "The kill command sends a signal which terminates or kills a particular process or group of processes.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command",
   },  
   {
     Question:
-      "In Linux, which command can be used for cron jobs ?",
+      "In Linux, which command can be used for cron jobs?",
     Answer: "crontab",
     Distractor1: "cronaction",
     Distractor2: "cronset",
     Distractor3: "cronedit",
     Explanation:
-      "The crontab command submits, edits, lists, or removes cron jobs. A cron job is a command run by the cron daemon at regularly scheduled intervals.",
+      "The crontab command can used to perform various actions on cron jobs.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
 ];
