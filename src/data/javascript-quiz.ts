@@ -1,5 +1,23 @@
 const javascriptQuiz = [
   {
+    Question: "What is the process of converting a value from one data type to another called?",
+    Answer: "Type Coercion",
+    Distractor1: "Type Casting",
+    Distractor2: "Data Converting",
+    Distractor3: "Change Value",
+    Explanation: "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question: "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Answer: "addEventListener()",
+    Distractor1: "listenEvent()",
+    Distractor2: "callEvent()",
+    Distractor3: "eventWake()",
+    Explanation: "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
+  },
+  {
     Question:
       "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
     Answer: "innerHTML",
