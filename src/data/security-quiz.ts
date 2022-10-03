@@ -44,7 +44,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {
-    Question: "What is a common exploited Web security vulnerability",
+    Question: "What is a common exploited Web security vulnerability?",
     Answer: "SQL injection",
     Distractor1: "NoSQL Injection",
     Distractor2: "XPATH Injection",
@@ -61,7 +61,7 @@ const securityQuiz = [
     Distractor2: "IP white- and blacklist",
     Distractor3: "Good Antivirus",
     Explanation:
-      "Sanitizing your user input is a basic common rule in security, make sure not to add directly GET or POST variables in your code without a proper sanitizing function. ",
+      "Sanitizing your user input is a basic common rule in security. It is important to not directly add GET or POST variables in your code without a proper sanitizing function. ",
     Link: "https://www.youtube.com/watch?v=2nXOxLpeu80&t=1h37m41s",
   },
 ];
