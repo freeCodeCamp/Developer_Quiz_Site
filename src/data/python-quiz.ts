@@ -1,5 +1,25 @@
 const pythonQuiz = [
   {
+    Question: "What is the output of the following Python code: print((10, 20, 30, 40, 50, 60, 70, 80)[2:5])?",
+    Answer: "(30, 40, 50)",
+    Distractor1: "(10, 30 ,40, 50)",
+    Distractor2: "(30, 40, 50)",
+    Distractor3: "(10, 20, 30)",
+    Explanation:
+      "To get a sub tuple out of the Tuple, we need to specify the range of indexes. We need to specify where to start and where to end the range.",
+    Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
+  },
+  {
+    Question: "What is the output of the following Tuple Operation in Python: print((100,) * 2)?",
+    Answer: "(100,100)",
+    Distractor1: "(200)",
+    Distractor2: "(100)",
+    Distractor3: "(100,100)",
+    Explanation:
+      "We can use * operator to repeat the tuple values n number of times.",
+    Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
+  },
+  {
     Question: "In Python, which of the following outputs 'camp'?",
     Answer: "print('freecodecamp'[-4:])",
     Distractor1: "print('freecodecamp'[8::-1])",
