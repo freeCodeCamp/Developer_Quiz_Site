@@ -734,6 +734,15 @@ const generalCSQuiz = [
     Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
     Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
+  {
+    Question: "What is a Nibble?",
+    Answer: "Nibble is a four-bit aggregation",
+    Distractor1: "Nibble is an algorithm",
+    Distractor2: "Nibble is a octet",
+    Distractor3: "Nibble is a device",
+    Explanation: "a nibble is group of four bits or it's half of a byte.",
+    Link: "https://en.wikipedia.org/wiki/Nibble",
+  },
 ];
 
 export default generalCSQuiz;
