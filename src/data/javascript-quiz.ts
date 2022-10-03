@@ -5,7 +5,7 @@ const javascriptQuiz = [
     Distractor1: "Type Casting",
     Distractor2: "Data Converting",
     Distractor3: "Change Value",
-    Explanation: "Type coercion is the process of converting value from one type to another (such as string to number, object to boolean, and so on).",
+    Explanation: "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
