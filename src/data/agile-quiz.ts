@@ -14,7 +14,7 @@ const agileQuiz = [
     Distractor1: "Plot",
     Distractor2: "Plan",
     Distractor3: "Outline",
-    Explanation: "A story is typically the smallest defined piece of work.",
+    Explanation: "A story is typically the smallest defined piece of work within the Agile framework.",
     Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
  },
  {
