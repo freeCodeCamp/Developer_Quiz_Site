@@ -9,7 +9,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
  },
  {
-    Question: "Which of the following is typically the smallest defined piece of work in Agile framework?",
+    Question: "Which of the following is typically the smallest defined piece of work in the Agile framework?",
     Answer: "Story",
     Distractor1: "Plot",
     Distractor2: "Plan",
