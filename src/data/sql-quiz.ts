@@ -363,7 +363,7 @@ const sqlQuiz = [
     Distractor2: "SCHEMA.COLUMNS",
     Distractor3: "SCHEMA.INFO.COLS",
     Explanation:
-      "You can select from INORMATION_SCHEMA.COLUMNS and combine with a WHERE clause when needing to identify where a certain column is stored.",
+      "You can select from INFORMATION_SCHEMA.COLUMNS and combine with a WHERE clause when needing to identify where a certain column is stored.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
   },
 ];
