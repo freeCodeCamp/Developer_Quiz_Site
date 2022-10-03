@@ -4,7 +4,7 @@ const agileQuiz = [
     Answer: "Waterfall Development",
     Distractor1: "Kanban Development",
     Distractor2: "Linear Development",
-    Distractor3: "Rigid Deevelopment",
+    Distractor3: "Rigid Development",
     Explanation: "Waterfall development is a very linear approach to building a product. It has little to no room for feedback or iteration until the product is completely built and tested.",
     Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
  },
