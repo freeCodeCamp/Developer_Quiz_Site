@@ -1,6 +1,17 @@
 const sqlQuiz = [
   {
     Question:
+      "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
+    Answer: "DISTINCT",
+    Distractor1: "GROUP BY",
+    Distractor2: "COUNT",
+    Distractor3: "WHERE",
+    Explanation:
+      "In SQL, the DISTINCT keyword will only count unique values that are NOT NULL. The computer will ignore any duplicate values.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/",
+  },
+  {
+    Question:
       "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
     Answer: "HAVING",
     Distractor1: "ADD",
@@ -354,6 +365,17 @@ const sqlQuiz = [
     Explanation:
       "The NOW() function gives the selected record a value of the current timestamp",
     Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
+  },
+  {
+    Question:
+      "In SQL, where can we access all column names within a database?",
+    Answer: "INFORMATION_SCHEMA.COLUMNS",
+    Distractor1: "COLUMNS",
+    Distractor2: "SCHEMA.COLUMNS",
+    Distractor3: "SCHEMA.INFO.COLS",
+    Explanation:
+      "You can select from INFORMATION_SCHEMA.COLUMNS and combine with a WHERE clause when needing to identify where a certain column is stored.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
   },
 ];
 
