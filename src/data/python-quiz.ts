@@ -1,5 +1,25 @@
 const pythonQuiz = [
   {
+    Question: "What is the output of the following. aTuple=(10, 20, 30, 40, 50, 60, 70, 80). print(aTuple[2:5])",
+    Answer: "(30, 40, 50)",
+    Distractor1: "(10, 30 ,40, 50)",
+    Distractor2: "(30, 40, 50)",
+    Distractor3: "(10, 20, 30)",
+    Explanation:
+      "To get a subTuple out of the Tuple, we need to specify the range of indexes. We need to specify where to start and where to end the range.",
+    Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
+  },
+  {
+    Question: "What is the output of the following Tuple Operation. aTuple(100,). print(aTuple * 2)",
+    Answer: "(100,100)",
+    Distractor1: "(200)",
+    Distractor2: "(100)",
+    Distractor3: "(100,100)",
+    Explanation:
+      "We can use * operator to repeat the tuple values n number of times.",
+    Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
+  },
+  {
     Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
     Answer: "Explicit Type Conversion",
     Distractor1: "Implicit Type Conversion",
