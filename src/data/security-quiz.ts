@@ -97,6 +97,16 @@ const securityQuiz = [
       "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
     Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
   },
+  {
+    Question: "What is the full form of TLS?",
+    Answer: "Transport Layer Security",
+    Distractor1: "Transport Layer Socket",
+    Distractor2: "Transmission Layer Security",
+    Distractor3: "Transmission Layer Socket",
+    Explanation:
+      "TLS, or Transport Layer Security, refers to a protocol. The transport layer part of TLS simply refers to host-to-host communication, such as how a client and a server interact, in the Internet protocol suite model.",
+    Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/",
+  },
 ];
 
 export default securityQuiz;
