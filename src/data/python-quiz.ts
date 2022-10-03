@@ -10,7 +10,7 @@ const pythonQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
   },
   {
-    Question: "What is the output of the following Tuple Operation. aTuple(100,). print(aTuple * 2)",
+    Question: "What is the output of the following Tuple Operation in Python: print((100,) * 2)?",
     Answer: "(100,100)",
     Distractor1: "(200)",
     Distractor2: "(100)",
