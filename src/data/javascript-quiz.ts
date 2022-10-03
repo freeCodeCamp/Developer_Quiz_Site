@@ -19,6 +19,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which Web API is used to insert a child node anywhere under the parent node?",
+    Answer: "insertBefore()",
+    Distractor1: "prepend()",
+    Distractor2: "append()",
+    Distractor3: "lookupPrefix()",
+    Explanation:
+      "The insertBefore() method inserts a new child node anywhere under the parent node. This method has two parameters: newNode and referenceNode",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+  },
+  {
+    Question:
       "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
     Answer: "innerHTML",
     Distractor1: "insertAdjacentHTML",
