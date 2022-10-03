@@ -1,5 +1,15 @@
 const pythonQuiz = [
   {
+    Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
+    Answer: "Explicit Type Conversion",
+    Distractor1: "Implicit Type Conversion",
+    Distractor2: "Default Type Conversion",
+    Distractor3: "Widening Type Conversion",
+    Explanation:
+      "In Explicit Type Conversion, users convert the data type of an object to the required data type.",
+    Link: "https://www.freecodecamp.org/news/learn-typecasting-in-python-in-five-minutes-90d42c439743/#explicit-type-conversion",
+  },
+  {
     Question: "In Python, which one of these is not a Dunder method?",
     Answer: "__func",
     Distractor1: "__init__",
@@ -718,16 +728,16 @@ const pythonQuiz = [
     Question:
       "In Python, how many spaces are recommended per level of indentation?",
     Answer: "4",
-    Distractor1: "10",
-    Distractor2: "20",
-    Distractor3: "300",
+    Distractor1: "2",
+    Distractor2: "6",
+    Distractor3: "8",
     Explanation:
       "In Python, it is recommended to use 4 spaces per level of indentation.",
     Link: "https://www.python.org/dev/peps/pep-0008/#indentation",
   },
   {
     Question: "In Python, the values of a dictionary can be...",
-    Answer: "Immutable or Mutable",
+    Answer: "Both Mutable and Immutable",
     Distractor1: "only immutable",
     Distractor2: "only mutable",
     Distractor3: "Neither will work",
@@ -927,6 +937,42 @@ const pythonQuiz = [
     Distractor3: "functional", 
     Explanation: "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.", 
     Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
+  },
+  {
+    Question: "In Python, which file is compulsory to create a package?",
+    Answer: "__init__",
+    Distractor1: "__main__",
+    Distractor2: "main.py",
+    Distractor3: "__package__",
+    Explanation: "We cannot create a Python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
+    Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
+  },
+  {
+    Question: "What does the partition() function do?",
+    Answer: "Splits the string at the first occurrence and returns a tuple",
+    Distractor1: "Splits the string at the first occurrence and returns a list",
+    Distractor2: "Splits the string equally",
+    Distractor3: "Split the string at any occurrence of the given argument",
+    Explanation: "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
+    Link: "https://docs.python.org/3/library/stdtypes.html#str.partition",
+  },
+  {
+    Question: "What is an empty/null statement in Python called?",
+    Answer: "pass",
+    Distractor1: "continue",
+    Distractor2: "over",
+    Distractor3: "goto",
+    Explanation: "An empty statement is a statement that does nothing. Python offers the pass statement as an empty statement.",
+    Link: "https://docs.python.org/3/reference/simple_stmts.html#the-pass-statement",
+  },
+  {
+    Question: "In Python, Function range(4) will yield an iterable sequence like: ",
+    Answer: "[1,2,3,4]",
+    Distractor1: "[0,1,2,3,4]",
+    Distractor2: "[0,1,2,3]",
+    Distractor3: "[4]",
+    Explanation: "If you don't specify the start index, the default start index of 0 is used.",
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
   },
 ];
 

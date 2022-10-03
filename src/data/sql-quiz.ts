@@ -1,6 +1,28 @@
 const sqlQuiz = [
   {
     Question:
+      "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
+    Answer: "DISTINCT",
+    Distractor1: "GROUP BY",
+    Distractor2: "COUNT",
+    Distractor3: "WHERE",
+    Explanation:
+      "In SQL, the DISTINCT keyword will only count unique values that are NOT NULL. The computer will ignore any duplicate values.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/",
+  },
+  {
+    Question:
+      "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
+    Answer: "HAVING",
+    Distractor1: "ADD",
+    Distractor2: "DISTINTC",
+    Distractor3: "LIMIT",
+    Explanation:
+      "In SQL, you will have to use the HAVING clause because the WHERE clause fails when used with aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/sql-having-how-to-group-and-count-with-a-having-statement/",
+  },
+  {
+    Question:
       "Which of the following relational database management systems (RDBMS) should never be used to store data in a production app?",
     Answer: "Microsoft Access",
     Distractor1: "Microsoft SQL Server",
@@ -332,6 +354,17 @@ const sqlQuiz = [
     Distractor3: "ALTER TABLE table_name",
     Explanation: "The DROP TABLE command is used to delete an entire table.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, what is the command used to give a record a date and time value from the system on execution?",
+    Answer: "NOW()",
+    Distractor1: "TIMESTAMP()",
+    Distractor2: "Y-M-D()",
+    Distractor3: "DATETIME()",
+    Explanation:
+      "The NOW() function gives the selected record a value of the current timestamp",
+    Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
   },
 ];
 
