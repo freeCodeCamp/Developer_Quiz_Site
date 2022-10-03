@@ -6,7 +6,7 @@ const pythonQuiz = [
     Distractor2: "(30, 40, 50)",
     Distractor3: "(10, 20, 30)",
     Explanation:
-      "To get a subTuple out of the Tuple, we need to specify the range of indexes. We need to specify where to start and where to end the range.",
+      "To get a sub tuple out of the Tuple, we need to specify the range of indexes. We need to specify where to start and where to end the range.",
     Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
   },
   {
