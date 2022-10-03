@@ -1,5 +1,32 @@
 const agileQuiz = [
-{
+ {
+    Question: "Which of the following development model is a very linear approach to building a product and also has little to no room for feedback or iteration until the product is completely built and tested?",
+    Answer: "Waterfall Development",
+    Distractor1: "Kanban Development",
+    Distractor2: "Linear Development",
+    Distractor3: "Rigid Deevelopment",
+    Explanation: "Waterfall development is a very linear approach to building a product. It has little to no room for feedback or iteration until the product is completely built and tested.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+ },
+ {
+    Question: "Which of the following is typically the smallest defined piece of work in Agile framework?",
+    Answer: "Story",
+    Distractor1: "Plot",
+    Distractor2: "Plan",
+    Distractor3: "Outline",
+    Explanation: "A story is typically the smallest defined piece of work.",
+    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
+ },
+ {
+    Question: "Kanban when together used in combination with Scrum is called?",
+    Answer: "Scrumban",
+    Distractor1: "KanScrum",
+    Distractor2: "ScrumKanban",
+    Distractor3: "Kanrum",
+    Explanation: "Kanban is very flexible. It can be used in combination with Scrum, which is called Scrumban.",
+    Link: "https://www.freecodecamp.org/news/what-is-kanban-the-agile-methodology-defined-and-how-to-use-it-for-your-software-development-team-2/",
+ },  
+ {
     Question:
       "According to the Agile Manifesto, your highest priority is to _.",
     Answer: "satisfy the customer/client requirmenets",
