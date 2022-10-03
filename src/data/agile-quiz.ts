@@ -1,6 +1,6 @@
 const agileQuiz = [
  {
-    Question: "Which of the following development model is a very linear approach to building a product and also has little to no room for feedback or iteration until the product is completely built and tested?",
+    Question: "Which of the following development models is a very linear approach to building a product and also has little room for feedback or iteration until the product is completely built and tested?",
     Answer: "Waterfall Development",
     Distractor1: "Kanban Development",
     Distractor2: "Linear Development",
