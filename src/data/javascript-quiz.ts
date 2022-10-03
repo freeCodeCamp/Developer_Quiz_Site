@@ -1,6 +1,6 @@
 const javascriptQuiz = [
   {
-    Question: "The process of converting value from one type to another (such as string to number, object to boolean, and so on) is known as?",
+    Question: "What is the process of converting a value from one data type to another called?",
     Answer: "Type Coercion",
     Distractor1: "Type Casting",
     Distractor2: "Data Converting",
