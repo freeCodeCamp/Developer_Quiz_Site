@@ -25,7 +25,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
           <div className="col-md-7 content-text-container">
             <h2 className="featurette-heading">Want to test your knowledge?</h2>
             <p className="lead">
-              Brush up on your programming knowledge with 600+ questions.
+              Brush up on your programming knowledge with 700+ questions.
             </p>
 
             <Button
