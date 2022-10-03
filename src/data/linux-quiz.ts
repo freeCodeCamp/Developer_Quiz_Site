@@ -6,7 +6,7 @@ const linuxQuiz = [
     Distractor2: "chmod 724",
     Distractor3: "chmod 666",
     Explanation:
-      "The command chmod 777 activates all the permission access to owner, group and others by summing 4, 2, 1 on octal base.",
+      "The command chmod 777 activates all the permission access to owner, group and others by summing 4, 2, 1 on the octal base.",
     Link: "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/",
   },
   {
