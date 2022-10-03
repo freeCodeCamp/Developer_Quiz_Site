@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which command grants every permission to everyone?",
+    Answer: "chmod 777",
+    Distractor1: "chmod 111",
+    Distractor2: "chmod 724",
+    Distractor3: "chmod 666",
+    Explanation:
+      "The command chmod 777 activates all the permission access to owner, group and others by summing 4, 2, 1 on octal base.",
+    Link: "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/",
+  },
+  {
     Question: "In Linux, which command helps in listing all the enviroment variables?",
     Answer: "printenv",
     Distractor1: "lsenv",
