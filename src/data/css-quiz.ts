@@ -1,6 +1,28 @@
 const cssQuiz = [
   {
     Question:
+      "Which element is used to represent the transparency of an element in CSS?",
+    Answer: "Opacity",
+    Distractor1: "Dark",
+    Distractor2: "Transparent",
+    Distractor3: "Hover",
+    Explanation:
+      "Opacity is used to represent the transparency of an element in CSS.",
+    Link: "https://youtu.be/1Rs2ND1ryYc?t=4728",
+  },
+  {
+    Question:
+      "Which of the below CSS properties represent the order of flex items in the grid container ?",
+    Answer: "order",
+    Distractor1: "float",
+    Distractor2: "overflow",
+    Distractor3: "int",
+    Explanation:
+      "order is used to represent order of flex iteams.",
+    Link: "https://youtu.be/1Rs2ND1ryYc",
+  },
+  {
+    Question:
       "In CSS, what selector is used to set the style of links for the moment they are clicked?",
     Answer: "a:active",
     Distractor1: "a:hover",
