@@ -18,7 +18,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
  },
  {
-    Question: "Kanban when together used in combination with Scrum is called?",
+    Question: "In Agile, what is the term for combining Kanban with Scrum?",
     Answer: "Scrumban",
     Distractor1: "KanScrum",
     Distractor2: "ScrumKanban",
