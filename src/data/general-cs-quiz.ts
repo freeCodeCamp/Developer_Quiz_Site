@@ -725,6 +725,15 @@ const generalCSQuiz = [
     Explanation: "SVG stands for Scalable Vector Graphics.",
     Link: "https://www.freecodecamp.org/news/use-svg-images-in-css-html/",
   },
+  {
+    Question: "What is Lossless compression?",
+    Answer: "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Distractor1: "a sorting algorithm",
+    Distractor2: "a reverse algorithm",
+    Distractor3: "an algorithm that converts wav files to mp3 files",
+    Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
+  },
 ];
 
 export default generalCSQuiz;

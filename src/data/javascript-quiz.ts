@@ -1,5 +1,34 @@
 const javascriptQuiz = [
   {
+    Question: "What is the process of converting a value from one data type to another called?",
+    Answer: "Type Coercion",
+    Distractor1: "Type Casting",
+    Distractor2: "Data Converting",
+    Distractor3: "Change Value",
+    Explanation: "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question: "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Answer: "addEventListener()",
+    Distractor1: "listenEvent()",
+    Distractor2: "callEvent()",
+    Distractor3: "eventWake()",
+    Explanation: "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
+  },
+  {
+    Question:
+      "In JavaScript, which Web API is used to insert a child node anywhere under the parent node?",
+    Answer: "insertBefore()",
+    Distractor1: "prepend()",
+    Distractor2: "append()",
+    Distractor3: "lookupPrefix()",
+    Explanation:
+      "The insertBefore() method inserts a new child node anywhere under the parent node. This method has two parameters: newNode and referenceNode",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+  },
+  {
     Question:
       "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
     Answer: "innerHTML",
@@ -16,12 +45,12 @@ const javascriptQuiz = [
     Distractor1: "Debouncing",
     Distractor2: "Throttling",
     Distractor3: "Scope Chaining",
-    Explanation: "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
-    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e"
+    Explanation:
+      "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
+    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e",
   },
   {
-    Question:
-      "Which of the following scoping types does JavaScript use?",
+    Question: "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
     Distractor2: "Segmental",
@@ -31,7 +60,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
   },
   {
-    Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
+    Question:
+      "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
     Answer: "a number",
     Distractor1: "a string",
     Distractor2: "an array",
@@ -1080,8 +1110,8 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
     Link: "https://youtu.be/5fb2aPlgoys?t=704",
-    },
-    {
+  },
+  {
     Question:
       "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
     Answer: "Object",
@@ -1091,6 +1121,17 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
+  },
+  {
+    Question:
+      "What JavaScript keyword will return the type of a variable when you call it?",
+    Answer: "typeof",
+    Distractor1: "datatype",
+    Distractor2: "this",
+    Distractor3: "var",
+    Explanation:
+      "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
+    Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
   },
 ];
 
