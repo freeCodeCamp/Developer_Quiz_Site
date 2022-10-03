@@ -9,7 +9,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
-    Question: "Which of the following method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Question: "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
     Answer: "addEventListener()",
     Distractor1: "listenEvent()",
     Distractor2: "callEvent()",
