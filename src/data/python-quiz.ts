@@ -20,6 +20,16 @@ const pythonQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
   },
   {
+    Question: "In Python, which of the following outputs 'camp'?",
+    Answer: "print('freecodecamp'[-4:])",
+    Distractor1: "print('freecodecamp'[8::-1])",
+    Distractor2: "print('freecodecamp'[8:11])",
+    Distractor3: "print('freecodecamp'[-4:10])",
+    Explanation:
+      "Here we use the negative index to start slicing at the 4th index from the end of the string.",
+    Link: "https://www.freecodecamp.org/news/python-substring-how-to-slice-a-string/#how-to-get-the-last-n-characters-of-a-string-in-python",
+  },
+  {
     Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
     Answer: "Explicit Type Conversion",
     Distractor1: "Implicit Type Conversion",
