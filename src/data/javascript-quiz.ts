@@ -1104,6 +1104,17 @@ const javascriptQuiz = [
       "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
     Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
   },
+  {
+    Question:
+      "In Javscript, What is the return value when pushing an element to an array, using .push() method?",
+    Answer: "Length of the new array, after the element is pushed",
+    Distractor1: "undefined",
+    Distractor2: "null",
+    Distractor3: "Length of the old array, before the element is pushed",
+    Explanation:
+      ".push() returns length of the new array, after the element is pushed",
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
+  }
 ];
 
 export default javascriptQuiz;
