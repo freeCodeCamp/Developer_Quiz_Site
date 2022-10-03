@@ -1,20 +1,24 @@
 const javascriptQuiz = [
   {
-    Question: "What is the process of converting a value from one data type to another called?",
+    Question:
+      "What is the process of converting a value from one data type to another called?",
     Answer: "Type Coercion",
     Distractor1: "Type Casting",
     Distractor2: "Data Converting",
     Distractor3: "Change Value",
-    Explanation: "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
+    Explanation:
+      "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
-    Question: "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Question:
+      "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
     Answer: "addEventListener()",
     Distractor1: "listenEvent()",
     Distractor2: "callEvent()",
     Distractor3: "eventWake()",
-    Explanation: "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Explanation:
+      "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
     Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
   },
   {
@@ -35,8 +39,9 @@ const javascriptQuiz = [
     Distractor1: "insertAdjacentHTML",
     Distractor2: "insertElement",
     Distractor3: "setHTML",
-    Explanation: "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
-    Link: "https://youtu.be/jS4aFq5-91M?t=18781"
+    Explanation:
+      "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
+    Link: "https://youtu.be/jS4aFq5-91M?t=18781",
   },
   {
     Question:
@@ -1132,6 +1137,17 @@ const javascriptQuiz = [
     Explanation:
       "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
     Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
+  },
+  {
+    Question:
+      "Which JavaScript DOM method adds multiple class names to an element?",
+    Answer: "classList",
+    Distractor1: "className",
+    Distractor2: "classWord",
+    Distractor3: "classVar",
+    Explanation:
+      "The classList() DOM method helps add multiple class attributes and values to an element. Unlike className, it doesn't override the existing class name(s).",
+    Link: "https://www.freecodecamp.org/news/what-is-dom-in-javascript/",
   },
 ];
 
