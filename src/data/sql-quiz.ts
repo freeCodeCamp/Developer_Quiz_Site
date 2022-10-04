@@ -388,7 +388,17 @@ const sqlQuiz = [
       "The REVOKE statement can be used to undo the action of a GRANT statement.",
     Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
   },
-
+  {
+    Question:
+      "In SQL, Which command undo all the updates performed by the SQL in the transaction?",
+    Answer: "ROLLBACK",
+    Distractor1: "COMMIT",
+    Distractor2: "DELETE",
+    Distractor3: "REVOKE",
+    Explanation:
+      "You can use ROLLBACK TRANSACTION to erase all data modifications made from the start of the transaction or to a savepoint.",
+    Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
+  },
 
 ];
 
