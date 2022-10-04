@@ -29,7 +29,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
   },
   {
-    Question: "3.	 A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
+    Question: "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
     Answer: "Homorphic Encryption",
     Distractor1: "Symmetric Encryption",
     Distractor2: "Asymmetric Encryption",
