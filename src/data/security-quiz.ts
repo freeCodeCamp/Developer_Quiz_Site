@@ -1,6 +1,6 @@
 const securityQuiz = [
   {
-    Question: "Which of the following protocal is a way through which communication can happen SECURELY between your browser and the site you want to visit (web server).",
+    Question: "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
     Answer: "HTTPS",
     Distractor1: "HTTP",
     Distractor2: "SMTP",
