@@ -14,7 +14,7 @@ const securityQuiz = [
     Distractor1: "SFTP",
     Distractor2: "HTTP",
     Distractor3: "SSL",
-    Explanation: " SMTP, or Simple Mail Transfer Protocol, is a protocol is a communication protocol for email used to send mails to mail servers.",
+    Explanation: " SMTP, or Simple Mail Transfer Protocol, is a communication protocol used to send mails to mail servers.",
     Link: "https://www.freecodecamp.org/news/how-does-email-work/",
   },
   {
