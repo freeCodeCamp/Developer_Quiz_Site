@@ -1158,7 +1158,35 @@ const javascriptQuiz = [
     Explanation:
       ".push() returns the new length of the array, after the element has been pushed",
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
-  }
+  },
+  {
+    Question: "In JavaScript, what is the return value of the .push() method?",
+    Answer: "new length of the array, after the element has been pushed",
+    Distractor1: "undefined",
+    Distractor2: "null",
+    Distractor3: "Length of the old array, before the element is pushed",
+    Explanation:
+      ".push() returns the new length of the array, after the element has been pushed",
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
+  },
+  {
+    Question: "In JavaScript, from following what isn't use to declare a variable?",
+    Answer: "number",
+    Distractor1: "let",
+    Distractor2: "var",
+    Distractor3: "const",
+    Explanation: "JavaScript has three kinds of variable declarations. var declare a variable, optionally initializing it to a value, let declare a block scoped, local variable,optionally initializing it to a value and const declare read-only block scoped constant",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations",
+  },
+  {
+    Question: "In JavaScript, how many primitive variable are there?",
+    Answer: 7,
+    Distractor1: 3,
+    Distractor2: 6,
+    Distractor3: 8,
+    Explanation: "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String, Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types",
+  },
 ];
 
 export default javascriptQuiz;
