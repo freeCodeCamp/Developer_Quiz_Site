@@ -1,6 +1,29 @@
 const pythonQuiz = [
   {
-    Question: "What is the output of the following Python code: print((10, 20, 30, 40, 50, 60, 70, 80)[2:5])?",
+    Question:
+      "In Python, which of the following is NOT a parameter of the sorted() method?",
+    Answer: "iloc",
+    Distractor1: "key",
+    Distractor2: "iterable",
+    Distractor3: "reverse",
+    Explanation:
+      "The sorted() method can accept up to 3 parameters which are iterable, key and reverse",
+    Link: "https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/",
+  },
+  {
+    Question:
+      "In Python, which of the following is not an attribute of the datetime.now() function?",
+    Answer: "week",
+    Distractor1: "month",
+    Distractor2: "day",
+    Distractor3: "year",
+    Explanation:
+      "The attributes of the datetime.now() function are year, month, day, hour, minute, second and microsecond",
+    Link: "https://www.freecodecamp.org/news/python-datetime-now-how-to-get-todays-date-and-time/",
+  },
+  {
+    Question:
+      "What is the output of the following Python code: print((10, 20, 30, 40, 50, 60, 70, 80)[2:5])?",
     Answer: "(30, 40, 50)",
     Distractor1: "(10, 30 ,40, 50)",
     Distractor2: "(30, 40, 50)",
@@ -10,7 +33,8 @@ const pythonQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
   },
   {
-    Question: "What is the output of the following Tuple Operation in Python: print((100,) * 2)?",
+    Question:
+      "What is the output of the following Tuple Operation in Python: print((100,) * 2)?",
     Answer: "(100,100)",
     Distractor1: "(200)",
     Distractor2: "(100)",
@@ -30,7 +54,8 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-substring-how-to-slice-a-string/#how-to-get-the-last-n-characters-of-a-string-in-python",
   },
   {
-    Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
+    Question:
+      "In Python, which Type casting method lets users convert a specific data type into a required data type?",
     Answer: "Explicit Type Conversion",
     Distractor1: "Implicit Type Conversion",
     Distractor2: "Default Type Conversion",
@@ -959,14 +984,15 @@ const pythonQuiz = [
       "In Python, we start a comment with a hash symbol #. A line that starts with this symbol will be interpreted as a comment in a Python program. ",
     Link: "https://forum.freecodecamp.org/t/how-to-comment-your-code-in-python-explained-with-examples/19220",
   },
-  { 
+  {
     Question: "Which type of programming paradigm does Python support?",
-    Answer: "all of the mentioned paradigms", 
-    Distractor1: "structured programming", 
-    Distractor2: "object-oriented programming", 
-    Distractor3: "functional", 
-    Explanation: "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.", 
-    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
+    Answer: "all of the mentioned paradigms",
+    Distractor1: "structured programming",
+    Distractor2: "object-oriented programming",
+    Distractor3: "functional",
+    Explanation:
+      "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.",
+    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)",
   },
   {
     Question: "In Python, which file is compulsory to create a package?",
@@ -974,7 +1000,8 @@ const pythonQuiz = [
     Distractor1: "__main__",
     Distractor2: "main.py",
     Distractor3: "__package__",
-    Explanation: "We cannot create a Python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
+    Explanation:
+      "We cannot create a Python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
     Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
   },
   {
@@ -983,7 +1010,8 @@ const pythonQuiz = [
     Distractor1: "Splits the string at the first occurrence and returns a list",
     Distractor2: "Splits the string equally",
     Distractor3: "Split the string at any occurrence of the given argument",
-    Explanation: "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
+    Explanation:
+      "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
     Link: "https://docs.python.org/3/library/stdtypes.html#str.partition",
   },
   {
@@ -992,16 +1020,19 @@ const pythonQuiz = [
     Distractor1: "continue",
     Distractor2: "over",
     Distractor3: "goto",
-    Explanation: "An empty statement is a statement that does nothing. Python offers the pass statement as an empty statement.",
+    Explanation:
+      "An empty statement is a statement that does nothing. Python offers the pass statement as an empty statement.",
     Link: "https://docs.python.org/3/reference/simple_stmts.html#the-pass-statement",
   },
   {
-    Question: "In Python, Function range(4) will yield an iterable sequence like: ",
+    Question:
+      "In Python, Function range(4) will yield an iterable sequence like: ",
     Answer: "[1,2,3,4]",
     Distractor1: "[0,1,2,3,4]",
     Distractor2: "[0,1,2,3]",
     Distractor3: "[4]",
-    Explanation: "If you don't specify the start index, the default start index of 0 is used.",
+    Explanation:
+      "If you don't specify the start index, the default start index of 0 is used.",
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
   },
   {
