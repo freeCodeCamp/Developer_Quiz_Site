@@ -12,7 +12,7 @@ const pythonQuiz = [
   },
   {
     Question:
-      "Which of the following is not an attribute of the datetime.now() function?",
+      "In Python, which of the following is not an attribute of the datetime.now() function?",
     Answer: "week",
     Distractor1: "month",
     Distractor2: "day",
