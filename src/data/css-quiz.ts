@@ -1,7 +1,7 @@
 const cssQuiz = [
   {
     Question:
-      "Which element is used to represent the transparency of an element in CSS?",
+      "Which CSS property is used to represent the transparency of an element?",
     Answer: "Opacity",
     Distractor1: "Dark",
     Distractor2: "Transparent",
