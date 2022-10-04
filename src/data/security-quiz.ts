@@ -177,6 +177,49 @@ const securityQuiz = [
       "TLS, or Transport Layer Security, refers to a protocol. The transport layer part of TLS simply refers to host-to-host communication, such as how a client and a server interact, in the Internet protocol suite model.",
     Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/",
   },
+    {
+    Question: "Amanda notices traffic between her systems and a known malicious host on TCP port 6667. What type of traffic is she most likely detecting?",
+    Answer: "Command and control",
+    Distractor1: "A hijacked web browser",
+    Distractor2: "A worm",
+    Distractor3: "A RAT",
+    Explanation:
+      "Amanda has most likely discovered a botnet's command-and-control (C&C) channel, and the system or systems she is monitoring are probably using IRC as the C&C channel. A RAT is more likely to use a different control channel, worms spread by attacking vulnerable services, and a hijacked web browser would probably operate on common HTTP or HTTPS ports (80/443).",
+      Link: "https://www.freecodecamp.org/news/how-to-build-a-botnet/",
+
+      },
+  {
+    Question: "Mike discovers that attackers have left software that allows them to have remote access to systems on a computer in his company's network. How should he describe or classify this malware?",
+    Answer: "A backdoor",
+    Distractor1: "Crypto malware",
+    Distractor2: "A worm",
+    Distractor3: "Trojan",
+    Explanation:
+      "Remote access to a system is typically provided by a backdoor. Backdoors may also appear in firmware or even hardware. None of the other items listed provide remote access by default, although they may have a backdoor as part of a more capable malware package.",
+      Link: "https://www.freecodecamp.org/news/what-is-antimalware-service-executable-why-is-it-high-cpu-disk-usage/",
+
+  },
+   {
+    Question: "Nancy is concerned that there is a software keylogger on the system she is investigating. What data may have been stolen?",
+    Answer: "Keyboard and other input from the user",
+    Distractor1: "All files on the system",
+    Distractor2: "All keyboard input",
+    Distractor3: "All files the user access while the keylogger was active",
+    Explanation:
+      "Though keyloggers often focus on keyboard input, other types of input may also be captured, meaning Nancy should worry about any user input that occurred while the keylogger was installed. Keyloggers typically do not target files on systems, although if Nancy finds a keylogger, she may want to check for other malware packages with additional capabilities.",
+      Link: "https://www.freecodecamp.org/news/how-did-someone-get-my-password-2/",
+  },
+   {
+    Question: "Naomi believes that an attacker has compromised a Windows workstation using a fileless malware package. What Windows scripting tool was most likely used to download and execute the malware?",
+    Answer: "PowerShell",
+    Distractor1: "VBScript",
+    Distractor2: "Python",
+    Distractor3: "Bash",
+    Explanation:
+      "PowerShell is the most likely tool for this type of exploit. VBScript would be used inside an application, and both Bash and Python are more likely to exist on a Linux system.",
+      Link: "https://www.freecodecamp.org/news/tag/tools/",
+
+    },
 ];
 
 export default securityQuiz;
