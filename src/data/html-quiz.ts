@@ -16,7 +16,7 @@ const htmlQuiz = [
     Distractor2: "3.4em",
     Distractor3: "2.7em",
     Explanation:
-      "Font-Size of h1 tag is 2em by default",
+      "The font-size of h1 element is 2em by default",
     Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html/",
   },
   {
