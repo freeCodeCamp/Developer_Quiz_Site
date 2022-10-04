@@ -1160,16 +1160,6 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
   },
   {
-    Question: "In JavaScript, what is the return value of the .push() method?",
-    Answer: "new length of the array, after the element has been pushed",
-    Distractor1: "undefined",
-    Distractor2: "null",
-    Distractor3: "Length of the old array, before the element is pushed",
-    Explanation:
-      ".push() returns the new length of the array, after the element has been pushed",
-    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
-  },
-  {
     Question: "In JavaScript, from following what isn't use to declare a variable?",
     Answer: "number",
     Distractor1: "let",
