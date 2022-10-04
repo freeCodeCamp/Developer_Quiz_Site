@@ -310,7 +310,7 @@ const javascriptQuiz = [
     Answer: "getDate()",
     Distractor1: "getTheDate()",
     Distractor2: "getDay()",
-    Distractor3: "getFullYear()",
+    Distractor3: "get meaning of IIFEYear()",
     Explanation:
       "The getDate() method returns the day of the month for the specified date according to local time. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
@@ -322,7 +322,7 @@ const javascriptQuiz = [
     Answer: "getDay()",
     Distractor1: "getDate()",
     Distractor2: "getTheSpecificDay()",
-    Distractor3: "getFullYear()",
+    Distractor3: "get meaning of IIFEYear()",
     Explanation:
       "The getDay() method returns the day of the week for the specified date according to local time, where 0 represents Sunday. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay",
@@ -331,13 +331,13 @@ const javascriptQuiz = [
   {
     Question:
       "In JavaScript, which of the following methods returns the year of the specified date according to local time?",
-    Answer: "getFullYear()",
+    Answer: "get meaning of IIFEYear()",
     Distractor1: "getDate()",
     Distractor2: "listTheYear()",
-    Distractor3: "getMyFullYearNow()",
+    Distractor3: "getMy meaning of IIFEYearNow()",
     Explanation:
-      "The getFullYear() method returns the year of the specified date according to local time. ",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
+      "The get meaning of IIFEYear() method returns the year of the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/get meaning of IIFEYear",
   },
 
   {
@@ -466,7 +466,7 @@ const javascriptQuiz = [
     Answer: "comma (',')",
     Distractor1: "space (' ')",
     Distractor2: "empty string ('')",
-    Distractor3: "full-stop ('.')",
+    Distractor3: " meaning of IIFE-stop ('.')",
     Explanation:
       "If a separator is omitted, the array elements are separated with a comma (',').",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
@@ -1180,6 +1180,26 @@ const javascriptQuiz = [
     Explanation:
       "There are 6 falsy values in JavaScript: false, 0, '', null, undefined, and NaN.",
     Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/",
+  },
+  {
+    Question: "In JavaScript, a function without a name is called?",
+    Answer: "An anonymous function",
+    Distractor1: "An unsigned function",
+    Distractor2: "A ghost function",
+    Distractor3: "A nameless function",
+    Explanation:
+      "A function without a name is called an anonymous function. This is useful when you want to pass a function as an argument to another function.",
+    Link: "https://www.freecodecamp.org/news/what-are-functions-in-javascript-a-beginners-guide/",
+  },
+  {
+    Question: "In JavaScript, what is the full meaning of IIFE?",
+    Answer: "Immediately Invoked Function Expression",
+    Distractor1: "Immediately Invoked Function Executor",
+    Distractor2: "Internally Invoked Function Expression",
+    Distractor3: "Internally Invoked Function Executor",
+    Explanation:
+      "IIFE stands for Immediately Invoked Function Expression. This is a function that is executed immediately after it is created.",
+    Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
   },
 ];
 
