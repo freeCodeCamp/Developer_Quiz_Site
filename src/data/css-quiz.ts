@@ -12,7 +12,7 @@ const cssQuiz = [
   },
   {
     Question:
-      "Which of the below CSS properties represent the order of flex items in the grid container ?",
+      "Which of the following CSS properties represents the order of flex items in a container?",
     Answer: "order",
     Distractor1: "float",
     Distractor2: "overflow",
