@@ -1,5 +1,23 @@
 const securityQuiz = [
   {
+    Question: "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
+    Answer: "HTTPS",
+    Distractor1: "HTTP",
+    Distractor2: "SMTP",
+    Distractor3: "SFTP",
+    Explanation: "Hyper Text Transfer Protocol Secure, or HTTPS, is a way that communication can happen SECURELY between your browser and the site you want to visit (web server).",
+    Link: "https://www.freecodecamp.org/news/http-vs-https/",
+  },
+  {
+    Question: "Which of the following is a communication protocol for email?",
+    Answer: "SMTP",
+    Distractor1: "SFTP",
+    Distractor2: "HTTP",
+    Distractor3: "SSL",
+    Explanation: " SMTP, or Simple Mail Transfer Protocol, is a communication protocol used to send mails to mail servers.",
+    Link: "https://www.freecodecamp.org/news/how-does-email-work/",
+  },
+  {
     Question:
       "Which protocol/cipher is used which ensures parties without prior knowledge establish a shared secret without anyone else being able to sniff it ?" ,
     Answer: " Diffie-Hellman key exchange protocol ",
@@ -22,6 +40,24 @@ const securityQuiz = [
       "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
   },
+  {
+    Question: "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
+    Answer: "Homorphic Encryption",
+    Distractor1: "Symmetric Encryption",
+    Distractor2: "Asymmetric Encryption",
+    Distractor3: "Advanced Encryption",
+    Explanation: "Homomorphic Encryption is a form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+  },
+  {
+    Question: "Which of the following is a cryptographic network protocol for operating network services securely over an unsecured network?",
+    Answer: "SSH",
+    Distractor1: "SFTP",
+    Distractor2: "HTTPS",
+    Distractor3: "OSPF",
+   Explanation: "The SSH(Secure Shell Protocol) is a secure way for users to access a computer over an unsecured network.",
+    Link: "https://www.freecodecamp.org/news/ssh-keygen-how-to-generate-an-ssh-public-key-for-rsa-login/",
+  }, 
   {
     Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
