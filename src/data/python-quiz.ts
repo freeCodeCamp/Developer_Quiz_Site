@@ -1004,6 +1004,15 @@ const pythonQuiz = [
     Explanation: "If you don't specify the start index, the default start index of 0 is used.",
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
   },
+  {
+    Question: "In Python, which function is used to read a single line from a file",
+    Answer: "readline()",
+    Distractor1: "readlines()",
+    Distractor2: "readable()",
+    Distractor3: "read()",
+    Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
+    Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
+  },
 ];
 
 export default pythonQuiz;

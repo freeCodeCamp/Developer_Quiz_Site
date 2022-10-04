@@ -1160,6 +1160,16 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
   },
   {
+    Question: "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
+    Answer: "Yes, but variables declared with let and const are in Temporal Dead Zone",
+    Distractor1: "Yes",
+    Distractor2: "No",
+    Distractor3: "No, only variables declared with var are hoisted.",
+    Explanation:
+      "Variables declared with let, const and var are hoisted. But, const and let are in temporal dead zone.",
+    Link: "https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/",
+  },
+  {
     Question: "In JavaScript, what is the difference between == and ===?",
     Answer: "== allows for type coercion of the values, while === does not",
     Distractor1:

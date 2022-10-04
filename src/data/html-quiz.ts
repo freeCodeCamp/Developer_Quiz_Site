@@ -1,5 +1,35 @@
 const htmlQuiz = [
   {
+    Question: "In HTML, what is the difference between the <div> and the <span> tag?",
+    Answer: "<div> is used where a generic block-level tag is needed, while <span> is used where a generic inline tag is needed.",
+    Distractor1: "<div> is used where a generic inline tag is needed, while <span> is used where a generic block-level tag is needed.",
+    Distractor2: "<div> is used for minor divisions on a page, while <span> is used to span across a row.",
+    Distractor3: "<div> is the industry standard default tag, but you could use <span> if you prefer.",
+    Explanation:
+      " div is a block-level element, while span is an inline element. Block-level elements start on a new line and take up the full width available (stretches out to the left and right as far as it can). Inline elements sit within surrounding content (does not start on a new line and only takes up as much width as necessary).",
+    Link: "https://www.freecodecamp.org/news/span-vs-div-html-tags-what-is-the-difference/",
+  },
+  {
+    Question: "In HTML, what is the default method for form submission?",
+    Answer: "GET",
+    Distractor1: "POST",
+    Distractor2: "PUT",
+    Distractor3: "SUBMIT",
+    Explanation:
+      "If a method attribute is not used in the form, it is automatically assumed that the user wants to use the GET method, because it's the default method.",
+    Link: "https://www.freecodecamp.org/news/html-form-input-type-and-submit-button-example/",
+  },
+  {
+    Question: "In HTML, which of the following choices is not a legal type attribute for the <input> tag?",
+    Answer: "<input type='num'>",
+    Distractor1: "<input type='week'>",
+    Distractor2: "<input type='tel'>",
+    Distractor3: "<input type='color'>",
+    Explanation:
+      "The <input> tag is used to create an input field in an HTML form. The type attribute specifies the type of input field to display. type='num' is not a valid attribute for the input tag.",
+    Link: "https://www.freecodecamp.org/news/text-box-in-html-the-input-field-html-tag/",
+  },
+  {
     Question: "In HTML, what is the primary purpose of the <canvas> tag?",
     Answer: "It allows drawing on a bitmap via JavaScript.",
     Distractor1: "It displays annotated images.",
