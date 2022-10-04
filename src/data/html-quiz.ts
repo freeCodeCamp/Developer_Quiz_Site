@@ -26,7 +26,7 @@ const htmlQuiz = [
     Distractor2: "<input type='tel'>",
     Distractor3: "<input type='color'>",
     Explanation:
-      "The <input> tag is used to create an input field in an HTML form. The type attribute specifies the type of input field to display. The type attribute can have one of the following values: text, password, checkbox, radio, submit, reset, file, hidden, image, email, number, search, tel, url, date, month, week, time, datetime, datetime-local, color.",
+      "The <input> tag is used to create an input field in an HTML form. The type attribute specifies the type of input field to display. type='num' is not a valid attribute for the input tag.",
     Link: "https://www.freecodecamp.org/news/text-box-in-html-the-input-field-html-tag/",
   },
   {
