@@ -6,7 +6,7 @@ const htmlQuiz = [
     Distractor2: "8",
     Distractor3: "1",
     Explanation:
-      "There are 6 Heading tag in HTML5  by default",
+      "There are 6 Section Heading elements in HTML5.",
     Link: "https://youtu.be/kUMe1FH4CHE?t=1219",
   },
   {
