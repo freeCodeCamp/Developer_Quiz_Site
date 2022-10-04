@@ -2,8 +2,8 @@ const htmlQuiz = [
   {
     Question: "In HTML, what is the difference between the <div> and the <span> tag?",
     Answer: "<div> is used where a generic block-level tag is needed, while <span> is used where a generic inline tag is needed.",
-    Distractor1: "<div> is used for major divisions on a page, while <span> is used to span across columns.",
-    Distractor2: "<div> is used for major divisions on a page, while <span> is used to span across columns.",
+    Distractor1: "<div> is used where a generic inline tag is needed, while <span> is used where a generic block-level tag is needed.",
+    Distractor2: "<div> is used for minor divisions on a page, while <span> is used to span across a row.",
     Distractor3: "<div> is the industry standard default tag, but you could use <span> if you prefer.",
     Explanation:
       " div is a block-level element, while span is an inline element. Block-level elements start on a new line and take up the full width available (stretches out to the left and right as far as it can). Inline elements sit within surrounding content (does not start on a new line and only takes up as much width as necessary).",
