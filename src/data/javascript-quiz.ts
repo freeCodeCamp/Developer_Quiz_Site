@@ -1194,7 +1194,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/",
   },
   {
-    Question: "In JavaScript, a function without a name is called?",
+    Question: "In JavaScript, what is a function without a name called?",
     Answer: "An anonymous function",
     Distractor1: "An unsigned function",
     Distractor2: "A ghost function",
@@ -1204,7 +1204,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-are-functions-in-javascript-a-beginners-guide/",
   },
   {
-    Question: "In JavaScript, what is the full meaning of IIFE?",
+    Question: "In JavaScript, what does IIFE stand for?",
     Answer: "Immediately Invoked Function Expression",
     Distractor1: "Immediately Invoked Function Executor",
     Distractor2: "Internally Invoked Function Expression",
