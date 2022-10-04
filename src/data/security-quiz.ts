@@ -43,7 +43,7 @@ const securityQuiz = [
     Distractor1: "SFTP",
     Distractor2: "HTTPS",
     Distractor3: "OSPF",
-    Explanation: "The SSH(Secure Shell Protocol) is a cryptographic network protocol for operating network services securely over an unsecured network.",
+   Explanation: "The SSH(Secure Shell Protocol) is a secure way for users to access a computer over an unsecured network.",
     Link: "https://www.freecodecamp.org/news/ssh-keygen-how-to-generate-an-ssh-public-key-for-rsa-login/",
   }, 
   {
