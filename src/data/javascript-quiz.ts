@@ -1,13 +1,58 @@
 const javascriptQuiz = [
   {
     Question:
+      "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
+    Answer: "shift()",
+    Distractor1: "pop()",
+    Distractor2: "push()",
+    Distractor3: "All take about the same time on an array of the same size.",
+    Explanation:
+      "shift() removes elements from the front of the array, which means the entire array needs to be re-indexed. In contrast, pop() and push() both work from the 'back' of the array and don't require re-indexing.",
+    Link: "https://www.freecodecamp.org/news/the-complexity-of-simple-algorithms-and-data-structures-in-javascript-11e25b29de1e/",
+  },
+  {
+    Question:
+      "What is the process of converting a value from one data type to another called?",
+    Answer: "Type Coercion",
+    Distractor1: "Type Casting",
+    Distractor2: "Data Converting",
+    Distractor3: "Change Value",
+    Explanation:
+      "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question:
+      "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Answer: "addEventListener()",
+    Distractor1: "listenEvent()",
+    Distractor2: "callEvent()",
+    Distractor3: "eventWake()",
+    Explanation:
+      "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
+  },
+  {
+    Question:
+      "In JavaScript, which Web API is used to insert a child node anywhere under the parent node?",
+    Answer: "insertBefore()",
+    Distractor1: "prepend()",
+    Distractor2: "append()",
+    Distractor3: "lookupPrefix()",
+    Explanation:
+      "The insertBefore() method inserts a new child node anywhere under the parent node. This method has two parameters: newNode and referenceNode",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+  },
+  {
+    Question:
       "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
     Answer: "innerHTML",
     Distractor1: "insertAdjacentHTML",
     Distractor2: "insertElement",
     Distractor3: "setHTML",
-    Explanation: "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
-    Link: "https://youtu.be/jS4aFq5-91M?t=18781"
+    Explanation:
+      "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
+    Link: "https://youtu.be/jS4aFq5-91M?t=18781",
   },
   {
     Question:
@@ -1104,6 +1149,16 @@ const javascriptQuiz = [
       "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
     Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
   },
+  {
+    Question: "In JavaScript, what is the return value of the .push() method?",
+    Answer: "new length of the array, after the element has been pushed",
+    Distractor1: "undefined",
+    Distractor2: "null",
+    Distractor3: "Length of the old array, before the element is pushed",
+    Explanation:
+      ".push() returns the new length of the array, after the element has been pushed",
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
+  }
 ];
 
 export default javascriptQuiz;
