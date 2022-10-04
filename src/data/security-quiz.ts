@@ -1,5 +1,39 @@
 const securityQuiz = [
   {
+    Question:
+      " Which of the following term involves sending packets of data to the target and interpreting their response.?",
+    Answer: "Scanning",
+    Distractor1: "Exploitation",
+    Distractor2: "Scanning",
+    Distractor3: "Reporting",
+    Explanation:
+      "This is the part where you come in contact with the target. Scanning involves sending packets of data to the target and interpreting their response.",
+    Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/",
+
+
+  },
+  {
+    Question:
+      " Getting as much information as you can about the target without interacting directly with the target is known. ?",
+    Answer: "Reconnaissance",
+    Distractor1: "Enumeration",
+    Distractor2: " Exploitation",
+    Distractor3: "Reconnaissance",
+    Explanation:
+      "Recon (aka footprinting) is the first, longest, and most important step. This entails getting as much information as you can about the target without interacting directly with the target.",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+  },
+  {
+    Question:
+      "	Gaining information about the target by interacting with it for the purpose of looking for a vulnerability is known as",
+    Answer: "Enumeration",
+    Distractor1: "Enumeration",
+    Distractor2: " Exploitation",
+    Distractor3: "Reconnaissance",
+    Explanation: "This is like reconnaissance, except you gain information about the target by interacting with it for the purpose of looking for a vulnerability.",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+  },
+  {
     Question: "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
     Answer: "HTTPS",
     Distractor1: "HTTP",
