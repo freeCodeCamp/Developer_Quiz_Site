@@ -1,7 +1,7 @@
 const pythonQuiz = [
   {
     Question:
-      "Which of the following is NOT a parameter of the sorted() method?",
+      "In Python, which of the following is NOT a parameter of the sorted() method?",
     Answer: "iloc",
     Distractor1: "key",
     Distractor2: "iterable",
