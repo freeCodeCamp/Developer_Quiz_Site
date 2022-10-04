@@ -388,8 +388,6 @@ const sqlQuiz = [
       "The REVOKE statement can be used to undo the action of a GRANT statement.",
     Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
   },
-
-
 ];
 
 export default sqlQuiz;

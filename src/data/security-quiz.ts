@@ -136,6 +136,27 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {
+    Question: "What is a common exploited Web security vulnerability?",
+    Answer: "SQL injection",
+    Distractor1: "NoSQL Injection",
+    Distractor2: "XPATH Injection",
+    Distractor3: "CSS Injection",
+    Explanation:
+      "SQL injection is one of the most common, old and effective ways of getting to your data for retrieving or destroying it. ",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/",
+  },
+  {
+    Question:
+      "What is the first line of defense against SQL injection attacks?",
+    Answer: "Sanitizing and validating user inputs",
+    Distractor1: "Good Firewall setup",
+    Distractor2: "IP white- and blacklist",
+    Distractor3: "Good Antivirus",
+    Explanation:
+      "Sanitizing your user input is a basic common rule in security. It is important to not directly add GET or POST variables in your code without a proper sanitizing function. ",
+    Link: "https://www.youtube.com/watch?v=2nXOxLpeu80&t=1h37m41s",
+  },
+  {
     Question: "Which of the following is NOT a JWT segment?",
     Answer: "Transit",
     Distractor1: "Header",
