@@ -26,7 +26,7 @@ const htmlQuiz = [
     Distractor2: "</DOCTYPE>",
     Distractor3: "<!HTML>",
     Explanation:
-      "Document type initialized in HTML5 is <!DOCTYPE HTML>",
+      "<!DOCTYPE HTML> is the DOCTYPE declaration for HTML5.",
     Link: "https://www.freecodecamp.org/news/html5-tags-you-might-not-know/",
   },
   {
