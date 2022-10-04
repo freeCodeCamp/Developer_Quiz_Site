@@ -379,13 +379,13 @@ const sqlQuiz = [
   },
   {
     Question:
-      "In SQL If You Want To Undo a GRANT, you Should use",
+      "In SQL, what statement should you use to undo a GRANT statement?",
     Answer: "REVOKE",
     Distractor1: "UNDO",
     Distractor2: "DELETE",
     Distractor3: "ROLLBACK",
     Explanation:
-      "In SQL, what statement should you use to undo a GRANT statement?",
+      "The REVOKE statement can be used to undo the action of a GRANT statement.",
     Link: "Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html"
   },
 
