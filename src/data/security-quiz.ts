@@ -98,7 +98,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
   },
   {
-    Question: "What is the full form of TLS?",
+    Question: "What does TLS stand for?",
     Answer: "Transport Layer Security",
     Distractor1: "Transport Layer Socket",
     Distractor2: "Transmission Layer Security",
