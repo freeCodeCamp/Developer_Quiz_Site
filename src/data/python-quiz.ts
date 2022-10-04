@@ -1004,6 +1004,24 @@ const pythonQuiz = [
     Explanation: "If you don't specify the start index, the default start index of 0 is used.",
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
   },
+  {
+    Question: "Which data structure is used for implementation of recursive algorithm?",
+    Answer: "Stack",
+    Distractor1: "Queue",
+    Distractor2: "Stack",
+    Distractor3: "Tree",
+    Explanation: "In recursion the nested function that called later returns the value first, which is the same nature as that of a stack (Last In First Out).",
+    Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
+  },
+  {
+    Question: "In python, which function is used to read single line from a file?",
+    Answer: "readline()",
+    Distractor1: "readlines()",
+    Distractor2: "readable()",
+    Distractor3: "readline()",
+    Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
+    Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
+  },
 ];
 
 export default pythonQuiz;
