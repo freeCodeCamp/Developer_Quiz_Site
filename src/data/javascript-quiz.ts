@@ -1160,12 +1160,12 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
   },
   {
-    Question: "In JavaScript, from following what isn't use to declare a variable?",
+    Question: "In JavaScript, which of the following is NOT the correct way to declare a variable?",
     Answer: "number",
     Distractor1: "let",
     Distractor2: "var",
     Distractor3: "const",
-    Explanation: "JavaScript has three kinds of variable declarations. var declare a variable, optionally initializing it to a value, let declare a block scoped, local variable,optionally initializing it to a value and const declare read-only block scoped constant",
+    Explanation: "JavaScript has three kinds of variable declarations: var, let and const.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations",
   },
   {
@@ -1174,7 +1174,7 @@ const javascriptQuiz = [
     Distractor1: 3,
     Distractor2: 6,
     Distractor3: 8,
-    Explanation: "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String, Symbol",
+    Explanation: "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types",
   },
 ];
