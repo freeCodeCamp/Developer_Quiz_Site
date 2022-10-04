@@ -97,6 +97,28 @@ const securityQuiz = [
       "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
     Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
   },
+  {
+    Question:
+      "Which of the following is not a key advantage of homomorphic encryption?",
+    Answer: "Homomorphic encryption handles speed and storage requirements efficiently.",
+    Distractor1: "Homomorphic encryption allows encrypted information to be processed without requiring decryption first.",
+    Distractor2: "Homomorphic encryption is particularly useful in cases where data is shared with third parties.",
+    Distractor3: "Homomorphic encryption ensures regulatory compliance in industries like healthcare and finance.",
+    Explanation:
+      "Despite the many benefits homomorphic encryption has to offer, it lacks the efficiency and optimization requirements to be considered a practical solution.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+  },
+  {
+    Question:
+      "Which of the following is not a primary type of homomorphic encryption?",
+    Answer: "Chunked Homomorphic Encryption (CHE)",
+    Distractor1: "Partially Homomorphic Encryption (PHE)",
+    Distractor2: "Somewhat Homomorphic Encryption (SHE)",
+    Distractor3: "Fully Homomorphic Encryption (FHE)",
+    Explanation:
+      "The three main types of homomorphic encryption are: Partially Homomorphic Encryption (PHE), Somewhat Homomorphic Encryption (SHE), and Fully Homomorphic Encryption (FHE).",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+  },
 ];
 
 export default securityQuiz;
