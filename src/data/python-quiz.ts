@@ -1,18 +1,26 @@
 const pythonQuiz = [
   {
     Question:
+<<<<<<< HEAD
       "In python, which of the following is NOT a parameter of the sorted() method?",
+=======
+      "In Python, which of the following is NOT a parameter of the sorted() method?",
+>>>>>>> 215e019caec1009d692c3c44721ce3a969100ed9
     Answer: "iloc",
     Distractor1: "key",
     Distractor2: "iterable",
     Distractor3: "reverse",
     Explanation:
-      "The sorted() method can accept upto 3 parameters which are iterable, key and reverse",
+      "The sorted() method can accept up to 3 parameters which are iterable, key and reverse",
     Link: "https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/",
   },
   {
     Question:
+<<<<<<< HEAD
       "In python, which of the following is not an attribute of the datetime.now() function?",
+=======
+      "In Python, which of the following is not an attribute of the datetime.now() function?",
+>>>>>>> 215e019caec1009d692c3c44721ce3a969100ed9
     Answer: "week",
     Distractor1: "month",
     Distractor2: "day",
