@@ -1157,8 +1157,30 @@ const javascriptQuiz = [
     Distractor3: "Length of the old array, before the element is pushed",
     Explanation:
       ".push() returns the new length of the array, after the element has been pushed",
-    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
-  }
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
+  },
+  {
+    Question: "In JavaScript, what is the difference between == and ===?",
+    Answer: "== allows for type coercion of the values, while === does not",
+    Distractor1:
+      "== does not allow for type coercion of the values, while === does",
+    Distractor2:
+      "== does not allow for type coercion of the values, while === does not",
+    Distractor3: "== allows for type coercion of the values, while === does",
+    Explanation:
+      "The == operator allows for type coercion of the values, while === does not.",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question: "In JavaScript, how many falsy values are there?",
+    Answer: "6",
+    Distractor1: "5",
+    Distractor2: "7",
+    Distractor3: "8",
+    Explanation:
+      "There are 6 falsy values in JavaScript: false, 0, '', null, undefined, and NaN.",
+    Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/",
+  },
 ];
 
 export default javascriptQuiz;
