@@ -107,16 +107,6 @@ const securityQuiz = [
       "TLS, or Transport Layer Security, refers to a protocol. The transport layer part of TLS simply refers to host-to-host communication, such as how a client and a server interact, in the Internet protocol suite model.",
     Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/",
   },
-  {
-    Question: "Which protocol/cipher is used which ensures parties without prior knowledge establish a shared secret without anyone else being able to sniff it ?" ,
-    Answer: " Diffie-Hellman key exchange protocol ",
-    Distractor1: "Caesar Cipher",
-    Distractor2: " Secure Remote Password protocol ",
-    Distractor3: " Pre-Shared Key Algorithm",
-    Explanation:
-      " Variations of the Diffie-Hellman key exchange protocol are used which involves a bit of math. Once the secret is established, a client and a server can communicate without having to fear that someone might intercept their messages. Even if attackers do so, they will not have the common secret that's necessary to decrypt the messages. ",
-    Link: " https://www.freecodecamp.org/news/web-security-an-introduction-to-http-5fa07140f9b3/ ",
-  },
 ];
 
 export default securityQuiz;
