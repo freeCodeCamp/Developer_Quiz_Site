@@ -386,7 +386,7 @@ const sqlQuiz = [
     Distractor3: "ROLLBACK",
     Explanation:
       "The REVOKE statement can be used to undo the action of a GRANT statement.",
-    Link: "Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html"
+    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
   },
 
 
