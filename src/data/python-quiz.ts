@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor2: "iterable",
     Distractor3: "reverse",
     Explanation:
-      "The sorted() method can accept upto 3 parameters which are iterable, key and reverse",
+      "The sorted() method can accept up to 3 parameters which are iterable, key and reverse",
     Link: "https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/",
   },
   {
