@@ -1,11 +1,7 @@
 const pythonQuiz = [
   {
     Question:
-<<<<<<< HEAD
-      "In python, which of the following is NOT a parameter of the sorted() method?",
-=======
       "In Python, which of the following is NOT a parameter of the sorted() method?",
->>>>>>> 215e019caec1009d692c3c44721ce3a969100ed9
     Answer: "iloc",
     Distractor1: "key",
     Distractor2: "iterable",
@@ -16,11 +12,7 @@ const pythonQuiz = [
   },
   {
     Question:
-<<<<<<< HEAD
-      "In python, which of the following is not an attribute of the datetime.now() function?",
-=======
       "In Python, which of the following is not an attribute of the datetime.now() function?",
->>>>>>> 215e019caec1009d692c3c44721ce3a969100ed9
     Answer: "week",
     Distractor1: "month",
     Distractor2: "day",
