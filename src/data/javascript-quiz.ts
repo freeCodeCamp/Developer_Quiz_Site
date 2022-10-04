@@ -310,7 +310,7 @@ const javascriptQuiz = [
     Answer: "getDate()",
     Distractor1: "getTheDate()",
     Distractor2: "getDay()",
-    Distractor3: "get meaning of IIFEYear()",
+    Distractor3: "getFullYear()",
     Explanation:
       "The getDate() method returns the day of the month for the specified date according to local time. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate",
@@ -322,7 +322,7 @@ const javascriptQuiz = [
     Answer: "getDay()",
     Distractor1: "getDate()",
     Distractor2: "getTheSpecificDay()",
-    Distractor3: "get meaning of IIFEYear()",
+    Distractor3: "getFullYear()",
     Explanation:
       "The getDay() method returns the day of the week for the specified date according to local time, where 0 represents Sunday. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay",
@@ -331,13 +331,13 @@ const javascriptQuiz = [
   {
     Question:
       "In JavaScript, which of the following methods returns the year of the specified date according to local time?",
-    Answer: "get meaning of IIFEYear()",
+    Answer: "getFullYear()",
     Distractor1: "getDate()",
     Distractor2: "listTheYear()",
-    Distractor3: "getMy meaning of IIFEYearNow()",
+    Distractor3: "getMyFullYearNow()",
     Explanation:
-      "The get meaning of IIFEYear() method returns the year of the specified date according to local time. ",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/get meaning of IIFEYear",
+      "The getFullYear() method returns the year of the specified date according to local time. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear",
   },
 
   {
@@ -466,7 +466,7 @@ const javascriptQuiz = [
     Answer: "comma (',')",
     Distractor1: "space (' ')",
     Distractor2: "empty string ('')",
-    Distractor3: " meaning of IIFE-stop ('.')",
+    Distractor3: "full-stop ('.')",
     Explanation:
       "If a separator is omitted, the array elements are separated with a comma (',').",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join",
@@ -1160,8 +1160,10 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
   },
   {
-    Question: "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
-    Answer: "Yes, but variables declared with let and const are in Temporal Dead Zone",
+    Question:
+      "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
+    Answer:
+      "Yes, but variables declared with let and const are in Temporal Dead Zone",
     Distractor1: "Yes",
     Distractor2: "No",
     Distractor3: "No, only variables declared with var are hoisted.",
