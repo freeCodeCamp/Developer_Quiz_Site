@@ -18,7 +18,7 @@ const cssQuiz = [
     Distractor2: "overflow",
     Distractor3: "int",
     Explanation:
-      "order is used to represent order of flex iteams.",
+      "order is used to represent the order of flex items.",
     Link: "https://youtu.be/1Rs2ND1ryYc",
   },
   {
