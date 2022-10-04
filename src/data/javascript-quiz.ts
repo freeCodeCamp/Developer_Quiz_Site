@@ -1166,7 +1166,7 @@ const javascriptQuiz = [
       "== does not allow for type coercion of the values, while === does",
     Distractor2:
       "== and === both allow for type coercion of the values, but === is more strict",
-    Distractor3: "== allows for type coercion of the values, while === does",
+    Distractor3: "There is no difference between == and ===",
     Explanation:
       "The == operator allows for type coercion of the values, while === does not.",
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
