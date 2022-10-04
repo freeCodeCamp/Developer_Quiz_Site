@@ -1,7 +1,72 @@
 const javascriptQuiz = [
   {
     Question:
-      "Which of the following scoping types does JavaScript use?",
+      "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
+    Answer: "shift()",
+    Distractor1: "pop()",
+    Distractor2: "push()",
+    Distractor3: "All take about the same time on an array of the same size.",
+    Explanation:
+      "shift() removes elements from the front of the array, which means the entire array needs to be re-indexed. In contrast, pop() and push() both work from the 'back' of the array and don't require re-indexing.",
+    Link: "https://www.freecodecamp.org/news/the-complexity-of-simple-algorithms-and-data-structures-in-javascript-11e25b29de1e/",
+  },
+  {
+    Question:
+      "What is the process of converting a value from one data type to another called?",
+    Answer: "Type Coercion",
+    Distractor1: "Type Casting",
+    Distractor2: "Data Converting",
+    Distractor3: "Change Value",
+    Explanation:
+      "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question:
+      "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Answer: "addEventListener()",
+    Distractor1: "listenEvent()",
+    Distractor2: "callEvent()",
+    Distractor3: "eventWake()",
+    Explanation:
+      "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
+  },
+  {
+    Question:
+      "In JavaScript, which Web API is used to insert a child node anywhere under the parent node?",
+    Answer: "insertBefore()",
+    Distractor1: "prepend()",
+    Distractor2: "append()",
+    Distractor3: "lookupPrefix()",
+    Explanation:
+      "The insertBefore() method inserts a new child node anywhere under the parent node. This method has two parameters: newNode and referenceNode",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Node/insertBefore",
+  },
+  {
+    Question:
+      "In JavaScript, which property of an element allows you to get or set the HTML markup contained within the element?",
+    Answer: "innerHTML",
+    Distractor1: "insertAdjacentHTML",
+    Distractor2: "insertElement",
+    Distractor3: "setHTML",
+    Explanation:
+      "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
+    Link: "https://youtu.be/jS4aFq5-91M?t=18781",
+  },
+  {
+    Question:
+      "In JavaScript, what is it called when you have a combination of a function and its lexical environment?",
+    Answer: "Closure",
+    Distractor1: "Debouncing",
+    Distractor2: "Throttling",
+    Distractor3: "Scope Chaining",
+    Explanation:
+      "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
+    Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e",
+  },
+  {
+    Question: "Which of the following scoping types does JavaScript use?",
     Answer: "Lexical",
     Distractor1: "Sequential",
     Distractor2: "Segmental",
@@ -11,7 +76,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
   },
   {
-    Question: "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
+    Question:
+      "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
     Answer: "a number",
     Distractor1: "a string",
     Distractor2: "an array",
@@ -1052,6 +1118,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "How can you change the background color of an HTML element using JavaScript?",
+    Answer: "element.style.backgroundColor = 'red'",
+    Distractor1: "element.style.backgroundcolor = 'red'",
+    Distractor2: "element.style.background-color = 'red'",
+    Distractor3: "element.style.bgColor = 'red'",
+    Explanation:
+      "JavaScript syntax is slightly different from CSS syntax. In JavaScript, you use camelCase instead of hyphens.",
+    Link: "https://youtu.be/5fb2aPlgoys?t=704",
+  },
+  {
+    Question:
       "In JavaScript, when an operator value is NULL, the typeof returned by the operator is:",
     Answer: "Object",
     Distractor1: "Undefined",
@@ -1060,6 +1137,81 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
+  },
+  {
+    Question:
+      "What JavaScript keyword will return the type of a variable when you call it?",
+    Answer: "typeof",
+    Distractor1: "datatype",
+    Distractor2: "this",
+    Distractor3: "var",
+    Explanation:
+      "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
+    Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
+  },
+  {
+    Question: "In JavaScript, what is the return value of the .push() method?",
+    Answer: "new length of the array, after the element has been pushed",
+    Distractor1: "undefined",
+    Distractor2: "null",
+    Distractor3: "Length of the old array, before the element is pushed",
+    Explanation:
+      ".push() returns the new length of the array, after the element has been pushed",
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
+  },
+  {
+    Question:
+      "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
+    Answer:
+      "Yes, but variables declared with let and const are in Temporal Dead Zone",
+    Distractor1: "Yes",
+    Distractor2: "No",
+    Distractor3: "No, only variables declared with var are hoisted.",
+    Explanation:
+      "Variables declared with let, const and var are hoisted. But, const and let are in temporal dead zone.",
+    Link: "https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/",
+  },
+  {
+    Question: "In JavaScript, what is the difference between == and ===?",
+    Answer: "== allows for type coercion of the values, while === does not",
+    Distractor1:
+      "== does not allow for type coercion of the values, while === does",
+    Distractor2:
+      "== and === both allow for type coercion of the values, but === is more strict",
+    Distractor3: "There is no difference between == and ===",
+    Explanation:
+      "The == operator allows for type coercion of the values, while === does not.",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question: "In JavaScript, how many falsy values are there?",
+    Answer: "6",
+    Distractor1: "5",
+    Distractor2: "7",
+    Distractor3: "8",
+    Explanation:
+      "There are 6 falsy values in JavaScript: false, 0, '', null, undefined, and NaN.",
+    Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/",
+  },
+  {
+    Question: "In JavaScript, what is a function without a name called?",
+    Answer: "An anonymous function",
+    Distractor1: "An unsigned function",
+    Distractor2: "A ghost function",
+    Distractor3: "A nameless function",
+    Explanation:
+      "A function without a name is called an anonymous function. This is useful when you want to pass a function as an argument to another function.",
+    Link: "https://www.freecodecamp.org/news/what-are-functions-in-javascript-a-beginners-guide/",
+  },
+  {
+    Question: "In JavaScript, what does IIFE stand for?",
+    Answer: "Immediately Invoked Function Expression",
+    Distractor1: "Immediately Invoked Function Executor",
+    Distractor2: "Internally Invoked Function Expression",
+    Distractor3: "Internally Invoked Function Executor",
+    Explanation:
+      "IIFE stands for Immediately Invoked Function Expression. This is a function that is executed immediately after it is created.",
+    Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
   },
 ];
 

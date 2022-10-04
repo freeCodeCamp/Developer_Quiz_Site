@@ -1,6 +1,28 @@
 const sqlQuiz = [
   {
     Question:
+      "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
+    Answer: "DISTINCT",
+    Distractor1: "GROUP BY",
+    Distractor2: "COUNT",
+    Distractor3: "WHERE",
+    Explanation:
+      "In SQL, the DISTINCT keyword will only count unique values that are NOT NULL. The computer will ignore any duplicate values.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/",
+  },
+  {
+    Question:
+      "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
+    Answer: "HAVING",
+    Distractor1: "ADD",
+    Distractor2: "DISTINTC",
+    Distractor3: "LIMIT",
+    Explanation:
+      "In SQL, you will have to use the HAVING clause because the WHERE clause fails when used with aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/sql-having-how-to-group-and-count-with-a-having-statement/",
+  },
+  {
+    Question:
       "Which of the following relational database management systems (RDBMS) should never be used to store data in a production app?",
     Answer: "Microsoft Access",
     Distractor1: "Microsoft SQL Server",
@@ -343,6 +365,28 @@ const sqlQuiz = [
     Explanation:
       "The NOW() function gives the selected record a value of the current timestamp",
     Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
+  },
+  {
+    Question:
+      "In SQL, where can we access all column names within a database?",
+    Answer: "INFORMATION_SCHEMA.COLUMNS",
+    Distractor1: "COLUMNS",
+    Distractor2: "SCHEMA.COLUMNS",
+    Distractor3: "SCHEMA.INFO.COLS",
+    Explanation:
+      "You can select from INFORMATION_SCHEMA.COLUMNS and combine with a WHERE clause when needing to identify where a certain column is stored.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, what statement should you use to undo a GRANT statement?",
+    Answer: "REVOKE",
+    Distractor1: "UNDO",
+    Distractor2: "DELETE",
+    Distractor3: "ROLLBACK",
+    Explanation:
+      "The REVOKE statement can be used to undo the action of a GRANT statement.",
+    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
   },
 ];
 
