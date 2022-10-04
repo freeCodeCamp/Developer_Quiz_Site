@@ -1169,7 +1169,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations",
   },
   {
-    Question: "In JavaScript, how many primitive variable are there?",
+    Question: "In JavaScript, how many primitive data types are there?",
     Answer: 7,
     Distractor1: 3,
     Distractor2: 6,
