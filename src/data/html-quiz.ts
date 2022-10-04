@@ -20,7 +20,7 @@ const htmlQuiz = [
     Link: "https://www.freecodecamp.org/news/html-form-input-type-and-submit-button-example/",
   },
   {
-    Question: "In HTML, which of the following choice is not a legal type attribute for the <input> tag?",
+    Question: "In HTML, which of the following choices is not a legal type attribute for the <input> tag?",
     Answer: "<input type='num'>",
     Distractor1: "<input type='week'>",
     Distractor2: "<input type='tel'>",
