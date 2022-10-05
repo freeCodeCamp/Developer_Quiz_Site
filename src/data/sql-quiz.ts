@@ -390,13 +390,13 @@ const sqlQuiz = [
   },
   {
     Question:
-      "In SQL, Which command undo all the updates performed by the SQL in the transaction?",
+      "In SQL, which command erases all the updates made from the start of the transaction?",
     Answer: "ROLLBACK",
     Distractor1: "COMMIT",
     Distractor2: "DELETE",
     Distractor3: "REVOKE",
     Explanation:
-      "You can use ROLLBACK TRANSACTION to erase all data modifications made from the start of the transaction or to a savepoint.",
+      "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
   },
 
