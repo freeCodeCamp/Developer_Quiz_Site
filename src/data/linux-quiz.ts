@@ -769,6 +769,16 @@ const linuxQuiz = [
       "The crontab command can used to perform various actions on cron jobs.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
+  {
+    Question: "Name the command that can be used to copy files across systems.",
+    Answer: "FTP",
+    Distractor1: "TELNET",
+    Distractor2: "FTP",
+    Distractor3: "SSH",
+    Explanation:
+      "FTP is a network protocol used for exchanging files over the network. It uses port 21. FTP enables you to access a remote system for exchanging files using the ftp command.",
+    Link: "https://www.freecodecamp.org/news/how-to-transfer-files-between-servers-in-linux-using-scp-and-ftp/",
+  },
 ];
 
 export default linuxQuiz;

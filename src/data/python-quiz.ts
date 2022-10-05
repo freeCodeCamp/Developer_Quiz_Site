@@ -1084,15 +1084,6 @@ const pythonQuiz = [
     Explanation: "You can use the .join string method to convert a list into a string",
     Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
-  {
-    Question: "exec('a = ( 1 , 2 , 3 , [ 1 , 2 , 3 , 4 , 5 , 6 ] ) \nfor i in range(1,1001): \n\t\t a[3].append(i) \nprint(len(a)) ')",
-    Answer: "4",
-    Distractor1: "Error",
-    Distractor2: "1009",
-    Distractor3: "4",
-    Explanation: "List is mutable in nature so it's size changes",
-    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
-  },
 ];
 
 export default pythonQuiz;
