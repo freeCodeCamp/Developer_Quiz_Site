@@ -8,7 +8,7 @@ const pythonQuiz = [
     Distractor3: "sys",
     Explanation: 
       "Python's sys module provides functions and variables used to manipulate different parts of the Python runtime environment, we can use sys.argv to get a list of command line arguments.",
-    Link: "https://www.geeksforgeeks.org/command-line-arguments-in-python/",
+    Link: "https://docs.python.org/3/library/sys.html#sys.argv",
   },
   {
     Question:
