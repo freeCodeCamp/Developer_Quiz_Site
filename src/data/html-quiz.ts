@@ -1,6 +1,6 @@
 const htmlQuiz = [
   {
-    Question: "How many Heading tag are there in HTML5?",
+    Question: "How many Section Heading elements are there in HTML5?",
     Answer: "6",
     Distractor1: "4",
     Distractor2: "8",
