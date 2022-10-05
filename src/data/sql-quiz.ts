@@ -1,7 +1,7 @@
 const sqlQuiz = [
   {
     Question:
-      "Which of the following MySQL command shows the structure of a table?",
+      "Which of the following MySQL commands shows the structure of a table?",
     Answer: "DESCRIBE table_name;",
     Distractor1: "SHOW table_name;",
     Distractor2: "EXPLAIN table_name;",
