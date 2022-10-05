@@ -22,6 +22,39 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
+   Question:
+      "Which of the following terms involves sending packets of data to the target and interpreting their response?",
+    Answer: "Scanning",
+    Distractor1: "Exploitation",
+    Distractor2: "Reconnaissance",
+    Distractor3: "Reporting",
+    Explanation:
+      "Scanning involves sending packets of data to the target and interpreting their response.",
+    Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/",
+  },
+  {
+    Question:
+      "What is the term for getting information about a target without having to interact with them?",
+    Answer: "Reconnaissance",
+    Distractor1: "Enumeration",
+    Distractor2: " Exploitation",
+    Distractor3: "Reporting",
+    Explanation:
+      "Recon (aka footprinting) is the first, longest, and most important step. This entails getting as much information as you can about the target without interacting directly with the target.",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+  },
+  {
+    Question:
+      "What is the term for gathering information on a target for the purpose of looking for a vulnerability?",
+    Answer: "Enumeration",
+    Distractor1: "Reporting",
+    Distractor2: " Exploitation",
+    Distractor3: "Reconnaissance",
+    Explanation:
+      "This is like reconnaissance, except you gain information about the target by interacting with it for the purpose of looking for a vulnerability.",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+  },
+  {
     Question:
       "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
     Answer: "HTTPS",
