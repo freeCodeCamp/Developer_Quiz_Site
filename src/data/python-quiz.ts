@@ -10,7 +10,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/what-does-double-slash-mean-in-python/",
   },
   {
-    Question: "In Python 3 which function are used to accept input from the user?",
+    Question: "In Python 3, which function is used to accept input from the user?",
     Answer: "input()",
     Distractor1: "input()",
     Distractor2: "raw_input()",
