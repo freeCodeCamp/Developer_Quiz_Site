@@ -146,7 +146,7 @@ const generalCSQuiz = [
     Distractor2: "Functions declared in classes",
     Distractor3: "Functions that only return numbers",
     Explanation:
-      "If functions can be sent and received just like values, than that languge is said to have first class functions. They are also called first class citizens.",
+      "If functions can be sent and received just like values, than that language is said to have first class functions. They are also called first class citizens.",
     Link: "https://www.freecodecamp.org/news/discover-the-power-of-first-class-functions-fd0d7b599b69/",
   },
   {
@@ -762,6 +762,42 @@ const generalCSQuiz = [
     Distractor3: "Tree",
     Explanation: "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
     Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
+  },
+  {
+    Question: "What is pseudocode?",
+    Answer: "Pseudocode is fake code that is used to write programs that is easily understood.",
+    Distractor1: "An old programming language that they used back in the day.",
+    Distractor2: "A diagrammatic representation of a set of instructions",
+    Distractor3: "A specific programming language that all computers use",
+    Explanation: "Pseudocode is fake code that is used to write programs in which you represent the sequence of actions and instructions (aka algorithms) in a form that humans can easily understand.",
+    Link: "https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/",
+  },
+  {
+    Question: "What is a function?",
+    Answer: "Is a block of code that is self-contained behavior for the computer to run.",
+    Distractor1: "an extensible program-code-template",
+    Distractor2: "Text that does not get executed by the computer",
+    Distractor3: "container for storing data",
+    Explanation: "The code inside a function runs only when it is needed, meaning only when it is called.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What are loops?",
+    Answer: "Code used to run certain instructions repeatedly.",
+    Distractor1: "Code that is ran only one time",
+    Distractor2: "Code to encapsulate statements",
+    Distractor3: "Code that ends the program",
+    Explanation: "A statement which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What is an array?",
+    Answer: "Is a list of data",
+    Distractor1: "A variable that is assigned a single value",
+    Distractor2: "A function that loops through data",
+    Distractor3: "A programming language used for Macintosh computer",
+    Explanation: "An array is a special variable, which can hold more than one value:",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
 ];
 
