@@ -12,7 +12,7 @@ const pythonQuiz = [
   {
     Question: "In Python 3, which function is used to accept input from the user?",
     Answer: "input()",
-    Distractor1: "input()",
+    Distractor1: "inputing()",
     Distractor2: "raw_input()",
     Distractor3: "string()",
     Explanation:
