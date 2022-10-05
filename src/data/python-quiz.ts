@@ -5,7 +5,7 @@ const pythonQuiz = [
     Answer: "sys",
     Distractor1: "os",
     Distractor2: "collections",
-    Distractor3: "sys",
+    Distractor3: "itertools",
     Explanation: 
       "Python's sys module provides functions and variables used to manipulate different parts of the Python runtime environment, we can use sys.argv to get a list of command line arguments.",
     Link: "https://docs.python.org/3/library/sys.html#sys.argv",
