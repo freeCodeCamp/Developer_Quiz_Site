@@ -20,7 +20,7 @@ const htmlQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html/",
   },
   {
-    Question: "How is document type initialized in HTML5?",
+    Question: "How is the document type initialized in HTML5?",
     Answer: "<!DOCTYPE HTML>",
     Distractor1: "</DOCTYPE HTML>",
     Distractor2: "</DOCTYPE>",
