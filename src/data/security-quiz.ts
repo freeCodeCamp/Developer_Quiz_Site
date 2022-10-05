@@ -1,13 +1,13 @@
 const securityQuiz = [
   {
     Question:
-      "Which set among the following is the correct set of three types of linux file users?",
+      "Which set among the following is the correct set of three types of Linux file users?",
     Answer: "{user, group, other}",
     Distractor1: "{whoami, users, group}",
     Distractor2: "{whoami, user, others}",
     Distractor3: "{user, group, all}",
     Explanation:
-      "In Linux, there are three types of users : user, group and other.",
+      "In Linux, there are three types of users: user, group and other.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
@@ -18,7 +18,7 @@ const securityQuiz = [
     Distractor2: "read",
     Distractor3: "write",
     Explanation:
-      "In Linux, file permissions fall in three categories: read, write and execute.",
+      "In Linux, file permissions fall into three categories: read, write and execute.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
