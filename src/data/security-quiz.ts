@@ -1,5 +1,23 @@
 const securityQuiz = [
   {
+    Question: "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
+    Answer: "HTTPS",
+    Distractor1: "HTTP",
+    Distractor2: "SMTP",
+    Distractor3: "SFTP",
+    Explanation: "Hyper Text Transfer Protocol Secure, or HTTPS, is a way that communication can happen SECURELY between your browser and the site you want to visit (web server).",
+    Link: "https://www.freecodecamp.org/news/http-vs-https/",
+  },
+  {
+    Question: "Which of the following is a communication protocol for email?",
+    Answer: "SMTP",
+    Distractor1: "SFTP",
+    Distractor2: "HTTP",
+    Distractor3: "SSL",
+    Explanation: " SMTP, or Simple Mail Transfer Protocol, is a communication protocol used to send mails to mail servers.",
+    Link: "https://www.freecodecamp.org/news/how-does-email-work/",
+  },
+  {
     Question:
       "Which protocol/cipher is used which ensures parties without prior knowledge establish a shared secret without anyone else being able to sniff it ?" ,
     Answer: " Diffie-Hellman key exchange protocol ",
@@ -22,6 +40,24 @@ const securityQuiz = [
       "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
   },
+  {
+    Question: "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
+    Answer: "Homorphic Encryption",
+    Distractor1: "Symmetric Encryption",
+    Distractor2: "Asymmetric Encryption",
+    Distractor3: "Advanced Encryption",
+    Explanation: "Homomorphic Encryption is a form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+  },
+  {
+    Question: "Which of the following is a cryptographic network protocol for operating network services securely over an unsecured network?",
+    Answer: "SSH",
+    Distractor1: "SFTP",
+    Distractor2: "HTTPS",
+    Distractor3: "OSPF",
+   Explanation: "The SSH(Secure Shell Protocol) is a secure way for users to access a computer over an unsecured network.",
+    Link: "https://www.freecodecamp.org/news/ssh-keygen-how-to-generate-an-ssh-public-key-for-rsa-login/",
+  }, 
   {
     Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
@@ -100,6 +136,27 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {
+    Question: "What is a common exploited Web security vulnerability?",
+    Answer: "SQL injection",
+    Distractor1: "NoSQL Injection",
+    Distractor2: "XPATH Injection",
+    Distractor3: "CSS Injection",
+    Explanation:
+      "SQL injection is one of the most common, old and effective ways of getting to your data for retrieving or destroying it. ",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/",
+  },
+  {
+    Question:
+      "What is the first line of defense against SQL injection attacks?",
+    Answer: "Sanitizing and validating user inputs",
+    Distractor1: "Good Firewall setup",
+    Distractor2: "IP white- and blacklist",
+    Distractor3: "Good Antivirus",
+    Explanation:
+      "Sanitizing your user input is a basic common rule in security. It is important to not directly add GET or POST variables in your code without a proper sanitizing function. ",
+    Link: "https://www.youtube.com/watch?v=2nXOxLpeu80&t=1h37m41s",
+  },
+  {
     Question: "Which of the following is NOT a JWT segment?",
     Answer: "Transit",
     Distractor1: "Header",
@@ -108,6 +165,28 @@ const securityQuiz = [
     Explanation:
       "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
     Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
+  },
+  {
+    Question:
+      "Which of the following is not a key advantage of homomorphic encryption?",
+    Answer: "Homomorphic encryption handles speed and storage requirements efficiently.",
+    Distractor1: "Homomorphic encryption allows encrypted information to be processed without requiring decryption first.",
+    Distractor2: "Homomorphic encryption is particularly useful in cases where data is shared with third parties.",
+    Distractor3: "Homomorphic encryption ensures regulatory compliance in industries like healthcare and finance.",
+    Explanation:
+      "Despite the many benefits homomorphic encryption has to offer, it lacks the efficiency and optimization requirements to be considered a practical solution.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+  },
+  {
+    Question:
+      "Which of the following is not a primary type of homomorphic encryption?",
+    Answer: "Chunked Homomorphic Encryption (CHE)",
+    Distractor1: "Partially Homomorphic Encryption (PHE)",
+    Distractor2: "Somewhat Homomorphic Encryption (SHE)",
+    Distractor3: "Fully Homomorphic Encryption (FHE)",
+    Explanation:
+      "The three main types of homomorphic encryption are: Partially Homomorphic Encryption (PHE), Somewhat Homomorphic Encryption (SHE), and Fully Homomorphic Encryption (FHE).",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
   },
   {
     Question: "What does TLS stand for?",
