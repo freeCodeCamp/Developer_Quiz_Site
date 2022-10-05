@@ -165,7 +165,7 @@ const htmlQuiz = [
     Distractor2: "<s>",
     Distractor3: "<i>",
     Explanation:
-      "The <span> tag is used to target specific inline content such as text. This is helpful when you want to style only certains parts of the text.",
+      "The <span> tag is used to target specific inline content such as text. This is helpful when you want to style only certain parts of the text.",
     Link: "https://www.freecodecamp.org/news/span-html-how-to-use-the-span-tag-with-css/",
   },
   {
