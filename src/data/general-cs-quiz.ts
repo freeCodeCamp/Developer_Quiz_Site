@@ -735,6 +735,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
   {
+    Question: "What is a Nibble?",
+    Answer: "Nibble is a four-bit aggregation",
+    Distractor1: "Nibble is an algorithm",
+    Distractor2: "Nibble is a octet",
+    Distractor3: "Nibble is a device",
+    Explanation: "A Nibble is a group of four bits (half of a byte)",
+    Link: "https://en.wikipedia.org/wiki/Nibble",
+  },
+  {
     Question: "Which data structure is used for the implementation of a recursive algorithm?",
     Answer: "Stack",
     Distractor1: "Queue",

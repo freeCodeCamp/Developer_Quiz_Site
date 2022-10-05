@@ -1,5 +1,25 @@
 const pythonQuiz = [
   {
+    Question: "What will be the output of following code 2//4?",
+    Answer: "0",
+    Distractor1: "0.5",
+    Distractor2: "0",
+    Distractor3: "2",
+    Explanation:
+      "The division of operands where the result is the quotient in which the digits after the decimal point are removed",
+    Link: "https://www.freecodecamp.org/news/what-does-double-slash-mean-in-python/",
+  },
+  {
+    Question: "In Python 3, which function is used to accept input from the user?",
+    Answer: "input()",
+    Distractor1: "inputing()",
+    Distractor2: "raw_input()",
+    Distractor3: "string()",
+    Explanation:
+      "To take input from the user we use the input() function",
+    Link: "https://forum.freecodecamp.org/t/a-guide-to-the-python-input-function/19192",
+  },
+  {
     Question:
       "In Python, which of the following is NOT a parameter of the sorted() method?",
     Answer: "iloc",

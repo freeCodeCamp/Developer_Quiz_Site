@@ -399,7 +399,6 @@ const sqlQuiz = [
       "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
   },
-
 ];
 
 export default sqlQuiz;
