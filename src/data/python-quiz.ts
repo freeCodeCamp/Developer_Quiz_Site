@@ -16,7 +16,7 @@ const pythonQuiz = [
     Distractor2: "raw_input()",
     Distractor3: "string()",
     Explanation:
-      "To take input from the user we write input() function",
+      "To take input from the user we use the input() function",
     Link: "https://forum.freecodecamp.org/t/a-guide-to-the-python-input-function/19192",
   },
   {
