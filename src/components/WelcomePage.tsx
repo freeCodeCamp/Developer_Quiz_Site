@@ -20,7 +20,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
 
         <div
           className="row featurette content-row-container"
-          style={{ backgroundColor: "#0a0a23" }}
+          style={{ backgroundColor: "#0a0a23", margin: "0" }}
         >
           <div className="col-md-7 content-text-container">
             <h2 className="featurette-heading">Want to test your knowledge?</h2>
@@ -49,7 +49,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
 
         <div
           className="row featurette content-row-container"
-          style={{ backgroundColor: "#2a2a40" }}
+          style={{ backgroundColor: "#2a2a40", margin: "0" }}
         >
           <div className="col-md-7 order-md-2 content-text-container">
             <h2 className="featurette-heading">Brand new to programming?</h2>
@@ -79,7 +79,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
 
         <div
           className="row featurette content-row-container"
-          style={{ backgroundColor: "#0a0a23" }}
+          style={{ backgroundColor: "#0a0a23", margin: "0" }}
         >
           <div className="col-md-7 order-md-2 content-text-container">
             <h2 style={{ marginTop: "40px" }} className="featurette-heading">

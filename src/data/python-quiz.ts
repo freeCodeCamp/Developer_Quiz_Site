@@ -1,5 +1,36 @@
 const pythonQuiz = [
   {
+    Question: "What will be the output of following code 2//4?",
+    Answer: "0",
+    Distractor1: "0.5",
+    Distractor2: "0",
+    Distractor3: "2",
+    Explanation:
+      "The division of operands where the result is the quotient in which the digits after the decimal point are removed",
+    Link: "https://www.freecodecamp.org/news/what-does-double-slash-mean-in-python/",
+  },
+  {
+    Question: "In Python 3, which function is used to accept input from the user?",
+    Answer: "input()",
+    Distractor1: "inputing()",
+    Distractor2: "raw_input()",
+    Distractor3: "string()",
+    Explanation:
+      "To take input from the user we use the input() function",
+    Link: "https://forum.freecodecamp.org/t/a-guide-to-the-python-input-function/19192",
+  },
+  {
+    Question:
+      "In Python, what does a class's __init__() method do?",
+    Answer: "It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.",
+    Distractor1: "It initializes any imports you may have included at the top of your file.",
+    Distractor2: "It is included to preserve backwards compatibility issues.",
+    Distractor3: "It is a method that acts as a destructor and is called automatically whenever an object is destroyed.",
+    Explanation:
+      " __init__() is a special method that is called whenever a new object is instantiated from a class. It is used to initialize the attributes of the class.",
+    Link: "https://www.freecodecamp.org/news/object-oriented-programming-in-python/",
+  },
+  {
     Question:
       "In Python, which of the following is NOT a parameter of the sorted() method?",
     Answer: "iloc",
@@ -1043,6 +1074,15 @@ const pythonQuiz = [
     Distractor3: "read()",
     Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
     Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
+  },
+  {
+    Question: "In Python, which method is used to convert a list into a string with a suitable delimiter?",
+    Answer: ".join()",
+    Distractor1: ".extend()",
+    Distractor2: ".append()",
+    Distractor3: ".pop()",
+    Explanation: "You can use the .join string method to convert a list into a string",
+    Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
 ];
 
