@@ -763,6 +763,56 @@ const generalCSQuiz = [
     Explanation: "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
     Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
   },
+  {
+    Question: "Which one is NOT a programming paradigm?",
+    Answer: "Boolean Programming",
+    Distractor1: "Object-Oriented Programming",
+    Distractor2: "Functional Programming",
+    Distractor3: "Procedural Programming",
+    Explanation:
+      "Object-oriented programming, functional programming and procedural programming are all one of the most well known paradigms.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/",
+  },
+  {
+    Question: "Which one is NOT a real logic gate?",
+    Answer: "XAND",
+    Distractor1: "AND",
+    Distractor2: "NAND",
+    Distractor3: "XNOR",
+    Explanation:
+      "There are only seven basic logic gates: AND, OR, XOR, NOT, NAND, NOR, and XNOR.",
+    Link: "https://www.freecodecamp.org/news/boolean-algebra/",
+  },
+  {
+    Question: "Which type of computer network generally has the smallest size?",
+    Answer: "PAN",
+    Distractor1: "MAN",
+    Distractor2: "LAN",
+    Distractor3: "WAN",
+    Explanation:
+      "A personal area network (PAN) is a computer network used to connect devices within a range of an individual person.",
+    Link: "https://en.wikipedia.org/wiki/Computer_network",
+  },
+  {
+    Question: "Which color model is used for printing?",
+    Answer: "CMYK",
+    Distractor1: "RGB",
+    Distractor2: "RYB",
+    Distractor3: "HSV",
+    Explanation:
+      "The CMYK color model uses subtractive colors, thus producing better results on a white background like a paper.",
+    Link: "https://en.wikipedia.org/wiki/Color_model",
+  },
+  {
+    Question: "What are the four pillar of object-orientaed programming?",
+    Answer: "Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+    Distractor1: "Objects, Methods, Properties and Fields.",
+    Distractor2: "Immutability, Purity, Transparency and State.",
+    Distractor3: "Declaration, Modeling, Evaluation and Implementaion.",
+    Explanation:
+      "Abstraction, encapsulation, inheritance, and polymorphism are software design principles to help you write clean object-oriented code.",
+    Link: "https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/",
+  },
 ];
 
 export default generalCSQuiz;
