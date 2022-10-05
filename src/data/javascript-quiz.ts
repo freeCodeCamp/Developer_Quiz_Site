@@ -934,6 +934,17 @@ const javascriptQuiz = [
     Link: "https://devdocs.io/javascript/global_objects/string/length",
   },
   {
+    Question: "In JavaScript, What would be the result of 2+3+'4'?",
+    Answer: "'54'",
+    Distractor1: "9",
+    Distractor2: "234",
+    Distractor3: "NaN",
+    Explanation:
+      "The output is going to be '54'. Since 2 and 3 are integer or numeric values, the result of the first two digits is going to be an integer 5. The next digit is a string type value because of that the addition of numeric value 5 and string type value 4 is just going to be a concatenation value 54 of type string.",
+    Link:
+      "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
     Question:
       "In JavaScript, what is the name of the method that converts all of the letters in a string to lowercase?",
     Answer: "toLowerCase",
