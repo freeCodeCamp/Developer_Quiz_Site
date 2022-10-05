@@ -734,6 +734,15 @@ const generalCSQuiz = [
     Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
     Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
+  {
+    Question: "Which data structure is used for the implementation of a recursive algorithm?",
+    Answer: "Stack",
+    Distractor1: "Queue",
+    Distractor2: "Linked list",
+    Distractor3: "Tree",
+    Explanation: "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
+    Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
+  },
 ];
 
 export default generalCSQuiz;
