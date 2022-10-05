@@ -1157,7 +1157,25 @@ const javascriptQuiz = [
     Distractor3: "Length of the old array, before the element is pushed",
     Explanation:
       ".push() returns the new length of the array, after the element has been pushed",
-    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/"
+  },
+  {
+    Question: "In JavaScript, which of the following is NOT the correct way to declare a variable?",
+    Answer: "number",
+    Distractor1: "let",
+    Distractor2: "var",
+    Distractor3: "const",
+    Explanation: "JavaScript has three kinds of variable declarations: var, let and const.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations",
+  },
+  {
+    Question: "In JavaScript, how many primitive data types are there?",
+    Answer: 7,
+    Distractor1: 3,
+    Distractor2: 6,
+    Distractor3: 8,
+    Explanation: "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types",
   },
   {
     Question:
