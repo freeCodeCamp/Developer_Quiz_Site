@@ -1262,7 +1262,7 @@ const javascriptQuiz = [
       "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using a function declaration.",
     Explanation:
       "The main difference between a function declaration and a function expression is the function name, which can be omitted in function expressions to create anonymous functions.",
-    Link: "https://forum.freecodecamp.org/t/what-is-the-difference-between-a-function-declaration-and-function-expression/229324",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function",
   },
 ];
 
