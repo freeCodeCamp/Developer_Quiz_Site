@@ -1,6 +1,6 @@
 const sqlQuiz = [
   {
-    Question: "Which command is used in a 'WHERE' or 'HAVING' command to limit the selected rows to the items when a column has a certain pattern of characters contained in it.",
+    Question: "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
     Distractor2: "INSERT",
