@@ -103,7 +103,7 @@ const securityQuiz = [
   {
     Question:
       "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
-    Answer: "Homorphic Encryption",
+    Answer: "Homomorphic Encryption",
     Distractor1: "Symmetric Encryption",
     Distractor2: "Asymmetric Encryption",
     Distractor3: "Advanced Encryption",
@@ -125,12 +125,12 @@ const securityQuiz = [
   {
     Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
-    Answer: "Assymetric-key encryption",
+    Answer: "Asymmetric-key encryption",
     Distractor1: "MD5",
     Distractor2: "Symmetric-key encryption",
     Distractor3: "Caesar cipher",
     Explanation:
-      "Assymetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
+      "Asymmetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/",
   },
   {
@@ -185,7 +185,7 @@ const securityQuiz = [
     Distractor2: "White Hat Hackers",
     Distractor3: "Grey Hat Hackers",
     Explanation:
-      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , thereby getting access to private and sensitive data",
+      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malware, sending phishing emails and links , thereby getting access to private and sensitive data",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {
