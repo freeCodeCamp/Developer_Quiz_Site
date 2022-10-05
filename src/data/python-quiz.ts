@@ -1075,6 +1075,15 @@ const pythonQuiz = [
     Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
     Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
   },
+  {
+    Question: "In Python, which method is used to convert a list into a string with a suitable delimiter?",
+    Answer: ".join()",
+    Distractor1: ".extend()",
+    Distractor2: ".append()",
+    Distractor3: ".pop()",
+    Explanation: "You can use the .join string method to convert a list into a string",
+    Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
+  },
 ];
 
 export default pythonQuiz;
