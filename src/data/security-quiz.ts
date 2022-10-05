@@ -2,7 +2,6 @@ const securityQuiz = [
   {
     Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
-    Answer: "Scanning",
     Distractor1: "Exploitation",
     Distractor2: "Reconnaissance",
     Distractor3: "Reporting",
