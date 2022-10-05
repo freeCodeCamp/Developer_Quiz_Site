@@ -1,5 +1,16 @@
 const pythonQuiz = [
   {
+    Question: 
+      "In Python, which module is used to capture command-line arguments given at a file's runtime ?",
+    Answer: "sys",
+    Distractor1: "os",
+    Distractor2: "collections",
+    Distractor3: "itertools",
+    Explanation: 
+      "We can use sys.argv to get a list of command line arguments.",
+    Link: "https://docs.python.org/3/library/sys.html#sys.argv",
+  },
+  {
     Question: "What will be the output of following code 2//4?",
     Answer: "0",
     Distractor1: "0.5",
