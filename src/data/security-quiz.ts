@@ -103,12 +103,12 @@ const securityQuiz = [
   {
     Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
-    Answer: "Assymetric-key encryption",
+    Answer: "Asymmetric-key encryption",
     Distractor1: "MD5",
     Distractor2: "Symmetric-key encryption",
     Distractor3: "Caesar cipher",
     Explanation:
-      "Assymetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
+      "Asymmetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/",
   },
   {
