@@ -1,5 +1,80 @@
 const pythonQuiz = [
   {
+    Question: "What will be the output of following code 2//4?",
+    Answer: "0",
+    Distractor1: "0.5",
+    Distractor2: "0",
+    Distractor3: "2",
+    Explanation:
+      "The division of operands where the result is the quotient in which the digits after the decimal point are removed",
+    Link: "https://www.freecodecamp.org/news/what-does-double-slash-mean-in-python/",
+  },
+  {
+    Question: "In Python 3, which function is used to accept input from the user?",
+    Answer: "input()",
+    Distractor1: "inputing()",
+    Distractor2: "raw_input()",
+    Distractor3: "string()",
+    Explanation:
+      "To take input from the user we use the input() function",
+    Link: "https://forum.freecodecamp.org/t/a-guide-to-the-python-input-function/19192",
+  },
+  {
+    Question:
+      "In Python, what does a class's __init__() method do?",
+    Answer: "It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.",
+    Distractor1: "It initializes any imports you may have included at the top of your file.",
+    Distractor2: "It is included to preserve backwards compatibility issues.",
+    Distractor3: "It is a method that acts as a destructor and is called automatically whenever an object is destroyed.",
+    Explanation:
+      " __init__() is a special method that is called whenever a new object is instantiated from a class. It is used to initialize the attributes of the class.",
+    Link: "https://www.freecodecamp.org/news/object-oriented-programming-in-python/",
+  },
+  {
+    Question:
+      "In Python, which of the following is NOT a parameter of the sorted() method?",
+    Answer: "iloc",
+    Distractor1: "key",
+    Distractor2: "iterable",
+    Distractor3: "reverse",
+    Explanation:
+      "The sorted() method can accept up to 3 parameters which are iterable, key and reverse",
+    Link: "https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/",
+  },
+  {
+    Question:
+      "In Python, which of the following is not an attribute of the datetime.now() function?",
+    Answer: "week",
+    Distractor1: "month",
+    Distractor2: "day",
+    Distractor3: "year",
+    Explanation:
+      "The attributes of the datetime.now() function are year, month, day, hour, minute, second and microsecond",
+    Link: "https://www.freecodecamp.org/news/python-datetime-now-how-to-get-todays-date-and-time/",
+  },
+  {
+    Question:
+      "What is the output of the following Python code: print((10, 20, 30, 40, 50, 60, 70, 80)[2:5])?",
+    Answer: "(30, 40, 50)",
+    Distractor1: "(10, 30 ,40, 50)",
+    Distractor2: "(30, 40, 50)",
+    Distractor3: "(10, 20, 30)",
+    Explanation:
+      "To get a sub tuple out of the Tuple, we need to specify the range of indexes. We need to specify where to start and where to end the range.",
+    Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
+  },
+  {
+    Question:
+      "What is the output of the following Tuple Operation in Python: print((100,) * 2)?",
+    Answer: "(100,100)",
+    Distractor1: "(200)",
+    Distractor2: "(100)",
+    Distractor3: "(100,100)",
+    Explanation:
+      "We can use * operator to repeat the tuple values n number of times.",
+    Link: "https://forum.freecodecamp.org/t/the-ultimate-guide-to-python-tuples-python-data-structure-tutorial-with-code-examples/19165",
+  },
+  {
     Question: "In Python, which of the following outputs 'camp'?",
     Answer: "print('freecodecamp'[-4:])",
     Distractor1: "print('freecodecamp'[8::-1])",
@@ -10,7 +85,8 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-substring-how-to-slice-a-string/#how-to-get-the-last-n-characters-of-a-string-in-python",
   },
   {
-    Question: "In Python, which Type casting method lets users convert a specific data type into a required data type?",
+    Question:
+      "In Python, which Type casting method lets users convert a specific data type into a required data type?",
     Answer: "Explicit Type Conversion",
     Distractor1: "Implicit Type Conversion",
     Distractor2: "Default Type Conversion",
@@ -939,14 +1015,15 @@ const pythonQuiz = [
       "In Python, we start a comment with a hash symbol #. A line that starts with this symbol will be interpreted as a comment in a Python program. ",
     Link: "https://forum.freecodecamp.org/t/how-to-comment-your-code-in-python-explained-with-examples/19220",
   },
-  { 
+  {
     Question: "Which type of programming paradigm does Python support?",
-    Answer: "all of the mentioned paradigms", 
-    Distractor1: "structured programming", 
-    Distractor2: "object-oriented programming", 
-    Distractor3: "functional", 
-    Explanation: "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.", 
-    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)", 
+    Answer: "all of the mentioned paradigms",
+    Distractor1: "structured programming",
+    Distractor2: "object-oriented programming",
+    Distractor3: "functional",
+    Explanation:
+      "Python is an interpreted programming language, which supports object-oriented, structured, and functional programming.",
+    Link: "https://en.wikipedia.org/wiki/Python_(programming_language)",
   },
   {
     Question: "In Python, which file is compulsory to create a package?",
@@ -954,7 +1031,8 @@ const pythonQuiz = [
     Distractor1: "__main__",
     Distractor2: "main.py",
     Distractor3: "__package__",
-    Explanation: "We cannot create a Python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
+    Explanation:
+      "We cannot create a Python package without adding a __init__.py file, This file will tell Python to treat directories as modules.",
     Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
   },
   {
@@ -963,7 +1041,8 @@ const pythonQuiz = [
     Distractor1: "Splits the string at the first occurrence and returns a list",
     Distractor2: "Splits the string equally",
     Distractor3: "Split the string at any occurrence of the given argument",
-    Explanation: "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
+    Explanation:
+      "The partition() method searches for a specified string, and splits the string into a tuple containing three elements.",
     Link: "https://docs.python.org/3/library/stdtypes.html#str.partition",
   },
   {
@@ -972,17 +1051,38 @@ const pythonQuiz = [
     Distractor1: "continue",
     Distractor2: "over",
     Distractor3: "goto",
-    Explanation: "An empty statement is a statement that does nothing. Python offers the pass statement as an empty statement.",
+    Explanation:
+      "An empty statement is a statement that does nothing. Python offers the pass statement as an empty statement.",
     Link: "https://docs.python.org/3/reference/simple_stmts.html#the-pass-statement",
   },
   {
-    Question: "In Python, Function range(4) will yield an iterable sequence like: ",
+    Question:
+      "In Python, Function range(4) will yield an iterable sequence like: ",
     Answer: "[1,2,3,4]",
     Distractor1: "[0,1,2,3,4]",
     Distractor2: "[0,1,2,3]",
     Distractor3: "[4]",
-    Explanation: "If you don't specify the start index, the default start index of 0 is used.",
+    Explanation:
+      "If you don't specify the start index, the default start index of 0 is used.",
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
+  },
+  {
+    Question: "In Python, which function is used to read a single line from a file",
+    Answer: "readline()",
+    Distractor1: "readlines()",
+    Distractor2: "readable()",
+    Distractor3: "read()",
+    Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
+    Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
+  },
+  {
+    Question: "In Python, which method is used to convert a list into a string with a suitable delimiter?",
+    Answer: ".join()",
+    Distractor1: ".extend()",
+    Distractor2: ".append()",
+    Distractor3: ".pop()",
+    Explanation: "You can use the .join string method to convert a list into a string",
+    Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
 ];
 
