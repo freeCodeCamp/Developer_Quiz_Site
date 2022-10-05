@@ -1,6 +1,28 @@
 const linuxQuiz = [
   {
-    Question: "In Linux, which command helps in listing all the enviroment variables?",
+    Question:
+      "Which of the following commands creates a file without opening it?",
+    Answer: "touch <filename>",
+    Distractor1: "nano <filename>",
+    Distractor2: "cat <filename>",
+    Distractor3: "cp <filename>",
+    Explanation:
+      "The touch <filename> command creates a new file without opening it which can be verified using the ls command.",
+    Link: "https://www.freecodecamp.org/news/linux-basics/",
+  },
+  {
+    Question: "In Linux, which command grants every permission to everyone?",
+    Answer: "chmod 777",
+    Distractor1: "chmod 111",
+    Distractor2: "chmod 724",
+    Distractor3: "chmod 666",
+    Explanation:
+      "The command chmod 777 activates all the permission access to owner, group and others by summing 4, 2, 1 on the octal base.",
+    Link: "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/",
+  },
+  {
+    Question:
+      "In Linux, which command helps in listing all the enviroment variables?",
     Answer: "printenv",
     Distractor1: "lsenv",
     Distractor2: "listenv",
@@ -702,8 +724,7 @@ const linuxQuiz = [
     Distractor1: "chmod user:group filename",
     Distractor2: "chown user::group filename",
     Distractor3: "chmod user::group filename",
-    Explanation:
-      "We can use chown to change user and group simultaneously",
+    Explanation: "We can use chown to change user and group simultaneously",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
@@ -716,6 +737,37 @@ const linuxQuiz = [
     Explanation:
       "Absolute mode uses numbers to represent permissions and mathematical operators to modify them.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "In Linux, which command is used to display network status and generate protocol statistics?",
+    Answer: "netstat",
+    Distractor1: "ipconfig",
+    Distractor2: "ifconfig",
+    Distractor3: "netlist",
+    Explanation:
+      "The netstat command can be used to display network connections and various protocol statistics.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
+  {
+    Question: "In Linux, which command can be used to terminate a program?",
+    Answer: "kill",
+    Distractor1: "end",
+    Distractor2: "stop",
+    Distractor3: "finish",
+    Explanation:
+      "The kill command sends a signal which terminates or kills a particular process or group of processes.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command",
+  },
+  {
+    Question: "In Linux, which command can be used for cron jobs?",
+    Answer: "crontab",
+    Distractor1: "cronaction",
+    Distractor2: "cronset",
+    Distractor3: "cronedit",
+    Explanation:
+      "The crontab command can used to perform various actions on cron jobs.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
 ];
 
