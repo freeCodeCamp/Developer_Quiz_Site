@@ -1,11 +1,6 @@
 const pythonQuiz = [
   {
-    Question:
-<<<<<<< HEAD
-      "In python, which of the following is NOT a parameter of the sorted() method?",
-=======
-      "In Python, which of the following is NOT a parameter of the sorted() method?",
->>>>>>> 215e019caec1009d692c3c44721ce3a969100ed9
+    Question:"In Python, which of the following is NOT a parameter of the sorted() method?",
     Answer: "iloc",
     Distractor1: "key",
     Distractor2: "iterable",
@@ -15,12 +10,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/",
   },
   {
-    Question:
-<<<<<<< HEAD
-      "In python, which of the following is not an attribute of the datetime.now() function?",
-=======
-      "In Python, which of the following is not an attribute of the datetime.now() function?",
->>>>>>> 215e019caec1009d692c3c44721ce3a969100ed9
+    Question:"In Python, which of the following is not an attribute of the datetime.now() function?",
     Answer: "week",
     Distractor1: "month",
     Distractor2: "day",
@@ -1042,6 +1032,15 @@ const pythonQuiz = [
     Explanation:
       "If you don't specify the start index, the default start index of 0 is used.",
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
+  },
+  {
+    Question: "In Python, which function is used to read a single line from a file",
+    Answer: "readline()",
+    Distractor1: "readlines()",
+    Distractor2: "readable()",
+    Distractor3: "read()",
+    Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
+    Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
   },
 ];
 
