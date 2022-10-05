@@ -29,6 +29,17 @@ const pythonQuiz = [
     Distractor3:
       "It is a method that acts as a destructor and is called automatically whenever an object is destroyed.",
     Explanation:
+      "To take input from the user we use the input() function",
+    Link: "https://forum.freecodecamp.org/t/a-guide-to-the-python-input-function/19192",
+  },
+  {
+    Question:
+      "In Python, what does a class's __init__() method do?",
+    Answer: "It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.",
+    Distractor1: "It initializes any imports you may have included at the top of your file.",
+    Distractor2: "It is included to preserve backwards compatibility issues.",
+    Distractor3: "It is a method that acts as a destructor and is called automatically whenever an object is destroyed.",
+    Explanation:
       " __init__() is a special method that is called whenever a new object is instantiated from a class. It is used to initialize the attributes of the class.",
     Link: "https://www.freecodecamp.org/news/object-oriented-programming-in-python/",
   },
@@ -1067,6 +1078,24 @@ const pythonQuiz = [
     Explanation:
       "If you don't specify the start index, the default start index of 0 is used.",
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/",
+  },
+  {
+    Question: "In Python, which function is used to read a single line from a file",
+    Answer: "readline()",
+    Distractor1: "readlines()",
+    Distractor2: "readable()",
+    Distractor3: "read()",
+    Explanation: "readline() function reads a single line from the file and returns the read bytes in the form of a string.",
+    Link: "https://www.freecodecamp.org/news/file-handling-in-python/",
+  },
+  {
+    Question: "In Python, which method is used to convert a list into a string with a suitable delimiter?",
+    Answer: ".join()",
+    Distractor1: ".extend()",
+    Distractor2: ".append()",
+    Distractor3: ".pop()",
+    Explanation: "You can use the .join string method to convert a list into a string",
+    Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
 ];
 
