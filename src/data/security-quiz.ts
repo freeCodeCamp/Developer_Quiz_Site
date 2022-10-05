@@ -1,6 +1,28 @@
 const securityQuiz = [
   {
     Question:
+      "Which set among the following is the correct set of three types of Linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users: user, group and other.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "read",
+    Distractor3: "write",
+    Explanation:
+      "In Linux, file permissions fall into three categories: read, write and execute.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+   Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
     Answer: "Scanning",
     Distractor1: "Exploitation",
