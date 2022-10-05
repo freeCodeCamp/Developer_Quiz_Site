@@ -81,7 +81,7 @@ const securityQuiz = [
   {
     Question:
       "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
-    Answer: "Homorphic Encryption",
+    Answer: "Homomorphic Encryption",
     Distractor1: "Symmetric Encryption",
     Distractor2: "Asymmetric Encryption",
     Distractor3: "Advanced Encryption",
@@ -163,7 +163,7 @@ const securityQuiz = [
     Distractor2: "White Hat Hackers",
     Distractor3: "Grey Hat Hackers",
     Explanation:
-      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , therby getting access to private and sensitive data",
+      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , thereby getting access to private and sensitive data",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {
