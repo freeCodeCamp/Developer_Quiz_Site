@@ -765,7 +765,7 @@ const generalCSQuiz = [
   },
   {
     Question: "What is pseudocode?",
-    Answer: "Pseudocode is fake code that is used to write programs that is easily understood.",
+    Answer: "Pseudocode is fake code that is used to write programs that are easily understood.",
     Distractor1: "An old programming language that they used back in the day.",
     Distractor2: "A diagrammatic representation of a set of instructions",
     Distractor3: "A specific programming language that all computers use",
@@ -796,7 +796,7 @@ const generalCSQuiz = [
     Distractor1: "A variable that is assigned a single value",
     Distractor2: "A function that loops through data",
     Distractor3: "A programming language used for Macintosh computer",
-    Explanation: "An array is a special variable, which can hold more than one value:",
+    Explanation: "An array is a special variable, which can hold more than one value.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
 ];
