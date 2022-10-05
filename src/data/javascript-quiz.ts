@@ -1234,6 +1234,36 @@ const javascriptQuiz = [
       "IIFE stands for Immediately Invoked Function Expression. This is a function that is executed immediately after it is created.",
     Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
   },
+  {
+    Question:
+      "In JavaScript, what is the difference between a parameter and an argument?",
+    Answer:
+      "A parameter is a variable in a function definition. An argument is the actual value of this variable that gets passed to the function.",
+    Distractor1:
+      "A parameter is the actual value of a variable that gets passed to a function. An argument is a variable in a function definition.",
+    Distractor2:
+      "A parameter is a variable in a function definition. An argument is a variable in a function definition.",
+    Distractor3:
+      "A parameter is the actual value of a variable that gets passed to a function. An argument is the actual value of this variable that gets passed to the function.",
+    Explanation:
+      "A parameter is a variable in a function definition. An argument is the actual value of this variable that gets passed to the function.",
+    Link: "https://www.freecodecamp.org/news/what-is-the-difference-between-parameters-and-arguments-in-javascript",
+  },
+  {
+    Question:
+      "In JavaScript, what is the difference between a function declaration and a function expression?",
+    Answer:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function expression.",
+    Distractor1:
+      "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using the function keyword.",
+    Distractor2:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function declaration.",
+    Distractor3:
+      "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using a function declaration.",
+    Explanation:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function expression.",
+    Link: "https://forum.freecodecamp.org/t/what-is-the-difference-between-a-function-declaration-and-function-expression/229324",
+  },
 ];
 
 export default javascriptQuiz;
