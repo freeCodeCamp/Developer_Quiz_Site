@@ -29,7 +29,7 @@ const agileQuiz = [
  {
     Question:
       "According to the Agile Manifesto, your highest priority is to _.",
-    Answer: "satisfy the customer/client requirmenets",
+    Answer: "satisfy the customer/client requirements",
     Distractor1: "achieve the desired Return of Investment",
     Distractor2: "minimize change requests from the customer/client",
     Distractor3: "deliver the project on time",

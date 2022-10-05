@@ -163,7 +163,7 @@ const securityQuiz = [
     Distractor2: "White Hat Hackers",
     Distractor3: "Grey Hat Hackers",
     Explanation:
-      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , therby getting access to private and sensitive data",
+      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , thereby getting access to private and sensitive data",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {

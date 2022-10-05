@@ -149,7 +149,7 @@ const javascriptQuiz = [
     Distractor2: "new",
     Distractor3: "var",
     Explanation:
-      "The value of a const variable must be specified when the varible is declared.",
+      "The value of a const variable must be specified when the variable is declared.",
     Link: "https://www.freecodecamp.org/news/let-me-be-a-const-ant-not-a-var-iable-1be52d153462/",
   },
   {
@@ -628,7 +628,7 @@ const javascriptQuiz = [
     Distractor2: "grunt",
     Distractor3: "Makefile",
     Explanation:
-      "Npm scripts allow commandline tools to be called directly without relying on external plugins.",
+      "Npm scripts allow command line tools to be called directly without relying on external plugins.",
     Link: "https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/",
   },
   {

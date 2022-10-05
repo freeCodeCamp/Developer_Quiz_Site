@@ -22,7 +22,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, which command helps in listing all the enviroment variables?",
+      "In Linux, which command helps in listing all the environment variables?",
     Answer: "printenv",
     Distractor1: "lsenv",
     Distractor2: "listenv",
