@@ -1,11 +1,35 @@
 const securityQuiz = [
   {
-    Question: "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
+    Question:
+      "Which set among the following is the correct set of three types of linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users : user, group and other.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "read",
+    Distractor3: "write",
+    Explanation:
+      "In Linux, file permissions fall in three categories: read, write and execute.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
     Answer: "HTTPS",
     Distractor1: "HTTP",
     Distractor2: "SMTP",
     Distractor3: "SFTP",
-    Explanation: "Hyper Text Transfer Protocol Secure, or HTTPS, is a way that communication can happen SECURELY between your browser and the site you want to visit (web server).",
+    Explanation:
+      "Hyper Text Transfer Protocol Secure, or HTTPS, is a way that communication can happen SECURELY between your browser and the site you want to visit (web server).",
     Link: "https://www.freecodecamp.org/news/http-vs-https/",
   },
   {
@@ -14,12 +38,13 @@ const securityQuiz = [
     Distractor1: "SFTP",
     Distractor2: "HTTP",
     Distractor3: "SSL",
-    Explanation: " SMTP, or Simple Mail Transfer Protocol, is a communication protocol used to send mails to mail servers.",
+    Explanation:
+      " SMTP, or Simple Mail Transfer Protocol, is a communication protocol used to send mails to mail servers.",
     Link: "https://www.freecodecamp.org/news/how-does-email-work/",
   },
   {
     Question:
-      "Which protocol/cipher is used which ensures parties without prior knowledge establish a shared secret without anyone else being able to sniff it ?" ,
+      "Which protocol/cipher is used which ensures parties without prior knowledge establish a shared secret without anyone else being able to sniff it ?",
     Answer: " Diffie-Hellman key exchange protocol ",
     Distractor1: "Caesar Cipher",
     Distractor2: " Secure Remote Password protocol ",
@@ -30,34 +55,40 @@ const securityQuiz = [
   },
 
   {
-    Question:
-      "In digital security, what is a Man in the Middle Attack?",
-    Answer: "an attack where hackers can spy on your internet traffic and modify it",
+    Question: "In digital security, what is a Man in the Middle Attack?",
+    Answer:
+      "an attack where hackers can spy on your internet traffic and modify it",
     Distractor1: "an attack where hackers can send emails with fake links",
-    Distractor2: "an attack where hackers can encrypt your files and demand payment",
-    Distractor3: "an attack where hackers can flood the system with network requests",
+    Distractor2:
+      "an attack where hackers can encrypt your files and demand payment",
+    Distractor3:
+      "an attack where hackers can flood the system with network requests",
     Explanation:
       "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
   },
   {
-    Question: "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
+    Question:
+      "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
     Answer: "Homorphic Encryption",
     Distractor1: "Symmetric Encryption",
     Distractor2: "Asymmetric Encryption",
     Distractor3: "Advanced Encryption",
-    Explanation: "Homomorphic Encryption is a form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data.",
+    Explanation:
+      "Homomorphic Encryption is a form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data.",
     Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
   },
   {
-    Question: "Which of the following is a cryptographic network protocol for operating network services securely over an unsecured network?",
+    Question:
+      "Which of the following is a cryptographic network protocol for operating network services securely over an unsecured network?",
     Answer: "SSH",
     Distractor1: "SFTP",
     Distractor2: "HTTPS",
     Distractor3: "OSPF",
-   Explanation: "The SSH(Secure Shell Protocol) is a secure way for users to access a computer over an unsecured network.",
+    Explanation:
+      "The SSH(Secure Shell Protocol) is a secure way for users to access a computer over an unsecured network.",
     Link: "https://www.freecodecamp.org/news/ssh-keygen-how-to-generate-an-ssh-public-key-for-rsa-login/",
-  }, 
+  },
   {
     Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
@@ -148,10 +179,14 @@ const securityQuiz = [
   {
     Question:
       "Which of the following is not a key advantage of homomorphic encryption?",
-    Answer: "Homomorphic encryption handles speed and storage requirements efficiently.",
-    Distractor1: "Homomorphic encryption allows encrypted information to be processed without requiring decryption first.",
-    Distractor2: "Homomorphic encryption is particularly useful in cases where data is shared with third parties.",
-    Distractor3: "Homomorphic encryption ensures regulatory compliance in industries like healthcare and finance.",
+    Answer:
+      "Homomorphic encryption handles speed and storage requirements efficiently.",
+    Distractor1:
+      "Homomorphic encryption allows encrypted information to be processed without requiring decryption first.",
+    Distractor2:
+      "Homomorphic encryption is particularly useful in cases where data is shared with third parties.",
+    Distractor3:
+      "Homomorphic encryption ensures regulatory compliance in industries like healthcare and finance.",
     Explanation:
       "Despite the many benefits homomorphic encryption has to offer, it lacks the efficiency and optimization requirements to be considered a practical solution.",
     Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
