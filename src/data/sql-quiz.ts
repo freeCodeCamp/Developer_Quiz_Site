@@ -1,5 +1,15 @@
 const sqlQuiz = [
   {
+    Question: "In a RDBMS, what is used to create a reference between tables?",
+    Answer: "Foreign Keys",
+    Distractor1: "Candidate Keys ",
+    Distractor2: "Alternate Keys",
+    Distractor3: "Composite Keys",
+    Explanation:
+      "A foreign key is used to link two tables by making reference to another table's primary key.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-relational-database-rdbms-definition/",
+  },
+  {
     Question:
       "Which of the following MySQL commands shows the structure of a table?",
     Answer: "DESCRIBE table_name;",
@@ -389,8 +399,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
   },
   {
-    Question:
-      "In SQL, where can we access all column names within a database?",
+    Question: "In SQL, where can we access all column names within a database?",
     Answer: "INFORMATION_SCHEMA.COLUMNS",
     Distractor1: "COLUMNS",
     Distractor2: "SCHEMA.COLUMNS",
