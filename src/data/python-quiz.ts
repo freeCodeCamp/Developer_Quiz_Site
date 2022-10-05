@@ -53,8 +53,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/",
   },
   {
-    Question:
-      "In Python, which of the following is not an attribute of the datetime.now() function?",
+    Question:"In Python, which of the following is not an attribute of the datetime.now() function?",
     Answer: "week",
     Distractor1: "month",
     Distractor2: "day",
