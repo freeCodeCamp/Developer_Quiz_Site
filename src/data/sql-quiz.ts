@@ -1,5 +1,14 @@
 const sqlQuiz = [
   {
+    Question: "Which command is used in a 'WHERE' or 'HAVING' command to limit the selected rows to the items when a column has a certain pattern of characters contained in it.",
+    Answer: "LIKE",
+    Distractor1: "NOT",
+    Distractor2: "INSERT",
+    Distractor3: "JOIN",
+    Explanation: "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
+  {
     Question:
       "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
     Answer: "DISTINCT",
