@@ -1,6 +1,17 @@
 const generalCSQuiz = [
   {
     Question:
+      "What data structure does a binary search tree degenerate to if it isn't balanced properly?",
+    Answer: "Linked List",
+    Distractor1: "Set",
+    Distractor2: "Queue",
+    Distractor3: "Dictionary",
+    Explanation:
+      "A binary search tree degenerates to a linked list if it is not balanced properly. It is balanced if the height of the left and right subtrees of any node differ by at most one.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/",
+  },
+  {
+    Question:
       "Which algorithm utilizes a pivot value to sort?",
     Answer: "Quick Sort",
     Distractor1: "Merge Sort",

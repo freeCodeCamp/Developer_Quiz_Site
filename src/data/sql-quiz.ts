@@ -1,6 +1,28 @@
 const sqlQuiz = [
   {
     Question:
+      "Which of the following MySQL commands shows the structure of a table?",
+    Answer: "DESCRIBE table_name;",
+    Distractor1: "SHOW table_name;",
+    Distractor2: "EXPLAIN table_name;",
+    Distractor3: "INFO table_name;",
+    Explanation:
+      "In MYSQL, the DESCRIBE command followed by the table name is used to show the structure of a table",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, how do you select every row in a given table named 'freecodecamp'?",
+    Answer: "SELECT * FROM freecodecamp",
+    Distractor1: "SELECT all FROM freecodecamp;",
+    Distractor2: "FROM freecodecamp SELECT all;",
+    Distractor3: "FROM freecodecamp SELECT *;",
+    Explanation:
+      "In SQl, SELECT is used to select data from a database. The * is a wildcard character that matches any column in the table. The FROM clause specifies the table to select from.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
       "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
     Answer: "DISTINCT",
     Distractor1: "GROUP BY",

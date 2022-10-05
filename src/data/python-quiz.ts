@@ -21,6 +21,17 @@ const pythonQuiz = [
   },
   {
     Question:
+      "In Python, what does a class's __init__() method do?",
+    Answer: "It is a method that acts as a constructor and is called automatically whenever a new object is created from a class. It sets the initial state of a new object.",
+    Distractor1: "It initializes any imports you may have included at the top of your file.",
+    Distractor2: "It is included to preserve backwards compatibility issues.",
+    Distractor3: "It is a method that acts as a destructor and is called automatically whenever an object is destroyed.",
+    Explanation:
+      " __init__() is a special method that is called whenever a new object is instantiated from a class. It is used to initialize the attributes of the class.",
+    Link: "https://www.freecodecamp.org/news/object-oriented-programming-in-python/",
+  },
+  {
+    Question:
       "In Python, which of the following is NOT a parameter of the sorted() method?",
     Answer: "iloc",
     Distractor1: "key",
