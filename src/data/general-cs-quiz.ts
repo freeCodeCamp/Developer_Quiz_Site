@@ -735,7 +735,6 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
   {
-
     Question: "What is a Nibble?",
     Answer: "Nibble is a four-bit aggregation",
     Distractor1: "Nibble is an algorithm",
