@@ -1,5 +1,26 @@
 const sqlQuiz = [
   {
+    Question: "In an RDBMS relationship between tables are created by using ",
+    Answer: "Foreign Keys",
+    Distractor1: "Candidate Keys ",
+    Distractor2: "Alternate Keys",
+    Distractor3: "Composite Keys",
+    Explanation:
+      "A foreign key is a column/group of columns used to make reference/link to another table's primary key.In other words, it is the representation of another table's primary key.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-relational-database-rdbms-definition/",
+  },
+  {
+    Question:
+      "In order to add a new column to an exsisting table in SQL,we can use the command",
+    Answer: "ALTER TABLE",
+    Distractor1: "MODIFY TABLE",
+    Distractor2: "EDIT TABLE",
+    Distractor3: "ALTER COLUMNS",
+    Explanation:
+      "To add a new column, you first need to select the table with ALTER TABLE table_name, and then write the name of the new column and its datatype with ADD column_name datatype.",
+    Link: "https://www.freecodecamp.org/news/alter-table-in-sql-how-to-add-a-column-or-rename-a-column-in-sql/",
+  },
+  {
     Question:
       "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
     Answer: "DISTINCT",
@@ -367,8 +388,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
   },
   {
-    Question:
-      "In SQL, where can we access all column names within a database?",
+    Question: "In SQL, where can we access all column names within a database?",
     Answer: "INFORMATION_SCHEMA.COLUMNS",
     Distractor1: "COLUMNS",
     Distractor2: "SCHEMA.COLUMNS",
