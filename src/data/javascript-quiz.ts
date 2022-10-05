@@ -1161,6 +1161,27 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which of the following is NOT the correct way to declare a variable?",
+    Answer: "number",
+    Distractor1: "let",
+    Distractor2: "var",
+    Distractor3: "const",
+    Explanation:
+      "JavaScript has three kinds of variable declarations: var, let and const.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations",
+  },
+  {
+    Question: "In JavaScript, how many primitive data types are there?",
+    Answer: "7",
+    Distractor1: "3",
+    Distractor2: "6",
+    Distractor3: "8",
+    Explanation:
+      "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types",
+  },
+  {
+    Question:
       "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
     Answer:
       "Yes, but variables declared with let and const are in Temporal Dead Zone",
@@ -1170,6 +1191,48 @@ const javascriptQuiz = [
     Explanation:
       "Variables declared with let, const and var are hoisted. But, const and let are in temporal dead zone.",
     Link: "https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/",
+  },
+  {
+    Question: "In JavaScript, what is the difference between == and ===?",
+    Answer: "== allows for type coercion of the values, while === does not",
+    Distractor1:
+      "== does not allow for type coercion of the values, while === does",
+    Distractor2:
+      "== and === both allow for type coercion of the values, but === is more strict",
+    Distractor3: "There is no difference between == and ===",
+    Explanation:
+      "The == operator allows for type coercion of the values, while === does not.",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question: "In JavaScript, how many falsy values are there?",
+    Answer: "6",
+    Distractor1: "5",
+    Distractor2: "7",
+    Distractor3: "8",
+    Explanation:
+      "There are 6 falsy values in JavaScript: false, 0, '', null, undefined, and NaN.",
+    Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/",
+  },
+  {
+    Question: "In JavaScript, what is a function without a name called?",
+    Answer: "An anonymous function",
+    Distractor1: "An unsigned function",
+    Distractor2: "A ghost function",
+    Distractor3: "A nameless function",
+    Explanation:
+      "A function without a name is called an anonymous function. This is useful when you want to pass a function as an argument to another function.",
+    Link: "https://www.freecodecamp.org/news/what-are-functions-in-javascript-a-beginners-guide/",
+  },
+  {
+    Question: "In JavaScript, what does IIFE stand for?",
+    Answer: "Immediately Invoked Function Expression",
+    Distractor1: "Immediately Invoked Function Executor",
+    Distractor2: "Internally Invoked Function Expression",
+    Distractor3: "Internally Invoked Function Executor",
+    Explanation:
+      "IIFE stands for Immediately Invoked Function Expression. This is a function that is executed immediately after it is created.",
+    Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
   },
 ];
 

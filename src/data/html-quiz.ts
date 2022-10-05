@@ -1,5 +1,35 @@
 const htmlQuiz = [
   {
+    Question: "How many Section Heading elements are there in HTML5?",
+    Answer: "6",
+    Distractor1: "4",
+    Distractor2: "8",
+    Distractor3: "1",
+    Explanation:
+      "There are 6 Section Heading elements in HTML5.",
+    Link: "https://youtu.be/kUMe1FH4CHE?t=1219",
+  },
+  {
+    Question: "What is the font-size of the h1 heading tag?",
+    Answer: "2em",
+    Distractor1: "3em",
+    Distractor2: "3.4em",
+    Distractor3: "2.7em",
+    Explanation:
+      "The font-size of h1 element is 2em by default",
+    Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html/",
+  },
+  {
+    Question: "How is the document type initialized in HTML5?",
+    Answer: "<!DOCTYPE HTML>",
+    Distractor1: "</DOCTYPE HTML>",
+    Distractor2: "</DOCTYPE>",
+    Distractor3: "<!HTML>",
+    Explanation:
+      "<!DOCTYPE HTML> is the DOCTYPE declaration for HTML5.",
+    Link: "https://www.freecodecamp.org/news/html5-tags-you-might-not-know/",
+  },
+  {
     Question:
       "In HTML, what is the difference between the <div> and the <span> tag?",
     Answer:

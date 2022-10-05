@@ -22,6 +22,39 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
+   Question:
+      "Which of the following terms involves sending packets of data to the target and interpreting their response?",
+    Answer: "Scanning",
+    Distractor1: "Exploitation",
+    Distractor2: "Reconnaissance",
+    Distractor3: "Reporting",
+    Explanation:
+      "Scanning involves sending packets of data to the target and interpreting their response.",
+    Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/",
+  },
+  {
+    Question:
+      "What is the term for getting information about a target without having to interact with them?",
+    Answer: "Reconnaissance",
+    Distractor1: "Enumeration",
+    Distractor2: " Exploitation",
+    Distractor3: "Reporting",
+    Explanation:
+      "Recon (aka footprinting) is the first, longest, and most important step. This entails getting as much information as you can about the target without interacting directly with the target.",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+  },
+  {
+    Question:
+      "What is the term for gathering information on a target for the purpose of looking for a vulnerability?",
+    Answer: "Enumeration",
+    Distractor1: "Reporting",
+    Distractor2: " Exploitation",
+    Distractor3: "Reconnaissance",
+    Explanation:
+      "This is like reconnaissance, except you gain information about the target by interacting with it for the purpose of looking for a vulnerability.",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+  },
+  {
     Question:
       "Which of the following protocols is a way through which communication can happen securely between your browser and the site you want to visit (web server)?",
     Answer: "HTTPS",
@@ -165,6 +198,27 @@ const securityQuiz = [
     Explanation:
       "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+  },
+  {
+    Question: "What is a common exploited Web security vulnerability?",
+    Answer: "SQL injection",
+    Distractor1: "NoSQL Injection",
+    Distractor2: "XPATH Injection",
+    Distractor3: "CSS Injection",
+    Explanation:
+      "SQL injection is one of the most common, old and effective ways of getting to your data for retrieving or destroying it. ",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/",
+  },
+  {
+    Question:
+      "What is the first line of defense against SQL injection attacks?",
+    Answer: "Sanitizing and validating user inputs",
+    Distractor1: "Good Firewall setup",
+    Distractor2: "IP white- and blacklist",
+    Distractor3: "Good Antivirus",
+    Explanation:
+      "Sanitizing your user input is a basic common rule in security. It is important to not directly add GET or POST variables in your code without a proper sanitizing function. ",
+    Link: "https://www.youtube.com/watch?v=2nXOxLpeu80&t=1h37m41s",
   },
   {
     Question: "Which of the following is NOT a JWT segment?",
