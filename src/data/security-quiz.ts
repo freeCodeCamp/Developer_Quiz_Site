@@ -7,7 +7,7 @@ const securityQuiz = [
     Distractor2: "Scanning",
     Distractor3: "Reporting",
     Explanation:
-      "This is the part where you come in contact with the target. Scanning involves sending packets of data to the target and interpreting their response.",
+      "Scanning involves sending packets of data to the target and interpreting their response.",
     Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/",
 
 
