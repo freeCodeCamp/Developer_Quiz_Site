@@ -266,6 +266,26 @@ const securityQuiz = [
       "TLS, or Transport Layer Security, refers to a protocol. The transport layer part of TLS simply refers to host-to-host communication, such as how a client and a server interact, in the Internet protocol suite model.",
     Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/",
   },
+  {
+    Question: "What is the practice of hiding messages in plain sight?",
+    Answer: "Steganography",
+    Distractor1: "Cryptography",
+    Distractor2: "Encryption",
+    Distractor3: "Forensics",
+    Explanation:
+      "Steganography is the practice of hiding messages in a way that looks like nothing is hidden.",
+    Link: "https://www.freecodecamp.org/news/steganography-explained-in-plain-english/",
+  },
+  {
+    Question: "What does RSA stand for?",
+    Answer: "Rivest, Shamir, and Adleman",
+    Distractor1: "Really Secure Algorithm",
+    Distractor2: "Router Safe Agreement",
+    Distractor3: "Right Serious Answer",
+    Explanation:
+      "RSA, named after its creators (Rivest, Shamir, and Adleman), is an encryption technique that takes advantage of the fact that factoring large prime numbers is hard.",
+    Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/",
+  },
 ];
 
 export default securityQuiz;
