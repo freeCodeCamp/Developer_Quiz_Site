@@ -1235,6 +1235,16 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
   },
   {
+    Question: "Which JavaScript DOM manipulation method adds multiple classes to an element?",
+    Answer: "classList()",
+    Distractor1: "className",
+    Distractor2: "classVar",
+    Distractor3: "classConstructor",
+    Explanation:
+      "The classList() method adds multiple classes to an element. You can use it to add a class or multiple classes to an element by attaching the add() method to it. For example classList.add('btn'), or classList.add('btn', 'btn-block')",
+    Link: "https://www.freecodecamp.org/news/what-is-dom-in-javascript/#how-to-manipulate-css-from-javascript",
+  },
+  {
     Question:
       "In JavaScript, what is the difference between a parameter and an argument?",
     Answer:
