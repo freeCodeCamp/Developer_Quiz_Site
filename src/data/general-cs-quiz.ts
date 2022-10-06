@@ -799,6 +799,15 @@ const generalCSQuiz = [
     Explanation: "An array is a special variable, which can hold more than one value.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
+   {
+    Question: "What is the best case complexity of merge sort algorithm?",
+    Answer: "O(n*log(n))",
+    Distractor1: "O(n^2)",
+    Distractor2: "O(log(n))",
+    Distractor3: "O(2^n)",
+    Explanation: "The list of size N is divided into a max of Logn parts, and the merging of all sublists into a single list takes O(N) time,Best Case Time Complexity: O(n*log n)",
+    Link: "https://www.digitalocean.com/community/tutorials/merge-sort-algorithm-java-c-python",
+  },
 ];
 
 export default generalCSQuiz;
