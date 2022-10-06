@@ -770,7 +770,7 @@ const generalCSQuiz = [
     Distractor2: "Functional Programming",
     Distractor3: "Procedural Programming",
     Explanation:
-      "Object-oriented programming, functional programming and procedural programming are all one of the most well known paradigms.",
+      "Object-oriented programming, functional programming and procedural programming are all well known paradigms.",
     Link: "https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/",
   },
   {
