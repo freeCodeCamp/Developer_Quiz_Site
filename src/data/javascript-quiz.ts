@@ -1304,7 +1304,7 @@ const javascriptQuiz = [
     Distractor2: "arr.keys(c, d, e)",
     Distractor3: "arr.remove(0, 1)",
     Explanation:
-      "The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included)",
+      "The slice() method has two optional parameters which represent the starting and ending index for the array. This method returns a new shallow copy of the sliced array.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
   },
   {
