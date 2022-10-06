@@ -29,7 +29,7 @@ const generalCSQuiz = [
     Distractor2: "Bubble Sort",
     Distractor3: "Insertion Sort",
     Explanation:
-      "The average case time complexity of Merge Sort Algorithm is O(nlogn) whereas for the other 3 options it is O(n^2).",
+      "The average case time complexity for the merge sort algorithm is O(n log n).",
     Link: "https://youtu.be/l7-f9gS8VOs",
   },
   {
