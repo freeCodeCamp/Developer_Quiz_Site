@@ -149,7 +149,7 @@ const javascriptQuiz = [
     Distractor2: "new",
     Distractor3: "var",
     Explanation:
-      "The value of a const variable must be specified when the varible is declared.",
+      "The value of a const variable must be specified when the variable is declared.",
     Link: "https://www.freecodecamp.org/news/let-me-be-a-const-ant-not-a-var-iable-1be52d153462/",
   },
   {
@@ -628,7 +628,7 @@ const javascriptQuiz = [
     Distractor2: "grunt",
     Distractor3: "Makefile",
     Explanation:
-      "Npm scripts allow commandline tools to be called directly without relying on external plugins.",
+      "Npm scripts allow command line tools to be called directly without relying on external plugins.",
     Link: "https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/",
   },
   {
@@ -1233,6 +1233,16 @@ const javascriptQuiz = [
     Explanation:
       "IIFE stands for Immediately Invoked Function Expression. This is a function that is executed immediately after it is created.",
     Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
+  },
+  {
+    Question: "Which JavaScript DOM manipulation method adds multiple classes to an element?",
+    Answer: "classList()",
+    Distractor1: "className",
+    Distractor2: "classVar",
+    Distractor3: "classConstructor",
+    Explanation:
+      "The classList() method adds multiple classes to an element. You can use it to add a class or multiple classes to an element by attaching the add() method to it. For example classList.add('btn'), or classList.add('btn', 'btn-block')",
+    Link: "https://www.freecodecamp.org/news/what-is-dom-in-javascript/#how-to-manipulate-css-from-javascript",
   },
   {
     Question:
