@@ -849,6 +849,15 @@ const generalCSQuiz = [
     Explanation: "An array is a special variable, which can hold more than one value.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
+   {
+    Question: "What is the best case time complexity for the merge sort algorithm?",
+    Answer: "O(n*log(n))",
+    Distractor1: "O(n^2)",
+    Distractor2: "O(log(n))",
+    Distractor3: "O(2^n)",
+    Explanation: "Merge sort is a divide and conquer algorithm that has a best case time complexity of O(n*log n)",
+    Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
+  },
 ];
 
 export default generalCSQuiz;
