@@ -1059,6 +1059,17 @@ const javascriptQuiz = [
       "https://www.freecodecamp.org/news/what-is-javascript-javascript-code-explained-in-plain-english/",
   },
   {
+    Question: "Which company created JavaScript?",
+    Answer: "Netscape",
+    Distractor1: "IBM",
+    Distractor2: "Xerox",
+    Distractor3: "Google",
+    Explanation:
+      "The first ever JavaScript was created by Brendan Eich at Netscape.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript.",
+  },
+  {
     Question:
       "In JavaScript, what is the name of the method that returns true if at least one of the elements in an array passes the test implemented by the function provided?",
     Answer: ".some()",
@@ -1350,7 +1361,8 @@ const javascriptQuiz = [
     Distractor3: "classConstructor",
     Explanation:
       "The classList() method adds multiple classes to an element. You can use it to add a class or multiple classes to an element by attaching the add() method to it. For example classList.add('btn'), or classList.add('btn', 'btn-block')",
-    Link: "https://www.freecodecamp.org/news/what-is-dom-in-javascript/#how-to-manipulate-css-from-javascript",
+    Link:
+      "https://www.freecodecamp.org/news/what-is-dom-in-javascript/#how-to-manipulate-css-from-javascript",
   },
   {
     Question:
@@ -1393,7 +1405,8 @@ const javascriptQuiz = [
     Distractor3: "1, 2, 3",
     Explanation:
       "The shift() method removes the first element from an array and returns that removed element.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
   },
   {
     Question: "In JavaScript, which is a correct way to concatenate 3 arrays?",
@@ -1403,7 +1416,8 @@ const javascriptQuiz = [
     Distractor3: "const newArr = arr1.join[arr2, arr3]",
     Explanation:
       "The concat() method is used to combine two or more arrays and returns a new array.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
   },
   {
     Question:
@@ -1414,7 +1428,8 @@ const javascriptQuiz = [
     Distractor3: "arr.remove(0, 1)",
     Explanation:
       "The slice() method has two optional parameters which represent the starting and ending index for the array. This method returns a new shallow copy of the sliced array.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
   },
   {
     Question:
@@ -1425,7 +1440,8 @@ const javascriptQuiz = [
     Distractor3: "[99, 103, 172]",
     Explanation:
       "The find() method will look through the array and return the first element that passes the callback function.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
   },
   {
     Question:
@@ -1436,7 +1452,8 @@ const javascriptQuiz = [
     Distractor3: ".some()",
     Explanation:
       "The at() method takes a positive or negative integer and returns the index for that element.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
   },
 ];
 
