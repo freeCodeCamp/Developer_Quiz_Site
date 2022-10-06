@@ -22,7 +22,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
   },
   {
-    Question: "Who is responsible for sprint meeting?",
+    Question: "Who is responsible for the sprint meeting?",
     Answer: "Scrum master",
     Distractor1: "Product owner",
     Distractor2: "Scrum team",
