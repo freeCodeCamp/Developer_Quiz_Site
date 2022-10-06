@@ -1293,7 +1293,7 @@ const javascriptQuiz = [
     Distractor2: "const newArr = combine[arr1, arr2, arr3]",
     Distractor3: "const newArr = arr1.join[arr2, arr3]",
     Explanation:
-      "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+      "The concat() method is used to combine two or more arrays and returns a new array.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
   },
   {
