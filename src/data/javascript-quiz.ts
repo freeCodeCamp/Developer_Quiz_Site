@@ -149,7 +149,7 @@ const javascriptQuiz = [
     Distractor2: "new",
     Distractor3: "var",
     Explanation:
-      "The value of a const variable must be specified when the varible is declared.",
+      "The value of a const variable must be specified when the variable is declared.",
     Link: "https://www.freecodecamp.org/news/let-me-be-a-const-ant-not-a-var-iable-1be52d153462/",
   },
   {
@@ -628,7 +628,7 @@ const javascriptQuiz = [
     Distractor2: "grunt",
     Distractor3: "Makefile",
     Explanation:
-      "Npm scripts allow commandline tools to be called directly without relying on external plugins.",
+      "Npm scripts allow command line tools to be called directly without relying on external plugins.",
     Link: "https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/",
   },
   {
@@ -1243,6 +1243,36 @@ const javascriptQuiz = [
     Explanation:
       "The classList() method adds multiple classes to an element. You can use it to add a class or multiple classes to an element by attaching the add() method to it. For example classList.add('btn'), or classList.add('btn', 'btn-block')",
     Link: "https://www.freecodecamp.org/news/what-is-dom-in-javascript/#how-to-manipulate-css-from-javascript",
+  },
+  {
+    Question:
+      "In JavaScript, what is the difference between a parameter and an argument?",
+    Answer:
+      "A parameter is a variable in a function definition. An argument is the actual value of this variable that gets passed to the function.",
+    Distractor1:
+      "A parameter is the actual value of a variable that gets passed to a function. An argument is a variable in a function definition.",
+    Distractor2:
+      "A parameter is a variable in a function definition. An argument is a variable in a function definition.",
+    Distractor3:
+      "A parameter is the actual value of a variable that gets passed to a function. An argument is the actual value of this variable that gets passed to the function.",
+    Explanation:
+      "A parameter is a variable in a function definition. An argument is the actual value of this variable that gets passed to the function.",
+    Link: "https://www.freecodecamp.org/news/what-is-the-difference-between-parameters-and-arguments-in-javascript",
+  },
+  {
+    Question:
+      "In JavaScript, what is the difference between a function declaration and a function expression?",
+    Answer:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function expression.",
+    Distractor1:
+      "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using the function keyword.",
+    Distractor2:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function declaration.",
+    Distractor3:
+      "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using a function declaration.",
+    Explanation:
+      "The main difference between a function declaration and a function expression is the function name, which can be omitted in function expressions to create anonymous functions. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function",
   },
 ];
 
