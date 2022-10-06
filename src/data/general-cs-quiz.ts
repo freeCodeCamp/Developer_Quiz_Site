@@ -23,6 +23,17 @@ const generalCSQuiz = [
   },
   {
     Question:
+      "Which of these sorting algorithms follows an average case time complexity of order O(nlogn)?",
+    Answer: "Merge Sort",
+    Distractor1: "Selection Sort",
+    Distractor2: "Bubble Sort",
+    Distractor3: "Insertion Sort",
+    Explanation:
+      "The average case time complexity for the merge sort algorithm is O(n log n).",
+    Link: "https://youtu.be/l7-f9gS8VOs",
+  },
+  {
+    Question:
       "Which one of these data structures follows the FIFO(First In First Out) method?",
     Answer: "Queues",
     Distractor1: "Arrays",
