@@ -1,6 +1,28 @@
 const securityQuiz = [
   {
     Question:
+      "Which set among the following is the correct set of three types of Linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users: user, group and other.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question:
+      "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "read",
+    Distractor3: "write",
+    Explanation:
+      "In Linux, file permissions fall into three categories: read, write and execute.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+   Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
     Answer: "Scanning",
     Distractor1: "Exploitation",
@@ -81,7 +103,7 @@ const securityQuiz = [
   {
     Question:
       "A form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data is known as?",
-    Answer: "Homorphic Encryption",
+    Answer: "Homomorphic Encryption",
     Distractor1: "Symmetric Encryption",
     Distractor2: "Asymmetric Encryption",
     Distractor3: "Advanced Encryption",
@@ -103,12 +125,12 @@ const securityQuiz = [
   {
     Question:
       "Which of the following is a mechanism to ensure non-repudiation?",
-    Answer: "Assymetric-key encryption",
+    Answer: "Asymmetric-key encryption",
     Distractor1: "MD5",
     Distractor2: "Symmetric-key encryption",
     Distractor3: "Caesar cipher",
     Explanation:
-      "Assymetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
+      "Asymmetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/",
   },
   {
@@ -163,7 +185,7 @@ const securityQuiz = [
     Distractor2: "White Hat Hackers",
     Distractor3: "Grey Hat Hackers",
     Explanation:
-      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malwares, sending phishing emails and links , therby getting access to private and sensitive data",
+      "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malware, sending phishing emails and links , thereby getting access to private and sensitive data",
     Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
   },
   {
@@ -243,6 +265,26 @@ const securityQuiz = [
     Explanation:
       "TLS, or Transport Layer Security, refers to a protocol. The transport layer part of TLS simply refers to host-to-host communication, such as how a client and a server interact, in the Internet protocol suite model.",
     Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/",
+  },
+  {
+    Question: "What is the practice of hiding messages in plain sight?",
+    Answer: "Steganography",
+    Distractor1: "Cryptography",
+    Distractor2: "Encryption",
+    Distractor3: "Forensics",
+    Explanation:
+      "Steganography is the practice of hiding messages in a way that looks like nothing is hidden.",
+    Link: "https://www.freecodecamp.org/news/steganography-explained-in-plain-english/",
+  },
+  {
+    Question: "What does RSA stand for?",
+    Answer: "Rivest, Shamir, and Adleman",
+    Distractor1: "Really Secure Algorithm",
+    Distractor2: "Router Safe Agreement",
+    Distractor3: "Right Serious Answer",
+    Explanation:
+      "RSA, named after its creators (Rivest, Shamir, and Adleman), is an encryption technique that takes advantage of the fact that factoring large prime numbers is hard.",
+    Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/",
   },
 ];
 

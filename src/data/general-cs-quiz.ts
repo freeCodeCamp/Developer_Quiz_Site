@@ -146,7 +146,7 @@ const generalCSQuiz = [
     Distractor2: "Functions declared in classes",
     Distractor3: "Functions that only return numbers",
     Explanation:
-      "If functions can be sent and received just like values, than that languge is said to have first class functions. They are also called first class citizens.",
+      "If functions can be sent and received just like values, than that language is said to have first class functions. They are also called first class citizens.",
     Link: "https://www.freecodecamp.org/news/discover-the-power-of-first-class-functions-fd0d7b599b69/",
   },
   {
@@ -762,6 +762,92 @@ const generalCSQuiz = [
     Distractor3: "Tree",
     Explanation: "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
     Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
+  },
+  {
+    Question: "Which one is NOT a programming paradigm?",
+    Answer: "Boolean Programming",
+    Distractor1: "Object-Oriented Programming",
+    Distractor2: "Functional Programming",
+    Distractor3: "Procedural Programming",
+    Explanation:
+      "Object-oriented programming, functional programming and procedural programming are all well known paradigms.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-programming-paradigms/",
+  },
+  {
+    Question: "Which one is NOT a real logic gate?",
+    Answer: "XAND",
+    Distractor1: "AND",
+    Distractor2: "NAND",
+    Distractor3: "XNOR",
+    Explanation:
+      "The seven logic gates in boolean algebra are AND, OR, XOR, NOT, NAND, NOR, and XNOR.",
+    Link: "https://www.freecodecamp.org/news/boolean-algebra/",
+  },
+  {
+    Question: "Which type of computer network generally has the smallest size?",
+    Answer: "PAN",
+    Distractor1: "MAN",
+    Distractor2: "LAN",
+    Distractor3: "WAN",
+    Explanation:
+      "Some examples of a Personal Area Network (PAN) include tablets, video game consoles and smartphones. ",
+    Link: "https://en.wikipedia.org/wiki/Computer_network",
+  },
+  {
+    Question: "Which color model is used for printing?",
+    Answer: "CMYK",
+    Distractor1: "RGB",
+    Distractor2: "RYB",
+    Distractor3: "HSV",
+    Explanation:
+      "The CMYK color model uses subtractive colors, thus producing better results on a white background like a paper.",
+    Link: "https://en.wikipedia.org/wiki/Color_model",
+  },
+  {
+    Question: "What are the four pillars of Object-oriented programming?",
+    Answer: "Abstraction, Encapsulation, Inheritance, and Polymorphism.",
+    Distractor1: "Objects, Methods, Properties and Fields.",
+    Distractor2: "Immutability, Purity, Transparency and State.",
+    Distractor3: "Declaration, Modeling, Evaluation and Implementaion.",
+    Explanation:
+      "Abstraction, encapsulation, inheritance, and polymorphism are software design principles to help you write clean object-oriented code.",
+    Link: "https://www.freecodecamp.org/news/four-pillars-of-object-oriented-programming/",
+  },
+  {
+    Question: "What is pseudocode?",
+    Answer: "Pseudocode is fake code that is used to write programs that are easily understood.",
+    Distractor1: "An old programming language that they used back in the day.",
+    Distractor2: "A diagrammatic representation of a set of instructions",
+    Distractor3: "A specific programming language that all computers use",
+    Explanation: "Pseudocode is fake code that is used to write programs in which you represent the sequence of actions and instructions (aka algorithms) in a form that humans can easily understand.",
+    Link: "https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/",
+  },
+  {
+    Question: "What is a function?",
+    Answer: "Is a block of code that is self-contained behavior for the computer to run.",
+    Distractor1: "an extensible program-code-template",
+    Distractor2: "Text that does not get executed by the computer",
+    Distractor3: "container for storing data",
+    Explanation: "The code inside a function runs only when it is needed, meaning only when it is called.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What are loops?",
+    Answer: "Code used to run certain instructions repeatedly.",
+    Distractor1: "Code that is ran only one time",
+    Distractor2: "Code to encapsulate statements",
+    Distractor3: "Code that ends the program",
+    Explanation: "A statement which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
+  },
+  {
+    Question: "What is an array?",
+    Answer: "Is a list of data",
+    Distractor1: "A variable that is assigned a single value",
+    Distractor2: "A function that loops through data",
+    Distractor3: "A programming language used for Macintosh computer",
+    Explanation: "An array is a special variable, which can hold more than one value.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
 ];
 
