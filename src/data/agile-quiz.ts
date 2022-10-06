@@ -122,7 +122,7 @@ const agileQuiz = [
       "A simple description of a software feature from the perspective of the Product Owner",
     Explanation:
       "A user story is an informal, general explanation of a software feature written from the perspective of the end user.",
-    Link: "https://www.atlassian.com/agile/project-management/user-stories",
+    Link: "https://www.freecodecamp.org/news/how-to-write-user-stories-epics-pesonas/",
   },
 ];
 
