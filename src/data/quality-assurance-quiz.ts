@@ -52,6 +52,18 @@ const qualityAssuranceQuiz = [
       "End to End tests typically run the entire application (both frontend and backend) and your test will interact with the app just like a typical user would.",
     Link: "https://www.freecodecamp.org/news/end-to-end-testing-tutorial/",
   },
+  {
+    Question:
+      "Which of the following statements are false about using software tests?",
+    Answer:
+      "By using software tests, you automatically ensure that the app follows user requirements.",
+    Distractor1: "Using software tests improves product security.",
+    Distractor2: "Using software tests improves customer satisfaction.",
+    Distractor3: "Using software tests saves money.",
+    Explanation:
+      "Even if the app is 99% bug free , if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
+  },
 ];
 
 export default qualityAssuranceQuiz;
