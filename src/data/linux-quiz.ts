@@ -770,14 +770,14 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
   {
-    Question: "Name the command that can be used to copy files across systems.",
-    Answer: "FTP",
-    Distractor1: "TELNET",
-    Distractor2: "FTP",
-    Distractor3: "SSH",
+    Question: "Command which gives information on any hard drives that is connected to the system and their partitions.",
+    Answer: "fdisk",
+    Distractor1: "df",
+    Distractor2: "split",
+    Distractor3: "ps",
     Explanation:
-      "FTP is a network protocol used for exchanging files over the network. It uses port 21. FTP enables you to access a remote system for exchanging files using the ftp command.",
-    Link: "https://www.freecodecamp.org/news/how-to-transfer-files-between-servers-in-linux-using-scp-and-ftp/",
+      "fdisk also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface. ",
+    Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
   },
 ];
 
