@@ -1277,7 +1277,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, given the array let a = [1, 2, 3, 4], what is the returned value of a.shift() ?",
+      "In JavaScript, what is the return value for the following code:  [1, 2, 3, 4].shift()?",
     Answer: "1",
     Distractor1: "2, 3, 4",
     Distractor2: "4",
