@@ -1223,7 +1223,7 @@ const javascriptQuiz = [
     Distractor2: "",
     Distractor3: "NaN",
     Explanation:
-      "In JavaScript, if a variable is been declared and no value is assigned to it, calling property typeof on that variable will return 'undefined'. The global undefined property represents the primitive value undefined. It is one of JavaScript's primitive types",
+      "In JavaScript, if you use the typeof operator on an undeclared variable then it will return undefined. ",
     Link:
       "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
