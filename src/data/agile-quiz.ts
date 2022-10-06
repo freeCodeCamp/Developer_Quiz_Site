@@ -22,6 +22,26 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
   },
   {
+    Question: "Who is responsible for the sprint meeting?",
+    Answer: "Scrum master",
+    Distractor1: "Product owner",
+    Distractor2: "Scrum team",
+    Distractor3: "All of the above.",
+    Explanation:
+      "The Scrum Master ensures that the team discusses how to improve on the delivery or software products.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
+  },
+  {
+    Question: "What is a Sprint Review?",
+    Answer: "an opportunity for inspection of the Sprint outcome",
+    Distractor1: "Activity to improve Scrum Processes",
+    Distractor2: "Activity to plan for the next Sprint",
+    Distractor3: "Activity to plan for the release",
+    Explanation:
+      "A Sprint Review involves seeking feedback from stakeholders and incorporating that feedback into the software product.",
+    Link: "https://scrumguides.org/scrum-guide.html#sprint-review",
+  },
+  {
     Question: "In Agile, what is the term for combining Kanban with Scrum?",
     Answer: "Scrumban",
     Distractor1: "KanScrum",
@@ -34,7 +54,7 @@ const agileQuiz = [
   {
     Question:
       "According to the Agile Manifesto, your highest priority is to _.",
-    Answer: "satisfy the customer/client requirmenets",
+    Answer: "satisfy the customer/client requirements",
     Distractor1: "achieve the desired Return of Investment",
     Distractor2: "minimize change requests from the customer/client",
     Distractor3: "deliver the project on time",
