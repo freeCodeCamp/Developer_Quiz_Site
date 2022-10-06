@@ -1315,7 +1315,7 @@ const javascriptQuiz = [
     Distractor2: "undefined",
     Distractor3: "[99, 103, 172]",
     Explanation:
-      "The find() method returns the first element in the provided array that satisfies the provided testing function.",
+      "The find() method will look through the array and return the first element that passes the callback function.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
   },
   {
