@@ -1235,7 +1235,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
   },
   {
-    Question: "Which JavaScript DOM manipulation method adds multiple classes to an element?",
+    Question:
+      "Which JavaScript DOM manipulation method adds multiple classes to an element?",
     Answer: "classList()",
     Distractor1: "className",
     Distractor2: "classVar",
@@ -1273,6 +1274,60 @@ const javascriptQuiz = [
     Explanation:
       "The main difference between a function declaration and a function expression is the function name, which can be omitted in function expressions to create anonymous functions. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function",
+  },
+  {
+    Question:
+      "In JavaScript, given the array let a = [1, 2, 3, 4], what is the returned value of a.shift() ?",
+    Answer: "1",
+    Distractor1: "2, 3, 4",
+    Distractor2: "4",
+    Distractor3: "1, 2, 3",
+    Explanation:
+      "The shift() method removes the first element from an array and returns that removed element.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+  },
+  {
+    Question: "In JavaScript, which is a correct way to concatenate 3 arrays?",
+    Answer: "const newArr = arr1.concat(arr2, arr3)",
+    Distractor1: "const newArr = join(arr1, arr2, arr3)",
+    Distractor2: "const newArr = combine[arr1, arr2, arr3]",
+    Distractor3: "const newArr = arr1.join[arr2, arr3]",
+    Explanation:
+      "The concat() method is used to merge two or more arrays. This method does not change the existing arrays, but instead returns a new array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+  },
+  {
+    Question:
+      "In JavaScript, given the array const arr = ['a', 'b', 'c', 'd', 'e'], what returns ['c', 'd', 'e'] ?",
+    Answer: "arr.slice(2,5)",
+    Distractor1: "arr.fill(c, d, e)",
+    Distractor2: "arr.keys(c, d, e)",
+    Distractor3: "arr.remove(0, 1)",
+    Explanation:
+      "The slice() method returns a shallow copy of a portion of an array into a new array object selected from start to end (end not included)",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+  },
+  {
+    Question:
+      "In JavaScript, given the array const n = [22, -4, 99, 103, -30, 172], what is the result of n.find(x => x > 50) ?",
+    Answer: "99",
+    Distractor1: "{99, 103, 172}",
+    Distractor2: "undefined",
+    Distractor3: "[99, 103, 172]",
+    Explanation:
+      "The find() method returns the first element in the provided array that satisfies the provided testing function.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+  },
+  {
+    Question:
+      "In JavaScript, given an array, what method takes an integer value and returns the item at that index ?",
+    Answer: ".at()",
+    Distractor1: ".value()",
+    Distractor2: ".flat()",
+    Distractor3: ".some()",
+    Explanation:
+      "The at() method takes an integer value and returns the item at that index, allowing for positive and negative integers.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
   },
 ];
 
