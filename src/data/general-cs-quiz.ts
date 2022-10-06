@@ -806,7 +806,7 @@ const generalCSQuiz = [
     Distractor2: "O(log(n))",
     Distractor3: "O(2^n)",
     Explanation: "The list of size N is divided into a max of Logn parts, and the merging of all sublists into a single list takes O(N) time,Best Case Time Complexity: O(n*log n)",
-    Link: "https://www.digitalocean.com/community/tutorials/merge-sort-algorithm-java-c-python",
+    Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
   },
 ];
 
