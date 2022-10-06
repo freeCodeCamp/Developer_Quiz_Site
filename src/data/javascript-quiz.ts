@@ -1298,7 +1298,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, given the array const arr = ['a', 'b', 'c', 'd', 'e'], what returns ['c', 'd', 'e'] ?",
+      "Given the following JavaScript array, ['a', 'b', 'c', 'd', 'e'], what method is used to return ['c', 'd', 'e']?",
     Answer: "arr.slice(2,5)",
     Distractor1: "arr.fill(c, d, e)",
     Distractor2: "arr.keys(c, d, e)",
