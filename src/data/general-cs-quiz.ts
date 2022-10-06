@@ -800,7 +800,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
    {
-    Question: "What is the best case complexity of merge sort algorithm?",
+    Question: "What is the best case time complexity for the merge sort algorithm?",
     Answer: "O(n*log(n))",
     Distractor1: "O(n^2)",
     Distractor2: "O(log(n))",
