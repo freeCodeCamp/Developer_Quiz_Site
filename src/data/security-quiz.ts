@@ -278,7 +278,7 @@ const securityQuiz = [
   },
   {
     Question: "What does RSA stand for?",
-    Answer: "Rivest Shamir Adleman",
+    Answer: "Rivest, Shamir, and Adleman",
     Distractor1: "Really Secure Algorithm",
     Distractor2: "Router Safe Agreement",
     Distractor3: "Right Serious Answer",
