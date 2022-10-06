@@ -780,7 +780,7 @@ const generalCSQuiz = [
     Distractor2: "NAND",
     Distractor3: "XNOR",
     Explanation:
-      "There are only seven basic logic gates: AND, OR, XOR, NOT, NAND, NOR, and XNOR.",
+      "The seven logic gates in boolean algebra are AND, OR, XOR, NOT, NAND, NOR, and XNOR.",
     Link: "https://www.freecodecamp.org/news/boolean-algebra/",
   },
   {
