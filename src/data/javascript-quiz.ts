@@ -1280,7 +1280,7 @@ const javascriptQuiz = [
     Distractor2: "Non-Alpha-Numeric",
     Distractor3: "Non-numeric",
     Explanation:
-      "In JavaScript and computing generally, the global NaN property is a value representing Not-A-Number and use to check if a value is not a number. NaN is also one of the falsy values in JavaScript.",
+      "The global NaN property is a value representing Not-A-Number. This property is used to check if a value is not a valid number.",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
