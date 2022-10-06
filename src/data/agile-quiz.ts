@@ -130,6 +130,20 @@ const agileQuiz = [
       "Waterfall is an opposing project management methodology that has little to no room for feedback or iteration until the product is completely built and tested.",
     Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
   },
+  {
+    Question: "In the Agile framework, what is a user story?",
+    Answer:
+      "A simple description of a software feature from the perspective of a user or customer",
+    Distractor1:
+      "A simple description of a software feature from the perspective of a developer",
+    Distractor2:
+      "A simple description of a software feature from the perspective of the Scrum Master",
+    Distractor3:
+      "A simple description of a software feature from the perspective of the Product Owner",
+    Explanation:
+      "A user story is an informal, general explanation of a software feature written from the perspective of the end user.",
+    Link: "https://www.freecodecamp.org/news/how-to-write-user-stories-epics-pesonas/",
+  },
 ];
 
 export default agileQuiz;
