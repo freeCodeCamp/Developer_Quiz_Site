@@ -1,35 +1,60 @@
 const agileQuiz = [
- {
-    Question: "Which of the following development models is a very linear approach to building a product and also has little room for feedback or iteration until the product is completely built and tested?",
+  {
+    Question:
+      "Which of the following development models is a very linear approach to building a product and also has little room for feedback or iteration until the product is completely built and tested?",
     Answer: "Waterfall Development",
     Distractor1: "Kanban Development",
     Distractor2: "Linear Development",
     Distractor3: "Rigid Development",
-    Explanation: "Waterfall development is a very linear approach to building a product. It has little to no room for feedback or iteration until the product is completely built and tested.",
+    Explanation:
+      "Waterfall development is a very linear approach to building a product. It has little to no room for feedback or iteration until the product is completely built and tested.",
     Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
- },
- {
-    Question: "Which of the following is typically the smallest defined piece of work in the Agile framework?",
+  },
+  {
+    Question:
+      "Which of the following is typically the smallest defined piece of work in the Agile framework?",
     Answer: "Story",
     Distractor1: "Plot",
     Distractor2: "Plan",
     Distractor3: "Outline",
-    Explanation: "A story is typically the smallest defined piece of work within the Agile framework.",
+    Explanation:
+      "A story is typically the smallest defined piece of work within the Agile framework.",
     Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
- },
- {
+  },
+  {
+    Question: "Who is responsible for the sprint meeting?",
+    Answer: "Scrum master",
+    Distractor1: "Product owner",
+    Distractor2: "Scrum team",
+    Distractor3: "All of the above.",
+    Explanation:
+      "The Scrum Master ensures that the team discusses how to improve on the delivery or software products.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
+  },
+  {
+    Question: "What is a Sprint Review?",
+    Answer: "an opportunity for inspection of the Sprint outcome",
+    Distractor1: "Activity to improve Scrum Processes",
+    Distractor2: "Activity to plan for the next Sprint",
+    Distractor3: "Activity to plan for the release",
+    Explanation:
+      "A Sprint Review involves seeking feedback from stakeholders and incorporating that feedback into the software product.",
+    Link: "https://scrumguides.org/scrum-guide.html#sprint-review",
+  },
+  {
     Question: "In Agile, what is the term for combining Kanban with Scrum?",
     Answer: "Scrumban",
     Distractor1: "KanScrum",
     Distractor2: "ScrumKanban",
     Distractor3: "Kanrum",
-    Explanation: "Kanban is very flexible and it can be used in combination with Scrum, which is called Scrumban.",
+    Explanation:
+      "Kanban is very flexible and it can be used in combination with Scrum, which is called Scrumban.",
     Link: "https://www.freecodecamp.org/news/what-is-kanban-the-agile-methodology-defined-and-how-to-use-it-for-your-software-development-team-2/",
- },  
- {
+  },
+  {
     Question:
       "According to the Agile Manifesto, your highest priority is to _.",
-    Answer: "satisfy the customer/client requirmenets",
+    Answer: "satisfy the customer/client requirements",
     Distractor1: "achieve the desired Return of Investment",
     Distractor2: "minimize change requests from the customer/client",
     Distractor3: "deliver the project on time",
@@ -38,19 +63,21 @@ const agileQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-agile-manifesto-explained/16151",
   },
   {
-    Question:
-      "In a Scrum team, what is a Scrum Master?",
-    Answer: "A servant leader whose role is to support the rest of the team and the organization",
-    Distractor1: "A project manager who's main role is to ensure the Developers deliver in time",
-    Distractor2: "An external resource temporarily assigned to the team to audit their work",
-    Distractor3: "Scrum Master is not a role officially recognized by the Scrum guide",
+    Question: "In a Scrum team, what is a Scrum Master?",
+    Answer:
+      "A servant leader whose role is to support the rest of the team and the organization",
+    Distractor1:
+      "A project manager who's main role is to ensure the Developers deliver in time",
+    Distractor2:
+      "An external resource temporarily assigned to the team to audit their work",
+    Distractor3:
+      "Scrum Master is not a role officially recognized by the Scrum guide",
     Explanation:
       "The Scrum Master is a leader who supports their colleagues in their activities and does more than just assign tasks.",
     Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
   },
   {
-    Question:
-      "In a Scrum team, who is responsible for stories estimation?",
+    Question: "In a Scrum team, who is responsible for stories estimation?",
     Answer: "The Developers",
     Distractor1: "The Product Owner",
     Distractor2: "The Scrum Master",
@@ -60,8 +87,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/",
   },
   {
-    Question:
-      "In a Scrum team, who is responsible for setting priorities?",
+    Question: "In a Scrum team, who is responsible for setting priorities?",
     Answer: "The Product Owner",
     Distractor1: "The Developers",
     Distractor2: "The Scrum Master",
@@ -75,34 +101,35 @@ const agileQuiz = [
       "In a project adopting the Scrum framework, when is the Product Backlog completed?",
     Answer: "Never",
     Distractor1: "Before the project starts",
-    Distractor2: "There is no precise limit, but it is advised to complete it before the fourth Sprint",
-    Distractor3: "It is mandatory for the Product Backlog to be completed before the fourth Sprint",
+    Distractor2:
+      "There is no precise limit, but it is advised to complete it before the fourth Sprint",
+    Distractor3:
+      "It is mandatory for the Product Backlog to be completed before the fourth Sprint",
     Explanation:
       "According to the Scrum Guide, the Product Backlog is never complete. Initially, it contains only the best-understood requirements.",
     Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts-2-sprint-harder/",
   },
   {
     Question:
-    "Which of the following is NOT one of the four core principles of the Agile methodology?",
-  Answer: "Comprehensive documentation over working software",
-  Distractor1: "Individuals and interactions over processes and tools",
-  Distractor2: "Responding to change over following a plan",
-  Distractor3: "Customer collaboration over contract negotiation",
-  Explanation:
-    "Instead of detailed specifications and planning, Agile prioritizes shipping working software and making incremental changes based on feedback.",
-  Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
-},
-{
-  Question:
-    "Which of the following is NOT an Agile framework?",
-  Answer: "Waterfall",
-  Distractor1: "Scrum",
-  Distractor2: "Kanban",
-  Distractor3: "XP (Extreme Programming)",
-  Explanation:
-    "Waterfall is an opposing project management methodology that has little to no room for feedback or iteration until the product is completely built and tested.",
-  Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
-},
+      "Which of the following is NOT one of the four core principles of the Agile methodology?",
+    Answer: "Comprehensive documentation over working software",
+    Distractor1: "Individuals and interactions over processes and tools",
+    Distractor2: "Responding to change over following a plan",
+    Distractor3: "Customer collaboration over contract negotiation",
+    Explanation:
+      "Instead of detailed specifications and planning, Agile prioritizes shipping working software and making incremental changes based on feedback.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+  },
+  {
+    Question: "Which of the following is NOT an Agile framework?",
+    Answer: "Waterfall",
+    Distractor1: "Scrum",
+    Distractor2: "Kanban",
+    Distractor3: "XP (Extreme Programming)",
+    Explanation:
+      "Waterfall is an opposing project management methodology that has little to no room for feedback or iteration until the product is completely built and tested.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+  },
 ];
 
 export default agileQuiz;
