@@ -1326,7 +1326,7 @@ const javascriptQuiz = [
     Distractor2: ".flat()",
     Distractor3: ".some()",
     Explanation:
-      "The at() method takes an integer value and returns the item at that index, allowing for positive and negative integers.",
+      "The at() method takes a positive or negative integer and returns the index for that element.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
   },
 ];
