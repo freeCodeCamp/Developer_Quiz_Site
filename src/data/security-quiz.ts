@@ -283,7 +283,7 @@ const securityQuiz = [
     Distractor2: "Router Safe Agreement",
     Distractor3: "Right Serious Answer",
     Explanation:
-      "RSA, named after its creators (Rivest, Shamir, Adleman) is an encryption technique that takes advantage of the fact that factoring large prime numbers is hard.",
+      "RSA, named after its creators (Rivest, Shamir, and Adleman), is an encryption technique that takes advantage of the fact that factoring large prime numbers is hard.",
     Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/",
   },
 ];
