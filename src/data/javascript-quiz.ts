@@ -1065,7 +1065,7 @@ const javascriptQuiz = [
     Distractor2: "Xerox",
     Distractor3: "Google",
     Explanation:
-      "The first ever JavaScript was created by Brendan Eich at Netscape.",
+      "Brendan Eich created JavaScript when he was working at Netscape.",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript",
   },
