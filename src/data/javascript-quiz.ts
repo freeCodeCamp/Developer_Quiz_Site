@@ -1438,6 +1438,17 @@ const javascriptQuiz = [
       "The at() method takes a positive or negative integer and returns the index for that element.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
   },
+   {
+    Question:
+      "In JavaScript, what is the runtime model based on?",
+    Answer: "Event Loop",
+    Distractor1: "Stack Memory Allotment Model",
+    Distractor2: "Queue Memory Allotment Model",
+    Distractor3: "Non Blocking Model",
+    Explanation:
+      "The event loop is responsible for executing the code, processing events, and monitoring the callback queue and stack. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+  },
 ];
 
 export default javascriptQuiz;
