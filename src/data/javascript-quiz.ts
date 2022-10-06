@@ -1282,7 +1282,7 @@ const javascriptQuiz = [
     Distractor2: "Queue Memory Allotment Model",
     Distractor3: "Non Blocking Model",
     Explanation:
-      "JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.",
+      "The event loop is responsible for executing the code, processing events, and monitoring the callback queue and stack. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
   },
 ];
