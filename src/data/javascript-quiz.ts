@@ -1217,7 +1217,7 @@ const javascriptQuiz = [
       "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
   {
-    Question: "let a; In JavaScript, what will typeof a return?",
+    Question: "In JavaScript, what will the following code return: typeof a?",
     Answer: "undefined",
     Distractor1: "not defined",
     Distractor2: "",
