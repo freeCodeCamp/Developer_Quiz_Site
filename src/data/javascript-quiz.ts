@@ -1274,6 +1274,17 @@ const javascriptQuiz = [
       "The main difference between a function declaration and a function expression is the function name, which can be omitted in function expressions to create anonymous functions. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function",
   },
+   {
+    Question:
+      "JavaScript has a runtime model based on?",
+    Answer: "Event Loop",
+    Distractor1: "Stack Memory Allotment Model",
+    Distractor2: "Queue Memory Allotment Model",
+    Distractor3: "Non Blocking Model",
+    Explanation:
+      "JavaScript has a runtime model based on an event loop, which is responsible for executing the code, collecting and processing events, and executing queued sub-tasks. This model is quite different from models in other languages like C and Java.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+  },
 ];
 
 export default javascriptQuiz;
