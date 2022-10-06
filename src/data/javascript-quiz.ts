@@ -1320,7 +1320,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, given an array, what method takes an integer value and returns the item at that index ?",
+      "In JavaScript, what array method takes an integer value and returns the element at that index?",
     Answer: ".at()",
     Distractor1: ".value()",
     Distractor2: ".flat()",
