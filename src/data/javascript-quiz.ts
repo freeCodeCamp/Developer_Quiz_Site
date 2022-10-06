@@ -1276,7 +1276,7 @@ const javascriptQuiz = [
   },
    {
     Question:
-      "JavaScript has a runtime model based on?",
+      "In JavaScript, what is the runtime model based on?",
     Answer: "Event Loop",
     Distractor1: "Stack Memory Allotment Model",
     Distractor2: "Queue Memory Allotment Model",
