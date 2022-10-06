@@ -769,6 +769,37 @@ const linuxQuiz = [
       "The crontab command can used to perform various actions on cron jobs.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
+  {
+    Question: "The sudo command stands for ___.",
+    Answer: "superuser do",
+    Distractor1: "su",
+    Distractor2: "superuser does",
+    Distractor3: "super do",
+    Explanation: "The sudo command stands for superuser do.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-linux-creating-a-sudo-user/",
+  },
+  {
+    Question:
+      "In Linux, which one is the correct syntax for renaming a file called abc.txt to pqr.txt?",
+    Answer: "mv abc.txt pqr.txt",
+    Distractor1: "mv pqr.txt abc.txt",
+    Distractor2: "mv -a pqr.txt abc.txt",
+    Distractor3: "mv -all pqr.txt abc.txt",
+    Explanation:
+      "The correct syntax for renaming a file called abc.txt to pqr.txt is mv abc.txt pqr.txt",
+    Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command/",
+  },
+  {
+    Question:
+      "Which Linux command is used to go up one level to a parent folder?",
+    Answer: "cd ..",
+    Distractor1: "cd",
+    Distractor2: "cd/",
+    Distractor3: "chdir",
+    Explanation:
+      ".. is a special path used to indicate the parent folder. cd .. is used to go up one level to a parent folder.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
+  },
 ];
 
 export default linuxQuiz;
