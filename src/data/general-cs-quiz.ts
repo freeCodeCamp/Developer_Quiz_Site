@@ -790,7 +790,7 @@ const generalCSQuiz = [
     Distractor2: "LAN",
     Distractor3: "WAN",
     Explanation:
-      "A personal area network (PAN) is a computer network used to connect devices within a range of an individual person.",
+      "Some examples of a Personal Area Network (PAN) include tablets, video game consoles and smartphones. ",
     Link: "https://en.wikipedia.org/wiki/Computer_network",
   },
   {
