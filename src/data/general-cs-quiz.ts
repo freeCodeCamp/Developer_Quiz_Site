@@ -804,7 +804,7 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Color_model",
   },
   {
-    Question: "What are the four pillar of object-orientaed programming?",
+    Question: "What are the four pillars of Object-oriented programming?",
     Answer: "Abstraction, Encapsulation, Inheritance, and Polymorphism.",
     Distractor1: "Objects, Methods, Properties and Fields.",
     Distractor2: "Immutability, Purity, Transparency and State.",
