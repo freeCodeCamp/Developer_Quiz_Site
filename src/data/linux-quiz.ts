@@ -760,15 +760,6 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command",
   },
   {
-    Question: "OSS stands for _____",
-    Answer: "Open Source Software",
-    Distractor1: "Original Source Software",
-    Distractor2: "Open System Software",
-    Distractor3: "Original System Server",
-    Explanation: "OSS stands for Open Source Software.",
-    Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/",
-  },
-  {
     Question: "In Linux, which command can be used for cron jobs?",
     Answer: "crontab",
     Distractor1: "cronaction",
@@ -789,24 +780,24 @@ const linuxQuiz = [
   },
   {
     Question:
-      "Which is the correct command syntax to rename a file abc.txt to pqr.txt",
+      "In Linux, which one is the correct syntax for renaming a file called abc.txt to pqr.txt?",
     Answer: "mv abc.txt pqr.txt",
     Distractor1: "mv pqr.txt abc.txt",
     Distractor2: "mv -a pqr.txt abc.txt",
     Distractor3: "mv -all pqr.txt abc.txt",
     Explanation:
-      "The correct command syntax to rename a file abc.txt to pqr.txt is: mv abc.txt pqr.txt",
+      "The correct syntax for renaming a file called abc.txt to pqr.txt is mv abc.txt pqr.txt",
     Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command/",
   },
   {
     Question:
-      "Which Linux command is used to go back from a folder to the folder before that?",
-    Answer: "cd..",
+      "Which Linux command is used to go up one level to a parent folder?",
+    Answer: "cd ..",
     Distractor1: "cd",
     Distractor2: "cd/",
     Distractor3: "chdir",
     Explanation:
-      ".. is a special path used to indicate the parent folder and using cd .. command you can go back from a folder to the folder before that ",
+      ".. is a special path used to indicate the parent folder. cd .. is used to go up one level to a parent folder.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
   },
 ];
