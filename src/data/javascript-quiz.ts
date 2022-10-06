@@ -1309,7 +1309,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, given the array const n = [22, -4, 99, 103, -30, 172], what is the result of n.find(x => x > 50) ?",
+      "In JavaScript, what is the result for [22, -4, 99, 103, -30, 172].find(x => x > 50)?",
     Answer: "99",
     Distractor1: "{99, 103, 172}",
     Distractor2: "undefined",
