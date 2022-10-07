@@ -800,6 +800,17 @@ const linuxQuiz = [
       ".. is a special path used to indicate the parent folder. cd .. is used to go up one level to a parent folder.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
   },
+  {
+    Question:
+      "What does Vim stand for?",
+    Answer: "Vi Improved",
+    Distractor1: "Vi IMitation",
+    Distractor2: "Vi Manual",
+    Distractor3: "Vi Moolenaar",
+    Explanation:
+      "Vim (Vi IMproved) is a free and open-source, screen-based text editor program.",
+    Link: "https://en.wikipedia.org/wiki/Vim_(text_editor)",
+  },
 ];
 
 export default linuxQuiz;
