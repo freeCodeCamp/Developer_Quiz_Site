@@ -776,7 +776,7 @@ const linuxQuiz = [
     Distractor2: "split",
     Distractor3: "ps",
     Explanation:
-      "fdisk also known as format disk is a dialog-driven command in Linux used for creating and manipulating disk partition table. It is used for the view, create, delete, change, resize, copy and move partitions on a hard drive using the dialog-driven interface. ",
+      "fdisk is used for the view, create, delete, change, resize, copy and move partitions on a hard drive.",
     Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
   },
   {
