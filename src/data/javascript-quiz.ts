@@ -24,6 +24,15 @@ const javascriptQuiz = [
       "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
+    Question: "Which method cancels event default behavior?",
+    Answer: "preventDefault()",
+    Distractor1: "cancel()",
+    Distractor2: "preVent()",
+    Distractor3: "stop()",
+    Explanation: "The preventDefault() method of the Event interface tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault",
+  },
+  {
     Question:
       "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
     Answer: "addEventListener()",
