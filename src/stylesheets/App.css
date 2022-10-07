@@ -95,6 +95,7 @@ a:hover {
 
 .quiz-text {
   display: flex;
+  padding: 0 10px;
   justify-content: space-evenly;
   font-size: 1.4rem;
 }

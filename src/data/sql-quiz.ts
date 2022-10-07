@@ -1,5 +1,68 @@
 const sqlQuiz = [
   {
+    Question: "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
+    Answer: "LIKE",
+    Distractor1: "NOT",
+    Distractor2: "INSERT",
+    Distractor3: "JOIN",
+    Explanation: "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
+  {
+    Question: "In a RDBMS, what is used to create a reference between tables?",
+    Answer: "Foreign Keys",
+    Distractor1: "Candidate Keys ",
+    Distractor2: "Alternate Keys",
+    Distractor3: "Composite Keys",
+    Explanation:
+      "A foreign key is used to link two tables by making reference to another table's primary key.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-relational-database-rdbms-definition/",
+  },
+  {
+    Question:
+      "Which of the following MySQL commands shows the structure of a table?",
+    Answer: "DESCRIBE table_name;",
+    Distractor1: "SHOW table_name;",
+    Distractor2: "EXPLAIN table_name;",
+    Distractor3: "INFO table_name;",
+    Explanation:
+      "In MYSQL, the DESCRIBE command followed by the table name is used to show the structure of a table",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, how do you select every row in a given table named 'freecodecamp'?",
+    Answer: "SELECT * FROM freecodecamp",
+    Distractor1: "SELECT all FROM freecodecamp;",
+    Distractor2: "FROM freecodecamp SELECT all;",
+    Distractor3: "FROM freecodecamp SELECT *;",
+    Explanation:
+      "In SQl, SELECT is used to select data from a database. The * is a wildcard character that matches any column in the table. The FROM clause specifies the table to select from.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, what keyword is used to count unique values that are NOT NULL and not duplicates?",
+    Answer: "DISTINCT",
+    Distractor1: "GROUP BY",
+    Distractor2: "COUNT",
+    Distractor3: "WHERE",
+    Explanation:
+      "In SQL, the DISTINCT keyword will only count unique values that are NOT NULL. The computer will ignore any duplicate values.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/",
+  },
+  {
+    Question:
+      "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
+    Answer: "HAVING",
+    Distractor1: "ADD",
+    Distractor2: "DISTINTC",
+    Distractor3: "LIMIT",
+    Explanation:
+      "In SQL, you will have to use the HAVING clause because the WHERE clause fails when used with aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/sql-having-how-to-group-and-count-with-a-having-statement/",
+  },
+  {
     Question:
       "Which of the following relational database management systems (RDBMS) should never be used to store data in a production app?",
     Answer: "Microsoft Access",
@@ -332,6 +395,49 @@ const sqlQuiz = [
     Distractor3: "ALTER TABLE table_name",
     Explanation: "The DROP TABLE command is used to delete an entire table.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, what is the command used to give a record a date and time value from the system on execution?",
+    Answer: "NOW()",
+    Distractor1: "TIMESTAMP()",
+    Distractor2: "Y-M-D()",
+    Distractor3: "DATETIME()",
+    Explanation:
+      "The NOW() function gives the selected record a value of the current timestamp",
+    Link: "https://www.freecodecamp.org/news/sql-date-functions-getdate/",
+  },
+  {
+    Question: "In SQL, where can we access all column names within a database?",
+    Answer: "INFORMATION_SCHEMA.COLUMNS",
+    Distractor1: "COLUMNS",
+    Distractor2: "SCHEMA.COLUMNS",
+    Distractor3: "SCHEMA.INFO.COLS",
+    Explanation:
+      "You can select from INFORMATION_SCHEMA.COLUMNS and combine with a WHERE clause when needing to identify where a certain column is stored.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/",
+  },
+  {
+    Question:
+      "In SQL, what statement should you use to undo a GRANT statement?",
+    Answer: "REVOKE",
+    Distractor1: "UNDO",
+    Distractor2: "DELETE",
+    Distractor3: "ROLLBACK",
+    Explanation:
+      "The REVOKE statement can be used to undo the action of a GRANT statement.",
+    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
+  },
+  {
+    Question:
+      "In SQL, which command erases all the updates made from the start of the transaction?",
+    Answer: "ROLLBACK",
+    Distractor1: "COMMIT",
+    Distractor2: "DELETE",
+    Distractor3: "REVOKE",
+    Explanation:
+      "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
+    Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
   },
 ];
 
