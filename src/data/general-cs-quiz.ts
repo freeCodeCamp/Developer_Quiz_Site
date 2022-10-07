@@ -23,6 +23,17 @@ const generalCSQuiz = [
   },
   {
     Question:
+      "The keyword used in Java for inheriting another class is:",
+    Answer: "extends",
+    Distractor1: "inherits",
+    Distractor2: "expands",
+    Distractor3: "uses",
+    Explanation:
+      "The keyword 'extends' is used in Java to inherit the properties of a base class into a child class.",
+    Link: "https://www.freecodecamp.org/news/inheritance-in-java-explained",
+  },
+  {
+    Question:
       "Which of these sorting algorithms follows an average case time complexity of order O(nlogn)?",
     Answer: "Merge Sort",
     Distractor1: "Selection Sort",
