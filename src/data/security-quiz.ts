@@ -286,6 +286,16 @@ const securityQuiz = [
       "RSA, named after its creators (Rivest, Shamir, and Adleman), is an encryption technique that takes advantage of the fact that factoring large prime numbers is hard.",
     Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/",
   },
+  {
+    Question: "Which of these was NOT a 2021 OWASP top 10 security vulnerability?",
+    Answer: "Buffer Vulnerability",
+    Distractor1: "Sensitive Data Exposure", 
+    Distractor2: "Broken Authentication",
+    Distractor3: "Injection Vulnerability",
+    Explanation: 
+      "A buffer vulnerability is an important security risk, but it was not part of OWASP's 2021 Top 10 common vulnerabilities.",
+    Link: "https://www.freecodecamp.org/news/technical-dive-into-owasp/"
+  },
 ];
 
 export default securityQuiz;
