@@ -61,7 +61,7 @@ const qualityAssuranceQuiz = [
     Distractor2: "Using software tests improves customer satisfaction.",
     Distractor3: "Using software tests saves money.",
     Explanation:
-      "Even if the app is 99% bug free , if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
+      "Even if the app is 99% bug free, if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
   },
 ];
