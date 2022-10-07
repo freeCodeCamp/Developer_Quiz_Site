@@ -287,7 +287,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/",
   },
   {
-    Question: "Which of these is NOT a OWASP top 10 vulnerability?",
+    Question: "Which of these was NOT a 2021 OWASP top 10 security vulnerability?",
     Answer: "Buffer Vulnerability",
     Distractor1: "Sensitive Data Exposure", 
     Distractor2: "Broken Authentication",
