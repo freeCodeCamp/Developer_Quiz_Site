@@ -293,7 +293,7 @@ const securityQuiz = [
     Distractor2: "Broken Authentication",
     Distractor3: "Injection Vulnerability",
     Explanation: 
-      "The OWASP Top 10 guidelines is a standard awareness document that explains the top 10 most common vulnerabilities. A buffer vulnerability is a important security risk, but not part of OWASP's Top 10.",
+      "A buffer vulnerability is an important security risk, but it was not part of OWASP's 2021 Top 10 common vulnerabilities.",
     Link: "https://www.freecodecamp.org/news/technical-dive-into-owasp/"
   },
 ];
