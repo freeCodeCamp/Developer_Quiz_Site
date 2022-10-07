@@ -1095,7 +1095,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
   {
-    Question: "If a = ( 1 , 2 , 3 , [ 1 , 2 , 3 ] ) then what does this line do : a[3].extend([ 4 , 5 , 6 ]) ",
+    Question: "In Python, if a = ( 1 , 2 , 3 , [ 1 , 2 , 3 ] ), then what is the result here : a[3].extend([ 4 , 5 , 6 ])?",
     Answer: "Makes a = (1, 2, 3, [1, 2, 3, 4, 5, 6])",
     Distractor1: "Error",
     Distractor2: "Makes a = (1, 2, 3, [ 4, 5, 6])",
