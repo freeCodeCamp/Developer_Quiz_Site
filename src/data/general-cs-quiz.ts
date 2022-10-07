@@ -33,6 +33,16 @@ const generalCSQuiz = [
     Link: "https://youtu.be/l7-f9gS8VOs",
   },
   {
+    Question: "Which one of the following terms mean adding an element in the stack?",
+    Answer: "Push",
+    Distractor1: "Peek",
+    Distractor2: "Pop",
+    Distractor3: "Display",
+    Explanation:
+      "In stacks, insertion of elements is termed as Push.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+  },
+  {
     Question:
       "Which one of these data structures follows the FIFO(First In First Out) method?",
     Answer: "Queues",
