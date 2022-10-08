@@ -809,7 +809,7 @@ const linuxQuiz = [
     Distractor3: "Vi Moolenaar",
     Explanation:
       "Vim stands for Vi IMproved and it is a popular open-source text editor.",
-    Link: "https://en.wikipedia.org/wiki/Vim_(text_editor)",
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/",
   },
 ];
 
