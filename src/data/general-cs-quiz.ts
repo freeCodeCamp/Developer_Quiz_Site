@@ -14,7 +14,7 @@ const generalCSQuiz = [
     Question:
       "Which of the following is a constraint for Dijkstra's Single Source Shortest Path Algorithm",
     Answer: "The graph must only contain non-negative edge weights.",
-    Distractor1: "The graph must be acylic",
+    Distractor1: "The graph must be acyclic",
     Distractor2: "The graph must be a balanced binary tree",
     Distractor3: "The graph must have unique edge weights",
     Explanation: 
