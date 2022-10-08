@@ -6,7 +6,7 @@ const generalCSQuiz = [
     Distractor1: "Overflow",
     Distractor2: "Empty collection",
     Distractor3: "Garbage collection",
-    Explanation:
+    Explanation: 
       " Underflow occurs when the user performs a pop operation on an empty stack.",
     Link: "https://www.sanfoundry.com/data-structure-questions-answers-stack-operations/",
   },
