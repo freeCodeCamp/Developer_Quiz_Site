@@ -1094,6 +1094,15 @@ const pythonQuiz = [
     Explanation: "You can use the .join string method to convert a list into a string",
     Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
+  {
+    Question: "In Python, if num_list = ( 1 , 2 , 3 , [ 1 , 2 , 3 ] ), then what is the result of num_list when using the following code here: num_list[3].extend([ 4 , 5 , 6 ])?",
+    Answer: "(1, 2, 3, [1, 2, 3, 4, 5, 6])",
+    Distractor1: "Error",
+    Distractor2: "(1, 2, 3, [ 4, 5, 6])",
+    Distractor3: "(1, 2, 3, [1, 2, 3,],[ 4, 5, 6] ) ",
+    Explanation: "List is mutable in nature so it's size changes",
+    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+  },
   { 
     Question: "What is the maximum possible length of an identifier in Python?",
     Answer: "there is no maximum length", 
