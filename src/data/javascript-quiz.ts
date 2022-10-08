@@ -464,7 +464,7 @@ const javascriptQuiz = [
     Distractor2: "Primitive and Floating types",
     Distractor3: "Character and Number types",
     Explanation:
-      "Primitive and Reference types are the two basic groups of data types in Javascript.",
+      "Primitive and Reference types are the two basic groups of data types in JavaScript.",
     Link:
       "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
   },
