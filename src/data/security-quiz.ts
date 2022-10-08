@@ -294,7 +294,27 @@ const securityQuiz = [
     Distractor3: "Injection Vulnerability",
     Explanation: 
       "A buffer vulnerability is an important security risk, but it was not part of OWASP's 2021 Top 10 common vulnerabilities.",
-    Link: "https://www.freecodecamp.org/news/technical-dive-into-owasp/"
+    Link: "https://www.freecodecamp.org/news/technical-dive-into-owasp/",
+  },
+  {
+    Question: "Which of the following is considered as the unsolicited commercial email?",
+    Answer: "Spam",
+    Distractor1: "Virus", 
+    Distractor2: "Malware",
+    Distractor3: "All of the above",
+    Explanation: 
+      "It is a type of unsolicited email which is generally sent in bulk to an indiscriminate recipient list for commercial purpose. Generally, these types of mail are considered unwanted because most users don't want these emails at all",
+    Link: "https://en.wikipedia.org/wiki/Email_spam",
+  },
+  {
+    Question: "The term CHAP stands for __________",
+    Answer: "Challenge Handshake Authentication Protocols",
+    Distractor1: "Circuit Hardware Authentication Protocols", 
+    Distractor2: "Challenge Hardware Authentication Protocols",
+    Distractor3: "Challenge Hardware Authentication Protocols",
+    Explanation: 
+      "The term CHAP stands for the Challenge Handshake Authentication Protocols. In computer networks, it can be defined as an authentication scheme that avoids the transfer of unencrypted passwords over the network.",
+    Link: "https://en.wikipedia.org/wiki/Challenge-Handshake_Authentication_Protocol",
   },
 ];
 
