@@ -770,7 +770,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
   {
-    Question: "Command which gives information on any hard drives that is connected to the system and their partitions.",
+    Question: "In Linux, which command is used to view, modify, delete, and copy partitions on a hard drive?",
     Answer: "fdisk",
     Distractor1: "df",
     Distractor2: "split",
