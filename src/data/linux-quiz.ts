@@ -776,7 +776,7 @@ const linuxQuiz = [
     Distractor2: "split",
     Distractor3: "ps",
     Explanation:
-      "fdisk is used for the view, create, delete, change, resize, copy and move partitions on a hard drive.",
+      "fdisk is used for to view, create, delete, change, resize, copy and move partitions on a hard drive.",
     Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
   },
   {
