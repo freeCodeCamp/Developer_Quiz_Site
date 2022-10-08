@@ -45,7 +45,7 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "Which of the following is True?",
+      "Which of the following is true for Big O?",
     Answer: "2*logn = O(n)",
     Distractor1: "n^2 = O(n)",
     Distractor2: "n! = O(n)",
