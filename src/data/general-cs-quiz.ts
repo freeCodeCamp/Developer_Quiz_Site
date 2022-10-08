@@ -1,5 +1,25 @@
 const generalCSQuiz = [
   {
+    Question: "If you forget one semicolon or misplace a character, the entire program will not run and send you back what error?",
+    Answer: "Syntax Error",
+    Distractor1: "Runtime Error",
+    Distractor2: "Logical Error",
+    Distractor3: "Semantic Error",
+    Explanation: "A syntax error occurs when the programmer writes an instruction using incorrect syntax. ",
+    Link: "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+  },
+  {
+    Question:
+      "Which operation is used to add an item to the queue?",
+    Answer: "Enqueue",
+    Distractor1: "Dequeue",
+    Distractor2: "Peek",
+    Distractor3: "isFull",
+    Explanation:
+      "Enqueue is the operation of inserting elements in the queue.",
+    Link: "https://www.freecodecamp.org/news/queue-data-structure-definition-and-java-example-code/",
+  },
+  {
     Question:
       "Which of the following is correct about a tree?",
     Answer: "trees are minimally connected.",
