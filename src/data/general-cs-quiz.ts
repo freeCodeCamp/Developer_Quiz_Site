@@ -1,6 +1,30 @@
 const generalCSQuiz = [
   {
     Question:
+      "In a stack, if a user tries to remove an element from an empty stack it is called? ",
+    Answer: "Underflow",
+    Distractor1: "Overflow",
+    Distractor2: "Empty collection",
+    Distractor3: "Garbage collection",
+    Explanation:
+      " Underflow occurs when the user performs a pop operation on an empty stack.",
+    Link: "https://www.sanfoundry.com/data-structure-questions-answers-stack-operations/",
+  },
+
+  {
+    Question:
+      "Pushing an element into stack already having ten elements and stack size of 10, then stack becomes",
+    Answer: "Overflow",
+    Distractor1: "Underflow",
+    Distractor2: "Crash",
+    Distractor3: "Userflow",
+    Explanation:
+      "The stack is filled with 10 elements and pushing one more element causes a stack overflow. This results in overwriting memory, code and loss of unsaved work on the computer.",
+    Link: "https://www.sanfoundry.com/data-structure-questions-answers-stack-operations/",
+  },
+  
+  {
+    Question:
       "Which algorithm utilizes a pivot value to sort?",
     Answer: "Quick Sort",
     Distractor1: "Merge Sort",
