@@ -27,7 +27,8 @@ const javascriptQuiz = [
     Distractor1: "cancel()",
     Distractor2: "preVent()",
     Distractor3: "stop()",
-    Explanation: "The preventDefault() method cancels the event and prevents the browser from running its default action.",
+    Explanation:
+      "The preventDefault() method cancels the event and prevents the browser from running its default action.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault",
   },
   {
@@ -73,16 +74,6 @@ const javascriptQuiz = [
     Explanation:
       "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
     Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e",
-  },
-  {
-    Question: "Which of the following scoping types does JavaScript use?",
-    Answer: "Lexical",
-    Distractor1: "Sequential",
-    Distractor2: "Segmental",
-    Distractor3: "Literal",
-    Explanation:
-      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
-    Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
   },
   {
     Question:
