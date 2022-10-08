@@ -439,6 +439,29 @@ const sqlQuiz = [
       "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
   },
+  {
+    Question:
+      "Can we join two Tables without foriegn key?",
+    Answer: "NO",
+    Distractor1: "YES",
+    Distractor2: "MAYBE",
+    Distractor3: "NOT SURE",
+    Explanation:
+      "The REVOKE statement can be used to undo the action of a GRANT statement.",
+    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
+    
+  },
+  {
+    Question:
+      "What is a Foriegn Key used for",
+    Answer: "Create relationship between tables",
+    Distractor1: "To create a table",
+    Distractor2: "To delete a table",
+    Distractor3: "To uniquely identify a Row or Tuple in a table",
+    Explanation:
+      "The REVOKE statement can be used to undo the action of a GRANT statement.",
+    Link: "https://dev.mysql.com/doc/refman/5.6/en/revoke.html",
+  },
 ];
 
 export default sqlQuiz;
