@@ -34,7 +34,7 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "What is ASCII",
+      "What is ASCII?",
     Answer: "It is a character encoding standard to represent text in a computer.",
     Distractor1: "Algorithm to convert decimal to number in base 65.",
     Distractor2: "A protocol in Layer 3 of TCP/IP Suite",
