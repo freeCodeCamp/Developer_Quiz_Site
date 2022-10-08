@@ -1,6 +1,17 @@
 const pythonQuiz = [
   {
     Question: 
+      "Which of the following functions is a built-in function in python?",
+    Answer: "print()",
+    Distractor1: "factorial()",
+    Distractor2: "seed()",
+    Distractor3: "sqrt()",
+    Explanation: 
+      "The function seed is a function which is present in the random module. The functions sqrt and factorial are a part of the math module. The print function is a built-in function which prints a value directly to the system output.",
+    Link: "https://www.freecodecamp.org/news/the-python-handbook/#functionsinpython",
+  },
+  {
+    Question: 
       "In Python, which module provides a framework for writing line-oriented command interpreters?",
     Answer: "cmd",
     Distractor1: "sys",
