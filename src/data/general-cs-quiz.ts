@@ -1,6 +1,17 @@
 const generalCSQuiz = [
   {
     Question:
+      "Which operation is used to add an item to the queue?",
+    Answer: "Enqueue",
+    Distractor1: "Dequeue",
+    Distractor2: "Peek",
+    Distractor3: "isFull",
+    Explanation:
+      "Enqueue is the operation of inserting elements in the queue.",
+    Link: "https://www.freecodecamp.org/news/queue-data-structure-definition-and-java-example-code/",
+  },
+  {
+    Question:
       "What data structure does a binary search tree degenerate to if it isn't balanced properly?",
     Answer: "Linked List",
     Distractor1: "Set",
