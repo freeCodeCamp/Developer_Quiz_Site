@@ -1102,6 +1102,23 @@ const pythonQuiz = [
     Distractor3: "Makes a = a = (1, 2, 3, [1, 2, 3,],[ 4, 5, 6] ) ",
     Explanation: "List is mutable in nature so it's size changes",
     Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+  { 
+    Question: "What is the maximum possible length of an identifier in Python?",
+    Answer: "there is no maximum length", 
+    Distractor1: "79 characters", 
+    Distractor2: "32 characters", 
+    Distractor3: "16 characters", 
+    Explanation: "Identifiers can be of any length.", 
+    Link: "https://www.freecodecamp.org/news/learning-python-from-zero-to-hero-120ea540b567/", 
+  },
+  { 
+    Question: "What arithmetic operators cannot be used with strings in Python?",
+    Answer: "-", 
+    Distractor1: "+", 
+    Distractor2: "/", 
+    Distractor3: "*", 
+    Explanation: "+ is used to concatenate and * is used to multiply strings", 
+    Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
   },
 ];
 
