@@ -869,6 +869,15 @@ const generalCSQuiz = [
     Explanation: "Merge sort is a divide and conquer algorithm that has a best case time complexity of O(n*log n)",
     Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
   },
+  {
+    Question: "If you forget one semicolon or misplace a character, the entire program will not run and send you back what error?",
+    Answer: "Syntax Error",
+    Distractor1: "Runtime Error",
+    Distractor2: "Logical Error",
+    Distractor3: "Semantic Error",
+    Explanation: "A syntax error occurs when the programmer writes an instruction using incorrect syntax. ",
+    Link: "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+  },
 ];
 
 export default generalCSQuiz;
