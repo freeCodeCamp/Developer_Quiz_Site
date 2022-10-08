@@ -1,5 +1,57 @@
 const generalCSQuiz = [
   {
+    Question: "Which of the following is correct about a tree?",
+    Answer: "trees are minimally connected.",
+    Distractor1: "trees can be cyclic.",
+    Distractor2: "a tree must be an undirected graph",
+    Distractor3: "trees must have at least two nodes",
+    Explanation:
+      "If we remove any edge from a tree, it creates a two disconnected graph",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=306s",
+  },
+  {
+    Question:
+      "Which of the following is a constraint for Dijkstra's Single Source Shortest Path Algorithm?",
+    Answer: "The graph must only contain non-negative edge weights.",
+    Distractor1: "The graph must be acyclic",
+    Distractor2: "The graph must be a balanced binary tree",
+    Distractor3: "The graph must have unique edge weights",
+    Explanation:
+      "Dijkstra's SSSP algorithm may not work for a graph with negative edge weights. This constraint is to ensure that once a vertex is visited, the optimal distance from source cannot be updated further.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=4832s",
+  },
+  {
+    Question: "Which of the following is the most correct statement?",
+    Answer: "Topological sort is possible only for a Directed Acyclic Graph",
+    Distractor1: "Toplogical sort is just an another name for BFS",
+    Distractor2: "All undirected graphs have topological ordering",
+    Distractor3: "A cyclic graph also has topological ordering.",
+    Explanation:
+      "The only graph that has valid topological ordering is a Directed Acyclic Graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=3632s",
+  },
+  {
+    Question: "What is ASCII?",
+    Answer:
+      "It is a character encoding standard to represent text in a computer.",
+    Distractor1: "Algorithm to convert decimal to number in base 65.",
+    Distractor2: "A protocol in Layer 3 of TCP/IP Suite",
+    Distractor3: "A unit of throughput for a processor.",
+    Explanation:
+      "American Standard Code for Information Interchange (ASCII) is a character encoding standard to represent text in computers.",
+    Link: "https://www.youtube.com/watch?v=LtoBGQPuu1c&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=406s",
+  },
+  {
+    Question: "Which of the following is true for Big O?",
+    Answer: "2*logn = O(n)",
+    Distractor1: "n^2 = O(n)",
+    Distractor2: "n! = O(n)",
+    Distractor3: "2^n = O(n)",
+    Explanation:
+      "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
+  },
+  {
     Question:
       "What data structure does a binary search tree degenerate to if it isn't balanced properly?",
     Answer: "Linked List",
@@ -11,8 +63,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/data-structures-101-binary-search-tree-398267b6bff0/",
   },
   {
-    Question:
-      "Which algorithm utilizes a pivot value to sort?",
+    Question: "Which algorithm utilizes a pivot value to sort?",
     Answer: "Quick Sort",
     Distractor1: "Merge Sort",
     Distractor2: "Bubble Sort",
@@ -31,6 +82,17 @@ const generalCSQuiz = [
     Explanation:
       "The average case time complexity for the merge sort algorithm is O(n log n).",
     Link: "https://youtu.be/l7-f9gS8VOs",
+  },
+  {
+    Question:
+      "Which one of the following terms mean adding an element to the top of the stack?",
+    Answer: "Push",
+    Distractor1: "Peek",
+    Distractor2: "Pop",
+    Distractor3: "Display",
+    Explanation:
+      "The push method is used to add an element to the top of the stack.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=3506s",
   },
   {
     Question:
@@ -749,11 +811,13 @@ const generalCSQuiz = [
   },
   {
     Question: "What is Lossless compression?",
-    Answer: "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Answer:
+      "a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
     Distractor1: "a sorting algorithm",
     Distractor2: "a reverse algorithm",
     Distractor3: "an algorithm that converts wav files to mp3 files",
-    Explanation: "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
+    Explanation:
+      "Lossless compression is a compression algorithm that allows the original data to be perfectly reconstructed from the compressed data.",
     Link: "https://www.freecodecamp.org/news/image-file-types-picture-format-extensions-jpeg-gif-png-svg-tiff/",
   },
   {
@@ -766,12 +830,14 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Nibble",
   },
   {
-    Question: "Which data structure is used for the implementation of a recursive algorithm?",
+    Question:
+      "Which data structure is used for the implementation of a recursive algorithm?",
     Answer: "Stack",
     Distractor1: "Queue",
     Distractor2: "Linked list",
     Distractor3: "Tree",
-    Explanation: "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
+    Explanation:
+      "In recursion, the nested function that is called later returns the value first, which is in the same nature as that of a stack (Last In First Out).",
     Link: "https://www.freecodecamp.org/news/how-recursion-works-explained-with-flowcharts-and-a-video-de61f40cb7f9/",
   },
   {
@@ -826,20 +892,24 @@ const generalCSQuiz = [
   },
   {
     Question: "What is pseudocode?",
-    Answer: "Pseudocode is fake code that is used to write programs that are easily understood.",
+    Answer:
+      "Pseudocode is fake code that is used to write programs that are easily understood.",
     Distractor1: "An old programming language that they used back in the day.",
     Distractor2: "A diagrammatic representation of a set of instructions",
     Distractor3: "A specific programming language that all computers use",
-    Explanation: "Pseudocode is fake code that is used to write programs in which you represent the sequence of actions and instructions (aka algorithms) in a form that humans can easily understand.",
+    Explanation:
+      "Pseudocode is fake code that is used to write programs in which you represent the sequence of actions and instructions (aka algorithms) in a form that humans can easily understand.",
     Link: "https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/",
   },
   {
     Question: "What is a function?",
-    Answer: "Is a block of code that is self-contained behavior for the computer to run.",
+    Answer:
+      "Is a block of code that is self-contained behavior for the computer to run.",
     Distractor1: "an extensible program-code-template",
     Distractor2: "Text that does not get executed by the computer",
     Distractor3: "container for storing data",
-    Explanation: "The code inside a function runs only when it is needed, meaning only when it is called.",
+    Explanation:
+      "The code inside a function runs only when it is needed, meaning only when it is called.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
   {
@@ -848,7 +918,8 @@ const generalCSQuiz = [
     Distractor1: "Code that is ran only one time",
     Distractor2: "Code to encapsulate statements",
     Distractor3: "Code that ends the program",
-    Explanation: "A statement which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.",
+    Explanation:
+      "A statement which can repeat a set of statements up to a fixed number of times or until a certain criterion is satisfied.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
   {
@@ -857,16 +928,19 @@ const generalCSQuiz = [
     Distractor1: "A variable that is assigned a single value",
     Distractor2: "A function that loops through data",
     Distractor3: "A programming language used for Macintosh computer",
-    Explanation: "An array is a special variable, which can hold more than one value.",
+    Explanation:
+      "An array is a special variable, which can hold more than one value.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
-   {
-    Question: "What is the best case time complexity for the merge sort algorithm?",
+  {
+    Question:
+      "What is the best case time complexity for the merge sort algorithm?",
     Answer: "O(n*log(n))",
     Distractor1: "O(n^2)",
     Distractor2: "O(log(n))",
     Distractor3: "O(2^n)",
-    Explanation: "Merge sort is a divide and conquer algorithm that has a best case time complexity of O(n*log n)",
+    Explanation:
+      "Merge sort is a divide and conquer algorithm that has a best case time complexity of O(n*log n)",
     Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
   },
 ];

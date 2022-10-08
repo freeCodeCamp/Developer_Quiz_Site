@@ -22,6 +22,16 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
+    Question: "Which web API method cancels an event's default behavior?",
+    Answer: "preventDefault()",
+    Distractor1: "cancel()",
+    Distractor2: "preVent()",
+    Distractor3: "stop()",
+    Explanation:
+      "The preventDefault() method cancels the event and prevents the browser from running its default action.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault",
+  },
+  {
     Question:
       "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
     Answer: "addEventListener()",
@@ -1378,6 +1388,15 @@ const javascriptQuiz = [
     Explanation:
       "Set is ES6 Collection which lets you store unique values of any type. e.g. const food = new Set(['Bread', 'Butter', 'Bread', 'Eggs']); food = {'Bread', 'Butter', 'Eggs'}. Set discards the repeating 'Bread'.",
     Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/",
+  },
+  {
+    Question: "In JavaScript, what is the optional chaining operator?",
+    Answer: "?.",
+    Distractor1: "??",
+    Distractor2: "&&",
+    Distractor3: "**",
+    Explanation: "?. is the optional chaining operator in JavaScript.",
+    Link: "https://www.freecodecamp.org/news/javascript-optional-chaining/",
   },
 ];
 
