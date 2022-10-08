@@ -1,7 +1,7 @@
 const generalCSQuiz = [
   {
     Question:
-      "Which of the following is corect about a Tree?",
+      "Which of the following is correct about a tree?",
     Answer: "Tree is minimally connected.",
     Distractor1: "Tree can be cyclic.",
     Distractor2: "Tree must be undirected graph",
