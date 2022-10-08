@@ -39,7 +39,7 @@ const generalCSQuiz = [
     Distractor2: "Pop",
     Distractor3: "Display",
     Explanation:
-      "In stacks, insertion of elements is termed as Push.",
+      "The push method is used to add an element to the top of the stack.",
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=3506s",
   },
   {
