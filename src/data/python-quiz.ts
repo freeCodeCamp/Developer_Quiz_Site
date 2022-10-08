@@ -1102,6 +1102,7 @@ const pythonQuiz = [
     Distractor3: "(1, 2, 3, [1, 2, 3,],[ 4, 5, 6] ) ",
     Explanation: "List is mutable in nature so it's size changes",
     Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+  },
   { 
     Question: "What is the maximum possible length of an identifier in Python?",
     Answer: "there is no maximum length", 
