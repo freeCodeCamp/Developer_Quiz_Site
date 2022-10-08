@@ -1,4 +1,14 @@
 const qualityAssuranceQuiz = [
+   {
+    Question: "Which of the following most accurately describes exhaustive testing?",
+    Answer: "It's not possible.",
+    Distractor1: "It's considered best practice.",
+    Distractor2: "It's a standard procedure in the final steps before launch.",
+    Distractor3: "It's what happens during end to end testing.",
+    Explanation:
+      "If you truly try to test every aspect and test case in your software, it will take too much time and effort, and it's not practical.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#software-testing-principles",
+  },
   {
     Question: "What do the terms QA and QC stand for?",
     Answer: "Quality Assurance and Quality Control ",
