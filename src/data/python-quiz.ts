@@ -1176,7 +1176,7 @@ const pythonQuiz = [
     Distractor1: "string", 
     Distractor2: "List", 
     Distractor3: "tuple", 
-    Explanation: "The result will be ['John', 'Doe'], which is has a list data type", 
+    Explanation: "The result will be ['John', 'Doe'], which has a list data type", 
     Link: "https://www.freecodecamp.org/news/how-to-split-a-string-in-python/", 
   },
   { 
@@ -1184,7 +1184,7 @@ const pythonQuiz = [
     Answer: "reverse(my_nums)", 
     Distractor1: "my_nums.reverse()", 
     Distractor2: "reverse(my_nums)", 
-    Distractor3: "o[::-1]", 
+    Distractor3: "my_nums[::-1]", 
     Explanation: "reverse isn't a defined Python keyword", 
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/#reversed-function", 
   },
