@@ -1094,6 +1094,24 @@ const pythonQuiz = [
     Explanation: "You can use the .join string method to convert a list into a string",
     Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
+  { 
+    Question: "What is the maximum possible length of an identifier in Python?",
+    Answer: "there is no maximum length", 
+    Distractor1: "79 characters", 
+    Distractor2: "32 characters", 
+    Distractor3: "16 characters", 
+    Explanation: "Identifiers can be of any length.", 
+    Link: "https://www.freecodecamp.org/news/learning-python-from-zero-to-hero-120ea540b567/", 
+  },
+  { 
+    Question: "What arithmetic operators cannot be used with strings in Python?",
+    Answer: "-", 
+    Distractor1: "+", 
+    Distractor2: "/", 
+    Distractor3: "*", 
+    Explanation: "+ is used to concatenate and * is used to multiply strings", 
+    Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
+  },
 ];
 
 export default pythonQuiz;
