@@ -1380,7 +1380,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
   },
   {
-    Question: "Which ES6 collections store unique value?",
+    Question: "Which ES6 collection stores unique values?",
     Answer: "Set",
     Distractor1: "Maps",
     Distractor2: "Object",
