@@ -1095,11 +1095,11 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-list-to-string-join-example/",
   },
   {
-    Question: "In Python, if a = ( 1 , 2 , 3 , [ 1 , 2 , 3 ] ), then what is the result here : a[3].extend([ 4 , 5 , 6 ])?",
-    Answer: "Makes a = (1, 2, 3, [1, 2, 3, 4, 5, 6])",
+    Question: "In Python, if num_list = ( 1 , 2 , 3 , [ 1 , 2 , 3 ] ), then what is the result of num_list when using the following code here: num_list[3].extend([ 4 , 5 , 6 ])?",
+    Answer: "(1, 2, 3, [1, 2, 3, 4, 5, 6])",
     Distractor1: "Error",
-    Distractor2: "Makes a = (1, 2, 3, [ 4, 5, 6])",
-    Distractor3: "Makes a = a = (1, 2, 3, [1, 2, 3,],[ 4, 5, 6] ) ",
+    Distractor2: "(1, 2, 3, [ 4, 5, 6])",
+    Distractor3: "(1, 2, 3, [1, 2, 3,],[ 4, 5, 6] ) ",
     Explanation: "List is mutable in nature so it's size changes",
     Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
   { 
