@@ -1,6 +1,28 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, which module provides a framework for writing line-oriented command interpreters?",
+    Answer: "cmd",
+    Distractor1: "sys",
+    Distractor2: "os",
+    Distractor3: "io",
+    Explanation: 
+      "The cmd module makes it easier to use a series of commands within command-line interfaces (CLI)",
+    Link: "https://docs.python.org/3/library/cmd.html",
+  },
+  {
+    Question: 
+      "In Python, which module provides a way of using operating system dependent functionality?",
+    Answer: "os",
+    Distractor1: "sys",
+    Distractor2: "builtins",
+    Distractor3: "io",
+    Explanation: 
+      "The Python os module is a set of functions used within the operating system. Some of these functions include fetching directory contents or creating new directories.",
+    Link: "https://docs.python.org/3/library/os.html",
+  },
+  {
+    Question: 
       "In Python, which module is used to capture command-line arguments given at a file's runtime ?",
     Answer: "sys",
     Distractor1: "os",
