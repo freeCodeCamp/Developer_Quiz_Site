@@ -40,7 +40,7 @@ const generalCSQuiz = [
     Distractor2: "A protocol in Layer 3 of TCP/IP Suite",
     Distractor3: "A unit of throughput for a processor.",
     Explanation: 
-      "American Standard Code for Information Interchange (ASCII) is a character encoding standard to respresent text in computer.",
+      "American Standard Code for Information Interchange (ASCII) is a character encoding standard to represent text in computers.",
     Link: "https://www.youtube.com/watch?v=LtoBGQPuu1c&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=406s",
   },
   {
