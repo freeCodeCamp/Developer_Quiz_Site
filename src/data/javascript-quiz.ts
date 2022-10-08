@@ -24,12 +24,12 @@ const javascriptQuiz = [
       "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
-    Question: "Which method cancels event default behavior?",
+    Question: "Which web API method cancels an event's default behavior?",
     Answer: "preventDefault()",
     Distractor1: "cancel()",
     Distractor2: "preVent()",
     Distractor3: "stop()",
-    Explanation: "The preventDefault() method of the Event interface tells the user agent that if the event does not get explicitly handled, its default action should not be taken as it normally would be.",
+    Explanation: "The preventDefault() method cancels the event and prevents the browser from running its default action.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault",
   },
   {
