@@ -808,7 +808,7 @@ const linuxQuiz = [
     Distractor2: "Vi Manual",
     Distractor3: "Vi Moolenaar",
     Explanation:
-      "Vim (Vi IMproved) is a free and open-source, screen-based text editor program.",
+      "Vim stands for Vi IMproved and it is a popular open-source text editor.",
     Link: "https://en.wikipedia.org/wiki/Vim_(text_editor)",
   },
 ];
