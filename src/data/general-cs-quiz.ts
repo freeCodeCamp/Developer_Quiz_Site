@@ -23,7 +23,7 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "Which of the following is the most correct statement.",
+      "Which of the following is the most correct statement?",
     Answer: "Topological sort is possible only for a Directed Acyclic Graph",
     Distractor1: "Toplogical sort is just an another name for BFS",
     Distractor2: "All undirected graph have topological ordering",
