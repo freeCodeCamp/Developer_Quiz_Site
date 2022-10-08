@@ -7,18 +7,18 @@ const pythonQuiz = [
     Distractor2: "os",
     Distractor3: "io",
     Explanation: 
-      "The cmd module provides a simple framework for command-line interfaces (CLI)",
+      "The cmd module makes it easier to use a series of commands within command-line interfaces (CLI)",
     Link: "https://docs.python.org/3/library/cmd.html",
   },
   {
     Question: 
-      "In Python, which module provides a way of using operating system dependent fuctionality?",
+      "In Python, which module provides a way of using operating system dependent functionality?",
     Answer: "os",
     Distractor1: "sys",
     Distractor2: "builtins",
     Distractor3: "io",
     Explanation: 
-      "The os module in Python provides functions for interacting with the operating system.",
+      "The Python os module is a set of functions used within the operating system. Some of these functions include fetching directory contents or creating new directories.",
     Link: "https://docs.python.org/3/library/os.html",
   },
   {
