@@ -1,20 +1,45 @@
 const javascriptQuiz = [
   {
-    Question: "What is the process of converting a value from one data type to another called?",
+    Question:
+      "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
+    Answer: "shift()",
+    Distractor1: "pop()",
+    Distractor2: "push()",
+    Distractor3: "All take about the same time on an array of the same size.",
+    Explanation:
+      "shift() removes elements from the front of the array, which means the entire array needs to be re-indexed. In contrast, pop() and push() both work from the 'back' of the array and don't require re-indexing.",
+    Link: "https://www.freecodecamp.org/news/the-complexity-of-simple-algorithms-and-data-structures-in-javascript-11e25b29de1e/",
+  },
+  {
+    Question:
+      "What is the process of converting a value from one data type to another called?",
     Answer: "Type Coercion",
     Distractor1: "Type Casting",
     Distractor2: "Data Converting",
     Distractor3: "Change Value",
-    Explanation: "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
+    Explanation:
+      "Type coercion is the process of converting a value from one type to another (such as a string to number, object to boolean, and so on).",
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
   },
   {
-    Question: "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
+    Question: "Which web API method cancels an event's default behavior?",
+    Answer: "preventDefault()",
+    Distractor1: "cancel()",
+    Distractor2: "preVent()",
+    Distractor3: "stop()",
+    Explanation:
+      "The preventDefault() method cancels the event and prevents the browser from running its default action.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Event/preventDefault",
+  },
+  {
+    Question:
+      "Which of the following methods allows you to set up functions to be called when a specified event happens, such as when a user clicks a button?",
     Answer: "addEventListener()",
     Distractor1: "listenEvent()",
     Distractor2: "callEvent()",
     Distractor3: "eventWake()",
-    Explanation: "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
+    Explanation:
+      "The JavaScript addEventListener() method allows you to set up functions to be called when a specified event happens, such as when a user clicks a button.",
     Link: "https://www.youtube.com/watch?v=jS4aFq5-91M&t=17471s",
   },
   {
@@ -35,8 +60,9 @@ const javascriptQuiz = [
     Distractor1: "insertAdjacentHTML",
     Distractor2: "insertElement",
     Distractor3: "setHTML",
-    Explanation: "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
-    Link: "https://youtu.be/jS4aFq5-91M?t=18781"
+    Explanation:
+      "The innerHTML is a property of the element that allows you to get or set the HTML markup contained within the element.",
+    Link: "https://youtu.be/jS4aFq5-91M?t=18781",
   },
   {
     Question:
@@ -48,16 +74,6 @@ const javascriptQuiz = [
     Explanation:
       "Closures are special types of functions where the inner function will have access to variables in the outer function's scope.",
     Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e",
-  },
-  {
-    Question: "Which of the following scoping types does JavaScript use?",
-    Answer: "Lexical",
-    Distractor1: "Sequential",
-    Distractor2: "Segmental",
-    Distractor3: "Literal",
-    Explanation:
-      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
-    Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
   },
   {
     Question:
@@ -133,7 +149,7 @@ const javascriptQuiz = [
     Distractor2: "new",
     Distractor3: "var",
     Explanation:
-      "The value of a const variable must be specified when the varible is declared.",
+      "The value of a const variable must be specified when the variable is declared.",
     Link: "https://www.freecodecamp.org/news/let-me-be-a-const-ant-not-a-var-iable-1be52d153462/",
   },
   {
@@ -612,7 +628,7 @@ const javascriptQuiz = [
     Distractor2: "grunt",
     Distractor3: "Makefile",
     Explanation:
-      "Npm scripts allow commandline tools to be called directly without relying on external plugins.",
+      "Npm scripts allow command line tools to be called directly without relying on external plugins.",
     Link: "https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/",
   },
   {
@@ -974,6 +990,16 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-javascript-javascript-code-explained-in-plain-english/",
   },
   {
+    Question: "Which company created JavaScript?",
+    Answer: "Netscape",
+    Distractor1: "IBM",
+    Distractor2: "Xerox",
+    Distractor3: "Google",
+    Explanation:
+      "Brendan Eich created JavaScript when he was working at Netscape.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/About_JavaScript",
+  },
+  {
     Question:
       "In JavaScript, what is the name of the method that returns true if at least one of the elements in an array passes the test implemented by the function provided?",
     Answer: ".some()",
@@ -1123,6 +1149,16 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
   {
+    Question: "In JavaScript, what will the following code return: typeof a?",
+    Answer: "undefined",
+    Distractor1: "not defined",
+    Distractor2: "",
+    Distractor3: "NaN",
+    Explanation:
+      "In JavaScript, if you use the typeof operator on an undeclared variable then it will return undefined. ",
+    Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
+  },
+  {
     Question:
       "What JavaScript keyword will return the type of a variable when you call it?",
     Answer: "typeof",
@@ -1132,6 +1168,215 @@ const javascriptQuiz = [
     Explanation:
       "typeof is a JavaScript keyword that will return the type of a variable when you call it. You can use this to validate function parameters or check if variables are defined.",
     Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/",
+  },
+  {
+    Question: "In JavaScript, what is the return value of the .push() method?",
+    Answer: "new length of the array, after the element has been pushed",
+    Distractor1: "undefined",
+    Distractor2: "null",
+    Distractor3: "Length of the old array, before the element is pushed",
+    Explanation:
+      ".push() returns the new length of the array, after the element has been pushed",
+    Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
+  },
+  {
+    Question:
+      "In JavaScript, which of the following is NOT the correct way to declare a variable?",
+    Answer: "number",
+    Distractor1: "let",
+    Distractor2: "var",
+    Distractor3: "const",
+    Explanation:
+      "JavaScript has three kinds of variable declarations: var, let and const.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations",
+  },
+  {
+    Question: "In JavaScript, how many primitive data types are there?",
+    Answer: "7",
+    Distractor1: "3",
+    Distractor2: "6",
+    Distractor3: "8",
+    Explanation:
+      "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types",
+  },
+  {
+    Question: "In JavaScript, what does NaN means?",
+    Answer: "Not-A-Number",
+    Distractor1: "Near-Me Area Network",
+    Distractor2: "Non-Alpha-Numeric",
+    Distractor3: "Non-numeric",
+    Explanation:
+      "The global NaN property is a value representing Not-A-Number. This property is used to check if a value is not a valid number.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+  },
+  {
+    Question:
+      "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
+    Answer:
+      "Yes, but variables declared with let and const are in Temporal Dead Zone",
+    Distractor1: "Yes",
+    Distractor2: "No",
+    Distractor3: "No, only variables declared with var are hoisted.",
+    Explanation:
+      "Variables declared with let, const and var are hoisted. But, const and let are in temporal dead zone.",
+    Link: "https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/",
+  },
+  {
+    Question: "In JavaScript, what is the difference between == and ===?",
+    Answer: "== allows for type coercion of the values, while === does not",
+    Distractor1:
+      "== does not allow for type coercion of the values, while === does",
+    Distractor2:
+      "== and === both allow for type coercion of the values, but === is more strict",
+    Distractor3: "There is no difference between == and ===",
+    Explanation:
+      "The == operator allows for type coercion of the values, while === does not.",
+    Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/",
+  },
+  {
+    Question: "In JavaScript, how many falsy values are there?",
+    Answer: "6",
+    Distractor1: "5",
+    Distractor2: "7",
+    Distractor3: "8",
+    Explanation:
+      "There are 6 falsy values in JavaScript: false, 0, '', null, undefined, and NaN.",
+    Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/",
+  },
+  {
+    Question: "In JavaScript, what is a function without a name called?",
+    Answer: "An anonymous function",
+    Distractor1: "An unsigned function",
+    Distractor2: "A ghost function",
+    Distractor3: "A nameless function",
+    Explanation:
+      "A function without a name is called an anonymous function. This is useful when you want to pass a function as an argument to another function.",
+    Link: "https://www.freecodecamp.org/news/what-are-functions-in-javascript-a-beginners-guide/",
+  },
+  {
+    Question: "In JavaScript, what does IIFE stand for?",
+    Answer: "Immediately Invoked Function Expression",
+    Distractor1: "Immediately Invoked Function Executor",
+    Distractor2: "Internally Invoked Function Expression",
+    Distractor3: "Internally Invoked Function Executor",
+    Explanation:
+      "IIFE stands for Immediately Invoked Function Expression. This is a function that is executed immediately after it is created.",
+    Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
+  },
+  {
+    Question:
+      "Which JavaScript DOM manipulation method adds multiple classes to an element?",
+    Answer: "classList()",
+    Distractor1: "className",
+    Distractor2: "classVar",
+    Distractor3: "classConstructor",
+    Explanation:
+      "The classList() method adds multiple classes to an element. You can use it to add a class or multiple classes to an element by attaching the add() method to it. For example classList.add('btn'), or classList.add('btn', 'btn-block')",
+    Link: "https://www.freecodecamp.org/news/what-is-dom-in-javascript/#how-to-manipulate-css-from-javascript",
+  },
+  {
+    Question:
+      "In JavaScript, what is the difference between a parameter and an argument?",
+    Answer:
+      "A parameter is a variable in a function definition. An argument is the actual value of this variable that gets passed to the function.",
+    Distractor1:
+      "A parameter is the actual value of a variable that gets passed to a function. An argument is a variable in a function definition.",
+    Distractor2:
+      "A parameter is a variable in a function definition. An argument is a variable in a function definition.",
+    Distractor3:
+      "A parameter is the actual value of a variable that gets passed to a function. An argument is the actual value of this variable that gets passed to the function.",
+    Explanation:
+      "A parameter is a variable in a function definition. An argument is the actual value of this variable that gets passed to the function.",
+    Link: "https://www.freecodecamp.org/news/what-is-the-difference-between-parameters-and-arguments-in-javascript",
+  },
+  {
+    Question:
+      "In JavaScript, what is the difference between a function declaration and a function expression?",
+    Answer:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function expression.",
+    Distractor1:
+      "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using the function keyword.",
+    Distractor2:
+      "A function declaration is a function that is defined using the function keyword. A function expression is a function that is defined using a function declaration.",
+    Distractor3:
+      "A function declaration is a function that is defined using a function expression. A function expression is a function that is defined using a function declaration.",
+    Explanation:
+      "The main difference between a function declaration and a function expression is the function name, which can be omitted in function expressions to create anonymous functions. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function",
+  },
+  {
+    Question:
+      "In JavaScript, what is the return value for the following code:  [1, 2, 3, 4].shift()?",
+    Answer: "1",
+    Distractor1: "2, 3, 4",
+    Distractor2: "4",
+    Distractor3: "1, 2, 3",
+    Explanation:
+      "The shift() method removes the first element from an array and returns that removed element.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift",
+  },
+  {
+    Question: "In JavaScript, which is a correct way to concatenate 3 arrays?",
+    Answer: "const newArr = arr1.concat(arr2, arr3)",
+    Distractor1: "const newArr = join(arr1, arr2, arr3)",
+    Distractor2: "const newArr = combine[arr1, arr2, arr3]",
+    Distractor3: "const newArr = arr1.join[arr2, arr3]",
+    Explanation:
+      "The concat() method is used to combine two or more arrays and returns a new array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/concat",
+  },
+  {
+    Question:
+      "Given the following JavaScript array, ['a', 'b', 'c', 'd', 'e'], what method is used to return ['c', 'd', 'e']?",
+    Answer: "arr.slice(2,5)",
+    Distractor1: "arr.fill(c, d, e)",
+    Distractor2: "arr.keys(c, d, e)",
+    Distractor3: "arr.remove(0, 1)",
+    Explanation:
+      "The slice() method has two optional parameters which represent the starting and ending index for the array. This method returns a new shallow copy of the sliced array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice",
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for [22, -4, 99, 103, -30, 172].find(x => x > 50)?",
+    Answer: "99",
+    Distractor1: "{99, 103, 172}",
+    Distractor2: "undefined",
+    Distractor3: "[99, 103, 172]",
+    Explanation:
+      "The find() method will look through the array and return the first element that passes the callback function.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find",
+  },
+  {
+    Question:
+      "In JavaScript, what array method takes an integer value and returns the element at that index?",
+    Answer: ".at()",
+    Distractor1: ".value()",
+    Distractor2: ".flat()",
+    Distractor3: ".some()",
+    Explanation:
+      "The at() method takes a positive or negative integer and returns the index for that element.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at",
+  },
+  {
+    Question: "In JavaScript, what is the runtime model based on?",
+    Answer: "Event Loop",
+    Distractor1: "Stack Memory Allotment Model",
+    Distractor2: "Queue Memory Allotment Model",
+    Distractor3: "Non Blocking Model",
+    Explanation:
+      "The event loop is responsible for executing the code, processing events, and monitoring the callback queue and stack. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+  },
+  {
+    Question: "In JavaScript, what is the optional chaining operator?",
+    Answer: "?.",
+    Distractor1: "??",
+    Distractor2: "&&",
+    Distractor3: "**",
+    Explanation: "?. is the optional chaining operator in JavaScript.",
+    Link: "https://www.freecodecamp.org/news/javascript-optional-chaining/",
   },
 ];
 

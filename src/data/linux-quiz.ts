@@ -1,5 +1,16 @@
 const linuxQuiz = [
   {
+    Question:
+      "Which of the following commands creates a file without opening it?",
+    Answer: "touch <filename>",
+    Distractor1: "nano <filename>",
+    Distractor2: "cat <filename>",
+    Distractor3: "cp <filename>",
+    Explanation:
+      "The touch <filename> command creates a new file without opening it which can be verified using the ls command.",
+    Link: "https://www.freecodecamp.org/news/linux-basics/",
+  },
+  {
     Question: "In Linux, which command grants every permission to everyone?",
     Answer: "chmod 777",
     Distractor1: "chmod 111",
@@ -10,7 +21,8 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/",
   },
   {
-    Question: "In Linux, which command helps in listing all the enviroment variables?",
+    Question:
+      "In Linux, which command helps in listing all the environment variables?",
     Answer: "printenv",
     Distractor1: "lsenv",
     Distractor2: "listenv",
@@ -712,8 +724,7 @@ const linuxQuiz = [
     Distractor1: "chmod user:group filename",
     Distractor2: "chown user::group filename",
     Distractor3: "chmod user::group filename",
-    Explanation:
-      "We can use chown to change user and group simultaneously",
+    Explanation: "We can use chown to change user and group simultaneously",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
@@ -739,8 +750,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question:
-      "In Linux, which command can be used to terminate a program?",
+    Question: "In Linux, which command can be used to terminate a program?",
     Answer: "kill",
     Distractor1: "end",
     Distractor2: "stop",
@@ -748,10 +758,9 @@ const linuxQuiz = [
     Explanation:
       "The kill command sends a signal which terminates or kills a particular process or group of processes.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command",
-  },  
+  },
   {
-    Question:
-      "In Linux, which command can be used for cron jobs?",
+    Question: "In Linux, which command can be used for cron jobs?",
     Answer: "crontab",
     Distractor1: "cronaction",
     Distractor2: "cronset",
@@ -759,6 +768,58 @@ const linuxQuiz = [
     Explanation:
       "The crontab command can used to perform various actions on cron jobs.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
+  },
+  {
+    Question: "In Linux, which command is used to view, modify, delete, and copy partitions on a hard drive?",
+    Answer: "fdisk",
+    Distractor1: "df",
+    Distractor2: "split",
+    Distractor3: "ps",
+    Explanation:
+      "fdisk is used to view, create, delete, change, resize, copy and move partitions on a hard drive.",
+    Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
+  },
+  {
+    Question: "The sudo command stands for ___.",
+    Answer: "superuser do",
+    Distractor1: "su",
+    Distractor2: "superuser does",
+    Distractor3: "super do",
+    Explanation: "The sudo command stands for superuser do.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-linux-creating-a-sudo-user/",
+  },
+  {
+    Question:
+      "In Linux, which one is the correct syntax for renaming a file called abc.txt to pqr.txt?",
+    Answer: "mv abc.txt pqr.txt",
+    Distractor1: "mv pqr.txt abc.txt",
+    Distractor2: "mv -a pqr.txt abc.txt",
+    Distractor3: "mv -all pqr.txt abc.txt",
+    Explanation:
+      "The correct syntax for renaming a file called abc.txt to pqr.txt is mv abc.txt pqr.txt",
+    Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command/",
+  },
+  {
+    Question:
+      "Which Linux command is used to go up one level to a parent folder?",
+    Answer: "cd ..",
+    Distractor1: "cd",
+    Distractor2: "cd/",
+    Distractor3: "chdir",
+    Explanation:
+      ".. is a special path used to indicate the parent folder. cd .. is used to go up one level to a parent folder.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
+  },
+  {
+    Question:
+      "What does Vim stand for?",
+    Answer: "Vi Improved",
+    Distractor1: "Vi IMitation",
+    Distractor2: "Vi Manual",
+    Distractor3: "Vi Moolenaar",
+    Explanation:
+      "Vim stands for Vi IMproved and it is a popular open-source text editor.",
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/",
   },
 ];
 
