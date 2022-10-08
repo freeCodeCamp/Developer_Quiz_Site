@@ -770,6 +770,16 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
   {
+    Question: "In Linux, which command is used to view, modify, delete, and copy partitions on a hard drive?",
+    Answer: "fdisk",
+    Distractor1: "df",
+    Distractor2: "split",
+    Distractor3: "ps",
+    Explanation:
+      "fdisk is used to view, create, delete, change, resize, copy and move partitions on a hard drive.",
+    Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
+  },
+  {
     Question: "The sudo command stands for ___.",
     Answer: "superuser do",
     Distractor1: "su",
