@@ -1143,6 +1143,15 @@ const pythonQuiz = [
     Explanation: "+ is used to concatenate and * is used to multiply strings", 
     Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
   },
+  { 
+    Question: "How many mandatory parameters does range() fuction has in Python?",
+    Answer: "1", 
+    Distractor1: "0", 
+    Distractor2: "2", 
+    Distractor3: "3", 
+    Explanation: "range() has three parameters (start,stop,step) in which stop is a mandatory parameter.", 
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/", 
+  },
 ];
 
 export default pythonQuiz;
