@@ -1,6 +1,61 @@
 const generalCSQuiz = [
   {
     Question:
+      "Which of the following is correct about a tree?",
+    Answer: "trees are minimally connected.",
+    Distractor1: "trees can be cyclic.",
+    Distractor2: "a tree must be an undirected graph",
+    Distractor3: "trees must have at least two nodes",
+    Explanation: 
+      "If we remove any edge from a tree, it creates a two disconnected graph",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=306s",
+  },
+  {
+    Question:
+      "Which of the following is a constraint for Dijkstra's Single Source Shortest Path Algorithm?",
+    Answer: "The graph must only contain non-negative edge weights.",
+    Distractor1: "The graph must be acyclic",
+    Distractor2: "The graph must be a balanced binary tree",
+    Distractor3: "The graph must have unique edge weights",
+    Explanation: 
+      "Dijkstra's SSSP algorithm may not work for a graph with negative edge weights. This constraint is to ensure that once a vertex is visited, the optimal distance from source cannot be updated further.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=4832s",
+  },
+  {
+    Question:
+      "Which of the following is the most correct statement?",
+    Answer: "Topological sort is possible only for a Directed Acyclic Graph",
+    Distractor1: "Toplogical sort is just an another name for BFS",
+    Distractor2: "All undirected graphs have topological ordering",
+    Distractor3: "A cyclic graph also has topological ordering.",
+    Explanation: 
+      "The only graph that has valid topological ordering is a Directed Acyclic Graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=3632s",
+  },
+  {
+    Question:
+      "What is ASCII?",
+    Answer: "It is a character encoding standard to represent text in a computer.",
+    Distractor1: "Algorithm to convert decimal to number in base 65.",
+    Distractor2: "A protocol in Layer 3 of TCP/IP Suite",
+    Distractor3: "A unit of throughput for a processor.",
+    Explanation: 
+      "American Standard Code for Information Interchange (ASCII) is a character encoding standard to represent text in computers.",
+    Link: "https://www.youtube.com/watch?v=LtoBGQPuu1c&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=406s",
+  },
+  {
+    Question:
+      "Which of the following is true for Big O?",
+    Answer: "2*logn = O(n)",
+    Distractor1: "n^2 = O(n)",
+    Distractor2: "n! = O(n)",
+    Distractor3: "2^n = O(n)",
+    Explanation:
+      "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
+  },
+  {
+    Question:
       "What data structure does a binary search tree degenerate to if it isn't balanced properly?",
     Answer: "Linked List",
     Distractor1: "Set",
