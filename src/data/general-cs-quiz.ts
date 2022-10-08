@@ -27,7 +27,7 @@ const generalCSQuiz = [
     Answer: "Topological sort is possible only for a Directed Acyclic Graph",
     Distractor1: "Toplogical sort is just an another name for BFS",
     Distractor2: "All undirected graphs have topological ordering",
-    Distractor3: "A Cyclic graph also have topological ordering.",
+    Distractor3: "A cyclic graph also has topological ordering.",
     Explanation: 
       "The only graphs that has valid topological ordering is a Directed Acyclic Graph.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=3632s",
