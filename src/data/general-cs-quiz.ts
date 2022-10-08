@@ -40,7 +40,7 @@ const generalCSQuiz = [
     Distractor3: "Display",
     Explanation:
       "In stacks, insertion of elements is termed as Push.",
-    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM",
+    Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&t=3506s",
   },
   {
     Question:
