@@ -323,6 +323,33 @@ const gitQuiz = [
       "In the command line, you can use git branch -m new-name to rename the current branch.",
     Link: "https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/",
   },
+  {
+    Question: "In Git, What command do you use to check for what changed since the last pull?",
+    Answer: "git diff",
+    Distractor1: "git different",
+    Distractor2: "git status",
+    Distractor3: "git update",
+    Explanation: "git checkout",
+    Link: "https://www.freecodecamp.org/news/git-diff-command/",
+  },
+  {
+    Question: "In Git, What do you do right after fixing a merge conflict in a file?",
+    Answer: "git add file_that_had_conflict",
+    Distractor1: "git commit",
+    Distractor2: "git status",
+    Distractor3: "git update",
+    Explanation: "git what_now",
+    Link: "https://www.freecodecamp.org/news/resolve-merge-conflicts-in-git-a-practical-guide/",
+  },
+  {
+    Question: "In Git, What command is used to revert changes",
+    Answer: "git revert",
+    Distractor1: "git undo",
+    Distractor2: "git stash",
+    Distractor3: "git update",
+    Explanation: "git change",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+  },
 ];
 
 export default gitQuiz;

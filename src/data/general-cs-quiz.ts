@@ -925,7 +925,7 @@ const generalCSQuiz = [
     Explanation: "An array is a special variable, which can hold more than one value.",
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
-   {
+  {
     Question: "What is the best case time complexity for the merge sort algorithm?",
     Answer: "O(n*log(n))",
     Distractor1: "O(n^2)",
