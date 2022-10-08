@@ -2,10 +2,10 @@ const generalCSQuiz = [
   {
     Question:
       "Which of the following is correct about a tree?",
-    Answer: "Tree is minimally connected.",
-    Distractor1: "Tree can be cyclic.",
-    Distractor2: "Tree must be undirected graph",
-    Distractor3: "Tree must have atleast two nodes",
+    Answer: "trees are minimally connected.",
+    Distractor1: "trees can be cyclic.",
+    Distractor2: "a tree must be an undirected graph",
+    Distractor3: "trees must have at least two nodes",
     Explanation: 
       "If we remove any edge from a tree, it creates a two disconnected graph",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=306s",
