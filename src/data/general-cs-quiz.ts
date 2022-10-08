@@ -33,7 +33,7 @@ const generalCSQuiz = [
     Link: "https://youtu.be/l7-f9gS8VOs",
   },
   {
-    Question: "Which one of the following terms mean adding an element in the stack?",
+    Question: "Which one of the following terms mean adding an element to the top of the stack?",
     Answer: "Push",
     Distractor1: "Peek",
     Distractor2: "Pop",
