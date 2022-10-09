@@ -1,5 +1,27 @@
 const generalCSQuiz = [
   {
+    Question:
+      "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
+    Answer: "Syntax Error",
+    Distractor1: "Runtime Error",
+    Distractor2: "Logical Error",
+    Distractor3: "Semantic Error",
+    Explanation:
+      "A syntax error is when the programmer writes invalid code that violates the rules of that programming language.",
+    Link: "https://www.youtube.com/watch?v=zOjov-2OZ0E",
+  },
+  {
+    Question:
+      "Which operation is used to add an item to the back of the queue?",
+    Answer: "Enqueue",
+    Distractor1: "Dequeue",
+    Distractor2: "Peek",
+    Distractor3: "isFull",
+    Explanation:
+      "Enqueue is the operation used to add an item to the back of the queue.",
+    Link: "https://www.freecodecamp.org/news/queue-data-structure-definition-and-java-example-code/",
+  },
+  {
     Question: "Which of the following is correct about a tree?",
     Answer: "trees are minimally connected.",
     Distractor1: "trees can be cyclic.",

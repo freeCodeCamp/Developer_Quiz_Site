@@ -1,6 +1,17 @@
 const qualityAssuranceQuiz = [
   {
     Question:
+      "What type of testing is done on a new feature to ensure that it doesn't accidentally break existing functionality?",
+    Answer: "Regression",
+    Distractor1: "Smoke",
+    Distractor2: "End to End",
+    Distractor3: "Integration",
+    Explanation:
+      "Regression testing is done on a new build to ensure that new functionality has not unintentionally broken previously tested functionality.",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+  },
+  {
+    Question:
       "Which of the following most accurately describes exhaustive testing?",
     Answer: "It's not possible.",
     Distractor1: "It's considered best practice.",
