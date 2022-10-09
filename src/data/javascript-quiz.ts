@@ -76,16 +76,6 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/a-basic-guide-to-closures-in-javascript-9fc8b7e3463e",
   },
   {
-    Question: "Which of the following scoping types does JavaScript use?",
-    Answer: "Lexical",
-    Distractor1: "Sequential",
-    Distractor2: "Segmental",
-    Distractor3: "Literal",
-    Explanation:
-      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
-    Link: "https://www.freecodecamp.org/news/scope-and-closures-in-javascript",
-  },
-  {
     Question:
       "In JavaScript, what does a unary plus operator attempt to convert its operand to?",
     Answer: "a number",
@@ -1390,13 +1380,14 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
   },
   {
-    Question: "Which ES6 collection stores unique values?",
+    Question:
+      "In JavaScript, which one is a type of data structure that stores unique values?",
     Answer: "Set",
     Distractor1: "Maps",
     Distractor2: "Object",
     Distractor3: "Array",
     Explanation:
-      "Set is ES6 Collection which lets you store unique values of any type. e.g. const food = new Set(['Bread', 'Butter', 'Bread', 'Eggs']); food = {'Bread', 'Butter', 'Eggs'}. Set discards the repeating 'Bread'.",
+      "A JavaScript Set is a type of data structure that stores unique values.",
     Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/",
   },
   {
