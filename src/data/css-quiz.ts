@@ -1165,7 +1165,7 @@ const cssQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
   },
   {
-    Question: "In CSS, 3em units are equivalent to how much px unit?",
+    Question: "In CSS, 3em units are equivalent to how much in px units?",
     Answer: "48",
     Distractor1: "32",
     Distractor2: "16",
