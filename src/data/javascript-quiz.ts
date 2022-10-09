@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "What keyword is used to check whether a given property is valid or not?",
+    Answer: "in",
+    Distractor1: "is in",
+    Distractor2: "exists",
+    Distractor3: "lies",
+    Explanation:
+      "The in keyword is used to check whether the given property is valid or not in Javascript.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in",
+  },
+  {
+    Question:
       "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
     Answer: "shift()",
     Distractor1: "pop()",
