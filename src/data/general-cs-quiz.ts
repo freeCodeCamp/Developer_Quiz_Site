@@ -5,7 +5,7 @@ const generalCSQuiz = [
     Distractor1: "Runtime Error",
     Distractor2: "Logical Error",
     Distractor3: "Semantic Error",
-    Explanation: "A syntax error occurs when the programmer writes an instruction using incorrect syntax. ",
+    Explanation: "A syntax error is when the programmer writes invalid code that violates the rules of that programming language.",
     Link: "https://www.youtube.com/watch?v=zOjov-2OZ0E",
   },
   {
