@@ -6,4 +6,4 @@
     Distractor3: "Structured Language",
     Explanation: "because it uses primitive data types such as (int,float,char...etc).",
     Link: "https://www.freecodecamp.org/news/tag/java/",
-  };
+  },
