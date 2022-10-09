@@ -10,7 +10,7 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "Which operation is used to add an item to the queue?",
+      "Which operation is used to add an item to the back of the queue?",
     Answer: "Enqueue",
     Distractor1: "Dequeue",
     Distractor2: "Peek",
