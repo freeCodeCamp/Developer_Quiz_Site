@@ -323,6 +323,38 @@ const gitQuiz = [
       "In the command line, you can use git branch -m new-name to rename the current branch.",
     Link: "https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/",
   },
+  {
+    Question:
+      "In Git, which command is used to list differences between your current working directory and your staging area?",
+    Answer: "git diff",
+    Distractor1: "git different",
+    Distractor2: "git status",
+    Distractor3: "git update",
+    Explanation:
+      "In the command line, you can use git diff to show all the differences between your current working directory and your staging area.",
+    Link: "https://www.freecodecamp.org/news/git-diff-command/",
+  },
+  {
+    Question:
+      "In Git, what do you do right after resovling a merge conflict in a file?",
+    Answer: "git add file_that_had_conflict",
+    Distractor1: "git commit",
+    Distractor2: "git status",
+    Distractor3: "git update",
+    Explanation:
+      "In the command line, after resolving the conflict you will need to stage the changes.",
+    Link: "https://www.freecodecamp.org/news/resolve-merge-conflicts-in-git-a-practical-guide/",
+  },
+  {
+    Question: "In Git, what command is used to revert changes?",
+    Answer: "git revert",
+    Distractor1: "git undo",
+    Distractor2: "git stash",
+    Distractor3: "git update",
+    Explanation:
+      "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+  },
 ];
 
 export default gitQuiz;
