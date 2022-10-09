@@ -22,6 +22,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/queue-data-structure-definition-and-java-example-code/",
   },
   {
+    Question: "Java is a ____________ language?",
+    Answer: "not a Pure Object Oriented Language",
+    Distractor1: "not a Pure Object Oriented Language",
+    Distractor2: "Object Oriented Language",
+    Distractor3: "Structured Language",
+    Explanation: "because it uses primitive data types such as (int,float,char...etc).",
+    Link: "https://www.freecodecamp.org/news/tag/java/",
+  },
+  {
     Question: "Which of the following is correct about a tree?",
     Answer: "trees are minimally connected.",
     Distractor1: "trees can be cyclic.",
