@@ -16,7 +16,7 @@ const generalCSQuiz = [
     Distractor2: "Peek",
     Distractor3: "isFull",
     Explanation:
-      "Enqueue is the operation is used to add an item to the back of the queue.",
+      "Enqueue is the operation used to add an item to the back of the queue.",
     Link: "https://www.freecodecamp.org/news/queue-data-structure-definition-and-java-example-code/",
   },
   {
