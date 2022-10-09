@@ -1,5 +1,15 @@
 const qualityAssuranceQuiz = [
   {
+    Question: "What are web accessibility evaluation tools?",
+    Answer: "Software programs or online services that help determine if web content meets accessibility standards.",
+    Distractor1: "Tools that help determine if unit tests are well written.",
+    Distractor2: "Software programs that help determine if a website is secure.",
+    Distractor3: "Online services that help determine if customer satisfaction is high.",
+    Explanation:
+      "Web accessibility evaluation tools are software programs or online services that help determine if web content meets accessibility standards.",
+    Link: "https://www.w3.org/WAI/test-evaluate/tools/",
+  },
+  {
     Question: "What type of testing is done on a new feature to ensure that it doesn't accidentally break existing functionality?",
     Answer: "Regression",
     Distractor1: "Smoke",
