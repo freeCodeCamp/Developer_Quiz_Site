@@ -146,13 +146,13 @@ const agileQuiz = [
   },
   {
     Question:
-      "Which of the following is NOT one of notable features of story points?",
-    Answer: "Are assigned in a odd-like sequence: 1, 3, 5, 7, 9...",
-    Distractor1: "Represent the contributions of the whole team",
-    Distractor2: "Estimate the ‘size’ of stories relative to each other",
-    Distractor3: "Do not equate directly to time the task might take",
+      "In Agile, which of the following is NOT one of notable features of story points?",
+    Answer: "points are assigned in a odd-like sequence: 1, 3, 5, 7, 9...",
+    Distractor1: "points represent the contributions of the whole team",
+    Distractor2: "points estimate the ‘size’ of stories relative to each other",
+    Distractor3: "points do not equate directly to time the task might take",
     Explanation:
-      "The estimate the amount of effort required to deliver a user story are assigned using Fibonacci sequence",
+      "Points estimate the amount of effort required to deliver a user story and are assigned using the Fibonacci sequence",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
 ];
