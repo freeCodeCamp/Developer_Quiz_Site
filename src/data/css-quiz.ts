@@ -1154,6 +1154,25 @@ const cssQuiz = [
       "The justify-content property is used to position the grid in the grid container along the x-axis.",
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
+  {
+    Question: "In CSS, how to center a div",
+    Answer: "flexbox and margin:auto",
+    Distractor1: "flexbox and margin: 10px",
+    Distractor2: "flexbox and margin:50%",
+    Distractor3: "flexbox and margin:100%",
+    Explanation:
+      "You can use flexbox and margin:auto to center a div in CSS.",
+    Link: "https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
+  },
+  {
+    Question: "In CSS, 3em units are equivalent to how much px unit?",
+    Answer: "48",
+    Distractor1: "32",
+    Distractor2: "16",
+    Distractor3: "12",
+    Explanation: "Three em unit is equivalent to 40 pixels",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+  }
 ];
 
 export default cssQuiz;
