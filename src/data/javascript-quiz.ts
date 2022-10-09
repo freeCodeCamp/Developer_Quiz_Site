@@ -806,7 +806,7 @@ const javascriptQuiz = [
     Distractor2: "Local variables",
     Distractor3: "No variable is accessible throughout in JavaScript",
     Explanation:
-      "Global variables are declared for accessibility throughout the program",
+      "Global variables are declared and made accessible throughout the entire JavaScript program.",
     Link:
       "https://www.freecodecamp.org/news/global-variables-in-javascript-explained/",
   },
