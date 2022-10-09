@@ -1156,10 +1156,10 @@ const cssQuiz = [
   },
   {
     Question: "In CSS, which of the following options is one way to center a div?",
-    Answer: "flexbox and margin:auto",
-    Distractor1: "flexbox and margin: 10px",
-    Distractor2: "flexbox and margin:50%",
-    Distractor3: "flexbox and margin:100%",
+    Answer: "use  display: flex; on the parent container and  margin: auto; for the child container",
+    Distractor1: "use  display: flex; on the parent container and  margin: 20px; for the child container",
+    Distractor2: "use  display: flex; on the parent container and  margin: 50px; for the child container",
+    Distractor3: "use  display: flex; on the parent container and  margin: 45%; for the child container",
     Explanation:
       "You can use flexbox and margin:auto to center a div in CSS.",
     Link: "https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
