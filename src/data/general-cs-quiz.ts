@@ -940,7 +940,7 @@ const generalCSQuiz = [
     Distractor1: "Memory usage in linked lists is less than arrays",
     Distractor2: "Reverse traversal is possible in singly linked lists",
     Distractor3: "Random accessing elements is easier in linked lists than arrays",
-    Explanation: "In Linked lists there is no requirement to shift all other elements while doing insertions or deletions, only address gets updated.",
+    Explanation: "Linked lists have quicker insertions and deletions than arrays because there is no need to shift all other elements with lists.",
     Link: "https://www.freecodecamp.org/news/data-structures-101-linked-lists-254c82cf5883/",
   },
   {
