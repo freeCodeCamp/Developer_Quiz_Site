@@ -435,8 +435,7 @@ const javascriptQuiz = [
     Distractor3: "Character and Number types",
     Explanation:
       "Primitive and Reference types are the two basic groups of data types in JavaScript.",
-    Link:
-      "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
+    Link: "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
   },
   {
     Question:
@@ -1379,6 +1378,17 @@ const javascriptQuiz = [
     Explanation:
       "The event loop is responsible for executing the code, processing events, and monitoring the callback queue and stack. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
+  },
+  {
+    Question:
+      "In JavaScript, which one is a type of data structure that stores unique values?",
+    Answer: "Set",
+    Distractor1: "Maps",
+    Distractor2: "Object",
+    Distractor3: "Array",
+    Explanation:
+      "A JavaScript Set is a type of data structure that stores unique values.",
+    Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/",
   },
   {
     Question: "In JavaScript, what is the optional chaining operator?",

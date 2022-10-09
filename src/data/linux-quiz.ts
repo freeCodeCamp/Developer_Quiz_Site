@@ -770,7 +770,8 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
   },
   {
-    Question: "In Linux, which command is used to view, modify, delete, and copy partitions on a hard drive?",
+    Question:
+      "In Linux, which command is used to view, modify, delete, and copy partitions on a hard drive?",
     Answer: "fdisk",
     Distractor1: "df",
     Distractor2: "split",
@@ -811,8 +812,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
   },
   {
-    Question:
-      "What does Vim stand for?",
+    Question: "What does Vim stand for?",
     Answer: "Vi Improved",
     Distractor1: "Vi IMitation",
     Distractor2: "Vi Manual",
