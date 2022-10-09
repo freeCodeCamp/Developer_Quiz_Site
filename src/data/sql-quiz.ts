@@ -1,11 +1,24 @@
 const sqlQuiz = [
   {
-    Question: "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
+    Question: "Which of the following allows you to uniquely identify a tuple?",
+    Answer: "Super Key",
+    Distractor1: "Schema",
+    Distractor2: "Attribute",
+    Distractor3: "Domain",
+    Explanation:
+      "Super Key is used to uniquely identify a tuple in a relation.",
+    Link: "https://en.wikipedia.org/wiki/Superkey",
+  },
+
+  {
+    Question:
+      "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
     Distractor2: "INSERT",
     Distractor3: "JOIN",
-    Explanation: "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Explanation:
+      "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
