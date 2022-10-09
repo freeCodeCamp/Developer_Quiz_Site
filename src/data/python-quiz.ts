@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor2: "sentence.reverse()",
     Distractor3: "sentence.sort(reverse=True)",
     Explanation:
-      "<string>[start: stop: step] returns a slice of the string. <string>[:::] returns a copy of the entire string. <string>[::-1] returns a reversed copy of the string.",
+      "In Python, [::-1] will return a reversed copy of the string.",
     Link: "https://www.freecodecamp.org/news/python-reverse-string-string-reversal-in-python-explained-with-code-examples/",
   },
   {
