@@ -144,6 +144,17 @@ const agileQuiz = [
       "A user story is an informal, general explanation of a software feature written from the perspective of the end user.",
     Link: "https://www.freecodecamp.org/news/how-to-write-user-stories-epics-pesonas/",
   },
+  {
+    Question:
+      "Which of the following is NOT one of notable features of story points?",
+    Answer: "Are assigned in a odd-like sequence: 1, 3, 5, 7, 9...",
+    Distractor1: "Represent the contributions of the whole team",
+    Distractor2: "Estimate the ‘size’ of stories relative to each other",
+    Distractor3: "Do not equate directly to time the task might take",
+    Explanation:
+      "The estimate the amount of effort required to deliver a user story are assigned using Fibonacci sequence",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
 ];
 
 export default agileQuiz;
