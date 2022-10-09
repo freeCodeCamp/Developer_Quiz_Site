@@ -800,7 +800,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, variables that are accessible throughout the program are called?",
+      "In JavaScript, what is the name for variables that are accessible throughout the program?",
     Answer: "Global variables",
     Distractor1: "Const variables",
     Distractor2: "Local variables",
