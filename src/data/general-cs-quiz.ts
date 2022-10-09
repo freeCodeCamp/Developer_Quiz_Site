@@ -965,6 +965,24 @@ const generalCSQuiz = [
       "Merge sort is a divide and conquer algorithm that has a best case time complexity of O(n*log n)",
     Link: "https://www.freecodecamp.org/news/an-intro-to-advanced-sorting-algorithms-merge-quick-radix-sort-in-javascript-b65842194597/",
   },
+  {
+    Question: "What is the advanatge of using linked lists over arrays?",
+    Answer: "Linked lists helps in faster insertions and deletions than arrays",
+    Distractor1: "Memory usage in linked lists is less than arrays",
+    Distractor2: "Reverse traversal is possible in singly linked lists",
+    Distractor3: "Random accessing elements is easier in linked lists than arrays",
+    Explanation: "Linked lists have quicker insertions and deletions than arrays because there is no need to shift all other elements with lists.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-linked-lists-254c82cf5883/",
+  },
+  {
+    Question: "Which sorting algorithm is best when data is nearly sorted?",
+    Answer: "Bubble Sort",
+    Distractor1: "Merge Sort",
+    Distractor2: "Insertion Sort",
+    Distractor3: "Selection Sort",
+    Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
+    Link: "https://www.freecodecamp.org/news/bubble-sort/",
+  },
 ];
 
 export default generalCSQuiz;
