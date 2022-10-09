@@ -352,7 +352,7 @@ const gitQuiz = [
     Distractor2: "git stash",
     Distractor3: "git update",
     Explanation:
-      "In the command line, to undo unwanted changes you can run git revert with the has of the commit you want to revert back to.",
+      "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
 ];
