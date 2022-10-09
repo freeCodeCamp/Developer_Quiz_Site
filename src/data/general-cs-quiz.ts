@@ -1,6 +1,6 @@
 const generalCSQuiz = [
   {
-    Question: "If you forget one semicolon or misplace a character, the entire program will not run and send you back what error?",
+    Question: "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
     Answer: "Syntax Error",
     Distractor1: "Runtime Error",
     Distractor2: "Logical Error",
