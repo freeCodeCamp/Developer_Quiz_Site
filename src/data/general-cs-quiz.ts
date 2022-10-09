@@ -73,6 +73,17 @@ const generalCSQuiz = [
       "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
   },
+   {
+    Question:
+      "Which is better Merge sort or Quicksort?",
+    Answer: "Merge sort",
+    Distractor1: "Merge sort",
+    Distractor2: "Quicksort",
+    Distractor3: "Both",
+    Explanation:
+      "Merge sort is more efficient and works faster than quick sort in case of larger array size or datasets.",
+    Link: "https://forum.freecodecamp.org/t/the-merge-sort-algorithm-explained/16104",
+  },
   {
     Question:
       "What data structure does a binary search tree degenerate to if it isn't balanced properly?",
