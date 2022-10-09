@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "In a stack, if a user tries to remove an element from an empty stack it is called?",
+    Answer: "Underflow",
+    Distractor1: "Overflow",
+    Distractor2: "Garbage Collection",
+    Distractor3: "Empty collection",
+    Explanation: "Underflow occurs when the user performs a pop operation on an empty stack.",
+    Link: "https://www.sanfoundry.com/data-structure-questions-answers-stack-operations/",
+  },
+  {
     Question: "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
     Answer: "Syntax Error",
     Distractor1: "Runtime Error",
