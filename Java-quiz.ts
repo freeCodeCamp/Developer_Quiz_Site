@@ -1,9 +1,9 @@
-  {
-    Question: "Which one of these data structures follows the FIFO (First In First Out) method?",
-    Answer: "Queue",
-    Distractor1: "Stack",
-    Distractor2: "Array",
-    Distractor3: "Linked List",
-    Explanation: "A queue follows the First In First Out (FIFO) method as the element which gets inserted first gets removed first.",
-    Link: "https://youtu.be/B31LgI4Y4DQ?t=16410",
+ {
+    Question: "Java is a ____________ language?",
+    Answer: "not a Pure Object Oriented Language";
+    Distractor1: "not a Pure Object Oriented Language",
+    Distractor2: "Object Oriented Language",
+    Distractor3: "Structured Language",
+    Explanation: "because it uses primitive data types such as (int,float,char...etc).",
+    Link: "https://www.freecodecamp.org/news/tag/java/",
   },
