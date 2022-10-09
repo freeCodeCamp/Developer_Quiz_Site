@@ -1170,7 +1170,7 @@ const cssQuiz = [
     Distractor1: "32",
     Distractor2: "16",
     Distractor3: "12",
-    Explanation: "Three em unit is equivalent to 40 pixels",
+    Explanation: "3em is equivalent to 48 pixels.",
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
   }
 ];
