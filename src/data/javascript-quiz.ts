@@ -428,6 +428,17 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition",
   },
   {
+    Question: "What are the two basic groups of data types in JavaScript?",
+    Answer: "Primitive and Reference types",
+    Distractor1: "Enumerated and Object types",
+    Distractor2: "Primitive and Floating types",
+    Distractor3: "Character and Number types",
+    Explanation:
+      "Primitive and Reference types are the two basic groups of data types in JavaScript.",
+    Link:
+      "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
+  },
+  {
     Question:
       "In JavaScript, what method is used to arrange array values into alphabetical and/or ascending order?",
     Answer: "sort()",
