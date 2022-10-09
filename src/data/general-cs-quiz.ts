@@ -949,7 +949,7 @@ const generalCSQuiz = [
     Distractor1: "Merge Sort",
     Distractor2: "Insertion Sort",
     Distractor3: "Selection Sort",
-    Explanation: "If only few elements are not sorted then Bubble Sort is the best sorting algorithm as it will sort the data with only few passes of the array.",
+    Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only few passes of the array.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
   },
 ];
