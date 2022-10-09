@@ -1155,7 +1155,7 @@ const cssQuiz = [
     Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
   },
   {
-    Question: "In CSS, how to center a div",
+    Question: "In CSS, which of the following options is one way to center a div?",
     Answer: "flexbox and margin:auto",
     Distractor1: "flexbox and margin: 10px",
     Distractor2: "flexbox and margin:50%",
