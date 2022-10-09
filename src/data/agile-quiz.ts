@@ -1,5 +1,14 @@
 const agileQuiz = [
   {
+    Question: "In Agile, when might a Sprint be abnormally cancelled?",
+    Answer: "When the Sprint Goal becomes obsolete.",
+    Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
+    Distractor2: "When the Developers feel that the work is too hard.",
+    Distractor3: "When the sales department has an important new opportunity.",
+    Explanation: "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
+    Link: "https://scrumguides.org/scrum-guide.html",
+  },
+  {
     Question:
       "Which of the following development models is a very linear approach to building a product and also has little room for feedback or iteration until the product is completely built and tested?",
     Answer: "Waterfall Development",
