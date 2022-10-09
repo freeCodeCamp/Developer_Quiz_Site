@@ -1,7 +1,7 @@
 const pythonQuiz = [
    {
     Question:
-      "In Python, which of the following option will reverse a_string='good' and make it 'doog'?",
+      "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
     Answer: "a_string[::-1]",
     Distractor1: "reversed(a_string)",
     Distractor2: "a_string.reverse()",
