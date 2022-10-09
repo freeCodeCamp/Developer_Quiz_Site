@@ -1161,7 +1161,7 @@ const cssQuiz = [
     Distractor2: "use  display: flex; on the parent container and  margin: 50px; for the child container",
     Distractor3: "use  display: flex; on the parent container and  margin: 45%; for the child container",
     Explanation:
-      "You can use flexbox and margin:auto to center a div in CSS.",
+      "To center a div with CSS, apply display: flex; on the parent container and  margin: auto; for the child container.",
     Link: "https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
   },
   {
