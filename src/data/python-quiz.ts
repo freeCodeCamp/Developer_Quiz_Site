@@ -1149,7 +1149,7 @@ const pythonQuiz = [
     Distractor1: "0", 
     Distractor2: "2", 
     Distractor3: "3", 
-    Explanation: "The range() function has one required argument(stop) and two optional argument (start and step).", 
+    Explanation: "The range() function has one required argument(stop) and two optional arguments(start and step).", 
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/", 
   },
 ];
