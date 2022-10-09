@@ -1,11 +1,11 @@
 const agileQuiz = [
   {
-    Question: "When might a Sprint be abnormally cancelled?",
+    Question: "In Agile, when might a Sprint be abnormally cancelled?",
     Answer: "When the Sprint Goal becomes obsolete.",
     Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
     Distractor2: "When the Developers feel that the work is too hard.",
     Distractor3: "When the sales department has an important new opportunity.",
-    Explanation: "A Sprint could be cancelled if the Sprint Goal becomes obsolete. Only the Product Owner has the authority to cancel the Sprint.",
+    Explanation: "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
     Link: "https://scrumguides.org/scrum-guide.html",
   },
   {
