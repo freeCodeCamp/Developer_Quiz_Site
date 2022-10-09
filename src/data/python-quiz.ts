@@ -1144,7 +1144,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
   },
   { 
-    Question: "How many mandatory parameters does range() fuction has in Python?",
+    Question: "How many mandatory arguments does the range() function have in Python?",
     Answer: "1", 
     Distractor1: "0", 
     Distractor2: "2", 
