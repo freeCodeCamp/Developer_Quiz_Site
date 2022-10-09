@@ -1,11 +1,9 @@
- {
-    Question:
-      "In Python, which of the following option will reverse a_string='good' and make it 'doog'?",
-    Answer: "a_string[::-1]",
-    Distractor1: "reversed(a_string)",
-    Distractor2: "a_string.reverse()",
-    Distractor3: "a_string.sort(reverse=True)",
-    Explanation:
-      "<string>[start: stop: step] returns a slice of the string. <string>[:::] returns a copy of the entire string. <string>[::-1] returns a reversed copy of the string.",
-    Link: "https://www.freecodecamp.org/news/python-reverse-string-string-reversal-in-python-explained-with-code-examples/",
+  {
+    Question: "Which one of these data structures follows the FIFO (First In First Out) method?",
+    Answer: "Queue",
+    Distractor1: "Stack",
+    Distractor2: "Array",
+    Distractor3: "Linked List",
+    Explanation: "A queue follows the First In First Out (FIFO) method as the element which gets inserted first gets removed first.",
+    Link: "https://youtu.be/B31LgI4Y4DQ?t=16410",
   },
