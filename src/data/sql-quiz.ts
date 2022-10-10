@@ -439,6 +439,17 @@ const sqlQuiz = [
       "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
   },
+  {
+    Question:
+      "Among the following which is not a database management software?",
+    Answer: "COBOL",
+    Distractor1: "MySQL",
+    Distractor2: "Sybase",
+    Distractor3: "Oracle",
+    Explanation:
+      "COBOL stands for Common Business Oriented Language. It is imperative, procedural, and object-oriented.",
+    Link: "https://www.freecodecamp.org/news/learn-to-write-cobol-programs-in-vs-code/",
+  },
 ];
 
 export default sqlQuiz;
