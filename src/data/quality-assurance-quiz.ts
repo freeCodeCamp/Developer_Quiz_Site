@@ -1,6 +1,7 @@
 const qualityAssuranceQuiz = [
   {
-    Question: "What type of testing is done on a new feature to ensure that it doesn't accidentally break existing functionality?",
+    Question:
+      "What type of testing is done on a new feature to ensure that it doesn't accidentally break existing functionality?",
     Answer: "Regression",
     Distractor1: "Smoke",
     Distractor2: "End to End",
@@ -10,7 +11,8 @@ const qualityAssuranceQuiz = [
     Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
   },
   {
-    Question: "Which of the following most accurately describes exhaustive testing?",
+    Question:
+      "Which of the following most accurately describes exhaustive testing?",
     Answer: "It's not possible.",
     Distractor1: "It's considered best practice.",
     Distractor2: "It's a standard procedure in the final steps before launch.",

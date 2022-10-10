@@ -1,11 +1,13 @@
 const sqlQuiz = [
   {
-    Question: "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
+    Question:
+      "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
     Distractor2: "INSERT",
     Distractor3: "JOIN",
-    Explanation: "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Explanation:
+      "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
@@ -441,14 +443,14 @@ const sqlQuiz = [
   },
   {
     Question:
-      "Among the following which is not a database management software?",
-    Answer: "COBOL",
-    Distractor1: "MySQL",
-    Distractor2: "Sybase",
-    Distractor3: "Oracle",
+      "Which of the following is not a distinct relationship in a SQL database?",
+    Answer: "All-to-one",
+    Distractor1: "One-to-one",
+    Distractor2: "One-to-many",
+    Distractor3: "Many-to-many",
     Explanation:
-      "COBOL stands for Common Business Oriented Language. It is imperative, procedural, and object-oriented.",
-    Link: "https://www.freecodecamp.org/news/learn-to-write-cobol-programs-in-vs-code/",
+      "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
+    Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
 ];
 
