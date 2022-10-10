@@ -166,7 +166,7 @@ const agileQuiz = [
   },
   {
     Question:
-      "In Agile, what is it used for in Planning Poker?",
+      "In Agile, what is Planning Poker?",
     Answer: "It is used to estimate the development effort required for a user story or a feature",
     Distractor1: "It is used for the elaboration of the backlog",
     Distractor2: "It is used to estimate the development cost needed for a user story or feature",
