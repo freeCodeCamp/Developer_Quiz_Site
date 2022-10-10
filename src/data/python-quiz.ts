@@ -1,4 +1,15 @@
 const pythonQuiz = [
+   {
+    Question:
+      "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
+    Answer: "sentence[::-1]",
+    Distractor1: "reversed(sentence)",
+    Distractor2: "sentence.reverse()",
+    Distractor3: "sentence.sort(reverse=True)",
+    Explanation:
+      "In Python, [::-1] will return a reversed copy of the string.",
+    Link: "https://www.freecodecamp.org/news/python-reverse-string-string-reversal-in-python-explained-with-code-examples/",
+  },
   {
     Question: 
       "In Python, which module provides a framework for writing line-oriented command interpreters?",
