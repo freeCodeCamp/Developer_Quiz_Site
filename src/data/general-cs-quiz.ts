@@ -1,7 +1,7 @@
 const generalCSQuiz = [
   {
     Question: "What is the term for when data is being pushed onto a full stack?",
-    Answer: "Overflow",
+    Answer: "Stack Overflow",
     Distractor1: "Underflow",
     Distractor2: "Garbage Collection",
     Distractor3: "Empty collection",
