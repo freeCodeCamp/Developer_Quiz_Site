@@ -1,4 +1,15 @@
 const pythonQuiz = [
+    {
+      Question: 
+        "In Python, which of the follwing list method directly modifies the original list?",
+      Answer: "sort()",
+      Distractor1: "sorted()",
+      Distractor2: "reversed()",
+      Distractor3: "None of the above",
+      Explanation: 
+        "sort() and reverse() directly modifies the original list, on the other hand, sorted() and reversed() returns a copy of the original list",
+      Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
+   },
    {
     Question:
       "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
