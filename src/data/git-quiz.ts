@@ -12,6 +12,17 @@ const gitQuiz = [
   },
   {
     Question:
+      "In Git, how can you check your configuration?",
+    Answer: "git config -l",
+    Distractor1: "git config -check",
+    Distractor2: "git checkconfig -l",
+    Distractor3: "git checkconfig -m",
+    Explanation:
+      "The command git config -l returns a list of information about your git configuration including user name and email",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+  },
+  {
+    Question:
       "In Git, how do you integrate changes from one branch to another?",
     Answer: "git merge",
     Distractor1: "git copy into",
