@@ -822,7 +822,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/",
   },
   {
-    Question: "Which Linux Desktop Environment is a doppelganger of Windows?",
+    Question: "Which Linux desktop environment has a similar UI to Windows?",
     Answer: "KDE Plasma",
     Distractor1: "GNOME",
     Distractor2: "Xfce",
