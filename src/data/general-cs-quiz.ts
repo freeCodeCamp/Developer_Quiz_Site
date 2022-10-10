@@ -5,7 +5,7 @@ const generalCSQuiz = [
     Distractor1: "Underflow",
     Distractor2: "Garbage Collection",
     Distractor3: "Empty collection",
-    Explanation: "Overflow occurs when the user performs a push operation on an already filled stack.",
+    Explanation: "Stack Overflow happens when there is an attempt to push data on an already full stack.",
     Link: "https://www.freecodecamp.org/news/data-structures-101-stacks-696b3282980/",
   },
   {
