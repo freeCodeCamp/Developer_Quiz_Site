@@ -1,6 +1,18 @@
 const javascriptQuiz = [
   {
     Question:
+    "Which HTML element is used to link to a 3rd party JavaScript library and make it available on your page?",
+    Answer: "<script>",
+    Distractor1: "<input>",
+    Distractor2: "<head>",
+    Distractor3: "<html>",
+    Explanation:
+      "You can use the <script> element to link to an external 3rd party JavaScript library and connect to its API functionality.",
+    Link:
+"https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs"
+  },
+  {
+    Question:
       "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
     Answer: "shift()",
     Distractor1: "pop()",
