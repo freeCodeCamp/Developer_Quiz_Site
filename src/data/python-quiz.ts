@@ -7,7 +7,7 @@ const pythonQuiz = [
       Distractor2: "reversed()",
       Distractor3: "None of the above",
       Explanation: 
-        "sort() and reverse() directly modifies the original list, on the other hand, sorted() and reversed() returns a copy of the original list",
+        "sort() and reverse() directly modify the original list, while sorted() and reversed() return a copy of the original list.",
       Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
    },
    {
