@@ -164,6 +164,17 @@ const agileQuiz = [
       "Points estimate the amount of effort required to deliver a user story and are assigned using the Fibonacci sequence",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
+  {
+    Question:
+      "In Agile, what is Planning Poker?",
+    Answer: "It is used to estimate the development effort required for a user story or a feature",
+    Distractor1: "It is used for the elaboration of the backlog",
+    Distractor2: "It is used to estimate the development cost needed for a user story or feature",
+    Distractor3: "It is used to estimate what would be development in each user story",
+    Explanation:
+      "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
 ];
 
 export default agileQuiz;
