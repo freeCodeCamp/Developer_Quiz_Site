@@ -443,13 +443,13 @@ const sqlQuiz = [
   },
   {
     Question:
-      "Which of the following is not a distinct relationship in a SQL database",
+      "Which of the following is not a distinct relationship in a SQL database?",
     Answer: "All-to-one",
     Distractor1: "One-to-one",
     Distractor2: "One-to-many",
     Distractor3: "Many-to-many",
     Explanation:
-      "Database data can either be linked one-to-one where one record is related to only one record in another table ,one-to-many where one record corresponds to many records in another table, or many-to-many where many records correspond to many records in another table. ",
+      "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
 ];
