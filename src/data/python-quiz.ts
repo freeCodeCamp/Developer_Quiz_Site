@@ -1163,6 +1163,15 @@ const pythonQuiz = [
     Explanation: "The range() function has one required argument(stop) and two optional arguments(start and step).", 
     Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/", 
   },
+   { 
+    Question: "Which of the following statements is used to create an empty set in Python?",
+    Answer: "set()", 
+    Distractor1: "{}", 
+    Distractor2: "[]", 
+    Distractor3: "()", 
+    Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
+    Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
+  },
 ];
 
 export default pythonQuiz;
