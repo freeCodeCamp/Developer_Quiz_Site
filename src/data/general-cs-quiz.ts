@@ -1,14 +1,5 @@
 const generalCSQuiz = [
   {
-    Question: "In a stack of size 10, if a user tries to add 11th element it is called?",
-    Answer: "Overflow",
-    Distractor1: "Underflow",
-    Distractor2: "Garbage Collection",
-    Distractor3: "Empty collection",
-    Explanation: "Overflow occurs when the user performs a push operation on an already filled stack.",
-    Link: "https://www.freecodecamp.org/news/data-structures-101-stacks-696b3282980/",
-  },
-  {
     Question:
       "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
     Answer: "Syntax Error",
