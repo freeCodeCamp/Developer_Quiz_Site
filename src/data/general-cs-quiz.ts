@@ -1,6 +1,6 @@
 const generalCSQuiz = [
   {
-    Question: "In a stack of size 10, if a user tries to add 11th element it is called?",
+    Question: "What is the term for when data is being pushed onto a full stack?",
     Answer: "Overflow",
     Distractor1: "Underflow",
     Distractor2: "Garbage Collection",
