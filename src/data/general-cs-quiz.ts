@@ -77,7 +77,7 @@ const generalCSQuiz = [
     Question:
       "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
     Answer: "Merge sort",
-    Distractor1: "Merge sort",
+    Distractor1: "testing on speed between the two algorithms has been inclusive on which one is faster",
     Distractor2: "Quicksort",
     Distractor3: "Both",
     Explanation:
