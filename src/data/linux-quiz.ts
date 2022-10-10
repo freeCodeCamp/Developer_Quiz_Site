@@ -821,6 +821,16 @@ const linuxQuiz = [
       "Vim stands for Vi IMproved and it is a popular open-source text editor.",
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/",
   },
+  {
+    Question: "Which Linux desktop environment has a similar UI to Windows?",
+    Answer: "KDE Plasma",
+    Distractor1: "GNOME",
+    Distractor2: "Xfce",
+    Distractor3: "Mate",
+    Explanation:
+      "KDE is a popular desktop environment which resembles the Windows user interface.",
+    Link: "https://www.freecodecamp.org/news/linux-basics/",
+  },
 ];
 
 export default linuxQuiz;
