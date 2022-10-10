@@ -81,7 +81,7 @@ const generalCSQuiz = [
     Distractor2: "Quicksort",
     Distractor3: "Both",
     Explanation:
-      "Merge sort is more efficient and works faster than quick sort in case of larger array size or datasets.",
+      "Merge sort runs quicker than Quick sort in the case of larger datasets.",
     Link: "https://forum.freecodecamp.org/t/the-merge-sort-algorithm-explained/16104",
   },
   {
