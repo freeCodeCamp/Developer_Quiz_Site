@@ -1,6 +1,18 @@
 const javascriptQuiz = [
   {
     Question:
+      "Which element is used  to connect to the API functionality and make it available on your page?",
+    Answer: "<script>",
+    Distractor1: "pop()",
+    Distractor2: "push()",
+    Distractor3: "All take about the same time on an array of the same size.",
+    Explanation:
+      "To access third party APIs from JavaScript we first need to connect to the API functionality and make it available on your page by first linking to a JavaScript library available on the server via a <script> element.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs",
+  },
+  {
+    Question:
       "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
     Answer: "shift()",
     Distractor1: "pop()",
