@@ -828,7 +828,7 @@ const linuxQuiz = [
     Distractor2: "Xfce",
     Distractor3: "Mate",
     Explanation:
-      "KDE is an international free software community that develops free and open-source software. Its UI resembles Windows.",
+      "KDE is a popular desktop environment which resembles the Windows user interface.",
     Link: "https://www.freecodecamp.org/news/linux-basics/",
   },
 ];
