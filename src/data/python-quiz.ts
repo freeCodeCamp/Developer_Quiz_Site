@@ -1,7 +1,7 @@
 const pythonQuiz = [
     {
       Question: 
-        "In Python, which of the follwing list method directly modifies the original list?",
+        "In Python, which of the following list methods directly modifies the original list?",
       Answer: "sort()",
       Distractor1: "sorted()",
       Distractor2: "reversed()",
