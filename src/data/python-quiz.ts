@@ -1172,6 +1172,15 @@ const pythonQuiz = [
     Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
     Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
   },
+  { 
+    Question: "Which of the following is the truncation division operator in Python?",
+    Answer: "//", 
+    Distractor1: "/", 
+    Distractor2: "|", 
+    Distractor3: "%", 
+    Explanation: "// is the operator used for truncation division. ", 
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/", 
+  },
 ];
 
 export default pythonQuiz;
