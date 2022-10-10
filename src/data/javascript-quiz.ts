@@ -1413,7 +1413,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "What is the result of the following: ('b' + 'a' + + 'cteri' + 'a').toLowerCase()",
+      "In JavaScript, what is the result for the following code: ('b' + 'a' + + 'cteri' + 'a').toLowerCase()?",
     Answer: "banana",
     Distractor1: "b+a+cteri+a",
     Distractor2: "bacteria",
