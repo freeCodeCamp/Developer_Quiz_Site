@@ -1167,7 +1167,7 @@ const pythonQuiz = [
     Distractor1: "count", 
     Distractor2: "None of the above", 
     Distractor3: "index", 
-    Explanation: "There are only two tuple methods; count and index", 
+    Explanation: "There are only two tuple methods; count and index in Python", 
     Link: "https://docs.python.org/3/tutorial/datastructures.html", 
   },
   { 
