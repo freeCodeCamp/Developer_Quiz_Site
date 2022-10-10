@@ -1,11 +1,13 @@
 const sqlQuiz = [
   {
-    Question: "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
+    Question:
+      "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
     Distractor2: "INSERT",
     Distractor3: "JOIN",
-    Explanation: "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Explanation:
+      "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
@@ -438,6 +440,17 @@ const sqlQuiz = [
     Explanation:
       "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
+  },
+  {
+    Question:
+      "Which of the following is not a distinct relationship in a SQL database",
+    Answer: "All-to-one",
+    Distractor1: "One-to-one",
+    Distractor2: "One-to-many",
+    Distractor3: "Many-to-many",
+    Explanation:
+      "Database data can either be linked one-to-one where one record is related to only one record in another table ,one-to-many where one record corresponds to many records in another table, or many-to-many where many records correspond to many records in another table. ",
+    Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
 ];
 
