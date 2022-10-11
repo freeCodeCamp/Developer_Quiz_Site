@@ -1,5 +1,16 @@
 const pythonQuiz = [
-    {
+  {
+    Question: 
+      "In Python, which of the following is not a complex number?",
+    Answer: "2 + 3l",
+    Distractor1: "2 + 3j",
+    Distractor2: "complex(2, 3)",
+    Distractor3: "2 + 3J",
+    Explanation: 
+      "In python, l (or L) stands for long.",
+    Link: "https://forum.freecodecamp.org/t/an-introduction-to-python-complex-numbers-explained-with-examples/19218",
+  },
+  {
       Question: 
         "In Python, which of the following list methods directly modifies the original list?",
       Answer: "sort()",
@@ -9,8 +20,8 @@ const pythonQuiz = [
       Explanation: 
         "sort() and reverse() directly modify the original list, while sorted() and reversed() return a copy of the original list.",
       Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
-   },
-   {
+  },
+  {
     Question:
       "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
     Answer: "sentence[::-1]",
