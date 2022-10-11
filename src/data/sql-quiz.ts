@@ -1,5 +1,17 @@
 const sqlQuiz = [
   {
+    Question: 
+      "How can the user change “codingWebsite” into “FreeCodecamp” in the “Name” column in the Users table?",
+    Answer: "UPDATE Users Set Name = 'FreeCodecamp' WHERE Name = 'codingWebsite' ",
+    Distractor1: "MODIFY Users Set Name = 'codingWebsite' WHERE Name = 'FreeCodecamp' ",
+    Distractor2: "UPDATE Users Set Name = 'codingWebsite' WHERE Name = 'FreeCodecamp' ",
+    Distractor3: "MODIFY Users Set Name = 'FreeCodecamp' WHERE Name = 'codingWebsite' ",
+    Explanation:
+      "The UPDATE command and WHERE clause are used together to change the name as asked in the question.",
+    Link: "https://www.freecodecamp.org/news/sql-update-statement-update-query-in-sql/",
+    
+  },
+  {
     Question:
       "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
