@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "What is the term for when data is being pushed onto a full stack?",
+    Answer: "Stack Overflow",
+    Distractor1: "Underflow",
+    Distractor2: "Garbage Collection",
+    Distractor3: "Empty collection",
+    Explanation: "Stack Overflow happens when there is an attempt to push data on an already full stack.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-stacks-696b3282980/",
+  },
+  {
     Question:
       "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
     Answer: "Syntax Error",
@@ -72,6 +81,17 @@ const generalCSQuiz = [
     Explanation:
       "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
+  },
+   {
+    Question:
+      "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
+    Answer: "Merge sort",
+    Distractor1: "testing on speed between the two algorithms has been inconclusive on which one is faster",
+    Distractor2: "Quicksort",
+    Distractor3: "Both",
+    Explanation:
+      "Merge sort runs quicker than Quick sort in the case of larger datasets.",
+    Link: "https://forum.freecodecamp.org/t/the-merge-sort-algorithm-explained/16104",
   },
   {
     Question:
