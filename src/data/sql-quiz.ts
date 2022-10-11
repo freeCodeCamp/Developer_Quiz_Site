@@ -11,6 +11,16 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
+    Question: "How do you limit query results in ORACLE-SQL?",
+    Answer: "FETCH FIRST",
+    Distractor1: "LIMIT",
+    Distractor2: "TOP",
+    Distractor3: "FIRST",
+    Explanation:
+      "You can use FETCH FIRST, in newer versions of Oracle, to restrict the number of rows returned by a query.",
+    Link: "https://www.freecodecamp.org/news/row_number-in-sql-select-top-example-in-sql-and-sql-server2/",
+  },
+  {
     Question: "In a RDBMS, what is used to create a reference between tables?",
     Answer: "Foreign Keys",
     Distractor1: "Candidate Keys ",
