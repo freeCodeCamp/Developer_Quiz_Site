@@ -1254,7 +1254,6 @@ const pythonQuiz = [
     Distractor3: "finally",
     Explanation: "calling the open() function while using the with statement automatically closes a file after being processed.",
     Link: "https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/",
-   
   },
   {
     Question: "Which one of these python types is not mutable?",
@@ -1264,7 +1263,6 @@ const pythonQuiz = [
     Distractor3: "functions",
     Explanation: "a bool data type cannot change it's value after being created, therefore it is immutable.",
     Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
-   
   },
   {
     Question: "In python, what is the output of the following code: True + True + False - True == 2?",
