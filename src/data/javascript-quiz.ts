@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, which method uses a callback function for each element in the array?",
+    Answer: "forEach()",
+    Distractor1: "every(",
+    Distractor2: "forEvery()",
+    Distractor3: "each()",
+    Explanation:
+      "The forEach() method uses a callback function for each element in the array.",
+    Link: "https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/",
+  },
+  {
+    Question:
       "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
     Answer: "shift()",
     Distractor1: "pop()",
