@@ -108,14 +108,15 @@ const freecodecampQuiz = [
       },
       {
         Question:
-          "Who is the founder of freeCodeCamp",
+          "Who is the founder of freeCodeCamp?",
         Answer: "Quincy Larson",
         Distractor1: "Madison Kanna",
         Distractor2: "James Altucher",
         Distractor3: "Navin Kabra",
         Explanation:
-          "freeCodeCamp was launched in October 2014 and incorporated as Free Code Camp, Inc. The founder, Quincy Larson, is a software developer who took up programming after graduate school and created freeCodeCamp as a way to streamline a student's progress from beginner to being job-ready.",
-        Link: "https://www.freecodecamp.org/news/about/"},
+        "Quincy Larson founded freeCodeCamp in 2014 as a program meant to help individuals learn the basics of programming and land a developer job.",
+        Link: "https://www.freecodecamp.org/news/about/"
+      },
 ];
 
 export default freecodecampQuiz;
