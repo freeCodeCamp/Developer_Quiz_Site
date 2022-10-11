@@ -1183,6 +1183,35 @@ const pythonQuiz = [
     Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
     Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
   },
+  {
+    Question: "What python keyword is added to open() function while reading a file to ensure the file gets closed?",
+    Answer: "with", 
+    Distractor1: "await",
+    Distractor2: "pass",
+    Distractor3: "finally",
+    Explanation:  "calling open()function using with statement automatically close a file after being processed ",
+    Link:  "https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/",
+   
+  },
+  {
+    Question: "Which one of these python type is not mutable?",
+    Answer: "bool", 
+    Distractor1: "lists",
+    Distractor2: "sets",
+    Distractor3: "functions",
+    Explanation:  "a bool data type cannot change it's value after being created, therefore it is immutable.",
+    Link:     "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+   
+  },
+  {
+    Question: "What is the output of the following code:  True + True + False - True == 2   ?",
+    Answer: "False", 
+    Distractor1: "True",
+    Distractor2: "Error",
+    Distractor3: "1",
+    Explanation:  "True is 1 and False is 0",
+    Link:   "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
+  },
 ];
 
 export default pythonQuiz;
