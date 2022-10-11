@@ -1,7 +1,7 @@
 const javascriptQuiz = [
   {
     Question:
-      "In JavaScript, Which function of an Array object calls a function for each element in the array?",
+      "In JavaScript, which method uses a callback function for each element in the array?",
     Answer: "forEach()",
     Distractor1: "every(",
     Distractor2: "forEvery()",
