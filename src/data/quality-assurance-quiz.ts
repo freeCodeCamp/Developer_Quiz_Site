@@ -86,6 +86,17 @@ const qualityAssuranceQuiz = [
       "Even if the app is 99% bug free, if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
   },
+  {
+    Question:
+      "Which Testing Methodolgy means Testing individual components/modules together to ensure they connect and interact well with one another",
+    Answer: "Integration Testing",
+    Distractor1: "Black Box Testing",
+    Distractor2: "White Box Testing",
+    Distractor3: "Negative Path Testing",
+    Explanation:
+      "Integration testing is the phase in software testing in which individual software modules are combined and tested as a group.Integration testing is conducted to evaluate the compliance of a system or component with specified functional requirements. ",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+  },
 ];
 
 export default qualityAssuranceQuiz;
