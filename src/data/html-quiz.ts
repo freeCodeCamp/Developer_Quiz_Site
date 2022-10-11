@@ -11,6 +11,18 @@ const htmlQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs"
   },
+   {
+    Question:
+    "The interactive element audio with the attribute controls must not appear as a descendant of which element?",
+    Answer: "both a and button",
+    Distractor1: "a",
+    Distractor2: "button",
+    Distractor3: "both a and button",
+    Explanation:
+      "The anchor and the button tag acts as link which cannot be a parent of audio element.",
+    Link:
+      "https://www.freecodecamp.org/news/video-audio-in-html-a-short-guide-69f721878b47/"
+  },
   {
     Question: "How many Section Heading elements are there in HTML5?",
     Answer: "6",
