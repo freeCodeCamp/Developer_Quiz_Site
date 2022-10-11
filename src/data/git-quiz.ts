@@ -11,8 +11,7 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/",
   },
   {
-    Question:
-      "In Git, how can you check your configuration?",
+    Question: "In Git, how can you check your configuration?",
     Answer: "git config -l",
     Distractor1: "git config -check",
     Distractor2: "git checkconfig -l",
@@ -365,6 +364,17 @@ const gitQuiz = [
     Explanation:
       "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+  },
+  {
+    Question:
+      "In Git, how do you see your commit history including changes in files ?:",
+    Answer: "git log -p",
+    Distractor1: "git log --show",
+    Distractor2: "git log -c",
+    Distractor3: "git log",
+    Explanation:
+      "The git log -p command shows the commit's history including all files and their changes.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/#:~:text=How%20to%20see%20your%20commit%20history%20including%20changes%20in%20Git%3A",
   },
 ];
 
