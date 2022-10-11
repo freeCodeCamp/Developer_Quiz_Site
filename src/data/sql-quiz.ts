@@ -1,7 +1,7 @@
 const sqlQuiz = [
   {
     Question:
-      "The maximum length of the varchar columns in MySQL is?",
+      "In MySQL, what is the maximum string length for the VARCHAR data type?",
     Answer: "Upto 65,535 bytes",
     Distractor1: "255 bytes",
     Distractor2: "256 bytes",
