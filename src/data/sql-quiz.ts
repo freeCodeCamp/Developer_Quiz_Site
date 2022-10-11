@@ -7,7 +7,7 @@ const sqlQuiz = [
     Distractor2: "256 bytes",
     Distractor3: "Upto 65,567 bytes",
     Explanation:
-      "Variable length string similar to CHAR(), has a maximum string length range from 0 to 65535.",
+      "The VARCHAR data type has a maximum string length range from 0 to 65535.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
   },
   {
