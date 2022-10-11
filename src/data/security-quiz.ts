@@ -7,7 +7,7 @@ const securityQuiz = [
     Distractor2: "{whoami, user, others}",
     Distractor3: "{user, group, all}",
     Explanation:
-      "In Linux, there are three types of users: user, group and other.",
+      "In Linux, there are three types of users: user, group and other. There are three types of users in linux  System users: (they are the software/applications users created automatically by the system) e.g mail, MySQL, ftp …..  Super user: (the superuser/root user/system administrator is only one, his duties are to install software + create or delete users + look after the system resources ….) the prompt sign of super user is # in all shells.  Normal users:",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
