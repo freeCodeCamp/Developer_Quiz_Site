@@ -10,7 +10,7 @@ const generalCSQuiz = [
   },
   {
     Question: "Which of the following is true for an adjacency matrix?",
-    Answer: "It is space efficient for representing dense graph.",
+    Answer: "It is space efficient for representing dense graphs.",
     Distractor1: "It is space efficient for representing sparse graph.",
     Distractor2: "Edge weight lookup is lower bounded by log(n).",
     Distractor3: "Space complexity is O(n).",
