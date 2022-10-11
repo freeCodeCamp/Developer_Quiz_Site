@@ -7,7 +7,7 @@ const sqlQuiz = [
     Distractor2: "UPDATE Users Set Name = 'codingWebsite' WHERE Name = 'freeCodeCamp' ",
     Distractor3: "MODIFY Users Set Name = 'freeCodeCamp' WHERE Name = 'codingWebsite' ",
     Explanation:
-      "The UPDATE command and WHERE clause are used together to change the name as asked in the question.",
+      "The UPDATE command and WHERE clause are used together to change the name in a SQL table.",
     Link: "https://www.freecodecamp.org/news/sql-update-statement-update-query-in-sql/",
     
   },
