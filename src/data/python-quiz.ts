@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor2: "complex(2, 3)",
     Distractor3: "2 + 3J",
     Explanation: 
-      "In python, l (or L) stands for long.",
+      "In Python, the letter 'l' (or L) stands for long and 2 + 3l would not result in a complex number.",
     Link: "https://forum.freecodecamp.org/t/an-introduction-to-python-complex-numbers-explained-with-examples/19218",
   },
   {
