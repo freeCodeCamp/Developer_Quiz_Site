@@ -462,6 +462,17 @@ const sqlQuiz = [
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
+  {
+    Question:
+      "What is the function of the AS command?",
+    Answer: "AS allows you to rename a column or table using an alias.",
+    Distractor1: "AS gives us a way to sort the result set by one or more of the items",
+    Distractor2: "AS will count the number of rows and return that count as a column in the result set.",
+    Distractor3: "AS is a way to insert data into a table.",
+    Explanation:
+      "AS allows you to rename a column or table using an alias",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
 ];
 
 export default sqlQuiz;
