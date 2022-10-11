@@ -11,7 +11,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
   {
-    Question: "How to limit query results in ORACLE-SQL",
+    Question: "How do you limit query results in ORACLE-SQL?",
     Answer: "FETCH FIRST",
     Distractor1: "LIMIT",
     Distractor2: "TOP",
