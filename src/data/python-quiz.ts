@@ -1,4 +1,26 @@
 const pythonQuiz = [
+    {
+      Question: 
+        "In Python, which of the following list methods directly modifies the original list?",
+      Answer: "sort()",
+      Distractor1: "sorted()",
+      Distractor2: "reversed()",
+      Distractor3: "None of the above",
+      Explanation: 
+        "sort() and reverse() directly modify the original list, while sorted() and reversed() return a copy of the original list.",
+      Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
+   },
+   {
+    Question:
+      "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
+    Answer: "sentence[::-1]",
+    Distractor1: "reversed(sentence)",
+    Distractor2: "sentence.reverse()",
+    Distractor3: "sentence.sort(reverse=True)",
+    Explanation:
+      "In Python, [::-1] will return a reversed copy of the string.",
+    Link: "https://www.freecodecamp.org/news/python-reverse-string-string-reversal-in-python-explained-with-code-examples/",
+  },
   {
     Question: 
       "In Python, which module provides a framework for writing line-oriented command interpreters?",
@@ -1205,6 +1227,24 @@ const pythonQuiz = [
     Distractor3: "1.2", 
     Explanation: "It rounds the float number to two decimal places", 
     Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/", 
+  },
+  {
+    Question: "How many mandatory arguments does the range() function have in Python?",
+    Answer: "1", 
+    Distractor1: "0", 
+    Distractor2: "2", 
+    Distractor3: "3", 
+    Explanation: "The range() function has one required argument(stop) and two optional arguments(start and step).", 
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/", 
+  },
+   { 
+    Question: "Which of the following statements is used to create an empty set in Python?",
+    Answer: "set()", 
+    Distractor1: "{}", 
+    Distractor2: "[]", 
+    Distractor3: "()", 
+    Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
+    Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
   },
 ];
 
