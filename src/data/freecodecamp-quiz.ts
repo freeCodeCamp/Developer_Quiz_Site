@@ -106,6 +106,16 @@ const freecodecampQuiz = [
           "All of these projects have been a source of inspiration, but Wikipedia is the closest analog to what the freeCodeCamp community would ultimately like to become: hundreds of languages represented, with thousands of contributors from a wide variety of backgrounds and interests.",
         Link: "https://www.freecodecamp.org/news/welcome-to-the-abundance-economy-there-are-free-lunches-all-over-the-place-b9d0a417fd1a/",
       },
+      {
+        Question:
+          "Who is the founder of freeCodeCamp",
+        Answer: "Quincy Larson",
+        Distractor1: "Madison Kanna",
+        Distractor2: "James Altucher",
+        Distractor3: "Navin Kabra",
+        Explanation:
+          "freeCodeCamp was launched in October 2014 and incorporated as Free Code Camp, Inc. The founder, Quincy Larson, is a software developer who took up programming after graduate school and created freeCodeCamp as a way to streamline a student's progress from beginner to being job-ready.",
+        Link: "https://www.freecodecamp.org/news/about/"},
 ];
 
 export default freecodecampQuiz;
