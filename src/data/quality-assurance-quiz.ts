@@ -86,6 +86,49 @@ const qualityAssuranceQuiz = [
       "Even if the app is 99% bug free, if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
   },
+   {
+    Question:
+      "What type of testing is done on a new feature to ensure that it doesn't accidentally break existing functionality?",
+    Answer: "Regression",
+    Distractor1: "Smoke",
+    Distractor2: "End to End",
+    Distractor3: "Integration",
+    Explanation:
+      "Regression testing is done on a new build to ensure that new functionality has not unintentionally broken previously tested functionality.",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+  },
+   {
+    Question:
+      "What type of test involves testing individual functions or components?",
+    Answer: "Unit",
+    Distractor1: "Static Analysis",
+    Distractor2: "Integration",
+    Distractor3: "End to End",
+    Explanation:
+      "Unit Testing lets us verify that individual, isolated parts work as expected.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+  },
+  {
+    Question:
+      "What type of test involves testing individual functions or components?",
+    Answer: "Unit",
+    Distractor1: "Static Analysis",
+    Distractor2: "Integration",
+    Distractor3: "End to End",
+    Explanation:
+      "Unit Testing lets us verify that individual, isolated parts work as expected.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+  },
+   {
+    Question: "What do the terms QA and QC stand for?",
+    Answer: "Quality Assurance and Quality Control ",
+    Distractor1: "Quality Assets and Quality completion",
+    Distractor2: "Quality Analyst and Quantum Computing",
+    Distractor3: "Quality Assessment and Quality Computing",
+    Explanation:
+      "Quality Assurance (commonly known as QA) and Quality Control (commonly known as QC)",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+  },
 ];
 
 export default qualityAssuranceQuiz;
