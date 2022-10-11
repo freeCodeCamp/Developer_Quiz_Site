@@ -5,7 +5,7 @@ const sqlQuiz = [
     Answer: "Up to 65,535 bytes",
     Distractor1: "255 bytes",
     Distractor2: "256 bytes",
-    Distractor3: "Upto 65,567 bytes",
+    Distractor3: "Up to 65,567 bytes",
     Explanation:
       "The VARCHAR data type has a maximum string length range from 0 to 65535.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
