@@ -9,7 +9,7 @@ const generalCSQuiz = [
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=682s",
   },
   {
-    Question: "Which of the following is true for adjacency matrix?",
+    Question: "Which of the following is true for an adjacency matrix?",
     Answer: "It is space efficient for representing dense graph.",
     Distractor1: "It is space efficient for representing sparse graph.",
     Distractor2: "Edge weight lookup is lower bounded by log(n).",
