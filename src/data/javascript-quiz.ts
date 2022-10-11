@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor2: "forEvery()",
     Distractor3: "each()",
     Explanation:
-      "forEach() – Calls a function for each element in the array.",
+      "The forEach() method uses a callback function for each element in the array.",
     Link: "https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/",
   },
   {
