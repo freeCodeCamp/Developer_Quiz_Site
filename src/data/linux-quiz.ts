@@ -831,6 +831,16 @@ const linuxQuiz = [
       "KDE is a popular desktop environment which resembles the Windows user interface.",
     Link: "https://www.freecodecamp.org/news/linux-basics/",
   },
+  {
+    Question: "How to Delete a Folder from the Command Line in Linux?",
+    Answer: "rm [flags] directory name",
+    Distractor1: "rm [flags]",
+    Distractor2: "del [flags]",
+    Distractor3: "del [flags] directory name",
+    Explanation:
+      "The rm command is used to delete something from the command line in Linux",
+    Link: "https://www.freecodecamp.org/news/remove-directory-in-linux-how-to-delete-a-folder-from-the-command-line/",
+  },
 ];
 
 export default linuxQuiz;
