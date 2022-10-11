@@ -1,6 +1,17 @@
 const sqlQuiz = [
   {
     Question:
+      "The maximum length of the varchar columns in MySQL is?",
+    Answer: "Upto 65,535 bytes",
+    Distractor1: "255 bytes",
+    Distractor2: "256 bytes",
+    Distractor3: "Upto 65,567 bytes",
+    Explanation:
+      "Variable length string similar to CHAR(), has a maximum string length range from 0 to 65535.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+  },
+  {
+    Question:
       "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
