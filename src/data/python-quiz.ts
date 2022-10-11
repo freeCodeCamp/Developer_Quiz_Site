@@ -1,4 +1,15 @@
 const pythonQuiz = [
+     {
+        Question: 
+          "In Python, how can you will be able to get the last item of this following list, numbers = [1, 2, 3, 4, 5]?",
+        Answer: "All of the above",
+        Distractor1: "numbers[-1]",
+        Distractor2: "numbers[len(numbers)-1]",
+        Distractor3: "numbers.pop()",
+        Explanation: 
+          "numbers[-1], numbers[len(numbers)-1] and numbers.pop() all will return the last item of the numbers list.",
+        Link: "https://www.freecodecamp.org/news/python-get-last-element-in-list-how-to-select-the-last-item/",
+    },
     {
       Question: 
         "In Python, which of the following list methods directly modifies the original list?",
