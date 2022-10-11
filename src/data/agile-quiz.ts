@@ -1,14 +1,5 @@
 const agileQuiz = [
   {
-    Question: "In Agile, when might a Sprint be abnormally cancelled?",
-    Answer: "When the Sprint Goal becomes obsolete.",
-    Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
-    Distractor2: "When the Developers feel that the work is too hard.",
-    Distractor3: "When the sales department has an important new opportunity.",
-    Explanation: "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
-    Link: "https://scrumguides.org/scrum-guide.html",
-  },
-  {
     Question:
       "Which of the following development models is a very linear approach to building a product and also has little room for feedback or iteration until the product is completely built and tested?",
     Answer: "Waterfall Development",
@@ -19,6 +10,7 @@ const agileQuiz = [
       "Waterfall development is a very linear approach to building a product. It has little to no room for feedback or iteration until the product is completely built and tested.",
     Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
   },
+  
   {
     Question:
       "Which of the following is typically the smallest defined piece of work in the Agile framework?",
@@ -30,6 +22,7 @@ const agileQuiz = [
       "A story is typically the smallest defined piece of work within the Agile framework.",
     Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
   },
+  
   {
     Question: "Who is responsible for the sprint meeting?",
     Answer: "Scrum master",
@@ -40,6 +33,7 @@ const agileQuiz = [
       "The Scrum Master ensures that the team discusses how to improve on the delivery or software products.",
     Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
   },
+  
   {
     Question: "What is a Sprint Review?",
     Answer: "an opportunity for inspection of the Sprint outcome",
@@ -50,6 +44,7 @@ const agileQuiz = [
       "A Sprint Review involves seeking feedback from stakeholders and incorporating that feedback into the software product.",
     Link: "https://scrumguides.org/scrum-guide.html#sprint-review",
   },
+  
   {
     Question: "In Agile, what is the term for combining Kanban with Scrum?",
     Answer: "Scrumban",
@@ -174,6 +169,36 @@ const agileQuiz = [
     Explanation:
       "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
+   {
+    Question: "In Agile, when might a Sprint be abnormally cancelled?",
+    Answer: "When the Sprint Goal becomes obsolete.",
+    Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
+    Distractor2: "When the Developers feel that the work is too hard.",
+    Distractor3: "When the sales department has an important new opportunity.",
+    Explanation: "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
+    Link: "https://scrumguides.org/scrum-guide.html",
+  },
+    {
+    Question:
+      "Which of the following is typically the smallest defined piece of work in the Agile framework?",
+    Answer: "Story",
+    Distractor1: "Plot",
+    Distractor2: "Plan",
+    Distractor3: "Outline",
+    Explanation:
+      "A story is typically the smallest defined piece of work within the Agile framework.",
+    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
+  },
+    {
+    Question: "Who is responsible for the sprint meeting?",
+    Answer: "Scrum master",
+    Distractor1: "Product owner",
+    Distractor2: "Scrum team",
+    Distractor3: "All of the above.",
+    Explanation:
+      "The Scrum Master ensures that the team discusses how to improve on the delivery or software products.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
   },
 ];
 
