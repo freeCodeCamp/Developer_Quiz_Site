@@ -1247,27 +1247,25 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
   },
   {
-    Question: "Which python keyword is added to the open() function while reading a file to ensure the file gets closed?",
+    Question: "Which Python keyword is added to the open() function while reading a file to ensure the file gets closed?",
     Answer: "with", 
     Distractor1: "await",
     Distractor2: "pass",
     Distractor3: "finally",
-    Explanation: "calling the open() function while using the with statement automatically closes a file after being processed.",
+    Explanation: "Calling the open() function while using the with statement automatically closes a file after being processed.",
     Link: "https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/",
-   
   },
   {
-    Question: "Which one of these python types is not mutable?",
+    Question: "Which one of these Python types is not mutable?",
     Answer: "bool", 
     Distractor1: "lists",
     Distractor2: "sets",
     Distractor3: "functions",
-    Explanation: "a bool data type cannot change it's value after being created, therefore it is immutable.",
-    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
-   
+    Explanation: "A bool data type cannot change it's value after being created, therefore it is immutable.",
+    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",  
   },
   {
-    Question: "In python, what is the output of the following code: True + True + False - True == 2?",
+    Question: "In Python, what is the output of the following code: True + True + False - True == 2?",
     Answer: "False", 
     Distractor1: "True",
     Distractor2: "Error",
