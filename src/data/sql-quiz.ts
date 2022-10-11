@@ -1,12 +1,24 @@
 const sqlQuiz = [
   {
-    Question: "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
+    Question:
+      "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
     Distractor2: "INSERT",
     Distractor3: "JOIN",
-    Explanation: "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
+    Explanation:
+      "You can place NOT before LIKE to exclude the rows with the string pattern instead of selecting them.",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
+  {
+    Question: "How do you limit query results in ORACLE-SQL?",
+    Answer: "FETCH FIRST",
+    Distractor1: "LIMIT",
+    Distractor2: "TOP",
+    Distractor3: "FIRST",
+    Explanation:
+      "You can use FETCH FIRST, in newer versions of Oracle, to restrict the number of rows returned by a query.",
+    Link: "https://www.freecodecamp.org/news/row_number-in-sql-select-top-example-in-sql-and-sql-server2/",
   },
   {
     Question: "In a RDBMS, what is used to create a reference between tables?",
@@ -438,6 +450,17 @@ const sqlQuiz = [
     Explanation:
       "The ROLLBACK TRANSACTION command will erase all modifications made to the data. Changes made to table and local variables will not be affected by this command.",
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/language-elements/rollback-transaction-transact-sql?view=sql-server-ver16",
+  },
+  {
+    Question:
+      "Which of the following is not a distinct relationship in a SQL database?",
+    Answer: "All-to-one",
+    Distractor1: "One-to-one",
+    Distractor2: "One-to-many",
+    Distractor3: "Many-to-many",
+    Explanation:
+      "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
+    Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
 ];
 

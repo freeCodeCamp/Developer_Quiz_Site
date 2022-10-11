@@ -435,8 +435,7 @@ const javascriptQuiz = [
     Distractor3: "Character and Number types",
     Explanation:
       "Primitive and Reference types are the two basic groups of data types in JavaScript.",
-    Link:
-      "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
+    Link: "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
   },
   {
     Question:
@@ -747,6 +746,17 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-string-contains-how-to-use-js-includes/",
   },
   {
+    Question:
+      "In JavaScript, what is the name for variables that are accessible throughout the program?",
+    Answer: "Global variables",
+    Distractor1: "Const variables",
+    Distractor2: "Local variables",
+    Distractor3: "No variable is accessible throughout in JavaScript",
+    Explanation:
+      "Global variables are declared and made accessible throughout the entire JavaScript program.",
+    Link: "https://www.freecodecamp.org/news/global-variables-in-javascript-explained/",
+  },
+  {
     Question: "In JavaScript, what keyword is used to define a function?",
     Answer: "function",
     Distractor1: "def",
@@ -798,6 +808,7 @@ const javascriptQuiz = [
       "The == operator returns true if two values are equal and false if they are not equal. It converts the values to a common type before doing the comparison.",
     Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
   },
+
   {
     Question:
       "In JavaScript, what string method returns the character at the specified index?",
@@ -1381,6 +1392,17 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
   },
   {
+    Question:
+      "In JavaScript, which one is a type of data structure that stores unique values?",
+    Answer: "Set",
+    Distractor1: "Maps",
+    Distractor2: "Object",
+    Distractor3: "Array",
+    Explanation:
+      "A JavaScript Set is a type of data structure that stores unique values.",
+    Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/",
+  },
+  {
     Question: "In JavaScript, what is the optional chaining operator?",
     Answer: "?.",
     Distractor1: "??",
@@ -1388,6 +1410,17 @@ const javascriptQuiz = [
     Distractor3: "**",
     Explanation: "?. is the optional chaining operator in JavaScript.",
     Link: "https://www.freecodecamp.org/news/javascript-optional-chaining/",
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for the following code: ('b' + 'a' + + 'cteri' + 'a').toLowerCase()?",
+    Answer: "banana",
+    Distractor1: "b+a+cteri+a",
+    Distractor2: "bacteria",
+    Distractor3: "Undefined",
+    Explanation:
+      "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
 ];
 
