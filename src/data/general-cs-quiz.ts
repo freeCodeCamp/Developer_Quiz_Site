@@ -1,6 +1,6 @@
 const generalCSQuiz = [
   {
-    Question: "Which of the following is true for adjacency list?",
+    Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge wieght lookup is O(E).",
     Distractor1: "Edge weight lookup is O(1).",
     Distractor2: "Edge weight cannot be specified in adjacency list.",
