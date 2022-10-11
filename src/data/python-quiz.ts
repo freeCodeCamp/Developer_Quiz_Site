@@ -1261,8 +1261,8 @@ const pythonQuiz = [
     Distractor1: "lists",
     Distractor2: "sets",
     Distractor3: "functions",
-    Explanation: "A bool data type cannot change it's value after being created, therefore it is immutable.",
-    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",  
+    Explanation: "a bool data type cannot change it's value after being created, therefore it is immutable.",
+    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
   },
   {
     Question: "In Python, what is the output of the following code: True + True + False - True == 2?",
