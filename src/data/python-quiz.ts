@@ -1211,7 +1211,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/#reversed-function", 
   },
   { 
-    Question: "In Python, which built-in function in Python returns all properties and methods of the specified object, without the values?",
+    Question: "In Python, which built-in function returns all properties and methods of the specified object without the values?",
     Answer: "dir()", 
     Distractor1: "obj()", 
     Distractor2: "dirs()", 
