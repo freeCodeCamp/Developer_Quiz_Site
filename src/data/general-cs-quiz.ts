@@ -9,6 +9,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/data-structures-101-stacks-696b3282980/",
   },
   {
+    Question: "The data structure required for Breadth First Traversal on a graph is?",
+    Answer: " Queue",
+    Distractor1: "Queue",
+    Distractor2: "Stack",
+    Distractor3: "Tree",
+    Explanation: "To get the first unvisited vertex we need to follows First In First Out principle. Queue uses FIFO principle.",
+    Link: "https://www.freecodecamp.org/news/breadth-first-search-a-bfs-graph-traversal-guide-with-3-leetcodeexamples/",
+  },
+  {
     Question:
       "What is the name for an error where the programmer writes invalid syntax resulting in the program failing to run?",
     Answer: "Syntax Error",
