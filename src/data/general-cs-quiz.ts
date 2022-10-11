@@ -5,7 +5,7 @@ const generalCSQuiz = [
     Distractor1: "Edge weight lookup is O(1).",
     Distractor2: "Edge weight cannot be specified in adjacency list.",
     Distractor3: "It cannot be used to represent a cyclic graph.",
-    Explanation: "In adjacency list, for each node only adjacent nodes are stored in a list",
+    Explanation: "In an adjacency list, for each node only adjacent nodes are stored in a list",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=682s",
   },
   {
