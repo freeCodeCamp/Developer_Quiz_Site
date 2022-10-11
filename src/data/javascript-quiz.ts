@@ -1422,6 +1422,17 @@ const javascriptQuiz = [
       "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
+  {
+    Question:
+      "What is the name of the javascript function that run as soon as it is defined?",
+    Answer: "Immediately Invoked Function Expression",
+    Distractor1: "Arrow function",
+    Distractor2: "Immediately Invoked Function Expression",
+    Distractor3: "Callback function",
+    Explanation:
+      "The Immediately Invoked Function Expression (IIFE) is a function that invokes itself as soon as it created. It doesn't need to invoke explicitly.",
+    Link: "https://www.freecodecamp.org/news/iife-in-javascript-what/",
+  },
 ];
 
 export default javascriptQuiz;
