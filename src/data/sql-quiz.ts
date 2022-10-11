@@ -13,6 +13,17 @@ const sqlQuiz = [
   },
   {
     Question:
+      "In MySQL, what is the maximum string length for the VARCHAR data type?",
+    Answer: "Up to 65,535 bytes",
+    Distractor1: "255 bytes",
+    Distractor2: "256 bytes",
+    Distractor3: "Up to 65,567 bytes",
+    Explanation:
+      "The VARCHAR data type has a maximum string length range from 0 to 65535.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+  },
+  {
+    Question:
       "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",
     Answer: "LIKE",
     Distractor1: "NOT",
