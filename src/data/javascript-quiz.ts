@@ -1441,7 +1441,7 @@ const javascriptQuiz = [
     Distractor2: "console.group()",
     Distractor3: "console.log()",
     Explanation:
-      "The console.table() method display arrays and objects to the console in tabular form",
+      "The console.table() method displays an array or object of rows and columns.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table",
   },
 ];
