@@ -1290,7 +1290,7 @@ const pythonQuiz = [
     Distractor1: "[14, 4, 24]",
     Distractor2: "21",
     Distractor3: "<map object at 0x10708b580>",
-    Explanation: "The map function works as an iterator to return a result after applying the len function to every item of words and returns a map object.",
+    Explanation: "The map function works as an iterator to return a result after applying the len function to every item for the words list and returns a map object.",
     Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
   },
 ];
