@@ -367,14 +367,14 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
   {
-    Question: "In Git, what command is used to roll back Git code to a previous commit?",
+    Question: "In Git, which command is used to reset a brach to a previous commit?",
     Answer: "git reset",
     Distractor1: "git revert",
     Distractor2: "git rebase",
     Distractor3: "git reflog",
     Explanation:
-      "In the command line, to roll Git code to a previous commit can run git reset with the hash of the commit you want to roll back to. There are three mode for the reset command --soft , --hard",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/#:~:text=The%20git%20reset%20command%20allows,or%20another%20remote%20repository%20yet.",
+      "The git reset command is used to reset your current HEAD to a specified state.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/",
   },
 ];
 
