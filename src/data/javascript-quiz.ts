@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, which function is used to serialize an object into a JSON string?",
+    Answer: "stringify()",
+    Distractor1: "parse()",
+    Distractor2: "convert()",
+    Distractor3: "None of them",
+    Explanation:
+      "The JSON.stringify() function is used to convert a JSON object into string format.",
+    Link: "https://www.freecodecamp.org/news/json-stringify-example-how-to-parse-a-json-object-with-javascript/",
+  },
+  {
+    Question:
       "In JavaScript, which method uses a callback function for each element in the array?",
     Answer: "forEach()",
     Distractor1: "every(",
