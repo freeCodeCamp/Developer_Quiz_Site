@@ -1435,7 +1435,7 @@ const javascriptQuiz = [
   },
    {
     Question:
-      "In a JavaScript, __________________ method executes a funcction once the timer expires.",
+      "In JavaScript, which method executes a function once the timer expires?",
     Answer: "setTimeout",
     Distractor1: "setInterval",
     Distractor2: "setTimeout",
