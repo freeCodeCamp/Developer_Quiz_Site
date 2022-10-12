@@ -1444,6 +1444,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which method executes a function once the timer expires?",
+    Answer: "setTimeout",
+    Distractor1: "setInterval",
+    Distractor2: "clearInterval",
+    Distractor3: "clearTimeout",
+    Explanation:
+      "The setTimeout() method allows you to execute a piece of code after a certain amount of time has passed.",
+    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/",
+  },
+  {
+    Question:
       "In JavaScript, what type of value is an Array?",
     Answer: "Object",
     Distractor1: "Array",
