@@ -1433,7 +1433,7 @@ const javascriptQuiz = [
       "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
-   {
+  {
     Question:
       "In JavaScript, which method executes a function once the timer expires?",
     Answer: "setTimeout",
@@ -1443,6 +1443,7 @@ const javascriptQuiz = [
     Explanation:
       "The setTimeout() method allows you to execute a piece of code after a certain amount of time has passed.",
     Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/",
+  },
   {
     Question:
       "In JavaScript, what type of value is an Array?",
