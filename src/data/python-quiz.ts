@@ -1285,7 +1285,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
   {
-    Question: "In Python, if words = ['Welcome', 'To', 'FreeCodeCamp'], then what will be the result returned when the following code is executed: print(list(map(len, words)))?",
+    Question: "In Python, what is the return value: print(list(map(len, ['Welcome', 'To', 'FreeCodeCamp'])))?",
     Answer: "[7, 2, 12]",
     Distractor1: "[14, 4, 24]",
     Distractor2: "21",
