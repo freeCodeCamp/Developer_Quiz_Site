@@ -1423,7 +1423,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
    {
-    Question: "Which of the following javascript methods is not an array method?",
+    Question: "In JavaScript, which of the following is not an array method?",
     Answer: ".search()",
     Distractor1: ".includes()",
     Distractor2: ".forEach()",
