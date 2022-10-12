@@ -1443,6 +1443,17 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
+      "In JavaScript, which of the following methods will return the string representation of a number?",
+    Answer: "toFixed()",
+    Distractor1: "parseFloat()",
+    Distractor2: "valueOf()",
+    Distractor3: "round()",
+    Explanation:
+      "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
 ];
 
