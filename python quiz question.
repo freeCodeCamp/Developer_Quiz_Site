@@ -1,5 +1,5 @@
  {
-    Question: "Which of the following is the best way to input n spaced intigers in python(eg. 1 2 3 4 5).?",
+    Question: "Which of the following is a good way to input n space separated integers in Python?",
     Answer: "Lis1 = list(map(int, input().split()))",
     Distractor1: "Lis1 = input().split()",
     Distractor2: "Lis1 = int(input())",
