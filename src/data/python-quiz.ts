@@ -7,7 +7,7 @@ const pythonQuiz = [
         Distractor2: "numbers[len(numbers)-1]",
         Distractor3: "numbers.pop()",
         Explanation: 
-          "numbers[-1], numbers[len(numbers)-1] and numbers.pop() all will return the last item of the numbers list.",
+          "If you use negative indexing or the pop() method it will return the last item in the numbers list.",
         Link: "https://www.freecodecamp.org/news/python-get-last-element-in-list-how-to-select-the-last-item/",
     },
     {
