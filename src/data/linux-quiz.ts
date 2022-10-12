@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "What command is used to save the standard output in a file, as well as display it on the terminal?",
+    Answer: "tee",
+    Distractor1: "cat",
+    Distractor2: "more",
+    Distractor3: "grep",
+    Explanation:
+      "tee command reads standard input (stdin) and writes it to both standard output (stdout) and one or more files.",
+    Link: "https://youtu.be/ZtqBQ68cfJc",
+  },
+  {
     Question: "In Linux, which one is not a communication command?",
     Answer: "grep",
     Distractor1: "mesg",
