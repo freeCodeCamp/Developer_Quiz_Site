@@ -1433,6 +1433,17 @@ const javascriptQuiz = [
       "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
+  {
+    Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+  },
 ];
 
 export default javascriptQuiz;
