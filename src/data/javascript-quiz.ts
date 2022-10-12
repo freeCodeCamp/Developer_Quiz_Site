@@ -1445,6 +1445,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table",
    },
    {
+    Question:
       "In JavaScript, what type of value is an Array?",
     Answer: "Object",
     Distractor1: "Array",
