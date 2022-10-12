@@ -1342,6 +1342,16 @@ const pythonQuiz = [
     Explanation: "When you import the sys module and use the the getsizeof() method, Python will calculate how much memory that object has consumed.",
     Link: "https://www.freecodecamp.org/news/python-programming-tips/",
   },      
+  {
+    Question: "Which of the following is a good way to input n space separated integers in Python?",
+    Answer: "list(map(int, input().split()))",
+    Distractor1: "input().split()",
+    Distractor2: "int(input())",
+    Distractor3: "list(mapping(int, input().split()))",
+    Explanation: "The map() function is used to apply a function to each item in an iterable (like a Python list or dictionary).",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
+
 ];
 
 export default pythonQuiz;
