@@ -1,5 +1,21 @@
 const htmlQuiz = [
   {
+
+    Question:
+    "Is HTML an Programming Languaje? Why?",
+    Answer: "No, becase HTML don't have dinamic functionalities",
+    Distractor1: "Yes, we can create interactive content to users",
+    Distractor2: "No, because we can't compilate",
+    Distractor3: "Yes, we can insert forms, media and another functionalities",
+    Explanation:
+      "In HTML we can structuring and create sections, paragraphs and links, below elements, labels and attributes",
+    Link:
+"      "https://www.hostinger.com/tutorials/what-is-html"
+"  
+  },
+
+
+  {
     Question:
     "Which HTML element is used to link to a 3rd party JavaScript library and make it available on your page?",
     Answer: "<script>",
@@ -9,7 +25,7 @@ const htmlQuiz = [
     Explanation:
       "You can use the <script> element to link to an external 3rd party JavaScript library and connect to its API functionality.",
     Link:
-      "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs"
+      "https://developer.mozilla.org/en-US, /docs/Learn/JavaScript/Client-side_web_APIs/Third_party_APIs"
   },
   {
     Question: "How many Section Heading elements are there in HTML5?",
