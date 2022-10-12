@@ -1,5 +1,16 @@
 const pythonQuiz = [
   {
+      Question: 
+        "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
+      Answer: "All of the above",
+      Distractor1: "numbers[-1]",
+      Distractor2: "numbers[len(numbers)-1]",
+      Distractor3: "numbers.pop()",
+      Explanation: 
+        "If you use negative indexing or the pop() method it will return the last item in the numbers list.",
+      Link: "https://www.freecodecamp.org/news/python-get-last-element-in-list-how-to-select-the-last-item/",
+  },
+  {
     Question: 
       "In Python, which of the following is not a complex number?",
     Answer: "2 + 3l",
@@ -1176,6 +1187,15 @@ const pythonQuiz = [
     Explanation: "+ is used to concatenate and * is used to multiply strings", 
     Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
   },
+  {
+    Question: "In Python, which sorting algorithm is a hybrid between merge and insertion sort?",
+    Answer: "Tim Sort",
+    Distractor1: "Quick Sort",
+    Distractor2: "Merge Sort",
+    Distractor3: "Insertion Sort",
+    Explanation: "Python's default sort uses Tim Sort, which is a combination of both merge sort and insertion sort.",
+    Link: "https://docs.python.org/3/howto/sorting.html"
+  },
   { 
     Question: "Which of the following is a package-management system written in Python used to install and manage software packages?",
     Answer: "pip", 
@@ -1256,6 +1276,15 @@ const pythonQuiz = [
     Distractor3: "()", 
     Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
     Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
+  },
+  {
+    Question: "In Python, if y = lambda x : x ** 2 + 7 , then what will be the result returned when the following code is executed: print(y(3))?",
+    Answer: "16",
+    Distractor1: "5",
+    Distractor2: "11",
+    Distractor3: "24",
+    Explanation: "A Lambda is an anonymous function that can have any number of arguments but only one expression, which is evaluated and returned.",
+    Link: "https://www.freecodecamp.org/news/lambda-expressions-in-python/",
   },
   {
     Question: "Which Python keyword is added to the open() function while reading a file to ensure the file gets closed?",
