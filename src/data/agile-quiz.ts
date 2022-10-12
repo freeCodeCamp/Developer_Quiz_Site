@@ -1,5 +1,14 @@
 const agileQuiz = [
   {
+    Question: "What are the five Scrum values?",
+    Answer: "Commitment, Focus, Openness, Respect, and Courage.",
+    Distractor1: "Commitment, Respect, Honesty, Loyalty, Truth .",
+    Distractor2: "Focus, Loyalty, Courage, Patience, Openness.",
+    Distractor3: "Openess, Commitment, Honesty, Discipline, Patience.",
+    Explanation: "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
+    Link: "https://scrumguides.org/scrum-guide.html",
+  },
+  {
     Question: "In Agile, when might a Sprint be abnormally cancelled?",
     Answer: "When the Sprint Goal becomes obsolete.",
     Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
