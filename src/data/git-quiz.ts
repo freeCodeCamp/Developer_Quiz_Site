@@ -366,6 +366,16 @@ const gitQuiz = [
       "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
+  {
+    Question: "In Git, which command is used to reset a branch to a previous commit?",
+    Answer: "git reset",
+    Distractor1: "git revert",
+    Distractor2: "git rebase",
+    Distractor3: "git reflog",
+    Explanation:
+      "The git reset command is used to reset your current HEAD to a specified state.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/",
+  },
 ];
 
 export default gitQuiz;
