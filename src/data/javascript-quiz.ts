@@ -1427,7 +1427,7 @@ const javascriptQuiz = [
     Answer: ".search()",
     Distractor1: ".includes()",
     Distractor2: ".forEach()",
-    Distractor3: ".search()",
+    Distractor3: ".join()",
     Explanation: "The search() method searches through the string to find a match to a regular expression. If no match is found, then the return value will be -1.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
   },
