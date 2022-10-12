@@ -1314,7 +1314,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
   {
-    Question: "In Python, how do we calculate total size of an Object x?",
+    Question: "In Python, how do you check the memory usage for Object x?",
     Answer: "sys.getsizeof(x)", 
     Distractor1: "size(x)",
     Distractor2: "len(x)",
