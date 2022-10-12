@@ -1187,6 +1187,15 @@ const pythonQuiz = [
     Explanation: "+ is used to concatenate and * is used to multiply strings", 
     Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
   },
+  {
+    Question: "In Python, which sorting algorithm is a hybrid between merge and insertion sort?",
+    Answer: "Tim Sort",
+    Distractor1: "Quick Sort",
+    Distractor2: "Merge Sort",
+    Distractor3: "Insertion Sort",
+    Explanation: "Python's default sort uses Tim Sort, which is a combination of both merge sort and insertion sort.",
+    Link: "https://docs.python.org/3/howto/sorting.html"
+  },
   { 
     Question: "Which of the following is a package-management system written in Python used to install and manage software packages?",
     Answer: "pip", 
