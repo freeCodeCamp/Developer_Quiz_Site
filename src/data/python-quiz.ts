@@ -1258,6 +1258,15 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
   },
   {
+    Question: "In Python, if y = lambda x : x ** 2 + 7 , then what will be the result returned when the following code is executed: print(y(3))?",
+    Answer: "16",
+    Distractor1: "5",
+    Distractor2: "11",
+    Distractor3: "24",
+    Explanation: "A Lambda is an anonymous function that can have any number of arguments but only one expression, which is evaluated and returned.",
+    Link: "https://www.freecodecamp.org/news/lambda-expressions-in-python/",
+  },
+  {
     Question: "Which Python keyword is added to the open() function while reading a file to ensure the file gets closed?",
     Answer: "with", 
     Distractor1: "await",
