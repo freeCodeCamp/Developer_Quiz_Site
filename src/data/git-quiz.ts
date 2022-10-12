@@ -11,6 +11,16 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/",
   },
   {
+    Question: "In Git, how can you check your configuration?",
+    Answer: "git config -l",
+    Distractor1: "git config -check",
+    Distractor2: "git checkconfig -l",
+    Distractor3: "git checkconfig -m",
+    Explanation:
+      "The command git config -l returns a list of information about your git configuration including user name and email",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+  },
+  {
     Question:
       "In Git, how do you integrate changes from one branch to another?",
     Answer: "git merge",
@@ -322,6 +332,71 @@ const gitQuiz = [
     Explanation:
       "In the command line, you can use git branch -m new-name to rename the current branch.",
     Link: "https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/",
+  },
+  {
+    Question:
+      "In Git, which command is used to list differences between your current working directory and your staging area?",
+    Answer: "git diff",
+    Distractor1: "git different",
+    Distractor2: "git status",
+    Distractor3: "git update",
+    Explanation:
+      "In the command line, you can use git diff to show all the differences between your current working directory and your staging area.",
+    Link: "https://www.freecodecamp.org/news/git-diff-command/",
+  },
+  {
+    Question:
+      "In Git, what do you do right after resovling a merge conflict in a file?",
+    Answer: "git add file_that_had_conflict",
+    Distractor1: "git commit",
+    Distractor2: "git status",
+    Distractor3: "git update",
+    Explanation:
+      "In the command line, after resolving the conflict you will need to stage the changes.",
+    Link: "https://www.freecodecamp.org/news/resolve-merge-conflicts-in-git-a-practical-guide/",
+  },
+  {
+    Question: "In Git, what command is used to revert changes?",
+    Answer: "git revert",
+    Distractor1: "git undo",
+    Distractor2: "git stash",
+    Distractor3: "git update",
+    Explanation:
+      "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+  },
+  {
+    Question:
+      "In Git, which command is used to reset a branch to a previous commit?",
+    Answer: "git reset",
+    Distractor1: "git revert",
+    Distractor2: "git rebase",
+    Distractor3: "git reflog",
+    Explanation:
+      "The git reset command is used to reset your current HEAD to a specified state.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/",
+  },
+  {
+    Question:
+      "In Git, how do you see your commit history including changes in files?",
+    Answer: "git log -p",
+    Distractor1: "git log --show",
+    Distractor2: "git log -c",
+    Distractor3: "git log",
+    Explanation:
+      "The git log -p command shows the commit's history including all files and their changes.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+  },
+  {
+    Question:
+      "In Git, which command is used to list all of the remote branches that Git is tracking?",
+    Answer: "git branch -r",
+    Distractor1: "git branch --show -r",
+    Distractor2: "git -b -d",
+    Distractor3: "git branch",
+    Explanation:
+      "The git branch -r command shows the name of all remote branches that Git is tracking for the current repository.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
 ];
 

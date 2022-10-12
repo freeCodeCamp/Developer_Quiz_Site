@@ -1,5 +1,23 @@
 const agileQuiz = [
   {
+    Question: "What are the five Scrum values?",
+    Answer: "Commitment, Focus, Openness, Respect, and Courage.",
+    Distractor1: "Commitment, Respect, Honesty, Loyalty, Truth .",
+    Distractor2: "Focus, Loyalty, Courage, Patience, Openness.",
+    Distractor3: "Openess, Commitment, Honesty, Discipline, Patience.",
+    Explanation: "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
+    Link: "https://scrumguides.org/scrum-guide.html",
+  },
+  {
+    Question: "In Agile, when might a Sprint be abnormally cancelled?",
+    Answer: "When the Sprint Goal becomes obsolete.",
+    Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
+    Distractor2: "When the Developers feel that the work is too hard.",
+    Distractor3: "When the sales department has an important new opportunity.",
+    Explanation: "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
+    Link: "https://scrumguides.org/scrum-guide.html",
+  },
+  {
     Question:
       "Which of the following development models is a very linear approach to building a product and also has little room for feedback or iteration until the product is completely built and tested?",
     Answer: "Waterfall Development",
@@ -143,6 +161,28 @@ const agileQuiz = [
     Explanation:
       "A user story is an informal, general explanation of a software feature written from the perspective of the end user.",
     Link: "https://www.freecodecamp.org/news/how-to-write-user-stories-epics-pesonas/",
+  },
+  {
+    Question:
+      "In Agile, which of the following is NOT one of notable features of story points?",
+    Answer: "points are assigned in a odd-like sequence: 1, 3, 5, 7, 9...",
+    Distractor1: "points represent the contributions of the whole team",
+    Distractor2: "points estimate the ‘size’ of stories relative to each other",
+    Distractor3: "points do not equate directly to time the task might take",
+    Explanation:
+      "Points estimate the amount of effort required to deliver a user story and are assigned using the Fibonacci sequence",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
+  {
+    Question:
+      "In Agile, what is Planning Poker?",
+    Answer: "It is used to estimate the development effort required for a user story or a feature",
+    Distractor1: "It is used for the elaboration of the backlog",
+    Distractor2: "It is used to estimate the development cost needed for a user story or feature",
+    Distractor3: "It is used to estimate what would be development in each user story",
+    Explanation:
+      "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
 ];
 

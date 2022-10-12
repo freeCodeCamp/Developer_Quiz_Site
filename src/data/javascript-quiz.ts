@@ -12,6 +12,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which method uses a callback function for each element in the array?",
+    Answer: "forEach()",
+    Distractor1: "every(",
+    Distractor2: "forEvery()",
+    Distractor3: "each()",
+    Explanation:
+      "The forEach() method uses a callback function for each element in the array.",
+    Link: "https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/",
+  },
+  {
+    Question:
       "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
     Answer: "shift()",
     Distractor1: "pop()",
@@ -439,6 +450,16 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition",
   },
   {
+    Question: "What are the two basic groups of data types in JavaScript?",
+    Answer: "Primitive and Reference types",
+    Distractor1: "Enumerated and Object types",
+    Distractor2: "Primitive and Floating types",
+    Distractor3: "Character and Number types",
+    Explanation:
+      "Primitive and Reference types are the two basic groups of data types in JavaScript.",
+    Link: "https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript",
+  },
+  {
     Question:
       "In JavaScript, what method is used to arrange array values into alphabetical and/or ascending order?",
     Answer: "sort()",
@@ -747,6 +768,17 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-string-contains-how-to-use-js-includes/",
   },
   {
+    Question:
+      "In JavaScript, what is the name for variables that are accessible throughout the program?",
+    Answer: "Global variables",
+    Distractor1: "Const variables",
+    Distractor2: "Local variables",
+    Distractor3: "No variable is accessible throughout in JavaScript",
+    Explanation:
+      "Global variables are declared and made accessible throughout the entire JavaScript program.",
+    Link: "https://www.freecodecamp.org/news/global-variables-in-javascript-explained/",
+  },
+  {
     Question: "In JavaScript, what keyword is used to define a function?",
     Answer: "function",
     Distractor1: "def",
@@ -798,6 +830,7 @@ const javascriptQuiz = [
       "The == operator returns true if two values are equal and false if they are not equal. It converts the values to a common type before doing the comparison.",
     Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
   },
+
   {
     Question:
       "In JavaScript, what string method returns the character at the specified index?",
@@ -1381,6 +1414,17 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop",
   },
   {
+    Question:
+      "In JavaScript, which one is a type of data structure that stores unique values?",
+    Answer: "Set",
+    Distractor1: "Maps",
+    Distractor2: "Object",
+    Distractor3: "Array",
+    Explanation:
+      "A JavaScript Set is a type of data structure that stores unique values.",
+    Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/",
+  },
+  {
     Question: "In JavaScript, what is the optional chaining operator?",
     Answer: "?.",
     Distractor1: "??",
@@ -1388,6 +1432,70 @@ const javascriptQuiz = [
     Distractor3: "**",
     Explanation: "?. is the optional chaining operator in JavaScript.",
     Link: "https://www.freecodecamp.org/news/javascript-optional-chaining/",
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for the following code: ('b' + 'a' + + 'cteri' + 'a').toLowerCase()?",
+    Answer: "banana",
+    Distractor1: "b+a+cteri+a",
+    Distractor2: "bacteria",
+    Distractor3: "Undefined",
+    Explanation:
+      "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
+  },
+  {
+    Question: "In JavaScript, which of the following is not an array method?",
+    Answer: ".search()",
+    Distractor1: ".includes()",
+    Distractor2: ".forEach()",
+    Distractor3: ".join()",
+    Explanation: "The search() method searches through the string to find a match to a regular expression. If no match is found, then the return value will be -1.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+  },
+  {
+    Question:
+      "In JavaScript, which method executes a function once the timer expires?",
+    Answer: "setTimeout",
+    Distractor1: "setInterval",
+    Distractor2: "clearInterval",
+    Distractor3: "clearTimeout",
+    Explanation:
+      "The setTimeout() method allows you to execute a piece of code after a certain amount of time has passed.",
+    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/",
+  },
+  {
+    Question:
+      "In JavaScript, which one of these console methods displays an array or object of rows and columns?",
+    Answer: "console.table()",
+    Distractor1: "console.assert()",
+    Distractor2: "console.group()",
+    Distractor3: "console.log()",
+    Explanation:
+      "The console.table() method displays an array or object of rows and columns.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table",
+   },
+   {
+    Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
+      "In JavaScript, which of the following methods will return the string representation of a number?",
+    Answer: "toFixed()",
+    Distractor1: "parseFloat()",
+    Distractor2: "valueOf()",
+    Distractor3: "round()",
+    Explanation:
+      "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
 ];
 
