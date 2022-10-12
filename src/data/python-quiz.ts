@@ -1320,7 +1320,7 @@ const pythonQuiz = [
     Distractor2: "len(x)",
     Distractor3: "os.getsizeof(x)",
     Explanation: "The sys.getsizeof() method internally call’s __sizeof__() and adds some additional byte overhead, garbage collector which adds up to the total memory used by it in runtime.",
-    Link: "https://www.freecodecamp.org/news/python-programming-tips/#:~:text=How%20to%20Check%20the%20Memory%20Usage%20of%20an%20Object%20in%20Python",   
+    Link: "https://www.freecodecamp.org/news/python-programming-tips/",   
   },
 ];
 
