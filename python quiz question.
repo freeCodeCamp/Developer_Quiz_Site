@@ -1,0 +1,9 @@
+ {
+    Question: "Which of the following is the best way to input n spaced intigers in python(eg. 1 2 3 4 5).?",
+    Answer: "Lis1 = list(map(int, input().split()))",
+    Distractor1: "Lis1 = input().split()",
+    Distractor2: "Lis1 = int(input())",
+    Distractor3: "Lis3 = list(map(int, input().split()))",
+    Explaination: map function in python makes the items of a list directly into intiger form while in input().split() the intigers will be added in string format.
+    Link: https://www.freecodecamp.org/news/python-map-explained-with-examples/
+ },
