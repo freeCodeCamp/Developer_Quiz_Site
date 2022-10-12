@@ -367,7 +367,7 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
   {
-    Question: "In Git, which command is used to reset a brach to a previous commit?",
+    Question: "In Git, which command is used to reset a branch to a previous commit?",
     Answer: "git reset",
     Distractor1: "git revert",
     Distractor2: "git rebase",
