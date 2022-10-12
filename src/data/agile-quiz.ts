@@ -183,7 +183,7 @@ const agileQuiz = [
     Distractor2: "Not related to Agile",
     Distractor3: "It's a way to write code faster",
     Explanation:
-      "In Agile principles, timeboxing allocates a fixed and maximum unit of time to an activity, called a timebox, within which planned activity takes place. It is used by Agile principles-based project management approaches and for personal time management.",
+      "In Agile, Timeboxing is a set amount of time for a planned activity to take place. This technique is often used in project management to help with productivity for projects. ",
     Link: "https://en.wikipedia.org/wiki/Timeboxing",
   },
 ];
