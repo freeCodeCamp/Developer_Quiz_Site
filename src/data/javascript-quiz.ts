@@ -1430,7 +1430,7 @@ const javascriptQuiz = [
     Distractor2: "valueOf()",
     Distractor3: "round()",
     Explanation:
-      "The toFixed is a number method in JavaScript that converts a number to a string, rounding it to a specified number of decimals.",
+      "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
 ];
