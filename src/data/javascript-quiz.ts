@@ -1442,7 +1442,7 @@ const javascriptQuiz = [
     Distractor3: "console.log()",
     Explanation:
       "The console.table() method displays an array or object of rows and columns.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table"
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table",
    },
    {
       "In JavaScript, what type of value is an Array?",
