@@ -1313,6 +1313,15 @@ const pythonQuiz = [
     Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
+  {
+    Question: "In Python, what is the return value: print(list(map(len, ['Welcome', 'To', 'FreeCodeCamp'])))?",
+    Answer: "[7, 2, 12]",
+    Distractor1: "[14, 4, 24]",
+    Distractor2: "21",
+    Distractor3: "<map object at 0x10708b580>",
+    Explanation: "The map function works as an iterator to return a result after applying the len function to every item for the words list and returns a map object.",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
 ];
 
 export default pythonQuiz;
