@@ -4,6 +4,6 @@
     Distractor1: "input().split()",
     Distractor2: "int(input())",
     Distractor3: "list(map(int, input().split()))",
-    Explaination: map function in python makes the items of a list directly into intiger form while in input().split() the intigers will be added in string format.
+    Explanation: "The map() function is used to apply a function to each item in an iterable (like a Python list or dictionary).",
     Link: https://www.freecodecamp.org/news/python-map-explained-with-examples/
  },
