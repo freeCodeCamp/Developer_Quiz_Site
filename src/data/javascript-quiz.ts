@@ -1433,7 +1433,7 @@ const javascriptQuiz = [
       "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
-   {
+  {
     Question: "In JavaScript, which of the following is not an array method?",
     Answer: ".search()",
     Distractor1: ".includes()",
@@ -1441,6 +1441,7 @@ const javascriptQuiz = [
     Distractor3: ".join()",
     Explanation: "The search() method searches through the string to find a match to a regular expression. If no match is found, then the return value will be -1.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+  },
   {
     Question:
       "In JavaScript, what type of value is an Array?",
