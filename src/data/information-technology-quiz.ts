@@ -1,5 +1,4 @@
 const informationTechnologyQuiz = [
-
   {
     Question: "Which of the following validates the integrity of data?",
     Answer:

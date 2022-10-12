@@ -1,6 +1,5 @@
 const htmlQuiz = [
   {
-
     Question:
     "Is HTML an Programming Languaje? Why?",
     Answer: "No, becase HTML don't have dinamic functionalities",
@@ -10,11 +9,8 @@ const htmlQuiz = [
     Explanation:
       "In HTML we can structuring and create sections, paragraphs and links, below elements, labels and attributes",
     Link:
-"      "https://www.hostinger.com/tutorials/what-is-html"
-"  
+      "https://www.hostinger.com/tutorials/what-is-html"  
   },
-
-
   {
     Question:
     "Which HTML element is used to link to a 3rd party JavaScript library and make it available on your page?",
