@@ -1333,6 +1333,15 @@ const pythonQuiz = [
     Explanation: "The map function works as an iterator to return a result after applying the len function to every item for the words list and returns a map object.",
     Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
   },
+  {
+    Question: "In Python, how do you check the memory usage for Object x?",
+    Answer: "sys.getsizeof(x)", 
+    Distractor1: "size(x)",
+    Distractor2: "len(x)",
+    Distractor3: "os.getsizeof(x)",
+    Explanation: "When you import the sys module and use the the getsizeof() method, Python will calculate how much memory that object has consumed.",
+    Link: "https://www.freecodecamp.org/news/python-programming-tips/",
+  },      
 ];
 
 export default pythonQuiz;
