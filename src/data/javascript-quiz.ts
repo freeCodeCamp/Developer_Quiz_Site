@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In Javascript, what keyword is used to check whether a given property in an object is valid?",
+    Answer: "in",
+    Distractor1: "is in",
+    Distractor2: "exists",
+    Distractor3: "lies",
+    Explanation:
+      "The in keyword is used to check whether the given property in an object is valid or not.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in",
+  },
+  {
+    Question:
       "In JavaScript, which method uses a callback function for each element in the array?",
     Answer: "forEach()",
     Distractor1: "every(",

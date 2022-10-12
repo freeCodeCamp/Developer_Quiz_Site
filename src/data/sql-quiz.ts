@@ -1,5 +1,16 @@
 const sqlQuiz = [
   {
+    Question:
+      " In relational databases, which of the following allows you to uniquely identify a tuple?",
+    Answer: "Super Key",
+    Distractor1: "Schema",
+    Distractor2: "Attribute",
+    Distractor3: "Domain",
+    Explanation:
+      "Super Key is used to uniquely identify a tuple in a relation.",
+    Link: "https://en.wikipedia.org/wiki/Superkey",
+  },
+  {
     Question: 
       "In SQL, how can the user change 'codingWebsite' into 'freeCodeCamp' in the 'Name' column for the Users table?",
     Answer: "UPDATE Users Set Name='freeCodeCamp' WHERE Name='codingWebsite' ",
