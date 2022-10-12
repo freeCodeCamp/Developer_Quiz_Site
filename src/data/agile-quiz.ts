@@ -175,6 +175,17 @@ const agileQuiz = [
       "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
+  {
+    Question:
+      "What is Time-Boxing?",
+    Answer: "Keeping to the Schedule",
+    Distractor1: "It's a new Agile framework",
+    Distractor2: "Not related to Agile",
+    Distractor3: "It's a way to write code faster",
+    Explanation:
+      "In Agile principles, timeboxing allocates a fixed and maximum unit of time to an activity, called a timebox, within which planned activity takes place. It is used by Agile principles-based project management approaches and for personal time management.",
+    Link: "https://en.wikipedia.org/wiki/Timeboxing",
+  },
 ];
 
 export default agileQuiz;
