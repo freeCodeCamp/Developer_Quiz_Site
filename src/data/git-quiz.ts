@@ -376,17 +376,6 @@ const gitQuiz = [
       "The git reset command is used to reset your current HEAD to a specified state.",
     Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/",
   },
-
-  {
-    Question: "What is GitHub?",
-    Answer: "A hosting platform for Git repositories",
-    Distractor1: "version control",
-    Distractor2: "for keeping images",
-    Distractor3: "for social networking",
-    Explanation:
-      "GitHub is a popular hosting platform for developers to store their Git repositories and collaborate with other developers all around the world.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
-  },
 ];
 
 export default gitQuiz;
