@@ -1,6 +1,28 @@
 const linuxQuiz = [
   {
     Question:
+      "Which command is used to remove files?",
+    Answer: "rm",
+    Distractor1: "dm",
+    Distractor2: "delete",
+    Distractor3: "erase",
+    Explanation:
+      "rm is a basic command on Linux used to remove objects such as computer files, directories and symbolic links",
+    Link: "https://youtu.be/ZtqBQ68cfJc?t=4388",
+  },
+  {
+    Question:
+      "Which command is used to count the total number of lines, words, and characters contained in a file?",
+    Answer: "wc",
+    Distractor1: "count p",
+    Distractor2: "wcount",
+    Distractor3: "countw",
+    Explanation:
+      "wc stands for word count. As the name implies, it is mainly used for counting purpose.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
+  {
+    Question:
       "Which of the following commands creates a file without opening it?",
     Answer: "touch <filename>",
     Distractor1: "nano <filename>",
