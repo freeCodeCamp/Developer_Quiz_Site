@@ -389,13 +389,13 @@ const gitQuiz = [
   },
   {
     Question:
-      "In Git, which command is used to check remote branches that Git is tracking?",
+      "In Git, which command is used to list all of the remote branches that Git is tracking?",
     Answer: "git branch -r",
     Distractor1: "git branch --show -r",
     Distractor2: "git -b -d",
     Distractor3: "git branch",
     Explanation:
-      "The git branch -r shows the name of all remote branches that Git is tracking for the current repository.",
+      "The git branch -r command shows the name of all remote branches that Git is tracking for the current repository.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
 ];
