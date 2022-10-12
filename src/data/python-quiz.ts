@@ -1,7 +1,7 @@
 const pythonQuiz = [
      {
         Question: 
-          "In Python, how can you will be able to get the last item of this following list, numbers = [1, 2, 3, 4, 5]?",
+          "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
         Answer: "All of the above",
         Distractor1: "numbers[-1]",
         Distractor2: "numbers[len(numbers)-1]",
