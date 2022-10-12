@@ -1347,7 +1347,7 @@ const pythonQuiz = [
     Answer: "list(map(int, input().split()))",
     Distractor1: "input().split()",
     Distractor2: "int(input())",
-    Distractor3: "list(map(int, input().split()))",
+    Distractor3: "list(mapping(int, input().split()))",
     Explanation: "The map() function is used to apply a function to each item in an iterable (like a Python list or dictionary).",
     Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
   },
