@@ -378,7 +378,7 @@ const gitQuiz = [
   },
   {
     Question:
-      "In Git, how do you see your commit history including changes in files ?",
+      "In Git, how do you see your commit history including changes in files?",
     Answer: "git log -p",
     Distractor1: "git log --show",
     Distractor2: "git log -c",
@@ -389,7 +389,7 @@ const gitQuiz = [
   },
   {
     Question:
-      "In Git, which command is used to check remote branches that Git is tracking ?",
+      "In Git, which command is used to check remote branches that Git is tracking?",
     Answer: "git branch -r",
     Distractor1: "git branch --show -r",
     Distractor2: "git -b -d",
