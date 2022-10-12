@@ -1,6 +1,6 @@
 const linuxQuiz = [
   {
-    Question: "Identify the one which is not a communication command",
+    Question: "In Linux, which one is not a communication command?",
     Answer: "grep",
     Distractor1: "mesg",
     Distractor2: "mail",
