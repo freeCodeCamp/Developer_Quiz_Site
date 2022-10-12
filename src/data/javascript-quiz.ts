@@ -1435,7 +1435,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which one of these console method display an array or object in rows and columns?",
+      "In JavaScript, which one of these console methods displays an array or object of rows and columns?",
     Answer: "console.table()",
     Distractor1: "console.assert()",
     Distractor2: "console.group()",
