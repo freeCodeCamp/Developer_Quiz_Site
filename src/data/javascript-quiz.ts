@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, which method uses a callback function for each element in the array?",
+    Answer: "forEach()",
+    Distractor1: "every(",
+    Distractor2: "forEvery()",
+    Distractor3: "each()",
+    Explanation:
+      "The forEach() method uses a callback function for each element in the array.",
+    Link: "https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/",
+  },
+  {
+    Question:
       "Which attribute needs to be changed to make element invisible?",
     Answer: "visiblity",
     Distractor1: "blank",
