@@ -366,6 +366,16 @@ const gitQuiz = [
       "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
   },
+  {
+    Question: "In Git, what command is used to roll back Git code to a previous commit?",
+    Answer: "git reset",
+    Distractor1: "git revert",
+    Distractor2: "git rebase",
+    Distractor3: "git reflog",
+    Explanation:
+      "In the command line, to roll Git code to a previous commit can run git reset with the hash of the commit you want to roll back to. There are three mode for the reset command --soft , --hard",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/#:~:text=The%20git%20reset%20command%20allows,or%20another%20remote%20repository%20yet.",
+  },
 ];
 
 export default gitQuiz;
