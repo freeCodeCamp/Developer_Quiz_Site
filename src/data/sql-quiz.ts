@@ -1,6 +1,7 @@
 const sqlQuiz = [
   {
-    Question: "Which of the following allows you to uniquely identify a tuple?",
+    Question:
+      " In relational databases, which of the following allows you to uniquely identify a tuple?",
     Answer: "Super Key",
     Distractor1: "Schema",
     Distractor2: "Attribute",
@@ -9,7 +10,6 @@ const sqlQuiz = [
       "Super Key is used to uniquely identify a tuple in a relation.",
     Link: "https://en.wikipedia.org/wiki/Superkey",
   },
-
   {
     Question:
       "Which command is used in a 'WHERE' or 'HAVING' clause to limit the selected rows to the items when a column has a certain pattern of characters contained in it?",

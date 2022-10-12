@@ -1,13 +1,13 @@
 const javascriptQuiz = [
   {
     Question:
-      "What keyword is used to check whether a given property is valid or not?",
+      "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
     Distractor1: "is in",
     Distractor2: "exists",
     Distractor3: "lies",
     Explanation:
-      "The in keyword is used to check whether the given property is valid or not in Javascript.",
+      "The in keyword is used to check whether the given property in an object is valid or not.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in",
   },
   {
