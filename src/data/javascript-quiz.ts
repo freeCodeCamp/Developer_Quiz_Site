@@ -1443,6 +1443,27 @@ const javascriptQuiz = [
     Explanation:
       "The setTimeout() method allows you to execute a piece of code after a certain amount of time has passed.",
     Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/",
+  {
+    Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
+      "In JavaScript, which of the following methods will return the string representation of a number?",
+    Answer: "toFixed()",
+    Distractor1: "parseFloat()",
+    Distractor2: "valueOf()",
+    Distractor3: "round()",
+    Explanation:
+      "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
 ];
 
