@@ -1313,6 +1313,15 @@ const pythonQuiz = [
     Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
+  {
+    Question: "In Python, how do we calculate total size of an Object x?",
+    Answer: "sys.getsizeof(x)", 
+    Distractor1: "size(x)",
+    Distractor2: "len(x)",
+    Distractor3: "os.getsizeof(x)",
+    Explanation: "The sys.getsizeof() method internally call’s __sizeof__() and adds some additional byte overhead, garbage collector which adds up to the total memory used by it in runtime.",
+    Link: "https://www.freecodecamp.org/news/python-programming-tips/#:~:text=How%20to%20Check%20the%20Memory%20Usage%20of%20an%20Object%20in%20Python",   
+  },
 ];
 
 export default pythonQuiz;
