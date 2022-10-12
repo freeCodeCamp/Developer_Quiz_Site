@@ -175,6 +175,18 @@ const agileQuiz = [
       "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
+  {
+    Question:
+      "In which of the following Agile values and places priority on?",
+    Answer: "Working software",
+    Distractor1: "Comprehensive documentation",
+    Distractor2: "Processes and tools",
+    Distractor3: "Contract negotiation",
+    Explanation:
+      "Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priority is working software.",
+    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
+  },
+
 ];
 
 export default agileQuiz;
