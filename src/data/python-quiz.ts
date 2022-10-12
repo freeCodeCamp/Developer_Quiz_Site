@@ -1,5 +1,16 @@
 const pythonQuiz = [
   {
+      Question: 
+        "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
+      Answer: "All of the above",
+      Distractor1: "numbers[-1]",
+      Distractor2: "numbers[len(numbers)-1]",
+      Distractor3: "numbers.pop()",
+      Explanation: 
+        "If you use negative indexing or the pop() method it will return the last item in the numbers list.",
+      Link: "https://www.freecodecamp.org/news/python-get-last-element-in-list-how-to-select-the-last-item/",
+  },
+  {
     Question: 
       "In Python, which of the following is not a complex number?",
     Answer: "2 + 3l",
