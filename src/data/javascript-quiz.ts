@@ -1435,6 +1435,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
       "In JavaScript, which of the following methods will return the string representation of a number?",
     Answer: "toFixed()",
     Distractor1: "parseFloat()",
