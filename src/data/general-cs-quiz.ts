@@ -1047,6 +1047,15 @@ const generalCSQuiz = [
     Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
   },
+  {
+    Question: "What does the 'A' stand for in RGBA?",
+    Answer: "Alpha.",
+    Distractor1: "Auto.",
+    Distractor2: "Atlas.",
+    Distractor3: "Alloy",
+    Explanation: "When the RGB color model includes 'A' it allows us to make colors transparent by using a value between 0 (completely see-through) and 1 (fully opaque).",
+    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
+  },
 ];
 
 export default generalCSQuiz;
