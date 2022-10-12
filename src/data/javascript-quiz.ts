@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, which method uses a callback function for each element in the array?",
+    Answer: "forEach()",
+    Distractor1: "every(",
+    Distractor2: "forEvery()",
+    Distractor3: "each()",
+    Explanation:
+      "The forEach() method uses a callback function for each element in the array.",
+    Link: "https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/",
+  },
+  {
+    Question:
       "Which of the following JavaScript array methods would run the slowest in a worst-case scenario?",
     Answer: "shift()",
     Distractor1: "pop()",
@@ -1421,6 +1432,28 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript will concatenate all the strings together and attempt to convert 'cteri' to a number using the unary plus operator, and since 'cteri' is not a number, the result will be NaN(Not a Number) which altogether is banana",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
+  },
+  {
+    Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
+      "In JavaScript, which of the following methods will return the string representation of a number?",
+    Answer: "toFixed()",
+    Distractor1: "parseFloat()",
+    Distractor2: "valueOf()",
+    Distractor3: "round()",
+    Explanation:
+      "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
 ];
 

@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which one is not a communication command?",
+    Answer: "grep",
+    Distractor1: "mesg",
+    Distractor2: "mail",
+    Distractor3: "write",
+    Explanation:
+      "The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+  },
+  {
     Question:
       "Which of the following commands creates a file without opening it?",
     Answer: "touch <filename>",
