@@ -1284,6 +1284,15 @@ const pythonQuiz = [
     Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
+  {
+    Question: "From the given options, what is not a library for scientific computing in Python?",
+    Answer: "Requests",
+    Distractor1: "NumPy",
+    Distractor2: "Pandas",
+    Distractor3: "TensorFlow",
+    Explanation: "The requests library is for making HTTP requests using Python.",
+    Link: "https://www.freecodecamp.org/news/how-to-interact-with-web-services-using-python/",
+  },
 ];
 
 export default pythonQuiz;
