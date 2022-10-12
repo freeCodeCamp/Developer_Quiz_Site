@@ -1,6 +1,18 @@
 const sqlQuiz = [
   {
     Question: 
+      "In SQL, which operator is used to compare a value to a specified list of values?",
+    Answer: "IN",
+    Distractor1: "ANY",
+    Distractor2: "BETWEEN",
+    Distractor3: "ALL",
+    Explanation:
+      "The IN operator easily tests the expression if it matches any value in a specified list of values. It reduces the use of multiple OR conditions. The WHERE or HAVING clause uses the ANY and ALL operators. ANY gives the result when any subquery value matches the specified condition. The ALL give the result when all subquery values match the specified condition. The BETWEEN operator selects values only in the given range.",
+    Link: "https://www.freecodecamp.org/news/sql-operators-tutorial/#existence-operators-in-not-in-",
+    
+  },
+  {
+    Question: 
       "In SQL, how can the user change 'codingWebsite' into 'freeCodeCamp' in the 'Name' column for the Users table?",
     Answer: "UPDATE Users Set Name='freeCodeCamp' WHERE Name='codingWebsite' ",
     Distractor1: "MODIFY Users Set Name = 'codingWebsite' WHERE Name = 'freeCodeCamp' ",
