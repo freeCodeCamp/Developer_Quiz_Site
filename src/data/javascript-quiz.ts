@@ -1,14 +1,25 @@
 const javascriptQuiz = [
   {
     Question:
-      "In JavaScript, which method uses a callback function for each element in the array?",
-    Answer: "forEach()",
-    Distractor1: "every(",
-    Distractor2: "forEvery()",
-    Distractor3: "each()",
+      "Which attribute needs to be changed to make element invisible?",
+    Answer: "visiblity",
+    Distractor1: "blank",
+    Distractor2: "getAttribute",
+    Distractor3: "invisible",
     Explanation:
-      "The forEach() method uses a callback function for each element in the array.",
-    Link: "https://www.freecodecamp.org/news/javascript-foreach-how-to-loop-through-an-array-in-js/",
+      "visibility property sets or returns whether an element should be visible.",
+    Link: "https://forum.freecodecamp.org/t/what-is-good-exmaple-in-usage-of-visibility/199454",
+  },
+  {
+    Question:
+      "Which of the following type of variable takes precedence over other if names are same?",
+    Answer: "local variable",
+    Distractor1: "global variable",
+    Distractor2: "system varibale",
+    Distractor3: "string variable",
+    Explanation:
+      "Local variables have Function Scope: They can only be accessed from within the function.",
+    Link: "https://youtu.be/jS4aFq5-91M?t=462",
   },
   {
     Question:
