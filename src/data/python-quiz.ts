@@ -1252,7 +1252,7 @@ const pythonQuiz = [
     Distractor1: "5",
     Distractor2: "11",
     Distractor3: "24",
-    Explanation: "Lambda is an anynomous function that can have any number of arguments but only one expression, which is evaluated and returned.",
+    Explanation: "A Lambda is an anonymous function that can have any number of arguments but only one expression, which is evaluated and returned.",
     Link: "https://www.freecodecamp.org/news/lambda-expressions-in-python/",
   },
 ];
