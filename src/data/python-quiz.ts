@@ -1,5 +1,16 @@
 const pythonQuiz = [
   {
+    Question: 
+      "In Python, what keyword is used to raise exceptions?",
+    Answer: "raise",
+    Distractor1: "try",
+    Distractor2: "goto",
+    Distractor3: "except",
+    Explanation: 
+      "The raise keyword is used in Python to throw exceptions.",
+    Link: "https://www.freecodecamp.org/news/exception-handling-python/",
+  },
+  {
       Question: 
         "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
       Answer: "All of the above",
