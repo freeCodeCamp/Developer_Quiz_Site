@@ -1434,6 +1434,37 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus",
   },
   {
+    Question: "In JavaScript, which of the following is not an array method?",
+    Answer: ".search()",
+    Distractor1: ".includes()",
+    Distractor2: ".forEach()",
+    Distractor3: ".join()",
+    Explanation: "The search() method searches through the string to find a match to a regular expression. If no match is found, then the return value will be -1.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
+  },
+  {
+    Question:
+      "In JavaScript, which method executes a function once the timer expires?",
+    Answer: "setTimeout",
+    Distractor1: "setInterval",
+    Distractor2: "clearInterval",
+    Distractor3: "clearTimeout",
+    Explanation:
+      "The setTimeout() method allows you to execute a piece of code after a certain amount of time has passed.",
+    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/",
+  },
+  {
+    Question:
+      "In JavaScript, which one of these console methods displays an array or object of rows and columns?",
+    Answer: "console.table()",
+    Distractor1: "console.assert()",
+    Distractor2: "console.group()",
+    Distractor3: "console.log()",
+    Explanation:
+      "The console.table() method displays an array or object of rows and columns.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table",
+   },
+   {
     Question:
       "In JavaScript, what type of value is an Array?",
     Answer: "Object",

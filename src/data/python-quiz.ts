@@ -1,5 +1,16 @@
 const pythonQuiz = [
   {
+    Question: 
+      "In Python, what keyword is used to raise exceptions?",
+    Answer: "raise",
+    Distractor1: "try",
+    Distractor2: "goto",
+    Distractor3: "except",
+    Explanation: 
+      "The raise keyword is used in Python to throw exceptions.",
+    Link: "https://www.freecodecamp.org/news/exception-handling-python/",
+  },
+  {
       Question: 
         "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
       Answer: "All of the above",
@@ -1314,14 +1325,23 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
   {
+    Question: "In Python, what is the return value: print(list(map(len, ['Welcome', 'To', 'FreeCodeCamp'])))?",
+    Answer: "[7, 2, 12]",
+    Distractor1: "[14, 4, 24]",
+    Distractor2: "21",
+    Distractor3: "<map object at 0x10708b580>",
+    Explanation: "The map function works as an iterator to return a result after applying the len function to every item for the words list and returns a map object.",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
+  {
     Question: "In Python, how do you check the memory usage for Object x?",
     Answer: "sys.getsizeof(x)", 
     Distractor1: "size(x)",
     Distractor2: "len(x)",
     Distractor3: "os.getsizeof(x)",
     Explanation: "When you import the sys module and use the the getsizeof() method, Python will calculate how much memory that object has consumed.",
-    Link: "https://www.freecodecamp.org/news/python-programming-tips/",   
-  },
+    Link: "https://www.freecodecamp.org/news/python-programming-tips/",
+  },      
 ];
 
 export default pythonQuiz;
