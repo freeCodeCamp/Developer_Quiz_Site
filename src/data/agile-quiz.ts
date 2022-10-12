@@ -178,7 +178,7 @@ const agileQuiz = [
   {
     Question:
       "In Agile, what is Timeboxing?",
-    Answer: "Keeping to the Schedule",
+    Answer: "set amount of time for an activity to occur",
     Distractor1: "It's a new Agile framework",
     Distractor2: "Not related to Agile",
     Distractor3: "It's a way to write code faster",
