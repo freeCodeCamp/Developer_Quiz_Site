@@ -1,5 +1,16 @@
 const pythonQuiz = [
-    {
+  {
+    Question: 
+      "In Python, which of the following is not a complex number?",
+    Answer: "2 + 3l",
+    Distractor1: "2 + 3j",
+    Distractor2: "complex(2, 3)",
+    Distractor3: "2 + 3J",
+    Explanation: 
+      "In Python, the letter 'l' (or L) stands for long and 2 + 3l would not result in a complex number.",
+    Link: "https://forum.freecodecamp.org/t/an-introduction-to-python-complex-numbers-explained-with-examples/19218",
+  },
+  {
       Question: 
         "In Python, which of the following list methods directly modifies the original list?",
       Answer: "sort()",
@@ -9,8 +20,8 @@ const pythonQuiz = [
       Explanation: 
         "sort() and reverse() directly modify the original list, while sorted() and reversed() return a copy of the original list.",
       Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
-   },
-   {
+  },
+  {
     Question:
       "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
     Answer: "sentence[::-1]",
@@ -1254,6 +1265,33 @@ const pythonQuiz = [
     Distractor3: "24",
     Explanation: "A Lambda is an anonymous function that can have any number of arguments but only one expression, which is evaluated and returned.",
     Link: "https://www.freecodecamp.org/news/lambda-expressions-in-python/",
+  },
+  {
+    Question: "Which Python keyword is added to the open() function while reading a file to ensure the file gets closed?",
+    Answer: "with", 
+    Distractor1: "await",
+    Distractor2: "pass",
+    Distractor3: "finally",
+    Explanation: "Calling the open() function while using the with statement automatically closes a file after being processed.",
+    Link: "https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/",
+  },
+  {
+    Question: "Which one of these Python types is not mutable?",
+    Answer: "bool", 
+    Distractor1: "lists",
+    Distractor2: "sets",
+    Distractor3: "functions",
+    Explanation: "a bool data type cannot change it's value after being created, therefore it is immutable.",
+    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+  },
+  {
+    Question: "In Python, what is the output of the following code: True + True + False - True == 2?",
+    Answer: "False", 
+    Distractor1: "True",
+    Distractor2: "Error",
+    Distractor3: "1",
+    Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
+    Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
 ];
 
