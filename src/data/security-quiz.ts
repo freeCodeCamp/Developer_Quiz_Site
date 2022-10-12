@@ -296,6 +296,17 @@ const securityQuiz = [
       "A buffer vulnerability is an important security risk, but it was not part of OWASP's 2021 Top 10 common vulnerabilities.",
     Link: "https://www.freecodecamp.org/news/technical-dive-into-owasp/"
   },
+  {
+    Question:
+      "Which type of Homomorphic Encryption allows only one operation to be performed on the ciphertext an infinite number of times?",
+    Answer: "Partially Homomorphic Encryption (PHE)",
+    Distractor1: "Somewhat Homomorphic Encryption (SHE)",
+    Distractor2: "Fully Homomorphic Encryption (FHE)",
+    Distractor3: "Somewhat Fully Homomorphic Encryption (SFHE)",
+    Explanation:
+      "Partial Homomorphic Encryption (PHE) allows only one operation to be performed on the ciphertext an infinite number of times. This operation can be only addition or only multiplication.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+  },
 ];
 
 export default securityQuiz;

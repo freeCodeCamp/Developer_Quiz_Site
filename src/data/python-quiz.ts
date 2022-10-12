@@ -1,5 +1,49 @@
 const pythonQuiz = [
   {
+      Question: 
+        "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
+      Answer: "All of the above",
+      Distractor1: "numbers[-1]",
+      Distractor2: "numbers[len(numbers)-1]",
+      Distractor3: "numbers.pop()",
+      Explanation: 
+        "If you use negative indexing or the pop() method it will return the last item in the numbers list.",
+      Link: "https://www.freecodecamp.org/news/python-get-last-element-in-list-how-to-select-the-last-item/",
+  },
+  {
+    Question: 
+      "In Python, which of the following is not a complex number?",
+    Answer: "2 + 3l",
+    Distractor1: "2 + 3j",
+    Distractor2: "complex(2, 3)",
+    Distractor3: "2 + 3J",
+    Explanation: 
+      "In Python, the letter 'l' (or L) stands for long and 2 + 3l would not result in a complex number.",
+    Link: "https://forum.freecodecamp.org/t/an-introduction-to-python-complex-numbers-explained-with-examples/19218",
+  },
+  {
+      Question: 
+        "In Python, which of the following list methods directly modifies the original list?",
+      Answer: "sort()",
+      Distractor1: "sorted()",
+      Distractor2: "reversed()",
+      Distractor3: "None of the above",
+      Explanation: 
+        "sort() and reverse() directly modify the original list, while sorted() and reversed() return a copy of the original list.",
+      Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
+  },
+  {
+    Question:
+      "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
+    Answer: "sentence[::-1]",
+    Distractor1: "reversed(sentence)",
+    Distractor2: "sentence.reverse()",
+    Distractor3: "sentence.sort(reverse=True)",
+    Explanation:
+      "In Python, [::-1] will return a reversed copy of the string.",
+    Link: "https://www.freecodecamp.org/news/python-reverse-string-string-reversal-in-python-explained-with-code-examples/",
+  },
+  {
     Question: 
       "In Python, which module provides a framework for writing line-oriented command interpreters?",
     Answer: "cmd",
@@ -1151,7 +1195,124 @@ const pythonQuiz = [
     Distractor3: "Insertion Sort",
     Explanation: "Python's default sort uses Tim Sort, which is a combination of both merge sort and insertion sort.",
     Link: "https://docs.python.org/3/howto/sorting.html"
-  }
+  },
+  { 
+    Question: "Which of the following is a package-management system written in Python used to install and manage software packages?",
+    Answer: "pip", 
+    Distractor1: "pypit", 
+    Distractor2: "None of the above", 
+    Distractor3: "piip", 
+    Explanation: "Pip is a standard package manager used to install and manage Python packages", 
+    Link: "https://www.freecodecamp.org/news/how-to-use-pip-install-in-python/", 
+  },
+  { 
+    Question: "In Python, what is the output of print(math.pow(3,4))?",
+    Answer: "81.0", 
+    Distractor1: "43", 
+    Distractor2: "27", 
+    Distractor3: "34", 
+    Explanation: "3 raised to the power of 4 is 81, and by default math.pow() converts both its arguments to type float", 
+    Link: "https://docs.python.org/3/library/math.html#power-and-logarithmic-functions", 
+  },
+  { 
+    Question: "In Python, which of the following is not a tuple method?",
+    Answer: "pop", 
+    Distractor1: "count", 
+    Distractor2: "None of the above", 
+    Distractor3: "index", 
+    Explanation: "There are only two tuple methods; count and index in Python", 
+    Link: "https://docs.python.org/3/tutorial/datastructures.html", 
+  },
+  { 
+    Question: "In Python, what will be the data type of 'John Doe'.split()?",
+    Answer: "List", 
+    Distractor1: "string", 
+    Distractor2: "set", 
+    Distractor3: "tuple", 
+    Explanation: "The result will be ['John', 'Doe'], which has a list data type", 
+    Link: "https://www.freecodecamp.org/news/how-to-split-a-string-in-python/", 
+  },
+  { 
+    Question: "In Python, if my_nums = [8,9,10], which of the following can't be used to reverse the list?",
+    Answer: "reverse(my_nums)", 
+    Distractor1: "my_nums.reverse()", 
+    Distractor2: "None of the above", 
+    Distractor3: "my_nums[::-1]", 
+    Explanation: "reverse isn't a defined Python keyword", 
+    Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/#reversed-function", 
+  },
+  { 
+    Question: "In Python, which built-in function returns all properties and methods of the specified object without the values?",
+    Answer: "dir()", 
+    Distractor1: "obj()", 
+    Distractor2: "dirs()", 
+    Distractor3: "all()", 
+    Explanation: "The dir() function lists all the attributes and methods of a defined object.", 
+    Link: "https://docs.python.org/3/library/functions.html#dir", 
+  },
+  { 
+    Question: "In Python, if num = 1.2345, print('%.2f' %num) will give?",
+    Answer: "1.23", 
+    Distractor1: "1.25", 
+    Distractor2: "12.3", 
+    Distractor3: "1.2", 
+    Explanation: "It rounds the float number to two decimal places", 
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/", 
+  },
+  {
+    Question: "How many mandatory arguments does the range() function have in Python?",
+    Answer: "1", 
+    Distractor1: "0", 
+    Distractor2: "2", 
+    Distractor3: "3", 
+    Explanation: "The range() function has one required argument(stop) and two optional arguments(start and step).", 
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/", 
+  },
+   { 
+    Question: "Which of the following statements is used to create an empty set in Python?",
+    Answer: "set()", 
+    Distractor1: "{}", 
+    Distractor2: "[]", 
+    Distractor3: "()", 
+    Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
+    Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
+  },
+  {
+    Question: "In Python, if y = lambda x : x ** 2 + 7 , then what will be the result returned when the following code is executed: print(y(3))?",
+    Answer: "16",
+    Distractor1: "5",
+    Distractor2: "11",
+    Distractor3: "24",
+    Explanation: "A Lambda is an anonymous function that can have any number of arguments but only one expression, which is evaluated and returned.",
+    Link: "https://www.freecodecamp.org/news/lambda-expressions-in-python/",
+  },
+  {
+    Question: "Which Python keyword is added to the open() function while reading a file to ensure the file gets closed?",
+    Answer: "with", 
+    Distractor1: "await",
+    Distractor2: "pass",
+    Distractor3: "finally",
+    Explanation: "Calling the open() function while using the with statement automatically closes a file after being processed.",
+    Link: "https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/",
+  },
+  {
+    Question: "Which one of these Python types is not mutable?",
+    Answer: "bool", 
+    Distractor1: "lists",
+    Distractor2: "sets",
+    Distractor3: "functions",
+    Explanation: "a bool data type cannot change it's value after being created, therefore it is immutable.",
+    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+  },
+  {
+    Question: "In Python, what is the output of the following code: True + True + False - True == 2?",
+    Answer: "False", 
+    Distractor1: "True",
+    Distractor2: "Error",
+    Distractor3: "1",
+    Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
+    Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
+  },
 ];
 
 export default pythonQuiz;
