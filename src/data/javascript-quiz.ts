@@ -1189,7 +1189,27 @@ const javascriptQuiz = [
     Distractor2: "Integer",
     Distractor3: "Boolean",
     Explanation:
-      "In JavaScript, typeof null is an object.This result of typeof null is actually a bug in the language.",
+      "In JavaScript, typeof null is an object. This result of typeof null is actually a bug in the language.",
+    Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
+  },
+  {
+    Question: "In JavaScript, what will 'typeof []' return?",
+    Answer: "Object",
+    Distractor1: "Null",
+    Distractor2: "Array",
+    Distractor3: "Undefined",
+    Explanation:
+      "In JavaScript, everything that is not a primitive value is an object.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures",
+  },
+  {
+    Question: "In JavaScript, what will 'typeof NaN' return?",
+    Answer: "Number",
+    Distractor1: "ReferenceError",
+    Distractor2: "Null",
+    Distractor3: "NaN",
+    Explanation:
+      "In JavaScript, NaN (not-a-number) is still a numeric data type, but it is undefined as a real number.",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
   {
@@ -1450,7 +1470,8 @@ const javascriptQuiz = [
     Distractor1: ".includes()",
     Distractor2: ".forEach()",
     Distractor3: ".join()",
-    Explanation: "The search() method searches through the string to find a match to a regular expression. If no match is found, then the return value will be -1.",
+    Explanation:
+      "The search() method searches through the string to find a match to a regular expression. If no match is found, then the return value will be -1.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/search",
   },
   {
@@ -1474,10 +1495,9 @@ const javascriptQuiz = [
     Explanation:
       "The console.table() method displays an array or object of rows and columns.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table",
-   },
-   {
-    Question:
-      "In JavaScript, what type of value is an Array?",
+  },
+  {
+    Question: "In JavaScript, what type of value is an Array?",
     Answer: "Object",
     Distractor1: "Array",
     Distractor2: "Map",
@@ -1485,8 +1505,8 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-   },
-   {
+  },
+  {
     Question:
       "In JavaScript, which of the following methods will return the string representation of a number?",
     Answer: "toFixed()",
