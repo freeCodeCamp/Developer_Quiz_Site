@@ -45,6 +45,15 @@ const generalCSQuiz = [
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=934s",
   },
   {
+    Question: "What is SOLID?",
+    Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
+    Distractor1:"It's a new type of Hardware",
+    Distractor2:"New kind of software",
+    Distractor3: "It's a new group of technologies",
+    Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+  },
+  {
     Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge weight lookup is O(E).",
     Distractor1: "Edge weight lookup is O(1).",
