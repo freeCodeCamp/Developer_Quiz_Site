@@ -841,6 +841,15 @@ const linuxQuiz = [
       "KDE is a popular desktop environment which resembles the Windows user interface.",
     Link: "https://www.freecodecamp.org/news/linux-basics/",
   },
+  {
+    Question: "In Linux, which command is use to list all files or directories including hidden files or directories?",
+    Answer: "ls -a",
+    Distractor1: "ls -R",
+    Distractor2: "ls -s",
+    Distractor3: "ls -lh",
+    Explanation: "ls -a command is use to list files or directories including hidden files or directories. In Linux, anything that begins with a (.) is considered a hidden file.",
+    Link: "https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/",
+  },
 ];
 
 export default linuxQuiz;
