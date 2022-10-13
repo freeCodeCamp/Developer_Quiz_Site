@@ -1047,6 +1047,15 @@ const generalCSQuiz = [
     Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
   },
+  {
+    Question: "In which generation of computers were compilers introduced?",
+    Answer: "Third generation",
+    Distractor1: "Fourth generation",
+    Distractor2: "First generation",
+    Distractor3: "Second generation",
+    Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
+    Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
+  },
 ];
 
 export default generalCSQuiz;
