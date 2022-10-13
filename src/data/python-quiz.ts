@@ -1,6 +1,17 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, which in-built method use to count the set bits in an integer?",
+    Answer: "int.bit_count()",
+    Distractor1: "float.bit_count()",
+    Distractor2: "double.bit_count()",
+    Distractor3: "int.count()",
+    Explanation: 
+      "int.bit_count() is used to count set bits in an integer",
+    Link: "https://docs.python.org/3/library/stdtypes.html?highlight=tim%20sort#int.bit_count",
+  },
+  {
+    Question: 
       "In Python, what keyword is used to raise exceptions?",
     Answer: "raise",
     Distractor1: "try",
