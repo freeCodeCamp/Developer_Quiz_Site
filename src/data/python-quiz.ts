@@ -1,6 +1,39 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, what keyword is used to perform Bitwise NOT operation?",
+    Answer: "~",
+    Distractor1: "NOT",
+    Distractor2: "!",
+    Distractor3: "not",
+    Explanation: 
+      "The and keyword is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, what keyword is used to perform Bitwise OR operation?",
+    Answer: "|",
+    Distractor1: "OR",
+    Distractor2: "or",
+    Distractor3: "||",
+    Explanation: 
+      "The or keyword is used in Python to perform Bitwise OR operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, what keyword is used to perform Bitwise AND operation?",
+    Answer: "&",
+    Distractor1: "AND",
+    Distractor2: "&&",
+    Distractor3: "&",
+    Explanation: 
+      "The and keyword is used in Python to perform Bitwise AND operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
       "In Python, what keyword is used to raise exceptions?",
     Answer: "raise",
     Distractor1: "try",
