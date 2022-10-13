@@ -8,7 +8,7 @@ const javascriptQuiz = [
     Distractor3: "Inigent",
     Explanation:
       "The slice() method returns the extracted part in a new string.The slice() method does not change the original string.slice(strating index,ending index)",
-    Link: "https://www.w3schools.com/jsref/jsref_slice_string.asp"
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
   },
   {
     Question:
