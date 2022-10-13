@@ -1530,7 +1530,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what operator has the highest precedence among these options",
+      "In JavaScript, which operator has the highest precedence among these options?",
     Answer: "Grouping ()",
     Distractor1: "Increment ++",
     Distractor2: "Unary plus +",
