@@ -1,12 +1,21 @@
 const generalCSQuiz = [
   {
+    Question: "What is Object-Oriented Programming?",
+    Answer: "OOP is a programming pattern that is built around objects or entities.",
+    Distractor1: "OOP is a topological paradigm to program things",
+    Distractor2: "OOP it's a set of rules to consider while you programming",
+    Distractor3: "OOP it's a list of best practices to code",
+    Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
+  },
+
+  {
     Question: "What is SOLID?",
     Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
-    Distractor1:"It's a new type of Hardware",
-    Distractor2:"New kind of software",
+    Distractor1: "It's a new type of Hardware",
+    Distractor2: "New kind of software",
     Distractor3: "It's a new group of technologies",
-    Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
-    Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+    Explanation: "SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link: "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
   },
   {
     Question: "Which of the following is true for an adjacency list?",
@@ -136,7 +145,7 @@ const generalCSQuiz = [
       "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
   },
-   {
+  {
     Question:
       "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
     Answer: "Merge sort",
