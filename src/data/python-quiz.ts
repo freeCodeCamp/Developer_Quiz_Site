@@ -1356,7 +1356,7 @@ const pythonQuiz = [
     Answer: "list.reverse()",
     Distractor1: "list.reverse",
     Distractor2: "reverse(list)",
-    Distractor3: "list=list.reverse()",
+    Distractor3: "list=list.reversing()",
     Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
   },
