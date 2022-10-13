@@ -26,6 +26,17 @@ const Results: React.FC<{
       <button onClick={resetQuiz} className="results-btn">
         Play again?
       </button>
+      <a
+        className="results-text"
+        href={
+          "http://twitter.com/intent/tweet?text=I just scored " +
+          ((Math.floor(points) / totalPoints) * 100).toString() +
+          "% on the Learn to Code An RPG developer quiz - try it yourself? " +
+          "https://developerquiz.org/"
+        }
+      >
+        Share on Twitter?
+      </a>
     </div>
   );
 };
