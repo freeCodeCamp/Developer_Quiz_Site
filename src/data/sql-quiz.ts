@@ -36,7 +36,6 @@ const sqlQuiz = [
     Explanation: "The CONCAT() function joins at least two parameters(strings) and can accept a total of 254 parameters.", 
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
   },
-  
   {
     Question:
       " In relational databases, which of the following allows you to uniquely identify a tuple?",
