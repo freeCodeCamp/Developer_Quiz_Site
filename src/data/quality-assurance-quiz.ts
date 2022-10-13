@@ -86,6 +86,18 @@ const qualityAssuranceQuiz = [
       "Even if the app is 99% bug free, if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
   },
+  {
+    Question:
+      "What do you mean by regression tests?",
+    Answer:
+      "We are re-applying tests at later stages of development.",
+    Distractor1: "Individual units of code do what they should.",
+    Distractor2: "Units/components interact with each other properly.",
+    Distractor3: "We are re-applying tests at initial stages of development.",
+    Explanation:
+      "Regression tests refers to re-applying tests at later stages of development to ensure they still work.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
+  },
 ];
 
 export default qualityAssuranceQuiz;
