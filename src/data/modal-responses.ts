@@ -14,6 +14,6 @@ export const incorrectModalResponses = [
   "Incorrect. Better luck next time.",
   "Unfortunately, your answer was incorrect.",
   "Oops! That is incorrect.",
-  "Incorrect; Try Again",
+  "Incorrect, try again",
   "That's a wrong answer, keep trying",
 ];
