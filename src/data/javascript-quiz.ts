@@ -1232,7 +1232,7 @@ const javascriptQuiz = [
     Distractor3: "stopInterval",
     Explanation:
       "This clearInterval() method is used to stop the timed loop that was started by the setInterval() method.",
-    Link: "https://www.w3schools.com/jsref/met_win_clearinterval.asp", 
+    Link: "https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/", 
   }, 
   {
     Question:
