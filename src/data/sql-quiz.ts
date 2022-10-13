@@ -1,7 +1,7 @@
 const sqlQuiz = [
   {
     Question:
-      " In relational databases, Primary Key cannot contain?",
+      "In relational databases, Primary keys cannot contain what type of value?",
     Answer: "NULL values",
     Distractor1: "Not NULL values",
     Distractor2: "Both NULL and Not NULL values",
