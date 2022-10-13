@@ -1,4 +1,13 @@
 const generalCSQuiz = [
+    {
+    Question: "What is the function of ALU(Airthematic and Logical Unit)?",
+    Answer: "ALU performs the operations like addition, subtraction.",
+    Distractor1: "ALU stores the data.",
+    Distractor2: "ALU sends control signals to the memory and I/O.",
+    Distractor3: "none of these.",
+    Explanation: "ALU performs the operations like addition, subtraction.",
+    Link: "https://www.freecodecamp.org/news/how-does-a-cpu-work/",
+  },
   {
     Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge weight lookup is O(E).",
