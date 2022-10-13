@@ -3,7 +3,7 @@ const sqlQuiz = [
     Question:
       "In relational databases, Primary keys cannot contain what type of value?",
     Answer: "NULL values",
-    Distractor1: "Not NULL values",
+    Distractor1: "string values",
     Distractor2: "numeric values",
     Distractor3: "boolean",
     Explanation:
