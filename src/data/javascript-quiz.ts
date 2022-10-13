@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
+    Answer: "tel",
+    Distractor1: "tellig",
+    Distractor2: "ll",
+    Distractor3: "Inigent",
+    Explanation:
+      "The slice() method returns a substring of the original string. The original string remains untouched.",
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
+  },
+  {
+    Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
     Distractor1: "is in",
