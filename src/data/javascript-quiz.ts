@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor2: "ll",
     Distractor3: "Inigent",
     Explanation:
-      "The slice() method returns the extracted part in a new string.The slice() method does not change the original string.slice(strating index,ending index)",
+      "The slice() method returns a substring of the original string. The original string remains untouched.",
     Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
   },
   {
