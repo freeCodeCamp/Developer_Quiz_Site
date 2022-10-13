@@ -398,6 +398,28 @@ const gitQuiz = [
       "The git branch -r command shows the name of all remote branches that Git is tracking for the current repository.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
+  {
+    Question:
+      "How can you apply the changes that a specific commit introduces",
+    Answer: "git cherry-pick <commit>",
+    Distractor1: "git write-over <commit>",
+    Distractor2: "git goto <commit>",
+    Distractor3: "git merge <commit>",
+    Explanation:
+      "git-cherry-pick selects a handpicked commit and adds it to the working branch",
+    Link: "https://git-scm.com/docs/git-cherry-pick",
+  },
+  {
+    Question:
+      "How can you apply the changes that a specific commit introduces",
+    Answer: "git tag <tag-name>",
+    Distractor1: "git add-tag <tag-name>",
+    Distractor2: "git tag-add <tag-name>",
+    Distractor3: "git tag-on <commit>",
+    Explanation:
+      "git tag <tag_name> creates a tag object signed with GPG",
+    Link: "https://git-scm.com/docs/git-tag",
+  },
 ];
 
 export default gitQuiz;
