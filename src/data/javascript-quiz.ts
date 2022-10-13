@@ -1193,23 +1193,23 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
   {
-    Question: "In JavaScript, what will 'typeof []' return:",
+    Question: "In JavaScript, what will 'typeof []' return?",
     Answer: "Object",
     Distractor1: "Null",
     Distractor2: "Array",
-    Distractor3: "Undefineed",
+    Distractor3: "Undefined",
     Explanation:
-      "In JavaScript, there is no array type. Everything that is not a primitive value is an object.",
+      "In JavaScript, everything that is not a primitive value is an object.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures",
   },
   {
-    Question: "In JavaScript, what will 'typeof NaN' return:",
+    Question: "In JavaScript, what will 'typeof NaN' return?",
     Answer: "Number",
     Distractor1: "ReferenceError",
     Distractor2: "Null",
     Distractor3: "NaN",
     Explanation:
-      "In JavaScript, the NaN (not-a-number) is still a numeric data type, but it is undefined as a real number.",
+      "In JavaScript, NaN (not-a-number) is still a numeric data type, but it is undefined as a real number.",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
   },
   {
