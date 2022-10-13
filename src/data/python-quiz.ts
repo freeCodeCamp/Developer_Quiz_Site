@@ -1352,7 +1352,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
   },
   {
-    Question: "Which of the following is the correct syntax to reverse a list in python?",
+    Question: "Which of the following is the correct syntax to reverse a list in Python?",
     Answer: "list.reverse()",
     Distractor1: "list.reverse",
     Distractor2: "reverse(list)",
