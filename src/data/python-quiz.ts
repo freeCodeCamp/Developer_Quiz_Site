@@ -1,7 +1,7 @@
 const pythonQuiz = [
   {
     Question: 
-      "In Python, which in-built method use to count the set bits in an integer?",
+      "In Python, which method is used to count the set bits in an integer?",
     Answer: "int.bit_count()",
     Distractor1: "float.bit_count()",
     Distractor2: "double.bit_count()",
