@@ -1,4 +1,15 @@
 const pythonQuiz = [
+    {
+    Question: 
+      "In Python, word1 ='free'and word2=' ode camp' then what will be the value of print(word1+word2)?",
+    Answer: "free code camp",
+    Distractor1: "free camp code",
+    Distractor2: "free + code camp",
+    Distractor3: "code camp free",
+    Explanation: 
+      "To concatenate, or combine, two strings you can use the + operator.",
+    Link: "https://www.freecodecamp.org/news/python-concatenate-strings-how-to-combine-and-append-strings-in-python/",
+  },
   {
     Question: 
       "In Python, what keyword is used to raise exceptions?",
