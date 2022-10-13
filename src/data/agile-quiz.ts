@@ -180,10 +180,10 @@ const agileQuiz = [
       "What types of environments work best for Agile principles?",
     Answer: "It works great in dynamic environments.",
     Distractor1: "It works great in static environments.",
-    Distractor2: "It works great in customer environment.",
+    Distractor2: "It works great in customer environments.",
     Distractor3: "Agile has been proven to not work in any good environment.",
     Explanation:
-      "The Agile environment appeals to quick actions, discussions,  evaluations, and considerations for different approaches.  It works great in dynamic environments where there is a potential for changing or evolving requirements.",
+      "The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches.  It works great in dynamic environments where there is a potential for changing or evolving requirements.",
     Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
   },
 ];
