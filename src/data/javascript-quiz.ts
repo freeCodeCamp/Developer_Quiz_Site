@@ -1530,7 +1530,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, all objects inherit a built-in property from a ___________________.?",
+      "In JavaScript, all objects inherit a built-in property from a ___________________.",
     Answer: "prototype",
     Distractor1: "node",
     Distractor2: "instance variable",
