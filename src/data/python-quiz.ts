@@ -1,13 +1,13 @@
 const pythonQuiz = [
   {
     Question: 
-      "In Python, what module supports regular expressions?",
+      "In Python, which module supports regular expressions?",
     Answer: "re",
     Distractor1: "regex",
     Distractor2: "pyregex",
     Distractor3: "pythonre",
     Explanation: 
-      "The Python \"re\" module provides regular expression support.",
+      "The Python re module provides regular expression support.",
     Link: "https://docs.python.org/3/library/re.html",
   },
   {
