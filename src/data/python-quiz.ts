@@ -1,5 +1,27 @@
 const pythonQuiz = [
   {
+    Question:
+      "In Python, which method return a new list with sorted elements?",
+    Answer: "sorted()",
+    Distractor1: "sort()",
+    Distractor2: "list.sorted()",
+    Distractor3: "list.sort()",
+    Explanation:
+      "The sorted() method is used in Python to return a new list with sorted elements from a given unsorted list.",
+    Link: "https://docs.python.org/3/library/functions.html#sorted",
+  },
+  {
+    Question:
+      "In Python, which method can be used to sort any kind of iterable?",
+    Answer: "sorted()",
+    Distractor1: "sort()",
+    Distractor2: "iter.sorted()",
+    Distractor3: "iter.sort()",
+    Explanation:
+      "The sorted() method is used in Python to sort any kind of iterables like Dictonary, Objects.",
+    Link: "https://docs.python.org/3/library/functions.html#sorted",
+  },
+  {
     Question: 
       "In Python, what keyword is used to raise exceptions?",
     Answer: "raise",
