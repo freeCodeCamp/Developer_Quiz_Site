@@ -7,7 +7,7 @@ const htmlQuiz = [
     Distractor2: "An empty tag cannot having any content within it",
     Distractor3: "None of these",
     Explanation:
-      "In HTML, empty tags are those tags that don’t require a closing tag for completion.",
+      "In HTML, empty tags are those tags that don’t require a closing tag.",
     Link:
       "https://www.freecodecamp.org/news/empty-and-blank-53b9e96151cd/"
   },
