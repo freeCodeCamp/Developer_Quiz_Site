@@ -1,7 +1,7 @@
 const javascriptQuiz = [
   {
     Question:
-      "In JavaScript, which method use to write into alert box?",
+      "In JavaScript, which Web API is used to display a dialog box with an optional message?",
     Answer: "window.alert()",
     Distractor1: "window.alertHTML()",
     Distractor2: "window.alertContent()",
