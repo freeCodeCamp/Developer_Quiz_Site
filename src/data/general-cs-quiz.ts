@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which term is used for removing the elements in queue from front?",
+    Answer: "Dequeue.",
+    Distractor1: "Enqueue.",
+    Distractor2: "Peek.",
+    Distractor3: "isFull.",
+    Explanation: "In queue, Dequeue is the term for removing the elements from front.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-queues-a6960a3c98/",
+  },
+  {
     Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge weight lookup is O(E).",
     Distractor1: "Edge weight lookup is O(1).",
