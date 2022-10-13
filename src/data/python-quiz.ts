@@ -12,13 +12,13 @@ const pythonQuiz = [
   },
   {
     Question: 
-      "In Python, what keyword is used to perform Bitwise OR operation?",
+      "In Python, which operator is used to perform Bitwise OR operations?",
     Answer: "|",
-    Distractor1: "OR",
-    Distractor2: "or",
-    Distractor3: "||",
+    Distractor1: ">>>",
+    Distractor2: "<<<",
+    Distractor3: "x",
     Explanation: 
-      "The or keyword is used in Python to perform Bitwise OR operations.",
+      "The | operator is used in Python to perform Bitwise OR operations.",
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
   },
   {
