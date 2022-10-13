@@ -1223,6 +1223,17 @@ const javascriptQuiz = [
       ".push() returns the new length of the array, after the element has been pushed",
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
   },
+  { 
+    Question:
+      "In JavaScript, which method allows you to cancel a repeated action created with setInterval()?",
+    Answer: "clearInterval",
+    Distractor1: "clearImmediate",
+    Distractor2: "clearTimeout",
+    Distractor3: "stopInterval",
+    Explanation:
+      "This clearInterval() method is used to stop the timed loop that was started by the setInterval() method.",
+    Link: "https://www.w3schools.com/jsref/met_win_clearinterval.asp", 
+  }, 
   {
     Question:
       "In JavaScript, which of the following is NOT the correct way to declare a variable?",
