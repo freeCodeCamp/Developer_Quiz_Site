@@ -5,7 +5,7 @@ const generalCSQuiz = [
     Distractor1:"It's a new type of Hardware",
     Distractor2:"New kind of software",
     Distractor:"It's a new Council of technologies",
-    Explanation:"These principles establish practices that lend to developing software with considerations for maintaining and extending as the project grows.",
+    Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
     Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
   },
   {
