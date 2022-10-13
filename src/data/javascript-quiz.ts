@@ -1243,7 +1243,7 @@ const javascriptQuiz = [
       ".push() returns the new length of the array, after the element has been pushed",
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
   },
-  { 
+  {
     Question:
       "In JavaScript, which method allows you to cancel a repeated action created with setInterval()?",
     Answer: "clearInterval",
@@ -1252,8 +1252,8 @@ const javascriptQuiz = [
     Distractor3: "stopInterval",
     Explanation:
       "This clearInterval() method is used to stop the timed loop that was started by the setInterval() method.",
-    Link: "https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/", 
-  }, 
+    Link: "https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/",
+  },
   {
     Question:
       "In JavaScript, which of the following is NOT the correct way to declare a variable?",
@@ -1527,6 +1527,17 @@ const javascriptQuiz = [
     Explanation:
       "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
+  },
+  {
+    Question:
+      "In JavaScript, what operator has the highest precedence among these options",
+    Answer: "Grouping ()",
+    Distractor1: "Increment ++",
+    Distractor2: "Unary plus +",
+    Distractor3: "Equality ==",
+    Explanation:
+      "On the precendence table, the grouping () operator is the highest with a precedence value of 18",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
   },
 ];
 
