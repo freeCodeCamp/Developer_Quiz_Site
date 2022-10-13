@@ -1048,7 +1048,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
   },
   {
-    Question: "In which generation of computers, compilers were introduced?",
+    Question: "In which generation of computers were compilers introduced?",
     Answer: "Third generation",
     Distractor1: "Fourth generation",
     Distractor2: "First generation",
