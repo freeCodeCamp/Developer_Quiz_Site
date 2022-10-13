@@ -1,13 +1,13 @@
 const pythonQuiz = [
   {
     Question: 
-      "In Python, what keyword is used to perform Bitwise NOT operation?",
+      "In Python, which operator is used to perform Bitwise NOT operations?",
     Answer: "~",
-    Distractor1: "NOT",
+    Distractor1: "++",
     Distractor2: "!",
-    Distractor3: "not",
+    Distractor3: "--",
     Explanation: 
-      "The and keyword is used in Python to perform Bitwise NOT operations.",
+      "The ~ operator is used in Python to perform Bitwise NOT operations.",
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
   },
   {
