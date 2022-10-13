@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor2: "free + code camp",
     Distractor3: "code camp free",
     Explanation: 
-      "To concatenate, or combine, two strings you can use the + operator.",
+      "To concatenate two strings, you can use the + operator.",
     Link: "https://www.freecodecamp.org/news/python-concatenate-strings-how-to-combine-and-append-strings-in-python/",
   },
   {
