@@ -1,6 +1,17 @@
 const sqlQuiz = [
   {
     Question:
+      " In SQL, What is a View?",
+    Answer: "A View is a database object that are used in a similar way to tables, but they don’t contain any data.",
+    Distractor1: "A View is a database object that are used in a similar way to tables, and they contain data",
+    Distractor2: "A View is a SQL query that are used in a similar way to tables, and they contain data",
+    Distractor3: "A View is kind of virtual tables, and they contain data",
+    Explanation:
+      "View is a database object which provide a virtual view of tables data but it didn't contain any data.",
+    Link: "https://www.freecodecamp.org/news/sql-create-view-mysql/",
+  },
+  {
+    Question:
       " In relational databases, which of the following allows you to uniquely identify a tuple?",
     Answer: "Super Key",
     Distractor1: "Schema",
