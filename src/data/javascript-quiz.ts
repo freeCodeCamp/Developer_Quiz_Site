@@ -9,7 +9,7 @@ const javascriptQuiz = [
     Explanation:
       "The slice() method returns the extracted part in a new string.The slice() method does not change the original string.slice(strating index,ending index)",
     Link: "https://www.w3schools.com/jsref/jsref_slice_string.asp"
-  }
+  },
   {
     Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
