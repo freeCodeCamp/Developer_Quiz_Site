@@ -23,13 +23,13 @@ const pythonQuiz = [
   },
   {
     Question: 
-      "In Python, what keyword is used to perform Bitwise AND operation?",
+      "In Python, which operator is used to perform Bitwise AND operations?",
     Answer: "&",
-    Distractor1: "AND",
+    Distractor1: "{{",
     Distractor2: "&&",
-    Distractor3: "&",
+    Distractor3: "<",
     Explanation: 
-      "The and keyword is used in Python to perform Bitwise AND operations.",
+      "The & operator is used in Python to perform Bitwise AND operations.",
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
   },
   {
