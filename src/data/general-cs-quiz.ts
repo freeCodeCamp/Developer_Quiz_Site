@@ -1,6 +1,6 @@
 const generalCSQuiz = [
   {
-    Question: "Which term is used for removing the elements in queue from front?",
+    Question: "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
     Distractor1: "Enqueue.",
     Distractor2: "Peek.",
