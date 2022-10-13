@@ -177,13 +177,13 @@ const agileQuiz = [
   },
   {
     Question:
-      "In which of the following Agile values and places priority on?",
+      "In Agile, which of the following options is a high priority?",
     Answer: "Working software",
     Distractor1: "Comprehensive documentation",
     Distractor2: "Processes and tools",
     Distractor3: "Contract negotiation",
     Explanation:
-      "Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priority is working software.",
+      "Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.",
     Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
   },
 ];
