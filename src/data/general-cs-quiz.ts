@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which problems are solved using Bellman Ford's Algorithm?",
+    Answer: "Single Source Shortest Path",
+    Distractor1: "All Pair Shortest Path",
+    Distractor2: "Negative Cycle Detection",
+    Distractor3: "Minimum Spanning Tree",
+    Explanation: "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights.",
+    Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/",
+  },
+  {
     Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge weight lookup is O(E).",
     Distractor1: "Edge weight lookup is O(1).",
