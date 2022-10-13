@@ -1351,6 +1351,15 @@ const pythonQuiz = [
     Explanation: "The map() function is used to apply a function to each item in an iterable (like a Python list or dictionary).",
     Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
   },
+  {
+    Question: "Which of the following is the correct syntax to reverse a list in Python?",
+    Answer: "list.reverse()",
+    Distractor1: "list.reverse",
+    Distractor2: "reverse(list)",
+    Distractor3: "list=list.reversing()",
+    Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
+    Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
+  },
 
 ];
 
