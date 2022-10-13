@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor2: "window.alertContent()",
     Distractor3: "window.alertBox()",
     Explanation:
-      "In Javascript, window.alert() method is used to write into alert box.",
+      "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
     Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
   },
   {
