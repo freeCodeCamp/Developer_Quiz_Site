@@ -6,7 +6,7 @@ const generalCSQuiz = [
     Distractor2:"New kind of software",
     Distractor:"It's a new Council of technologies",
     Explanation:"These principles establish practices that lend to developing software with considerations for maintaining and extending as the project grows.",
-    Link:"https://www.digitalocean.com/community/conceptual-articles/s-o-l-i-d-the-first-five-principles-of-object-oriented-design"
+    Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
   },
   {
     Question: "Which of the following is true for an adjacency list?",
