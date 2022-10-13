@@ -4,7 +4,7 @@ const generalCSQuiz = [
     Answer: "SOLID is an acronym for the first five object-oriented design (OOD) principles by Robert C. Martin",
     Distractor1:"It's a new type of Hardware",
     Distractor2:"New kind of software",
-    Distractor:"It's a new Council of technologies",
+    Distractor3: "It's a new group of technologies",
     Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
     Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
   },
