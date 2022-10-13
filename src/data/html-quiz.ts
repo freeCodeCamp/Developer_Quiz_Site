@@ -1,5 +1,20 @@
 const htmlQuiz = [
+<<<<<<< HEAD
 
+=======
+  {
+    Question:
+    "Is HTML an Programming Languaje? Why?",
+    Answer: "No, becase HTML don't have dinamic functionalities",
+    Distractor1: "Yes, we can create interactive content to users",
+    Distractor2: "No, because we can't compilate",
+    Distractor3: "Yes, we can insert forms, media and another functionalities",
+    Explanation:
+      "In HTML we can structuring and create sections, paragraphs and links, below elements, labels and attributes",
+    Link:
+      "https://www.hostinger.com/tutorials/what-is-html"  
+  },
+>>>>>>> ad8b068177874d3eb8db96f13b0dd3ff1d6770b2
   {
     Question:
     "Which HTML element is used to link to a 3rd party JavaScript library and make it available on your page?",
