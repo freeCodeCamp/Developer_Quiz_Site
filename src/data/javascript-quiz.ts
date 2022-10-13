@@ -2,7 +2,7 @@ const javascriptQuiz = [
    
   {
     Question:
-      "In JavaScript, if let x="5", then what will be the value of console.log(x==5,x===5)?",
+      "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
     Answer: "true false",
     Distractor1: "true true",
     Distractor2: "false true",
