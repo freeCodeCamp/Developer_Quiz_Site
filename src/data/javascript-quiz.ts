@@ -2,7 +2,7 @@ const javascriptQuiz = [
   {
     Question:
       "In Javascript,if a string s='Intelligent' then what will be the value of s.slice(2,5)?",
-    Answer: "tell",
+    Answer: "tel",
     Distractor1: "tellig",
     Distractor2: "ll",
     Distractor3: "Inigent",
