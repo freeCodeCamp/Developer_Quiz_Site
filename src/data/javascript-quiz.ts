@@ -1541,7 +1541,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, waht should be the output of 3 < 2 < 1",
+      "In JavaScript, what should be the output of 3 < 2 < 1",
     Answer: "true",
     Distractor1: "false",
     Distractor2: "sysntax error",
