@@ -5,7 +5,7 @@ const generalCSQuiz = [
     Distractor1: "Enqueue.",
     Distractor2: "Peek.",
     Distractor3: "isFull.",
-    Explanation: "In queue, Dequeue is the term for removing the elements from front.",
+    Explanation: "Dequeue is the term for removing elements from the front of the queue.",
     Link: "https://www.freecodecamp.org/news/data-structures-101-queues-a6960a3c98/",
   },
   {
