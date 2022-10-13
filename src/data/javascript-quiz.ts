@@ -1539,6 +1539,17 @@ const javascriptQuiz = [
       "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
+  {
+    Question:
+      "In JavaScript, waht should be the output of 3 < 2 < 1",
+    Answer: "true",
+    Distractor1: "false",
+    Distractor2: "sysntax error",
+    Distractor3: "Nan",
+    Explanation:
+      "It will be true because first evaluate 2 is lo than 3 and returns false then evaluate 1 is bigger than false and returns true",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+  },
 ];
 
 export default javascriptQuiz;
