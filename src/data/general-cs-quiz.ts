@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "What is SOLID?",
+    Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
+    Distractor1:"It's a new type of Hardware",
+    Distractor2:"New kind of software",
+    Distractor3: "It's a new group of technologies",
+    Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+  },
+  {
     Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge weight lookup is O(E).",
     Distractor1: "Edge weight lookup is O(1).",
@@ -679,16 +688,6 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Portable_Network_Graphics",
   },
   {
-    Question: "What color would rgb(255,0,0) give?",
-    Answer: "Red",
-    Distractor1: "Green",
-    Distractor2: "Blue",
-    Distractor3: "Yellow",
-    Explanation:
-      "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
-    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
-  },
-  {
     Question: "What color would rgb(255,255,255) give?",
     Answer: "White",
     Distractor1: "Red",
@@ -1046,6 +1045,15 @@ const generalCSQuiz = [
     Distractor3: "Selection Sort",
     Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
+  },
+  {
+    Question: "In which generation of computers were compilers introduced?",
+    Answer: "Third generation",
+    Distractor1: "Fourth generation",
+    Distractor2: "First generation",
+    Distractor3: "Second generation",
+    Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
+    Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
 ];
 
