@@ -1,6 +1,17 @@
 const javascriptQuiz = [
   {
     Question:
+      "In JavaScript, which method use to write into alert box?",
+    Answer: "window.alert()",
+    Distractor1: "window.alertHTML()",
+    Distractor2: "window.alertContent()",
+    Distractor3: "window.alertBox()",
+    Explanation:
+      "In Javascript, window.alert() method is used to write into alert box.",
+    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+  },
+  {
+    Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
     Distractor1: "is in",
