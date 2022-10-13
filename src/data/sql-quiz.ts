@@ -3,7 +3,7 @@ const sqlQuiz = [
     Question:
       " In SQL, what is a View?",
     Answer: "A View is a database object that are used in a similar way to tables, but they don’t contain any data.",
-    Distractor1: "A View is a database object that are used in a similar way to tables, and they contain data",
+    Distractor1: "A View removes item from a table",
     Distractor2: "A View is a SQL query that are used in a similar way to tables, and they contain data",
     Distractor3: "A View does not exist in SQL",
     Explanation:
