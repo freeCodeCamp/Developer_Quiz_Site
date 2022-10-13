@@ -88,7 +88,7 @@ const qualityAssuranceQuiz = [
   },
   {
     Question:
-      "What do you mean by regression tests?",
+      "What are regression tests?",
     Answer:
       "We are re-applying tests at later stages of development.",
     Distractor1: "Individual units of code do what they should.",
