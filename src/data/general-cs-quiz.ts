@@ -5,6 +5,7 @@ const generalCSQuiz = [
     Distractor1: "OOP is a topological paradigm to program things",
     Distractor2: "OOP it's a set of rules to consider while you programming",
     Distractor3: "OOP it's a list of best practices to code",
+    Explanation:"All the things in the real world life what have a description, in OOP can be represented",
     Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
   },
 
