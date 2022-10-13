@@ -310,7 +310,7 @@ const securityQuiz = [
 
   {
     Question:
-      "What is the full form os SSL?",
+      "What does SSL stand for?",
     Answer: "Secure Sockets Layer",
     Distractor1: "Serial Sockets Layer",
     Distractor2: "Serial Secure Layer",
