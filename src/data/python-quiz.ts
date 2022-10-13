@@ -1,7 +1,7 @@
 const pythonQuiz = [
     {
     Question: 
-      "In Python, word1 ='free'and word2=' ode camp' then what will be the value of print(word1+word2)?",
+      "In Python, if we have word1 ='free' and word2=' code camp', then what is the result here: print(word1+word2)?",
     Answer: "free code camp",
     Distractor1: "free camp code",
     Distractor2: "free + code camp",
