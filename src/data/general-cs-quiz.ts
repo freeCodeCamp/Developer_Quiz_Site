@@ -1046,6 +1046,15 @@ const generalCSQuiz = [
     Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
     Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
+  {
+    Question: "Which of the following is not a type of network topology?",
+    Answer: "Polygon Topology",
+    Distractor1: "Bus Topology",
+    Distractor2: "Tree Topology",
+    Distractor3: "Ring Topology",
+    Explanation: "There are mainly six types of network topology: Bus Topology, Ring Topology, Star Topology, Mesh Topology, Tree Topology, Hybrid Topology.",
+    Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
+  },
 ];
 
 export default generalCSQuiz;
