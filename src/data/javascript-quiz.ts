@@ -1594,6 +1594,17 @@ const javascriptQuiz = [
       "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
+  {
+    Question:
+      "In JavaScript, the property that stores and retrieve data in the web browser is known as?",
+    Answer: "localStorage",
+    Distractor1: "Array",
+    Distractor2: "Object",
+    Distractor3: "Class",
+    Explanation:
+      "localStorage is a JavaScript object that stores data as key-value pairs in a web browser with no expiration date.",
+    Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
+  },
 ];
 
 export default javascriptQuiz;
