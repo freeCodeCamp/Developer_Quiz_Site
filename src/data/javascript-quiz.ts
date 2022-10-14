@@ -1594,6 +1594,17 @@ const javascriptQuiz = [
       "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
+  {
+    Question:
+      "In JavaScript, a phase where an event is triggered on a target element and subsequent parent elements is called?",
+    Answer: "Event bubbling",
+    Distractor1: "Event propagation",
+    Distractor2: "Event capturing",
+    Distractor3: "Event handling",
+    Explanation:
+      "Event bubbling is an event propagation method that starts with the element that triggered the event and then bubbles up to its parent elements in their respective hierarchy.",
+    Link: "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
+  },
 ];
 
 export default javascriptQuiz;
