@@ -90,10 +90,10 @@ const qualityAssuranceQuiz = [
     Question:
       "What are regression tests?",
     Answer:
-      "We are re-applying tests at later stages of development.",
+      "Re-applying tests at later stages of development.",
     Distractor1: "Individual units of code do what they should.",
     Distractor2: "Units/components interact with each other properly.",
-    Distractor3: "We are re-applying tests at initial stages of development.",
+    Distractor3: "There is no such thing as regression tests",
     Explanation:
       "Regression tests refers to re-applying tests at later stages of development to ensure they still work.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
