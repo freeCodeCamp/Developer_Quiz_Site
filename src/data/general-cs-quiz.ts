@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which term is used for removing elements from the front of the queue?",
+    Answer: "Dequeue.",
+    Distractor1: "Enqueue.",
+    Distractor2: "Peek.",
+    Distractor3: "isFull.",
+    Explanation: "Dequeue is the term for removing elements from the front of the queue.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-queues-a6960a3c98/",
+  },
+  {
     Question: "Which problems are solved using Bellman Ford's Algorithm?",
     Answer: "Single Source Shortest Path",
     Distractor1: "All Pair Shortest Path",

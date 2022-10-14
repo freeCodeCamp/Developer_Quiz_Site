@@ -1,5 +1,41 @@
 const sqlQuiz = [
   {
+    Question: "In SQL, which of the following is the correct syntax for creating a table?",  
+    Answer: "CREATE TABLE table_name (column1_name datatype, ...)",
+    Distractor1: "CREATE TABLE table_name (int main void column_name)",
+    Distractor2: "UPDATE TABLE table_name (column1_name datatype, ...)",
+    Distractor3: "CREATE NEW TABLE table_name (column1_name datatype, ...)",
+    Explanation: "In SQL, tables are created by using the CREATE TABLE statement as well as specifying each columns datatype.",
+    Link: "https://www.freecodecamp.org/news/sql-create-table-statement-with-example-syntax/",
+  },
+  {
+    Question: "In SQL, which command is used to convert from one data type to another?",
+    Answer: "CAST()",
+    Distractor1: "CHANGE()",
+    Distractor2: "TYPE()", 
+    Distractor3: "CONVERT()",
+    Explanation: "The CAST() function is used to convert a column in a table from one data type to another.",  
+    Link: "https://www.freecodecamp.org/news/cast-a-function-in-sql-convert-char-to-int-sql-server-example/",
+  },
+  {
+    Question: "In SQL, which of the following is the correct syntax for inserting a new record(row) into a table?",
+    Answer: "INSERT INTO table_name (column1, ...) VALUES (value1, ...);", 
+    Distractor1: "ADD ROW table_name (column1, ...) VALUES (value1, ...);",
+    Distractor2: "ALTER table_name (value1, ...);",
+    Distractor3: "INSERT INTO table_name (column1, ...);",
+    Explanation: "The INSERT INTO statement is used to add new rows into a table, with the number of values equal to the number of specified columns", 
+    Link: "https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/",
+  },
+  {
+    Question: "In SQL, what function is used to join two or more strings together to form a single string?",
+    Answer: "CONCAT()",
+    Distractor1: "SUBSTR()",
+    Distractor2: "INSERT()",
+    Distractor3: "JOIN()",
+    Explanation: "The CONCAT() function joins at least two parameters(strings) and can accept a total of 254 parameters.", 
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+  },
+  {
     Question:
       "In relational databases, Primary keys cannot contain what type of value?",
     Answer: "NULL values",
@@ -9,6 +45,17 @@ const sqlQuiz = [
     Explanation:
       "Primary keys must contain unique values and cannot contain NULL values.",
     Link: "https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database/",
+  },
+  {
+    Question:
+      "In SQL, what is a View?",
+    Answer: "A View is a database object that presents data existing in one or more tables",
+    Distractor1: "A View removes an item from a table",
+    Distractor2: "A View sorts items in a table",
+    Distractor3: "A View does not exist in SQL",
+    Explanation:
+      "A View is a database object that presents data existing in one or more tables",
+    Link: "https://www.freecodecamp.org/news/sql-create-view-mysql/",
   },
   {
     Question:
