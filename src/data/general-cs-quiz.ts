@@ -1109,16 +1109,6 @@ const generalCSQuiz = [
     Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
     Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
-  {
-    Question: "Where is the CPU located on a computer?",
-    Answer: "The motherboard",
-    Distractor1: "Random Access Memory",
-    Distractor2: "Graphics Processing Unit",
-    Distractor3: "Solid State Drive",
-    Explanation: "The CPU is located on the motherboard of a computer.",
-    Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
-
-  },
 ];
 
 export default generalCSQuiz;
