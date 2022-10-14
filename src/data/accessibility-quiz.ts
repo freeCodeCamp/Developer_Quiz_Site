@@ -9,6 +9,16 @@ const accessibilityQuiz = [
       "Web accessibility means building websites that are usable by as many people as possible.",
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/",
   },
+   {
+    Question: "Which of the HTML elements can improve the accessibility of your website??",
+    Answer: "<section>",
+    Distractor1: "<div>",
+    Distractor2: "<span>",
+    Distractor3: "<head>",
+    Explanation:
+      "The <section> tag is a semantic HTML element, that defines a particular section in a document",
+    Link: "https://www.freecodecamp.org/news/semantic-html5-elements/",
+  },
 ];
 
 export default accessibilityQuiz;
