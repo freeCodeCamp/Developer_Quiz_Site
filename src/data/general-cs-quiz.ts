@@ -3,8 +3,8 @@ const generalCSQuiz = [
     Question: "What is Object-Oriented Programming?",
     Answer: "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
-    Distractor2: "OOP it's a set of sorting algorithms",
-    Distractor3: "OOP it's a list of Bitwise operators",
+    Distractor2: "OOP is a set of sorting algorithms",
+    Distractor3: "OOP is a list of Bitwise operators",
     Explanation:"OOP is a programming pattern that is built around objects or entities",
     Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
   },
