@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "What is Object-Oriented Programming?",
+    Answer: "OOP is a programming pattern that is built around objects or entities.",
+    Distractor1: "OOP is a topological paradigm to program things",
+    Distractor2: "OOP is a set of sorting algorithms",
+    Distractor3: "OOP is a list of Bitwise operators",
+    Explanation:"OOP is a programming pattern that is built around objects or entities",
+    Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
+  },
+  {
     Question: "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
     Distractor1: "Enqueue.",
@@ -199,7 +208,7 @@ const generalCSQuiz = [
       "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
   },
-   {
+  {
     Question:
       "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
     Answer: "Merge sort",
