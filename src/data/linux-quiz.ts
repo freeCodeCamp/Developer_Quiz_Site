@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which one is not a communication command?",
+    Answer: "grep",
+    Distractor1: "mesg",
+    Distractor2: "mail",
+    Distractor3: "write",
+    Explanation:
+      "The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+  },
+  {
     Question:
       "Which of the following commands creates a file without opening it?",
     Answer: "touch <filename>",
@@ -830,6 +840,26 @@ const linuxQuiz = [
     Explanation:
       "KDE is a popular desktop environment which resembles the Windows user interface.",
     Link: "https://www.freecodecamp.org/news/linux-basics/",
+  },
+  {
+    Question:
+      "Which set among the following is the correct set of three types of Linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users: user, group and other.",
+  },
+  {
+    Question: "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "write",
+    Distractor3: "read",
+    Explanation:
+      "In Linux, file permissions fall into three categories: read, write and execute.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
 ];
 

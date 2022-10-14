@@ -1172,7 +1172,16 @@ const cssQuiz = [
     Distractor3: "12",
     Explanation: "3em is equivalent to 48 pixels.",
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
-  }
+  },
+  {
+    Question: "What color would rgb(255,0,0) give?",
+    Answer: "Red",
+    Distractor1: "Green",
+    Distractor2: "Yellow",
+    Distractor3: "Blue",
+    Explanation: "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
+    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
+  },
 ];
 
 export default cssQuiz;
