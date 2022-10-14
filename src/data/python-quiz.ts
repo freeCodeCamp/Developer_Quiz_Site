@@ -1,4 +1,70 @@
 const pythonQuiz = [
+    {
+    Question: 
+      "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
+    Answer: "free code camp",
+    Distractor1: "free camp code",
+    Distractor2: "free + code camp",
+    Distractor3: "code camp free",
+    Explanation: 
+      "To concatenate two strings, you can use the + operator.",
+    Link: "https://www.freecodecamp.org/news/python-concatenate-strings-how-to-combine-and-append-strings-in-python/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise NOT operations?",
+    Answer: "~",
+    Distractor1: "++",
+    Distractor2: "!",
+    Distractor3: "--",
+    Explanation: 
+      "The ~ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise OR operations?",
+    Answer: "|",
+    Distractor1: ">>>",
+    Distractor2: "<<<",
+    Distractor3: "x",
+    Explanation: 
+      "The | operator is used in Python to perform Bitwise OR operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise AND operations?",
+    Answer: "&",
+    Distractor1: "{{",
+    Distractor2: "&&",
+    Distractor3: "<",
+    Explanation: 
+      "The & operator is used in Python to perform Bitwise AND operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which method is used to count the set bits in an integer?",
+    Answer: "int.bit_count()",
+    Distractor1: "float.bit_count()",
+    Distractor2: "double.bit_count()",
+    Distractor3: "int.count()",
+    Explanation: 
+      "int.bit_count() is used to count set bits in an integer",
+    Link: "https://docs.python.org/3/library/stdtypes.html?highlight=tim%20sort#int.bit_count",
+  },
+  {
+    Question: 
+      "In Python, which module supports regular expressions?",
+    Answer: "re",
+    Distractor1: "regex",
+    Distractor2: "pyregex",
+    Distractor3: "pythonre",
+    Explanation: 
+      "The Python re module provides regular expression support.",
+    Link: "https://docs.python.org/3/library/re.html",
+  },
   {
     Question: 
       "In Python, what keyword is used to raise exceptions?",

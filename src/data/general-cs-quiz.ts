@@ -1,5 +1,23 @@
 const generalCSQuiz = [
   {
+    Question: "Which term is used for removing elements from the front of the queue?",
+    Answer: "Dequeue.",
+    Distractor1: "Enqueue.",
+    Distractor2: "Peek.",
+    Distractor3: "isFull.",
+    Explanation: "Dequeue is the term for removing elements from the front of the queue.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-queues-a6960a3c98/",
+  },
+  {
+    Question: "Which problems are solved using Bellman Ford's Algorithm?",
+    Answer: "Single Source Shortest Path",
+    Distractor1: "All Pair Shortest Path",
+    Distractor2: "Negative Cycle Detection",
+    Distractor3: "Minimum Spanning Tree",
+    Explanation: "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights.",
+    Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/",
+  },
+  {
     Question: "Which of the following algorithms can be used to determine a minimum spanning tree in a graph?",
     Answer: "Boruvka's algorithm",
     Distractor1: "Breadth first search",
