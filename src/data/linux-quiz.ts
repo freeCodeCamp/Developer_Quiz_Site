@@ -842,6 +842,16 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/linux-basics/",
   },
   {
+    Question:
+      "Which set among the following is the correct set of three types of Linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users: user, group and other.",
+  },
+  {
     Question: "Which of the following is NOT a category of file permissions in Linux?",
     Answer: "compile",
     Distractor1: "execute",

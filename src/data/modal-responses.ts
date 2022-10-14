@@ -17,3 +17,4 @@ export const incorrectModalResponses = [
   "Incorrect, try again",
   "That's a wrong answer, keep trying",
 ];
+
