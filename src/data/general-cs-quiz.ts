@@ -1137,6 +1137,16 @@ const generalCSQuiz = [
     Explanation: "Dijkstra's Algorithm can find the shortest path from a node (called the 'source node') to all other nodes in the graph, producing a shortest-path tree.",
     Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/",
   },
+  
+  {
+    Question: "Who is the Banker in Bankers algorithm?",
+    Answer: "Operating System",
+    Distractor1: "RAM",
+    Distractor2: "CPU",
+    Distractor3: "Register",
+    Explanation: "The operating system decides the resource allocation and hence the banker",
+    Link: "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
+  },
 
 ];
 
