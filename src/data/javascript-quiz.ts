@@ -1591,7 +1591,7 @@ const javascriptQuiz = [
     Distractor2: "No threads",
     Distractor3: "Can be both single threaded and multi-threaded",
     Explanation:
-      "JavaScript is a single-threaded language because while running code on a single thread, it can be really easy to implement as we don't have to deal with the complicated scenarios that arise in the multi-threaded environment like deadlock",
+      "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
 ];
