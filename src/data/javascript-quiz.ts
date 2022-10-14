@@ -1594,6 +1594,17 @@ const javascriptQuiz = [
       "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
+  {
+    Question:
+      "In JavaScript, which of these Math Object rounds down a number to the nearest whole number or integer?",
+    Answer: "Math.floor()",
+    Distractor1: "Math.ceil()",
+    Distractor2: "Math.round()",
+    Distractor3: "Math.abs()",
+    Explanation:
+      "Math.floor() is a javascript method that rounds down a number to the nearest whole number or integer",
+    Link: "https://www.freecodecamp.org/news/math-in-javascript/",
+  },
 ];
 
 export default javascriptQuiz;
