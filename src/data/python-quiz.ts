@@ -1,4 +1,37 @@
 const pythonQuiz = [
+  {
+    Question: 
+      "Which of these can you use as a dictionary keys?",
+    Answer: "('key', 'value')",
+    Distractor1: "5j",
+    Distractor2: "'key'",
+    Distractor3: "'count'",
+    Explanation: 
+      "There is only option with brackets.",
+    Link: "https://www.freecodecamp.org/news/python-dictionary-methods-dictionaries-in-python/",
+  },
+  {
+    Question: 
+      "What will the following Python code print? print(len('Hello world!'))",
+    Answer: "12",
+    Distractor1: "11",
+    Distractor2: "10",
+    Distractor3: "13",
+    Explanation: 
+      "Hello is 5 characters, world! is 6 characters and there is a space in between them. So, the length is 12",
+    Link: "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
+  },
+  {
+    Question: 
+      "What is the index of the first character in a string?",
+    Answer: "0",
+    Distractor1: "-1",
+    Distractor2: "1",
+    Distractor3: "A",
+    Explanation: 
+      "Strings are zero-indexed: The index of a string's first character is 0 , and the index of a string's last character is the length of the string minus 1",
+    Link: "https://www.freecodecamp.org/news/how-to-format-a-string-in-python/",
+  },
     {
     Question: 
       "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
