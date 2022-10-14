@@ -1,6 +1,18 @@
 const securityQuiz = [
   {
     Question:
+      "Which of the following is the hacking approach where cyber-criminals design fake websites or pages for 
+        tricking or gaining additional traffic ?"
+    Answer: "Pharming"
+    Distractor1:"Website Duplication",
+    Distractor2:"Mimicking",
+    Distractor3:"Spamming",
+    Explanation:
+      "Pharming is a strategy and approach used by cybercriminals to create phony web pages and sites in order to
+       mislead users into giving over personal information such as login IDs and passwords.
+  },
+  {
+    Question:
       "Which set among the following is the correct set of three types of Linux file users?",
     Answer: "{user, group, other}",
     Distractor1: "{whoami, users, group}",
