@@ -48,6 +48,17 @@ const sqlQuiz = [
   },
   {
     Question:
+      "In SQL, what is a View?",
+    Answer: "A View is a database object that presents data existing in one or more tables",
+    Distractor1: "A View removes an item from a table",
+    Distractor2: "A View sorts items in a table",
+    Distractor3: "A View does not exist in SQL",
+    Explanation:
+      "A View is a database object that presents data existing in one or more tables",
+    Link: "https://www.freecodecamp.org/news/sql-create-view-mysql/",
+  },
+  {
+    Question:
       " In relational databases, which of the following allows you to uniquely identify a tuple?",
     Answer: "Super Key",
     Distractor1: "Schema",
