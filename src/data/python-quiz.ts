@@ -1,4 +1,92 @@
 const pythonQuiz = [
+     {
+    Question: 
+      "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
+    Answer: "-2",
+    Distractor1: "2",
+    Distractor2: "0",
+    Distractor3: "6",
+    Explanation: 
+      "Lists can have duplicate items while Sets only contain unique items.",
+    Link: "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
+  },
+    {
+    Question: 
+      "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
+    Answer: "free code camp",
+    Distractor1: "free camp code",
+    Distractor2: "free + code camp",
+    Distractor3: "code camp free",
+    Explanation: 
+      "To concatenate two strings, you can use the + operator.",
+    Link: "https://www.freecodecamp.org/news/python-concatenate-strings-how-to-combine-and-append-strings-in-python/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise NOT operations?",
+    Answer: "~",
+    Distractor1: "++",
+    Distractor2: "!",
+    Distractor3: "--",
+    Explanation: 
+      "The ~ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise OR operations?",
+    Answer: "|",
+    Distractor1: ">>>",
+    Distractor2: "<<<",
+    Distractor3: "x",
+    Explanation: 
+      "The | operator is used in Python to perform Bitwise OR operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise AND operations?",
+    Answer: "&",
+    Distractor1: "{{",
+    Distractor2: "&&",
+    Distractor3: "<",
+    Explanation: 
+      "The & operator is used in Python to perform Bitwise AND operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which method is used to count the set bits in an integer?",
+    Answer: "int.bit_count()",
+    Distractor1: "float.bit_count()",
+    Distractor2: "double.bit_count()",
+    Distractor3: "int.count()",
+    Explanation: 
+      "int.bit_count() is used to count set bits in an integer",
+    Link: "https://docs.python.org/3/library/stdtypes.html?highlight=tim%20sort#int.bit_count",
+  },
+  {
+    Question: 
+      "In Python, which module supports regular expressions?",
+    Answer: "re",
+    Distractor1: "regex",
+    Distractor2: "pyregex",
+    Distractor3: "pythonre",
+    Explanation: 
+      "The Python re module provides regular expression support.",
+    Link: "https://docs.python.org/3/library/re.html",
+  },
+  {
+    Question: 
+      "In Python, what keyword is used to raise exceptions?",
+    Answer: "raise",
+    Distractor1: "try",
+    Distractor2: "goto",
+    Distractor3: "except",
+    Explanation: 
+      "The raise keyword is used in Python to throw exceptions.",
+    Link: "https://www.freecodecamp.org/news/exception-handling-python/",
+  },
   {
       Question: 
         "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
@@ -1313,6 +1401,43 @@ const pythonQuiz = [
     Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
   },
+  {
+    Question: "In Python, what is the return value: print(list(map(len, ['Welcome', 'To', 'FreeCodeCamp'])))?",
+    Answer: "[7, 2, 12]",
+    Distractor1: "[14, 4, 24]",
+    Distractor2: "21",
+    Distractor3: "<map object at 0x10708b580>",
+    Explanation: "The map function works as an iterator to return a result after applying the len function to every item for the words list and returns a map object.",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
+  {
+    Question: "In Python, how do you check the memory usage for Object x?",
+    Answer: "sys.getsizeof(x)", 
+    Distractor1: "size(x)",
+    Distractor2: "len(x)",
+    Distractor3: "os.getsizeof(x)",
+    Explanation: "When you import the sys module and use the the getsizeof() method, Python will calculate how much memory that object has consumed.",
+    Link: "https://www.freecodecamp.org/news/python-programming-tips/",
+  },      
+  {
+    Question: "Which of the following is a good way to input n space separated integers in Python?",
+    Answer: "list(map(int, input().split()))",
+    Distractor1: "input().split()",
+    Distractor2: "int(input())",
+    Distractor3: "list(mapping(int, input().split()))",
+    Explanation: "The map() function is used to apply a function to each item in an iterable (like a Python list or dictionary).",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
+  {
+    Question: "Which of the following is the correct syntax to reverse a list in Python?",
+    Answer: "list.reverse()",
+    Distractor1: "list.reverse",
+    Distractor2: "reverse(list)",
+    Distractor3: "list=list.reversing()",
+    Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
+    Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
+  },
+
 ];
 
 export default pythonQuiz;
