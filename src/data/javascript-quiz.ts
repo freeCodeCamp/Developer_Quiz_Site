@@ -1550,6 +1550,17 @@ const javascriptQuiz = [
       "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
+  {
+    Question:
+      "In JavaScript, all objects inherit a built-in property from a ___________________.",
+    Answer: "prototype",
+    Distractor1: "node",
+    Distractor2: "instance variable",
+    Distractor3: "accessor",
+    Explanation:
+      "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
+    Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
+  },
 ];
 
 export default javascriptQuiz;
