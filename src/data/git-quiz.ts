@@ -406,19 +406,19 @@ const gitQuiz = [
     Distractor2: "git goto <commit>",
     Distractor3: "git merge <commit>",
     Explanation:
-      "git-cherry-pick selects a handpicked commit and adds it to the working branch",
-    Link: "https://git-scm.com/docs/git-cherry-pick",
+      "git cherry-pick selects a handpicked commit from one branch and applies it to another branch.",
+    Link: "https://www.freecodecamp.org/news/the-git-cherry-pick-command/",
   },
   {
     Question:
-      "How can you apply the changes that a specific commit introduces",
+      "In Git, what is the correct syntax for the git tag command?",
     Answer: "git tag <tag-name>",
     Distractor1: "git add-tag <tag-name>",
     Distractor2: "git tag-add <tag-name>",
     Distractor3: "git tag-on <commit>",
     Explanation:
-      "git tag <tag_name> creates a tag object signed with GPG",
-    Link: "https://git-scm.com/docs/git-tag",
+      "git tag points to a specific point in the Git history and are often used to mark specific version releases in the code.",
+    Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/",
   },
 ];
 
