@@ -74,11 +74,11 @@ const generalCSQuiz = [
   {
     Question: "What is SOLID?",
     Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
-    Distractor1:"It's a new type of Hardware",
-    Distractor2:"New kind of software",
+    Distractor1: "It's a new type of Hardware",
+    Distractor2: "New kind of software",
     Distractor3: "It's a new group of technologies",
-    Explanation:"SOLID is a set of rules and best practices to follow while creating OOP designs.",
-    Link:"https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+    Explanation: "SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link: "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
   },
   {
     Question: "Which of the following is true for an adjacency list?",
@@ -1127,6 +1127,17 @@ const generalCSQuiz = [
     Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
     Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
+
+  {
+    Question: "Which algorithm finds the shortest path between nodes in a graph?",
+    Answer: "Dijkstra's Algorithm",
+    Distractor1: "Rabin-Karp Algorithm",
+    Distractor2: "Binary Search Algoritm",
+    Distractor3: "Quicksort Algorithm",
+    Explanation: "Dijkstra's Algorithm can find the shortest path from a node (called the 'source node') to all other nodes in the graph, producing a shortest-path tree.",
+    Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/",
+  },
+
 ];
 
 export default generalCSQuiz;
