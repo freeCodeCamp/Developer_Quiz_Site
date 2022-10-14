@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor2: "0",
     Distractor3: "6",
     Explanation: 
-      "List can have duplicate items while Set only contains unique item.",
+      "Lists can have duplicate items while Sets only contain unique items.",
     Link: "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
   },
     {
