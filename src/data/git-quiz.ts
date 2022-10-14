@@ -417,7 +417,7 @@ const gitQuiz = [
     Distractor2: "git tag-add <tag-name>",
     Distractor3: "git tag-on <commit>",
     Explanation:
-      "git tag points to a specific point in the Git history and are often used to mark specific version releases in the code.",
+      "git tags point to a specific part in the Git history and are often used to mark specific version releases in the code.",
     Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/",
   },
 ];
