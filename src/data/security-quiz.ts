@@ -307,7 +307,6 @@ const securityQuiz = [
       "Partial Homomorphic Encryption (PHE) allows only one operation to be performed on the ciphertext an infinite number of times. This operation can be only addition or only multiplication.",
     Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
   },
-
   {
     Question:
       "What does SSL stand for?",
