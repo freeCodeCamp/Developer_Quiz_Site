@@ -1563,6 +1563,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what should be the output of 3 < 2 < 1?",
+    Answer: "true",
+    Distractor1: "false",
+    Distractor2: "syntax error",
+    Distractor3: "NaN",
+    Explanation:
+      "JavaScript will first evaluate 3 < 2 which will return false. Then JavaScript will evaluate false < 1 which will return true because false is converted to the number 0. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+  },
+  {
+    Question:
       "In JavaScript, which operator has the highest precedence among these options?",
     Answer: "Grouping ()",
     Distractor1: "Increment ++",
