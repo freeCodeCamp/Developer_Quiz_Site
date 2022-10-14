@@ -31,11 +31,11 @@ const Results: React.FC<{
         href={
           "http://twitter.com/intent/tweet?text=I just scored " +
           ((Math.floor(points) / totalPoints) * 100).toString() +
-          "% on the Learn to Code An RPG developer quiz - try it yourself? " +
-          "https://developerquiz.org/"
+          "% on the Learn to developerquiz.org - try it yourself?" +
+          "&hashtags=freecodecamp"
         }
       >
-        Share on Twitter?
+        Tweet your quiz score
       </a>
     </div>
   );
