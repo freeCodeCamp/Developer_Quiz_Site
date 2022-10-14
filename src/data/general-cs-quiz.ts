@@ -3,20 +3,10 @@ const generalCSQuiz = [
     Question: "What is Object-Oriented Programming?",
     Answer: "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
-    Distractor2: "OOP it's a set of rules to consider while you programming",
-    Distractor3: "OOP it's a list of best practices to code",
-    Explanation:"All the things in the real world life what have a description, in OOP can be represented",
+    Distractor2: "OOP it's a set of sorting algorithms",
+    Distractor3: "OOP it's a list of Bitwise operators",
+    Explanation:"OOP is a programming pattern that is built around objects or entities",
     Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
-  },
-
-  {
-    Question: "What is SOLID?",
-    Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
-    Distractor1: "It's a new type of Hardware",
-    Distractor2: "New kind of software",
-    Distractor3: "It's a new group of technologies",
-    Explanation: "SOLID is a set of rules and best practices to follow while creating OOP designs.",
-    Link: "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
   },
   {
     Question: "Which of the following is true for an adjacency list?",
