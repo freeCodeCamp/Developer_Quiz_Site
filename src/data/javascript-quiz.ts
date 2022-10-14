@@ -1,5 +1,27 @@
 const javascriptQuiz = [
+ {
+    Question:
+      "In JavaScript, which Web API is used to display a dialog box with an optional message?",
+    Answer: "window.alert()",
+    Distractor1: "window.alertHTML()",
+    Distractor2: "window.alertContent()",
+    Distractor3: "window.alertBox()",
+    Explanation:
+      "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
+    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+  },
   {
+     Question: 
+      "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
+    Answer: "tel",
+    Distractor1: "tellig",
+    Distractor2: "ll",
+    Distractor3: "Inigent",
+    Explanation:
+      "The slice() method returns a substring of the original string. The original string remains untouched.",
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+ },
+ {
     Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
@@ -1538,6 +1560,17 @@ const javascriptQuiz = [
     Explanation:
       "On the precendence table, the grouping () operator is the highest with a precedence value of 18",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+  },
+  {
+    Question:
+      "In JavaScript, all objects inherit a built-in property from a ___________________.",
+    Answer: "prototype",
+    Distractor1: "node",
+    Distractor2: "instance variable",
+    Distractor3: "accessor",
+    Explanation:
+      "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
+    Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
   },
 ];
 
