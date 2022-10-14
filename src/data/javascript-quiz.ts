@@ -1583,6 +1583,17 @@ const javascriptQuiz = [
       "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
     Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
   },
+   {
+    Question:
+      "In JavaScript, how many threads does code run in?",
+    Answer: "Single thread",
+    Distractor1: "Multiple threads",
+    Distractor2: "No threads",
+    Distractor3: "Can be both single threaded and multi-threaded",
+    Explanation:
+      "JavaScript is a single-threaded language because it has one call stack and memory heap.",
+    Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
+  },
 ];
 
 export default javascriptQuiz;
