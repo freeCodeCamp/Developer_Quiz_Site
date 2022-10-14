@@ -1569,7 +1569,7 @@ const javascriptQuiz = [
     Distractor2: "syntax error",
     Distractor3: "Nan",
     Explanation:
-      "It will be true because first evaluate 2 is lo than 3 and returns false then evaluate 1 is bigger than false and returns true",
+      "JavaScript will first evaluate 3 < 2 which will return false. Then JavaScript will evaluate false < 1 which will return true because false is converted to the number 0. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
   },
   {
