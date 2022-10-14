@@ -850,6 +850,15 @@ const linuxQuiz = [
     Distractor3: "{user, group, all}",
     Explanation:
       "In Linux, there are three types of users: user, group and other.",
+  },
+  {
+    Question: "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "write",
+    Distractor3: "read",
+    Explanation:
+      "In Linux, file permissions fall into three categories: read, write and execute.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
 ];

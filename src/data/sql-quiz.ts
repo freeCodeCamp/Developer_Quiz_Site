@@ -1,6 +1,17 @@
 const sqlQuiz = [
   {
     Question:
+      "In relational databases, Primary keys cannot contain what type of value?",
+    Answer: "NULL values",
+    Distractor1: "string values",
+    Distractor2: "numeric values",
+    Distractor3: "boolean",
+    Explanation:
+      "Primary keys must contain unique values and cannot contain NULL values.",
+    Link: "https://www.freecodecamp.org/news/primary-key-sql-tutorial-how-to-define-a-primary-key-in-a-database/",
+  },
+  {
+    Question:
       " In relational databases, which of the following allows you to uniquely identify a tuple?",
     Answer: "Super Key",
     Distractor1: "Schema",

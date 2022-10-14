@@ -285,6 +285,17 @@ const securityQuiz = [
       "Partial Homomorphic Encryption (PHE) allows only one operation to be performed on the ciphertext an infinite number of times. This operation can be only addition or only multiplication.",
     Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
   },
+  {
+    Question:
+      "What does SSL stand for?",
+    Answer: "Secure Sockets Layer",
+    Distractor1: "Serial Sockets Layer",
+    Distractor2: "Serial Secure Layer",
+    Distractor3: "Series Socket Layer",
+    Explanation:
+      "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
+    Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
+  },
 ];
 
 export default securityQuiz;
