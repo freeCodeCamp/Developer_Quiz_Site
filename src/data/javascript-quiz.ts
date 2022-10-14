@@ -1,25 +1,36 @@
 const javascriptQuiz = [
- {
-    Question:
-      "In JavaScript, which Web API is used to display a dialog box with an optional message?",
-    Answer: "window.alert()",
-    Distractor1: "window.alertHTML()",
-    Distractor2: "window.alertContent()",
-    Distractor3: "window.alertBox()",
-    Explanation:
-      "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
-    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
-  },
-  {
-     Question: 
-      "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
-    Answer: "tel",
-    Distractor1: "tellig",
-    Distractor2: "ll",
-    Distractor3: "Inigent",
-    Explanation:
-      "The slice() method returns a substring of the original string. The original string remains untouched.",
-    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+{
+  Question:
+    "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
+  Answer: "true false",
+  Distractor1: "true true",
+  Distractor2: "false true",
+  Distractor3: "false false",
+  Explanation:
+    "== compares only the value while === compares the value as well as the type.",
+  Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/"
+},
+{
+  Question:
+    "In JavaScript, which Web API is used to display a dialog box with an optional message?",
+  Answer: "window.alert()",
+  Distractor1: "window.alertHTML()",
+  Distractor2: "window.alertContent()",
+  Distractor3: "window.alertBox()",
+  Explanation:
+    "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
+  Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+},
+{
+   Question: 
+    "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
+  Answer: "tel",
+  Distractor1: "tellig",
+  Distractor2: "ll",
+  Distractor3: "Inigent",
+  Explanation:
+    "The slice() method returns a substring of the original string. The original string remains untouched.",
+  Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
  },
  {
     Question:
