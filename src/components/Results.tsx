@@ -26,6 +26,7 @@ const Results: React.FC<{
       <button onClick={resetQuiz} className="results-btn">
         Play again?
       </button>
+
       <a
         className="results-text"
         href={
@@ -35,7 +36,7 @@ const Results: React.FC<{
           "&hashtags=freecodecamp"
         }
       >
-        Tweet your quiz score
+        <i className="fab fa-twitter"></i>Tweet your quiz score
       </a>
     </div>
   );
