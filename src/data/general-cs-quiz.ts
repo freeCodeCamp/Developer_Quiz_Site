@@ -1109,6 +1109,15 @@ const generalCSQuiz = [
     Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
     Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
+  {
+    Question: "What is the correct output of 2//4?",
+    Answer: "0",
+    Distractor1: "0.5",
+    Distractor2: "2",
+    Distractor3: "0.2",
+    Explanation: "The division of operands where the result is the quotient in which the digits after the decimal point are removed",
+    Link: "https://www.freecodecamp.org/news/what-does-double-slash-mean-in-python/",
+  },
 ];
 
 export default generalCSQuiz;
