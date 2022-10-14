@@ -1,4 +1,15 @@
 const pythonQuiz = [
+     {
+    Question: 
+      "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
+    Answer: "-2",
+    Distractor1: "2",
+    Distractor2: "0",
+    Distractor3: "6",
+    Explanation: 
+      "Lists can have duplicate items while Sets only contain unique items.",
+    Link: "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
+  },
     {
     Question: 
       "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
