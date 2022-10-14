@@ -1111,7 +1111,7 @@ const generalCSQuiz = [
   },
 
   {
-    Question: "Which algorithm find the shortest path between nodes in a graph. ",
+    Question: "Which algorithm finds the shortest path between nodes in a graph?",
     Answer: "Dijkstra's Algorithm",
     Distractor1: "Rabin-Karp Algorithm",
     Distractor2: "Binary Search Algoritm",
