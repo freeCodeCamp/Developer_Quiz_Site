@@ -1594,6 +1594,17 @@ const javascriptQuiz = [
       "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
+  {
+  Question:
+    "What does BOM stand for?",
+  Answer: "Browser Object Model",
+  Distractor1: "Boolean Object Manipulation",
+  Distractor2: "Browser Object Manifest",
+  Distractor3: "Backend Object Model",
+  Explanation:
+    "BOM stands for Browser Object Model.",
+  Link: "https://javascript.info/browser-environment",
+ },
 ];
 
 export default javascriptQuiz;
