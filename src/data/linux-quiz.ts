@@ -841,6 +841,36 @@ const linuxQuiz = [
       "KDE is a popular desktop environment which resembles the Windows user interface.",
     Link: "https://www.freecodecamp.org/news/linux-basics/",
   },
+  {
+    Question:
+      "Which set among the following is the correct set of three types of Linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users: user, group and other.",
+  },
+  {
+    Question: "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "write",
+    Distractor3: "read",
+    Explanation:
+      "In Linux, file permissions fall into three categories: read, write and execute.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question: "In Linux, which command is used to find files/folders matching a particular search pattern?",
+    Answer: "find",
+    Distractor1: "who",
+    Distractor2: "which",
+    Distractor3: "search",
+    Explanation:
+      "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
 ];
 
 export default linuxQuiz;

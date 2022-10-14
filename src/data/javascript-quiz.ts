@@ -1,5 +1,38 @@
 const javascriptQuiz = [
-  {
+{
+  Question:
+    "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
+  Answer: "true false",
+  Distractor1: "true true",
+  Distractor2: "false true",
+  Distractor3: "false false",
+  Explanation:
+    "== compares only the value while === compares the value as well as the type.",
+  Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/"
+},
+{
+  Question:
+    "In JavaScript, which Web API is used to display a dialog box with an optional message?",
+  Answer: "window.alert()",
+  Distractor1: "window.alertHTML()",
+  Distractor2: "window.alertContent()",
+  Distractor3: "window.alertBox()",
+  Explanation:
+    "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
+  Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+},
+{
+   Question: 
+    "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
+  Answer: "tel",
+  Distractor1: "tellig",
+  Distractor2: "ll",
+  Distractor3: "Inigent",
+  Explanation:
+    "The slice() method returns a substring of the original string. The original string remains untouched.",
+  Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+ },
+ {
     Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
@@ -1243,7 +1276,7 @@ const javascriptQuiz = [
       ".push() returns the new length of the array, after the element has been pushed",
     Link: "https://www.freecodecamp.org/news/how-to-insert-an-element-into-an-array-in-javascript/",
   },
-  { 
+  {
     Question:
       "In JavaScript, which method allows you to cancel a repeated action created with setInterval()?",
     Answer: "clearInterval",
@@ -1252,8 +1285,8 @@ const javascriptQuiz = [
     Distractor3: "stopInterval",
     Explanation:
       "This clearInterval() method is used to stop the timed loop that was started by the setInterval() method.",
-    Link: "https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/", 
-  }, 
+    Link: "https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/",
+  },
   {
     Question:
       "In JavaScript, which of the following is NOT the correct way to declare a variable?",
@@ -1527,6 +1560,39 @@ const javascriptQuiz = [
     Explanation:
       "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
+  },
+  {
+    Question:
+      "In JavaScript, which operator has the highest precedence among these options?",
+    Answer: "Grouping ()",
+    Distractor1: "Increment ++",
+    Distractor2: "Unary plus +",
+    Distractor3: "Equality ==",
+    Explanation:
+      "On the precendence table, the grouping () operator is the highest with a precedence value of 18",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+  },
+  {
+    Question:
+      "In JavaScript, all objects inherit a built-in property from a ___________________.",
+    Answer: "prototype",
+    Distractor1: "node",
+    Distractor2: "instance variable",
+    Distractor3: "accessor",
+    Explanation:
+      "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
+    Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
+  },
+   {
+    Question:
+      "In JavaScript, how many threads does code run in?",
+    Answer: "Single thread",
+    Distractor1: "Multiple threads",
+    Distractor2: "No threads",
+    Distractor3: "Can be both single threaded and multi-threaded",
+    Explanation:
+      "JavaScript is a single-threaded language because it has one call stack and memory heap.",
+    Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
 ];
 
