@@ -400,7 +400,7 @@ const gitQuiz = [
   },
   {
     Question:
-      "How can you apply the changes that a specific commit introduces",
+      "In Git,  which command is used to choose a commit from one branch and apply it to another?",
     Answer: "git cherry-pick <commit>",
     Distractor1: "git write-over <commit>",
     Distractor2: "git goto <commit>",
