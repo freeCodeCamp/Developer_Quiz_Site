@@ -1,7 +1,7 @@
 const pythonQuiz = [
      {
     Question: 
-      "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list)-len(list))?",
+      "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
     Answer: "-2",
     Distractor1: "2",
     Distractor2: "0",
