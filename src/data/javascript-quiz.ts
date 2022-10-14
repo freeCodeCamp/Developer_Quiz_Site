@@ -1,6 +1,17 @@
 const javascriptQuiz = [
-  {
+ {
     Question:
+      "In JavaScript, which Web API is used to display a dialog box with an optional message?",
+    Answer: "window.alert()",
+    Distractor1: "window.alertHTML()",
+    Distractor2: "window.alertContent()",
+    Distractor3: "window.alertBox()",
+    Explanation:
+      "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
+    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+  },
+  {
+     Question: 
       "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
     Answer: "tel",
     Distractor1: "tellig",
@@ -8,9 +19,9 @@ const javascriptQuiz = [
     Distractor3: "Inigent",
     Explanation:
       "The slice() method returns a substring of the original string. The original string remains untouched.",
-    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
-  },
-  {
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+ },
+ {
     Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
