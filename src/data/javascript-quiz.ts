@@ -1594,6 +1594,17 @@ const javascriptQuiz = [
       "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
+   {
+    Question:
+      "The JavaScript Object .seal() is a method that does one of the following:",
+    Answer: "Prevents new properties from being added to it.",
+    Distractor1: "Permits its prototype from being reassigned",
+    Distractor2: "Allows its existing properties to be removed",
+    Distractor3: "Prevents its existing value from being modified",
+    Explanation:
+      "The .seal() JavaScript Object prevents the addition of new properties, removal of existing properties or the reassignment of its prototype.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
+  },
 ];
 
 export default javascriptQuiz;
