@@ -98,6 +98,17 @@ const qualityAssuranceQuiz = [
       "Regression tests refers to re-applying tests at later stages of development to ensure they still work.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
   },
+  {
+    Question:
+      "What type of test involves the process of testing integrated software?",
+    Answer: "System",
+    Distractor1: "Acceptance",
+    Distractor2: "Unit",
+    Distractor3: "Integration",
+    Explanation:
+      "In system testing, the quality assurance team evaluates how each component of the application/software work together in a full, integrated environment.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+  },
 ];
 
 export default qualityAssuranceQuiz;
