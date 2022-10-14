@@ -5,7 +5,7 @@ const sqlQuiz = [
     Distractor1: "CREATE TABLE table_name (int main void column_name)",
     Distractor2: "UPDATE TABLE table_name (column1_name datatype, ...)",
     Distractor3: "CREATE NEW TABLE table_name (column1_name datatype, ...)",
-    Explanation: "In SQL tables are created by using the CREATE TABLE statement as well as specifying each columns datatype.",
+    Explanation: "In SQL, tables are created by using the CREATE TABLE statement as well as specifying each columns datatype.",
     Link: "https://www.freecodecamp.org/news/sql-create-table-statement-with-example-syntax/",
   },
   {
