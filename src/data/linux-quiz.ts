@@ -851,6 +851,16 @@ const linuxQuiz = [
       "In Linux, file permissions fall into three categories: read, write and execute.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
+  {
+    Question: "In Linux, which command is used to find files/folders matching a particular search pattern?",
+    Answer: "find",
+    Distractor1: "who",
+    Distractor2: "which",
+    Distractor3: "search",
+    Explanation:
+      "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
 ];
 
 export default linuxQuiz;
