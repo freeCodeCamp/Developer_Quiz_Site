@@ -1,4 +1,15 @@
 const pythonQuiz = [
+      {
+    Question: 
+      "In Python,if we have a='abhi' , then what is the result here : print(type(a))?",
+    Answer: "<class 'str'>",
+    Distractor1: "<class 'char'>",
+    Distractor2: "<class 'var'>",
+    Distractor3: "error",
+    Explanation: 
+      "type() method returns class type of the argument(object) passed as parameter in Python",
+    Link: "https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/",
+  },
      {
     Question: 
       "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
