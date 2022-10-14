@@ -1595,15 +1595,15 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
   {
-  Question:
+    Question:
     "What does BOM stand for?",
-  Answer: "Browser Object Model",
-  Distractor1: "Boolean Object Manipulation",
-  Distractor2: "Browser Object Manifest",
-  Distractor3: "Backend Object Model",
-  Explanation:
-    "BOM stands for Browser Object Model.",
-  Link: "https://javascript.info/browser-environment",
+    Answer: "Browser Object Model",
+    Distractor1: "Boolean Object Manipulation",
+    Distractor2: "Browser Object Manifest",
+    Distractor3: "Backend Object Model",
+    Explanation:
+      "BOM stands for Browser Object Model.",
+    Link: "https://javascript.info/browser-environment",
  },
 ];
 
