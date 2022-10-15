@@ -16,7 +16,7 @@ const accessibilityQuiz = [
     Distractor2: "<span>",
     Distractor3: "<head>",
     Explanation:
-      "The <section> tag is a semantic HTML element, that defines a particular section in a document",
+      "The section element holds semantic meaning and defines sections within the HTML document.",
     Link: "https://www.freecodecamp.org/news/semantic-html5-elements/",
   },
 ];
