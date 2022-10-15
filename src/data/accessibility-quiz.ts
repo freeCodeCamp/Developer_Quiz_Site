@@ -29,6 +29,16 @@ const accessibilityQuiz = [
       "The section element holds semantic meaning and defines sections within the HTML document.",
     Link: "https://www.freecodecamp.org/news/semantic-html5-elements/",
   },
+  {
+    Question: "Which of the following reason is correct? A website should have a good contract ratio between foreground and background because",
+    Answer: "people with moderately low vision can read and access the website contents.",
+    Distractor1: "good contrast ratio will improve the entire web design.",
+    Distractor2: "secreen reader can distinguish better between foreground text and background.",
+    Distractor3: "good contrast ratio will improve website performance and SEO.",
+    Explanation:
+      "Website foreground (text) needs to have sufficient contrast with background color so that people with low vision or old people can read and access the website content.",
+    Link: "https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background",
+  },
 ];
 
 export default accessibilityQuiz;
