@@ -1137,6 +1137,16 @@ const generalCSQuiz = [
     Explanation: "Dijkstra's Algorithm can find the shortest path from a node (called the 'source node') to all other nodes in the graph, producing a shortest-path tree.",
     Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/",
   },
+  
+  {
+    Question: "In Banker's algorithm, which part of the computer represents the 'Banker'?",
+    Answer: "Operating System",
+    Distractor1: "RAM",
+    Distractor2: "CPU",
+    Distractor3: "Register",
+    Explanation: "Banker's algorithm is most commonly used within banking systems to help determine if resources are available to lend to customers. The operating system represents the 'Banker' because it decides the resource allocation.",
+    Link: "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
+  },
 
 ];
 
