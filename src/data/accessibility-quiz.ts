@@ -1,4 +1,14 @@
 const accessibilityQuiz = [
+   {
+    Question: "Which attribute makes images accessible for people using screen readers?",
+    Answer: "alt",
+    Distractor1: "desc",
+    Distractor2: "img",
+    Distractor3: "src",
+    Explanation:
+      "The alt attribute provides short descriptive text for images and the text is read aloud by a screen reader.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
+  },
   {
     Question: "What are web accessibility evaluation tools?",
     Answer: "Software programs or online services that help determine if web content meets accessibility standards.",
