@@ -1617,7 +1617,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
   },
   {
-  Question:
+    Question:
       "In JavaScript, what does the .seal() method do?",
     Answer: "Prevents new properties from being added to it.",
     Distractor1: "Permits its prototype from being reassigned",
