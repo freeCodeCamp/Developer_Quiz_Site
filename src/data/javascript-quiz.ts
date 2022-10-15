@@ -1607,6 +1607,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which of the following Math objects rounds a number down to the nearest whole integer?",
+    Answer: "Math.floor()",
+    Distractor1: "Math.ceil()",
+    Distractor2: "Math.round()",
+    Distractor3: "Math.abs()",
+    Explanation:
+      "Math.floor() is a JavaScript method that rounds a number down to the nearest whole number or integer.",
+    Link: "https://www.freecodecamp.org/news/math-in-javascript/",
+  },
+  {
+   Question:
       "In JavaScript, what is it called when an event is triggered on a target element and subsequent parent elements?",
     Answer: "Event bubbling",
     Distractor1: "Event propagation",
