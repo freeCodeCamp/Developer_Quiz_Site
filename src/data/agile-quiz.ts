@@ -10,6 +10,15 @@ const agileQuiz = [
 },
 
   {
+    Question: "What are the five Scrum values?",
+    Answer: "Commitment, Focus, Openness, Respect, and Courage.",
+    Distractor1: "Commitment, Respect, Honesty, Loyalty, Truth .",
+    Distractor2: "Focus, Loyalty, Courage, Patience, Openness.",
+    Distractor3: "Openess, Commitment, Honesty, Discipline, Patience.",
+    Explanation: "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
+    Link: "https://scrumguides.org/scrum-guide.html",
+  },
+  {
     Question: "In Agile, when might a Sprint be abnormally cancelled?",
     Answer: "When the Sprint Goal becomes obsolete.",
     Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
@@ -184,6 +193,39 @@ const agileQuiz = [
     Explanation:
       "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
+  {
+    Question:
+      "What types of environments work best for Agile principles?",
+    Answer: "It works great in dynamic environments.",
+    Distractor1: "It works great in static environments.",
+    Distractor2: "It works great in customer environments.",
+    Distractor3: "Agile has been proven to not work in any good environment.",
+    Explanation:
+      "The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches.  It works great in dynamic environments where there is a potential for changing or evolving requirements.",
+    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
+  },
+  {
+  Question:
+      "In Agile, which of the following options is a high priority?",
+    Answer: "Working software",
+    Distractor1: "Comprehensive documentation",
+    Distractor2: "Processes and tools",
+    Distractor3: "Contract negotiation",
+    Explanation:
+      "Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.",
+    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
+  },
+  {
+    Question:
+      "In Agile, what is Timeboxing?",
+    Answer: "set amount of time for an activity to occur",
+    Distractor1: "It's a new Agile framework",
+    Distractor2: "Not related to Agile",
+    Distractor3: "It's a way to write code faster",
+    Explanation:
+      "In Agile, Timeboxing is a set amount of time for a planned activity to take place. This technique is often used in project management to help with productivity for projects. ",
+    Link: "https://en.wikipedia.org/wiki/Timeboxing",
   },
 ];
 

@@ -1,5 +1,104 @@
 const pythonQuiz = [
     {
+    Question: 
+      "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
+    Answer: "free code camp",
+    Distractor1: "free camp code",
+    Distractor2: "free + code camp",
+    Distractor3: "code camp free",
+    Explanation: 
+      "To concatenate two strings, you can use the + operator.",
+    Link: "https://www.freecodecamp.org/news/python-concatenate-strings-how-to-combine-and-append-strings-in-python/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise NOT operations?",
+    Answer: "~",
+    Distractor1: "++",
+    Distractor2: "!",
+    Distractor3: "--",
+    Explanation: 
+      "The ~ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise OR operations?",
+    Answer: "|",
+    Distractor1: ">>>",
+    Distractor2: "<<<",
+    Distractor3: "x",
+    Explanation: 
+      "The | operator is used in Python to perform Bitwise OR operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise AND operations?",
+    Answer: "&",
+    Distractor1: "{{",
+    Distractor2: "&&",
+    Distractor3: "<",
+    Explanation: 
+      "The & operator is used in Python to perform Bitwise AND operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which method is used to count the set bits in an integer?",
+    Answer: "int.bit_count()",
+    Distractor1: "float.bit_count()",
+    Distractor2: "double.bit_count()",
+    Distractor3: "int.count()",
+    Explanation: 
+      "int.bit_count() is used to count set bits in an integer",
+    Link: "https://docs.python.org/3/library/stdtypes.html?highlight=tim%20sort#int.bit_count",
+  },
+  {
+    Question: 
+      "In Python, which module supports regular expressions?",
+    Answer: "re",
+    Distractor1: "regex",
+    Distractor2: "pyregex",
+    Distractor3: "pythonre",
+    Explanation: 
+      "The Python re module provides regular expression support.",
+    Link: "https://docs.python.org/3/library/re.html",
+  },
+  {
+    Question: 
+      "In Python, what keyword is used to raise exceptions?",
+    Answer: "raise",
+    Distractor1: "try",
+    Distractor2: "goto",
+    Distractor3: "except",
+    Explanation: 
+      "The raise keyword is used in Python to throw exceptions.",
+    Link: "https://www.freecodecamp.org/news/exception-handling-python/",
+  },
+  {
+      Question: 
+        "In Python, which one is the correct way to get the last item for the following list: numbers = [1, 2, 3, 4, 5]?",
+      Answer: "All of the above",
+      Distractor1: "numbers[-1]",
+      Distractor2: "numbers[len(numbers)-1]",
+      Distractor3: "numbers.pop()",
+      Explanation: 
+        "If you use negative indexing or the pop() method it will return the last item in the numbers list.",
+      Link: "https://www.freecodecamp.org/news/python-get-last-element-in-list-how-to-select-the-last-item/",
+  },
+  {
+    Question: 
+      "In Python, which of the following is not a complex number?",
+    Answer: "2 + 3l",
+    Distractor1: "2 + 3j",
+    Distractor2: "complex(2, 3)",
+    Distractor3: "2 + 3J",
+    Explanation: 
+      "In Python, the letter 'l' (or L) stands for long and 2 + 3l would not result in a complex number.",
+    Link: "https://forum.freecodecamp.org/t/an-introduction-to-python-complex-numbers-explained-with-examples/19218",
+  },
+  {
       Question: 
         "In Python, which of the following list methods directly modifies the original list?",
       Answer: "sort()",
@@ -9,8 +108,8 @@ const pythonQuiz = [
       Explanation: 
         "sort() and reverse() directly modify the original list, while sorted() and reversed() return a copy of the original list.",
       Link: "https://www.freecodecamp.org/news/python-sort-how-to-sort-a-list-in-python/",
-   },
-   {
+  },
+  {
     Question:
       "In Python, which of the following options will reverse this string: sentence='freeCodeCamp rules'?",
     Answer: "sentence[::-1]",
@@ -1165,6 +1264,15 @@ const pythonQuiz = [
     Explanation: "+ is used to concatenate and * is used to multiply strings", 
     Link: "https://www.freecodecamp.org/news/learn-python-by-thinking-in-types", 
   },
+  {
+    Question: "In Python, which sorting algorithm is a hybrid between merge and insertion sort?",
+    Answer: "Tim Sort",
+    Distractor1: "Quick Sort",
+    Distractor2: "Merge Sort",
+    Distractor3: "Insertion Sort",
+    Explanation: "Python's default sort uses Tim Sort, which is a combination of both merge sort and insertion sort.",
+    Link: "https://docs.python.org/3/howto/sorting.html"
+  },
   { 
     Question: "Which of the following is a package-management system written in Python used to install and manage software packages?",
     Answer: "pip", 
@@ -1246,6 +1354,79 @@ const pythonQuiz = [
     Explanation: "{} creates an empty dictionary while set() creates an empty set.", 
     Link: "https://www.freecodecamp.org/news/free-python-crash-course/", 
   },
+  {
+    Question: "In Python, if y = lambda x : x ** 2 + 7 , then what will be the result returned when the following code is executed: print(y(3))?",
+    Answer: "16",
+    Distractor1: "5",
+    Distractor2: "11",
+    Distractor3: "24",
+    Explanation: "A Lambda is an anonymous function that can have any number of arguments but only one expression, which is evaluated and returned.",
+    Link: "https://www.freecodecamp.org/news/lambda-expressions-in-python/",
+  },
+  {
+    Question: "Which Python keyword is added to the open() function while reading a file to ensure the file gets closed?",
+    Answer: "with", 
+    Distractor1: "await",
+    Distractor2: "pass",
+    Distractor3: "finally",
+    Explanation: "Calling the open() function while using the with statement automatically closes a file after being processed.",
+    Link: "https://www.freecodecamp.org/news/with-open-in-python-with-statement-syntax-example/",
+  },
+  {
+    Question: "Which one of these Python types is not mutable?",
+    Answer: "bool", 
+    Distractor1: "lists",
+    Distractor2: "sets",
+    Distractor3: "functions",
+    Explanation: "a bool data type cannot change it's value after being created, therefore it is immutable.",
+    Link: "https://www.freecodecamp.org/news/mutable-vs-immutable-objects-python/",
+  },
+  {
+    Question: "In Python, what is the output of the following code: True + True + False - True == 2?",
+    Answer: "False", 
+    Distractor1: "True",
+    Distractor2: "Error",
+    Distractor3: "1",
+    Explanation: "Since booleans in Python are seen as numeric types, you can perform basic math operations on them. True would equate to 1 while False would equate to 0.",
+    Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/",   
+  },
+  {
+    Question: "In Python, what is the return value: print(list(map(len, ['Welcome', 'To', 'FreeCodeCamp'])))?",
+    Answer: "[7, 2, 12]",
+    Distractor1: "[14, 4, 24]",
+    Distractor2: "21",
+    Distractor3: "<map object at 0x10708b580>",
+    Explanation: "The map function works as an iterator to return a result after applying the len function to every item for the words list and returns a map object.",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
+  {
+    Question: "In Python, how do you check the memory usage for Object x?",
+    Answer: "sys.getsizeof(x)", 
+    Distractor1: "size(x)",
+    Distractor2: "len(x)",
+    Distractor3: "os.getsizeof(x)",
+    Explanation: "When you import the sys module and use the the getsizeof() method, Python will calculate how much memory that object has consumed.",
+    Link: "https://www.freecodecamp.org/news/python-programming-tips/",
+  },      
+  {
+    Question: "Which of the following is a good way to input n space separated integers in Python?",
+    Answer: "list(map(int, input().split()))",
+    Distractor1: "input().split()",
+    Distractor2: "int(input())",
+    Distractor3: "list(mapping(int, input().split()))",
+    Explanation: "The map() function is used to apply a function to each item in an iterable (like a Python list or dictionary).",
+    Link: "https://www.freecodecamp.org/news/python-map-explained-with-examples/",
+  },
+  {
+    Question: "Which of the following is the correct syntax to reverse a list in Python?",
+    Answer: "list.reverse()",
+    Distractor1: "list.reverse",
+    Distractor2: "reverse(list)",
+    Distractor3: "list=list.reversing()",
+    Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
+    Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
+  },
+
 ];
 
 export default pythonQuiz;
