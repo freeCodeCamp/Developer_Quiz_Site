@@ -1607,6 +1607,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what does the .seal() method do?",
+    Answer: "Prevents new properties from being added to it.",
+    Distractor1: "Permits its prototype from being reassigned",
+    Distractor2: "Allows its existing properties to be removed",
+    Distractor3: "Prevents its existing value from being modified",
+    Explanation:
+      "JavaScript's Object.seal() method prevents the addition of new properties, removal of existing properties or the reassignment of its prototype.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
+  },
+  {
+    Question:
       "In JavaScript, which of the following Math objects rounds a number down to the nearest whole integer?",
     Answer: "Math.floor()",
     Distractor1: "Math.ceil()",
