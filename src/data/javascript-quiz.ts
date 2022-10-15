@@ -1563,6 +1563,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what should be the output of 3 < 2 < 1?",
+    Answer: "true",
+    Distractor1: "false",
+    Distractor2: "syntax error",
+    Distractor3: "NaN",
+    Explanation:
+      "JavaScript will first evaluate 3 < 2 which will return false. Then JavaScript will evaluate false < 1 which will return true because false is converted to the number 0. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+  },
+  {
+    Question:
       "In JavaScript, which operator has the highest precedence among these options?",
     Answer: "Grouping ()",
     Distractor1: "Increment ++",
@@ -1604,6 +1615,39 @@ const javascriptQuiz = [
     Explanation:
       "localStorage is a JavaScript object that stores data as key-value pairs in a web browser with no expiration date.",
     Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
+  },
+  {
+  Question:
+      "In JavaScript, what does the .seal() method do?",
+    Answer: "Prevents new properties from being added to it.",
+    Distractor1: "Permits its prototype from being reassigned",
+    Distractor2: "Allows its existing properties to be removed",
+    Distractor3: "Prevents its existing value from being modified",
+    Explanation:
+      "JavaScript's Object.seal() method prevents the addition of new properties, removal of existing properties or the reassignment of its prototype.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
+  },
+  {
+    Question:
+      "In JavaScript, which of the following Math objects rounds a number down to the nearest whole integer?",
+    Answer: "Math.floor()",
+    Distractor1: "Math.ceil()",
+    Distractor2: "Math.round()",
+    Distractor3: "Math.abs()",
+    Explanation:
+      "Math.floor() is a JavaScript method that rounds a number down to the nearest whole number or integer.",
+    Link: "https://www.freecodecamp.org/news/math-in-javascript/",
+  },
+  {
+   Question:
+      "In JavaScript, what is it called when an event is triggered on a target element and subsequent parent elements?",
+    Answer: "Event bubbling",
+    Distractor1: "Event propagation",
+    Distractor2: "Event capturing",
+    Distractor3: "Event handling",
+    Explanation:
+      "Event bubbling is an event propagation method that starts with the element that triggered the event and then bubbles up to its parent elements in their respective hierarchy.",
+    Link: "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
   },
 ];
 
