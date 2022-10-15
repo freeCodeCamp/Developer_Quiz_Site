@@ -1607,6 +1607,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+    "What does BOM stand for?",
+    Answer: "Browser Object Model",
+    Distractor1: "Boolean Object Manipulation",
+    Distractor2: "Browser Object Manifest",
+    Distractor3: "Backend Object Model",
+    Explanation:
+      "The Browser Object Model is a convention that refers to all objects displayed in the browser.",
+    Link: "https://en.wikipedia.org/wiki/Browser_Object_Model",
+  },
+  {
+    Question:
       "In JavaScript, which Web API stores and retrieves data from the web browser?",
     Answer: "localStorage",
     Distractor1: "Array",
