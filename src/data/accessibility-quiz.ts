@@ -6,7 +6,7 @@ const accessibilityQuiz = [
     Distractor2: "img",
     Distractor3: "src",
     Explanation:
-      "With one attribute, alt, we are able to make the image accessible for screen reader users.",
+      "The alt attribute provides short descriptive text for images and the text is read aloud by a screen reader.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
   },
   {
