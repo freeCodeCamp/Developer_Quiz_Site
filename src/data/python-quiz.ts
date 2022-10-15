@@ -1,4 +1,15 @@
 const pythonQuiz = [
+  {
+    Question: 
+      "Which of the following functions can help us to find the version of python that we are currently working on?",
+    Answer: "sys.version(1)",
+    Distractor1: "sys.version(1)",
+    Distractor2: "sys.version(1)",
+    Distractor3: "sys.version(1)",
+    Explanation: 
+      "The function sys.version can help us to find the version of python that we are currently working on. For example, 3.5.2, 2.7.3 etc. this function also returns the current date, time, bits etc along with the version.",
+    Link: "https://r4r.in/mcqs/mcqs-questions-answers.php?que_id=171765&test_id=2184&title=Which%20of%20the%20following%20functions%20can%20help%20us%20to%20find%20the%20version%20of%20python%20that%20we%20are%20currently%20working%20on?&subid=1&subcat=python&test=python%20mcq%20set%203",
+  },
       {
     Question: 
       "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
