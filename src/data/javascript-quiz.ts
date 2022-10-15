@@ -1602,7 +1602,7 @@ const javascriptQuiz = [
     Distractor2: "Browser Object Manifest",
     Distractor3: "Backend Object Model",
     Explanation:
-      "BOM stands for Browser Object Model.",
+      "The Browser Object Model is a convention that refers to all object displayed in the browser.",
     Link: "https://en.wikipedia.org/wiki/Browser_Object_Model",
  },
 ];
