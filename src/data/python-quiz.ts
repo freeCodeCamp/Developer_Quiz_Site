@@ -1,13 +1,13 @@
 const pythonQuiz = [
       {
     Question: 
-      "In Python,if organization='freeCodeCamp', then what is the result here : print(type(organization))?",
+      "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
     Answer: "<class 'str'>",
     Distractor1: "<class 'char'>",
     Distractor2: "<class 'var'>",
     Distractor3: "error",
     Explanation: 
-      "Python's type() method returns the class type for the objects.",
+      "Python's type() method returns the class type for the object.",
     Link: "https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/",
   },
      {
