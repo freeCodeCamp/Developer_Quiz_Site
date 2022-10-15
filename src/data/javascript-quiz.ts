@@ -1596,7 +1596,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, the property that stores and retrieve data in the web browser is known as?",
+      "In JavaScript, which Web API stores and retrieves data from the web browser?",
     Answer: "localStorage",
     Distractor1: "Array",
     Distractor2: "Object",
