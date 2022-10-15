@@ -1,6 +1,6 @@
 const javascriptQuiz = [
   {
-    Question: "Javascript is used for __ side programming?",
+    Question: "What kind of programming can JavaScript be used for?",
     Answer: "Both Client and Server",
     Distractor1: "Server only",
     Distractor2: "Client only",
