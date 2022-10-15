@@ -1139,7 +1139,7 @@ const generalCSQuiz = [
   },
   
   {
-    Question: "Who is the Banker in Bankers algorithm?",
+    Question: "In Banker's algorithm, which part of the computer represents the 'Banker'?",
     Answer: "Operating System",
     Distractor1: "RAM",
     Distractor2: "CPU",
