@@ -1607,6 +1607,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which Web API stores and retrieves data from the web browser?",
+    Answer: "localStorage",
+    Distractor1: "Array",
+    Distractor2: "Object",
+    Distractor3: "Class",
+    Explanation:
+      "localStorage is a JavaScript object that stores data as key-value pairs in a web browser with no expiration date.",
+    Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
+  },
+  {
+    Question:
       "In JavaScript, what does the .seal() method do?",
     Answer: "Prevents new properties from being added to it.",
     Distractor1: "Permits its prototype from being reassigned",
