@@ -1563,6 +1563,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what should be the output of 3 < 2 < 1?",
+    Answer: "true",
+    Distractor1: "false",
+    Distractor2: "syntax error",
+    Distractor3: "NaN",
+    Explanation:
+      "JavaScript will first evaluate 3 < 2 which will return false. Then JavaScript will evaluate false < 1 which will return true because false is converted to the number 0. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
+  },
+  {
+    Question:
       "In JavaScript, which operator has the highest precedence among these options?",
     Answer: "Grouping ()",
     Distractor1: "Increment ++",
@@ -1604,6 +1615,17 @@ const javascriptQuiz = [
     Explanation:
       "Math.floor() is a JavaScript method that rounds a number down to the nearest whole number or integer.",
     Link: "https://www.freecodecamp.org/news/math-in-javascript/",
+  },
+  {
+   Question:
+      "In JavaScript, what is it called when an event is triggered on a target element and subsequent parent elements?",
+    Answer: "Event bubbling",
+    Distractor1: "Event propagation",
+    Distractor2: "Event capturing",
+    Distractor3: "Event handling",
+    Explanation:
+      "Event bubbling is an event propagation method that starts with the element that triggered the event and then bubbles up to its parent elements in their respective hierarchy.",
+    Link: "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
   },
 ];
 
