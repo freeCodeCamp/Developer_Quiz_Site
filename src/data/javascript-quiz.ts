@@ -1596,7 +1596,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, a phase where an event is triggered on a target element and subsequent parent elements is called?",
+      "In JavaScript, what is it called when an event is triggered on a target element and subsequent parent elements?",
     Answer: "Event bubbling",
     Distractor1: "Event propagation",
     Distractor2: "Event capturing",
