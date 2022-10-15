@@ -296,17 +296,6 @@ const securityQuiz = [
       "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
     Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
   },
-  {
-    Question:
-      "Which one of these options is layer 1 in the Open Systems Interconnection (OSI) model?",
-    Answer: "The physical layer",
-    Distractor1: "The transport Layer",
-    Distractor2: "The network layer",
-    Distractor3: "The application layer",
-    Explanation:
-      "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
-    Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
-  },
 ];
 
 export default securityQuiz;
