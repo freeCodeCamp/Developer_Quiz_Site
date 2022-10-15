@@ -1,5 +1,14 @@
 const informationTechnologyQuiz = [
   {
+    Question: "What it's the name of the modern computers architecture?",
+    Answer: "Von Neumann Architecture",
+    Distractor1: "Enigma-Turing Architecture",
+    Distractor2: "Micro-ATX Architecture",
+    Distractor3: "CPU-GPU Architecture",
+    Explanation: "John Von Neumann is the creator of the modern computer architecture",
+    Link:"https://www.bbc.co.uk/bitesize/guides/zhppfcw/revision/3"
+  },
+  {
     Question: "Which of the following validates the integrity of data?",
     Answer:
       "Hashing",
