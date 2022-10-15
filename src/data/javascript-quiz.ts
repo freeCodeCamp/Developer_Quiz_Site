@@ -1603,7 +1603,7 @@ const javascriptQuiz = [
     Distractor3: "Backend Object Model",
     Explanation:
       "BOM stands for Browser Object Model.",
-    Link: "https://javascript.info/browser-environment",
+    Link: "https://en.wikipedia.org/wiki/Browser_Object_Model",
  },
 ];
 
