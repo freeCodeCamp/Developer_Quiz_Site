@@ -1,38 +1,38 @@
 const javascriptQuiz = [
-{
-  Question:
-    "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
-  Answer: "true false",
-  Distractor1: "true true",
-  Distractor2: "false true",
-  Distractor3: "false false",
-  Explanation:
-    "== compares only the value while === compares the value as well as the type.",
-  Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/"
-},
-{
-  Question:
-    "In JavaScript, which Web API is used to display a dialog box with an optional message?",
-  Answer: "window.alert()",
-  Distractor1: "window.alertHTML()",
-  Distractor2: "window.alertContent()",
-  Distractor3: "window.alertBox()",
-  Explanation:
-    "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
-  Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
-},
-{
-   Question: 
-    "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
-  Answer: "tel",
-  Distractor1: "tellig",
-  Distractor2: "ll",
-  Distractor3: "Inigent",
-  Explanation:
-    "The slice() method returns a substring of the original string. The original string remains untouched.",
-  Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
- },
- {
+  {
+    Question:
+      "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
+    Answer: "true false",
+    Distractor1: "true true",
+    Distractor2: "false true",
+    Distractor3: "false false",
+    Explanation:
+      "== compares only the value while === compares the value as well as the type.",
+    Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
+  },
+  {
+    Question:
+      "In JavaScript, which Web API is used to display a dialog box with an optional message?",
+    Answer: "window.alert()",
+    Distractor1: "window.alertHTML()",
+    Distractor2: "window.alertContent()",
+    Distractor3: "window.alertBox()",
+    Explanation:
+      "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
+    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+  },
+  {
+    Question:
+      "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
+    Answer: "tel",
+    Distractor1: "tellig",
+    Distractor2: "ll",
+    Distractor3: "Inigent",
+    Explanation:
+      "The slice() method returns a substring of the original string. The original string remains untouched.",
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+  },
+  {
     Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
@@ -1562,8 +1562,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
   },
   {
-    Question:
-      "In JavaScript, what should be the output of 3 < 2 < 1?",
+    Question: "In JavaScript, what should be the output of 3 < 2 < 1?",
     Answer: "true",
     Distractor1: "false",
     Distractor2: "syntax error",
@@ -1594,9 +1593,8 @@ const javascriptQuiz = [
       "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
     Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
   },
-   {
-    Question:
-      "In JavaScript, how many threads does code run in?",
+  {
+    Question: "In JavaScript, how many threads does code run in?",
     Answer: "Single thread",
     Distractor1: "Multiple threads",
     Distractor2: "No threads",
@@ -1606,8 +1604,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
   },
   {
-    Question:
-    "What does BOM stand for?",
+    Question: "What does BOM stand for?",
     Answer: "Browser Object Model",
     Distractor1: "Boolean Object Manipulation",
     Distractor2: "Browser Object Manifest",
@@ -1628,8 +1625,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
   },
   {
-    Question:
-      "In JavaScript, what does the .seal() method do?",
+    Question: "In JavaScript, what does the .seal() method do?",
     Answer: "Prevents new properties from being added to it.",
     Distractor1: "Permits its prototype from being reassigned",
     Distractor2: "Allows its existing properties to be removed",
@@ -1650,7 +1646,7 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/math-in-javascript/",
   },
   {
-   Question:
+    Question:
       "In JavaScript, what is it called when an event is triggered on a target element and subsequent parent elements?",
     Answer: "Event bubbling",
     Distractor1: "Event propagation",
@@ -1659,6 +1655,16 @@ const javascriptQuiz = [
     Explanation:
       "Event bubbling is an event propagation method that starts with the element that triggered the event and then bubbles up to its parent elements in their respective hierarchy.",
     Link: "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
+  },
+  {
+    Question: "Which of the following scoping type does JavaScript use?",
+    Answer: " Lexical",
+    Distractor1: "Sequential",
+    Distractor2: "Segmental",
+    Distractor3: "Literal",
+    Explanation:
+      "JavaScript, like most current programming languages, employs lexical scoping. This means that functions are performed with the variable scope in effect when they were defined, rather than the variable scope in effect when they are invoked.",
+    Link: "https://www.freecodecamp.org/news/javascript-lexical-scope-tutorial/",
   },
 ];
 
