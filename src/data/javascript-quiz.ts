@@ -1602,7 +1602,7 @@ const javascriptQuiz = [
     Distractor2: "Math.round()",
     Distractor3: "Math.abs()",
     Explanation:
-      "Math.floor() is a javascript method that rounds down a number to the nearest whole number or integer",
+      "Math.floor() is a JavaScript method that rounds a number down to the nearest whole number or integer.",
     Link: "https://www.freecodecamp.org/news/math-in-javascript/",
   },
 ];
