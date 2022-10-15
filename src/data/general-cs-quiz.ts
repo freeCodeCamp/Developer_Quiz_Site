@@ -1144,7 +1144,7 @@ const generalCSQuiz = [
     Distractor1: "RAM",
     Distractor2: "CPU",
     Distractor3: "Register",
-    Explanation: "The operating system decides the resource allocation and hence the banker",
+    Explanation: "Banker's algorithm is most commonly used within banking systems to help determine if resources are available to lend to customers. The operating system represents the 'Banker' because it decides the resource allocation.",
     Link: "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
   },
 
