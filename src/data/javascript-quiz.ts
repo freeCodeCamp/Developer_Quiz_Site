@@ -1,10 +1,10 @@
 const javascriptQuiz = [
   {
     Question: "What kind of programming can JavaScript be used for?",
-    Answer: "Both Client and Server",
-    Distractor1: "Server only",
-    Distractor2: "Client only",
-    Distractor3: "None",
+    Answer: "Both Client and Server side programming",
+    Distractor1: "Server side only",
+    Distractor2: "Client side only",
+    Distractor3: "None of these options",
     Explanation:
       "JavaScript is a programming language which can be used on the client and server side.",
     Link:
