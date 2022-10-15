@@ -1596,7 +1596,7 @@ const javascriptQuiz = [
   },
    {
     Question:
-      "The JavaScript Object .seal() is a method that does one of the following:",
+      "In JavaScript, what does the .seal() method do?",
     Answer: "Prevents new properties from being added to it.",
     Distractor1: "Permits its prototype from being reassigned",
     Distractor2: "Allows its existing properties to be removed",
