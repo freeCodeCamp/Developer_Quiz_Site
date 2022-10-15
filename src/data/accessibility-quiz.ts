@@ -29,6 +29,19 @@ const accessibilityQuiz = [
       "The section element holds semantic meaning and defines sections within the HTML document.",
     Link: "https://www.freecodecamp.org/news/semantic-html5-elements/",
   },
+  {
+    Question: "How can we make an image accessible to someone who can’t see it??",
+    Answer: "Add an alternative text using the alt attribute",
+    Distractor1: "creating a separate version of the page without images",
+    Distractor2: "Avoid using images in the website",
+    Distractor3: "Ignoring the web accessibilty",
+    Explanation:
+      "The alt attributes shows a meaningful text that describes the image to screen readers so that it can be accessible to someone who can't see it",
+    Link: "https://www.freecodecamp.org/news/what-is-alt-text-image-alt-text-html-example/",
+  },
+   
+  
+  
 ];
 
 export default accessibilityQuiz;
