@@ -10,7 +10,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/",
   },
    {
-    Question: "Which of the HTML elements can improve the accessibility of your website??",
+    Question: "Which of the following HTML elements can improve the accessibility for your website?",
     Answer: "<section>",
     Distractor1: "<div>",
     Distractor2: "<span>",
