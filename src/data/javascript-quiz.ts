@@ -1602,7 +1602,7 @@ const javascriptQuiz = [
     Distractor2: "Allows its existing properties to be removed",
     Distractor3: "Prevents its existing value from being modified",
     Explanation:
-      "The .seal() JavaScript Object prevents the addition of new properties, removal of existing properties or the reassignment of its prototype.",
+      "JavaScript's Object.seal() method prevents the addition of new properties, removal of existing properties or the reassignment of its prototype.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
   },
 ];
