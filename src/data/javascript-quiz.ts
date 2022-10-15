@@ -1596,7 +1596,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which of these Math Object rounds down a number to the nearest whole number or integer?",
+      "In JavaScript, which of the following Math objects rounds a number down to the nearest whole integer?",
     Answer: "Math.floor()",
     Distractor1: "Math.ceil()",
     Distractor2: "Math.round()",
