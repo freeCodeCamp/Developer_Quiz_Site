@@ -1,6 +1,6 @@
 const accessibilityQuiz = [
    {
-    Question: "What attribute makes images accessible for people using screen readers?",
+    Question: "Which attribute makes images accessible for people using screen readers?",
     Answer: "alt",
     Distractor1: "desc",
     Distractor2: "img",
