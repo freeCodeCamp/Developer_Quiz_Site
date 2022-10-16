@@ -1,4 +1,15 @@
 const pythonQuiz = [
+  {
+    Question: 
+      "Which of these is the definition for packages in Python?",
+    Answer: "A folder of python modules.",
+    Distractor1: "A set of main modules",
+    Distractor2: "A folder of python modules.",
+    Distractor3: "A number of files containing Python definitions and statements",
+    Explanation: 
+      "A folder of python programs is called as a package of modules.",
+    Link: "https://www.freecodecamp.org/news/build-your-first-python-package/",
+  },
       {
     Question: 
       "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
