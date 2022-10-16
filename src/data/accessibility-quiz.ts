@@ -39,6 +39,16 @@ const accessibilityQuiz = [
       "The section element holds semantic meaning and defines sections within the HTML document.",
     Link: "https://www.freecodecamp.org/news/semantic-html5-elements/",
   },
+  {
+    Question: "Which of the following is a good reason to have a strong contrast ratio between foreground and background colors?",
+    Answer: "people with moderately low vision can read and access the website contents.",
+    Distractor1: "a good contrast ratio will improve the entire web design.",
+    Distractor2: "secreen readers can distinguish better between foreground and background colors",
+    Distractor3: "a good contrast ratio will improve website performance and SEO.",
+    Explanation:
+      "Websites that have a strong contrast ratio between background and foreground colors will allow people with low vision to better access and read the website content.",
+    Link: "https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background",
+  },
 ];
 
 export default accessibilityQuiz;
