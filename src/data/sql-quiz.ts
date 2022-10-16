@@ -556,6 +556,17 @@ const sqlQuiz = [
   },
   {
     Question:
+      "In SQL, what does DDL stand for ",
+    Answer: "Data Definition Language",
+    Distractor1:  "Data distinct Language",
+    Distractor2:  "Data Decoded Language",
+    Distractor3:  "Data Developer Language",
+    Explanation:
+      "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
+  {
+    Question:
       "In SQL, which function rounds a number to a specified number of decimal places?",
     Answer: "ROUND()",
     Distractor1: "TRUNCATE()",
@@ -565,7 +576,6 @@ const sqlQuiz = [
       "The ROUND() function takes in two parameters(number and decimals) and rounds the number to the number of decimals specified in the 2nd parameter.",
     Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
   },
-  
 ];
 
 export default sqlQuiz;
