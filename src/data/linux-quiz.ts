@@ -921,6 +921,16 @@ const linuxQuiz = [
       "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
+  {
+    Question: "Which of the following commands is used to calculate a file's total lines, words, and characters?",
+    Answer: "wc",
+    Distractor1: "wordc",
+    Distractor2: "count",
+    Distractor3: "lc",
+    Explanation:
+      "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
 ];
 
 export default linuxQuiz;
