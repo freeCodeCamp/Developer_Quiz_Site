@@ -3,9 +3,9 @@ const pythonQuiz = [
     Question: 
       "One line expression function in python is called as?",
     Answer: "Lambda function",
-    Distractor1: "Lambda function",
+    Distractor1: "Type function",
     Distractor2: "beta functions",
-    Distractor3: "Nothing",
+    Distractor3: "Sorted Function",
     Explanation: 
       "Lambda functions are anonymous functions that can contain only one expression.",
     Link: "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
