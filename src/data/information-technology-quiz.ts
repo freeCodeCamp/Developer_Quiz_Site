@@ -460,7 +460,7 @@ const informationTechnologyQuiz = [
     Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
   },
   {
-    Question: "What is SPF? and how it works?",
+    Question: "What does SPF stand for?",
     Answer: "Sender Policy Framework",
     Distractor1:  "Social Platform Framework",
     Distractor2:  "System Prescribed Framework",
