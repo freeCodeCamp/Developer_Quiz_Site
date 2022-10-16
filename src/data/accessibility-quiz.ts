@@ -89,6 +89,17 @@ const accessibilityQuiz = [
       "Websites that have a strong contrast ratio between background and foreground colors will allow people with low vision to better access and read the website content.",
     Link: "https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background",
   },
+  {
+    Question: "When a website complies with Level AA of conformance, which of these levels will already be compatible?",
+    Answer: "Level A",
+    Distractor1: "Level AAA",
+    Distractor2: "Level AA and Level AAA",
+    Distractor3: "Level AAA and Level A",
+    Explanation:
+      "WCAG Levels are backwards compatible. If a website complies with Level AAA, then it also complies with the requirements of Level AA and Level A.",
+    Link: "https://www.freecodecamp.org/news/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28/",
+  },
+  
 ];
 
 export default accessibilityQuiz;
