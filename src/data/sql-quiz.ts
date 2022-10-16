@@ -564,6 +564,17 @@ const sqlQuiz = [
     Explanation:
       "Data Definition Language includes the set of commands that you use to perform various task related to data definition. You use DDL command to CREATE, ALTER, DROP, TRUNCATE funtions.",
   },
+  {
+    Question:
+      "In SQL, which function rounds a number to a specified number of decimal places?",
+    Answer: "ROUND()",
+    Distractor1: "TRUNCATE()",
+    Distractor2: "CEIL()",
+    Distractor3: "FLOOR()",
+    Explanation:
+      "The ROUND() function takes in two parameters(number and decimals) and rounds the number to the number of decimals specified in the 2nd parameter.",
+    Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
+  },
 ];
 
 export default sqlQuiz;
