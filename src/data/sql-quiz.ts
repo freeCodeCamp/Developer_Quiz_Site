@@ -554,6 +554,18 @@ const sqlQuiz = [
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
-];
+  {
+    Question:
+      "What DDL command stands for?",
+    Answer: "Data Definition Language",
+    Distractor1: "Data Derived Line",
+    Distractor2: "Data Docker Log",
+    Distractor3: "Data Distinct Language",
+    Explanation:
+      "DDL command is used to CREATE, ALTER, DROP, TRUNCATE.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+
+
+    ];   
 
 export default sqlQuiz;
