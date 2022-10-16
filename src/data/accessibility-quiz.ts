@@ -50,7 +50,7 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background",
   },
   {
-    Question: "When your website comply with the Level AA of conformance, which of these level will be already compatible?",
+    Question: "When a website complies with Level AA of conformance, which of these levels will already be compatible?",
     Answer: "Level A",
     Distractor1: "Level AAA",
     Distractor2: "Level AA and Level AAA",
