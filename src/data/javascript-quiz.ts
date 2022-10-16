@@ -1784,6 +1784,18 @@ const javascriptQuiz = [
     Link:
       "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
   },
+  {
+    Question:
+      "In JavaScript, What is the result if we do a typeof to NaN?",
+    Answer: "Number",
+    Distractor1: "Object",
+    Distractor2: "Number",
+    Distractor3: "Undefined ",
+    Explanation:
+      "Because NaN is a property of the Number object in JS.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+  },
 ];
 
 export default javascriptQuiz;
