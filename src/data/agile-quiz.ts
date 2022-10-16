@@ -230,7 +230,7 @@ const agileQuiz = [
     Distractor3:
       "An estimate of the amount of hours required to deliver a user story",
     Explanation:
-      "Story points are units of measure for expressing an estimate of the overall effort required to fully implement a product backlog item or any other piece of work.",
+      "Story points are used to estimate the amount of effort required to deliver a user story for a project.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
   },
 ];
