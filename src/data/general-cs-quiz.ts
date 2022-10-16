@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which of the following is not an inplace sorting algorithm?",
+    Answer: "Merge Sort",
+    Distractor1: "Bubble sort",
+    Distractor2: "Insertion sort",
+    Distractor3: "Quick sort",
+    Explanation:"An inplace sorting algo uses no auxiliary space to process output",
+    Link: "https://en.wikipedia.org/wiki/In-place_algorithm"
+  },
+  {
     Question: "What is Object-Oriented Programming?",
     Answer: "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
