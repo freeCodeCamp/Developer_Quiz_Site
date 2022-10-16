@@ -1448,7 +1448,15 @@ const pythonQuiz = [
     Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
   },
-
+  {
+    Question: "Which of these is a standard GUI library in Python?",
+    Answer: "Tkinter",
+    Distractor1: "bs4",
+    Distractor2: "Selenium",
+    Distractor3: "Regex",
+    Explanation: "Tkinter provides an object-oriented interface to the Tk GUI toolkit that is built-in to Python.",
+    Link: "https://www.freecodecamp.org/news/learn-how-to-use-tkinter-to-create-guis-in-python/",
+  },
 ];
 
 export default pythonQuiz;

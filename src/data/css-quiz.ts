@@ -1182,6 +1182,15 @@ const cssQuiz = [
     Explanation: "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
     Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
   },
+  {
+    Question: "In CSS, which pseudo-class allows you to select the last element of a specific type?",
+    Answer: ":last-of-type",
+    Distractor1: ":nth-last-child",
+    Distractor2: ":last-child",
+    Distractor3: ":last",
+    Explanation: "We can use the :last-of-type selector to target an element of a specific type within a container.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/",
+  }
 ];
 
 export default cssQuiz;
