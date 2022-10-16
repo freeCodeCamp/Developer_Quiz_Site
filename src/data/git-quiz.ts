@@ -421,7 +421,7 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/",
   },
   {
-    Question: "In Git, How do you force a push request?",
+    Question: "In Git, how do you do a force push?",
     Answer: "git push -f",
     Distractor1:  "git push -u",
     Distractor2:  "git push",
