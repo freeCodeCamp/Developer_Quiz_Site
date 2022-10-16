@@ -563,6 +563,7 @@ const sqlQuiz = [
     Distractor3:  "Data Developer Language",
     Explanation:
       "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   },
   {
     Question:
