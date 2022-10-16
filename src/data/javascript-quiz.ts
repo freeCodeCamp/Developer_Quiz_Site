@@ -19,8 +19,7 @@ const javascriptQuiz = [
     Distractor3: "false false",
     Explanation:
       "== compares only the value while === compares the value as well as the type.",
-    Link:
-      "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
+    Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
   },
   {
     Question:
@@ -31,8 +30,7 @@ const javascriptQuiz = [
     Distractor3: "window.alertBox()",
     Explanation:
       "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
-    Link:
-      "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
   },
   {
     Question:
@@ -43,8 +41,7 @@ const javascriptQuiz = [
     Distractor3: "Inigent",
     Explanation:
       "The slice() method returns a substring of the original string. The original string remains untouched.",
-    Link:
-      "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
   },
   {
     Question:
@@ -1348,9 +1345,9 @@ const javascriptQuiz = [
   {
     Question: "In JavaScript, what will the following code return: typeof a?",
     Answer: "undefined",
-    Distractor1: "not defined",
-    Distractor2: "",
-    Distractor3: "NaN",
+    Distractor1: "string",
+    Distractor2: "object",
+    Distractor3: "number",
     Explanation:
       "In JavaScript, if you use the typeof operator on an undeclared variable then it will return undefined. ",
     Link:
