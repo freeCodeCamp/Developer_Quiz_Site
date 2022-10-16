@@ -1448,7 +1448,7 @@ const pythonQuiz = [
     Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
   },
-{
+  {
     Question: "Which of these is a standard GUI library in Python?",
     Answer: "Tkinter",
     Distractor1: "bs4",
