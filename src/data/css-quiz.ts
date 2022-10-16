@@ -1172,6 +1172,15 @@ const cssQuiz = [
     Distractor3: "12",
     Explanation: "3em is equivalent to 48 pixels.",
     Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+  },
+  {
+    Question: "In CSS, which pseudo-class allows you to select the last element of a specific type?",
+    Answer: ":last-of-type",
+    Distractor1: ":nth-last-child",
+    Distractor2: ":last-child",
+    Distractor3: ":last",
+    Explanation: "We can use the :last-of-type selector to target an element of a specific type within a container.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/",
   }
 ];
 
