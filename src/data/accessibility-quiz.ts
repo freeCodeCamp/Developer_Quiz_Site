@@ -42,7 +42,7 @@ const accessibilityQuiz = [
   {
     Question: "Which of the following is a good reason to have a strong contrast ratio between foreground and background colors?",
     Answer: "people with moderately low vision can read and access the website contents.",
-    Distractor1: "good contrast ratio will improve the entire web design.",
+    Distractor1: "a good contrast ratio will improve the entire web design.",
     Distractor2: "secreen readers can distinguish better between foreground and background colors",
     Distractor3: "a good contrast ratio will improve website performance and SEO.",
     Explanation:
