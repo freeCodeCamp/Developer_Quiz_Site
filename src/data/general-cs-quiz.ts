@@ -1,5 +1,16 @@
 const generalCSQuiz = [
   {
+    Question:
+      "Which of the following is true?",
+    Answer: "Divide by 8 can be implemented using bitwise operator, faster than / operator",
+    Distractor1: "Divide by 8 cannot be implemented using bitwise operator",
+    Distractor2: "Divide by 8 can be implemented using bitwise operator, however slower than / operator",
+    Distractor3: "Only upto divide by 2 can be performed using bitwise operator",
+    Explanation:
+      "When a binary number is shifted to the right 3 times, numerically it gets divided by 2^3 or 8.",
+    Link: "",
+  },
+  {
     Question: "What is Object-Oriented Programming?",
     Answer: "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
