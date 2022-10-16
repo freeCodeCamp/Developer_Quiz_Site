@@ -59,16 +59,7 @@ const accessibilityQuiz = [
       "WCAG Levels are backward compatible ie, if you comply with Level AAA,you also comply with all the requirements of Level AA and Level A",
     Link: "https://www.freecodecamp.org/news/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28/",
   },
-   {
-    Question: "According to WACG 2.0, what are the four main web accessibility principles?",
-    Answer: "Perceivable, Operable, Understandable and Robust",
-    Distractor1: "Perceivable, Operable, Responsive and Robust",
-    Distractor2: "Perceivable, Functionable, Understandable and Robust",
-    Distractor3: "Versatile, Operable, Responsive and Robust",
-    Explanation:
-      "Perceivable, Operable, Understandable and Robust are the four main web accessibility principles according to WACG 2.0",
-    Link: "https://www.w3.org/WAI/fundamentals/accessibility-principles/",
-  },
+  
 ];
 
 export default accessibilityQuiz;
