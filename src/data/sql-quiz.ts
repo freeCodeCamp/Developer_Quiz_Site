@@ -576,6 +576,17 @@ const sqlQuiz = [
       "The ROUND() function takes in two parameters(number and decimals) and rounds the number to the number of decimals specified in the 2nd parameter.",
     Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
   },
+  {
+    Question:
+      "In SQL, What does TCL stand for ",
+    Answer: " Transaction Control Language",
+    Distractor1: "Transaction controlling Language",
+    Distractor2: "Transacted Control Language",
+    Distractor3: "Transaction Console Language",
+    Explanation:
+      "Some of the Transaction Control Language commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
 ];
 
 export default sqlQuiz;
