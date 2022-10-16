@@ -56,7 +56,7 @@ const accessibilityQuiz = [
     Distractor2: "Level AA and Level AAA",
     Distractor3: "Level AAA and Level A",
     Explanation:
-      "WCAG Levels are backward compatible ie, if you comply with Level AAA,you also comply with all the requirements of Level AA and Level A",
+      "WCAG Levels are backwards compatible. If a website complies with Level AAA, then it also complies with the requirements of Level AA and Level A.",
     Link: "https://www.freecodecamp.org/news/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28/",
   },
   
