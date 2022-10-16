@@ -554,6 +554,16 @@ const sqlQuiz = [
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
+  {
+    Question:
+      "What DDL commands stands for?",
+    Answer: "Data Definition Language",
+    Distractor1:  "Data distinct Language",
+    Distractor2:  "Data Decoded Language",
+    Distractor3:  "Data Developer Language",
+    Explanation:
+      "Data Definition Language includes the set of commands that you use to perform various task related to data definition. You use DDL command to CREATE, ALTER, DROP, TRUNCATE funtions.",
+  },
 ];
 
 export default sqlQuiz;
