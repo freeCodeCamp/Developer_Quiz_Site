@@ -1248,9 +1248,9 @@ const javascriptQuiz = [
   {
     Question: "In JavaScript, what will the following code return: typeof a?",
     Answer: "undefined",
-    Distractor1: "not defined",
+    Distractor1: "string",
     Distractor2: "object",
-    Distractor3: "NaN",
+    Distractor3: "number",
     Explanation:
       "In JavaScript, if you use the typeof operator on an undeclared variable then it will return undefined. ",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
