@@ -562,7 +562,7 @@ const sqlQuiz = [
     Distractor2:  "Data Decoded Language",
     Distractor3:  "Data Developer Language",
     Explanation:
-      "Data Definition Language includes the set of commands that you use to perform various task related to data definition. You use DDL command to CREATE, ALTER, DROP, TRUNCATE funtions.",
+      "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
   },
   {
     Question:
