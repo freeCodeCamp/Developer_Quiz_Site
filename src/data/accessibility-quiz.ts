@@ -20,16 +20,6 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/WCAG2A-Conformance",
   },
   {
-    Question: "What image element (<img>) attribute is used to add alternative text to images, which describes image content to users who are using a screen reader?",
-    Answer: "alt",
-    Distractor1: "caption",
-    Distractor2: "desc",
-    Distractor3: "annotation",
-    Explanation:
-      "The 'alt' attribute makes images accessible to screen reader users. Note that the presence of an 'alt' attribute is not enough on it's own--a descriptive alt value is needed to truly embrace accessibility.",
-    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
-  },
-  {
     Question: "In general, what is the minimum contrast ratio for text and images of text under the Web Content Accessibility Guidelines (WCAG) 2.0 conformance level AA?",
     Answer: "4.5:1",
     Distractor1: "2:1",
