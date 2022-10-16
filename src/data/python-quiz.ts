@@ -5,7 +5,7 @@ const pythonQuiz = [
     Answer: "^",
     Distractor1:  "~",
     Distractor2:  "|",
-    Distractor3:  "^",
+    Distractor3:  "&",
     Explanation: 
       "The ^ operator is used in Python to perform Bitwise NOT operations.",
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
