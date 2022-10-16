@@ -40,13 +40,13 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/semantic-html5-elements/",
   },
   {
-    Question: "Which of the following reason is correct? A website should have a good contract ratio between foreground and background because",
+    Question: "Which of the following is a good reason to have a strong contrast ratio between foreground and background colors?",
     Answer: "people with moderately low vision can read and access the website contents.",
     Distractor1: "good contrast ratio will improve the entire web design.",
-    Distractor2: "secreen reader can distinguish better between foreground text and background.",
-    Distractor3: "good contrast ratio will improve website performance and SEO.",
+    Distractor2: "secreen readers can distinguish better between foreground and background colors",
+    Distractor3: "a good contrast ratio will improve website performance and SEO.",
     Explanation:
-      "Website foreground (text) needs to have sufficient contrast with background color so that people with low vision or old people can read and access the website content.",
+      "Websites that have a strong contrast ratio between background and foreground colors will allow people with low vision to better access and read the website content.",
     Link: "https://www.w3.org/WAI/tips/designing/#provide-sufficient-contrast-between-foreground-and-background",
   },
 ];
