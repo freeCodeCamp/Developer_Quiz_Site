@@ -1,5 +1,65 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which one of the following commands determines file type?",
+    Answer: "file",
+    Distractor1: "kind",
+    Distractor2: "wget",
+    Distractor3: "which",
+    Explanation:
+      "The command 'file' determines file type.",
+    Link: "https://man7.org/linux/man-pages/man1/file.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands locates the binary, source, and manual page files for a command?",
+    Answer: "whereis <command>",
+    Distractor1: "locate <command>",
+    Distractor2: "wget <command>",
+    Distractor3: "which <command>",
+    Explanation:
+      "The command 'whereis' locates the binary, source, and manual page files for a command.",
+    Link: "https://man7.org/linux/man-pages/man1/whereis.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands lists threads of a process?",
+    Answer: "ps -T -p <PID>",
+    Distractor1: "ps -ef",
+    Distractor2: "top thread <PID>",
+    Distractor3: "show_thread <PID>",
+    Explanation:
+      "The option '-p' selects the process by PID, and the option '-T' is to show threads.",
+    Link: "https://man7.org/linux/man-pages/man1/ps.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands concatenates and prints files in reverse?",
+    Answer: "tac",
+    Distractor1: "catr",
+    Distractor2: "cat_reverse",
+    Distractor3: "print_reverse",
+    Explanation:
+      "The command 'tac' prints files in reverse.",
+    Link: "https://man7.org/linux/man-pages/man1/tac.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands repeatedly outputs a line with all specified string(s) or just 'y'?",
+    Answer: "yes",
+    Distractor1: "no",
+    Distractor2: "loop",
+    Distractor3: "iterate",
+    Explanation:
+      "The command 'yes' repeatedly outputs a line with all specified string(s), or 'y'.",
+    Link: "https://man7.org/linux/man-pages/man1/yes.1.html",
+  },
+  {
+    Question: "In Linux, which one is not a communication command?",
+    Answer: "grep",
+    Distractor1: "mesg",
+    Distractor2: "mail",
+    Distractor3: "write",
+    Explanation:
+      "The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+  },
+  {
     Question:
       "Which of the following commands creates a file without opening it?",
     Answer: "touch <filename>",
@@ -830,6 +890,36 @@ const linuxQuiz = [
     Explanation:
       "KDE is a popular desktop environment which resembles the Windows user interface.",
     Link: "https://www.freecodecamp.org/news/linux-basics/",
+  },
+  {
+    Question:
+      "Which set among the following is the correct set of three types of Linux file users?",
+    Answer: "{user, group, other}",
+    Distractor1: "{whoami, users, group}",
+    Distractor2: "{whoami, user, others}",
+    Distractor3: "{user, group, all}",
+    Explanation:
+      "In Linux, there are three types of users: user, group and other.",
+  },
+  {
+    Question: "Which of the following is NOT a category of file permissions in Linux?",
+    Answer: "compile",
+    Distractor1: "execute",
+    Distractor2: "write",
+    Distractor3: "read",
+    Explanation:
+      "In Linux, file permissions fall into three categories: read, write and execute.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question: "In Linux, which command is used to find files/folders matching a particular search pattern?",
+    Answer: "find",
+    Distractor1: "who",
+    Distractor2: "which",
+    Distractor3: "search",
+    Explanation:
+      "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
 ];
 

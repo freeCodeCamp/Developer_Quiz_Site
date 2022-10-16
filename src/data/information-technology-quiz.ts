@@ -448,6 +448,17 @@ const informationTechnologyQuiz = [
       "The ALU (short for Arithmetic Logic Unit), is the part where all mathematical calculations take place, such as addition, subtraction, multiplication, and division. The ALU is also responsible for all of the logical operations for decision making, such as comparing data.",
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
   },
+  {
+    Question:
+      "Which one of these options is layer 1 in the Open Systems Interconnection (OSI) model?",
+    Answer: "The physical layer",
+    Distractor1: "The transport Layer",
+    Distractor2: "The network layer",
+    Distractor3: "The application layer",
+    Explanation:
+      "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
+    Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
+  },
 ];
 
 export default informationTechnologyQuiz;

@@ -1,5 +1,86 @@
 const generalCSQuiz = [
   {
+    Question: "What is Object-Oriented Programming?",
+    Answer: "OOP is a programming pattern that is built around objects or entities.",
+    Distractor1: "OOP is a topological paradigm to program things",
+    Distractor2: "OOP is a set of sorting algorithms",
+    Distractor3: "OOP is a list of Bitwise operators",
+    Explanation:"OOP is a programming pattern that is built around objects or entities",
+    Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
+  },
+  {
+    Question: "Which term is used for removing elements from the front of the queue?",
+    Answer: "Dequeue.",
+    Distractor1: "Enqueue.",
+    Distractor2: "Peek.",
+    Distractor3: "isFull.",
+    Explanation: "Dequeue is the term for removing elements from the front of the queue.",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-queues-a6960a3c98/",
+  },
+  {
+    Question: "Which problems are solved using Bellman Ford's Algorithm?",
+    Answer: "Single Source Shortest Path",
+    Distractor1: "All Pair Shortest Path",
+    Distractor2: "Negative Cycle Detection",
+    Distractor3: "Minimum Spanning Tree",
+    Explanation: "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights.",
+    Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/",
+  },
+  {
+    Question: "Which of the following algorithms can be used to determine a minimum spanning tree in a graph?",
+    Answer: "Boruvka's algorithm",
+    Distractor1: "Breadth first search",
+    Distractor2: "Depth first search",
+    Distractor3: "Binary search",
+    Explanation: "Boruvka's algorithm can be used to determine a minimum spanning tree in a graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1229s",
+  },
+  {
+    Question: "Which of the following is synonymous with an articulation point in a graph?",
+    Answer: "Cut vertex",
+    Distractor1: "Cut set",
+    Distractor2: "Cut edge",
+    Distractor3: "Leaf node",
+    Explanation: "In a graph, an articulation point is the same as a cut vertex.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1213s",
+  },
+  {
+    Question: "Which of the following is synonymous with a bridge in a graph?",
+    Answer: "Cut edge",
+    Distractor1: "Cut set",
+    Distractor2: "Articulation point",
+    Distractor3: "Directed edge",
+    Explanation: "In a graph, a bridge is the same as a cut edge.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1178s",
+  },
+  {
+    Question: "Which of the following statements is true for the Traveling salesman problem?",
+    Answer: "It is an NP-Hard problem.",
+    Distractor1: "It is an NP-Complete problem.",
+    Distractor2: "It is an NP problem.",
+    Distractor3: "It is a P problem.",
+    Explanation: "Traveling salesman problem is an NP-Hard problem.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1147s",
+  },
+  {
+    Question: "Which of the following algorithms can be used for the shortest path problem for an unweighted graph?",
+    Answer: "Breadth First Search",
+    Distractor1: "Binary Search",
+    Distractor2: "Ternary Search",
+    Distractor3: "Linear Search",
+    Explanation: "Breadth First Search can be used for the shortest path problem for an unweighted graph.",
+    Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=934s",
+  },
+  {
+    Question: "What is SOLID?",
+    Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
+    Distractor1: "It's a new type of Hardware",
+    Distractor2: "New kind of software",
+    Distractor3: "It's a new group of technologies",
+    Explanation: "SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link: "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+  },
+  {
     Question: "Which of the following is true for an adjacency list?",
     Answer: "Edge weight lookup is O(E).",
     Distractor1: "Edge weight lookup is O(1).",
@@ -127,7 +208,7 @@ const generalCSQuiz = [
       "Big O notation describes the upper bound. The function n upper bounds the function 2*logn. However, it is not the tightest upper bound, and in general we always specify the tightest upper bound to quantify an algorithm.",
     Link: "https://www.youtube.com/watch?v=RBSGKlAvoiM&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=5m43s",
   },
-   {
+  {
     Question:
       "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
     Answer: "Merge sort",
@@ -679,16 +760,6 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Portable_Network_Graphics",
   },
   {
-    Question: "What color would rgb(255,0,0) give?",
-    Answer: "Red",
-    Distractor1: "Green",
-    Distractor2: "Blue",
-    Distractor3: "Yellow",
-    Explanation:
-      "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
-    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
-  },
-  {
     Question: "What color would rgb(255,255,255) give?",
     Answer: "White",
     Distractor1: "Red",
@@ -1047,6 +1118,36 @@ const generalCSQuiz = [
     Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
   },
+  {
+    Question: "In which generation of computers were compilers introduced?",
+    Answer: "Third generation",
+    Distractor1: "Fourth generation",
+    Distractor2: "First generation",
+    Distractor3: "Second generation",
+    Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
+    Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
+  },
+
+  {
+    Question: "Which algorithm finds the shortest path between nodes in a graph?",
+    Answer: "Dijkstra's Algorithm",
+    Distractor1: "Rabin-Karp Algorithm",
+    Distractor2: "Binary Search Algoritm",
+    Distractor3: "Quicksort Algorithm",
+    Explanation: "Dijkstra's Algorithm can find the shortest path from a node (called the 'source node') to all other nodes in the graph, producing a shortest-path tree.",
+    Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/",
+  },
+  
+  {
+    Question: "In Banker's algorithm, which part of the computer represents the 'Banker'?",
+    Answer: "Operating System",
+    Distractor1: "RAM",
+    Distractor2: "CPU",
+    Distractor3: "Register",
+    Explanation: "Banker's algorithm is most commonly used within banking systems to help determine if resources are available to lend to customers. The operating system represents the 'Banker' because it decides the resource allocation.",
+    Link: "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
+  },
+
 ];
 
 export default generalCSQuiz;

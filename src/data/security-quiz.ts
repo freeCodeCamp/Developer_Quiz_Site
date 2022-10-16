@@ -1,27 +1,5 @@
 const securityQuiz = [
   {
-    Question:
-      "Which set among the following is the correct set of three types of Linux file users?",
-    Answer: "{user, group, other}",
-    Distractor1: "{whoami, users, group}",
-    Distractor2: "{whoami, user, others}",
-    Distractor3: "{user, group, all}",
-    Explanation:
-      "In Linux, there are three types of users: user, group and other.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
-  },
-  {
-    Question:
-      "Which of the following is NOT a category of file permissions in Linux?",
-    Answer: "compile",
-    Distractor1: "execute",
-    Distractor2: "read",
-    Distractor3: "write",
-    Explanation:
-      "In Linux, file permissions fall into three categories: read, write and execute.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
-  },
-  {
    Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
     Answer: "Scanning",
@@ -307,6 +285,19 @@ const securityQuiz = [
       "Partial Homomorphic Encryption (PHE) allows only one operation to be performed on the ciphertext an infinite number of times. This operation can be only addition or only multiplication.",
     Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
   },
+  {
+    Question:
+      "What does SSL stand for?",
+    Answer: "Secure Sockets Layer",
+    Distractor1: "Serial Sockets Layer",
+    Distractor2: "Serial Secure Layer",
+    Distractor3: "Series Socket Layer",
+    Explanation:
+      "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
+    Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
+  },
 ];
 
 export default securityQuiz;
+
+

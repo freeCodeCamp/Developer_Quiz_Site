@@ -11,8 +11,7 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/",
   },
   {
-    Question:
-      "In Git, how can you check your configuration?",
+    Question: "In Git, how can you check your configuration?",
     Answer: "git config -l",
     Distractor1: "git config -check",
     Distractor2: "git checkconfig -l",
@@ -365,6 +364,61 @@ const gitQuiz = [
     Explanation:
       "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
     Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+  },
+  {
+    Question:
+      "In Git, which command is used to reset a branch to a previous commit?",
+    Answer: "git reset",
+    Distractor1: "git revert",
+    Distractor2: "git rebase",
+    Distractor3: "git reflog",
+    Explanation:
+      "The git reset command is used to reset your current HEAD to a specified state.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/",
+  },
+  {
+    Question:
+      "In Git, how do you see your commit history including changes in files?",
+    Answer: "git log -p",
+    Distractor1: "git log --show",
+    Distractor2: "git log -c",
+    Distractor3: "git log",
+    Explanation:
+      "The git log -p command shows the commit's history including all files and their changes.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+  },
+  {
+    Question:
+      "In Git, which command is used to list all of the remote branches that Git is tracking?",
+    Answer: "git branch -r",
+    Distractor1: "git branch --show -r",
+    Distractor2: "git -b -d",
+    Distractor3: "git branch",
+    Explanation:
+      "The git branch -r command shows the name of all remote branches that Git is tracking for the current repository.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+  },
+  {
+    Question:
+      "In Git,  which command is used to choose a commit from one branch and apply it to another?",
+    Answer: "git cherry-pick <commit>",
+    Distractor1: "git write-over <commit>",
+    Distractor2: "git goto <commit>",
+    Distractor3: "git merge <commit>",
+    Explanation:
+      "git cherry-pick selects a handpicked commit from one branch and applies it to another branch.",
+    Link: "https://www.freecodecamp.org/news/the-git-cherry-pick-command/",
+  },
+  {
+    Question:
+      "In Git, what is the correct syntax for the git tag command?",
+    Answer: "git tag <tag-name>",
+    Distractor1: "git add-tag <tag-name>",
+    Distractor2: "git tag-add <tag-name>",
+    Distractor3: "git tag-on <commit>",
+    Explanation:
+      "git tags point to a specific part in the Git history and are often used to mark specific version releases in the code.",
+    Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/",
   },
 ];
 
