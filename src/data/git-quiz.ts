@@ -426,7 +426,7 @@ const gitQuiz = [
     Distractor1:  "git push -u",
     Distractor2:  "git push",
     Distractor3:  "git add fil*",
-    Explanation:
+    Explanation: 
       "This command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
