@@ -1684,7 +1684,7 @@ const javascriptQuiz = [
     Distractor2: "Depends on the order of calling",
     Distractor3: "Unpredictable",
     Explanation:
-      "Promise always has higher precendence than setTimeout. The Promise will be executed before the setTimeout, irrespective of the order in which they are called.",
+      "Promises will always have a higher precedence than setTimeout. The Promise will be executed before the setTimeout, regardless of the order in which they are called.",
     Link: "https://dmitripavlutin.com/javascript-promises-settimeout/",
   },
 ];
