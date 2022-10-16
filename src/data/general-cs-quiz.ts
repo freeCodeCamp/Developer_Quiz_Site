@@ -1147,7 +1147,16 @@ const generalCSQuiz = [
     Explanation: "Banker's algorithm is most commonly used within banking systems to help determine if resources are available to lend to customers. The operating system represents the 'Banker' because it decides the resource allocation.",
     Link: "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
   },
-
+  {
+    Question: "What is an IDE? IDE Meaning in Coding",
+    Answer: "Integrated Development Enviorment",
+    Distractor1:  "Integration Development Enviorment",
+    Distractor2:  "Integrated Developed Enviorment",
+    Distractor3:  "Integrating Development Enviorment",
+    Explanation:  "Integrated Development Enviorment is used to write these computer programs in any language, including Python, Java, and many others.",
+    Link: "https://www.freecodecamp.org/news/what-is-an-ide-for-beginners/",
+  },
+  
 ];
 
 export default generalCSQuiz;
