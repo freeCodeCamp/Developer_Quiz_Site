@@ -1,4 +1,15 @@
 const pythonQuiz = [
+  {
+    Question: 
+      "One line expression function in python is called as?",
+    Answer: "Lambda function",
+    Distractor1: "Lambda function",
+    Distractor2: "beta functions",
+    Distractor3: "Nothing",
+    Explanation: 
+      "Lambda functions are anonymous functions that can contain only one expression.",
+    Link: "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
+  },
       {
     Question: 
       "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
