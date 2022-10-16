@@ -1,14 +1,13 @@
 const agileQuiz = [
-{
-  Question:"In Agile, what is epics?",
-  Answer:"epics are a way to group those pieces of work together to represent a feature.",
-  Distractor1:"It is a big story to do",
-  Distractor2:"A big trouble to get resolved",
-  Distractor3:"Epics is typically the biggest defined piece of work on the project",
-  Explanation:" Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
-  Link:"https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
-},
-
+  {
+    Question:"In Agile, what is epics?",
+    Answer:"epics are a way to group those pieces of work together to represent a feature.",
+    Distractor1:"It is a big story to do",
+    Distractor2:"A big trouble to get resolved",
+    Distractor3:"Epics is typically the biggest defined piece of work on the project",
+    Explanation:" Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
+    Link:"https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
+  },
   {
     Question: "What are the five Scrum values?",
     Answer: "Commitment, Focus, Openness, Respect, and Courage.",
