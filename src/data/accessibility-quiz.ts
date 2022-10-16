@@ -113,6 +113,16 @@ const accessibilityQuiz = [
       "It's important to indicate the language of the page because screen readers use the document language to know how to pronounce the words on the page.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/#add-missing-document-language",
   },
+  {
+    Question: "When a website complies with Level AA of conformance, which of these levels will already be compatible?",
+    Answer: "Level A",
+    Distractor1: "Level AAA",
+    Distractor2: "Level AA and Level AAA",
+    Distractor3: "Level AAA and Level A",
+    Explanation:
+      "WCAG Levels are backwards compatible. If a website complies with Level AAA, then it also complies with the requirements of Level AA and Level A.",
+    Link: "https://www.freecodecamp.org/news/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28/",
+  },
 ];
 
 export default accessibilityQuiz;
