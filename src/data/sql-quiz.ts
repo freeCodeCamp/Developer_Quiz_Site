@@ -556,7 +556,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "What DDL commands stands for?",
+      "In SQL, what does DDL stand for ",
     Answer: "Data Definition Language",
     Distractor1:  "Data distinct Language",
     Distractor2:  "Data Decoded Language",
