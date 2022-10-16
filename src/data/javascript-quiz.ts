@@ -1786,13 +1786,13 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, What is the result if we do a typeof to NaN?",
-    Answer: "Number",
+      "In JavaScript, what is the result for typeof NaN?",
+    Answer: "number",
     Distractor1: "Object",
-    Distractor2: "Number",
+    Distractor2: "String",
     Distractor3: "Undefined ",
     Explanation:
-      "Because NaN is a property of the Number object in JS.",
+      "typeof NaN will return number because NaN is a property of the Number object in JavaScrip",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
