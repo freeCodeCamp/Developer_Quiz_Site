@@ -556,7 +556,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "Which function rounds a number to a specified number of decimal places.?",
+      "In SQL, which function rounds a number to a specified number of decimal places?",
     Answer: "ROUND()",
     Distractor1: "TRUNCATE()",
     Distractor2: "CEIL()",
