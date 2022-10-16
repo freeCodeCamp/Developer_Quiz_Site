@@ -576,6 +576,16 @@ const sqlQuiz = [
       "The ROUND() function takes in two parameters(number and decimals) and rounds the number to the number of decimals specified in the 2nd parameter.",
     Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
   },
+  {
+    Question:
+      "The best datatype to use to store a string with up to 255 characters is which of the following?",
+    Answer: "TINY TEST",
+    Distractor1: "TEXT",
+    Distractor2: "BLOB",
+    Distractor3: "BINARY",
+    Explanation:
+      "A string in TINY TEXT can be up to 255 characters or 255 bytes long.",
+  },
 ];
 
 export default sqlQuiz;
