@@ -420,6 +420,16 @@ const gitQuiz = [
       "git tags point to a specific part in the Git history and are often used to mark specific version releases in the code.",
     Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/",
   },
+  {
+    Question: "In Git, How do you force a push request?",
+    Answer: "git push -f",
+    Distractor1:  "git push -u",
+    Distractor2:  "git push",
+    Distractor3:  "git add fil*",
+    Explanation:
+      "This command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+  },
 ];
 
 export default gitQuiz;
