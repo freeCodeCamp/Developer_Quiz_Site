@@ -563,7 +563,7 @@ const sqlQuiz = [
     Distractor3: "FLOOR()",
     Explanation:
       "The ROUND() function rounds a number to a specified number of decimal places.",
-    Link: "https://www.w3schools.com/mysql/func_mysql_round.asp",
+    Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
   },
   
 ];
