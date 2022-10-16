@@ -1687,6 +1687,17 @@ const javascriptQuiz = [
       "?? is the optional nullish coalescing in JavaScript. It returns the first operand if it is not null or undefined. Otherwise, it returns the second operand.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator",
   },
+  {
+    Question:
+      "In JavaScript, which one gets higher precendence among 'setTimeout' and 'Promise' (considering zero delay)?",
+    Answer: "Promise",
+    Distractor1: "setTimeout",
+    Distractor2: "Depends on the order of calling",
+    Distractor3: "Unpredictable",
+    Explanation:
+      "Promises will always have a higher precedence than setTimeout. The Promise will be executed before the setTimeout, regardless of the order in which they are called.",
+    Link: "https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/",
+  },
 ];
 
 export default javascriptQuiz;
