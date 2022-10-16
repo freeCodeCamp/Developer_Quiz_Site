@@ -554,6 +554,18 @@ const sqlQuiz = [
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
+  {
+    Question:
+      "Which function rounds a number to a specified number of decimal places.?",
+    Answer: "ROUND()",
+    Distractor1: "TRUNCATE()",
+    Distractor2: "CEIL()",
+    Distractor3: "FLOOR()",
+    Explanation:
+      "The ROUND() function rounds a number to a specified number of decimal places.",
+    Link: "https://www.w3schools.com/mysql/func_mysql_round.asp",
+  },
+  
 ];
 
 export default sqlQuiz;
