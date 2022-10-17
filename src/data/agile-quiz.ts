@@ -1,5 +1,14 @@
 const agileQuiz = [
   {
+    Question:"In Agile, what are epics?",
+    Answer:"epics are a way to group pieces of work together to represent a feature.",
+    Distractor1:"epics are another term for scrum master",
+    Distractor2:"epics do not exist in agile",
+    Distractor3:"epics are another term for standup meetings",
+    Explanation:" Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
+    Link:"https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
+  },
+  {
     Question: "What are the five Scrum values?",
     Answer: "Commitment, Focus, Openness, Respect, and Courage.",
     Distractor1: "Commitment, Respect, Honesty, Loyalty, Truth .",
