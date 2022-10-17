@@ -928,7 +928,7 @@ const linuxQuiz = [
     Distractor2: "wordc",
     Distractor3: "lc",
     Explanation:
-      "A file's total number of lines, words, and characters can be determined with the wc command.",
+      "The wc command calculates the total number of lines, words, and characters in a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
 ];
