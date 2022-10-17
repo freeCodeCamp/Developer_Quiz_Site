@@ -922,7 +922,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "Which of the following commands is used to calculate a file's total lines, words, and characters?",
+    Question: "Which of the following Linux commands calculates the total number of lines, words, and characters in a file?",
     Answer: "wc",
     Distractor1: "wordcount",
     Distractor2: "wordc",
