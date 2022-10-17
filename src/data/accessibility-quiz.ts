@@ -134,7 +134,7 @@ const accessibilityQuiz = [
       "Styled buttons, form input labels, multiple document languages",
     Distractor3: "Missing hover text, auto-fill inputs, responsive elements",
     Explanation:
-      "WCAG's audit shows that many accessibility errors fall into just six areas/categories: low contrast text, missing alternative text for images, missing form input labels, empty links, missing document language, empty buttons.",
+      "WCAG's audit shows that many accessibility errors fall into just six areas/categories: low contrast text, missing alternative text for images, missing form input labels, empty links, missing document language, and empty buttons.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
   },
   {
