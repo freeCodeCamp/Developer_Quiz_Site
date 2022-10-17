@@ -1710,6 +1710,18 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
+  {
+    Question:
+      "Which attribute is used to specifies that the script is executed when the page has finished parsing (only for external scripts)?",
+    Answer: "defer",
+    Distractor1: "type",
+    Distractor2: "parse",
+    Distractor3: "async ",
+    Explanation:
+      "Defer attribute will make the Html to parse first, and than followed by script to download and parse",
+    Link:
+      "https://www.w3schools.com/tags/att_script_defer.asp",
+  },
 ];
 
 export default javascriptQuiz;
