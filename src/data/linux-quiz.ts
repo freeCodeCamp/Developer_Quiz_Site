@@ -1,5 +1,17 @@
 const linuxQuiz = [
   {
+    
+    Question: "Say a file named 'list' has has intial file permissions as '-rwxrwxrwx', A person wants to change its permissions using 'chmod' such that GROUP and OTHER can only read it, neither write or execute it?",
+    Answer: "chmod go-wx list",
+    Distractor1: "chmod go+wx list",
+    Distractor2: "chmod a-wx list",
+    Distractor3: "chmod go+r list",
+    Explanation:
+      "'chmod go-wx list' will make 'g' group and 'o' other, '-' remove 'w' the writing and 'x' the executing permission only",
+    Link: "https://linuxize.com/post/chmod-command-in-linux/",
+  },
+  {
+    
     Question: "In Linux, which one of the following commands determines file type?",
     Answer: "file",
     Distractor1: "kind",
