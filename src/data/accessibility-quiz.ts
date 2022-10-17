@@ -1,6 +1,17 @@
 const accessibilityQuiz = [
   {
     Question:
+      "The correct location to identify the main language of an entire page is:",
+    Answer: "On the <html> element",
+    Distractor1: "On the <!doctype> element",
+    Distractor2: "On the <body> element",
+    Distractor3: "In a <meta> element in the <head> of the document",
+    Explanation:
+      "To set the main language of the page use the lang attribute on the <html> element at the top of the page.",
+    Link: "https://www.w3.org/International/questions/qa-html-language-declarations.en.html",
+  },
+  {
+    Question:
       "What are the four principles under the Web Content Accessibility Guidelines (WCAG) 2.0?",
     Answer: "Perceivable, Operable, Understandable, and Robust",
     Distractor1: "Comprehensible, Thorough, Detectable, and Configurable",
