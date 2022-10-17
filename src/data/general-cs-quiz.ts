@@ -1202,7 +1202,7 @@ const generalCSQuiz = [
     Distractor3: "The average case for an algorithm's performance",
     Explanation:
       "Big theta is either the exact performance value of the algorithm, or a useful range between narrow upper and lower bounds.",
-    Link: "https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/#:~:text=Big%20theta%20is%20either%20the,big%2Domega%2C%20lower%20bound)",
+    Link: "https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/",
   },
 ];
 
