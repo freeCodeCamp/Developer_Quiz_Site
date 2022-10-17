@@ -1,38 +1,48 @@
 const javascriptQuiz = [
-{
-  Question:
-    "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
-  Answer: "true false",
-  Distractor1: "true true",
-  Distractor2: "false true",
-  Distractor3: "false false",
-  Explanation:
-    "== compares only the value while === compares the value as well as the type.",
-  Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/"
-},
-{
-  Question:
-    "In JavaScript, which Web API is used to display a dialog box with an optional message?",
-  Answer: "window.alert()",
-  Distractor1: "window.alertHTML()",
-  Distractor2: "window.alertContent()",
-  Distractor3: "window.alertBox()",
-  Explanation:
-    "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
-  Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
-},
-{
-   Question: 
-    "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
-  Answer: "tel",
-  Distractor1: "tellig",
-  Distractor2: "ll",
-  Distractor3: "Inigent",
-  Explanation:
-    "The slice() method returns a substring of the original string. The original string remains untouched.",
-  Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
- },
- {
+  {
+    Question: "What kind of programming can JavaScript be used for?",
+    Answer: "Both Client and Server side programming",
+    Distractor1: "Server side only",
+    Distractor2: "Client side only",
+    Distractor3: "None of these options",
+    Explanation:
+      "JavaScript is a programming language which can be used on the client and server side.",
+    Link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction#are_server-side_and_client-side_programming_the_same",
+  },
+  {
+    Question:
+      "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
+    Answer: "true false",
+    Distractor1: "true true",
+    Distractor2: "false true",
+    Distractor3: "false false",
+    Explanation:
+      "== compares only the value while === compares the value as well as the type.",
+    Link: "https://www.freecodecamp.org/news/javascript-triple-equals-sign-vs-double-equals-sign-comparison-operators-explained-with-examples/",
+  },
+  {
+    Question:
+      "In JavaScript, which Web API is used to display a dialog box with an optional message?",
+    Answer: "window.alert()",
+    Distractor1: "window.alertHTML()",
+    Distractor2: "window.alertContent()",
+    Distractor3: "window.alertBox()",
+    Explanation:
+      "In Javascript, the window.alert() method is used to display a dialog box with an optional message",
+    Link: "https://www.freecodecamp.org/news/how-to-build-a-javascript-alert-box-or-popup-window/",
+  },
+  {
+    Question:
+      "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
+    Answer: "tel",
+    Distractor1: "tellig",
+    Distractor2: "ll",
+    Distractor3: "Inigent",
+    Explanation:
+      "The slice() method returns a substring of the original string. The original string remains untouched.",
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/",
+  },
+  {
     Question:
       "In Javascript, what keyword is used to check whether a given property in an object is valid?",
     Answer: "in",
@@ -1248,9 +1258,9 @@ const javascriptQuiz = [
   {
     Question: "In JavaScript, what will the following code return: typeof a?",
     Answer: "undefined",
-    Distractor1: "not defined",
-    Distractor2: "",
-    Distractor3: "NaN",
+    Distractor1: "string",
+    Distractor2: "object",
+    Distractor3: "number",
     Explanation:
       "In JavaScript, if you use the typeof operator on an undeclared variable then it will return undefined. ",
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/",
@@ -1552,6 +1562,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
       "In JavaScript, which of the following methods will return the string representation of a number?",
     Answer: "toFixed()",
     Distractor1: "parseFloat()",
@@ -1560,6 +1581,16 @@ const javascriptQuiz = [
     Explanation:
       "The toFixed() method converts a number to a string and rounds it to a specified number of decimals.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed",
+  },
+  {
+    Question: "In JavaScript, what should be the output of 3 < 2 < 1?",
+    Answer: "true",
+    Distractor1: "false",
+    Distractor2: "syntax error",
+    Distractor3: "NaN",
+    Explanation:
+      "JavaScript will first evaluate 3 < 2 which will return false. Then JavaScript will evaluate false < 1 which will return true because false is converted to the number 0. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table",
   },
   {
     Question:
@@ -1583,9 +1614,8 @@ const javascriptQuiz = [
       "Prototypes provide the means for JavaScript objects to inherit features from other objects.",
     Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/",
   },
-   {
-    Question:
-      "In JavaScript, how many threads does code run in?",
+  {
+    Question: "In JavaScript, how many threads does code run in?",
     Answer: "Single thread",
     Distractor1: "Multiple threads",
     Distractor2: "No threads",
@@ -1593,6 +1623,92 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript is a single-threaded language because it has one call stack and memory heap.",
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/",
+  },
+  {
+    Question: "What does BOM stand for?",
+    Answer: "Browser Object Model",
+    Distractor1: "Boolean Object Manipulation",
+    Distractor2: "Browser Object Manifest",
+    Distractor3: "Backend Object Model",
+    Explanation:
+      "The Browser Object Model is a convention that refers to all objects displayed in the browser.",
+    Link: "https://en.wikipedia.org/wiki/Browser_Object_Model",
+  },
+  {
+    Question:
+      "In JavaScript, which Web API stores and retrieves data from the web browser?",
+    Answer: "localStorage",
+    Distractor1: "Array",
+    Distractor2: "Object",
+    Distractor3: "Class",
+    Explanation:
+      "localStorage is a JavaScript object that stores data as key-value pairs in a web browser with no expiration date.",
+    Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/",
+  },
+  {
+    Question: "In JavaScript, what does the .seal() method do?",
+    Answer: "Prevents new properties from being added to it.",
+    Distractor1: "Permits its prototype from being reassigned",
+    Distractor2: "Allows its existing properties to be removed",
+    Distractor3: "Prevents its existing value from being modified",
+    Explanation:
+      "JavaScript's Object.seal() method prevents the addition of new properties, removal of existing properties or the reassignment of its prototype.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/seal",
+  },
+  {
+    Question:
+      "In JavaScript, which of the following Math objects rounds a number down to the nearest whole integer?",
+    Answer: "Math.floor()",
+    Distractor1: "Math.ceil()",
+    Distractor2: "Math.round()",
+    Distractor3: "Math.abs()",
+    Explanation:
+      "Math.floor() is a JavaScript method that rounds a number down to the nearest whole number or integer.",
+    Link: "https://www.freecodecamp.org/news/math-in-javascript/",
+  },
+  {
+    Question:
+      "In JavaScript, what is it called when an event is triggered on a target element and subsequent parent elements?",
+    Answer: "Event bubbling",
+    Distractor1: "Event propagation",
+    Distractor2: "Event capturing",
+    Distractor3: "Event handling",
+    Explanation:
+      "Event bubbling is an event propagation method that starts with the element that triggered the event and then bubbles up to its parent elements in their respective hierarchy.",
+    Link: "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/",
+  },
+  {
+    Question: "In JavaScript, what is the nullish coalescing operator?",
+    Answer: "??",
+    Distractor1: "?.",
+    Distractor2: "&&",
+    Distractor3: "**",
+    Explanation:
+      "?? is the optional nullish coalescing in JavaScript. It returns the first operand if it is not null or undefined. Otherwise, it returns the second operand.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator",
+  },
+  {
+    Question:
+      "In JavaScript, which one gets higher precendence among 'setTimeout' and 'Promise' (considering zero delay)?",
+    Answer: "Promise",
+    Distractor1: "setTimeout",
+    Distractor2: "Depends on the order of calling",
+    Distractor3: "Unpredictable",
+    Explanation:
+      "Promises will always have a higher precedence than setTimeout. The Promise will be executed before the setTimeout, regardless of the order in which they are called.",
+    Link: "https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/",
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for typeof NaN?",
+    Answer: "number",
+    Distractor1: "Object",
+    Distractor2: "String",
+    Distractor3: "Undefined ",
+    Explanation:
+      "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
 ];
 

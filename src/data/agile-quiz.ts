@@ -1,20 +1,32 @@
 const agileQuiz = [
   {
+    Question:"In Agile, what are epics?",
+    Answer:"epics are a way to group pieces of work together to represent a feature.",
+    Distractor1:"epics are another term for scrum master",
+    Distractor2:"epics do not exist in agile",
+    Distractor3:"epics are another term for standup meetings",
+    Explanation:" Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
+    Link:"https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
+  },
+  {
     Question: "What are the five Scrum values?",
     Answer: "Commitment, Focus, Openness, Respect, and Courage.",
     Distractor1: "Commitment, Respect, Honesty, Loyalty, Truth .",
     Distractor2: "Focus, Loyalty, Courage, Patience, Openness.",
     Distractor3: "Openess, Commitment, Honesty, Discipline, Patience.",
-    Explanation: "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
+    Explanation:
+      "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
     Link: "https://scrumguides.org/scrum-guide.html",
   },
   {
     Question: "In Agile, when might a Sprint be abnormally cancelled?",
     Answer: "When the Sprint Goal becomes obsolete.",
-    Distractor1: "When it becomes clear that not everything will be finished by the end of the Sprint.",
+    Distractor1:
+      "When it becomes clear that not everything will be finished by the end of the Sprint.",
     Distractor2: "When the Developers feel that the work is too hard.",
     Distractor3: "When the sales department has an important new opportunity.",
-    Explanation: "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
+    Explanation:
+      "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
     Link: "https://scrumguides.org/scrum-guide.html",
   },
   {
@@ -174,19 +186,20 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
   {
-    Question:
-      "In Agile, what is Planning Poker?",
-    Answer: "It is used to estimate the development effort required for a user story or a feature",
+    Question: "In Agile, what is Planning Poker?",
+    Answer:
+      "It is used to estimate the development effort required for a user story or a feature",
     Distractor1: "It is used for the elaboration of the backlog",
-    Distractor2: "It is used to estimate the development cost needed for a user story or feature",
-    Distractor3: "It is used to estimate what would be development in each user story",
+    Distractor2:
+      "It is used to estimate the development cost needed for a user story or feature",
+    Distractor3:
+      "It is used to estimate what would be development in each user story",
     Explanation:
       "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
   {
-    Question:
-      "What types of environments work best for Agile principles?",
+    Question: "What types of environments work best for Agile principles?",
     Answer: "It works great in dynamic environments.",
     Distractor1: "It works great in static environments.",
     Distractor2: "It works great in customer environments.",
@@ -196,8 +209,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
   },
   {
-  Question:
-      "In Agile, which of the following options is a high priority?",
+    Question: "In Agile, which of the following options is a high priority?",
     Answer: "Working software",
     Distractor1: "Comprehensive documentation",
     Distractor2: "Processes and tools",
@@ -207,8 +219,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
   },
   {
-    Question:
-      "In Agile, what is Timeboxing?",
+    Question: "In Agile, what is Timeboxing?",
     Answer: "set amount of time for an activity to occur",
     Distractor1: "It's a new Agile framework",
     Distractor2: "Not related to Agile",
@@ -216,6 +227,20 @@ const agileQuiz = [
     Explanation:
       "In Agile, Timeboxing is a set amount of time for a planned activity to take place. This technique is often used in project management to help with productivity for projects. ",
     Link: "https://en.wikipedia.org/wiki/Timeboxing",
+  },
+  {
+    Question: "In Agile, what are Story Points?",
+    Answer:
+      "An estimate of the amount of effort required to deliver a user story",
+    Distractor1:
+      "An estimate of the amount of sprints required to deliver a user story",
+    Distractor2:
+      "An estimate of the amount of days required to deliver a user story",
+    Distractor3:
+      "An estimate of the amount of hours required to deliver a user story",
+    Explanation:
+      "Story points are used to estimate the amount of effort required to deliver a user story for a project.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
   },
 ];
 
