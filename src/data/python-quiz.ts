@@ -1,6 +1,17 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, what are anonymous functions called?",
+    Answer: "Lambda function",
+    Distractor1: "Type function",
+    Distractor2: "beta functions",
+    Distractor3: "Sorted Function",
+    Explanation: 
+      "Lambda functions are anonymous functions that can contain only one expression.",
+    Link: "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
+  },
+  {
+    Question: 
       "In Python, which operator is used to perform Bitwise XOR operations?",
     Answer: "^",
     Distractor1:  "~",
@@ -10,7 +21,7 @@ const pythonQuiz = [
       "The ^ operator is used in Python to perform Bitwise NOT operations.",
     Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
   },
-      {
+  {
     Question: 
       "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
     Answer: "<class 'str'>",
@@ -20,8 +31,8 @@ const pythonQuiz = [
     Explanation: 
       "Python's type() method returns the class type for the object.",
     Link: "https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/",
-  },
-     {
+   },
+   {
     Question: 
       "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
     Answer: "-2",
@@ -31,8 +42,8 @@ const pythonQuiz = [
     Explanation: 
       "Lists can have duplicate items while Sets only contain unique items.",
     Link: "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
-  },
-    {
+   },
+   {
     Question: 
       "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
     Answer: "free code camp",
