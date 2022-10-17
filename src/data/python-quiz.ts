@@ -1,7 +1,7 @@
 const pythonQuiz = [
   {
     Question: 
-      "One line expression function in python is called as?",
+      "In Python, what are anonymous functions called?",
     Answer: "Lambda function",
     Distractor1: "Type function",
     Distractor2: "beta functions",
