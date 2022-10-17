@@ -3,7 +3,7 @@ const agileQuiz = [
     Question:"In Agile, what are epics?",
     Answer:"epics are a way to group pieces of work together to represent a feature.",
     Distractor1:"epics are another term for scrum master",
-    Distractor2:"A big trouble to get resolved",
+    Distractor2:"epics do not exist in agile",
     Distractor3:"Epics is typically the biggest defined piece of work on the project",
     Explanation:" Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
     Link:"https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
