@@ -109,6 +109,17 @@ const qualityAssuranceQuiz = [
       "In system testing, the quality assurance team evaluates how each component of the application/software work together in a full, integrated environment.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
   },
+   {
+    Question:
+      "Which of the following is not a SQA plan for a project?",
+    Answer: "amount of technical work",
+    Distractor1: "evaluations to be performed",
+    Distractor2: "audits and reviews to be performed",
+    Distractor3: "documents to be produced by the SQA group",
+    Explanation:
+      "Software Quality Assurance (SQA) is simply a way to assure quality in the software. The amount of technical work is not included in its plan.",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+  },
 ];
 
 export default qualityAssuranceQuiz;
