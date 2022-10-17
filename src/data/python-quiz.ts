@@ -1480,7 +1480,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-how-to-use-tkinter-to-create-guis-in-python/",
   },
   {
-    Question: "What will be the output of command, round(0.6)-round(-0.6)?",
+    Question: "In Python, what will be the output for the following code: print(round(0.6)-round(-0.6))?",
     Answer: "2",
     Distractor1: "0",
     Distractor2: "1",
