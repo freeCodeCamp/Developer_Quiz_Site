@@ -578,6 +578,17 @@ const sqlQuiz = [
   },
   {
     Question:
+      "In SQL, which data type is used to store a string with up to 255 characters?",
+    Answer: "TINYTEXT",
+    Distractor1: "STRING",
+    Distractor2: "BLOB",
+    Distractor3: "BINARY",
+    Explanation:
+      "TINYTEXT can store up to 255 bytes and can be used for text like captions or summaries.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+  },
+  {
+    Question:
       "In SQL, what does TCL stand for?",
     Answer: " Transaction Control Language",
     Distractor1: "Transaction controlling Language",

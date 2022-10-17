@@ -109,7 +109,7 @@ const qualityAssuranceQuiz = [
       "In system testing, the quality assurance team evaluates how each component of the application/software work together in a full, integrated environment.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
   },
-   {
+  {
     Question:
       "Which of the following is not a SQA plan for a project?",
     Answer: "amount of technical work",
@@ -119,6 +119,17 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Software Quality Assurance (SQA) is simply a way to assure quality in the software. The amount of technical work is not included in its plan.",
     Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+  },
+  {
+    Question:
+      "What does the term TDD stand for?",
+    Answer: "Test-Driven Development",
+    Distractor1:  "Test-Driving Development",
+    Distractor2:  "Test-Distributing Development",
+    Distractor3:  "Test-Distinct Development",
+    Explanation:  
+      "Test-driven development is the act of first deciding what you want your program to do (the specifications), formulating a failing test, then writing the code to make that test pass.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/",
   },
 ];
 

@@ -296,6 +296,17 @@ const securityQuiz = [
       "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
     Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
   },
+    {
+    Question:
+      "What does IPFS stand for?",
+    Answer: "InterPlanetary File System",
+    Distractor1: "Internet Public File System",
+    Distractor2: "Internet Protocol File Sharing",
+    Distractor3: "Inter Peer File Sharing",
+    Explanation:
+      "The InterPlanetary File System is a protocol that stores and shares content and is meant to make the web faster and safer to use.",
+    Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/",
+  },
 ];
 
 export default securityQuiz;
