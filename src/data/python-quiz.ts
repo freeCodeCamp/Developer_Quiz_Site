@@ -1,5 +1,49 @@
 const pythonQuiz = [
-    {
+  {
+    Question: 
+      "In Python, what are anonymous functions called?",
+    Answer: "Lambda function",
+    Distractor1: "Type function",
+    Distractor2: "beta functions",
+    Distractor3: "Sorted Function",
+    Explanation: 
+      "Lambda functions are anonymous functions that can contain only one expression.",
+    Link: "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise XOR operations?",
+    Answer: "^",
+    Distractor1:  "~",
+    Distractor2:  "|",
+    Distractor3:  "&",
+    Explanation: 
+      "The ^ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
+    Answer: "<class 'str'>",
+    Distractor1: "<class 'char'>",
+    Distractor2: "<class 'var'>",
+    Distractor3: "error",
+    Explanation: 
+      "Python's type() method returns the class type for the object.",
+    Link: "https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/",
+   },
+   {
+    Question: 
+      "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
+    Answer: "-2",
+    Distractor1: "2",
+    Distractor2: "0",
+    Distractor3: "6",
+    Explanation: 
+      "Lists can have duplicate items while Sets only contain unique items.",
+    Link: "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
+   },
+   {
     Question: 
       "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
     Answer: "free code camp",
@@ -1426,7 +1470,15 @@ const pythonQuiz = [
     Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
   },
-
+  {
+    Question: "Which of these is a standard GUI library in Python?",
+    Answer: "Tkinter",
+    Distractor1: "bs4",
+    Distractor2: "Selenium",
+    Distractor3: "Regex",
+    Explanation: "Tkinter provides an object-oriented interface to the Tk GUI toolkit that is built-in to Python.",
+    Link: "https://www.freecodecamp.org/news/learn-how-to-use-tkinter-to-create-guis-in-python/",
+  },
 ];
 
 export default pythonQuiz;

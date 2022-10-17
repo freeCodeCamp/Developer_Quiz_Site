@@ -1,5 +1,55 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which one of the following commands determines file type?",
+    Answer: "file",
+    Distractor1: "kind",
+    Distractor2: "wget",
+    Distractor3: "which",
+    Explanation:
+      "The command 'file' determines file type.",
+    Link: "https://man7.org/linux/man-pages/man1/file.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands locates the binary, source, and manual page files for a command?",
+    Answer: "whereis <command>",
+    Distractor1: "locate <command>",
+    Distractor2: "wget <command>",
+    Distractor3: "which <command>",
+    Explanation:
+      "The command 'whereis' locates the binary, source, and manual page files for a command.",
+    Link: "https://man7.org/linux/man-pages/man1/whereis.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands lists threads of a process?",
+    Answer: "ps -T -p <PID>",
+    Distractor1: "ps -ef",
+    Distractor2: "top thread <PID>",
+    Distractor3: "show_thread <PID>",
+    Explanation:
+      "The option '-p' selects the process by PID, and the option '-T' is to show threads.",
+    Link: "https://man7.org/linux/man-pages/man1/ps.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands concatenates and prints files in reverse?",
+    Answer: "tac",
+    Distractor1: "catr",
+    Distractor2: "cat_reverse",
+    Distractor3: "print_reverse",
+    Explanation:
+      "The command 'tac' prints files in reverse.",
+    Link: "https://man7.org/linux/man-pages/man1/tac.1.html",
+  },
+  {
+    Question: "In Linux, which one of the following commands repeatedly outputs a line with all specified string(s) or just 'y'?",
+    Answer: "yes",
+    Distractor1: "no",
+    Distractor2: "loop",
+    Distractor3: "iterate",
+    Explanation:
+      "The command 'yes' repeatedly outputs a line with all specified string(s), or 'y'.",
+    Link: "https://man7.org/linux/man-pages/man1/yes.1.html",
+  },
+  {
     Question: "In Linux, which one is not a communication command?",
     Answer: "grep",
     Distractor1: "mesg",
@@ -860,6 +910,16 @@ const linuxQuiz = [
     Explanation:
       "In Linux, file permissions fall into three categories: read, write and execute.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    Question: "In Linux, which command is used to find files/folders matching a particular search pattern?",
+    Answer: "find",
+    Distractor1: "who",
+    Distractor2: "which",
+    Distractor3: "search",
+    Explanation:
+      "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
 ];
 

@@ -554,6 +554,28 @@ const sqlQuiz = [
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
+  {
+    Question:
+      "In SQL, what does DDL stand for ",
+    Answer: "Data Definition Language",
+    Distractor1:  "Data distinct Language",
+    Distractor2:  "Data Decoded Language",
+    Distractor3:  "Data Developer Language",
+    Explanation:
+      "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
+  {
+    Question:
+      "In SQL, which function rounds a number to a specified number of decimal places?",
+    Answer: "ROUND()",
+    Distractor1: "TRUNCATE()",
+    Distractor2: "CEIL()",
+    Distractor3: "FLOOR()",
+    Explanation:
+      "The ROUND() function takes in two parameters(number and decimals) and rounds the number to the number of decimals specified in the 2nd parameter.",
+    Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
+  },
 ];
 
 export default sqlQuiz;
