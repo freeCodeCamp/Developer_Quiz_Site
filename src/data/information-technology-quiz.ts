@@ -6,7 +6,7 @@ const informationTechnologyQuiz = [
     Distractor2: "Micro-ATX Architecture",
     Distractor3: "CPU-GPU Architecture",
     Explanation: "John Von Neumann is the creator of the modern computer architecture",
-    Link:"https://www.bbc.co.uk/bitesize/guides/zhppfcw/revision/3"
+    Link:"https://en.wikipedia.org/wiki/Von_Neumann_architecture"
   },
   {
     Question: "Which of the following validates the integrity of data?",
