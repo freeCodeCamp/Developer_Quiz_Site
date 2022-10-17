@@ -1,11 +1,11 @@
 const generalCSQuiz = [
   {
-    Question: "Which of the following is not an inplace sorting algorithm?",
+    Question: "Which of the following is NOT an in-place sorting algorithm?",
     Answer: "Merge Sort",
     Distractor1: "Bubble sort",
     Distractor2: "Insertion sort",
     Distractor3: "Quick sort",
-    Explanation:"An inplace sorting algo uses no auxiliary space to process output",
+    Explanation:"Merge sort uses the Divide and Conquer paradigm and is not considered an in-place sorting algorithm.",
     Link: "https://en.wikipedia.org/wiki/In-place_algorithm"
   },
   {
