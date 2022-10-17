@@ -111,7 +111,7 @@ const qualityAssuranceQuiz = [
   },
   {
     Question:
-      "What do the term TDD stand for?",
+      "What does the term TDD stand for?",
     Answer: "Test-Driven Development",
     Distractor1:  "Test-Driving Development",
     Distractor2:  "Test-Distributing Development",
