@@ -585,6 +585,16 @@ const sqlQuiz = [
     Distractor3: "BINARY",
     Explanation:
       "TINYTEXT can store up to 255 bytes and can be used for text like captions or summaries.",
+      Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+      },
+      "In SQL, what does TCL stand for?",
+    Answer: " Transaction Control Language",
+    Distractor1: "Transaction controlling Language",
+    Distractor2: "Transacted Control Language",
+    Distractor3: "Transaction Console Language",
+    Explanation:
+      "Some of the Transaction Control Language commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   },
 ];
 

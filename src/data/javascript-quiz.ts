@@ -1698,6 +1698,18 @@ const javascriptQuiz = [
       "Promises will always have a higher precedence than setTimeout. The Promise will be executed before the setTimeout, regardless of the order in which they are called.",
     Link: "https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/",
   },
+  {
+    Question:
+      "In JavaScript, what is the result for typeof NaN?",
+    Answer: "number",
+    Distractor1: "Object",
+    Distractor2: "String",
+    Distractor3: "Undefined ",
+    Explanation:
+      "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+  },
 ];
 
 export default javascriptQuiz;
