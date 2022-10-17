@@ -1562,6 +1562,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what type of value is an Array?",
+    Answer: "Object",
+    Distractor1: "Array",
+    Distractor2: "Map",
+    Distractor3: "Set",
+    Explanation:
+      "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+   },
+   {
+    Question:
       "In JavaScript, which of the following methods will return the string representation of a number?",
     Answer: "toFixed()",
     Distractor1: "parseFloat()",
@@ -1675,6 +1686,29 @@ const javascriptQuiz = [
     Explanation:
       "?? is the optional nullish coalescing in JavaScript. It returns the first operand if it is not null or undefined. Otherwise, it returns the second operand.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator",
+  },
+  {
+    Question:
+      "In JavaScript, which one gets higher precendence among 'setTimeout' and 'Promise' (considering zero delay)?",
+    Answer: "Promise",
+    Distractor1: "setTimeout",
+    Distractor2: "Depends on the order of calling",
+    Distractor3: "Unpredictable",
+    Explanation:
+      "Promises will always have a higher precedence than setTimeout. The Promise will be executed before the setTimeout, regardless of the order in which they are called.",
+    Link: "https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/",
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for typeof NaN?",
+    Answer: "number",
+    Distractor1: "Object",
+    Distractor2: "String",
+    Distractor3: "Undefined ",
+    Explanation:
+      "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
 ];
 
