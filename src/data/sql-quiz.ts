@@ -578,7 +578,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "In SQL, What does TCL stand for ",
+      "In SQL, what does TCL stand for?",
     Answer: " Transaction Control Language",
     Distractor1: "Transaction controlling Language",
     Distractor2: "Transacted Control Language",
