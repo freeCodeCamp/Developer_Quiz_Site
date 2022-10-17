@@ -584,7 +584,7 @@ const sqlQuiz = [
     Distractor2: "BLOB",
     Distractor3: "BINARY",
     Explanation:
-      "A string in TINY TEXT can be up to 255 characters or 255 bytes long.",
+      "TINYTEXT can store up to 255 bytes and can be used for text like captions or summaries.",
   },
 ];
 
