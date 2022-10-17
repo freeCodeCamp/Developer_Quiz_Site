@@ -1,4 +1,15 @@
 const pythonQuiz = [
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise XOR operations?",
+    Answer: "^",
+    Distractor1:  "~",
+    Distractor2:  "|",
+    Distractor3:  "&",
+    Explanation: 
+      "The ^ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
       {
     Question: 
       "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
