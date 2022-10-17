@@ -587,6 +587,17 @@ const sqlQuiz = [
       "Some of the Transaction Control Language commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   },
+  {
+    Question:
+      "In SQL, what constraint is used to limit the value range that can be placed in a column.?",
+    Answer: "CHECK constraint",
+    Distractor1:  "SELECT",
+    Distractor2:  "WHERE",
+    Distractor3:  "JOIN",
+    Explanation:
+      "In SQL The CHECK constraint ensures that you can not have any person below 18 years.it can limit the values in certain columns based on values in other columns in the row.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
 ];
 
 export default sqlQuiz;
