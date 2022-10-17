@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which of the following is NOT an in-place sorting algorithm?",
+    Answer: "Merge Sort",
+    Distractor1: "Bubble sort",
+    Distractor2: "Insertion sort",
+    Distractor3: "Quick sort",
+    Explanation:"Merge sort uses the Divide and Conquer paradigm and is not considered an in-place sorting algorithm.",
+    Link: "https://en.wikipedia.org/wiki/In-place_algorithm"
+  },
+  {
     Question: "What is Object-Oriented Programming?",
     Answer: "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
