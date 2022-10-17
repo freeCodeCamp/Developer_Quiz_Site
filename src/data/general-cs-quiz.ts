@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Can we call main function recursively?",
+    Answer: "Yes, using static variable.",
+    Distractor1: "No, we can't call function main recursively.",
+    Distractor2: "Yes, using volatile variable.",
+    Distractor3: "none of the above.",
+    Explanation:"Static variables retain their value even after function gets executed, hence we can call main function recursively using static variables.",
+    Link: "https://en.wikipedia.org/wiki/Static_variable#:~:text=In%20computer%20programming%2C%20a%20static,entire%20run%20of%20the%20program."
+  },
+  {
     Question: "What is Object-Oriented Programming?",
     Answer: "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
