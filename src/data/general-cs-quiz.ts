@@ -1,14 +1,14 @@
 const generalCSQuiz = [
   {
     Question:
-      "Which of the following is true?",
-    Answer: "Divide by 8 can be implemented using bitwise operator, faster than / operator",
-    Distractor1: "Divide by 8 cannot be implemented using bitwise operator",
-    Distractor2: "Divide by 8 can be implemented using bitwise operator, however slower than / operator",
-    Distractor3: "Only upto divide by 2 can be performed using bitwise operator",
+      "Which of the following is true regarding division and the bitwise operator?",
+    Answer: "Dividing a number by 8 using the bitwise operator is faster than using the / operator",
+    Distractor1: "Dividing a number by 8 cannot be implemented using bitwise operator",
+    Distractor2: "Dividing a number by 8 using the bitwise operator is slower than using the / operator",
+    Distractor3: "none of the following options are true",
     Explanation:
-      "When a binary number is shifted to the right 3 times, numerically it gets divided by 2^3 or 8.",
-    Link: "",
+      "When a binary number is shifted to the right 3 times, it will be divided by 8.",
+    Link: "https://forum.freecodecamp.org/t/javascript-bitwise-operators-explained-with-examples/16153",
   },
   {
     Question: "What is Object-Oriented Programming?",
