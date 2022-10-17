@@ -1,20 +1,24 @@
 const generalCSQuiz = [
   {
     Question: "What is Object-Oriented Programming?",
-    Answer: "OOP is a programming pattern that is built around objects or entities.",
+    Answer:
+      "OOP is a programming pattern that is built around objects or entities.",
     Distractor1: "OOP is a topological paradigm to program things",
     Distractor2: "OOP is a set of sorting algorithms",
     Distractor3: "OOP is a list of Bitwise operators",
-    Explanation:"OOP is a programming pattern that is built around objects or entities",
-    Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
+    Explanation:
+      "OOP is a programming pattern that is built around objects or entities",
+    Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/",
   },
   {
-    Question: "Which term is used for removing elements from the front of the queue?",
+    Question:
+      "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
     Distractor1: "Enqueue.",
     Distractor2: "Peek.",
     Distractor3: "isFull.",
-    Explanation: "Dequeue is the term for removing elements from the front of the queue.",
+    Explanation:
+      "Dequeue is the term for removing elements from the front of the queue.",
     Link: "https://www.freecodecamp.org/news/data-structures-101-queues-a6960a3c98/",
   },
   {
@@ -23,25 +27,30 @@ const generalCSQuiz = [
     Distractor1: "All Pair Shortest Path",
     Distractor2: "Negative Cycle Detection",
     Distractor3: "Minimum Spanning Tree",
-    Explanation: "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights.",
+    Explanation:
+      "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights.",
     Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/",
   },
   {
-    Question: "Which of the following algorithms can be used to determine a minimum spanning tree in a graph?",
+    Question:
+      "Which of the following algorithms can be used to determine a minimum spanning tree in a graph?",
     Answer: "Boruvka's algorithm",
     Distractor1: "Breadth first search",
     Distractor2: "Depth first search",
     Distractor3: "Binary search",
-    Explanation: "Boruvka's algorithm can be used to determine a minimum spanning tree in a graph.",
+    Explanation:
+      "Boruvka's algorithm can be used to determine a minimum spanning tree in a graph.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1229s",
   },
   {
-    Question: "Which of the following is synonymous with an articulation point in a graph?",
+    Question:
+      "Which of the following is synonymous with an articulation point in a graph?",
     Answer: "Cut vertex",
     Distractor1: "Cut set",
     Distractor2: "Cut edge",
     Distractor3: "Leaf node",
-    Explanation: "In a graph, an articulation point is the same as a cut vertex.",
+    Explanation:
+      "In a graph, an articulation point is the same as a cut vertex.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1213s",
   },
   {
@@ -54,7 +63,8 @@ const generalCSQuiz = [
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1178s",
   },
   {
-    Question: "Which of the following statements is true for the Traveling salesman problem?",
+    Question:
+      "Which of the following statements is true for the Traveling salesman problem?",
     Answer: "It is an NP-Hard problem.",
     Distractor1: "It is an NP-Complete problem.",
     Distractor2: "It is an NP problem.",
@@ -63,22 +73,26 @@ const generalCSQuiz = [
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=1147s",
   },
   {
-    Question: "Which of the following algorithms can be used for the shortest path problem for an unweighted graph?",
+    Question:
+      "Which of the following algorithms can be used for the shortest path problem for an unweighted graph?",
     Answer: "Breadth First Search",
     Distractor1: "Binary Search",
     Distractor2: "Ternary Search",
     Distractor3: "Linear Search",
-    Explanation: "Breadth First Search can be used for the shortest path problem for an unweighted graph.",
+    Explanation:
+      "Breadth First Search can be used for the shortest path problem for an unweighted graph.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=934s",
   },
   {
     Question: "What is SOLID?",
-    Answer: "SOLID is an acronym which represents five principles of Object-Oriented design.",
+    Answer:
+      "SOLID is an acronym which represents five principles of Object-Oriented design.",
     Distractor1: "It's a new type of Hardware",
     Distractor2: "New kind of software",
     Distractor3: "It's a new group of technologies",
-    Explanation: "SOLID is a set of rules and best practices to follow while creating OOP designs.",
-    Link: "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/"
+    Explanation:
+      "SOLID is a set of rules and best practices to follow while creating OOP designs.",
+    Link: "https://www.freecodecamp.org/news/solid-principles-explained-in-plain-english/",
   },
   {
     Question: "Which of the following is true for an adjacency list?",
@@ -86,7 +100,8 @@ const generalCSQuiz = [
     Distractor1: "Edge weight lookup is O(1).",
     Distractor2: "Edge weight cannot be specified in adjacency list.",
     Distractor3: "It cannot be used to represent a cyclic graph.",
-    Explanation: "In an adjacency list, for each node only adjacent nodes are stored in a list",
+    Explanation:
+      "In an adjacency list, for each node only adjacent nodes are stored in a list",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=682s",
   },
   {
@@ -101,19 +116,26 @@ const generalCSQuiz = [
   {
     Question: "Which of the following is true for a graph?",
     Answer: "A graph is bipartite if and only if it is two colourable.",
-    Distractor1: "A graph is bipartite if and only if it does not contain an even length cycle.",
+    Distractor1:
+      "A graph is bipartite if and only if it does not contain an even length cycle.",
     Distractor2: "A graph is bipartite if and only if it is three colourable.",
-    Distractor3: "A graph is bipartite if and only if it is a directed acyclic graph",
-    Explanation: "If a graph is two colourable then the nodes with same colour can be grouped together to form two different groups.",
+    Distractor3:
+      "A graph is bipartite if and only if it is a directed acyclic graph",
+    Explanation:
+      "If a graph is two colourable then the nodes with same colour can be grouped together to form two different groups.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=440s",
   },
   {
-    Question: "Which of the following is true for an arborescence in graph theory?",
-    Answer: "All arborescence are Directed Acyclic Graphs (DAGs) but not all DAGs are arborescence",
+    Question:
+      "Which of the following is true for an arborescence in graph theory?",
+    Answer:
+      "All arborescence are Directed Acyclic Graphs (DAGs) but not all DAGs are arborescence",
     Distractor1: "All DAGs are arborescence but not all arborescence are DAGs.",
     Distractor2: "A strongly connected and directed graph is an arborescence.",
-    Distractor3: "A graph where the number of edges is twice the number of nodes is arborescence.",
-    Explanation: "An arborescence is a directed tree. Hence, it is a directed graph with no cycle. A graph with 4 nodes where three nodes are pointing towards a single node is not an arborescence but a DAG.",
+    Distractor3:
+      "A graph where the number of edges is twice the number of nodes is arborescence.",
+    Explanation:
+      "An arborescence is a directed tree. Hence, it is a directed graph with no cycle. A graph with 4 nodes where three nodes are pointing towards a single node is not an arborescence but a DAG.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=346s",
   },
   {
@@ -121,17 +143,21 @@ const generalCSQuiz = [
     Answer: "A rooted tree in which all edges point away from the root",
     Distractor1: "A graph having cycles",
     Distractor2: "A strongly connected and directed graph",
-    Distractor3: "A graph where the number of edges is twice the number of nodes",
-    Explanation: "A tree is rooted if the tree has a designated node called root node such that all edges either points towards the root or points away from the root. And if all edges point away from the root then it is called arborescence.",
+    Distractor3:
+      "A graph where the number of edges is twice the number of nodes",
+    Explanation:
+      "A tree is rooted if the tree has a designated node called root node such that all edges either points towards the root or points away from the root. And if all edges point away from the root then it is called arborescence.",
     Link: "https://www.youtube.com/watch?v=09_LlHjoEiY&list=PLWKjhJtqVAbn5emQ3RRG8gEBqkhf_5vxD&t=346s",
   },
   {
-    Question: "What is the term for when data is being pushed onto a full stack?",
+    Question:
+      "What is the term for when data is being pushed onto a full stack?",
     Answer: "Stack Overflow",
     Distractor1: "Underflow",
     Distractor2: "Garbage Collection",
     Distractor3: "Empty collection",
-    Explanation: "Stack Overflow happens when there is an attempt to push data on an already full stack.",
+    Explanation:
+      "Stack Overflow happens when there is an attempt to push data on an already full stack.",
     Link: "https://www.freecodecamp.org/news/data-structures-101-stacks-696b3282980/",
   },
   {
@@ -212,7 +238,8 @@ const generalCSQuiz = [
     Question:
       "Between Merge sort and Quicksort, which sorting algorithm works faster in the case of larger datasets?",
     Answer: "Merge sort",
-    Distractor1: "testing on speed between the two algorithms has been inconclusive on which one is faster",
+    Distractor1:
+      "testing on speed between the two algorithms has been inconclusive on which one is faster",
     Distractor2: "Quicksort",
     Distractor3: "Both",
     Explanation:
@@ -1091,7 +1118,8 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/introduction-to-computer-programming-and-computer-science-course/",
   },
   {
-    Question: "What is the best case time complexity for the merge sort algorithm?",
+    Question:
+      "What is the best case time complexity for the merge sort algorithm?",
     Answer: "O(n*log(n))",
     Distractor1: "O(n^2)",
     Distractor2: "O(log(n))",
@@ -1105,8 +1133,10 @@ const generalCSQuiz = [
     Answer: "Linked lists helps in faster insertions and deletions than arrays",
     Distractor1: "Memory usage in linked lists is less than arrays",
     Distractor2: "Reverse traversal is possible in singly linked lists",
-    Distractor3: "Random accessing elements is easier in linked lists than arrays",
-    Explanation: "Linked lists have quicker insertions and deletions than arrays because there is no need to shift all other elements with lists.",
+    Distractor3:
+      "Random accessing elements is easier in linked lists than arrays",
+    Explanation:
+      "Linked lists have quicker insertions and deletions than arrays because there is no need to shift all other elements with lists.",
     Link: "https://www.freecodecamp.org/news/data-structures-101-linked-lists-254c82cf5883/",
   },
   {
@@ -1115,7 +1145,8 @@ const generalCSQuiz = [
     Distractor1: "Merge Sort",
     Distractor2: "Insertion Sort",
     Distractor3: "Selection Sort",
-    Explanation: "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
+    Explanation:
+      "If the list is nearly sorted, then Bubble Sort is a good choice because it will sort the data with only a few passes of the array.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/",
   },
   {
@@ -1124,30 +1155,46 @@ const generalCSQuiz = [
     Distractor1: "Fourth generation",
     Distractor2: "First generation",
     Distractor3: "Second generation",
-    Explanation: "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
+    Explanation:
+      "Translators called compilers were introduced in third generation to translate the code programmers wrote to machine executable binary code.",
     Link: "https://www.freecodecamp.org/news/computer-coding-computer-program-definition-and-code-meaning/",
   },
 
   {
-    Question: "Which algorithm finds the shortest path between nodes in a graph?",
+    Question:
+      "Which algorithm finds the shortest path between nodes in a graph?",
     Answer: "Dijkstra's Algorithm",
     Distractor1: "Rabin-Karp Algorithm",
     Distractor2: "Binary Search Algoritm",
     Distractor3: "Quicksort Algorithm",
-    Explanation: "Dijkstra's Algorithm can find the shortest path from a node (called the 'source node') to all other nodes in the graph, producing a shortest-path tree.",
+    Explanation:
+      "Dijkstra's Algorithm can find the shortest path from a node (called the 'source node') to all other nodes in the graph, producing a shortest-path tree.",
     Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/",
   },
-  
+
   {
-    Question: "In Banker's algorithm, which part of the computer represents the 'Banker'?",
+    Question:
+      "In Banker's algorithm, which part of the computer represents the 'Banker'?",
     Answer: "Operating System",
     Distractor1: "RAM",
     Distractor2: "CPU",
     Distractor3: "Register",
-    Explanation: "Banker's algorithm is most commonly used within banking systems to help determine if resources are available to lend to customers. The operating system represents the 'Banker' because it decides the resource allocation.",
+    Explanation:
+      "Banker's algorithm is most commonly used within banking systems to help determine if resources are available to lend to customers. The operating system represents the 'Banker' because it decides the resource allocation.",
     Link: "https://www.freecodecamp.org/news/what-is-an-os-operating-system-definition-for-beginners/",
   },
 
+  {
+    Question: "What is Big Theta notation?",
+    Answer:
+      "A range between the lower and upper bounds of an algorithm's performance",
+    Distractor1: "The lower bound of an algorithm's performance",
+    Distractor2: "The upper bound of an algorithm's performance",
+    Distractor3: "The average case for an algorithm's performance",
+    Explanation:
+      "Big theta is either the exact performance value of the algorithm, or a useful range between narrow upper and lower bounds.",
+    Link: "https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/#:~:text=Big%20theta%20is%20either%20the,big%2Domega%2C%20lower%20bound)",
+  },
 ];
 
 export default generalCSQuiz;
