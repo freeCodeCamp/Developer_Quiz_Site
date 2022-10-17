@@ -12,7 +12,7 @@ const HeroSection: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
           <h1>Learn to Code RPG Quiz</h1>
           <h2>
             Practice with{" "}
-            <strong style={{ fontSize: "2rem" }}>
+            <strong className="question-count">
               {ROUNDED_QUESTION_COUNT}+
             </strong>{" "}
             Questions
