@@ -1,6 +1,6 @@
 const informationTechnologyQuiz = [
   {
-    Question: "What it's the name of the modern computers architecture?",
+    Question: "What is the name for modern computer architecture?",
     Answer: "Von Neumann Architecture",
     Distractor1: "Enigma-Turing Architecture",
     Distractor2: "Micro-ATX Architecture",
