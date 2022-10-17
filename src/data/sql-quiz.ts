@@ -580,7 +580,7 @@ const sqlQuiz = [
     Question:
       "The best datatype to use to store a string with up to 255 characters is which of the following?",
     Answer: "TINY TEST",
-    Distractor1: "TEXT",
+    Distractor1: "STRING",
     Distractor2: "BLOB",
     Distractor3: "BINARY",
     Explanation:
