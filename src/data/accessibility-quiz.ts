@@ -149,7 +149,7 @@ const accessibilityQuiz = [
     Distractor3:
       "It would allow a users to skip to the site's navigation links for more efficient access to content.",
     Explanation:
-      "In order to give visually impaired users a pleasant experience on your website, they need to be able to access content quickly and efficiently. To allow visually impaired users to skip the main content of a site and avoid tabbing through all the main navigation links create a 'skip navigation link'",
+      "In order to give visually impaired users a pleasant experience on your website, they need to be able to access content quickly and efficiently. To allow visually impaired users to skip the main content of a site and avoid tabbing through all the main navigation, you can create a 'skip navigation link'",
     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/",
   },
   {
