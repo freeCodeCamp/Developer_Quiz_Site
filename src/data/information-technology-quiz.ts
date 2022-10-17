@@ -1,5 +1,14 @@
 const informationTechnologyQuiz = [
   {
+    Question: "What is the name for modern computer architecture?",
+    Answer: "Von Neumann Architecture",
+    Distractor1: "Enigma-Turing Architecture",
+    Distractor2: "Micro-ATX Architecture",
+    Distractor3: "CPU-GPU Architecture",
+    Explanation: "John Von Neumann is the creator of the modern computer architecture",
+    Link:"https://en.wikipedia.org/wiki/Von_Neumann_architecture"
+  },
+  {
     Question: "Which of the following validates the integrity of data?",
     Answer:
       "Hashing",
@@ -458,6 +467,15 @@ const informationTechnologyQuiz = [
     Explanation:
       "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
     Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
+  },
+  {
+    Question: "What does SPF stand for?",
+    Answer: "Sender Policy Framework",
+    Distractor1:  "Social Platform Framework",
+    Distractor2:  "System Prescribed Framework",
+    Distractor3:  "Sender Private Framework",
+    Explanation:  "SPF allows the owner of a domain (like google.com) to set a TXT record in its DNS that states which servers are allowed to send mail from that domain.",
+    Link: "https://www.freecodecamp.org/news/how-does-email-work/"
   },
 ];
 

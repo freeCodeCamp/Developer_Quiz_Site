@@ -1,3 +1,10 @@
+.hero-container,
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .hero-container {
   background-image: url("../images/background.webp");
   background-position: center;
@@ -6,19 +13,13 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   box-shadow: inset 0 0 0 1000px rgb(34 27 49 / 57%);
   object-fit: contain;
 }
 
 .hero-content {
   width: 800px;
-  display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
 }
 
 .hero-text {
@@ -31,27 +32,30 @@
   box-shadow: inset -5px -6px #0a0a232e;
 }
 
+.question-count {
+  font-size: 2rem;
+}
 .hero-text h1 {
   font-weight: bold;
-  font-size: 50px;
+  font-size: 2.1rem;
 }
 
 .hero-text h2 {
-  font-size: 30px;
+  font-size: 1.5rem;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) {
   .hero-text h1 {
-    font-size: 34px;
+    font-size: 3.1rem;
   }
 
   .hero-text h2 {
-    font-size: 25px;
+    font-size: 1.8rem;
   }
 }
 
 @media screen and (min-width: 1000px) {
   .hero-text h1 {
-    font-size: 60px !important;
+    font-size: 3.75rem;
   }
 }
