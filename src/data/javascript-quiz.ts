@@ -1561,8 +1561,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
   },
   {
-    Question:
-      "In JavaScript, what type of value is an Array?",
+    Question: "In JavaScript, what type of value is an Array?",
     Answer: "Object",
     Distractor1: "Array",
     Distractor2: "Map",
@@ -1570,8 +1569,8 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript besides primitives types, we have the Object value type. Arrays are a special type of object that represents a collection of similar types of values.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
-   },
-   {
+  },
+  {
     Question:
       "In JavaScript, which of the following methods will return the string representation of a number?",
     Answer: "toFixed()",
@@ -1699,16 +1698,23 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/synchronous-vs-asynchronous-in-javascript/",
   },
   {
-    Question:
-      "In JavaScript, what is the result for typeof NaN?",
+    Question: "In JavaScript, what is the result for typeof NaN?",
     Answer: "number",
     Distractor1: "Object",
     Distractor2: "String",
     Distractor3: "Undefined ",
     Explanation:
       "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+  },
+  {
+    Question: "Which of the code below doesn't empties an JavaScript array?",
+    Answer: "delete arr;",
+    Distractor1: "arr = []",
+    Distractor2: "arr.length = 0",
+    Distractor3: "arr.splice(0, arr.length)",
+    Explanation: "delete method is used to delete a property from an object",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/delete",
   },
 ];
 
