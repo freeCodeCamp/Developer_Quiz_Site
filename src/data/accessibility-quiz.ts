@@ -114,7 +114,8 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/#add-missing-document-language",
   },
   {
-    Question: "When a website complies with Level AA of conformance, which of these levels will already be compatible?",
+    Question:
+      "When a website complies with Level AA of conformance, which of these levels will already be compatible?",
     Answer: "Level A",
     Distractor1: "Level AAA",
     Distractor2: "Level AA and Level AAA",
@@ -122,6 +123,48 @@ const accessibilityQuiz = [
     Explanation:
       "WCAG Levels are backwards compatible. If a website complies with Level AAA, then it also complies with the requirements of Level AA and Level A.",
     Link: "https://www.freecodecamp.org/news/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28/",
+  },
+  {
+    Question: "What are some of the most common types of WCAG 2 failures?",
+    Answer:
+      "Low contrast text, missing alternative text for images, empty links",
+    Distractor1:
+      "High contrast text, alternative images for text, broken links",
+    Distractor2:
+      "Styled buttons, form input labels, multiple document languages",
+    Distractor3: "Missing hover text, auto-fill inputs, responsive elements",
+    Explanation:
+      "WCAG's audit shows that many accessibility errors fall into just six areas/categories: low contrast text, missing alternative text for images, missing form input labels, empty links, missing document language, empty buttons.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
+  },
+  {
+    Question:
+      "Why would providing a skip navigation link create a better experience for visually impaired users?",
+    Answer:
+      "It would allow a user to skip to the main content of a site and avoid tabbing through all the main navigation links.",
+    Distractor1:
+      "It would disable all main navigation links for quicker access.",
+    Distractor2:
+      "It would go through all of the navigation options before the main content of a site.",
+    Distractor3:
+      "It would allow a users to skip to the site's navigation links for more efficient access to content.",
+    Explanation:
+      "In order to give visually impaired users a pleasant experience on your website, they need to be able to access content quickly and efficiently. To allow visually impaired users to skip the main content of a site and avoid tabbing through all the main navigation links create a 'skip navigation link'",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/",
+  },
+  {
+    Question: "What is a screen reader?",
+    Answer:
+      "A software application that attempts to convey what is displayed via non-visual means, like text-to-speech.",
+    Distractor1:
+      "A Chrome extension that reads all text on a web page and converts it to a audio files.",
+    Distractor2:
+      "A site that provides examples of how to implement alt text to images.",
+    Distractor3:
+      "A computer program to scan an application for accessibility improvements.",
+    Explanation:
+      "A software application with assistive technology that attempts to convey what people with normal eyesight see on a display to their users via non-visual means, like text-to-speech. Developers can utilize a screen reader to understand how a webpage can be made accessible to such people and develop the page accordingly.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/",
   },
 ];
 
