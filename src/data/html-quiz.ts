@@ -1,6 +1,18 @@
 const htmlQuiz = [
   {
     Question:
+    "Which of the following is the correct way of creating an hyperlink in HTML?",
+    Answer: "<a href= “www.freecodecamp.org”> freeCodeCamp </a>",
+    Distractor1: "<a>www.freecodecamp.org <freeCodeCamp /a>",
+    Distractor2: "<a href=“ www.freecodecamp.org” freeCodeCamp /a>",
+    Distractor3: "<a link=“ www.freecodecamp.org” freeCodeCamp > </a>",
+    Explanation:
+      "In HTML a href tag is used to hyperlink text as shown in the given syntax. <a href= “www.link_name.com”> hyperlinked_text </a>"
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href"
+  };
+  {
+    Question:
     "What is meant by an empty tag in HTML?",
     Answer: "An empty tag doesn't require a closing tag",
     Distractor1: "There is no such concept of empty tag in HTML",
