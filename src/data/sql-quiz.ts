@@ -579,7 +579,7 @@ const sqlQuiz = [
   {
     Question:
       "In SQL, which data type is used to store a string with up to 255 characters?",
-    Answer: "TINY TEST",
+    Answer: "TINYTEXT",
     Distractor1: "STRING",
     Distractor2: "BLOB",
     Distractor3: "BINARY",
