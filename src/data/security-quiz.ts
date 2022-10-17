@@ -304,7 +304,7 @@ const securityQuiz = [
     Distractor2: "Internet Protocol File Sharing",
     Distractor3: "Inter Peer File Sharing",
     Explanation:
-      "The InterPlanetary File System is a peer-to-peer network, protocol, and hypermedia system for sharing and exchanging files in a distributed file system.",
+      "The InterPlanetary File System is a protocol that stores and shares content and is meant to make the web faster and safer to use.",
     Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/",
   },
 ];
