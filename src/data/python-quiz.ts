@@ -1485,7 +1485,7 @@ const pythonQuiz = [
     Distractor1: "0",
     Distractor2: "1",
     Distractor3: "-1",
-    Explanation: "round() function in Python, rounds off the number away from 0 to the nearest integer, round(0.6) = 1 and round(-0.6) = -1. So 1-(-1)=2.",
+    Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
     Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
   },
 ];
