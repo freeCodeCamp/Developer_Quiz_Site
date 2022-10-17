@@ -1792,7 +1792,7 @@ const javascriptQuiz = [
     Distractor2: "String",
     Distractor3: "Undefined ",
     Explanation:
-      "typeof NaN will return number because NaN is a property of the Number object in JavaScrip",
+      "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
