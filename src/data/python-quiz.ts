@@ -12,7 +12,7 @@ const pythonQuiz = [
   },
   {
     Question: 
-      "What will the following Python code print? print(len('Hello world!'))",
+      "In Python, what is the output for this code: print(len('Hello world!'))?",
     Answer: "12",
     Distractor1: "11",
     Distractor2: "10",
