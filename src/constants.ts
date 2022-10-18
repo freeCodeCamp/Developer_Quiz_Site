@@ -29,3 +29,5 @@ export const ALL_CATEGORIES = [
   ...qualityAssuranceQuiz,
   ...securityQuiz,
 ];
+
+export const ROUNDED_QUESTION_COUNT = 900;
