@@ -9,7 +9,7 @@ const htmlQuiz = [
     Explanation:
       "In HTML, an anchor element is used to create links on a a web page. Here is the correct syntax: <a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Link:
-      "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href"
+      "https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/",
   };
   {
     Question:
