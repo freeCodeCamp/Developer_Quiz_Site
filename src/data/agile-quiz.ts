@@ -242,6 +242,20 @@ const agileQuiz = [
       "Story points are used to estimate the amount of effort required to deliver a user story for a project.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
   },
+  {
+    Question: "What are the Four important meetings or ceremonies in Agile Development Methodology?",
+    Answer:
+      "Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective",
+    Distractor1:
+      "Monthly Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
+    Distractor2:
+      "Sprint Review, Daily Stand-up, Sprint Development and Sprint Retrospective",
+    Distractor3:
+      "Backlog Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
+    Explanation:
+      "Agile ceremonies are the meetings that happen in following sequence Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective before, within, and after a sprint cycle.",
+    Link: "https://project-management.com/agile-scrum-ceremonies/",
+  },
 ];
 
 export default agileQuiz;

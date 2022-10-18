@@ -943,6 +943,16 @@ const linuxQuiz = [
       "The wc command calculates the total number of lines, words, and characters in a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
+  {
+    Question: "Which Linux commands can be used to show who is logged on and what they are doing?",
+    Answer: "w",
+    Distractor1: "top",
+    Distractor2: "whoami",
+    Distractor3: "which user",
+    Explanation:
+      "w displays information about the users currently on the machine, and their processes. The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.",
+    Link: "https://man7.org/linux/man-pages/man1/w.1.html",
+  },
 ];
 
 export default linuxQuiz;
