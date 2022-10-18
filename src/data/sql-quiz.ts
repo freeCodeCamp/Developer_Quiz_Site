@@ -554,6 +554,50 @@ const sqlQuiz = [
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/",
   },
+  {
+    Question:
+      "In SQL, what does DDL stand for ",
+    Answer: "Data Definition Language",
+    Distractor1:  "Data distinct Language",
+    Distractor2:  "Data Decoded Language",
+    Distractor3:  "Data Developer Language",
+    Explanation:
+      "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
+  {
+    Question:
+      "In SQL, which function rounds a number to a specified number of decimal places?",
+    Answer: "ROUND()",
+    Distractor1: "TRUNCATE()",
+    Distractor2: "CEIL()",
+    Distractor3: "FLOOR()",
+    Explanation:
+      "The ROUND() function takes in two parameters(number and decimals) and rounds the number to the number of decimals specified in the 2nd parameter.",
+    Link: "https://dev.mysql.com/doc/refman/5.7/en/precision-math-rounding.html",
+  },
+  {
+    Question:
+      "In SQL, which data type is used to store a string with up to 255 characters?",
+    Answer: "TINYTEXT",
+    Distractor1: "STRING",
+    Distractor2: "BLOB",
+    Distractor3: "BINARY",
+    Explanation:
+      "TINYTEXT can store up to 255 bytes and can be used for text like captions or summaries.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/",
+  },
+  {
+    Question:
+      "In SQL, what does TCL stand for?",
+    Answer: " Transaction Control Language",
+    Distractor1: "Transaction controlling Language",
+    Distractor2: "Transacted Control Language",
+    Distractor3: "Transaction Console Language",
+    Explanation:
+      "Some of the Transaction Control Language commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
 ];
 
 export default sqlQuiz;
