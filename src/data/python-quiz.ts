@@ -2,7 +2,7 @@ const pythonQuiz = [
   {
     Question: 
       "In Python, which of following is the correct syntax for a key-value pair in a dictionary?",
-    Answer: "('key', 'value')",
+    Answer: " key1: value1",
     Distractor1: "5j",
     Distractor2: "'key'",
     Distractor3: "'count'",
