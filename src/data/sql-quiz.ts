@@ -600,7 +600,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "What is the name for an organised collection of data kept in a central location?",
+      "In SQL, what is the name for an organized collection of data kept in a central location?",
     Answer: "Database",
     Distractor1: "Table",
     Distractor2: "Excel",
