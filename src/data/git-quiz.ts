@@ -430,6 +430,17 @@ const gitQuiz = [
       "The git push -f command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
+   {
+    Question:
+      " How can you return a commit that has been pushed and made open?",
+    Answer: "git revert HEAD~2.HEAD",
+    Distractor1: "git revert",
+    Distractor2: "git rebase",
+    Distractor3: "git reflog",
+    Explanation:
+      "The command helps in the creation of a new commit that cancels out changes brought in the previous commits.",
+    Link: "https://www.whizlabs.com/blog/git-interview-questions/",
+  },
 ];
 
 export default gitQuiz;
