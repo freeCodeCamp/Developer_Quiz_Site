@@ -1479,6 +1479,15 @@ const pythonQuiz = [
     Explanation: "Tkinter provides an object-oriented interface to the Tk GUI toolkit that is built-in to Python.",
     Link: "https://www.freecodecamp.org/news/learn-how-to-use-tkinter-to-create-guis-in-python/",
   },
+  {
+    Question: "In Python, what will be the output for the following code: print(round(0.6)-round(-0.6))?",
+    Answer: "2",
+    Distractor1: "0",
+    Distractor2: "1",
+    Distractor3: "-1",
+    Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
+    Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
+  },
 ];
 
 export default pythonQuiz;
