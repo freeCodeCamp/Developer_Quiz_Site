@@ -21,17 +21,6 @@ const pythonQuiz = [
       "The len function returns all characters within a string. Every single character(and space) in Hello world! would result in a length of 12.",
     Link: "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
   },
-  {
-    Question: 
-      "What is the index of the first character in a string?",
-    Answer: "0",
-    Distractor1: "-1",
-    Distractor2: "1",
-    Distractor3: "A",
-    Explanation: 
-      "Strings are zero-indexed: The index of a string's first character is 0 , and the index of a string's last character is the length of the string minus 1",
-    Link: "https://www.freecodecamp.org/news/how-to-format-a-string-in-python/",
-  },
     {
     Question: 
       "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
