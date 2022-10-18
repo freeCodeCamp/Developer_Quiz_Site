@@ -2,10 +2,10 @@ const htmlQuiz = [
   {
     Question:
     "Which of the following is the correct way of creating an anchor element in HTML?",
-    Answer: "<a href= “www.freecodecamp.org”> freeCodeCamp </a>",
+    Answer: "<a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Distractor1: "<a>www.freecodecamp.org <freeCodeCamp /a>",
-    Distractor2: "<a href=“ www.freecodecamp.org” freeCodeCamp /a>",
-    Distractor3: "<a link=“ www.freecodecamp.org” freeCodeCamp > </a>",
+    Distractor2: "<a href='www.freecodecamp.org' freeCodeCamp /a>",
+    Distractor3: "<a link='www.freecodecamp.org' freeCodeCamp > </a>",
     Explanation:
       "In HTML a href tag is used to hyperlink text as shown in the given syntax. <a href= “www.link_name.com”> hyperlinked_text </a>"
     Link:
