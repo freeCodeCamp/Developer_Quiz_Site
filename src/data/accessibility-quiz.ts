@@ -2,10 +2,10 @@ const accessibilityQuiz = [
   {
     Question:
       "Which one is the correct HTML element used to identify the main language of an entire page?",
-    Answer: "On the <html> element",
-    Distractor1: "On the <!doctype> element",
-    Distractor2: "On the <body> element",
-    Distractor3: "In a <meta> element in the <head> of the document",
+    Answer: "<html>",
+    Distractor1: "<!DOCTYPE>",
+    Distractor2: "<body>",
+    Distractor3: "<img>",
     Explanation:
       "To set the main language of the page use the lang attribute on the <html> element at the top of the page.",
     Link: "https://www.w3.org/International/questions/qa-html-language-declarations.en.html",
