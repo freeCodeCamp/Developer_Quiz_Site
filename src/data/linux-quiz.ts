@@ -8,7 +8,7 @@ const linuxQuiz = [
     Distractor3: "chmod go+r list",
     Explanation:
       "The 'chmod go-wx list' is used to remove the writing and executing permissions for 'group' and 'other' for a file named list.",
-    Link: "https://linuxize.com/post/chmod-command-in-linux/",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
     
