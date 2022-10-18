@@ -7,7 +7,7 @@ const htmlQuiz = [
     Distractor2: "<a href='www.freecodecamp.org' freeCodeCamp /a>",
     Distractor3: "<a link='www.freecodecamp.org' freeCodeCamp > </a>",
     Explanation:
-      "In HTML a href tag is used to hyperlink text as shown in the given syntax. <a href= “www.link_name.com”> hyperlinked_text </a>"
+      "In HTML, an anchor element is used to create links on a a web page. Here is the correct syntax: <a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a#attr-href"
   };
