@@ -1,6 +1,28 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, which of the following is the correct syntax for a key-value pair in a dictionary?",
+    Answer: "key1: value1",
+    Distractor1: "5j",
+    Distractor2: "'key'",
+    Distractor3: "'count'",
+    Explanation: 
+      "A Python dictionary is a sequence of key-value pairs separated by commas. Here is the correct syntax: key1: value1.",
+    Link: "https://www.freecodecamp.org/news/python-dictionary-methods-dictionaries-in-python/",
+  },
+  {
+    Question: 
+      "In Python, what is the output for this code: print(len('Hello world!'))?",
+    Answer: "12",
+    Distractor1: "11",
+    Distractor2: "10",
+    Distractor3: "13",
+    Explanation: 
+      "The len function returns all characters within a string. Every single character(and space) in Hello world! would result in a length of 12.",
+    Link: "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
+  },
+  {
+    Question: 
       "In Python, what are anonymous functions called?",
     Answer: "Lambda function",
     Distractor1: "Type function",
