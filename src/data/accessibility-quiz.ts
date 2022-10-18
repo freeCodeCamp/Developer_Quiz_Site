@@ -7,7 +7,7 @@ const accessibilityQuiz = [
     Distractor2: "<body>",
     Distractor3: "<img>",
     Explanation:
-      "To set the main language of the page use the lang attribute on the <html> element at the top of the page.",
+      "To set the main language of the page, use the lang attribute on the <html> element at the top of the page.",
     Link: "https://www.w3.org/International/questions/qa-html-language-declarations.en.html",
   },
   {
