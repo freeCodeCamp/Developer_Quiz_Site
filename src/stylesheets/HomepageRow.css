@@ -64,10 +64,6 @@ p {
   padding-left: 10px;
 }
 
-/* ============================================= */
-/*              Responsive Browsing              */
-/* ============================================= */
-
 @media screen and (min-width: 768px) {
   .content-row-container {
     height: 400px;
