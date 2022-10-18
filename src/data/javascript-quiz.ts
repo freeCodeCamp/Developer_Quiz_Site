@@ -33,6 +33,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "Which of the following variables takes precedence over the others if the names are the same?",
+    Answer: "Local variable",
+    Distractor1: "Global variable",
+    Distractor2: "Local variable",
+    Distractor3: "Both",
+    Explanation:
+      "In Javascript, the local variable takes precidence over global variable",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence",
+  },
+  {
+    Question:
       "In JavaScript, if let word='Intelligent', then what will be the value of word.slice(2,5)?",
     Answer: "tel",
     Distractor1: "tellig",
