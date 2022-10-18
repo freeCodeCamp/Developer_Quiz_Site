@@ -1,8 +1,8 @@
 const pythonQuiz = [
   {
     Question: 
-      "In Python, which of following is the correct syntax for a key-value pair in a dictionary?",
-    Answer: " key1: value1",
+      "In Python, which of the following is the correct syntax for a key-value pair in a dictionary?",
+    Answer: "key1: value1",
     Distractor1: "5j",
     Distractor2: "'key'",
     Distractor3: "'count'",
