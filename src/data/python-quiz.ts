@@ -1,7 +1,7 @@
 const pythonQuiz = [
   {
     Question: 
-      "Which of these can you use as a dictionary keys?",
+      "In Python, which of following is the correct syntax for a key-value pair in a dictionary?",
     Answer: "('key', 'value')",
     Distractor1: "5j",
     Distractor2: "'key'",
