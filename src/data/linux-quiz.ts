@@ -943,6 +943,16 @@ const linuxQuiz = [
       "The wc command calculates the total number of lines, words, and characters in a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
+  {
+    Question: "Which command is used to obtain the Operating System's name?",
+    Answer: "uname",
+    Distractor1: "kernal",
+    Distractor2: "os",
+    Distractor3: "sysinfo",
+    Explanation:
+      "A command in Unix and Unix-like computer operating systems called uname (short for unix name) outputs information about the operating system.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+  },
 ];
 
 export default linuxQuiz;
