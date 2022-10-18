@@ -1,12 +1,22 @@
 const informationTechnologyQuiz = [
   {
+    Question: "What is the OSI Model?",
+    Answer: "OSI is a reference system that lays out how computers communicate with each other over a network.",
+    Distractor1: "OSI is a new program paradigm",
+    Distractor2: "OSI is a reference to new practices to coding",
+    Distractor3: "OSI is a new set of rules to link of a net protocol",
+    Explanation: "OSI is a reference system that lays out how computers communicate with each other over a network.",
+    Link: "https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners/"
+  },
+
+  {
     Question: "What is the name for modern computer architecture?",
     Answer: "Von Neumann Architecture",
     Distractor1: "Enigma-Turing Architecture",
     Distractor2: "Micro-ATX Architecture",
     Distractor3: "CPU-GPU Architecture",
     Explanation: "John Von Neumann is the creator of the modern computer architecture",
-    Link:"https://en.wikipedia.org/wiki/Von_Neumann_architecture"
+    Link: "https://en.wikipedia.org/wiki/Von_Neumann_architecture"
   },
   {
     Question: "Which of the following validates the integrity of data?",
