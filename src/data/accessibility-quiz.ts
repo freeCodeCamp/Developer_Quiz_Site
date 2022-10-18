@@ -1,7 +1,7 @@
 const accessibilityQuiz = [
   {
     Question:
-      "The correct location to identify the main language of an entire page is:",
+      "Which one is the correct HTML element used to identify the main language of an entire page?",
     Answer: "On the <html> element",
     Distractor1: "On the <!doctype> element",
     Distractor2: "On the <body> element",
