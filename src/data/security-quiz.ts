@@ -1,15 +1,15 @@
 const securityQuiz = [
   {
     Question:
-      "What is the use of DNS Server?",
-    Answer:"Convert domain name to IP Address",
-    Distractor1:"Convert IP Address to domain name",
-    Distractor2:"Provides access tokens for login in the backend",
-    Distractor3:"Provides refresh tokens for login in the backend",
-    Explanation:
-      "DNS servers are responsible for translating domain names into IP addresses and use them to locate and connect to web servers.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-dns-server/",
-  },
+       "DNS Servers are typically run by?",
+     Answer: "Internet Service Providers",
+     Distractor1: "Netowrk Service Providers",
+     Distractor2: "SAML Service Provider",
+     Distractor3: "Application Service Provider",
+     Explanation:
+       "Recursive DNS servers are typically run by Internet Service Providers. These are the companies you pay for your internet access each month.",
+     Link: "https://www.freecodecamp.org/news/what-is-a-dns-server/",
+   },
   {
    Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
