@@ -18,7 +18,7 @@ const pythonQuiz = [
     Distractor2: "10",
     Distractor3: "13",
     Explanation: 
-      "Hello is 5 characters, world! is 6 characters and there is a space in between them. So, the length is 12",
+      "The len function returns all characters within a string. Every single character(and space) in Hello world! would result in a length of 12.",
     Link: "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
   },
   {
