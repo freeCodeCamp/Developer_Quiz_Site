@@ -7,7 +7,7 @@ const pythonQuiz = [
     Distractor2: "'key'",
     Distractor3: "'count'",
     Explanation: 
-      "There is only option with brackets.",
+      "A Python dictionary is a sequence of key-value pairs separated by commas. Here is the correct syntax: key1: value1.",
     Link: "https://www.freecodecamp.org/news/python-dictionary-methods-dictionaries-in-python/",
   },
   {
