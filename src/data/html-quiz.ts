@@ -1,7 +1,7 @@
 const htmlQuiz = [
   {
     Question:
-    "Which of the following is the correct way of creating an hyperlink in HTML?",
+    "Which of the following is the correct way of creating an anchor element in HTML?",
     Answer: "<a href= “www.freecodecamp.org”> freeCodeCamp </a>",
     Distractor1: "<a>www.freecodecamp.org <freeCodeCamp /a>",
     Distractor2: "<a href=“ www.freecodecamp.org” freeCodeCamp /a>",
