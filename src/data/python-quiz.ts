@@ -1488,6 +1488,15 @@ const pythonQuiz = [
     Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
     Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
   },
+   {
+    Question: "What will happen if x=297.4887 in the output of the Python expression, print('%.3f'%x)?",
+    Answer: "297.489",
+    Distractor1: "297.488",
+    Distractor2: "297.49",
+    Distractor3: "297.4885",
+    Explanation: "The expression above rounds the given number to the chosen number of decimal places, which is upto 3 decimal places here.",
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
+  },
 ];
 
 export default pythonQuiz;
