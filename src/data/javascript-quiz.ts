@@ -1710,6 +1710,30 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
+  {
+    Question:
+      "In JavaScript, what is the result for typeof NaN?",
+    Answer: "number",
+    Distractor1: "Object",
+    Distractor2: "String",
+    Distractor3: "Undefined ",
+    Explanation:
+      "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+  },
+  {
+    Question:
+      "The primary entry point for all client-side JavaScript features and APIs is which of the following objects?",
+    Answer: "Window",
+    Distractor1: "Home",
+    Distractor2: "Location",
+    Distractor3: "Gate",
+    Explanation:
+      "The Window object provides access to all JavaScript capabilities and APIs that are used on the client side.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window",
+  },
 ];
 
 export default javascriptQuiz;
