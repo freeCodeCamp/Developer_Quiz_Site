@@ -1,13 +1,13 @@
 const linuxQuiz = [
   {
     
-    Question: "Say a file named 'list' has has intial file permissions as '-rwxrwxrwx', A person wants to change its permissions using 'chmod' such that GROUP and OTHER can only read it, neither write or execute it?",
+    Question: "In Linux, which command is used to remove the writing and executing permissions for 'group' and 'other'?",
     Answer: "chmod go-wx list",
     Distractor1: "chmod go+wx list",
     Distractor2: "chmod a-wx list",
     Distractor3: "chmod go+r list",
     Explanation:
-      "'chmod go-wx list' will make 'g' group and 'o' other, '-' remove 'w' the writing and 'x' the executing permission only",
+      "The 'chmod go-wx list' is used to remove the writing and executing permissions for 'group' and 'other' for a file named list.",
     Link: "https://linuxize.com/post/chmod-command-in-linux/",
   },
   {
