@@ -242,6 +242,27 @@ const agileQuiz = [
       "Story points are used to estimate the amount of effort required to deliver a user story for a project.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
   },
+  {
+    Questions:
+      "What is an iterative development methodology, where both development and testing activities are concurrent.",
+    Answer: "Agile",
+    Distractor1: "Bugzilla",
+    Distractor2: "Apache",
+    Distractor3: "Espresso",
+    Explanation:
+      "Agile is an iterative development methodology, where both development and testing activities are concurrent.",
+    Link: "https://www.agilealliance.org/agile101/",
+  },
+  {
+    Questions: "FFD Stands for?",
+    Answer: "Feature Driven Development",
+    Distractor1: "Feature Design Development",
+    Distractor2: "Feature Driven Design",
+    Distractor3: "Feature Driven Difference",
+    Explanation:
+      "Feature Driven Development (FDD) involves designing and building features. The difference between FDD and other Agile Development Methodologies is that the features are developed in specific and short phases separately.",
+    Link: "https://www.planview.com/resources/articles/fdd-agile/",
+  },
 ];
 
 export default agileQuiz;
