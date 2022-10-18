@@ -10,7 +10,7 @@ const htmlQuiz = [
       "In HTML, an anchor element is used to create links on a a web page. Here is the correct syntax: <a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Link:
       "https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/",
-  };
+  },
   {
     Question:
     "What is meant by an empty tag in HTML?",
