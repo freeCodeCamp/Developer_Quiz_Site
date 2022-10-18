@@ -1488,6 +1488,18 @@ const pythonQuiz = [
     Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
     Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
   },
+  {
+    Question:
+      "In Python, What is the expected Output of: print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) ?",
+    Answer: "{'orange', 'banana', 'pear', 'apple'}",
+    Distractor1: "{'orange', 'banana', 'pear', 'apple', 'apple', 'orange'}",
+    Distractor2: "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple'}",
+    Distractor3:
+      "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple', 'apple', 'orange'}",
+    Explanation:
+      "A set is an unordered collection of items. Every element in set is unique (no duplicates).",
+    Link: "https://docs.python.org/3/tutorial/datastructures.html#sets",
+  },
 ];
 
 export default pythonQuiz;
