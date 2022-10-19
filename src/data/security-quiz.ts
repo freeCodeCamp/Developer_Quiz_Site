@@ -307,6 +307,17 @@ const securityQuiz = [
       "The InterPlanetary File System is a protocol that stores and shares content and is meant to make the web faster and safer to use.",
     Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/",
   },
+    {
+    Question:
+      "BEAST(2011) allowed a Man-in-the-middle attacker to discover encrypted information from which versions of SSL/TLS?",
+    Answer: "SSL 3.0 and TLS 1.0",
+    Distractor1: "SSL 2.0 and TLS 2.0",
+    Distractor2: "SSL 2.0 and TLS 1.0",
+    Distractor3: "SSL 1.0 and TLS 1.0",
+    Explanation:
+      "This attack depended on the implementation of the block cipher used by TLS. This involves XORing each block of plaintext with the previous block of ciphertext, then using the encryption algorithm on the block.",
+    Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/",
+  },
 ];
 
 export default securityQuiz;
