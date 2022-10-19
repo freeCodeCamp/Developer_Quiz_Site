@@ -1,5 +1,15 @@
 const informationTechnologyQuiz = [
   {
+    Question: "How many layers are there in the OSI and TCP/IP models respectively?",
+    Answer:"7 and 4",
+    Distractor1: "12 and 7",
+    Distractor2: "7 and 5",
+    Distractor3: "11 and 7",
+    Explanation:
+      "The OSI model has 7 layers while TCP/IP Model has only 4 layers",
+    Link: "https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners/",
+  },
+  {
     Question: "What is the OSI Model?",
     Answer: "OSI is a reference system that lays out how computers communicate with each other over a network.",
     Distractor1: "OSI is a new program paradigm",
