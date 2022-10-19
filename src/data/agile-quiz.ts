@@ -256,6 +256,20 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
+    Question: "What are the four important meetings or ceremonies in Agile Development Methodology?",
+    Answer:
+      "Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective",
+    Distractor1:
+      "Monthly Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
+    Distractor2:
+      "Sprint Review, Daily Stand-up, Sprint Development and Sprint Retrospective",
+    Distractor3:
+      "Backlog Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
+    Explanation:
+      "Agile ceremonies are the meetings that happen in following sequence Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective before, within, and after a sprint cycle.",
+    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+  },
+  {
     Question: "In Agile, what does FDD stand for?",
     Answer: "Feature Driven Development",
     Distractor1: "Feature Design Development",
@@ -264,7 +278,7 @@ const agileQuiz = [
     Explanation:
       "Feature Driven Development (FDD) is the practice of incrementally developing and frequently releasing new features for software products.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
-  }
+  },
 ];
 
 export default agileQuiz;
