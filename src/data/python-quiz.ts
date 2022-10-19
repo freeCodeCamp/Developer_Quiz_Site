@@ -1497,7 +1497,7 @@ const pythonQuiz = [
     Distractor3:
       "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple', 'apple', 'orange'}",
     Explanation:
-      "A set is an unordered collection of items. Every element in set is unique (no duplicates).",
+      "print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) would return a set of unordered unique items.",
     Link: "https://docs.python.org/3/tutorial/datastructures.html#sets",
   },
 ];
