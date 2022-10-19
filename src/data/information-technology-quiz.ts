@@ -2,7 +2,7 @@ const informationTechnologyQuiz = [
   {
     Question: "How many layers are there in the OSI and TCP/IP models respectively?",
     Answer:"7 and 4",
-    Distractor1: "4 and 7",
+    Distractor1: "12 and 7",
     Distractor2: "7 and 5",
     Distractor3: "11 and 7",
     Explanation:
