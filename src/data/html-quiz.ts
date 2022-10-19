@@ -1,6 +1,18 @@
 const htmlQuiz = [
   {
     Question:
+    "Which tag is used to insert favicon?",
+    Answer: "<link>",
+    Distractor1: "<fav>",
+    Distractor2: "<favicon>",
+    Distractor3: "<icon>",
+    Explanation:
+      "In HTML, <link> tag is used inside the <head> tag",
+    Link:
+      "https://www.w3schools.com/html/html_favicon.asp",
+  },
+  {
+    Question:
     "Which of the following is the correct way of creating an anchor element in HTML?",
     Answer: "<a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Distractor1: "<a>www.freecodecamp.org <freeCodeCamp /a>",
