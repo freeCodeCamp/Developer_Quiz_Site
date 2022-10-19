@@ -950,7 +950,7 @@ const linuxQuiz = [
     Distractor2: "members",
     Distractor3: "groupadd",
     Explanation:
-      "There are two types of groups in Linux, namely primary and secondary, which can be viewed using groups command.",
+      "The groups command is used to show a user a list of groups for which they belong to. Primary and secondary are the two types of groups in Linux.",
     Link: "https://linuxhint.com/groups-command-linux/",
   },
 ];
