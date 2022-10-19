@@ -1,6 +1,17 @@
 const accessibilityQuiz = [
   {
     Question:
+      "Why is it important to use semantic elements when writing HTML?",
+    Answer: "Semantic code clearly describes the code's meaning to both the browser and the developer",
+    Distractor1: "Semantic code is prettier.",
+    Distractor2: "Semantic code decreases site readability.",
+    Distractor3: "Semantic code can improve comprehension for hearing-impaired individuals.",
+    Explanation:
+      "Authors are strongly encouraged to view the div element as an element of last resort, for when no other element is suitable. Use of more appropriate elements instead of the div element leads to better accessibility for readers and easier maintainability for authors.",
+    Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
+  },
+  {
+    Question:
       "Which one is the correct HTML element used to identify the main language of an entire page?",
     Answer: "<html>",
     Distractor1: "<!DOCTYPE>",
@@ -106,7 +117,7 @@ const accessibilityQuiz = [
       "people with moderately low vision can read and access the website contents.",
     Distractor1: "a good contrast ratio will improve the entire web design.",
     Distractor2:
-      "secreen readers can distinguish better between foreground and background colors",
+      "screen readers can distinguish better between foreground and background colors",
     Distractor3:
       "a good contrast ratio will improve website performance and SEO.",
     Explanation:
