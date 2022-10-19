@@ -951,7 +951,7 @@ const linuxQuiz = [
     Distractor3: "groupadd",
     Explanation:
       "The groups command is used to show a user a list of groups for which they belong to. Primary and secondary are the two types of groups in Linux.",
-    Link: "https://linuxhint.com/groups-command-linux/",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-the-linux-operating-system/",
   },
 ];
 
