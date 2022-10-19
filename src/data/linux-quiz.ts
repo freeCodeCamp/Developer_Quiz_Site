@@ -943,6 +943,16 @@ const linuxQuiz = [
       "The wc command calculates the total number of lines, words, and characters in a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
+  {
+    Question: "Which command enables the user to see their group memberships?",
+    Answer: "groups",
+    Distractor1: "showgroup",
+    Distractor2: "members",
+    Distractor3: "groupadd",
+    Explanation:
+      "There are two types of groups in Linux, namely primary and secondary, which can be viewed using groups command.",
+    Link: "https://linuxhint.com/groups-command-linux/",
+  },
 ];
 
 export default linuxQuiz;
