@@ -1712,7 +1712,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which method returns a new iterator iterable object?",
+      "In JavaScript, which array method returns a new iterable iterator object?",
     Answer: "values()",
     Distractor1: "concat()",
     Distractor2: "entries()",
