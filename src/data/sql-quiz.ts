@@ -619,7 +619,18 @@ const sqlQuiz = [
     Explanation:
         "OUTER JOIN is used to return matched and unmatched values from a table.",
      Link:"https://www.freecodecamp.org/news/dbms-and-sql-basics/",
-  } ,
+  },
+  {
+    Question:
+      "In SQL, what is the name for an organized collection of data kept in a central location?",
+    Answer: "Database",
+    Distractor1: "Table",
+    Distractor2: "Excel",
+    Distractor3: "csv",
+    Explanation:
+      "A database is a curated collection of structured data that is kept in one location.",
+    Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/",
+  },
 ];
 
 export default sqlQuiz;
