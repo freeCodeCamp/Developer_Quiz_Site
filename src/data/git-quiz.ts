@@ -430,6 +430,15 @@ const gitQuiz = [
       "The git push -f command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
+  {
+    Question: "In Git, how do you list multiple stashes",
+    Answer: "git stash list",
+    Distractor1: "git list",
+    Distractor2: "git apply stash",
+    Distractor3: "git pull",
+    Explanation: "To list multiple stashes that you have created you run git stash list.",
+    Link: "https://www.w3docs.com/learn-git/git-stash.html",
+  },
 ];
 
 export default gitQuiz;
