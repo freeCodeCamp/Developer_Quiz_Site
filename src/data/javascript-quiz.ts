@@ -1718,7 +1718,7 @@ const javascriptQuiz = [
     Distractor2: "entries()",
     Distractor3: "sort()",
     Explanation:
-      "The values() method returns a new array iterator object that iterates the value of each index in the array.",
+      "The array.values() method returns a new array iterator. To access each element in that new array iterator, you can use a for...of loop.",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
   },
