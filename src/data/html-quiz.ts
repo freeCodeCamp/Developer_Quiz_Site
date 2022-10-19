@@ -1638,5 +1638,16 @@ const htmlQuiz = [
       "The HTML iframe element is used to embed another document within the current HTML document. It is commonly used for advertisements, web analytics and other forms of interactive content.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
   },
+   {
+    Question:
+      "What attribute is required in the <img> tag to specify an alternative text for the image?",
+    Answer: "alt",
+    Distractor1: "src",
+    Distractor2: "href",
+    Distractor3: "desc",
+    Explanation:
+      "the alt attribute is required, alt specifies an alternative text for the image if for some reason the image does not load.",
+    Link: "https://www.freecodecamp.org/news/what-is-alt-text-image-alt-text-html-example/",
+  },
 ];
 export default htmlQuiz;
