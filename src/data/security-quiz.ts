@@ -318,6 +318,17 @@ const securityQuiz = [
       "This attack depended on the implementation of the block cipher used by TLS. This involves XORing each block of plaintext with the previous block of ciphertext, then using the encryption algorithm on the block.",
     Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/",
   },
+    {
+    Question:
+      "By which of the following techniques can a Block Cipher be modeled?",
+    Answer: "PRP(Pseudo Random Permutation)",
+    Distractor1: "PRF(Pseudo Random Function)",
+    Distractor2: "OTP(One Time Pad)",
+    Distractor3: "PRG(Pseudo Random Generator)",
+    Explanation:
+      "The Block Cipher cryptographic scheme is based on the principle of Pseudo Random Permutations.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-block-cipher/",
+  },
 ];
 
 export default securityQuiz;
