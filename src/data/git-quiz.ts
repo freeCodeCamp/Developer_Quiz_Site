@@ -431,7 +431,7 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
   {
-    Question: "In Git, how do you list multiple stashes",
+    Question: "In Git, how do you list multiple stashes?",
     Answer: "git stash list",
     Distractor1: "git list",
     Distractor2: "git apply stash",
