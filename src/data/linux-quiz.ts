@@ -944,7 +944,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
-    Question: "Which command enables the user to see their group memberships?",
+    Question: "In Linux, which command is used to show a user a list of groups they belong to?",
     Answer: "groups",
     Distractor1: "showgroup",
     Distractor2: "members",
