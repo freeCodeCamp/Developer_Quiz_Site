@@ -1710,7 +1710,7 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
-    {
+  {
     Question:
       "In JavaScript, which method returns a new iterator iterable object?",
     Answer: "values()",
