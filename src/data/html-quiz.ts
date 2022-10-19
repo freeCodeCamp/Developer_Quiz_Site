@@ -1636,7 +1636,7 @@ const htmlQuiz = [
     Distractor3: "a tag used for preformatted sections of text",
     Explanation:
       "You can embed another document within the current HTML document using <iframe> tag. It provides a nested browsing context without using another document by just passing the content to the <iframe> via the srcdoc attribute.",
-    Link: "https://www.tutorialride.com/html-interview/html-interview-questions-part-5.htm",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
   },
 ];
 export default htmlQuiz;
