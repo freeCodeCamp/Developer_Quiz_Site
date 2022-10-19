@@ -1510,6 +1510,18 @@ const pythonQuiz = [
     Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
     Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
   },
+  {
+    Question:
+      "In Python, what is the expected output for print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) ?",
+    Answer: "{'orange', 'banana', 'pear', 'apple'}",
+    Distractor1: "{'orange', 'banana', 'pear', 'apple', 'apple', 'orange'}",
+    Distractor2: "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple'}",
+    Distractor3:
+      "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple', 'apple', 'orange'}",
+    Explanation:
+      "print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) would return a set of unordered unique items.",
+    Link: "https://docs.python.org/3/tutorial/datastructures.html#sets",
+  },
    {
     Question: "In Python, if x=297.4887 what would the following return: print('%.3f'%x)?",
     Answer: "297.489",
