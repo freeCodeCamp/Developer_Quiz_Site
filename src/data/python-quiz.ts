@@ -1521,6 +1521,7 @@ const pythonQuiz = [
     Explanation:
       "print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) would return a set of unordered unique items.",
     Link: "https://docs.python.org/3/tutorial/datastructures.html#sets",
+  },
    {
     Question: "In Python, if x=297.4887 what would the following return: print('%.3f'%x)?",
     Answer: "297.489",
