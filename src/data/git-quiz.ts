@@ -449,7 +449,7 @@ const gitQuiz = [
       "Git has integrity because everything in git is checksummed using SHA-1 mechanism.",
     Link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#",
   },
-   {
+  {
     Question: "In Git, how do you apply a stash if you have multiple?",
     Answer: "git stash pop stash@{x}",
     Distractor1: "git stash pop",
