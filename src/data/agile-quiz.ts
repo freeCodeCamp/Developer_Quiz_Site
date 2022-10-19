@@ -243,7 +243,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
   },
   {
-    Question: "What are the Four important meetings or ceremonies in Agile Development Methodology?",
+    Question: "What are the four important meetings or ceremonies in Agile Development Methodology?",
     Answer:
       "Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective",
     Distractor1:
@@ -254,7 +254,7 @@ const agileQuiz = [
       "Backlog Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
     Explanation:
       "Agile ceremonies are the meetings that happen in following sequence Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective before, within, and after a sprint cycle.",
-    Link: "https://project-management.com/agile-scrum-ceremonies/",
+    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)",
   },
 ];
 
