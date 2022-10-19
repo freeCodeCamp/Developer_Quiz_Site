@@ -1494,7 +1494,7 @@ const pythonQuiz = [
     Distractor1: "297.488",
     Distractor2: "297.49",
     Distractor3: "297.4885",
-    Explanation: "The expression above rounds the given number to the chosen number of decimal places, which is upto 3 decimal places here.",
+    Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
     Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
   },
 ];
