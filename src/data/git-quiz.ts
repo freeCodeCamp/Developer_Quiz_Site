@@ -437,7 +437,7 @@ const gitQuiz = [
     Distractor2: "git apply stash",
     Distractor3: "git pull",
     Explanation: "To list multiple stashes that you have created you run git stash list.",
-    Link: "https://www.w3docs.com/learn-git/git-stash.html",
+    Link: "https://git-scm.com/docs/git-stash",
   },
 ];
 
