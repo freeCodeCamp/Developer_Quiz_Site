@@ -1629,7 +1629,7 @@ const htmlQuiz = [
   },
   {
     Question:
-      "What is the use of iframes?",
+      "In HTML, what does the iframe element do?",
     Answer: "embed another document within the current HTML document ",
     Distractor1: "used for creating a hyperlink",
     Distractor2: "used to italicize text",
