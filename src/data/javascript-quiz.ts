@@ -1734,6 +1734,18 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/API/Window",
   },
+  {
+  Question:
+    "When you want to send several promises, these are stored in an array, which promise method is used to send them all?",
+    Answer:"Promise.all() and Promise.allSettled()",
+    Distractor1:"Promise.any() and Promise.all()",
+    Distractor2:"Promise.resolve() and Promise.allSettled()",
+    Distractor3:"Promise.reject() and Promise.reject()",
+    Explanation:
+      "Promise.all() and Promise.allSettled() are used to send an array of promises, they take and return an array of fulfilled promises.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+  },
 ];
 
 export default javascriptQuiz;
