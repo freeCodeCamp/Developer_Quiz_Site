@@ -436,7 +436,7 @@ const gitQuiz = [
     Distractor1: "Git takes snapshots of the changes",
     Distractor2: "Nearly every operation is local",
     Distractor3: "Git is a Distributed Version Control System",
-    Explanattion:
+    Explanation:
       "Git has integrity because everything in git is checksummed using SHA-1 mechanism.",
     Link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#:~:text=Git%20Has%20Integrity,without%20Git%20knowing%20about%20it."
   },
