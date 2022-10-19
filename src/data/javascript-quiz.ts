@@ -1722,6 +1722,18 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
   },
+  {
+    Question:
+      "What is the name for the primary entry point for all client-side JavaScript features and APIs?",
+    Answer: "Window",
+    Distractor1: "Split",
+    Distractor2: "Reduce",
+    Distractor3: "Gate",
+    Explanation:
+      "The Window object provides access to all JavaScript capabilities and APIs that are used on the client side.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window",
+  },
 ];
 
 export default javascriptQuiz;
