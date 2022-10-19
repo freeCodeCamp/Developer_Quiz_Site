@@ -1710,6 +1710,18 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
   },
+    {
+    Question:
+      "In JavaScript, which method returns a new iterator iterable object?",
+    Answer: "values()",
+    Distractor1: "concat()",
+    Distractor2: "entries()",
+    Distractor3: "sort()",
+    Explanation:
+      "The values() method returns a new array iterator object that iterates the value of each index in the array.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/values",
+  },
 ];
 
 export default javascriptQuiz;
