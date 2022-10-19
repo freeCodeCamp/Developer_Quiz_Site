@@ -1627,5 +1627,16 @@ const htmlQuiz = [
       "The <i> tag is used to make text italic without adding extra emphasis. It is commonly used for text that is set off from normal prose, like foreign words or thoughts. ",
     Link: "https://devdocs.io/html/element/i",
   },
+  {
+    Question:
+      "In HTML, what does the iframe element do?",
+    Answer: "embed another document within the current HTML document ",
+    Distractor1: "used for creating a hyperlink",
+    Distractor2: "used to italicize text",
+    Distractor3: "a tag used for preformatted sections of text",
+    Explanation:
+      "The HTML iframe element is used to embed another document within the current HTML document. It is commonly used for advertisements, web analytics and other forms of interactive content.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
+  },
 ];
 export default htmlQuiz;
