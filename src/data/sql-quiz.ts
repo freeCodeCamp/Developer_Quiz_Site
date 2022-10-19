@@ -600,7 +600,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "In SQL, which of the following is an approach for joining tables",
+      "In SQL, which of the following is an approach for joining tables?",
     Answer:"All of the mentioned",
     Distractor1:"Subqueries",
     Distractor2:"Union Join",
