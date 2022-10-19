@@ -944,6 +944,16 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
   },
   {
+    Question: "In Linux, which command is used to show a user a list of groups they belong to?",
+    Answer: "groups",
+    Distractor1: "showgroup",
+    Distractor2: "members",
+    Distractor3: "groupadd",
+    Explanation:
+      "The groups command is used to show a user a list of groups for which they belong to. Primary and secondary are the two types of groups in Linux.",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-the-linux-operating-system/",
+  },
+  {
     Question: "Which Linux commands can be used to show who is logged on and what they are doing?",
     Answer: "w",
     Distractor1: "top",
