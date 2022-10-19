@@ -1490,7 +1490,7 @@ const pythonQuiz = [
   },
   {
     Question:
-      "In Python, What is the expected Output of: print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) ?",
+      "In Python, what is the expected output for print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) ?",
     Answer: "{'orange', 'banana', 'pear', 'apple'}",
     Distractor1: "{'orange', 'banana', 'pear', 'apple', 'apple', 'orange'}",
     Distractor2: "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple'}",
