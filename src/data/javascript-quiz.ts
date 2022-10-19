@@ -1727,7 +1727,7 @@ const javascriptQuiz = [
       "What is the name for the primary entry point for all client-side JavaScript features and APIs?",
     Answer: "Window",
     Distractor1: "Split",
-    Distractor2: "Location",
+    Distractor2: "Reduce",
     Distractor3: "Gate",
     Explanation:
       "The Window object provides access to all JavaScript capabilities and APIs that are used on the client side.",
