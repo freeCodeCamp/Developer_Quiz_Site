@@ -242,6 +242,27 @@ const agileQuiz = [
       "Story points are used to estimate the amount of effort required to deliver a user story for a project.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
   },
+  {
+    Questions:
+      "What is the name for the process that focuses on continuously building, testing, and gathering feedback for software products?",
+    Answer: "Agile",
+    Distractor1: "Bugzilla",
+    Distractor2: "Apache",
+    Distractor3: "Espresso",
+    Explanation:
+      "Agile is a project management process that focuses on continuously building, testing, and gathering feedback for software products.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
+  {
+    Questions: "In Agile, what does FDD stand for?",
+    Answer: "Feature Driven Development",
+    Distractor1: "Feature Design Development",
+    Distractor2: "Feature Driven Design",
+    Distractor3: "Feature Driven Difference",
+    Explanation:
+      "Feature Driven Development (FDD) is the practice of incrementally developing and frequently releasing new features for software products.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+  },
 ];
 
 export default agileQuiz;
