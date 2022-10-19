@@ -1489,7 +1489,7 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
   },
    {
-    Question: "What will happen if x=297.4887 in the output of the Python expression, print('%.3f'%x)?",
+    Question: "In Python,  if x=297.4887 what would the following return: print('%.3f'%x)?",
     Answer: "297.489",
     Distractor1: "297.488",
     Distractor2: "297.49",
