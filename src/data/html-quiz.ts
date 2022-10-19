@@ -1635,7 +1635,7 @@ const htmlQuiz = [
     Distractor2: "used to italicize text",
     Distractor3: "a tag used for preformatted sections of text",
     Explanation:
-      "You can embed another document within the current HTML document using <iframe> tag. It provides a nested browsing context without using another document by just passing the content to the <iframe> via the srcdoc attribute.",
+      "The HTML iframe element is used to embed another document within the current HTML document. It is commonly used for advertisements, web analytics and other forms of interactive content.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
   },
 ];
