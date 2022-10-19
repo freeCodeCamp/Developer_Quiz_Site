@@ -953,6 +953,16 @@ const linuxQuiz = [
       "The groups command is used to show a user a list of groups for which they belong to. Primary and secondary are the two types of groups in Linux.",
     Link: "https://www.freecodecamp.org/news/learn-the-basics-of-the-linux-operating-system/",
   },
+  {
+    Question: "Which Linux commands can be used to show who is logged on and what they are doing?",
+    Answer: "w",
+    Distractor1: "top",
+    Distractor2: "whoami",
+    Distractor3: "which user",
+    Explanation:
+      "w displays information about the users currently on the machine, and their processes. The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.",
+    Link: "https://man7.org/linux/man-pages/man1/w.1.html",
+  },
 ];
 
 export default linuxQuiz;
