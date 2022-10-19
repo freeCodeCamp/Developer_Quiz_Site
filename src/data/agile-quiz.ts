@@ -254,7 +254,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
   {
-    Questions: "In Agile, what does FDD Stands for?",
+    Questions: "In Agile, what does FDD Stand for?",
     Answer: "Feature Driven Development",
     Distractor1: "Feature Design Development",
     Distractor2: "Feature Driven Design",
