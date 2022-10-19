@@ -1726,7 +1726,7 @@ const javascriptQuiz = [
     Question:
       "What is the name for the primary entry point for all client-side JavaScript features and APIs?",
     Answer: "Window",
-    Distractor1: "Home",
+    Distractor1: "Split",
     Distractor2: "Location",
     Distractor3: "Gate",
     Explanation:
