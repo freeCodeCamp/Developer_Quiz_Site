@@ -1,10 +1,10 @@
 const informationTechnologyQuiz = [
   {
-    Question: "How many layers are there in OSI(Open Systems Interconnection) and (TCP/IP)Transmission Control Protocol/Internet Protocol Models respectively",
-    Answer:"7,4",
-    Distractor1: "4,7",
-    Distractor2: "7,5",
-    Distractor3: "11,7",
+    Question: "How many layers are there in the OSI and TCP/IP models respectively?",
+    Answer:"7 and 4",
+    Distractor1: "4 and 7",
+    Distractor2: "7 and 5",
+    Distractor3: "11 and 7",
     Explanation:
       "The OSI model has 7 layers while TCP/IP Model has only 4 layers",
     Link: "https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners/",
