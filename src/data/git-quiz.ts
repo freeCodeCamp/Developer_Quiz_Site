@@ -431,6 +431,15 @@ const gitQuiz = [
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
   {
+    Question: "In Git, how do you list multiple stashes?",
+    Answer: "git stash list",
+    Distractor1: "git list",
+    Distractor2: "git apply stash",
+    Distractor3: "git pull",
+    Explanation: "To list multiple stashes that you have created you run git stash list.",
+    Link: "https://git-scm.com/docs/git-stash",
+  },
+  {
     Question: "How does Git know that changes have been made to a file?",
     Answer: "Everything is checksummed before it is stored and is referred to by that checksum",
     Distractor1: "Git takes snapshots of the changes",
