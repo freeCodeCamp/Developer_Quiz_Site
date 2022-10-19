@@ -600,25 +600,25 @@ const sqlQuiz = [
   },
   {
     Question:
-      "Which of the following is one of the basic approaches for joining tables?",
+      "In SQL, which of the following is an approach for joining tables?",
     Answer:"All of the mentioned",
     Distractor1:"Subqueries",
     Distractor2:"Union Join",
     Distractor3:"Natural Join",
     Explanation:
-        "The SQL subquery is a SELECT query that is embedded in the main SELECT statement. In many cases, a subquery can be used instead of a JOIN.",
-     Link:"https://afteracademy.com/blog/what-is-join-in-dbms-and-what-are-its-types/",
+        "In SQL, you can use a subquery, union join or natural join to join multiple tables together.",
+     Link:"https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   },
   {
     Question:
-      "What type of join is needed when you wish to include rows that do not have matching values?",
+      "In SQL, what is the name of the join that will return matched and unmatched values from a table?",
     Answer:"Outer join",
     Distractor1:"All of the Mentioned",
     Distractor2:"Equi-join",
     Distractor3:"Natural Join",
     Explanation:
-        "OUTER JOIN is the only join which shows the unmatched rows.",
-     Link:"https://mode.com/sql-tutorial/sql-outer-joins/",
+        "OUTER JOIN is used to return matched and unmatched values from a table.",
+     Link:"https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   },
   {
     Question:
