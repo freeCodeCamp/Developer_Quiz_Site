@@ -423,10 +423,10 @@ const gitQuiz = [
   {
     Question: "In Git, how do you do a force push?",
     Answer: "git push -f",
-    Distractor1:  "git push -u",
-    Distractor2:  "git push",
-    Distractor3:  "git add fil*",
-    Explanation: 
+    Distractor1: "git push -u",
+    Distractor2: "git push",
+    Distractor3: "git add fil*",
+    Explanation:
       "The git push -f command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
@@ -438,6 +438,16 @@ const gitQuiz = [
     Distractor3: "git pull",
     Explanation: "To list multiple stashes that you have created you run git stash list.",
     Link: "https://git-scm.com/docs/git-stash",
+  },
+  {
+    Question: "How does Git know that changes have been made to a file?",
+    Answer: "Everything is checksummed before it is stored and is referred to by that checksum",
+    Distractor1: "Git takes snapshots of the changes",
+    Distractor2: "Nearly every operation is local",
+    Distractor3: "Git is a Distributed Version Control System",
+    Explanation:
+      "Git has integrity because everything in git is checksummed using SHA-1 mechanism.",
+    Link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#",
   },
 ];
 
