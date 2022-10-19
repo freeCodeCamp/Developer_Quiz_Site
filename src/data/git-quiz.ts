@@ -423,10 +423,10 @@ const gitQuiz = [
   {
     Question: "In Git, how do you do a force push?",
     Answer: "git push -f",
-    Distractor1:  "git push -u",
-    Distractor2:  "git push",
-    Distractor3:  "git add fil*",
-    Explanation: 
+    Distractor1: "git push -u",
+    Distractor2: "git push",
+    Distractor3: "git add fil*",
+    Explanation:
       "The git push -f command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
   },
@@ -439,7 +439,7 @@ const gitQuiz = [
     Explanattion:
       "Git has integrity because everything in git is checksummed using SHA-1 mechanism.",
     Link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#:~:text=Git%20Has%20Integrity,without%20Git%20knowing%20about%20it."
-  }
+  },
 ];
 
 export default gitQuiz;
