@@ -1724,7 +1724,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "The primary entry point for all client-side JavaScript features and APIs is which of the following objects?",
+      "What is the name for the primary entry point for all client-side JavaScript features and APIs?",
     Answer: "Window",
     Distractor1: "Home",
     Distractor2: "Location",
