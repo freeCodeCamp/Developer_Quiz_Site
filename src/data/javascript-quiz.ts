@@ -1712,18 +1712,6 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what is the result for typeof NaN?",
-    Answer: "number",
-    Distractor1: "Object",
-    Distractor2: "String",
-    Distractor3: "Undefined ",
-    Explanation:
-      "typeof NaN will return number because NaN is a property of the Number object in JavaScript",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
-  },
-  {
-    Question:
       "What is the name for the primary entry point for all client-side JavaScript features and APIs?",
     Answer: "Window",
     Distractor1: "Split",
