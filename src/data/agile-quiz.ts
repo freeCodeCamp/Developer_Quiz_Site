@@ -244,24 +244,24 @@ const agileQuiz = [
   },
   {
     Questions:
-      "What is an iterative development methodology, where both development and testing activities are concurrent.",
+      "What is the name for the process that focuses on continuously building, testing, and gathering feedback for software products?",
     Answer: "Agile",
     Distractor1: "Bugzilla",
     Distractor2: "Apache",
     Distractor3: "Espresso",
     Explanation:
-      "Agile is an iterative development methodology, where both development and testing activities are concurrent.",
-    Link: "https://www.agilealliance.org/agile101/",
+      "Agile is a project management process that focuses on continuously building, testing, and gathering feedback for software products.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
   {
-    Questions: "FFD Stands for?",
+    Questions: "In Agile, what does FDD Stands for?",
     Answer: "Feature Driven Development",
     Distractor1: "Feature Design Development",
     Distractor2: "Feature Driven Design",
     Distractor3: "Feature Driven Difference",
     Explanation:
-      "Feature Driven Development (FDD) involves designing and building features. The difference between FDD and other Agile Development Methodologies is that the features are developed in specific and short phases separately.",
-    Link: "https://www.planview.com/resources/articles/fdd-agile/",
+      "Feature Driven Development (FDD) is the practice of incrementally developing and frequently releasing new features for software products.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
   },
 ];
 
