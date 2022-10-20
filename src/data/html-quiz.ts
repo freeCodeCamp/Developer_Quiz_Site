@@ -1,15 +1,15 @@
 const htmlQuiz = [
   {
     Question:
-    "Which tag is used to insert favicon?",
+     "In HTML, which tag is used to insert a favicon?",
     Answer: "<link>",
     Distractor1: "<fav>",
     Distractor2: "<favicon>",
     Distractor3: "<icon>",
     Explanation:
-      "In HTML, <link> tag is used inside the <head> tag",
+     "The link tag is used to add a favicon to a website.",
     Link:
-      "https://www.w3schools.com/html/html_favicon.asp",
+     "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
   },
   {
     Question:
