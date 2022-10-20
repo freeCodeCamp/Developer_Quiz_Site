@@ -633,7 +633,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "Which of the following queries can be used to rename the table BaseCamp to BaseCamp_New?",
+      "In MySQL, which of the following queries can be used to rename the table BaseCamp to BaseCamp_New?",
     Answer: "ALTER TABLE BaseCamp RENAME TO BaseCamp_New ;",
     Distractor1: "ALTER TABLE BaseCamp TO BaseCamp_New ;",
     Distractor2: "ALTER TABLE BaseCamp UPDATE TO BaseCamp_New ;",
