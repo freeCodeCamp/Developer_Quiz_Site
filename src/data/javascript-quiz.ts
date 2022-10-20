@@ -1727,8 +1727,7 @@ const javascriptQuiz = [
     Distractor3: "Gate",
     Explanation:
       "The Window object provides access to all JavaScript capabilities and APIs that are used on the client side.",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/API/Window",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Window"
   },
   {
     Question:
@@ -1739,21 +1738,30 @@ const javascriptQuiz = [
     Distractor3: "Database",
     Explanation:
       "An HTML <input> element with the type='file' attribute is represented by the Input FileUpload object and is a client-side JavaScript object.",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications"
   },
   {
     Question:
-    "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
-    Answer:"Promise.all() and Promise.allSettled()",
-    Distractor1:"Promise.any() and Promise.all()",
-    Distractor2:"Promise.resolve() and Promise.allSettled()",
-    Distractor3:"Promise.reject() and Promise.reject()",
+      "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
+    Answer: "Promise.all() and Promise.allSettled()",
+    Distractor1: "Promise.any() and Promise.all()",
+    Distractor2: "Promise.resolve() and Promise.allSettled()",
+    Distractor3: "Promise.reject() and Promise.reject()",
     Explanation:
       "Promise.all() and Promise.allSettled() accept an iterable of promises and return a single array of results.",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
   },
+  {
+    Question:
+      "In JavaScript, which keyword to make a variable, function, class or object accessible to other module?",
+    Answer: "export",
+    Distractor1: "import",
+    Distractor2: "as",
+    Distractor3: "from",
+    Explanation:
+      "Before we can get access to module features, the first thing we need to do is 'export' them.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#exporting_module_features"
+  }
 ];
 
 export default javascriptQuiz;
