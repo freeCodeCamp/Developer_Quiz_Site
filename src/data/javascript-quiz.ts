@@ -1727,8 +1727,23 @@ const javascriptQuiz = [
     Distractor3: "Gate",
     Explanation:
       "The Window object provides access to all JavaScript capabilities and APIs that are used on the client side.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Window"
-  }
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/API/Window",
+  },
+  {
+    Question:
+    "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
+    Answer:"Promise.all() and Promise.allSettled()",
+    Distractor1:"Promise.any() and Promise.all()",
+    Distractor2:"Promise.resolve() and Promise.allSettled()",
+    Distractor3:"Promise.reject() and Promise.reject()",
+    Explanation:
+      "Promise.all() and Promise.allSettled() accept an iterable of promises and return a single array of results.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+  },
+
+
 ];
 
 export default javascriptQuiz;
