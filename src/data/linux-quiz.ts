@@ -981,7 +981,7 @@ const linuxQuiz = [
     Link: "https://man7.org/linux/man-pages/man1/w.1.html"
   },
   {
-    Question: "Which option is used with gzip to decompress a file?",
+    Question: "In Linux, which option is used with gzip to decompress a file??",
     Answer: "-d",
     Distractor1: "-kv",
     Distractor2: "-r",
