@@ -1,6 +1,18 @@
 const htmlQuiz = [
   {
     Question:
+     "In HTML, which tag is used to insert a favicon?",
+    Answer: "<link>",
+    Distractor1: "<fav>",
+    Distractor2: "<favicon>",
+    Distractor3: "<icon>",
+    Explanation:
+     "The link tag is used to add a favicon to a website.",
+    Link:
+     "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
+  },
+  {
+    Question:
     "Which of the following is the correct way of creating an anchor element in HTML?",
     Answer: "<a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Distractor1: "<a>www.freecodecamp.org <freeCodeCamp /a>",
@@ -1626,6 +1638,17 @@ const htmlQuiz = [
     Explanation:
       "The <i> tag is used to make text italic without adding extra emphasis. It is commonly used for text that is set off from normal prose, like foreign words or thoughts. ",
     Link: "https://devdocs.io/html/element/i",
+  },
+  {
+    Question:
+      "In HTML, what does the iframe element do?",
+    Answer: "embed another document within the current HTML document ",
+    Distractor1: "used for creating a hyperlink",
+    Distractor2: "used to italicize text",
+    Distractor3: "a tag used for preformatted sections of text",
+    Explanation:
+      "The HTML iframe element is used to embed another document within the current HTML document. It is commonly used for advertisements, web analytics and other forms of interactive content.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
   },
 ];
 export default htmlQuiz;

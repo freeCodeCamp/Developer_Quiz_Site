@@ -1,6 +1,17 @@
 const linuxQuiz = [
   {
     
+    Question: "In Linux, which command is used to display all the users logged in to the system?",
+    Answer: "who",
+    Distractor1: "all-users",
+    Distractor2: "show",
+    Distractor3: "whoami",
+    Explanation:
+       "The who command displays the users logged in to the system.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    
     Question: "In Linux, which command is used to remove the writing and executing permissions for 'group' and 'other'?",
     Answer: "chmod go-wx list",
     Distractor1: "chmod go+wx list",
@@ -942,6 +953,26 @@ const linuxQuiz = [
     Explanation:
       "The wc command calculates the total number of lines, words, and characters in a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+  },
+  {
+    Question: "In Linux, which command is used to show a user a list of groups they belong to?",
+    Answer: "groups",
+    Distractor1: "showgroup",
+    Distractor2: "members",
+    Distractor3: "groupadd",
+    Explanation:
+      "The groups command is used to show a user a list of groups for which they belong to. Primary and secondary are the two types of groups in Linux.",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-the-linux-operating-system/",
+  },
+  {
+    Question: "Which Linux commands can be used to show who is logged on and what they are doing?",
+    Answer: "w",
+    Distractor1: "top",
+    Distractor2: "whoami",
+    Distractor3: "which user",
+    Explanation:
+      "w displays information about the users currently on the machine, and their processes. The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.",
+    Link: "https://man7.org/linux/man-pages/man1/w.1.html",
   },
 ];
 

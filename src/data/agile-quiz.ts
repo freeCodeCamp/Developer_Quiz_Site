@@ -1,12 +1,14 @@
 const agileQuiz = [
   {
-    Question:"In Agile, what are epics?",
-    Answer:"epics are a way to group pieces of work together to represent a feature.",
-    Distractor1:"epics are another term for scrum master",
-    Distractor2:"epics do not exist in agile",
-    Distractor3:"epics are another term for standup meetings",
-    Explanation:" Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
-    Link:"https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
+    Question: "In Agile, what are epics?",
+    Answer:
+      "epics are a way to group pieces of work together to represent a feature.",
+    Distractor1: "epics are another term for scrum master",
+    Distractor2: "epics do not exist in agile",
+    Distractor3: "epics are another term for standup meetings",
+    Explanation:
+      " Stories have a goal of defining a bite-sized piece of work, epics are a way to group those pieces of work together to represent a feature.",
+    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/#sprints"
   },
   {
     Question: "What are the five Scrum values?",
@@ -16,7 +18,7 @@ const agileQuiz = [
     Distractor3: "Openess, Commitment, Honesty, Discipline, Patience.",
     Explanation:
       "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
-    Link: "https://scrumguides.org/scrum-guide.html",
+    Link: "https://scrumguides.org/scrum-guide.html"
   },
   {
     Question: "In Agile, when might a Sprint be abnormally cancelled?",
@@ -27,7 +29,7 @@ const agileQuiz = [
     Distractor3: "When the sales department has an important new opportunity.",
     Explanation:
       "The Product Owner can cancel a Sprint if the Sprint Goal becomes obsolete.",
-    Link: "https://scrumguides.org/scrum-guide.html",
+    Link: "https://scrumguides.org/scrum-guide.html"
   },
   {
     Question:
@@ -38,7 +40,7 @@ const agileQuiz = [
     Distractor3: "Rigid Development",
     Explanation:
       "Waterfall development is a very linear approach to building a product. It has little to no room for feedback or iteration until the product is completely built and tested.",
-    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/"
   },
   {
     Question:
@@ -49,7 +51,7 @@ const agileQuiz = [
     Distractor3: "Outline",
     Explanation:
       "A story is typically the smallest defined piece of work within the Agile framework.",
-    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/",
+    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/"
   },
   {
     Question: "Who is responsible for the sprint meeting?",
@@ -59,7 +61,7 @@ const agileQuiz = [
     Distractor3: "All of the above.",
     Explanation:
       "The Scrum Master ensures that the team discusses how to improve on the delivery or software products.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/"
   },
   {
     Question: "What is a Sprint Review?",
@@ -69,7 +71,7 @@ const agileQuiz = [
     Distractor3: "Activity to plan for the release",
     Explanation:
       "A Sprint Review involves seeking feedback from stakeholders and incorporating that feedback into the software product.",
-    Link: "https://scrumguides.org/scrum-guide.html#sprint-review",
+    Link: "https://scrumguides.org/scrum-guide.html#sprint-review"
   },
   {
     Question: "In Agile, what is the term for combining Kanban with Scrum?",
@@ -79,7 +81,7 @@ const agileQuiz = [
     Distractor3: "Kanrum",
     Explanation:
       "Kanban is very flexible and it can be used in combination with Scrum, which is called Scrumban.",
-    Link: "https://www.freecodecamp.org/news/what-is-kanban-the-agile-methodology-defined-and-how-to-use-it-for-your-software-development-team-2/",
+    Link: "https://www.freecodecamp.org/news/what-is-kanban-the-agile-methodology-defined-and-how-to-use-it-for-your-software-development-team-2/"
   },
   {
     Question:
@@ -90,7 +92,7 @@ const agileQuiz = [
     Distractor3: "deliver the project on time",
     Explanation:
       "According to the Agile Manifesto,your highest priority is to satisfy the customer through early and continuous delivery of valuable software.",
-    Link: "https://forum.freecodecamp.org/t/the-agile-manifesto-explained/16151",
+    Link: "https://forum.freecodecamp.org/t/the-agile-manifesto-explained/16151"
   },
   {
     Question: "In a Scrum team, what is a Scrum Master?",
@@ -104,7 +106,7 @@ const agileQuiz = [
       "Scrum Master is not a role officially recognized by the Scrum guide",
     Explanation:
       "The Scrum Master is a leader who supports their colleagues in their activities and does more than just assign tasks.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/"
   },
   {
     Question: "In a Scrum team, who is responsible for stories estimation?",
@@ -114,7 +116,7 @@ const agileQuiz = [
     Distractor3: "The Product Owner and the Scrum Master",
     Explanation:
       "According to the Scrum Guide, only members of the development team are allowed to estimate development effort. Neither Scrum Master, nor Product Owner.",
-    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/"
   },
   {
     Question: "In a Scrum team, who is responsible for setting priorities?",
@@ -124,7 +126,7 @@ const agileQuiz = [
     Distractor3: "The Product Owner and the Scrum Master",
     Explanation:
       "According to the Scrum Guide, the Product Owner has the final say when prioritizing the Product Backlog.",
-    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/"
   },
   {
     Question:
@@ -137,7 +139,7 @@ const agileQuiz = [
       "It is mandatory for the Product Backlog to be completed before the fourth Sprint",
     Explanation:
       "According to the Scrum Guide, the Product Backlog is never complete. Initially, it contains only the best-understood requirements.",
-    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts-2-sprint-harder/",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts-2-sprint-harder/"
   },
   {
     Question:
@@ -148,7 +150,7 @@ const agileQuiz = [
     Distractor3: "Customer collaboration over contract negotiation",
     Explanation:
       "Instead of detailed specifications and planning, Agile prioritizes shipping working software and making incremental changes based on feedback.",
-    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/"
   },
   {
     Question: "Which of the following is NOT an Agile framework?",
@@ -158,7 +160,7 @@ const agileQuiz = [
     Distractor3: "XP (Extreme Programming)",
     Explanation:
       "Waterfall is an opposing project management methodology that has little to no room for feedback or iteration until the product is completely built and tested.",
-    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/"
   },
   {
     Question: "In the Agile framework, what is a user story?",
@@ -172,7 +174,7 @@ const agileQuiz = [
       "A simple description of a software feature from the perspective of the Product Owner",
     Explanation:
       "A user story is an informal, general explanation of a software feature written from the perspective of the end user.",
-    Link: "https://www.freecodecamp.org/news/how-to-write-user-stories-epics-pesonas/",
+    Link: "https://www.freecodecamp.org/news/how-to-write-user-stories-epics-pesonas/"
   },
   {
     Question:
@@ -183,7 +185,7 @@ const agileQuiz = [
     Distractor3: "points do not equate directly to time the task might take",
     Explanation:
       "Points estimate the amount of effort required to deliver a user story and are assigned using the Fibonacci sequence",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
     Question: "In Agile, what is Planning Poker?",
@@ -196,7 +198,7 @@ const agileQuiz = [
       "It is used to estimate what would be development in each user story",
     Explanation:
       "Planning poker is an estimation and planning technique in the Agile development model. It is used to estimate the development effort required for a user story or a feature.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
     Question: "What types of environments work best for Agile principles?",
@@ -206,7 +208,7 @@ const agileQuiz = [
     Distractor3: "Agile has been proven to not work in any good environment.",
     Explanation:
       "The Agile environment appeals to quick actions, discussions, evaluations, and considerations for different approaches.  It works great in dynamic environments where there is a potential for changing or evolving requirements.",
-    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
+    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/"
   },
   {
     Question: "In Agile, which of the following options is a high priority?",
@@ -216,7 +218,7 @@ const agileQuiz = [
     Distractor3: "Contract negotiation",
     Explanation:
       "Agile projects are characterized by a series of tasks that are conceived, executed and adapted as the situation demands and one of the priorities is working software.",
-    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/",
+    Link: "https://www.freecodecamp.org/news/applying-agile-methodology-to-data-science-projects/"
   },
   {
     Question: "In Agile, what is Timeboxing?",
@@ -226,7 +228,7 @@ const agileQuiz = [
     Distractor3: "It's a way to write code faster",
     Explanation:
       "In Agile, Timeboxing is a set amount of time for a planned activity to take place. This technique is often used in project management to help with productivity for projects. ",
-    Link: "https://en.wikipedia.org/wiki/Timeboxing",
+    Link: "https://en.wikipedia.org/wiki/Timeboxing"
   },
   {
     Question: "In Agile, what are Story Points?",
@@ -240,7 +242,42 @@ const agileQuiz = [
       "An estimate of the amount of hours required to deliver a user story",
     Explanation:
       "Story points are used to estimate the amount of effort required to deliver a user story for a project.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#story-points-and-complexity-points"
+  },
+  {
+    Question:
+      "What is the name for the process that focuses on continuously building, testing, and gathering feedback for software products?",
+    Answer: "Agile",
+    Distractor1: "Bugzilla",
+    Distractor2: "Apache",
+    Distractor3: "Espresso",
+    Explanation:
+      "Agile is a project management process that focuses on continuously building, testing, and gathering feedback for software products.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What are the four important meetings or ceremonies in Agile Development Methodology?",
+    Answer:
+      "Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective",
+    Distractor1:
+      "Monthly Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
+    Distractor2:
+      "Sprint Review, Daily Stand-up, Sprint Development and Sprint Retrospective",
+    Distractor3:
+      "Backlog Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
+    Explanation:
+      "Agile ceremonies are the meetings that happen in following sequence Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective before, within, and after a sprint cycle.",
+    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+  },
+  {
+    Question: "In Agile, what does FDD stand for?",
+    Answer: "Feature Driven Development",
+    Distractor1: "Feature Design Development",
+    Distractor2: "Feature Driven Design",
+    Distractor3: "Feature Driven Difference",
+    Explanation:
+      "Feature Driven Development (FDD) is the practice of incrementally developing and frequently releasing new features for software products.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
 ];
 

@@ -27,7 +27,7 @@ export const ALL_CATEGORIES = [
   ...sqlQuiz,
   ...agileQuiz,
   ...qualityAssuranceQuiz,
-  ...securityQuiz,
+  ...securityQuiz
 ];
 
-export const ROUNDED_QUESTION_COUNT = 900;
+export const ROUNDED_QUESTION_COUNT = 1000;

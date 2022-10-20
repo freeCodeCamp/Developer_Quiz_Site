@@ -1,6 +1,28 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, which of the following is the correct syntax for a key-value pair in a dictionary?",
+    Answer: "key1: value1",
+    Distractor1: "5j",
+    Distractor2: "'key'",
+    Distractor3: "'count'",
+    Explanation: 
+      "A Python dictionary is a sequence of key-value pairs separated by commas. Here is the correct syntax: key1: value1.",
+    Link: "https://www.freecodecamp.org/news/python-dictionary-methods-dictionaries-in-python/",
+  },
+  {
+    Question: 
+      "In Python, what is the output for this code: print(len('Hello world!'))?",
+    Answer: "12",
+    Distractor1: "11",
+    Distractor2: "10",
+    Distractor3: "13",
+    Explanation: 
+      "The len function returns all characters within a string. Every single character(and space) in Hello world! would result in a length of 12.",
+    Link: "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
+  },
+  {
+    Question: 
       "In Python, what are anonymous functions called?",
     Answer: "Lambda function",
     Distractor1: "Type function",
@@ -1487,6 +1509,27 @@ const pythonQuiz = [
     Distractor3: "-1",
     Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
     Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
+  },
+  {
+    Question:
+      "In Python, what is the expected output for print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) ?",
+    Answer: "{'orange', 'banana', 'pear', 'apple'}",
+    Distractor1: "{'orange', 'banana', 'pear', 'apple', 'apple', 'orange'}",
+    Distractor2: "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple'}",
+    Distractor3:
+      "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple', 'apple', 'orange'}",
+    Explanation:
+      "print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) would return a set of unordered unique items.",
+    Link: "https://docs.python.org/3/tutorial/datastructures.html#sets",
+  },
+   {
+    Question: "In Python, if x=297.4887 what would the following return: print('%.3f'%x)?",
+    Answer: "297.489",
+    Distractor1: "297.488",
+    Distractor2: "297.49",
+    Distractor3: "297.4885",
+    Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
   },
 ];
 

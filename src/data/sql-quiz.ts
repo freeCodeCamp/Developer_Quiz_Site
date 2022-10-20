@@ -598,6 +598,39 @@ const sqlQuiz = [
       "Some of the Transaction Control Language commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   },
+  {
+    Question:
+      "In SQL, which of the following is an approach for joining tables?",
+    Answer:"All of the mentioned",
+    Distractor1:"Subqueries",
+    Distractor2:"Union Join",
+    Distractor3:"Natural Join",
+    Explanation:
+        "In SQL, you can use a subquery, union join or natural join to join multiple tables together.",
+     Link:"https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
+  {
+    Question:
+      "In SQL, what is the name of the join that will return matched and unmatched values from a table?",
+    Answer:"Outer join",
+    Distractor1:"All of the Mentioned",
+    Distractor2:"Equi-join",
+    Distractor3:"Natural Join",
+    Explanation:
+        "OUTER JOIN is used to return matched and unmatched values from a table.",
+     Link:"https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  },
+  {
+    Question:
+      "In SQL, what is the name for an organized collection of data kept in a central location?",
+    Answer: "Database",
+    Distractor1: "Table",
+    Distractor2: "Excel",
+    Distractor3: "csv",
+    Explanation:
+      "A database is a curated collection of structured data that is kept in one location.",
+    Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/",
+  },
 ];
 
 export default sqlQuiz;
