@@ -1,6 +1,17 @@
 const pythonQuiz = [
   {
     Question: 
+      "Which of the following is true for variable names in Python?",
+    Answer: "unlimited length",
+    Distractor1: "underscore and ampersand are the only two special characters allowed",
+    Distractor2: "'unlimited length'",
+    Distractor3: "all private members must have leading and trailing underscores",
+    Explanation: 
+      "Variable names can be of any length.",
+    Link: "https://www.freecodecamp.org/news/python-global-variables-examples/",
+  },
+  {
+    Question: 
       "In Python, which of the following is the correct syntax for a key-value pair in a dictionary?",
     Answer: "key1: value1",
     Distractor1: "5j",
