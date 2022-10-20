@@ -7,7 +7,7 @@ const linuxQuiz = [
     Distractor2: "show",
     Distractor3: "whoami",
     Explanation:
-      "The who command displays the users logged in to the system.Unless you're using a server multiple people have access to.",
+       "The who command displays the users logged in to the system.",
     Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
   },
   {
