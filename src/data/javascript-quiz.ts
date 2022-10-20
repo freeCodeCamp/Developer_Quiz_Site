@@ -1734,6 +1734,18 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/API/Window",
   },
+   {
+    Question:
+      "Which of these is a client-side JavaScript object?",
+    Answer: "FileUpLoad",
+    Distractor1: "DownFile",
+    Distractor2: "Client",
+    Distractor3: "Database",
+    Explanation:
+      "An HTML <input> element with the type='file' attribute is represented by the Input FileUpload object and is a client-side JavaScript object.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+  },
 ];
 
 export default javascriptQuiz;
