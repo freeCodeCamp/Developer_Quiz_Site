@@ -1227,10 +1227,10 @@ const generalCSQuiz = [
   
   {
     Question: "Which of the following runtimes can be used for recursive functions that make multiple calls?",
-    Answer: "b ^ (d) i.e. 'b' raised to the power of 'd'",
-    Distractor1: "d ^ (b)",
-    Distractor2: "2 ^ (b)",
-    Distractor3: "2 ^ (b * d)",
+    Answer: "branches ^ (depth) i.e. 'b' raised to the power of 'd'",
+    Distractor1: "depth ^ (branches)",
+    Distractor2: "2 ^ (branches)",
+    Distractor3: "2 ^ (branches * depth)",
     Explanation:
       "An O(branches ^ depth) runtime is often reported (although not always) for recursive functions that make multiple calls.",
     Link: "https://www.freecodecamp.org/news/learn-big-o-notation/",
