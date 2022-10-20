@@ -315,12 +315,12 @@ const securityQuiz = [
     Distractor2: "SSL 2.0 and TLS 1.0",
     Distractor3: "SSL 1.0 and TLS 1.0",
     Explanation:
-      "This attack depended on the implementation of the block cipher used by TLS. This involves XORing each block of plaintext with the previous block of ciphertext, then using the encryption algorithm on the block.",
+      "BEAST stands for Browser Exploit Against SSL/TLS (BEAST) and it is a type of attack that exploits vulnerabilities in SSL and TLS protocols.",
     Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/",
   },
     {
     Question:
-      "By which of the following techniques can a Block Cipher be modeled?",
+      "Which of the following techniques is a Block Cipher modeled after?",
     Answer: "PRP(Pseudo Random Permutation)",
     Distractor1: "PRF(Pseudo Random Function)",
     Distractor2: "OTP(One Time Pad)",
