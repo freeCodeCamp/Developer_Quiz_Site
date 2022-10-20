@@ -1537,7 +1537,7 @@ const pythonQuiz = [
     Distractor1: "3.0",
     Distractor2: "3",
     Distractor3: "0.1",
-    Explanation: "The integral part of the floating point number is returned.",
+    Explanation: "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
     Link: "https://docs.python.org/3/library/math.html",
   },
 ];
