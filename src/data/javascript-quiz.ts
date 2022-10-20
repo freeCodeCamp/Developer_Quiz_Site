@@ -1736,7 +1736,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-    "When you want to send several promises, these are stored in an array, which promise method is used to send them all?",
+    "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
     Answer:"Promise.all() and Promise.allSettled()",
     Distractor1:"Promise.any() and Promise.all()",
     Distractor2:"Promise.resolve() and Promise.allSettled()",
