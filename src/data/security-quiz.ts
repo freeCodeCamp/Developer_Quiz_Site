@@ -1,4 +1,14 @@
 const securityQuiz = [
+   {
+    Question:
+      "Which of the following is not an Attack model in cryptanalysis?",
+    Answer: "CVA (Chosen Vector Attack)",
+    Distractor1: "CPA (Chosen Plaintext Attack)",
+    Distractor2: "CCA (Chosen Ciphertext Attack)",
+    Distractor3: "COA (Ciphertext Only Attack)",
+    Explanation: "There is no attack model named CVA (Chosen vector attack).",
+    Link: "https://en.wikipedia.org/wiki/Attack_model",
+  },
   {
    Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
