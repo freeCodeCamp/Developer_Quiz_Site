@@ -1735,7 +1735,7 @@ const javascriptQuiz = [
       "https://developer.mozilla.org/en-US/docs/Web/API/Window",
   },
   {
-  Question:
+    Question:
     "When you want to send several promises, these are stored in an array, which promise method is used to send them all?",
     Answer:"Promise.all() and Promise.allSettled()",
     Distractor1:"Promise.any() and Promise.all()",
