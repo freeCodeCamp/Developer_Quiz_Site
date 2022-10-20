@@ -309,7 +309,7 @@ const securityQuiz = [
   },
     {
     Question:
-      "BEAST(2011) allowed a Man-in-the-middle attacker to discover encrypted information from which versions of SSL/TLS?",
+      "Which versions of SSL/TLS were impacted during the 2011 SSL BEAST Attack?",
     Answer: "SSL 3.0 and TLS 1.0",
     Distractor1: "SSL 2.0 and TLS 2.0",
     Distractor2: "SSL 2.0 and TLS 1.0",
