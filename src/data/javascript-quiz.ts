@@ -1742,7 +1742,7 @@ const javascriptQuiz = [
     Distractor2:"Promise.resolve() and Promise.allSettled()",
     Distractor3:"Promise.reject() and Promise.reject()",
     Explanation:
-      "Promise.all() and Promise.allSettled() are used to send an array of promises, they take and return an array of fulfilled promises.",
+      "Promise.all() and Promise.allSettled() accept an iterable of promises and return a single array of results.",
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
   },
