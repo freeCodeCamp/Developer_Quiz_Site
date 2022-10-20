@@ -1764,7 +1764,7 @@ const javascriptQuiz = [
     Explanation:
       "The answer is false. Triple equal ('===') compares the value and the type as well.",
     Link: "https://youtu.be/zJSY8tbf_ys?t=24429"
-  }
+  },
 ];
 
 export default javascriptQuiz;
