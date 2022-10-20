@@ -1224,6 +1224,16 @@ const generalCSQuiz = [
       "Big theta is either the exact performance value of the algorithm, or a useful range between narrow upper and lower bounds.",
     Link: "https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/",
   },
+  {
+    Question: "Which bit is used to signify the updated cache location?",
+    Answer: "Dirty bit",
+    Distractor1: "Flag bit",
+    Distractor2: "Update bit",
+    Distractor3: "Enhance bit",
+    Explanation:
+      "Dirty bit is utilised when the cache location is modified to inform the processor.",
+    Link: "https://en.wikipedia.org/wiki/Dirty_bit",
+  },
 ];
 
 export default generalCSQuiz;
