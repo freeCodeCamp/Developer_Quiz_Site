@@ -1732,6 +1732,18 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, which of the following functions accepts an image element and a file as arguments?",
+    Answer: "FileUpLoad",
+    Distractor1: "DownFile",
+    Distractor2: "Client",
+    Distractor3: "Database",
+    Explanation:
+      "An HTML <input> element with the type='file' attribute is represented by the Input FileUpload object and is a client-side JavaScript object.",
+    Link:
+      "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+  },
+  {
+    Question:
     "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
     Answer:"Promise.all() and Promise.allSettled()",
     Distractor1:"Promise.any() and Promise.all()",
@@ -1742,8 +1754,6 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
   },
-
-
 ];
 
 export default javascriptQuiz;
