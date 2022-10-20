@@ -286,7 +286,7 @@ const agileQuiz = [
     Distractor2: "Lean",
     Distractor3: "Agile Inception ",
     Explanation:
-      "The Kanban method does not prescribe roles or meetings as do other frameworks such as Scrum. However, roles and meetings have been identified from experience in organizations that are relevant for the organization to follow the principles of the method through its practices..",
+      "The Kanban method does not prescribe roles or meetings unlike other frameworks such as Scrum.",
     Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
   },
 ];
