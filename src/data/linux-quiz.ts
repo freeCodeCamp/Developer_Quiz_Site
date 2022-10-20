@@ -989,7 +989,16 @@ const linuxQuiz = [
     Explanation:
       "gzip can also be used to decompress a file, using the -d option: gzip -d filename.gz",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
-  }
+  },
+  {
+    Question: "In Linux, what does the dmesg command do?",
+    Answer: "shows kernal logs",
+    Distractor1: "shows authentication logs",
+    Distractor2: "shows syslog file",
+    Distractor3: "shows daemon logs",
+    Explanation: "The dmesg command is a Linux utility that shows kernel-related messages that have been taken from the kernel ring buffer.",
+    Link: "https://en.wikipedia.org/wiki/Dmesg",
+  },
 ];
 
 export default linuxQuiz;

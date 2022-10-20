@@ -631,6 +631,17 @@ const sqlQuiz = [
       "A database is a curated collection of structured data that is kept in one location.",
     Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/",
   },
+  {
+    Question:
+      "In MySQL, which of the following queries can be used to rename the table BaseCamp to BaseCamp_New?",
+    Answer: "ALTER TABLE BaseCamp RENAME TO BaseCamp_New ;",
+    Distractor1: "ALTER TABLE BaseCamp TO BaseCamp_New ;",
+    Distractor2: "ALTER TABLE BaseCamp UPDATE TO BaseCamp_New ;",
+    Distractor3: "ALTER TABLE BaseCamp SET TO BaseCamp_New ;",
+    Explanation:
+      "If you want to rename a table called BaseCamp to BaseCamp_New, then you would use the following syntax in MySQL: ALTER TABLE table_name RENAME TO new_table_name;",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+  },
 ];
 
 export default sqlQuiz;
