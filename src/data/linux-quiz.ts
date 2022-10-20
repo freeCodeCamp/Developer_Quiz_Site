@@ -987,7 +987,7 @@ const linuxQuiz = [
     Distractor2: "-r",
     Distractor3: "-c",
     Explanation:
-      "gzip can also be used to decompress a file, using the -d option : gzip -d filename.gz",
+      "gzip can also be used to decompress a file, using the -d option: gzip -d filename.gz",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
