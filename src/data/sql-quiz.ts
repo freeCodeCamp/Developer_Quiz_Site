@@ -639,7 +639,7 @@ const sqlQuiz = [
     Distractor2: "ALTER TABLE BaseCamp UPDATE TO BaseCamp_New ;",
     Distractor3: "ALTER TABLE BaseCamp SET TO BaseCamp_New ;",
     Explanation:
-      "ALTER TABLE table_name RENAME TO new_table_name;",
+      "If you want to rename a table called BaseCamp to BaseCamp_New, then you would use the following syntax in MySQL: ALTER TABLE table_name RENAME TO new_table_name;",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
 ];
