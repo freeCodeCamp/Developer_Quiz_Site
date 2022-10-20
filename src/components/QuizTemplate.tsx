@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SelectQuiz from "./SelectQuiz";
 
-import { ALL_CATEGORIES } from "../constants";
+import { ALL_CATEGORIES, CATEGORY_NAMES, QuizQuestion } from "../constants";
 
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
@@ -11,14 +11,14 @@ import Questions from "./Questions";
 import "../stylesheets/App.css";
 import {
   correctModalResponses,
-  incorrectModalResponses,
+  incorrectModalResponses
 } from "../data/modal-responses";
 
 interface QuizProps {
   home: React.MouseEventHandler;
 }
 
-const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
+const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [quiz, setQuiz] = useState(ALL_CATEGORIES);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
@@ -30,6 +30,13 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(true);
+  // Category Questions
+  const [accessibilityQuestionsCorrect, setAccessibilityQuestionsCorrect] =
+    useState(0);
+  const [agileQuestionsCorrect, setAgileQuestionsCorrect] = useState(0);
+  const [generalQuestionsCorrect, setGeneralQuestionsCorrect] = useState(0);
+  const [cssQuestionsCorrect, setCSSQuestionsCorrect] = useState(0);
+
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
   const choicesArr: string[][] = [];
   const currQuestion = quiz[questionNumber - 1];
@@ -62,7 +69,7 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
   const handleShow = () => setShow(true);
 
   //shuffle the right and wrong answers
-  quiz.forEach((obj) => {
+  quiz.forEach(obj => {
     const arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
     choicesArr.push(shuffle<string>(arr));
   });
@@ -72,7 +79,7 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
       setIsResults(true);
       return;
     }
-    setQuestionNumber((curr) => curr + 1);
+    setQuestionNumber(curr => curr + 1);
     setChooseAnswer(false);
   };
 
@@ -84,11 +91,35 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
     setChooseAnswer(false);
     setPoints(0);
     setQuestionNumber(1);
+    resetCategoryPoints();
+  };
+
+  const hideResultsBreakdown = () => {
+    setShow(false);
+  };
+
+  const resetCategoryPoints = () => {
+    setAccessibilityQuestionsCorrect(0);
+    setAgileQuestionsCorrect(0);
+    setCSSQuestionsCorrect(0);
+    setGeneralQuestionsCorrect(0);
   };
 
   const shuffleModalResponses = (responses: string[]) => {
     const shuffleModalArr = shuffle<string>(responses);
     return shuffleModalArr[0];
+  };
+
+  const incrementCategoryQuestionScore = (categoryName: string) => {
+    if (categoryName == CATEGORY_NAMES.AGILE) {
+      setAgileQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.ACCESSIBILITY) {
+      setAccessibilityQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.GENERAL) {
+      setGeneralQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.CSS) {
+      setCSSQuestionsCorrect(curr => curr + 1);
+    }
   };
 
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
@@ -101,7 +132,8 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
       setShowReference(currQuestion.Link);
       handleShow();
     } else {
-      setPoints((curr) => curr + 1);
+      incrementCategoryQuestionScore(currQuestion.Category);
+      setPoints(curr => curr + 1);
       setMessage(shuffleModalResponses(correctModalResponses));
       setDisplayExplanation(currQuestion.Explanation);
       setShowReference(currQuestion.Link);
@@ -111,7 +143,7 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
 
   const selectQuizProps = {
     startQuiz,
-    selectQuizArr,
+    selectQuizArr
   };
 
   const modalProps = {
@@ -121,13 +153,20 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
     displayExplanation,
     showReference,
     show,
-    nextQuestion,
+    nextQuestion
   };
 
   const resultsProps = {
     points,
     totalPoints,
     resetQuiz,
+    hideResultsBreakdown,
+    accessibilityQuestionsCorrect,
+    agileQuestionsCorrect,
+    cssQuestionsCorrect,
+    generalQuestionsCorrect,
+
+    show
   };
 
   const questionProps = {
@@ -138,14 +177,14 @@ const QuizTemplate: React.FC<QuizProps> = (QuizProps) => {
     chooseAnswer,
     points,
     choicesArr,
-    checkAnswer,
+    checkAnswer
   };
 
   return (
     <>
       <Button
         handleClick={QuizProps.home}
-        text="Home"
+        text='Home'
         isTransparent={false}
         size={""}
       />
