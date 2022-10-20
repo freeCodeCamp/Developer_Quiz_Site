@@ -964,7 +964,7 @@ const linuxQuiz = [
     Link: "https://man7.org/linux/man-pages/man1/w.1.html",
   },
   {
-    Question: "What does dmesg command do?",
+    Question: "In Linux, what does the dmesg command do?",
     Answer: "shows kernal logs",
     Distractor1: "shows authentication logs",
     Distractor2: "shows syslog file",
