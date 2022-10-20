@@ -454,7 +454,7 @@ const gitQuiz = [
     Answer: "Git is a popular version control system and GitHub is a hosting service for Git repositories.",
     Distractor1: "GitHub is a type of version control system, while Git is a hosting service for Git repositories.",
     Distractor2: "Git and GitHub are the same thing",
-    Distractor3: "Git is a service and GitHub is a software",
+    Distractor3: "Git is a version control system only used on Mac computers while GitHub is a version control system only used on Windows.",
     Explanation:
       "Git is a version control system for managing the source and history of code and GitHub is a hosting service for Git repositories.",
     Link: "https://www.freecodecamp.org/news/introduction-to-git-and-github/",
