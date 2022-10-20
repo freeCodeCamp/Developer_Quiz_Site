@@ -1,4 +1,14 @@
 const securityQuiz = [
+   {
+    Question:
+      "Which of the following is not an Attack model in cryptanalysis?",
+    Answer: "CVA (Chosen Vector Attack)",
+    Distractor1: "CPA (Chosen Plaintext Attack)",
+    Distractor2: "CCA (Chosen Ciphertext Attack)",
+    Distractor3: "COA (Ciphertext Only Attack)",
+    Explanation: "There is no attack model named CVA (Chosen vector attack).",
+    Link: "https://en.wikipedia.org/wiki/Attack_model",
+  },
   {
    Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
@@ -306,6 +316,28 @@ const securityQuiz = [
     Explanation:
       "The InterPlanetary File System is a protocol that stores and shares content and is meant to make the web faster and safer to use.",
     Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/",
+  },
+    {
+    Question:
+      "Which versions of SSL/TLS were impacted during the 2011 SSL BEAST Attack?",
+    Answer: "SSL 3.0 and TLS 1.0",
+    Distractor1: "SSL 2.0 and TLS 2.0",
+    Distractor2: "SSL 2.0 and TLS 1.0",
+    Distractor3: "SSL 1.0 and TLS 1.0",
+    Explanation:
+      "BEAST stands for Browser Exploit Against SSL/TLS (BEAST) and it is a type of attack that exploits vulnerabilities in SSL and TLS protocols.",
+    Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/",
+  },
+    {
+    Question:
+      "Which of the following techniques is a Block Cipher modeled after?",
+    Answer: "PRP(Pseudo Random Permutation)",
+    Distractor1: "PRF(Pseudo Random Function)",
+    Distractor2: "OTP(One Time Pad)",
+    Distractor3: "PRG(Pseudo Random Generator)",
+    Explanation:
+      "The Block Cipher cryptographic scheme is based on the principle of Pseudo Random Permutations.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-block-cipher/",
   },
 ];
 

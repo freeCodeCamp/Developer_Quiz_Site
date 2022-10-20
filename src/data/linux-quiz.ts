@@ -1,6 +1,17 @@
 const linuxQuiz = [
   {
     
+    Question: "In Linux, which command is used to display all the users logged in to the system?",
+    Answer: "who",
+    Distractor1: "all-users",
+    Distractor2: "show",
+    Distractor3: "whoami",
+    Explanation:
+       "The who command displays the users logged in to the system.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+  },
+  {
+    
     Question: "In Linux, which command is used to remove the writing and executing permissions for 'group' and 'other'?",
     Answer: "chmod go-wx list",
     Distractor1: "chmod go+wx list",
