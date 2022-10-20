@@ -1531,6 +1531,15 @@ const pythonQuiz = [
     Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
     Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
   },
+   {
+    Question: "What is the result of math.trunc(3.1)?",
+    Answer: "3",
+    Distractor1: "3.0",
+    Distractor2: "3",
+    Distractor3: "0.1",
+    Explanation: "The integral part of the floating point number is returned.",
+    Link: "https://docs.python.org/3/library/math.html",
+  },
 ];
 
 export default pythonQuiz;
