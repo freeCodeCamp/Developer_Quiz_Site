@@ -1736,7 +1736,7 @@ const javascriptQuiz = [
   },
    {
     Question:
-      "Which of these is a client-side JavaScript object?",
+      "In JavaScript, which of the following functions accepts an image element and a file as arguments?",
     Answer: "FileUpLoad",
     Distractor1: "DownFile",
     Distractor2: "Client",
