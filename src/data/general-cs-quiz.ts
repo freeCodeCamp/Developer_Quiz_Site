@@ -1215,6 +1215,18 @@ const generalCSQuiz = [
       "Big theta is either the exact performance value of the algorithm, or a useful range between narrow upper and lower bounds.",
     Link: "https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/",
   },
+  
+  {
+    Question: "For a valid algorithm that uses recursion with 'b' branches and has 'd' depth in the recursion tree, the Big-O time complexity can often (but not always) be calculated using which formula?",
+    Answer: "b ^ (d) i.e. 'b' raised to the power of 'd'",
+    Distractor1: "d ^ (b)",
+    Distractor2: "2 ^ (b)",
+    Distractor3: "2 ^ (b * d)",
+    Explanation:
+      "An O(branches ^ depth) runtime is often reported (although not always) for recursive functions that make multiple calls.",
+    Link: "https://www.freecodecamp.org/news/learn-big-o-notation/",
+  },
+
 ];
 
 export default generalCSQuiz;
