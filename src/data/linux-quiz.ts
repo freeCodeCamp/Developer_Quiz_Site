@@ -996,9 +996,29 @@ const linuxQuiz = [
     Distractor1: "shows authentication logs",
     Distractor2: "shows syslog file",
     Distractor3: "shows daemon logs",
-    Explanation: "The dmesg command is a Linux utility that shows kernel-related messages that have been taken from the kernel ring buffer.",
-    Link: "https://en.wikipedia.org/wiki/Dmesg",
+    Explanation:
+      "The dmesg command is a Linux utility that shows kernel-related messages that have been taken from the kernel ring buffer.",
+    Link: "https://en.wikipedia.org/wiki/Dmesg"
   },
+  {
+    Question: "In Linux, what does the inode mean?",
+    Answer: "Unique name given by the operating system to each file",
+    Distractor1: "kernal nodes",
+    Distractor2: "does not exist",
+    Distractor3: "linux nodes",
+    Explanation:
+      "Each file is given a unique name by the operating system which is called as the inode.",
+    Link: "https://en.wikipedia.org/wiki/Inode"
+  },
+  {
+    Question: "What does CLI stand for?",
+    Answer: "Command Line Interface",
+    Distractor1: "Computer Linux Index",
+    Distractor2: "Code Line Interface",
+    Distractor3: "Code Line Index",
+    Explanation: "CLI stands for Command Line Interface",
+    Link: "https://en.wikipedia.org/wiki/Command-line_interface"
+  }
 ];
 
 export default linuxQuiz;
