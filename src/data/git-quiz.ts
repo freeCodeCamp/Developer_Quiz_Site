@@ -453,7 +453,7 @@ const gitQuiz = [
     Question: "What is the difference between Git and GitHub?",
     Answer: "Git is a popular version control system and GitHub is a hosting service for Git repositories.",
     Distractor1: "GitHub is a version control system, but Git is not.",
-    Distractor2: "Git does not require login and GitHub does require login",
+    Distractor2: "Git and GitHub are the same thing",
     Distractor3: "Git is a service and GitHub is a software",
     Explanation:
       "Git is a version control system for managing the source and history of code and GitHub is a hosting service for Git repositories.",
