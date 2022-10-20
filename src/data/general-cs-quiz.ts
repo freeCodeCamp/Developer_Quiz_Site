@@ -1226,7 +1226,7 @@ const generalCSQuiz = [
   },
   
   {
-    Question: "For a valid algorithm that uses recursion with 'b' branches and has 'd' depth in the recursion tree, the Big-O time complexity can often (but not always) be calculated using which formula?",
+    Question: "Which of the following runtimes can be used for recursive functions that make multiple calls?",
     Answer: "b ^ (d) i.e. 'b' raised to the power of 'd'",
     Distractor1: "d ^ (b)",
     Distractor2: "2 ^ (b)",
