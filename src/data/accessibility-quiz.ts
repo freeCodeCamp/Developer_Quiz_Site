@@ -7,7 +7,7 @@ const accessibilityQuiz = [
     Distractor2: "Semantic code decreases site readability.",
     Distractor3: "Semantic code can improve comprehension for hearing-impaired individuals.",
     Explanation:
-      "Authors are strongly encouraged to view the div element as an element of last resort, for when no other element is suitable. Use of more appropriate elements instead of the div element leads to better accessibility for readers and easier maintainability for authors.",
+      "Semantic HTML helps describe the meaning behind the content whereas generic HTML elements like divs and spans hold no special meaning. It is always encouraged to use semantic HTML when possible to help with accessibility.",
     Link: "https://www.freecodecamp.org/news/semantic-html-alternatives-to-using-divs/",
   },
   {
