@@ -280,7 +280,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "In Agile, Which agile methodology has no defined roles or functions and each member can assume the available tasks?",
+    Question: "In Agile, which methodology has no defined roles or functions where each member can assume the available tasks?",
     Answer: "Kanban",
     Distractor1: "Scrum",
     Distractor2: "Lean",
