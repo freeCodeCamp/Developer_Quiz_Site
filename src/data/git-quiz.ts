@@ -455,16 +455,16 @@ const gitQuiz = [
     Distractor1: "git stash pop",
     Distractor2: "git stash apply",
     Distractor3: "git commit",
-    Explanation: "To apply a stash when you have multiple stashes you use git stash pop stash@{x} where x is the number in the list of stash.",
+    Explanation: "To apply a stash when you have multiple stashes, you use git stash pop stash@{x} where x is the number in the list of stash.",
     Link: "https://git-scm.com/docs/git-stash",
   },
   {
-    Question: "In Git, how do you see a summary of a single stash?",
+    Question: "In Git, how do you see a summary for a single stash?",
     Answer: "git stash show",
     Distractor1: "git stash view",
     Distractor2: "git stash diff",
     Distractor3: "git stash summary",
-    Explanation: "To view a summary of a single stash you use git stash show which shows a summary of file changes.",
+    Explanation: "To view a summary for a single stash, you use git stash show which shows a summary of file changes.",
     Link: "https://git-scm.com/docs/git-stash",
   },
   {
@@ -473,7 +473,7 @@ const gitQuiz = [
     Distractor1: "git checkout -b branch_name stash",
     Distractor2: "git -b branch_name stash@{x}",
     Distractor3: "git branch_name stash@{x}",
-    Explanation: "To create a branch from a stash you use git stash branch the_branch_name stash@{x} where x is the number in the list of stash.",
+    Explanation: "To create a branch from a stash, you use git stash branch the_branch_name stash@{x} where x is the number in the list of stash.",
     Link: "https://git-scm.com/docs/git-stash",
   },
   {
@@ -482,7 +482,7 @@ const gitQuiz = [
     Distractor1: "git stash delete",
     Distractor2: "git stash remove",
     Distractor3: "git stash drop",
-    Explanation: "To remove all stashes you use git stash clear which will delete ALL stashes.",
+    Explanation: "To remove all stashes, you use git stash clear which will delete ALL stashes.",
     Link: "https://git-scm.com/docs/git-stash",
   },
   {
@@ -491,7 +491,7 @@ const gitQuiz = [
     Distractor1: "git stash delete stash@{x}",
     Distractor2: "git stash remove stash@{x}",
     Distractor3: "git drop stash@{x}",
-    Explanation: "To delete a SINGLE stash you use git stash drop stash@{x} where x is the number in the list of stash.",
+    Explanation: "To delete a SINGLE stash, you use git stash drop stash@{x} where x is the number in the list of stash.",
     Link: "https://git-scm.com/docs/git-stash",
   },
 ];
