@@ -1,6 +1,138 @@
 const pythonQuiz = [
   {
     Question: 
+      "In Python, which of the following is the correct syntax for a key-value pair in a dictionary?",
+    Answer: "key1: value1",
+    Distractor1: "5j",
+    Distractor2: "'key'",
+    Distractor3: "'count'",
+    Explanation: 
+      "A Python dictionary is a sequence of key-value pairs separated by commas. Here is the correct syntax: key1: value1.",
+    Link: "https://www.freecodecamp.org/news/python-dictionary-methods-dictionaries-in-python/",
+  },
+  {
+    Question: 
+      "In Python, what is the output for this code: print(len('Hello world!'))?",
+    Answer: "12",
+    Distractor1: "11",
+    Distractor2: "10",
+    Distractor3: "13",
+    Explanation: 
+      "The len function returns all characters within a string. Every single character(and space) in Hello world! would result in a length of 12.",
+    Link: "https://www.freecodecamp.org/news/print-statement-in-python-how-to-print-with-example-syntax-command/",
+  },
+  {
+    Question: 
+      "In Python, what are anonymous functions called?",
+    Answer: "Lambda function",
+    Distractor1: "Type function",
+    Distractor2: "beta functions",
+    Distractor3: "Sorted Function",
+    Explanation: 
+      "Lambda functions are anonymous functions that can contain only one expression.",
+    Link: "https://www.freecodecamp.org/news/lambda-function-in-python-example-syntax/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise XOR operations?",
+    Answer: "^",
+    Distractor1:  "~",
+    Distractor2:  "|",
+    Distractor3:  "&",
+    Explanation: 
+      "The ^ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, if organization='freeCodeCamp', then what is the result here: print(type(organization))?",
+    Answer: "<class 'str'>",
+    Distractor1: "<class 'char'>",
+    Distractor2: "<class 'var'>",
+    Distractor3: "error",
+    Explanation: 
+      "Python's type() method returns the class type for the object.",
+    Link: "https://www.freecodecamp.org/news/python-print-type-of-variable-how-to-get-var-type/",
+   },
+   {
+    Question: 
+      "In Python, if we have list=['rahul', 'monica', 'george', 'ross', 'george', 'ross'], then what is the result here: print(len(set(list))-len(list))?",
+    Answer: "-2",
+    Distractor1: "2",
+    Distractor2: "0",
+    Distractor3: "6",
+    Explanation: 
+      "Lists can have duplicate items while Sets only contain unique items.",
+    Link: "https://www.freecodecamp.org/news/python-set-operations-explained-with-examples/",
+   },
+   {
+    Question: 
+      "In Python, if we have word ='free' and phrase='code camp', then what is the result here: print(word + phrase)?",
+    Answer: "free code camp",
+    Distractor1: "free camp code",
+    Distractor2: "free + code camp",
+    Distractor3: "code camp free",
+    Explanation: 
+      "To concatenate two strings, you can use the + operator.",
+    Link: "https://www.freecodecamp.org/news/python-concatenate-strings-how-to-combine-and-append-strings-in-python/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise NOT operations?",
+    Answer: "~",
+    Distractor1: "++",
+    Distractor2: "!",
+    Distractor3: "--",
+    Explanation: 
+      "The ~ operator is used in Python to perform Bitwise NOT operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise OR operations?",
+    Answer: "|",
+    Distractor1: ">>>",
+    Distractor2: "<<<",
+    Distractor3: "x",
+    Explanation: 
+      "The | operator is used in Python to perform Bitwise OR operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which operator is used to perform Bitwise AND operations?",
+    Answer: "&",
+    Distractor1: "{{",
+    Distractor2: "&&",
+    Distractor3: "<",
+    Explanation: 
+      "The & operator is used in Python to perform Bitwise AND operations.",
+    Link: "https://www.freecodecamp.org/news/basic-operators-in-python-with-examples/",
+  },
+  {
+    Question: 
+      "In Python, which method is used to count the set bits in an integer?",
+    Answer: "int.bit_count()",
+    Distractor1: "float.bit_count()",
+    Distractor2: "double.bit_count()",
+    Distractor3: "int.count()",
+    Explanation: 
+      "int.bit_count() is used to count set bits in an integer",
+    Link: "https://docs.python.org/3/library/stdtypes.html?highlight=tim%20sort#int.bit_count",
+  },
+  {
+    Question: 
+      "In Python, which module supports regular expressions?",
+    Answer: "re",
+    Distractor1: "regex",
+    Distractor2: "pyregex",
+    Distractor3: "pythonre",
+    Explanation: 
+      "The Python re module provides regular expression support.",
+    Link: "https://docs.python.org/3/library/re.html",
+  },
+  {
+    Question: 
       "In Python, what keyword is used to raise exceptions?",
     Answer: "raise",
     Distractor1: "try",
@@ -1360,7 +1492,45 @@ const pythonQuiz = [
     Explanation: "The .reverse() method doesn't accept any arguments and doesn't have a return value – it only updates the existing list.",
     Link: "https://www.freecodecamp.org/news/python-reverse-list-reversing-an-array-in-python/",
   },
-
+  {
+    Question: "Which of these is a standard GUI library in Python?",
+    Answer: "Tkinter",
+    Distractor1: "bs4",
+    Distractor2: "Selenium",
+    Distractor3: "Regex",
+    Explanation: "Tkinter provides an object-oriented interface to the Tk GUI toolkit that is built-in to Python.",
+    Link: "https://www.freecodecamp.org/news/learn-how-to-use-tkinter-to-create-guis-in-python/",
+  },
+  {
+    Question: "In Python, what will be the output for the following code: print(round(0.6)-round(-0.6))?",
+    Answer: "2",
+    Distractor1: "0",
+    Distractor2: "1",
+    Distractor3: "-1",
+    Explanation: "In Python, round(0.6) will round up to 1 and round(-0.6) will round down to -1. The result for round(0.6)-round(-0.6) will be 2.",
+    Link: "https://www.freecodecamp.org/news/how-to-round-numbers-up-or-down-in-python/.",
+  },
+  {
+    Question:
+      "In Python, what is the expected output for print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) ?",
+    Answer: "{'orange', 'banana', 'pear', 'apple'}",
+    Distractor1: "{'orange', 'banana', 'pear', 'apple', 'apple', 'orange'}",
+    Distractor2: "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple'}",
+    Distractor3:
+      "{'orange', 'banana', 'pear', 'apple', 'orange', 'apple', 'apple', 'orange'}",
+    Explanation:
+      "print({'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}) would return a set of unordered unique items.",
+    Link: "https://docs.python.org/3/tutorial/datastructures.html#sets",
+  },
+   {
+    Question: "In Python, if x=297.4887 what would the following return: print('%.3f'%x)?",
+    Answer: "297.489",
+    Distractor1: "297.488",
+    Distractor2: "297.49",
+    Distractor3: "297.4885",
+    Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
+  },
 ];
 
 export default pythonQuiz;

@@ -86,6 +86,40 @@ const qualityAssuranceQuiz = [
       "Even if the app is 99% bug free, if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
     Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
   },
+  {
+    Question:
+      "What are regression tests?",
+    Answer:
+      "Re-applying tests at later stages of development.",
+    Distractor1: "Only testing individual units of code",
+    Distractor2: "tests that check for basic functionality only",
+    Distractor3: "There is no such thing as regression tests",
+    Explanation:
+      "Regression tests refers to re-applying tests at later stages of development to ensure they still work.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
+  },
+  {
+    Question:
+      "What type of test involves the process of testing integrated software?",
+    Answer: "System",
+    Distractor1: "Acceptance",
+    Distractor2: "Unit",
+    Distractor3: "Integration",
+    Explanation:
+      "In system testing, the quality assurance team evaluates how each component of the application/software work together in a full, integrated environment.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+  },
+  {
+    Question:
+      "What does the term TDD stand for?",
+    Answer: "Test-Driven Development",
+    Distractor1:  "Test-Driving Development",
+    Distractor2:  "Test-Distributing Development",
+    Distractor3:  "Test-Distinct Development",
+    Explanation:  
+      "Test-driven development is the act of first deciding what you want your program to do (the specifications), formulating a failing test, then writing the code to make that test pass.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/",
+  },
 ];
 
 export default qualityAssuranceQuiz;

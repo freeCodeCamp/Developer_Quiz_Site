@@ -1,5 +1,33 @@
 const informationTechnologyQuiz = [
   {
+    Question: "How many layers are there in the OSI and TCP/IP models respectively?",
+    Answer:"7 and 4",
+    Distractor1: "12 and 7",
+    Distractor2: "7 and 5",
+    Distractor3: "11 and 7",
+    Explanation:
+      "The OSI model has 7 layers while TCP/IP Model has only 4 layers",
+    Link: "https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners/",
+  },
+  {
+    Question: "What is the OSI Model?",
+    Answer: "OSI is a reference system that lays out how computers communicate with each other over a network.",
+    Distractor1: "OSI is a new program paradigm",
+    Distractor2: "OSI is a reference to new practices to coding",
+    Distractor3: "OSI is a new set of rules to link of a net protocol",
+    Explanation: "OSI is a reference system that lays out how computers communicate with each other over a network.",
+    Link: "https://www.freecodecamp.org/news/osi-model-computer-networking-for-beginners/"
+  },
+  {
+    Question: "What is the name for modern computer architecture?",
+    Answer: "Von Neumann Architecture",
+    Distractor1: "Enigma-Turing Architecture",
+    Distractor2: "Micro-ATX Architecture",
+    Distractor3: "CPU-GPU Architecture",
+    Explanation: "John Von Neumann is the creator of the modern computer architecture",
+    Link:"https://en.wikipedia.org/wiki/Von_Neumann_architecture"
+  },
+  {
     Question: "Which of the following validates the integrity of data?",
     Answer:
       "Hashing",
@@ -447,6 +475,26 @@ const informationTechnologyQuiz = [
     Explanation:
       "The ALU (short for Arithmetic Logic Unit), is the part where all mathematical calculations take place, such as addition, subtraction, multiplication, and division. The ALU is also responsible for all of the logical operations for decision making, such as comparing data.",
     Link: "https://www.freecodecamp.org/news/what-is-cpu-meaning-definition-and-what-cpu-stands-for/",
+  },
+  {
+    Question:
+      "Which one of these options is layer 1 in the Open Systems Interconnection (OSI) model?",
+    Answer: "The physical layer",
+    Distractor1: "The transport Layer",
+    Distractor2: "The network layer",
+    Distractor3: "The application layer",
+    Explanation:
+      "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
+    Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
+  },
+  {
+    Question: "What does SPF stand for?",
+    Answer: "Sender Policy Framework",
+    Distractor1:  "Social Platform Framework",
+    Distractor2:  "System Prescribed Framework",
+    Distractor3:  "Sender Private Framework",
+    Explanation:  "SPF allows the owner of a domain (like google.com) to set a TXT record in its DNS that states which servers are allowed to send mail from that domain.",
+    Link: "https://www.freecodecamp.org/news/how-does-email-work/"
   },
 ];
 

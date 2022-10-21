@@ -1,6 +1,42 @@
 const htmlQuiz = [
   {
     Question:
+     "In HTML, which tag is used to insert a favicon?",
+    Answer: "<link>",
+    Distractor1: "<fav>",
+    Distractor2: "<favicon>",
+    Distractor3: "<icon>",
+    Explanation:
+     "The link tag is used to add a favicon to a website.",
+    Link:
+     "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/link",
+  },
+  {
+    Question:
+    "Which of the following is the correct way of creating an anchor element in HTML?",
+    Answer: "<a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
+    Distractor1: "<a>www.freecodecamp.org <freeCodeCamp /a>",
+    Distractor2: "<a href='www.freecodecamp.org' freeCodeCamp /a>",
+    Distractor3: "<a link='www.freecodecamp.org' freeCodeCamp > </a>",
+    Explanation:
+      "In HTML, an anchor element is used to create links on a a web page. Here is the correct syntax: <a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
+    Link:
+      "https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/",
+  },
+  {
+    Question:
+    "What is meant by an empty tag in HTML?",
+    Answer: "An empty tag doesn't require a closing tag",
+    Distractor1: "There is no such concept of empty tag in HTML",
+    Distractor2: "An empty tag cannot having any content within it",
+    Distractor3: "None of these",
+    Explanation:
+      "In HTML, empty tags are those tags that don’t require a closing tag.",
+    Link:
+      "https://www.freecodecamp.org/news/empty-and-blank-53b9e96151cd/"
+  },
+  {
+    Question:
     "Which HTML element is used to link to a 3rd party JavaScript library and make it available on your page?",
     Answer: "<script>",
     Distractor1: "<input>",
@@ -1602,6 +1638,17 @@ const htmlQuiz = [
     Explanation:
       "The <i> tag is used to make text italic without adding extra emphasis. It is commonly used for text that is set off from normal prose, like foreign words or thoughts. ",
     Link: "https://devdocs.io/html/element/i",
+  },
+  {
+    Question:
+      "In HTML, what does the iframe element do?",
+    Answer: "embed another document within the current HTML document ",
+    Distractor1: "used for creating a hyperlink",
+    Distractor2: "used to italicize text",
+    Distractor3: "a tag used for preformatted sections of text",
+    Explanation:
+      "The HTML iframe element is used to embed another document within the current HTML document. It is commonly used for advertisements, web analytics and other forms of interactive content.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe",
   },
 ];
 export default htmlQuiz;

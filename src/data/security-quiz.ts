@@ -1,25 +1,13 @@
 const securityQuiz = [
-  {
+   {
     Question:
-      "Which set among the following is the correct set of three types of Linux file users?",
-    Answer: "{user, group, other}",
-    Distractor1: "{whoami, users, group}",
-    Distractor2: "{whoami, user, others}",
-    Distractor3: "{user, group, all}",
-    Explanation:
-      "In Linux, there are three types of users: user, group and other.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
-  },
-  {
-    Question:
-      "Which of the following is NOT a category of file permissions in Linux?",
-    Answer: "compile",
-    Distractor1: "execute",
-    Distractor2: "read",
-    Distractor3: "write",
-    Explanation:
-      "In Linux, file permissions fall into three categories: read, write and execute.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+      "Which of the following is not an Attack model in cryptanalysis?",
+    Answer: "CVA (Chosen Vector Attack)",
+    Distractor1: "CPA (Chosen Plaintext Attack)",
+    Distractor2: "CCA (Chosen Ciphertext Attack)",
+    Distractor3: "COA (Ciphertext Only Attack)",
+    Explanation: "There is no attack model named CVA (Chosen vector attack).",
+    Link: "https://en.wikipedia.org/wiki/Attack_model",
   },
   {
    Question:
@@ -307,6 +295,63 @@ const securityQuiz = [
       "Partial Homomorphic Encryption (PHE) allows only one operation to be performed on the ciphertext an infinite number of times. This operation can be only addition or only multiplication.",
     Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
   },
+  {
+    Question:
+      "What does SSL stand for?",
+    Answer: "Secure Sockets Layer",
+    Distractor1: "Serial Sockets Layer",
+    Distractor2: "Serial Secure Layer",
+    Distractor3: "Series Socket Layer",
+    Explanation:
+      "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
+    Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
+  },
+    {
+    Question:
+      "What does IPFS stand for?",
+    Answer: "InterPlanetary File System",
+    Distractor1: "Internet Public File System",
+    Distractor2: "Internet Protocol File Sharing",
+    Distractor3: "Inter Peer File Sharing",
+    Explanation:
+      "The InterPlanetary File System is a protocol that stores and shares content and is meant to make the web faster and safer to use.",
+    Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/",
+  },
+    {
+    Question:
+      "Which versions of SSL/TLS were impacted during the 2011 SSL BEAST Attack?",
+    Answer: "SSL 3.0 and TLS 1.0",
+    Distractor1: "SSL 2.0 and TLS 2.0",
+    Distractor2: "SSL 2.0 and TLS 1.0",
+    Distractor3: "SSL 1.0 and TLS 1.0",
+    Explanation:
+      "BEAST stands for Browser Exploit Against SSL/TLS (BEAST) and it is a type of attack that exploits vulnerabilities in SSL and TLS protocols.",
+    Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/",
+  },
+    {
+    Question:
+      "Which of the following techniques is a Block Cipher modeled after?",
+    Answer: "PRP(Pseudo Random Permutation)",
+    Distractor1: "PRF(Pseudo Random Function)",
+    Distractor2: "OTP(One Time Pad)",
+    Distractor3: "PRG(Pseudo Random Generator)",
+    Explanation:
+      "The Block Cipher cryptographic scheme is based on the principle of Pseudo Random Permutations.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-block-cipher/",
+  },
+    {
+    Question:
+      "Which cryptographic hashing technique is used for validating Ethereum Transactions?",
+    Answer: "Keccak-256",
+    Distractor1: "SHA-256",
+    Distractor2: "MD5",
+    Distractor3: "SHA-1",
+    Explanation:
+      "The Ethereum Blockchain uses the Keccak-256 hash for its Transactions and consensus mechanism.",
+    Link: "https://www.freecodecamp.org/news/tag/ethereum/",
+  },
 ];
 
 export default securityQuiz;
+
+
