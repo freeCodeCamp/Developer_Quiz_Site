@@ -1224,6 +1224,18 @@ const generalCSQuiz = [
       "Big theta is either the exact performance value of the algorithm, or a useful range between narrow upper and lower bounds.",
     Link: "https://www.freecodecamp.org/news/big-theta-and-asymptotic-notation-explained/",
   },
+  
+  {
+    Question: "Which of the following runtimes can be used for recursive functions that make multiple calls?",
+    Answer: "branches ^ (depth) i.e. 'b' raised to the power of 'd'",
+    Distractor1: "depth ^ (branches)",
+    Distractor2: "2 ^ (branches)",
+    Distractor3: "2 ^ (branches * depth)",
+    Explanation:
+      "An O(branches ^ depth) runtime is often reported (although not always) for recursive functions that make multiple calls.",
+    Link: "https://www.freecodecamp.org/news/learn-big-o-notation/",
+  },
+
 ];
 
 export default generalCSQuiz;

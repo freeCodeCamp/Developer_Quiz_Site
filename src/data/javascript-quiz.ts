@@ -1753,15 +1753,15 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which keyword is used to make portions of code accessible to other modules.?",
-    Answer: "export",
-    Distractor1: "import",
-    Distractor2: "as",
-    Distractor3: "from",
+      "In JavaScript, what will be the return value of console.log(new String('Hello, world!') === 'Hello, world!')?",
+    Answer: "false",
+    Distractor1: "equal",
+    Distractor2: "not equal",
+    Distractor3: "true",
     Explanation:
-      "The export keyword is used to make it possible to access small portions of code in other modules",
-    Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
-  }
+      "The answer is false. Triple equal ('===') compares the value and the type as well.",
+    Link: "https://youtu.be/zJSY8tbf_ys?t=24429"
+  },
 ];
 
 export default javascriptQuiz;

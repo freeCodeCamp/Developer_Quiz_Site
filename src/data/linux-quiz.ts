@@ -1,76 +1,87 @@
 const linuxQuiz = [
   {
-    
-    Question: "In Linux, which command is used to display all the users logged in to the system?",
+    Question: "In Linux, which command converts input and uses it as an argument for another command?",
+    Answer: "xargs",
+    Distractor1: "convert",
+    Distractor2: "stdin",
+    Distractor3: "argv",
+    Explanation:
+        "The xargs command is used in a UNIX shell to convert input from the standard input and use it as an argument for another command.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-xargs-command",
+  },
+  {
+    Question:
+      "In Linux, which command is used to display all the users logged in to the system?",
     Answer: "who",
     Distractor1: "all-users",
     Distractor2: "show",
     Distractor3: "whoami",
-    Explanation:
-       "The who command displays the users logged in to the system.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+    Explanation: "The who command displays the users logged in to the system.",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/"
   },
   {
-    
-    Question: "In Linux, which command is used to remove the writing and executing permissions for 'group' and 'other'?",
+    Question:
+      "In Linux, which command is used to remove the writing and executing permissions for 'group' and 'other'?",
     Answer: "chmod go-wx list",
     Distractor1: "chmod go+wx list",
     Distractor2: "chmod a-wx list",
     Distractor3: "chmod go+r list",
     Explanation:
       "The 'chmod go-wx list' is used to remove the writing and executing permissions for 'group' and 'other' for a file named list.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/"
   },
   {
-    
-    Question: "In Linux, which one of the following commands determines file type?",
+    Question:
+      "In Linux, which one of the following commands determines file type?",
     Answer: "file",
     Distractor1: "kind",
     Distractor2: "wget",
     Distractor3: "which",
-    Explanation:
-      "The command 'file' determines file type.",
-    Link: "https://man7.org/linux/man-pages/man1/file.1.html",
+    Explanation: "The command 'file' determines file type.",
+    Link: "https://man7.org/linux/man-pages/man1/file.1.html"
   },
   {
-    Question: "In Linux, which one of the following commands locates the binary, source, and manual page files for a command?",
+    Question:
+      "In Linux, which one of the following commands locates the binary, source, and manual page files for a command?",
     Answer: "whereis <command>",
     Distractor1: "locate <command>",
     Distractor2: "wget <command>",
     Distractor3: "which <command>",
     Explanation:
       "The command 'whereis' locates the binary, source, and manual page files for a command.",
-    Link: "https://man7.org/linux/man-pages/man1/whereis.1.html",
+    Link: "https://man7.org/linux/man-pages/man1/whereis.1.html"
   },
   {
-    Question: "In Linux, which one of the following commands lists threads of a process?",
+    Question:
+      "In Linux, which one of the following commands lists threads of a process?",
     Answer: "ps -T -p <PID>",
     Distractor1: "ps -ef",
     Distractor2: "top thread <PID>",
     Distractor3: "show_thread <PID>",
     Explanation:
       "The option '-p' selects the process by PID, and the option '-T' is to show threads.",
-    Link: "https://man7.org/linux/man-pages/man1/ps.1.html",
+    Link: "https://man7.org/linux/man-pages/man1/ps.1.html"
   },
   {
-    Question: "In Linux, which one of the following commands concatenates and prints files in reverse?",
+    Question:
+      "In Linux, which one of the following commands concatenates and prints files in reverse?",
     Answer: "tac",
     Distractor1: "catr",
     Distractor2: "cat_reverse",
     Distractor3: "print_reverse",
-    Explanation:
-      "The command 'tac' prints files in reverse.",
-    Link: "https://man7.org/linux/man-pages/man1/tac.1.html",
+    Explanation: "The command 'tac' prints files in reverse.",
+    Link: "https://man7.org/linux/man-pages/man1/tac.1.html"
   },
   {
-    Question: "In Linux, which one of the following commands repeatedly outputs a line with all specified string(s) or just 'y'?",
+    Question:
+      "In Linux, which one of the following commands repeatedly outputs a line with all specified string(s) or just 'y'?",
     Answer: "yes",
     Distractor1: "no",
     Distractor2: "loop",
     Distractor3: "iterate",
     Explanation:
       "The command 'yes' repeatedly outputs a line with all specified string(s), or 'y'.",
-    Link: "https://man7.org/linux/man-pages/man1/yes.1.html",
+    Link: "https://man7.org/linux/man-pages/man1/yes.1.html"
   },
   {
     Question: "In Linux, which one is not a communication command?",
@@ -80,7 +91,7 @@ const linuxQuiz = [
     Distractor3: "write",
     Explanation:
       "The grep filter searches a file for a particular pattern of characters, and displays all lines that contain that pattern.",
-    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/"
   },
   {
     Question:
@@ -91,7 +102,7 @@ const linuxQuiz = [
     Distractor3: "cp <filename>",
     Explanation:
       "The touch <filename> command creates a new file without opening it which can be verified using the ls command.",
-    Link: "https://www.freecodecamp.org/news/linux-basics/",
+    Link: "https://www.freecodecamp.org/news/linux-basics/"
   },
   {
     Question: "In Linux, which command grants every permission to everyone?",
@@ -101,7 +112,7 @@ const linuxQuiz = [
     Distractor3: "chmod 666",
     Explanation:
       "The command chmod 777 activates all the permission access to owner, group and others by summing 4, 2, 1 on the octal base.",
-    Link: "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/",
+    Link: "https://www.freecodecamp.org/news/how-to-change-file-permissions-with-the-chmod-command-on-linux/"
   },
   {
     Question:
@@ -112,7 +123,7 @@ const linuxQuiz = [
     Distractor3: "printvar",
     Explanation:
       "The command printenv helps in listing all the environment variables, set either by the system, or by your own shell scripts and configuration.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-printenv-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-printenv-command"
   },
   {
     Question: "In Linux, what is a maximum length for a filename?",
@@ -122,7 +133,7 @@ const linuxQuiz = [
     Distractor3: "295 Bytes",
     Explanation:
       "The maximum length for a file name is 255 bytes. The maximum combined length of both the file name and path name is 4096 bytes.",
-    Link: "https://www.ibm.com/docs/en/spectrum-protect/8.1.9?topic=parameters-file-specification-syntax",
+    Link: "https://www.ibm.com/docs/en/spectrum-protect/8.1.9?topic=parameters-file-specification-syntax"
   },
   {
     Question: "In Linux, what does the resize2fs command do?",
@@ -133,7 +144,7 @@ const linuxQuiz = [
     Distractor3: "This is used to check the family of filesystems.",
     Explanation:
       "The resize2fs program will resize ext2, ext3, or ext4 file systems. It can be used to enlarge or shrink an unmounted file system located on the device. The resize2fs program does not manipulate the size of partitions.",
-    Link: "http://manpages.ubuntu.com/manpages/bionic/man8/resize2fs.8.html",
+    Link: "http://manpages.ubuntu.com/manpages/bionic/man8/resize2fs.8.html"
   },
   {
     Question:
@@ -144,7 +155,7 @@ const linuxQuiz = [
     Distractor3: "grep",
     Explanation:
       "The fuser utility displays the process IDs of the processes that are using the files specified as arguments.",
-    Link: "https://docs.oracle.com/cd/E88353_01/html/E72487/fuser-8.html",
+    Link: "https://docs.oracle.com/cd/E88353_01/html/E72487/fuser-8.html"
   },
   {
     Question:
@@ -155,7 +166,7 @@ const linuxQuiz = [
     Distractor3: "ls",
     Explanation:
       "pwd(short for print working directory) prints the current folder path and is helpful when you are lost in the terminal.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command"
   },
   {
     Question: "In Linux, which of the following is the pipe symbol?",
@@ -165,7 +176,7 @@ const linuxQuiz = [
     Distractor3: "[]",
     Explanation:
       "With the pipe symbol (|), the output of one command serves as the input to another.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command"
   },
   {
     Question: "In Linux, which command is used to send HTTP requests?",
@@ -175,7 +186,7 @@ const linuxQuiz = [
     Distractor3: "gzip",
     Explanation:
       "Curl is a command-line tool that allows us to do HTTP requests from shell",
-    Link: "https://www.freecodecamp.org/news/how-to-start-using-curl-and-why-a-hands-on-introduction-ea1c913caaaa/",
+    Link: "https://www.freecodecamp.org/news/how-to-start-using-curl-and-why-a-hands-on-introduction-ea1c913caaaa/"
   },
   {
     Question:
@@ -186,7 +197,7 @@ const linuxQuiz = [
     Distractor3: "rmdir",
     Explanation:
       "The uniq command removes duplicate lines in a file, by default.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -197,7 +208,7 @@ const linuxQuiz = [
     Distractor3: "makedir -p",
     Explanation:
       "You can create multiple nested folders by adding the -p option to the mkdir command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -208,7 +219,7 @@ const linuxQuiz = [
     Distractor3: "normal mode",
     Explanation:
       "Visual Mode in vim helps the user to copy, paste and delete the text like a normal editor.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-vim-editor-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-vim-editor-command"
   },
   {
     Question: "In Linux, which is the default shell?",
@@ -218,7 +229,7 @@ const linuxQuiz = [
     Distractor3: "Fish",
     Explanation:
       "Bash (short for Bourne Again SHell) is the most widely used shell, packaged by default for most Linux distributions",
-    Link: "https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/",
+    Link: "https://www.freecodecamp.org/news/linux-command-line-bash-tutorial/"
   },
   {
     Question: "In Linux, which command is used to create an archive?",
@@ -228,7 +239,7 @@ const linuxQuiz = [
     Distractor3: "diff",
     Explanation:
       "The tar command is used to create an archive, grouping multiple files in a single file, without compressing them",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-tar-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-tar-command"
   },
   {
     Question: "What is the grep command used for?",
@@ -238,7 +249,7 @@ const linuxQuiz = [
     Distractor3: "Delete all text in a file",
     Explanation:
       "grep stands for Globally Search For Regular Expression and Print out. It is a command line tool used in UNIX and Linux systems to search a specified pattern in a file or group of files.",
-    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/"
   },
   {
     Question: "In Linux, which command is used to rename files and folders?",
@@ -248,7 +259,7 @@ const linuxQuiz = [
     Distractor3: "rm",
     Explanation:
       "You rename files and folders by using the mv(short for move)  command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, what does the ls -a command do?",
@@ -258,7 +269,7 @@ const linuxQuiz = [
     Distractor3: "show deleted files",
     Explanation:
       "The ls -a(short for all) command lists all directories(folders) and files in the current directory. This includes all hidden files. The -a flag(or option) shows hidden files. Hidden files are files that start with a dot (.)",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
   },
   {
     Question:
@@ -269,7 +280,7 @@ const linuxQuiz = [
     Distractor3: "echo",
     Explanation:
       "Every file/directory in an Operating System like Linux or macOS (and every UNIX system in general) has an owner. The owner of a file can do everything with it. It can decide the fate of that file. The owner (and the root user) can change the owner to another user, too, using the chown command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -280,7 +291,7 @@ const linuxQuiz = [
     Distractor3: "!",
     Explanation:
       "You can use the wildcard (*) to select all files in a directory. For example the ls * command would list ALL files in the current directory.",
-    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/",
+    Link: "https://www.freecodecamp.org/news/grep-command-tutorial-how-to-search-for-a-file-in-linux-and-unix/"
   },
   {
     Question:
@@ -291,7 +302,7 @@ const linuxQuiz = [
     Distractor3: "find",
     Explanation:
       "Calling uname without any options will return the Operating System codename. The m option shows the hardware name and the p option prints the processor architecture name.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
     Question:
@@ -302,7 +313,7 @@ const linuxQuiz = [
     Distractor3: "l",
     Explanation:
       "To move the cursor one character to the left, use the h command.",
-    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/",
+    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   },
   {
     Question: "In Linux, which command is used for creating files?",
@@ -312,7 +323,7 @@ const linuxQuiz = [
     Distractor3: "mkdir",
     Explanation:
       "You create an empty file using the touch command, followed by the name of the file e.g. touch demo.txt",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-touch-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-touch-command"
   },
   {
     Question:
@@ -323,7 +334,7 @@ const linuxQuiz = [
     Distractor3: "countwl",
     Explanation:
       "The wc command gives us useful information about a file. The first column returned in the output  is the number of lines. The second is the number of words. The third is the number of bytes.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
     Question: "In Linux, which command is used to move into a directory?",
@@ -333,7 +344,7 @@ const linuxQuiz = [
     Distractor3: "rm",
     Explanation:
       "Once you've created a folder, you can move into it with the cd command(which stands for change directory). You invoke it specifying a folder to move into. You can specify a folder name, or an entire path.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -344,7 +355,7 @@ const linuxQuiz = [
     Distractor3: "ls",
     Explanation:
       "To delete folders with files in them, you use the more generic rm command which deletes files . The -rf option is used to recursively and forcefully delete all files contained in the directory.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   },
   {
     Question:
@@ -355,7 +366,7 @@ const linuxQuiz = [
     Distractor3: "wc -z",
     Explanation:
       "To count just the number of bytes in a file you use the wc command with the -c option.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
     Question: "In Linux, what does the cd command stand for?",
@@ -364,7 +375,7 @@ const linuxQuiz = [
     Distractor2: "created directory",
     Distractor3: "changed directory",
     Explanation: "cd stands for change directory",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command"
   },
   {
     Question:
@@ -375,7 +386,7 @@ const linuxQuiz = [
     Distractor3: "rm",
     Explanation:
       "The clear command removes all previous commands that were run in the current terminal. The screen will clear and you will just see the prompt at the top.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -386,7 +397,7 @@ const linuxQuiz = [
     Distractor3: ":wq",
     Explanation:
       "The i command( for ’insert’), immediately switches vim to insert mode. Once you are in insert mode, you can insert characters just like a regular text editor.",
-    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/",
+    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   },
   {
     Question: "What is the name of the penguin mascot of Linux?",
@@ -395,7 +406,7 @@ const linuxQuiz = [
     Distractor2: "Ping",
     Distractor3: "Flux",
     Explanation: "Linux’s mascot is a penguin named “Tux”.",
-    Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/",
+    Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
     Question:
@@ -406,7 +417,7 @@ const linuxQuiz = [
     Distractor3: "rm",
     Explanation:
       "You create folders using the mkdir command, followed by the name of the directory e.g. mkdir photos",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-mkdir-command"
   },
   {
     Question:
@@ -417,7 +428,7 @@ const linuxQuiz = [
     Distractor3: ":r",
     Explanation:
       "If you made some changes and would rather discard them, type :q! to forcefully quit, and press Enter/return.",
-    Link: "https://www.freecodecamp.org/news/how-to-exit-vim/",
+    Link: "https://www.freecodecamp.org/news/how-to-exit-vim/"
   },
   {
     Question: "Who created Linux?",
@@ -427,7 +438,7 @@ const linuxQuiz = [
     Distractor3: "Sergey Brin",
     Explanation:
       "Linus Torvalds created Linux as a college student in Finland in 1991.",
-    Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/",
+    Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
     Question:
@@ -438,7 +449,7 @@ const linuxQuiz = [
     Distractor3: "exit",
     Explanation:
       "The ping command, keeps sending multiple requests every second, by default. It will keep running until you stop it with Ctrl-C.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In awk, how do you print all columns in a file named demo.txt?",
@@ -448,7 +459,7 @@ const linuxQuiz = [
     Distractor3: "awk '/^print/' demo.txt",
     Explanation:
       "To print all columns in a file you can use the awk command. The action you specify inside the curly braces is print $0.",
-    Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/",
+    Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
   },
   {
     Question:
@@ -459,7 +470,7 @@ const linuxQuiz = [
     Distractor3: ":j",
     Explanation:
       "If you made some changes and would like to keep them, type :wq(short for write and quit) and press Enter/return.",
-    Link: "https://www.freecodecamp.org/news/how-to-exit-vim/",
+    Link: "https://www.freecodecamp.org/news/how-to-exit-vim/"
   },
   {
     Question: "In Linux, what does .. mean in a directory path?",
@@ -469,7 +480,7 @@ const linuxQuiz = [
     Distractor3: "Refers to the root of the file structure",
     Explanation:
       "The .. is a special path and means one level up. It refers to the the parent directory.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: 'What is the main component, the "core", of Linux?',
@@ -479,7 +490,7 @@ const linuxQuiz = [
     Distractor3: "The terminal window",
     Explanation:
       "The main component of linux and its core is the kernel. It's the interface between the Operating System and all the hardware components and it manages all the processes.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
   },
   {
     Question: "In what year was the Linux Operating System created?",
@@ -489,7 +500,7 @@ const linuxQuiz = [
     Distractor3: "1992",
     Explanation:
       "Linus Torvalds created Linux as a college student in Finland in 1991.",
-    Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/",
+    Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
     Question: "In Linux, which command is used to compress files?",
@@ -498,7 +509,7 @@ const linuxQuiz = [
     Distractor2: "chown",
     Distractor3: "diff",
     Explanation: "The gzip command is used to compress a file to save space",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-gzip-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-gzip-command"
   },
   {
     Question:
@@ -509,7 +520,7 @@ const linuxQuiz = [
     Distractor3: "-la",
     Explanation:
       "You create soft links using the -s option of ln. For example, ln -s <original> <link>",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
   },
   {
     Question: "In Linux, which command calculates the size of a directory?",
@@ -519,7 +530,7 @@ const linuxQuiz = [
     Distractor3: "man",
     Explanation:
       "The du command will calculate the size of a directory as a whole.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, which command opens the VIM command-line editor?",
@@ -528,7 +539,7 @@ const linuxQuiz = [
     Distractor2: "open vim",
     Distractor3: "open vi",
     Explanation: "You start up VIM  by running vi in the command line.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-vim-editor-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-vim-editor-command"
   },
   {
     Question: "Which of the following is NOT a Unix shell?",
@@ -538,7 +549,7 @@ const linuxQuiz = [
     Distractor3: "bash",
     Explanation:
       "There are many different kind of shells available on Linux and macOS computers. A few of them that dominate the space are bash, csh, zsh, and fish.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#introductiontolinuxandshells"
   },
   {
     Question:
@@ -548,7 +559,7 @@ const linuxQuiz = [
     Distractor2: "man",
     Distractor3: "rm",
     Explanation: "The less command shows the content stored inside a file.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -558,7 +569,7 @@ const linuxQuiz = [
     Distractor2: "rmdir",
     Distractor3: "touching",
     Explanation: "You can copy a file using the cp command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, which command verifies that an IP address exists?",
@@ -568,7 +579,7 @@ const linuxQuiz = [
     Distractor3: "chown",
     Explanation:
       "The ping command pings a specific network host, on the local network or on the Internet. It verifies IP level connectivity to another computer.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -579,7 +590,7 @@ const linuxQuiz = [
     Distractor3: "The application layer",
     Explanation:
       "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
-    Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/",
+    Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/"
   },
   {
     Question:
@@ -589,7 +600,7 @@ const linuxQuiz = [
     Distractor2: "uname -k",
     Distractor3: "uname -u",
     Explanation: "The uname -o command prints the Operating System name",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
     Question: "What does Bash stand for?",
@@ -599,7 +610,7 @@ const linuxQuiz = [
     Distractor3: "Bourne-another shell",
     Explanation:
       "All shells originate from the Bourne Shell and the name Bourne is used because its creator was Steve Bourne. Bash means Bourne-again shell. ",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-cd-command"
   },
   {
     Question:
@@ -610,7 +621,7 @@ const linuxQuiz = [
     Distractor3: "wc  -5",
     Explanation:
       "To count just the words inside a file you use the wc command with the -w option.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
     Question:
@@ -621,7 +632,7 @@ const linuxQuiz = [
     Distractor3: "cat",
     Explanation:
       "The ln command is used for creating links. A link is like a pointer to another file, or a file that points to another file.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-ln-command"
   },
   {
     Question:
@@ -632,7 +643,7 @@ const linuxQuiz = [
     Distractor3: "mkdir",
     Explanation:
       "To copy folders you need to add the -r option to recursively copy the whole folder contents.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -643,7 +654,7 @@ const linuxQuiz = [
     Distractor3: "echo",
     Explanation:
       "You can list running processes using the ps command (ps means process status). The ps command displays your current running processes in real-time.",
-    Link: "https://www.freecodecamp.org/news/linux-list-processes-how-to-check-running-processes/",
+    Link: "https://www.freecodecamp.org/news/linux-list-processes-how-to-check-running-processes/"
   },
   {
     Question:
@@ -654,7 +665,7 @@ const linuxQuiz = [
     Distractor3: "touch",
     Explanation:
       "You can delete a folder using rmdir. That folder must be empty.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   },
   {
     Question:
@@ -665,7 +676,7 @@ const linuxQuiz = [
     Distractor3: "ls",
     Explanation:
       "The echo command prints to the terminal the argument passed to it. For example, the command echo 'hello world' will print hello world to the terminal.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -676,7 +687,7 @@ const linuxQuiz = [
     Distractor3: "pwd",
     Explanation:
       "The man command (short for manual), provides a manual page. The page gives you a very quick overview of a command, with some handy examples of common usage scenarios.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-man-command"
   },
   {
     Question: "Which of the following is NOT a Linux distribution?",
@@ -686,7 +697,7 @@ const linuxQuiz = [
     Distractor3: "RHEL",
     Explanation:
       "There are different versions of Linux (called distributions)  that allow the user varying degrees of personalization and control of the operating system. This means that users can choose their Linux distributions based on their wants and needs. Some popular ones are: Ubuntu, Linux Mint, CentOS, RHEL,Arch Linux.",
-    Link: "https://www.freecodecamp.org/news/the-best-linux-tutorials/",
+    Link: "https://www.freecodecamp.org/news/the-best-linux-tutorials/"
   },
   {
     Question: "In Linux, which command lists the contents of a directory?",
@@ -696,7 +707,7 @@ const linuxQuiz = [
     Distractor3: "less",
     Explanation:
       "The ls command (short for list) is used to list files or directories in Linux and other Unix-based operating systems. It allows you to list all files or directories in the current directory.",
-    Link: "https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/",
+    Link: "https://www.freecodecamp.org/news/the-linux-ls-command-how-to-list-files-in-a-directory-with-options/"
   },
   {
     Question:
@@ -707,7 +718,7 @@ const linuxQuiz = [
     Distractor3: "pwd",
     Explanation:
       "The whoami command prints the username currently logged in to the terminal session.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-whoami-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-whoami-command"
   },
   {
     Question: "In Linux, which command shows all previously executed commands?",
@@ -717,7 +728,7 @@ const linuxQuiz = [
     Distractor3: "man",
     Explanation:
       "Every time you run a command, it's memorized in the history. You can display all the history using the history command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, what does . mean in a directory path?",
@@ -727,7 +738,7 @@ const linuxQuiz = [
     Distractor3: "Refers to no directory",
     Explanation:
       "The . is a special path indicator. It indicates the current folder.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, which command deletes a file?",
@@ -737,7 +748,7 @@ const linuxQuiz = [
     Distractor3: "ls",
     Explanation:
       "The rm (short for remove) command when used without options deletes files.",
-    Link: "https://www.freecodecamp.org/news/remove-a-directory-in-linux-how-to-delete-directories-and-contents-from-the-command-line/",
+    Link: "https://www.freecodecamp.org/news/remove-a-directory-in-linux-how-to-delete-directories-and-contents-from-the-command-line/"
   },
   {
     Question:
@@ -748,7 +759,7 @@ const linuxQuiz = [
     Distractor3: "wc -c ",
     Explanation:
       "To count just the lines inside a file you use the wc command with the -l option.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-wc-command"
   },
   {
     Question: "What does GNU stand for?",
@@ -757,7 +768,7 @@ const linuxQuiz = [
     Distractor2: "Great New Unix",
     Distractor3: "Greatly Needed Unix",
     Explanation: "GNU is a recursive acronym for ‘GNU's not UNIX’.",
-    Link: "https://forum.freecodecamp.org/t/the-origins-of-linux-and-the-free-software-movement-a-brief-history/19527",
+    Link: "https://forum.freecodecamp.org/t/the-origins-of-linux-and-the-free-software-movement-a-brief-history/19527"
   },
   {
     Question: "Which command prints the Linux version?",
@@ -766,7 +777,7 @@ const linuxQuiz = [
     Distractor2: "uname -u",
     Distractor3: "uname -k",
     Explanation: "The r option of the uname command prints the release",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
     Question:
@@ -777,7 +788,7 @@ const linuxQuiz = [
     Distractor3: "tail",
     Explanation:
       "The sort command helps you sort a file's contents in a particular order(either numerical or alphabetical).",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, which command changes passwords for user accounts?",
@@ -787,7 +798,7 @@ const linuxQuiz = [
     Distractor3: "cpasswd",
     Explanation:
       "Users in Linux have a password assigned. You can change the password using the passwd command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question:
@@ -798,7 +809,7 @@ const linuxQuiz = [
     Distractor3: "chmod permissions",
     Explanation:
       "'permissions' can be read, write, execute or a combination of them. 'filename' is the name of the file for which the permissions need to change.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/"
   },
   {
     Question:
@@ -808,7 +819,7 @@ const linuxQuiz = [
     Distractor2: "chown user::group filename",
     Distractor3: "chmod user::group filename",
     Explanation: "We can use chown to change user and group simultaneously",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/"
   },
   {
     Question:
@@ -819,7 +830,7 @@ const linuxQuiz = [
     Distractor3: "chown 451 file-name",
     Explanation:
       "Absolute mode uses numbers to represent permissions and mathematical operators to modify them.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/"
   },
   {
     Question:
@@ -830,7 +841,7 @@ const linuxQuiz = [
     Distractor3: "netlist",
     Explanation:
       "The netstat command can be used to display network connections and various protocol statistics.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, which command can be used to terminate a program?",
@@ -840,7 +851,7 @@ const linuxQuiz = [
     Distractor3: "finish",
     Explanation:
       "The kill command sends a signal which terminates or kills a particular process or group of processes.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-kill-command"
   },
   {
     Question: "In Linux, which command can be used for cron jobs?",
@@ -850,7 +861,7 @@ const linuxQuiz = [
     Distractor3: "cronedit",
     Explanation:
       "The crontab command can used to perform various actions on cron jobs.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-crontab-command"
   },
   {
     Question:
@@ -861,7 +872,7 @@ const linuxQuiz = [
     Distractor3: "ps",
     Explanation:
       "fdisk is used to view, create, delete, change, resize, copy and move partitions on a hard drive.",
-    Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/",
+    Link: "https://www.freecodecamp.org/news/how-to-install-arch-linux/"
   },
   {
     Question: "The sudo command stands for ___.",
@@ -870,7 +881,7 @@ const linuxQuiz = [
     Distractor2: "superuser does",
     Distractor3: "super do",
     Explanation: "The sudo command stands for superuser do.",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-linux-creating-a-sudo-user/",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-linux-creating-a-sudo-user/"
   },
   {
     Question:
@@ -881,7 +892,7 @@ const linuxQuiz = [
     Distractor3: "mv -all pqr.txt abc.txt",
     Explanation:
       "The correct syntax for renaming a file called abc.txt to pqr.txt is mv abc.txt pqr.txt",
-    Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command/",
+    Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command/"
   },
   {
     Question:
@@ -892,7 +903,7 @@ const linuxQuiz = [
     Distractor3: "chdir",
     Explanation:
       ".. is a special path used to indicate the parent folder. cd .. is used to go up one level to a parent folder.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-pwd-command"
   },
   {
     Question: "What does Vim stand for?",
@@ -902,7 +913,7 @@ const linuxQuiz = [
     Distractor3: "Vi Moolenaar",
     Explanation:
       "Vim stands for Vi IMproved and it is a popular open-source text editor.",
-    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/",
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   },
   {
     Question: "Which Linux desktop environment has a similar UI to Windows?",
@@ -912,7 +923,7 @@ const linuxQuiz = [
     Distractor3: "Mate",
     Explanation:
       "KDE is a popular desktop environment which resembles the Windows user interface.",
-    Link: "https://www.freecodecamp.org/news/linux-basics/",
+    Link: "https://www.freecodecamp.org/news/linux-basics/"
   },
   {
     Question:
@@ -922,57 +933,72 @@ const linuxQuiz = [
     Distractor2: "{whoami, user, others}",
     Distractor3: "{user, group, all}",
     Explanation:
-      "In Linux, there are three types of users: user, group and other.",
+      "In Linux, there are three types of users: user, group and other."
   },
   {
-    Question: "Which of the following is NOT a category of file permissions in Linux?",
+    Question:
+      "Which of the following is NOT a category of file permissions in Linux?",
     Answer: "compile",
     Distractor1: "execute",
     Distractor2: "write",
     Distractor3: "read",
     Explanation:
       "In Linux, file permissions fall into three categories: read, write and execute.",
-    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/",
+    Link: "https://www.freecodecamp.org/news/linux-chmod-chown-change-file-permissions/"
   },
   {
-    Question: "In Linux, which command is used to find files/folders matching a particular search pattern?",
+    Question:
+      "In Linux, which command is used to find files/folders matching a particular search pattern?",
     Answer: "find",
     Distractor1: "who",
     Distractor2: "which",
     Distractor3: "search",
     Explanation:
       "The find command can be used to find files or folders matching a particular search pattern. It searches recursively.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
-    Question: "Which of the following Linux commands calculates the total number of lines, words, and characters in a file?",
+    Question:
+      "Which of the following Linux commands calculates the total number of lines, words, and characters in a file?",
     Answer: "wc",
     Distractor1: "wordcount",
     Distractor2: "wordc",
     Distractor3: "lc",
     Explanation:
       "The wc command calculates the total number of lines, words, and characters in a file.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
-    Question: "In Linux, which command is used to show a user a list of groups they belong to?",
+    Question:
+      "In Linux, which command is used to show a user a list of groups they belong to?",
     Answer: "groups",
     Distractor1: "showgroup",
     Distractor2: "members",
     Distractor3: "groupadd",
     Explanation:
       "The groups command is used to show a user a list of groups for which they belong to. Primary and secondary are the two types of groups in Linux.",
-    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-the-linux-operating-system/",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-the-linux-operating-system/"
   },
   {
-    Question: "Which Linux commands can be used to show who is logged on and what they are doing?",
+    Question:
+      "Which Linux commands can be used to show who is logged on and what they are doing?",
     Answer: "w",
     Distractor1: "top",
     Distractor2: "whoami",
     Distractor3: "which user",
     Explanation:
       "w displays information about the users currently on the machine, and their processes. The header shows, in this order, the current time, how long the system has been running, how many users are currently logged on, and the system load averages for the past 1, 5, and 15 minutes.",
-    Link: "https://man7.org/linux/man-pages/man1/w.1.html",
+    Link: "https://man7.org/linux/man-pages/man1/w.1.html"
+  },
+  {
+    Question: "In Linux, which option is used with gzip to decompress a file?",
+    Answer: "-d",
+    Distractor1: "-kv",
+    Distractor2: "-r",
+    Distractor3: "-c",
+    Explanation:
+      "gzip can also be used to decompress a file, using the -d option: gzip -d filename.gz",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
     Question: "In Linux, what does the dmesg command do?",
@@ -980,9 +1006,29 @@ const linuxQuiz = [
     Distractor1: "shows authentication logs",
     Distractor2: "shows syslog file",
     Distractor3: "shows daemon logs",
-    Explanation: "The dmesg command is a Linux utility that shows kernel-related messages that have been taken from the kernel ring buffer.",
-    Link: "https://en.wikipedia.org/wiki/Dmesg",
+    Explanation:
+      "The dmesg command is a Linux utility that shows kernel-related messages that have been taken from the kernel ring buffer.",
+    Link: "https://en.wikipedia.org/wiki/Dmesg"
   },
+  {
+    Question: "In Linux, what does the inode mean?",
+    Answer: "Unique name given by the operating system to each file",
+    Distractor1: "kernal nodes",
+    Distractor2: "does not exist",
+    Distractor3: "linux nodes",
+    Explanation:
+      "Each file is given a unique name by the operating system which is called as the inode.",
+    Link: "https://en.wikipedia.org/wiki/Inode"
+  },
+  {
+    Question: "What does CLI stand for?",
+    Answer: "Command Line Interface",
+    Distractor1: "Computer Linux Index",
+    Distractor2: "Code Line Interface",
+    Distractor3: "Code Line Index",
+    Explanation: "CLI stands for Command Line Interface",
+    Link: "https://en.wikipedia.org/wiki/Command-line_interface"
+  }
 ];
 
 export default linuxQuiz;
