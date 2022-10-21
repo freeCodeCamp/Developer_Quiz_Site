@@ -1,4 +1,15 @@
 const pythonQuiz = [
+   {
+    Question: 
+      "Which mode create new file if the file does not exist?",
+    Answer: "Both of the above",
+    Distractor1: "Write mode",
+    Distractor2: "Append mode",
+    Distractor3: "Both of the above",
+    Explanation: 
+      "In Python file handling,To create new file in python Write or Append parameter will be called.",
+    Link: "https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/",
+  },
   {
     Question: 
       "In Python, which of the following is the correct syntax for a key-value pair in a dictionary?",
