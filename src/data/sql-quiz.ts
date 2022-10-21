@@ -27,6 +27,16 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/insert-into-sql-how-to-insert-into-a-table-query-example-statement/",
   },
   {
+    Question: "Which of the following datatype is most appropriate for storing a string of up to 255 characters?",
+    Answer: "TINY TEXT", 
+    Distractor1: "TEXT",
+    Distractor2: "TINY TEXT",
+    Distractor3: "BLOB",
+    Explanation: "TINY TEXT can contain a string of up to 255 characters or 255 bytes.", 
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
+  },
+  
+  {
     Question: "In SQL, what function is used to join two or more strings together to form a single string?",
     Answer: "CONCAT()",
     Distractor1: "SUBSTR()",
