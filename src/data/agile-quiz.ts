@@ -279,6 +279,16 @@ const agileQuiz = [
       "Feature Driven Development (FDD) is the practice of incrementally developing and frequently releasing new features for software products.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
+  {
+    Question: "In Agile, which methodology has no defined roles or functions where each member can assume the available tasks?",
+    Answer: "Kanban",
+    Distractor1: "Scrum",
+    Distractor2: "Lean",
+    Distractor3: "Agile Inception ",
+    Explanation:
+      "The Kanban method does not prescribe roles or meetings unlike other frameworks such as Scrum.",
+    Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
+  },
 ];
 
 export default agileQuiz;

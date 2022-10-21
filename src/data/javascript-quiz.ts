@@ -1754,6 +1754,17 @@ const javascriptQuiz = [
     Link:
       "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
   },
+  {
+    Question:
+      "In JavaScript, what will be the return value of console.log(new String('Hello, world!') === 'Hello, world!')?",
+    Answer: "false",
+    Distractor1: "equal",
+    Distractor2: "not equal",
+    Distractor3: "true",
+    Explanation:
+      "The answer is false. Triple equal ('===') compares the value and the type as well.",
+    Link: "https://youtu.be/zJSY8tbf_ys?t=24429"
+  },
 ];
 
 export default javascriptQuiz;
