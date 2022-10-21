@@ -1759,7 +1759,7 @@ const javascriptQuiz = [
     Distractor2: "as",
     Distractor3: "from",
     Explanation:
-      "Before we can get access to module features, the first thing we need to do is 'export' them.",
+      "The export keyword is used to make it possible to access small portions of code in other modules",
     Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
   }
 ];
