@@ -339,6 +339,17 @@ const securityQuiz = [
       "The Block Cipher cryptographic scheme is based on the principle of Pseudo Random Permutations.",
     Link: "https://www.freecodecamp.org/news/what-is-a-block-cipher/",
   },
+    {
+    Question:
+      "Which cryptographic hashing technique is used for validating Ethereum Transactions?",
+    Answer: "Keccak-256",
+    Distractor1: "SHA-256",
+    Distractor2: "MD5",
+    Distractor3: "SHA-1",
+    Explanation:
+      "The Ethereum Blockchain uses the Keccak-256 hash for its Transactions and consensus mechanism.",
+    Link: "https://www.freecodecamp.org/news/tag/ethereum/",
+  },
 ];
 
 export default securityQuiz;
