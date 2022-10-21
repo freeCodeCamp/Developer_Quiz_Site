@@ -1531,6 +1531,15 @@ const pythonQuiz = [
     Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
     Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
   },
+  {
+    Question : "Which of these expressions are known as Anonymous function?",
+    Answer:"Lambda Expressions",
+    Distractor1: "Arithemtic Expression",
+    Distractor2: "Logical Expression",
+    Distractor3: "Conditional Expression",
+    Explanation: "Lambda Expressions are known as anonymous function because it is defined without any name.",
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
+  }
 ];
 
 export default pythonQuiz;
