@@ -1753,7 +1753,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which keyword to make a variable, function, class or object accessible to other module?",
+      "In JavaScript, which keyword is used to make portions of code accessible to other modules.?",
     Answer: "export",
     Distractor1: "import",
     Distractor2: "as",
