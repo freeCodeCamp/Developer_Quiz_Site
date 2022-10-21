@@ -1760,7 +1760,7 @@ const javascriptQuiz = [
     Distractor3: "from",
     Explanation:
       "Before we can get access to module features, the first thing we need to do is 'export' them.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules#exporting_module_features"
+    Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
   }
 ];
 
