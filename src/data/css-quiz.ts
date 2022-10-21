@@ -1190,6 +1190,15 @@ const cssQuiz = [
     Distractor3: ":last",
     Explanation: "We can use the :last-of-type selector to target an element of a specific type within a container.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/",
+  },
+  {
+    Question: "Which of the following property can be used to set body color to black?",
+    Answer: "background-color:black;",
+    Distractor1: "body-color:black",
+    Distractor2: "backgroundColor:black",
+    Distractor3: "color:black",
+    Explanation: "We can use the background color property to set the color of the background.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
   }
 ];
 
