@@ -188,6 +188,48 @@ const accessibilityQuiz = [
       "A software application with assistive technology that attempts to convey what people with normal eyesight see on a display to their users via non-visual means, like text-to-speech. Developers can utilize a screen reader to understand how a webpage can be made accessible to such people and develop the page accordingly.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/",
   },
+  {
+    Question: "How can you make focus elements more accessible to screen readers on mobile using React Native?",
+    Answer:
+      "Add an accessibilityLabel property to your views, text dnd touchables.",
+    Distractor1:
+      "Avoid using images, gifs, and videos altogether.",
+    Distractor2:
+      "Add a contentDesc label to your focus elements.",
+    Distractor3:
+      "Avoid using descriptive headings which are longer than 10 characters.",
+    Explanation:
+      "Screen readers use the string mapped to the accessiblityLabel property to describe focus elements",
+    Link: "https://www.freecodecamp.org/news/mobile-accessibility/",
+  },
+  {
+    Question: "What are some of the benefits of an accessibile design?",
+    Answer:
+      "Follows SEO best practices and better UX",
+    Distractor1:
+      "Better UI and better customer support",
+    Distractor2:
+      "Easier A/B testing and white box testing",
+    Distractor3:
+      "Generates more engagement and widens target demographic",
+    Explanation:
+      "Some of the basic accessibility requirements are also SEO best practices, and improving accessibility for people with disabilities will improve the experience for all your users.",
+    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Follows%20SEO%20best,people%20with%20disabilities.",
+  },
+  {
+    Question: "When should you start thinking about accessibility?",
+    Answer:
+      "Right from the get-go",
+    Distractor1:
+      "After pitching your MVP",
+    Distractor2:
+      "After your first bug-fix",
+    Distractor3:
+      "As the finishing touch",
+    Explanation:
+      "If you don't pay attention to accessibility right from the beginning of your project, it may become an expensive burden once you start retrofitting.",
+    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
+  },
 ];
 
 export default accessibilityQuiz;
