@@ -1,12 +1,12 @@
 const linuxQuiz = [
   {
-    Question: "In Linux, which command is used to convert input from standard input into arguments to a command.?",
+    Question: "In Linux, which command converts input and uses it as an argument for another command?",
     Answer: "xargs",
     Distractor1: "convert",
     Distractor2: "stdin",
     Distractor3: "argv",
     Explanation:
-       "The xargs command is used in a UNIX shell to convert input from standard input into arguments to a command.",
+        "The xargs command is used in a UNIX shell to convert input from the standard input and use it as an argument for another command.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-xargs-command",
   },
   {
