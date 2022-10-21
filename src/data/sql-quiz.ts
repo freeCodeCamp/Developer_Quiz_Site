@@ -642,6 +642,17 @@ const sqlQuiz = [
       "If you want to rename a table called BaseCamp to BaseCamp_New, then you would use the following syntax in MySQL: ALTER TABLE table_name RENAME TO new_table_name;",
     Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
   },
+   {
+    Question:
+      "In SQL, what does BLOB stands for",
+    Answer: "Big Large Object",
+    Distractor1: "Bad Listed Object",
+    Distractor2: "Bad Labelled Object",
+    Distractor3: "Big Listed Object",
+    Explanation:
+      "BLOB (Binary Large Object) is a data type in standard SQL used to store large amounts of data.",
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
+  },
 ];
 
 export default sqlQuiz;
