@@ -35,17 +35,6 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/In-place_algorithm"
   },
   {
-    Question: "What is Object-Oriented Programming?",
-    Answer:
-      "OOP is a programming pattern that is built around objects or entities.",
-    Distractor1: "OOP is a topological paradigm to program things",
-    Distractor2: "OOP is a set of sorting algorithms",
-    Distractor3: "OOP is a list of Bitwise operators",
-    Explanation:
-      "OOP is a programming pattern that is built around objects or entities",
-    Link: "https://www.freecodecamp.org/news/what-is-object-oriented-programming/"
-  },
-  {
     Question:
       "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
@@ -968,15 +957,6 @@ const generalCSQuiz = [
     Explanation:
       "HTTP response status codes are divided in five groups between 100-599.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status"
-  },
-  {
-    Question: "How many bytes make up a Megabyte?",
-    Answer: "1 million bytes",
-    Distractor1: "1 thousand bytes",
-    Distractor2: "1 billion bytes",
-    Distractor3: "1 trillion bytes",
-    Explanation: "A Megabyte is composed of 1 million bytes",
-    Link: "https://www.freecodecamp.org/news/megabyte-definition/"
   },
   {
     Question: "How many bytes make up a Megabyte?",
