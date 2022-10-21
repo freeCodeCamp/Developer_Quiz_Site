@@ -1036,7 +1036,7 @@ const linuxQuiz = [
     Distractor2: "lists files and sorts them alphabetically",
     Distractor3: "show deleted files",
     Explanation:
-      "The -d or --directory option lists directories themselves, not their contents",
+      "The -d or --directory option for the ls command lists directories themselves, not their contents",
     Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
   },
 ];
