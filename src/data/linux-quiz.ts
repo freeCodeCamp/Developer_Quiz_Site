@@ -1028,7 +1028,17 @@ const linuxQuiz = [
     Distractor3: "Code Line Index",
     Explanation: "CLI stands for Command Line Interface",
     Link: "https://en.wikipedia.org/wiki/Command-line_interface"
-  }
+  },
+  {
+    Question: "In Linux, what does the ls -d command do?",
+    Answer: "lists out only the directories themselves,not their contents ",
+    Distractor1: "lists only the files starting with",
+    Distractor2: "lists files and sorts them alphabetically",
+    Distractor3: "show deleted files",
+    Explanation:
+      "The -d or --directory option lists directories themselves, not their contents",
+    Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
+  },
 ];
 
 export default linuxQuiz;
