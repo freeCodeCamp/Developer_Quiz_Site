@@ -1781,7 +1781,7 @@ const javascriptQuiz = [
     Distractor2: "timeOut()",
     Distractor3: "delay()",
     Explanation:
-      "setTimeout() function will not pause execution of other functions in the functions stack, so it's an asynchronous function and it's a native function.",
+      "The setTimeout() function is an asynchronous function that will not pause execution of other functions in the stack.",
     Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
   }
   ];
