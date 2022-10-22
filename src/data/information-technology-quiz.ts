@@ -1,6 +1,6 @@
 const informationTechnologyQuiz = [
   {
-    Question: "For a Class A IP address which octet represents the network ID?",
+    Question: "For a Class A IP address, which octet represents the network ID?",
     Answer: "First octet",
     Distractor1: "Second octet",
     Distractor2: "Third octet",
