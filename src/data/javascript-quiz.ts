@@ -1783,7 +1783,18 @@ const javascriptQuiz = [
     Explanation:
       "The setTimeout() function is an asynchronous function that will not pause execution of other functions in the stack.",
     Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
+  },
+  {
+    Question:
+      "In JavaScript, the ___________ method returns the index position of the last occurrence of a value in an array.",
+    Answer: "lastIndexOf()",
+    Distractor1: "indexOf()",
+    Distractor2: "charAt(0)",
+    Distractor3: "getPosition()",
+    Explanation:
+      "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present. The array is searched backwards, starting at fromIndex.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
   }
-  ];
+];
 
 export default javascriptQuiz;
