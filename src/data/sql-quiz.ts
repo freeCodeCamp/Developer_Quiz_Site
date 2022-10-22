@@ -673,6 +673,6 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   }, 
 ];
-];
+
 
 export default sqlQuiz;
