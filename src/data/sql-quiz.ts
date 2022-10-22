@@ -661,6 +661,18 @@ const sqlQuiz = [
       "BLOB stands for Binary Large Object and it is a SQL data type used to store large amounts of data.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
   },
+   {
+    Question:
+      "In SQL, what does DML stand for?",
+    Answer: "Data Manipulation Language",
+    Distractor1: "Decode Manipulation Language",
+    Distractor2: "Data Manipulation Language",
+    Distractor3: "Data Modify Language",
+    Explanation:
+      "Some DML commands are INSERT,UPDATE,DELETE",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  }, 
+];
 ];
 
 export default sqlQuiz;
