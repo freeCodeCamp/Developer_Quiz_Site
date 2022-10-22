@@ -1036,7 +1036,7 @@ const linuxQuiz = [
     Distractor2: "lists files and sorts them alphabetically",
     Distractor3: "show deleted files",
     Explanation:
-      "The -d or --directory option for the ls command lists directories themselves, not their contents",
+      "In Linux, the -d or --directory option is used to list the directories but not the directory contents.",
     Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
   },
 ];
