@@ -192,7 +192,7 @@ const accessibilityQuiz = [
   {
     Question: "What is ARIA?",
     Answer:
-      "ARIA defines the responsibilities, characteristics, and states for screenreaders in order to convey information about custom modules like carousels, accordions, and tabs.",
+      "ARIA defines the responsibilities and states for screenreaders in order to convey information about custom modules like carousels and tabs.",
     Distractor1:
       "A tool that changes visuals on a web page to make it more accesible.",
     Distractor2:
@@ -200,7 +200,7 @@ const accessibilityQuiz = [
     Distractor3:
       "A computer program to scan an application for accessibility improvements.",
     Explanation:
-      "ARIA (Accessible Rich Internet Application) is the acronym for Accessible Rich Internet Application. Screenreader users will benefit from ARIA.ARIA defines the responsibilities, characteristics, and states for screenreaders in order to convey information about such modules. In a nutshell, ARIA serves as a link between HTML's missing information and screenreaders.",
+      "ARIA is the acronym for Accessible Rich Internet Application which defines the responsibilities, characteristics, and states for screen readers in order to convey information about modules.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
   }
 ];
