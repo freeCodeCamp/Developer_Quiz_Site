@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor3: "All of the above",
     Explanation:
       "The ‘debugger’ statement is used to setup the breakup points at probable points of error in the code snippet, using the debugger window.",
-    Link: "https://www.freecodecamp.org/news/debugging-javascript-for-beginners-5d4ac15dd1cd/#:~:text=The%20debugger%20will%20show%20you,used%20it%20a%20few%20times."
+    Link: "https://www.freecodecamp.org/news/debugging-javascript-for-beginners-5d4ac15dd1cd/#"
   },
   {
     Question: "What kind of programming can JavaScript be used for?",
