@@ -1,5 +1,17 @@
 const accessibilityQuiz = [
   {
+    Question: "What is the name of an international body responsible for establishing common web accessibility standards?",
+    Answer:
+      "World Wild Web Consortium (W3C)",
+    Distractor1: "Websites for All",
+    Distractor2: "Web Accessibility Initiative (WAI)",
+    Distractor3:
+      "A11y",
+    Explanation:
+      "Although there are several standards for accessibility, the most notable and globally recognized are developed by the World Wide Web Consortium (W3C) through its Web Accessibility Initiative.",
+    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/"
+  },
+  {
     Question: "Why is it important to use semantic elements when writing HTML?",
     Answer:
       "Semantic code clearly describes the code's meaning to both the browser and the developer",
