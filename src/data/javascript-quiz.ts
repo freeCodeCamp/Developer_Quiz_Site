@@ -1772,7 +1772,18 @@ const javascriptQuiz = [
     Explanation:
       "The export keyword is used to make it possible to access small portions of code in other modules.",
     Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
+  },
+  {
+    Question:
+      "Which of the following options is a web API that runs code asynchronously in JavaScript?",
+    Answer: "setTimeOut()",
+    Distractor1: "repeat()",
+    Distractor2: "timeOut()",
+    Distractor3: "delay()",
+    Explanation:
+      "The setTimeout() function is an asynchronous function that will not pause execution of other functions in the stack.",
+    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
   }
-];
+  ];
 
 export default javascriptQuiz;
