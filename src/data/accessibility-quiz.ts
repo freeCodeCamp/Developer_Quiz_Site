@@ -189,7 +189,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/",
   },
   {
-    Question: "How can you make focus elements more accessible to screen readers on mobile using React Native?",
+    Question: "How can you make focus elements more accessible to screen readers on mobile?",
     Answer:
       "Add an accessibilityLabel property to your views, text dnd touchables.",
     Distractor1:
