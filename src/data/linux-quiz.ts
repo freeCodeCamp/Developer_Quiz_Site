@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which option is used with the uname command to print the processor architecture name?",
+    Answer: "-p",
+    Distractor1: "-arch",
+    Distractor2: "-ps",
+    Distractor3: "-pname",
+    Explanation:
+        "In Linux, the -p option can be used with the uname command to print the processor architecture name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+  },
+  {
     Question: "In Linux, which option is used with the uname command to print the node network name?",
     Answer: "-n",
     Distractor1: "-network",
