@@ -245,6 +245,20 @@ const accessibilityQuiz = [
       "If you don't pay attention to accessibility right from the beginning of your project, it may become an expensive burden once you start retrofitting.",
     Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
   },
+  
+   {
+    Question: "Which interaction does NOT need to be ensured for ACCESSIBILITY FOR MOTOR DISABILITY?",
+    Answer:
+      "Color adjustment",
+    Distractor1:
+      "NO keyboard ",
+    Distractor2:
+      "NO limitations on response time",
+    Distractor3:
+      "Customizing the behavior",
+    Explanation:
+      "COLOR ADJUSTMENTS are key for visual impairments.",
+    Link: "https://www.acessibilidade.net/software/"
 ];
 
 export default accessibilityQuiz;
