@@ -191,7 +191,7 @@ const accessibilityQuiz = [
   {
     Question: "How can you make focus elements more accessible to screen readers on mobile?",
     Answer:
-      "Add an accessibilityLabel property to your views, text dnd touchables.",
+      "Add an accessibility label for each element.",
     Distractor1:
       "Avoid using images, gifs, and videos altogether.",
     Distractor2:
