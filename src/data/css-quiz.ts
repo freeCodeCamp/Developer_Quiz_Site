@@ -8,7 +8,7 @@ const cssQuiz = [
     Distractor3: "Hover",
     Explanation:
       "Opacity is used to represent the transparency of an element in CSS.",
-    Link: "https://youtu.be/1Rs2ND1ryYc?t=4728",
+    Link: "https://youtu.be/1Rs2ND1ryYc?t=4728"
   },
   {
     Question:
@@ -17,9 +17,8 @@ const cssQuiz = [
     Distractor1: "float",
     Distractor2: "overflow",
     Distractor3: "int",
-    Explanation:
-      "order is used to represent the order of flex items.",
-    Link: "https://youtu.be/1Rs2ND1ryYc",
+    Explanation: "order is used to represent the order of flex items.",
+    Link: "https://youtu.be/1Rs2ND1ryYc"
   },
   {
     Question:
@@ -30,7 +29,7 @@ const cssQuiz = [
     Distractor3: "a:link",
     Explanation:
       "With a:active you can set the style of links for the moment they are clicked.",
-    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
+    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/"
   },
   {
     Question:
@@ -40,7 +39,7 @@ const cssQuiz = [
     Distractor2: "2vh",
     Distractor3: "2000vh",
     Explanation: "20vh is equivalent to 20% of the viewport height.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question:
@@ -50,7 +49,7 @@ const cssQuiz = [
     Distractor2: "100vw",
     Distractor3: "1000vw",
     Explanation: "10vw is equivalent to 10% of the viewport width.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question: "In CSS, what does the animation-fill-mode property do?",
@@ -60,7 +59,7 @@ const cssQuiz = [
     Distractor3: "It determines how long an animation should last in seconds.",
     Explanation:
       "The animation-fill-mode property is used to style the element after the animation ends.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question:
@@ -71,7 +70,7 @@ const cssQuiz = [
     Distractor3: "template-columns-grid",
     Explanation:
       "The grid-template-columns property is used to set the number and width of the columns.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -82,7 +81,7 @@ const cssQuiz = [
     Distractor3: "Dynamic",
     Explanation:
       "In CSS, relative units are relative to other length values. Several of the relative units depend on the viewport size.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#why-learn-css-relative-units",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/#why-learn-css-relative-units"
   },
   {
     Question:
@@ -93,7 +92,7 @@ const cssQuiz = [
     Distractor3: "justify-columns",
     Explanation:
       "The justify-items property is used to position items within a grid container along the x-axis (main axis).",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, what is the all media type in a CSS media query?",
@@ -103,7 +102,7 @@ const cssQuiz = [
     Distractor3: "A category of media that only works for tablets.",
     Explanation:
       "The all media type is a category of media that will work for all media devices.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS, how can you abbreviate the following Hex code? #FF0000",
@@ -113,7 +112,7 @@ const cssQuiz = [
     Distractor3: "#0FF0",
     Explanation:
       "To abbreviate a Hex code in CSS, include one digit of each pair of digits in the code. ",
-    Link: "https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker/",
+    Link: "https://www.freecodecamp.org/news/how-hex-code-colors-work-how-to-choose-colors-without-a-color-picker/"
   },
   {
     Question: "In CSS, what does the animation-direction property do?",
@@ -123,7 +122,7 @@ const cssQuiz = [
     Distractor3: "It pauses the animation if the animation is running.",
     Explanation:
       "The animation-direction property sets the direction of the animation.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question:
@@ -134,7 +133,7 @@ const cssQuiz = [
     Distractor3: "rounding",
     Explanation:
       "The round value is used to stretch the repeated images in the background-repeat property.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question: "In CSS, what is the speech media type in a CSS media query?",
@@ -146,7 +145,7 @@ const cssQuiz = [
     Distractor3: "A category of media that only works for mobile devices.",
     Explanation:
       "The speech media type works for devices like screen readers where the content is read out loud to the user.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS, which one is NOT an example of a relative unit?",
@@ -155,7 +154,7 @@ const cssQuiz = [
     Distractor2: "em",
     Distractor3: "vh",
     Explanation: "Relative units in CSS include rem, em, vh, and vw",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question: "In CSS, what does the animation-duration property do?",
@@ -165,7 +164,7 @@ const cssQuiz = [
     Distractor3: "It pauses the animation if the animation is running.",
     Explanation:
       "The animation-duration property is used to determine how long an animation should last in seconds.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question: "In CSS, how do you change the background-image of an element?",
@@ -175,7 +174,7 @@ const cssQuiz = [
     Distractor3: 'background-image: ("path_to_image")',
     Explanation:
       "The background-image CSS property allows you to place an image behind any HTML element you wish. Immediately after the property you add a colon. Then, url() is used to tell CSS where the image is located. Inside the parentheses the path to the image is listed in opening and closing double quotes. This lets the browser know what URL to pull. Lastly, don't forget the semicolon to end the statement!",
-    Link: "https://www.freecodecamp.org/news/css-background-image-with-html-example-code/",
+    Link: "https://www.freecodecamp.org/news/css-background-image-with-html-example-code/"
   },
   {
     Question: "In CSS, what is the media type in a CSS media query?",
@@ -184,7 +183,7 @@ const cssQuiz = [
     Distractor2: "A category only for print media.",
     Distractor3: "A category only for speech.",
     Explanation: "A media type refers to the category of media for the device.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS Flexbox, what does align-items do?",
@@ -194,7 +193,7 @@ const cssQuiz = [
     Distractor3: "aligns the items to the right of the z axis",
     Explanation:
       "In CSS Flexbox, align-items aligns the items along the cross axis",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question: "In CSS Flexbox, how do you allow items to move to a new line?",
@@ -204,7 +203,7 @@ const cssQuiz = [
     Distractor3: "flex-wrap: item-wrap;",
     Explanation:
       "In CSS Flexbox, flex-wrap: wrap; will tell the computer to move items to a new line if there is not enough space",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question: "In CSS, how do you change the background color?",
@@ -214,7 +213,7 @@ const cssQuiz = [
     Distractor3: "b-color: pink;",
     Explanation:
       "You can use the background property in CSS to change the background color of an element",
-    Link: "https://www.freecodecamp.org/news/css-background-color-how-to-change-the-background-color-in-html/",
+    Link: "https://www.freecodecamp.org/news/css-background-color-how-to-change-the-background-color-in-html/"
   },
   {
     Question: "In CSS, what is the default position property?",
@@ -224,7 +223,7 @@ const cssQuiz = [
     Distractor3: "position: absolute;",
     Explanation:
       "The default property in CSS is position: static; which means it follows the order of the HTML",
-    Link: "https://www.freecodecamp.org/news/css-positioning-position-absolute-and-relative/",
+    Link: "https://www.freecodecamp.org/news/css-positioning-position-absolute-and-relative/"
   },
   {
     Question:
@@ -235,7 +234,7 @@ const cssQuiz = [
     Distractor3: "fraction-unit",
     Explanation:
       "The align-items property is used to position items inside the grid container along the y-axis.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -246,7 +245,7 @@ const cssQuiz = [
     Distractor3: "a:link",
     Explanation:
       "With a:hover you can set the style of links when the user mouses over them.",
-    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
+    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/"
   },
   {
     Question:
@@ -257,7 +256,7 @@ const cssQuiz = [
     Distractor3: "grid-unit-rows",
     Explanation:
       "The grid-template-rows property is used to set the number and height of the rows.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -268,7 +267,7 @@ const cssQuiz = [
     Distractor3: "Repeats the image along the x-axis",
     Explanation:
       "The no-repeat value of the background-repeat property sets no repetition for the background image.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -279,7 +278,7 @@ const cssQuiz = [
     Distractor3: "space-evenly",
     Explanation:
       "The justify-content property can accept seven values including space-around, space-between, start, and end.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, what does the animation-iteration-count property do?",
@@ -290,7 +289,7 @@ const cssQuiz = [
     Distractor3: "It sets a delay for the animation to start.",
     Explanation:
       "The animation-iteration-count property sets how many times the animation should run.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question:
@@ -301,7 +300,7 @@ const cssQuiz = [
     Distractor3: "grid-template-columns",
     Explanation:
       "The align-self property is used to position one grid item in a container along the y-axis",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, what does the animation-play-state property do?",
@@ -311,7 +310,7 @@ const cssQuiz = [
     Distractor3: "It sets the direction for the animation.",
     Explanation:
       "The animation-play-state property is used to pause the animation if set to paused.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question: "In CSS, how do you add a smooth scroll to an HTML element?",
@@ -321,7 +320,7 @@ const cssQuiz = [
     Distractor3: "behavior: smooth;",
     Explanation:
       "You can use scroll-behavior: smooth; to add a smooth scroll to the html element",
-    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
+    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
     Question:
@@ -332,7 +331,7 @@ const cssQuiz = [
     Distractor3: "width-container()",
     Explanation:
       "The repeat() function is used to set the width of all of the columns in the grid container.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -343,7 +342,7 @@ const cssQuiz = [
     Distractor3: "background-origin",
     Explanation:
       "The background-repeat property is used to repeat the background image.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -354,7 +353,7 @@ const cssQuiz = [
     Distractor3: "blue-text",
     Explanation:
       "In CSS, you can select all the elements with a given class with a dot before its name.",
-    Link: "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
+    Link: "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"
   },
   {
     Question: "In CSS, what is the media attribute in the link tag?",
@@ -368,7 +367,7 @@ const cssQuiz = [
       "tells the computer to import the linked content for tablets only",
     Explanation:
       "The media attribute specifies the type of media that should be used when importing the linked content",
-    Link: "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/",
+    Link: "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
   },
   {
     Question:
@@ -379,7 +378,7 @@ const cssQuiz = [
     Distractor3: "background-size",
     Explanation:
       "The background-clip property is used to clip the background image to inside the container.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -390,7 +389,7 @@ const cssQuiz = [
     Distractor3: "flex-direction: set-row-reverse;",
     Explanation:
       "In CSS Flexbox, you can apply flex-direction: row-reverse; to the container whose items you want to display in a row, with their order reversed.",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question:
@@ -401,7 +400,7 @@ const cssQuiz = [
     Distractor3: "flex-direction: column-rev;",
     Explanation:
       "In CSS Flexbox, you can apply flex-direction: column-reverse; to the container whose items you want to display in a column, with their order reversed.",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question: "In CSS, what does list-style-type: circle; do?",
@@ -413,7 +412,7 @@ const cssQuiz = [
       "Applies squares to all of the list items in an unordered list.",
     Explanation:
       "list-style-type: circle; will apply circles to all of the list items of an unordered list.",
-    Link: "https://www.freecodecamp.org/news/html-bullet-points-how-to-create-an-unordered-list-with-the-ul-tag-example/",
+    Link: "https://www.freecodecamp.org/news/html-bullet-points-how-to-create-an-unordered-list-with-the-ul-tag-example/"
   },
   {
     Question:
@@ -424,7 +423,7 @@ const cssQuiz = [
     Distractor3: "right",
     Explanation:
       "The background-position property can take in many values including of top, right, left and bottom.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question: "In CSS, what does the vw unit stand for?",
@@ -433,7 +432,7 @@ const cssQuiz = [
     Distractor2: "viewport weight",
     Distractor3: "viewport height",
     Explanation: "The vw unit stands for viewport width.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question: "In CSS Flexbox, what does align-self do?",
@@ -443,7 +442,7 @@ const cssQuiz = [
     Distractor3: "adjusts the alignment for an img element",
     Explanation:
       "In CSS Flexbox, align-self adjusts the alignment for an element",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question: "In CSS, what does the animation-name property do?",
@@ -454,7 +453,7 @@ const cssQuiz = [
     Distractor3: "It sets how many times an animation should run.",
     Explanation:
       "The animation-name property is used to describe the animation applied to the element.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question:
@@ -465,7 +464,7 @@ const cssQuiz = [
     Distractor3: "repeat",
     Explanation:
       "The grid-template-areas property is used to set the space for grid cells in rows and columns.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, what is the universal selector?",
@@ -475,7 +474,7 @@ const cssQuiz = [
     Distractor3: "@",
     Explanation:
       "The asterisk * is the universal selector in CSS. It selects all elements of any type.",
-    Link: "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/",
+    Link: "https://www.freecodecamp.org/news/use-css-selectors-to-style-webpage/"
   },
   {
     Question:
@@ -486,7 +485,7 @@ const cssQuiz = [
     Distractor3: "background-origin",
     Explanation:
       "The background-position is used to change the position of the background image.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -497,7 +496,7 @@ const cssQuiz = [
     Distractor3: "justify-rows",
     Explanation:
       "The justify-self property is used to position one individual grid item inside a grid container along the x-axis.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -508,7 +507,7 @@ const cssQuiz = [
     Distractor3: "revert",
     Explanation:
       "The all CSS shorthand property can accept the following values: initial, inherit, unset, revert.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/all",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/all"
   },
   {
     Question:
@@ -519,7 +518,7 @@ const cssQuiz = [
     Distractor3: "flex-direction: set-column;",
     Explanation:
       "In CSS Flexbox, you can apply flex-direction: column; to the container whose items you want arrange in a column",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question:
@@ -530,7 +529,7 @@ const cssQuiz = [
     Distractor3: "content-box",
     Explanation:
       "The background-origin property can use following values: border-box, padding-box, inherit, and content-box.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -541,7 +540,7 @@ const cssQuiz = [
     Distractor3: "grid-template-columns",
     Explanation:
       "The column-gap property is used to create gaps between columns.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, what does the animation-timing-function property do?",
@@ -552,7 +551,7 @@ const cssQuiz = [
       "It is a name used to describe the animation applied to the element.",
     Explanation:
       "The animation-timing-function is used to determine when the animation should speed up or slow down.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
 
   {
@@ -563,7 +562,7 @@ const cssQuiz = [
     Distractor2: "vh",
     Distractor3: "vw",
     Explanation: "The em unit is based on its parent's font size.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question:
@@ -574,7 +573,7 @@ const cssQuiz = [
     Distractor3: "Dynamic",
     Explanation:
       "In CSS, absolute units are tied to physical units of length. ",
-    Link: "https://www.freecodecamp.org/news/css-unit-guide/",
+    Link: "https://www.freecodecamp.org/news/css-unit-guide/"
   },
   {
     Question:
@@ -585,7 +584,7 @@ const cssQuiz = [
     Distractor3: "list-markers",
     Explanation:
       "The list-style-type property is used to set the marker of a list item. ",
-    Link: "https://www.freecodecamp.org/news/how-to-style-lists-with-css/",
+    Link: "https://www.freecodecamp.org/news/how-to-style-lists-with-css/"
   },
   {
     Question: "In CSS, what is an at-rule?",
@@ -596,7 +595,7 @@ const cssQuiz = [
     Distractor3: "A rule that only applies to how <p> elements are styled.",
     Explanation:
       "An at-rule in CSS will dictate what the CSS will look like based on certain conditions.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS, what is the role of media queries?",
@@ -606,7 +605,7 @@ const cssQuiz = [
     Distractor3: "They change the font of text",
     Explanation:
       "CSS media queries allow you to create responsive websites across all screen sizes, ranging from desktop to mobile",
-    Link: "https://www.freecodecamp.org/news/learn-css-media-queries-by-building-projects/",
+    Link: "https://www.freecodecamp.org/news/learn-css-media-queries-by-building-projects/"
   },
   {
     Question: "In CSS, how is the not operator used in a media query?",
@@ -617,7 +616,7 @@ const cssQuiz = [
     Distractor3: "It separates multiple media features by commas.",
     Explanation:
       "The not operator is used to reverse a true query into a false query and a false query into a true query.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question:
@@ -628,7 +627,7 @@ const cssQuiz = [
     Distractor3: "background-color",
     Explanation:
       "The background-origin property is used to set the origin of the background image.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question: "What does CSS stand for?",
@@ -637,7 +636,7 @@ const cssQuiz = [
     Distractor2: "Complete Synchronizes Sheets",
     Distractor3: "Community Stylish System",
     Explanation: "CSS stands for Cascading Style Sheets.",
-    Link: "https://www.freecodecamp.org/news/best-css-and-css3-tutorial/",
+    Link: "https://www.freecodecamp.org/news/best-css-and-css3-tutorial/"
   },
   {
     Question: "What is the main purpose of CSS in a website?",
@@ -647,7 +646,7 @@ const cssQuiz = [
     Distractor3: "Sound",
     Explanation:
       "CSS is used to define the style of the elements in a website.",
-    Link: "https://www.freecodecamp.org/news/best-css-and-css3-tutorial/",
+    Link: "https://www.freecodecamp.org/news/best-css-and-css3-tutorial/"
   },
   {
     Question: "In CSS, what is the print media type in a CSS media query?",
@@ -658,7 +657,7 @@ const cssQuiz = [
     Distractor3: "A set of rules only applied to mobile devices.",
     Explanation:
       "The print media type works for devices where the media is in print preview mode.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question:
@@ -669,7 +668,7 @@ const cssQuiz = [
     Distractor3: "text-transform: set-upper;",
     Explanation:
       "You can use the text-transform: uppercase; to make all of the text for that element uppercase",
-    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
+    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
     Question: "In CSS, how do you make an image circular or oval?",
@@ -679,7 +678,7 @@ const cssQuiz = [
     Distractor3: "border-radius: 3px;",
     Explanation:
       "You can use the CSS property border-radius with a value of 50% to make an image circular or oval.",
-    Link: "https://devdocs.io/css/border-radius",
+    Link: "https://devdocs.io/css/border-radius"
   },
   {
     Question:
@@ -690,7 +689,7 @@ const cssQuiz = [
     Distractor3: "repeat-x",
     Explanation:
       "The background-repeat property can take in seven values include no-repeat, repeat, repeat-x and repeat-y",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question: "In CSS, what do H, S, and L in HSL stand for?",
@@ -699,7 +698,7 @@ const cssQuiz = [
     Distractor2: "Hue, Style, Lightness",
     Distractor3: "Habitat, Style, Lightness",
     Explanation: "HSL stands for Hue, Saturation, and Lightness.",
-    Link: "https://www.freecodecamp.org/news/css-font-color-how-to-style-text-in-html/",
+    Link: "https://www.freecodecamp.org/news/css-font-color-how-to-style-text-in-html/"
   },
   {
     Question:
@@ -710,7 +709,7 @@ const cssQuiz = [
     Distractor3: "background-position",
     Explanation:
       "The background-attachment property is used to determine if the background image is in a scroll, fixed, or local position.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -721,7 +720,7 @@ const cssQuiz = [
     Distractor3: "Keys",
     Explanation:
       "A breakpoint is a key to determine when to change the layout and adapt the new rules inside the media queries.",
-    Link: "https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/",
+    Link: "https://www.freecodecamp.org/news/css-media-queries-breakpoints-media-types-standard-resolutions-and-more/"
   },
   {
     Question:
@@ -732,7 +731,7 @@ const cssQuiz = [
     Distractor3: "Indentation",
     Explanation:
       "The margin is the amount of space between an element's border and its surrounding elements.",
-    Link: "https://www.freecodecamp.org/news/css-margins/",
+    Link: "https://www.freecodecamp.org/news/css-margins/"
   },
   {
     Question:
@@ -743,7 +742,7 @@ const cssQuiz = [
     Distractor3: "line-through",
     Explanation:
       "The property text-decoration should have the value of none to remove an underline from links.",
-    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
+    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/"
   },
 
   {
@@ -754,7 +753,7 @@ const cssQuiz = [
     Distractor3: "stretch",
     Explanation:
       "In CSS Flexbox, some of the options for align-content include center, stretch, space-around and space-between",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question: "In CSS, how is the comma operator used in a media query?",
@@ -766,7 +765,7 @@ const cssQuiz = [
     Distractor3: "It splits media queries into separate ones.",
     Explanation:
       "The comma operator is used to separate multiple media features by commas and to apply the styles inside the curly braces if one of the conditions is true.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question:
@@ -777,7 +776,7 @@ const cssQuiz = [
     Distractor3: "It repeats the image along both of the x-axis and y-axis.",
     Explanation:
       "The repeat-x value of the background-repeat property repeats the image along the x-axis.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question: "In CSS, how is the and operator used in a media query?",
@@ -787,7 +786,7 @@ const cssQuiz = [
     Distractor3: "It is used to split media queries into separate ones.",
     Explanation:
       "The and operator is used to join multiple media features in a media query.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS, what does the A in RGBA stand for?",
@@ -797,7 +796,7 @@ const cssQuiz = [
     Distractor3: "Ancient",
     Explanation:
       "The A in RGBA stands for Alpha. This value represents the transparency of the color.",
-    Link: "https://devdocs.io/css/color_value/rgba()",
+    Link: "https://devdocs.io/css/color_value/rgba()"
   },
   {
     Question: "In CSS Flexbox, which one is NOT used with align-items?",
@@ -807,7 +806,7 @@ const cssQuiz = [
     Distractor3: "baseline",
     Explanation:
       "In CSS Flexbox, some of the options for align-items include flex-start, flex-end, baseline and stretch",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question: "In CSS, what is the screen media type in a CSS media query?",
@@ -817,7 +816,7 @@ const cssQuiz = [
     Distractor2: "A category of media that works for devices without screens.",
     Distractor3: "A category of media that only works for tablets.",
     Explanation: "The screen media type works for devices with screens.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS, what does the vh unit stand for?",
@@ -826,7 +825,7 @@ const cssQuiz = [
     Distractor2: "view heights",
     Distractor3: "viewing height",
     Explanation: "The vh unit stands for viewport height.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
 
   {
@@ -837,7 +836,7 @@ const cssQuiz = [
     Distractor3: "::before",
     Explanation:
       "You can use the ::after selector to add content after an element",
-    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
+    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
     Question: "In CSS, what does the animation-delay property do?",
@@ -848,7 +847,7 @@ const cssQuiz = [
       "It determines when the animation should speed up or slow down.",
     Explanation:
       "The animation-delay property is used to set a delay for the animation to start.",
-    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/",
+    Link: "https://www.freecodecamp.org/news/a-quick-introduction-to-css-animations-a1655375ec90/"
   },
   {
     Question:
@@ -859,7 +858,7 @@ const cssQuiz = [
     Distractor3: "stretch",
     Explanation:
       "The four values that can be used for the justify-items property are: start, end, center, and stretch.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -870,7 +869,7 @@ const cssQuiz = [
     Distractor3: "repeat-x",
     Explanation:
       "The space value is used to evenly distribute the space in the background-repeat property.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -880,7 +879,7 @@ const cssQuiz = [
     Distractor2: "px",
     Distractor3: "vw",
     Explanation: "The rem unit is based on the root element's font size.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question:
@@ -891,7 +890,7 @@ const cssQuiz = [
     Distractor3: "Indentation",
     Explanation:
       "The padding is the amount of space between the element's content and its border.",
-    Link: "https://www.freecodecamp.org/news/css-margins/",
+    Link: "https://www.freecodecamp.org/news/css-margins/"
   },
   {
     Question:
@@ -902,7 +901,7 @@ const cssQuiz = [
     Distractor3: "fixed",
     Explanation:
       "The background-attachment property can take in the fixed, scroll and local values.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -913,7 +912,7 @@ const cssQuiz = [
     Distractor3: "81px - 700px",
     Explanation:
       "The range of 481px - 768px can be used to target tablet devices in a media query.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question:
@@ -924,7 +923,7 @@ const cssQuiz = [
     Distractor3: "lighter",
     Explanation:
       'The option "bolding" is not a valid value for the font-weight property.',
-    Link: "https://www.freecodecamp.org/news/bold-font-in-html-font-weight-for-letters/",
+    Link: "https://www.freecodecamp.org/news/bold-font-in-html-font-weight-for-letters/"
   },
   {
     Question: "What does fr stand for in CSS grid?",
@@ -933,7 +932,7 @@ const cssQuiz = [
     Distractor2: "flex unit",
     Distractor3: "fit unit",
     Explanation: "fr stands for fraction unit in CSS grid.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -944,7 +943,7 @@ const cssQuiz = [
     Distractor3: "769px -10,024px",
     Explanation:
       "The range of 769px -1024px can be used to target laptop devices in a media query.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question:
@@ -955,7 +954,7 @@ const cssQuiz = [
     Distractor3: "start",
     Explanation:
       "The align-content property can accept seven values including space-around, space-between, start, and end.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, how do you make the text for an element all lowercase?",
@@ -965,7 +964,7 @@ const cssQuiz = [
     Distractor3: "text-transform: set-lower;",
     Explanation:
       "You can use the text-transform: lowercase; to make all of the text for that element lowercase",
-    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
+    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
     Question:
@@ -976,7 +975,7 @@ const cssQuiz = [
     Distractor3: "background-position",
     Explanation:
       "The background-size property is used to adjust the size for a background image.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question:
@@ -987,7 +986,7 @@ const cssQuiz = [
     Distractor3: "border",
     Explanation:
       "The opacity property is used to set the opacity of an HTML element.",
-    Link: "https://www.freecodecamp.org/news/transparent-background-image-opacity-in-css-and-html/",
+    Link: "https://www.freecodecamp.org/news/transparent-background-image-opacity-in-css-and-html/"
   },
   {
     Question: "In CSS Flexbox, what does justify-content do?",
@@ -997,7 +996,7 @@ const cssQuiz = [
     Distractor3: "aligns the items to the right of the x axis",
     Explanation:
       "In CSS Flexbox, justify-content is used to align the items in the container along the main axis",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question:
@@ -1008,7 +1007,7 @@ const cssQuiz = [
     Distractor3: "!specific",
     Explanation:
       "The !important rule will override the other CSS style rules for that element",
-    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
+    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
     Question: "How do you create a flexbox container in CSS Flexbox?",
@@ -1018,7 +1017,7 @@ const cssQuiz = [
     Distractor3: "display:flexB;",
     Explanation:
       "You can apply CSS Flexbox to an HTML container by using display:flex;",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question:
@@ -1029,7 +1028,7 @@ const cssQuiz = [
     Distractor3: "grid-unit-rows",
     Explanation:
       "The align-content property is used to position the grid inside the grid container along the y-axis.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question:
@@ -1040,7 +1039,7 @@ const cssQuiz = [
     Distractor3: "5px - 12px",
     Explanation:
       "The range of 1025px - 1200px can be used to target desktops and large screens in a media query.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question: "In CSS, what does the A stand for in HSLA?",
@@ -1050,7 +1049,7 @@ const cssQuiz = [
     Distractor3: "Ancient",
     Explanation:
       "The A in HSLA stands for Alpha. This value represents the transparency of the color.",
-    Link: "https://www.freecodecamp.org/news/css-font-color-how-to-style-text-in-html/",
+    Link: "https://www.freecodecamp.org/news/css-font-color-how-to-style-text-in-html/"
   },
   {
     Question:
@@ -1060,7 +1059,7 @@ const cssQuiz = [
     Distractor2: "It repeats the image along both of the x-axis and y-axis.",
     Distractor3: "It repeats the image along the z-axis.",
     Explanation: "The repeat-y value repeats the image along the y-axis.",
-    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/",
+    Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
   {
     Question: "In CSS Flexbox, which one is NOT used with justify-content?",
@@ -1070,7 +1069,7 @@ const cssQuiz = [
     Distractor3: "space-around",
     Explanation:
       "In CSS Flexbox, some of the options for justify-content include space-around, flex-end, flex-start and space-between",
-    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/",
+    Link: "https://www.freecodecamp.org/news/flexbox-the-ultimate-css-flex-cheatsheet/"
   },
   {
     Question:
@@ -1081,7 +1080,7 @@ const cssQuiz = [
     Distractor3: '<h1 fontSize="font-size: 4rem">freeCodeCamp</h1>',
     Explanation:
       "To change the font size of an HTML element, you can use the style attribute and the font-size property in the opening tag.",
-    Link: "https://www.freecodecamp.org/news/html-font-style-how-to-change-text-color-and-size-with-an-html-tag/",
+    Link: "https://www.freecodecamp.org/news/html-font-style-how-to-change-text-color-and-size-with-an-html-tag/"
   },
   {
     Question: "In CSS, how many pixels are equivalent to 1 rem unit?",
@@ -1090,7 +1089,7 @@ const cssQuiz = [
     Distractor2: "12",
     Distractor3: "6",
     Explanation: "One rem unit is equivalent to 16 pixels",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question:
@@ -1100,7 +1099,7 @@ const cssQuiz = [
     Distractor2: "a:active",
     Distractor3: "a:link",
     Explanation: "With a:visited you can set the style of visited links.",
-    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/",
+    Link: "https://www.freecodecamp.org/news/how-to-style-links-in-css/"
   },
   {
     Question:
@@ -1111,7 +1110,7 @@ const cssQuiz = [
     Distractor3: "200px - 4000px",
     Explanation:
       "The range of 320px - 480px can be used to target mobile devices in a media query.",
-    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/",
+    Link: "https://www.freecodecamp.org/news/media-query-css-example-max-and-min-screen-width-for-mobile-responsive-design/"
   },
   {
     Question:
@@ -1121,7 +1120,7 @@ const cssQuiz = [
     Distractor2: "grid-columns",
     Distractor3: "repeat",
     Explanation: "The row-gap property is used to create gaps between rows.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, what is the code used to create a CSS grid container?",
@@ -1131,7 +1130,7 @@ const cssQuiz = [
     Distractor3: "display: grid-container;",
     Explanation:
       "You can use display: grid; to create a new CSS grid container.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
     Question: "In CSS, how do you add content before an element?",
@@ -1141,7 +1140,7 @@ const cssQuiz = [
     Distractor3: "::after",
     Explanation:
       "You can use the ::before selector to add content before an element",
-    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/",
+    Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
     Question:
@@ -1152,14 +1151,19 @@ const cssQuiz = [
     Distractor3: "row-gap",
     Explanation:
       "The justify-content property is used to position the grid in the grid container along the x-axis.",
-    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
   },
   {
-    Question: "In CSS, which of the following options is one way to center a div?",
-    Answer: "use  display: flex; on the parent container and  margin: auto; for the child container",
-    Distractor1: "use  display: flex; on the parent container and  margin: 20px; for the child container",
-    Distractor2: "use  display: flex; on the parent container and  margin: 50px; for the child container",
-    Distractor3: "use  display: flex; on the parent container and  margin: 45%; for the child container",
+    Question:
+      "In CSS, which of the following options is one way to center a div?",
+    Answer:
+      "use  display: flex; on the parent container and  margin: auto; for the child container",
+    Distractor1:
+      "use  display: flex; on the parent container and  margin: 20px; for the child container",
+    Distractor2:
+      "use  display: flex; on the parent container and  margin: 50px; for the child container",
+    Distractor3:
+      "use  display: flex; on the parent container and  margin: 45%; for the child container",
     Explanation:
       "To center a div with CSS, apply display: flex; on the parent container and  margin: auto; for the child container.",
     Link: "https://www.freecodecamp.org/news/how-to-center-a-div-with-css-10-different-ways/"
@@ -1171,7 +1175,7 @@ const cssQuiz = [
     Distractor2: "16",
     Distractor3: "12",
     Explanation: "3em is equivalent to 48 pixels.",
-    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/",
+    Link: "https://www.freecodecamp.org/news/learn-css-units-em-rem-vh-vw-with-code-examples/"
   },
   {
     Question: "What color would rgb(255,0,0) give?",
@@ -1179,17 +1183,20 @@ const cssQuiz = [
     Distractor1: "Green",
     Distractor2: "Yellow",
     Distractor3: "Blue",
-    Explanation: "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
-    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/",
+    Explanation:
+      "Each parameter defines the intensity of each color, rgb(red, green, and blue), with an integer number ranging from 0-255. The minimum value of 0 represents that none of the color is being shown, so it is at its darkest. On the other hand, the maximum value of 255 represents that the full amount of color and the full intensity is on display",
+    Link: "https://www.freecodecamp.org/news/rgb-color-html-and-css-guide/"
   },
   {
-    Question: "In CSS, which pseudo-class allows you to select the last element of a specific type?",
+    Question:
+      "In CSS, which pseudo-class allows you to select the last element of a specific type?",
     Answer: ":last-of-type",
     Distractor1: ":nth-last-child",
     Distractor2: ":last-child",
     Distractor3: ":last",
-    Explanation: "We can use the :last-of-type selector to target an element of a specific type within a container.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/",
+    Explanation:
+      "We can use the :last-of-type selector to target an element of a specific type within a container.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/"
   }
 ];
 

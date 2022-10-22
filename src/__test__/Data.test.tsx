@@ -3,7 +3,7 @@ import { ALL_CATEGORIES } from "../constants";
 describe("Every question is valid", () => {
   test.each(ALL_CATEGORIES)(
     "Every question has an answer, explanation, a link and three distractions",
-    (input) => {
+    input => {
       expect(input).toHaveProperty("Question");
       expect(input).toHaveProperty("Answer");
       expect(input).toHaveProperty("Distractor1");
@@ -15,7 +15,7 @@ describe("Every question is valid", () => {
   );
   test.each(ALL_CATEGORIES)(
     "There are no empty answers, explanations,links or distractions.",
-    (input) => {
+    input => {
       expect(input.Question.length).toBeGreaterThan(0);
       expect(input.Answer.length).toBeGreaterThan(0);
       expect(input.Distractor1.length).toBeGreaterThan(0);
