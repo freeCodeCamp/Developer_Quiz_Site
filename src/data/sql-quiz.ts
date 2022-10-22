@@ -661,6 +661,17 @@ const sqlQuiz = [
       "BLOB stands for Binary Large Object and it is a SQL data type used to store large amounts of data.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
   },
+   {
+    Question:
+      "Which data manipulation command is used to combines the records from one or more tables?",
+    Answer: "",
+    Distractor1: "SELECT",
+    Distractor2: "PROJECT",
+    Distractor3: "JOIN",
+    Explanation:
+      " JOIN command is used with the SELECT statement to retrieve data from multiple tables. It must be needed whenever we want to fetch records from two or more tables.",
+    Link: "https://www.freecodecamp.org/news/sql-joins-tutorial/",
+  },
 ];
 
 export default sqlQuiz;
