@@ -5,7 +5,7 @@ const informationTechnologyQuiz = [
     Distractor1: "Second octet",
     Distractor2: "Third octet",
     Distractor3: "Fourth octet",
-    Explanation: "For Class A IP addresses,  the first octet (8 bits / 1 byte) represent the network ID, and the remaining three octets (24 bits / 3 bytes) are the host ID.",
+    Explanation: "For Class A IP addresses,  the first octet (8 bits / 1 byte) represents the network ID, and the remaining three octets (24 bits / 3 bytes) represent the host ID.",
     Link: "https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/",
   },
   {
