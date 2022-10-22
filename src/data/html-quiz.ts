@@ -1,5 +1,17 @@
 const htmlQuiz = [
   {
+    Question: "Which script code produces the output as Welcome to “Javascript” in HTML?",
+    Answer: "<script>var x="welcome to \"Javascript\"“; alert(x);</script>",
+    
+    Distractor1: "<script>var x="welcome to \"Javascript\"“; alert(x);</script>",
+    Distractor2: "<script>var x="welcome to "Javascript"“; alert(x);</script>",
+    Distractor3: "<script>var x="welcome to \"Javascript\"“; x. alert(x);</script>",
+  
+    Explanation: "It is the Use of Script Tag.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+  },
+    
+  {
     Question: "In HTML, which tag is used to insert a favicon?",
     Answer: "<link>",
     Distractor1: "<fav>",
