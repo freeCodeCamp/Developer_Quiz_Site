@@ -1,15 +1,5 @@
 const securityQuiz = [
-  {
-    Question:
-      "Which of the following type of data, phishers cannot steal from its target victims?",
-    Answer: " apps installed in the mobile",
-    Distractor1: "phone number",
-    Distractor2: "passwords",
-    Distractor3: " apps installed in the mobile",
-    Explanation:
-      "Phishers often develop illegitimate websites for tricking users & filling their personal data such as bank account details, phone number, address, username, and passwords etc.",
-    Link: "https://support.microsoft.com/en-us/windows/protect-yourself-from-phishing-0c7ea947-ba98-3bd9-7184-430e1f860a44#:~:text=Phishing%20(pronounced%3A%20fishing)%20is,that%20pretend%20to%20be%20legitimate.",
-  },
+  
   {
     Question: "Which of the following is not an Attack model in cryptanalysis?",
     Answer: "CVA (Chosen Vector Attack)",
