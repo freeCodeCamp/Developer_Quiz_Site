@@ -1050,6 +1050,16 @@ const linuxQuiz = [
       "In Linux, the -d or --directory option is used to list the directories but not the directory contents.",
     Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
   },
+  {
+    Question: "In awk, how do you print the last column of a file named demo.txt?",
+    Answer: "awk '{print $NF}' demo.txt",
+    Distractor1: "awk '{print $0}' demo.txt",
+    Distractor2: "awk '{print $1, $4}' demo.txt",
+    Distractor3: "awk '/^print/' demo.txt",
+    Explanation:
+     "While using the awk command, you can use $NF which represents the last field in a record to print the the last column of a file",
+    Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
+  },
 ];
 
 export default linuxQuiz;
