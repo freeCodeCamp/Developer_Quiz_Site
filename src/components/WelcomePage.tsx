@@ -9,7 +9,7 @@ import React, { MouseEventHandler } from "react";
 import { ROUNDED_QUESTION_COUNT } from "../constants";
 
 const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
-  start,
+  start
 }) => {
   return (
     <>

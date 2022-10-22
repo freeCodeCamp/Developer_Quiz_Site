@@ -256,7 +256,8 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "What are the four important meetings or ceremonies in Agile Development Methodology?",
+    Question:
+      "What are the four important meetings or ceremonies in Agile Development Methodology?",
     Answer:
       "Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective",
     Distractor1:
@@ -267,7 +268,7 @@ const agileQuiz = [
       "Backlog Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
     Explanation:
       "Agile ceremonies are the meetings that happen in following sequence Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective before, within, and after a sprint cycle.",
-    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)"
   },
   {
     Question: "In Agile, what does FDD stand for?",
@@ -280,7 +281,8 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "In Agile, which methodology has no defined roles or functions where each member can assume the available tasks?",
+    Question:
+      "In Agile, which methodology has no defined roles or functions where each member can assume the available tasks?",
     Answer: "Kanban",
     Distractor1: "Scrum",
     Distractor2: "Lean",
@@ -288,7 +290,7 @@ const agileQuiz = [
     Explanation:
       "The Kanban method does not prescribe roles or meetings unlike other frameworks such as Scrum.",
     Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
-  },
+  }
 ];
 
 export default agileQuiz;

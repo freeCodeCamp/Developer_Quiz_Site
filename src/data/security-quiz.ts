@@ -1,16 +1,15 @@
 const securityQuiz = [
-   {
-    Question:
-      "Which of the following is not an Attack model in cryptanalysis?",
+  {
+    Question: "Which of the following is not an Attack model in cryptanalysis?",
     Answer: "CVA (Chosen Vector Attack)",
     Distractor1: "CPA (Chosen Plaintext Attack)",
     Distractor2: "CCA (Chosen Ciphertext Attack)",
     Distractor3: "COA (Ciphertext Only Attack)",
     Explanation: "There is no attack model named CVA (Chosen vector attack).",
-    Link: "https://en.wikipedia.org/wiki/Attack_model",
+    Link: "https://en.wikipedia.org/wiki/Attack_model"
   },
   {
-   Question:
+    Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
     Answer: "Scanning",
     Distractor1: "Exploitation",
@@ -18,7 +17,7 @@ const securityQuiz = [
     Distractor3: "Reporting",
     Explanation:
       "Scanning involves sending packets of data to the target and interpreting their response.",
-    Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/",
+    Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/"
   },
   {
     Question:
@@ -29,7 +28,7 @@ const securityQuiz = [
     Distractor3: "Reporting",
     Explanation:
       "Recon (aka footprinting) is the first, longest, and most important step. This entails getting as much information as you can about the target without interacting directly with the target.",
-    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/"
   },
   {
     Question:
@@ -40,7 +39,7 @@ const securityQuiz = [
     Distractor3: "Reconnaissance",
     Explanation:
       "This is like reconnaissance, except you gain information about the target by interacting with it for the purpose of looking for a vulnerability.",
-    Link: "https://www.freecodecamp.org/news/what-is-hacking/",
+    Link: "https://www.freecodecamp.org/news/what-is-hacking/"
   },
   {
     Question:
@@ -51,7 +50,7 @@ const securityQuiz = [
     Distractor3: "SFTP",
     Explanation:
       "Hyper Text Transfer Protocol Secure, or HTTPS, is a way that communication can happen SECURELY between your browser and the site you want to visit (web server).",
-    Link: "https://www.freecodecamp.org/news/http-vs-https/",
+    Link: "https://www.freecodecamp.org/news/http-vs-https/"
   },
   {
     Question: "Which of the following is a communication protocol for email?",
@@ -61,7 +60,7 @@ const securityQuiz = [
     Distractor3: "SSL",
     Explanation:
       " SMTP, or Simple Mail Transfer Protocol, is a communication protocol used to send mails to mail servers.",
-    Link: "https://www.freecodecamp.org/news/how-does-email-work/",
+    Link: "https://www.freecodecamp.org/news/how-does-email-work/"
   },
   {
     Question:
@@ -72,7 +71,7 @@ const securityQuiz = [
     Distractor3: " Pre-Shared Key Algorithm",
     Explanation:
       " Variations of the Diffie-Hellman key exchange protocol are used which involves a bit of math. Once the secret is established, a client and a server can communicate without having to fear that someone might intercept their messages. Even if attackers do so, they will not have the common secret that's necessary to decrypt the messages. ",
-    Link: " https://www.freecodecamp.org/news/web-security-an-introduction-to-http-5fa07140f9b3/ ",
+    Link: " https://www.freecodecamp.org/news/web-security-an-introduction-to-http-5fa07140f9b3/ "
   },
 
   {
@@ -86,7 +85,7 @@ const securityQuiz = [
       "an attack where hackers can flood the system with network requests",
     Explanation:
       "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
-    Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/",
+    Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/"
   },
   {
     Question:
@@ -97,7 +96,7 @@ const securityQuiz = [
     Distractor3: "Advanced Encryption",
     Explanation:
       "Homomorphic Encryption is a form of encryption that allows users to perform binary operations on encrypted data without ever decrypting the data.",
-    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/"
   },
   {
     Question:
@@ -108,7 +107,7 @@ const securityQuiz = [
     Distractor3: "OSPF",
     Explanation:
       "The SSH(Secure Shell Protocol) is a secure way for users to access a computer over an unsecured network.",
-    Link: "https://www.freecodecamp.org/news/ssh-keygen-how-to-generate-an-ssh-public-key-for-rsa-login/",
+    Link: "https://www.freecodecamp.org/news/ssh-keygen-how-to-generate-an-ssh-public-key-for-rsa-login/"
   },
   {
     Question:
@@ -119,7 +118,7 @@ const securityQuiz = [
     Distractor3: "Caesar cipher",
     Explanation:
       "Asymmetric-key encryption is a mechanism to ensure non-repudiation because it uses two keys,one public and one private.The public key is used to encrypt the message and the private key is used to decrypt the message.This ensures that the sender cannot deny sending the message because the message can only be decrypted with the private key.",
-    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
     Question:
@@ -130,7 +129,7 @@ const securityQuiz = [
     Distractor3: "worm",
     Explanation:
       "Keylogger is a type of malware that records every keystroke made by the user. It is widely used to steal passwords, credit card numbers, and other sensitive information. It can also be used to monitor the user's activity and send the information to a third party.",
-    Link: "https://www.freecodecamp.org/news/how-did-someone-get-my-password-2/",
+    Link: "https://www.freecodecamp.org/news/how-did-someone-get-my-password-2/"
   },
   {
     Question:
@@ -141,7 +140,7 @@ const securityQuiz = [
     Distractor3: "ARP spoofing",
     Explanation:
       "Cross-site scripting(XSS) is a type of attack that exploits input validation vulnerabilities. It is a type of injection attack that allows an attacker to inject client-side scripts into web pages viewed by other users. The attacker can then execute scripts in the victim's browser, which can hijack user sessions ,deface web sites, or redirect the user to malicious sites.",
-    Link: "https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/",
+    Link: "https://www.freecodecamp.org/news/cross-site-scripting-what-is-xss/"
   },
   {
     Question:
@@ -152,7 +151,7 @@ const securityQuiz = [
     Distractor3: "Ruby",
     Explanation:
       "C is a low-level language that allows for direct memory manipulation. This makes it more susceptible to buffer overflow attacks.",
-    Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/",
+    Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/"
   },
   {
     Question:
@@ -163,7 +162,7 @@ const securityQuiz = [
     Distractor3: "Wireshark",
     Explanation:
       "Nmap is a free and open-source network scanner that can be used to scan a network for active hosts and open ports.  It is also used to detect the operating system and services running on a host.",
-    Link: "https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/",
+    Link: "https://www.freecodecamp.org/news/what-is-nmap-and-how-to-use-it-a-tutorial-for-the-greatest-scanning-tool-of-all-time/"
   },
   {
     Question:
@@ -174,7 +173,7 @@ const securityQuiz = [
     Distractor3: "Grey Hat Hackers",
     Explanation:
       "Black Hat Hackers exploit vulnerable computers over the internet by installing backdoors, malware, sending phishing emails and links , thereby getting access to private and sensitive data",
-    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/"
   },
   {
     Question:
@@ -185,7 +184,7 @@ const securityQuiz = [
     Distractor3: "Red Hat Hackers",
     Explanation:
       "White Hat Hackers work for organizations as Cybersecurity Engineers, Penetration Testers, etc.  where they perform tasks like ethically hacking the system to find and report vulnerabilities. ",
-    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/",
+    Link: "https://www.freecodecamp.org/news/white-hat-black-hat-red-hat-hackers/"
   },
   {
     Question: "What is a common exploited Web security vulnerability?",
@@ -195,7 +194,7 @@ const securityQuiz = [
     Distractor3: "CSS Injection",
     Explanation:
       "SQL injection is one of the most common, old and effective ways of getting to your data for retrieving or destroying it. ",
-    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/",
+    Link: "https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/"
   },
   {
     Question:
@@ -206,7 +205,7 @@ const securityQuiz = [
     Distractor3: "Good Antivirus",
     Explanation:
       "Sanitizing your user input is a basic common rule in security. It is important to not directly add GET or POST variables in your code without a proper sanitizing function. ",
-    Link: "https://www.youtube.com/watch?v=2nXOxLpeu80&t=1h37m41s",
+    Link: "https://www.youtube.com/watch?v=2nXOxLpeu80&t=1h37m41s"
   },
   {
     Question: "Which of the following is NOT a JWT segment?",
@@ -216,7 +215,7 @@ const securityQuiz = [
     Distractor3: "Crypto",
     Explanation:
       "JSON Web Tokens are composed of three URL-safe string segments. Header Segment,Payload Segment & Crypto/Signature Segment",
-    Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/",
+    Link: "https://www.freecodecamp.org/news/how-to-sign-and-validate-json-web-tokens/"
   },
   {
     Question:
@@ -231,7 +230,7 @@ const securityQuiz = [
       "Homomorphic encryption ensures regulatory compliance in industries like healthcare and finance.",
     Explanation:
       "Despite the many benefits homomorphic encryption has to offer, it lacks the efficiency and optimization requirements to be considered a practical solution.",
-    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/"
   },
   {
     Question:
@@ -242,7 +241,7 @@ const securityQuiz = [
     Distractor3: "Fully Homomorphic Encryption (FHE)",
     Explanation:
       "The three main types of homomorphic encryption are: Partially Homomorphic Encryption (PHE), Somewhat Homomorphic Encryption (SHE), and Fully Homomorphic Encryption (FHE).",
-    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/"
   },
   {
     Question: "What does TLS stand for?",
@@ -252,7 +251,7 @@ const securityQuiz = [
     Distractor3: "Transmission Layer Socket",
     Explanation:
       "TLS, or Transport Layer Security, refers to a protocol. The transport layer part of TLS simply refers to host-to-host communication, such as how a client and a server interact, in the Internet protocol suite model.",
-    Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/",
+    Link: "https://www.freecodecamp.org/news/what-is-tls-transport-layer-security-encryption-explained-in-plain-english/"
   },
   {
     Question: "What is the practice of hiding messages in plain sight?",
@@ -262,7 +261,7 @@ const securityQuiz = [
     Distractor3: "Forensics",
     Explanation:
       "Steganography is the practice of hiding messages in a way that looks like nothing is hidden.",
-    Link: "https://www.freecodecamp.org/news/steganography-explained-in-plain-english/",
+    Link: "https://www.freecodecamp.org/news/steganography-explained-in-plain-english/"
   },
   {
     Question: "What does RSA stand for?",
@@ -272,15 +271,16 @@ const securityQuiz = [
     Distractor3: "Right Serious Answer",
     Explanation:
       "RSA, named after its creators (Rivest, Shamir, and Adleman), is an encryption technique that takes advantage of the fact that factoring large prime numbers is hard.",
-    Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/",
+    Link: "https://www.freecodecamp.org/news/understanding-encryption-algorithms/"
   },
   {
-    Question: "Which of these was NOT a 2021 OWASP top 10 security vulnerability?",
+    Question:
+      "Which of these was NOT a 2021 OWASP top 10 security vulnerability?",
     Answer: "Buffer Vulnerability",
-    Distractor1: "Sensitive Data Exposure", 
+    Distractor1: "Sensitive Data Exposure",
     Distractor2: "Broken Authentication",
     Distractor3: "Injection Vulnerability",
-    Explanation: 
+    Explanation:
       "A buffer vulnerability is an important security risk, but it was not part of OWASP's 2021 Top 10 common vulnerabilities.",
     Link: "https://www.freecodecamp.org/news/technical-dive-into-owasp/"
   },
@@ -293,31 +293,29 @@ const securityQuiz = [
     Distractor3: "Somewhat Fully Homomorphic Encryption (SFHE)",
     Explanation:
       "Partial Homomorphic Encryption (PHE) allows only one operation to be performed on the ciphertext an infinite number of times. This operation can be only addition or only multiplication.",
-    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/",
+    Link: "https://www.freecodecamp.org/news/introduction-to-homomorphic-encryption/"
   },
   {
-    Question:
-      "What does SSL stand for?",
+    Question: "What does SSL stand for?",
     Answer: "Secure Sockets Layer",
     Distractor1: "Serial Sockets Layer",
     Distractor2: "Serial Secure Layer",
     Distractor3: "Series Socket Layer",
     Explanation:
       "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
-    Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/",
+    Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
   },
-    {
-    Question:
-      "What does IPFS stand for?",
+  {
+    Question: "What does IPFS stand for?",
     Answer: "InterPlanetary File System",
     Distractor1: "Internet Public File System",
     Distractor2: "Internet Protocol File Sharing",
     Distractor3: "Inter Peer File Sharing",
     Explanation:
       "The InterPlanetary File System is a protocol that stores and shares content and is meant to make the web faster and safer to use.",
-    Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/",
+    Link: "https://www.freecodecamp.org/news/technical-guide-to-ipfs-decentralized-storage-of-web3/"
   },
-    {
+  {
     Question:
       "Which versions of SSL/TLS were impacted during the 2011 SSL BEAST Attack?",
     Answer: "SSL 3.0 and TLS 1.0",
@@ -326,9 +324,9 @@ const securityQuiz = [
     Distractor3: "SSL 1.0 and TLS 1.0",
     Explanation:
       "BEAST stands for Browser Exploit Against SSL/TLS (BEAST) and it is a type of attack that exploits vulnerabilities in SSL and TLS protocols.",
-    Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/",
+    Link: "https://www.freecodecamp.org/news/attacks-on-ssl-tls-and-how-to-protect-your-system/"
   },
-    {
+  {
     Question:
       "Which of the following techniques is a Block Cipher modeled after?",
     Answer: "PRP(Pseudo Random Permutation)",
@@ -337,9 +335,9 @@ const securityQuiz = [
     Distractor3: "PRG(Pseudo Random Generator)",
     Explanation:
       "The Block Cipher cryptographic scheme is based on the principle of Pseudo Random Permutations.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-block-cipher/",
+    Link: "https://www.freecodecamp.org/news/what-is-a-block-cipher/"
   },
-    {
+  {
     Question:
       "Which cryptographic hashing technique is used for validating Ethereum Transactions?",
     Answer: "Keccak-256",
@@ -348,10 +346,8 @@ const securityQuiz = [
     Distractor3: "SHA-1",
     Explanation:
       "The Ethereum Blockchain uses the Keccak-256 hash for its Transactions and consensus mechanism.",
-    Link: "https://www.freecodecamp.org/news/tag/ethereum/",
-  },
+    Link: "https://www.freecodecamp.org/news/tag/ethereum/"
+  }
 ];
 
 export default securityQuiz;
-
-
