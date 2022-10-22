@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which option is used with the uname command to print the node network name?",
+    Answer: "-n",
+    Distractor1: "-network",
+    Distractor2: "-node",
+    Distractor3: "-ntwrk",
+    Explanation:
+        "In Linux, the -n option can be used with the uname command to print the node network name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+  },
+  {
     Question:
       "In Linux, which command converts input and uses it as an argument for another command?",
     Answer: "xargs",
