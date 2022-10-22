@@ -8,7 +8,7 @@ const gitQuiz = [
     Distractor3: "git clone --for later",
     Explanation:
       "Stashes are temporary storage spaces where you can store your code. When you’re done, you can put your code back from the stash using git stash pop. You won’t have to worry about losing any uncommitted changes!",
-    Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/",
+    Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/"
   },
   {
     Question: "In Git, how can you check your configuration?",
@@ -18,7 +18,7 @@ const gitQuiz = [
     Distractor3: "git checkconfig -m",
     Explanation:
       "The command git config -l returns a list of information about your git configuration including user name and email",
-    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
   },
   {
     Question:
@@ -29,7 +29,7 @@ const gitQuiz = [
     Distractor3: "git clone --docs",
     Explanation:
       "In the command line, you can use git merge to integrate changes from one branch to another",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, what is a modified state?",
@@ -41,7 +41,7 @@ const gitQuiz = [
       "the files have been saved and need to be pushed to the remote repository",
     Explanation:
       "The modified state is when changes have been made to the files but those changes are not saved yet",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question:
@@ -52,7 +52,7 @@ const gitQuiz = [
     Distractor3: "git commits",
     Explanation:
       "You can use git log to see the commits in a repository in reverse chronological order.",
-    Link: "https://www.freecodecamp.org/news/what-is-git-learn-git-version-control/",
+    Link: "https://www.freecodecamp.org/news/what-is-git-learn-git-version-control/"
   },
   {
     Question:
@@ -63,7 +63,7 @@ const gitQuiz = [
     Distractor3: "git branches",
     Explanation:
       "You can use git branch to list all the local branches in the repository. ",
-    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/"
   },
   {
     Question: "What is the committed state in Git?",
@@ -74,7 +74,7 @@ const gitQuiz = [
     Distractor3: "the files have been deleted from the local repo",
     Explanation:
       "The committed state is when all of the files have been saved to the local repo and are ready to be pushed to the remote repo",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you push a local branch to a remote repository?",
@@ -85,7 +85,7 @@ const gitQuiz = [
     Explanation:
       "In the command line, you can use git push -u <remote> <branch-name> to push a branch from a local Git repository to a remote repository.",
 
-    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/"
   },
   {
     Question:
@@ -96,7 +96,7 @@ const gitQuiz = [
     Distractor3: 'git create --user "YOUR_USERNAME"',
     Explanation:
       'In the command line, you can use git config --global user.name "YOUR_USERNAME"',
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you initialize a new Git repository?",
@@ -106,7 +106,7 @@ const gitQuiz = [
     Distractor3: "git new repo",
     Explanation:
       "In the command line, you can use git init to initialize a new Git repository",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you add a specific file to be committed?",
@@ -116,7 +116,7 @@ const gitQuiz = [
     Distractor3: "git add %filename",
     Explanation:
       "In the command line, you can use git add filename to add a specific file.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "What is Git?",
@@ -126,7 +126,7 @@ const gitQuiz = [
     Distractor3: "A non-relational database",
     Explanation:
       "Git is an open source version control system that tracks changes to your files. ",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question:
@@ -137,7 +137,7 @@ const gitQuiz = [
     Distractor3: "git local remote",
     Explanation:
       "In the command line, you can use git remote add origin git-url to connect the local repository to the remote one.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how can you create a new branch and switch to it?",
@@ -147,7 +147,7 @@ const gitQuiz = [
     Distractor3: "git change branch-name",
     Explanation:
       "In the command line, you can use git checkout -b branch-name to switch to a different branch",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you commit files to the history of changes?",
@@ -157,7 +157,7 @@ const gitQuiz = [
     Distractor3: "git add message",
     Explanation:
       'In the command line, you can use git commit -m "commit message" to commit your changes.',
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question:
@@ -168,7 +168,7 @@ const gitQuiz = [
     Distractor3: "git push --to main branch",
     Explanation:
       "In the command line, you can use git push -u origin main to push your changes from the main branch of a local Git repository to a remote repository.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how can you delete a branch from a repository?",
@@ -178,7 +178,7 @@ const gitQuiz = [
     Distractor3: "git del <branch-name>",
     Explanation:
       "You can use git branch -d <branch-name> to delete a branch from the repository.",
-    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/"
   },
   {
     Question:
@@ -189,7 +189,7 @@ const gitQuiz = [
     Distractor3: "git add <all files",
     Explanation:
       "In the command line, you can use git add . to add all of the files in your local repository.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, what is a staged state?",
@@ -198,7 +198,7 @@ const gitQuiz = [
     Distractor2: "a new local repository has been created",
     Distractor3: "the files need to be saved to the remote repository",
     Explanation: "The staged state is when the files are ready to be committed",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "What is GitHub?",
@@ -208,7 +208,7 @@ const gitQuiz = [
     Distractor3: "A subscription based platform to sell coding classes",
     Explanation:
       "GitHub is a popular hosting platform for developers to store their Git repositories and collaborate with other developers all around the world.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question:
@@ -219,7 +219,7 @@ const gitQuiz = [
     Distractor3: "git /version",
     Explanation:
       "In the command line, you can use git --version to check which version of Git is installed on your local machine",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how can you pull changes made to the remote repository?",
@@ -229,7 +229,7 @@ const gitQuiz = [
     Distractor3: "git pul <remote>",
     Explanation:
       "You can pull changes from the remote repository with git pull <remote>.",
-    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/"
   },
   {
     Question: "In Git, how do you clone a remote repository?",
@@ -239,7 +239,7 @@ const gitQuiz = [
     Distractor3: "git clone --copy",
     Explanation:
       "In the command line, you can use git clone followed by the remote url address for the repository you want to clone into your local machine",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question:
@@ -250,7 +250,7 @@ const gitQuiz = [
     Distractor3: "git show",
     Explanation:
       "You can see the status of the current branch with git status in Git.",
-    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/"
   },
   {
     Question: "In Git, how can you add color to git command outputs?",
@@ -260,7 +260,7 @@ const gitQuiz = [
     Distractor3: "git config --global true",
     Explanation:
       "You can use git config --global color.ui true to add color to Git output.",
-    Link: "https://www.freecodecamp.org/news/best-git-tutorial/",
+    Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
   },
   {
     Question: "In Git, how do you switch back to the main branch?",
@@ -270,7 +270,7 @@ const gitQuiz = [
     Distractor3: "git go to main",
     Explanation:
       "In the command line, you can use git checkout main to switch over to the main branch",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "What is the -m flag in Git?",
@@ -279,7 +279,7 @@ const gitQuiz = [
     Distractor2: "Shorthand for mistake",
     Distractor3: "Shorthand for merge",
     Explanation: "The -m flag in Git is shorthand for message.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you set your email associated with your commits?",
@@ -289,7 +289,7 @@ const gitQuiz = [
     Distractor3: 'git create user email "YOUR_EMAIL"',
     Explanation:
       'In the command line, you can use git config --global user.email "YOUR_EMAIL" to set your email address in Git.',
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question:
@@ -300,7 +300,7 @@ const gitQuiz = [
     Distractor3: "git config <editor>",
     Explanation:
       "You can use git config --global core.editor <editor> to set the text editor that will be used to write commit messages and to work with Git in general.",
-    Link: "https://www.freecodecamp.org/news/best-git-tutorial/",
+    Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
   },
   {
     Question:
@@ -311,7 +311,7 @@ const gitQuiz = [
     Distractor3: "git show status",
     Explanation:
       "In the command line, you can use git status to check the current status of your working directory",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you create a new branch and switch to it?",
@@ -321,7 +321,7 @@ const gitQuiz = [
     Distractor3: "git create --change -b new-branch-name",
     Explanation:
       "In the command line, you can use git checkout -b new-branch-name to create a new branch and switch to it",
-    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/",
+    Link: "https://www.freecodecamp.org/news/git-and-github-for-beginners/"
   },
   {
     Question: "In Git, how do you rename the current branch?",
@@ -331,7 +331,7 @@ const gitQuiz = [
     Distractor3: "git branch --rename new-name",
     Explanation:
       "In the command line, you can use git branch -m new-name to rename the current branch.",
-    Link: "https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/",
+    Link: "https://www.freecodecamp.org/news/renaming-a-git-branch-how-to-rename-the-current-branch-in-git/"
   },
   {
     Question:
@@ -342,7 +342,7 @@ const gitQuiz = [
     Distractor3: "git update",
     Explanation:
       "In the command line, you can use git diff to show all the differences between your current working directory and your staging area.",
-    Link: "https://www.freecodecamp.org/news/git-diff-command/",
+    Link: "https://www.freecodecamp.org/news/git-diff-command/"
   },
   {
     Question:
@@ -353,7 +353,7 @@ const gitQuiz = [
     Distractor3: "git update",
     Explanation:
       "In the command line, after resolving the conflict you will need to stage the changes.",
-    Link: "https://www.freecodecamp.org/news/resolve-merge-conflicts-in-git-a-practical-guide/",
+    Link: "https://www.freecodecamp.org/news/resolve-merge-conflicts-in-git-a-practical-guide/"
   },
   {
     Question: "In Git, what command is used to revert changes?",
@@ -363,7 +363,7 @@ const gitQuiz = [
     Distractor3: "git update",
     Explanation:
       "In the command line, to undo unwanted changes you can run git revert with the hash of the commit you want to revert back to.",
-    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/",
+    Link: "https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/"
   },
   {
     Question:
@@ -374,7 +374,7 @@ const gitQuiz = [
     Distractor3: "git reflog",
     Explanation:
       "The git reset command is used to reset your current HEAD to a specified state.",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-git-reset-and-git-revert/"
   },
   {
     Question:
@@ -385,7 +385,7 @@ const gitQuiz = [
     Distractor3: "git log",
     Explanation:
       "The git log -p command shows the commit's history including all files and their changes.",
-    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
   },
   {
     Question:
@@ -396,7 +396,7 @@ const gitQuiz = [
     Distractor3: "git branch",
     Explanation:
       "The git branch -r command shows the name of all remote branches that Git is tracking for the current repository.",
-    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
   },
   {
     Question:
@@ -407,18 +407,17 @@ const gitQuiz = [
     Distractor3: "git merge <commit>",
     Explanation:
       "git cherry-pick selects a handpicked commit from one branch and applies it to another branch.",
-    Link: "https://www.freecodecamp.org/news/the-git-cherry-pick-command/",
+    Link: "https://www.freecodecamp.org/news/the-git-cherry-pick-command/"
   },
   {
-    Question:
-      "In Git, what is the correct syntax for the git tag command?",
+    Question: "In Git, what is the correct syntax for the git tag command?",
     Answer: "git tag <tag-name>",
     Distractor1: "git add-tag <tag-name>",
     Distractor2: "git tag-add <tag-name>",
     Distractor3: "git tag-on <commit>",
     Explanation:
       "git tags point to a specific part in the Git history and are often used to mark specific version releases in the code.",
-    Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/",
+    Link: "https://www.freecodecamp.org/news/git-tag-explained-how-to-add-remove/"
   },
   {
     Question: "In Git, how do you do a force push?",
@@ -428,7 +427,7 @@ const gitQuiz = [
     Distractor3: "git add fil*",
     Explanation:
       "The git push -f command will force a push request. This is usually fine for pull request branches because nobody else should have cloned them.",
-    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
   },
   {
     Question: "In Git, how do you list multiple stashes?",
@@ -436,28 +435,33 @@ const gitQuiz = [
     Distractor1: "git list",
     Distractor2: "git apply stash",
     Distractor3: "git pull",
-    Explanation: "To list multiple stashes that you have created you run git stash list.",
-    Link: "https://git-scm.com/docs/git-stash",
+    Explanation:
+      "To list multiple stashes that you have created you run git stash list.",
+    Link: "https://git-scm.com/docs/git-stash"
   },
   {
     Question: "How does Git know that changes have been made to a file?",
-    Answer: "Everything is checksummed before it is stored and is referred to by that checksum",
+    Answer:
+      "Everything is checksummed before it is stored and is referred to by that checksum",
     Distractor1: "Git takes snapshots of the changes",
     Distractor2: "Nearly every operation is local",
     Distractor3: "Git is a Distributed Version Control System",
     Explanation:
       "Git has integrity because everything in git is checksummed using SHA-1 mechanism.",
-    Link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#",
+    Link: "https://git-scm.com/book/en/v2/Getting-Started-What-is-Git%3F#"
   },
   {
     Question: "What is the difference between Git and GitHub?",
-    Answer: "Git is a popular version control system and GitHub is a hosting service for Git repositories.",
-    Distractor1: "GitHub is a type of version control system, while Git is a hosting service for Git repositories.",
+    Answer:
+      "Git is a popular version control system and GitHub is a hosting service for Git repositories.",
+    Distractor1:
+      "GitHub is a type of version control system, while Git is a hosting service for Git repositories.",
     Distractor2: "Git and GitHub are the same thing",
-    Distractor3: "Git is a version control system only used on Mac computers while GitHub is a version control system only used on Windows.",
+    Distractor3:
+      "Git is a version control system only used on Mac computers while GitHub is a version control system only used on Windows.",
     Explanation:
       "Git is a version control system for managing the source and history of code and GitHub is a hosting service for Git repositories.",
-    Link: "https://www.freecodecamp.org/news/introduction-to-git-and-github/",
+    Link: "https://www.freecodecamp.org/news/introduction-to-git-and-github/"
   },
   {
     Question: "In Git, how do you apply a stash if you have multiple?",
@@ -465,8 +469,9 @@ const gitQuiz = [
     Distractor1: "git stash pop",
     Distractor2: "git stash apply",
     Distractor3: "git commit",
-    Explanation: "To apply a stash when you have multiple stashes, you use git stash pop stash@{x} where x is the number in the list of stash.",
-    Link: "https://git-scm.com/docs/git-stash",
+    Explanation:
+      "To apply a stash when you have multiple stashes, you use git stash pop stash@{x} where x is the number in the list of stash.",
+    Link: "https://git-scm.com/docs/git-stash"
   },
   {
     Question: "In Git, how do you see a summary for a single stash?",
@@ -474,8 +479,9 @@ const gitQuiz = [
     Distractor1: "git stash view",
     Distractor2: "git stash diff",
     Distractor3: "git stash summary",
-    Explanation: "To view a summary for a single stash, you use git stash show which shows a summary of file changes.",
-    Link: "https://git-scm.com/docs/git-stash",
+    Explanation:
+      "To view a summary for a single stash, you use git stash show which shows a summary of file changes.",
+    Link: "https://git-scm.com/docs/git-stash"
   },
   {
     Question: "In Git, how do you create a branch from your stash?",
@@ -483,8 +489,9 @@ const gitQuiz = [
     Distractor1: "git checkout -b branch_name stash",
     Distractor2: "git -b branch_name stash@{x}",
     Distractor3: "git branch_name stash@{x}",
-    Explanation: "To create a branch from a stash, you use git stash branch the_branch_name stash@{x} where x is the number in the list of stash.",
-    Link: "https://git-scm.com/docs/git-stash",
+    Explanation:
+      "To create a branch from a stash, you use git stash branch the_branch_name stash@{x} where x is the number in the list of stash.",
+    Link: "https://git-scm.com/docs/git-stash"
   },
   {
     Question: "In Git, how do you delete all the stashes?",
@@ -492,8 +499,9 @@ const gitQuiz = [
     Distractor1: "git stash delete",
     Distractor2: "git stash remove",
     Distractor3: "git stash drop",
-    Explanation: "To remove all stashes, you use git stash clear which will delete ALL stashes.",
-    Link: "https://git-scm.com/docs/git-stash",
+    Explanation:
+      "To remove all stashes, you use git stash clear which will delete ALL stashes.",
+    Link: "https://git-scm.com/docs/git-stash"
   },
   {
     Question: "In Git, how do you delete a single stash?",
@@ -501,9 +509,10 @@ const gitQuiz = [
     Distractor1: "git stash delete stash@{x}",
     Distractor2: "git stash remove stash@{x}",
     Distractor3: "git drop stash@{x}",
-    Explanation: "To delete a SINGLE stash, you use git stash drop stash@{x} where x is the number in the list of stash.",
-    Link: "https://git-scm.com/docs/git-stash",
-  },
+    Explanation:
+      "To delete a SINGLE stash, you use git stash drop stash@{x} where x is the number in the list of stash.",
+    Link: "https://git-scm.com/docs/git-stash"
+  }
 ];
 
 export default gitQuiz;
