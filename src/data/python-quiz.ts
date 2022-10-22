@@ -1,13 +1,13 @@
 const pythonQuiz = [
    {
     Question: 
-      "Which mode create new file if the file does not exist?",
-    Answer: "Both of the above",
-    Distractor1: "Write mode",
-    Distractor2: "Append mode",
-    Distractor3: "Both of the above",
+      "In Python, which method is used to write text to a file?",
+    Answer: "write()",
+    Distractor1: "read()",
+    Distractor2: "appending()",
+    Distractor3: "writing()",
     Explanation: 
-      "In Python file handling,To create new file in python Write or Append parameter will be called.",
+      "In Python the write() method is used to write text to a file.",
     Link: "https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/",
   },
   {
