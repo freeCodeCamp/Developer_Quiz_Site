@@ -1,13 +1,24 @@
 const linuxQuiz = [
   {
-    Question: "In Linux, which command converts input and uses it as an argument for another command?",
+    Question: "In Linux, which option is used with the uname command to print the node network name?",
+    Answer: "-n",
+    Distractor1: "-network",
+    Distractor2: "-node",
+    Distractor3: "-ntwrk",
+    Explanation:
+        "In Linux, the -n option can be used with the uname command to print the node network name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+  },
+  {
+    Question:
+      "In Linux, which command converts input and uses it as an argument for another command?",
     Answer: "xargs",
     Distractor1: "convert",
     Distractor2: "stdin",
     Distractor3: "argv",
     Explanation:
-        "The xargs command is used in a UNIX shell to convert input from the standard input and use it as an argument for another command.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-xargs-command",
+      "The xargs command is used in a UNIX shell to convert input from the standard input and use it as an argument for another command.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-xargs-command"
   },
   {
     Question:
@@ -1028,7 +1039,17 @@ const linuxQuiz = [
     Distractor3: "Code Line Index",
     Explanation: "CLI stands for Command Line Interface",
     Link: "https://en.wikipedia.org/wiki/Command-line_interface"
-  }
+  },
+  {
+    Question: "In Linux, what does the ls -d command do?",
+    Answer: "lists out only the directories themselves,not their contents ",
+    Distractor1: "lists only the files starting with",
+    Distractor2: "lists files and sorts them alphabetically",
+    Distractor3: "show deleted files",
+    Explanation:
+      "In Linux, the -d or --directory option is used to list the directories but not the directory contents.",
+    Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
+  },
 ];
 
 export default linuxQuiz;

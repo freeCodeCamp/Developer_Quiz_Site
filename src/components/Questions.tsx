@@ -22,7 +22,7 @@ interface QuizProps {
   checkAnswer: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 }
 
-const Questions: React.FC<QuizProps> = (QuizProps) => {
+const Questions: React.FC<QuizProps> = QuizProps => {
   return (
     <>
       <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
@@ -47,7 +47,7 @@ const Questions: React.FC<QuizProps> = (QuizProps) => {
                 <button
                   className="answers-btns"
                   value={btn}
-                  onClick={(e) => QuizProps.checkAnswer(e)}
+                  onClick={e => QuizProps.checkAnswer(e)}
                   key={index}
                 >
                   {btn}
