@@ -650,7 +650,7 @@ const sqlQuiz = [
     Distractor2: "Bad Labelled Object",
     Distractor3: "Big Listed Object",
     Explanation:
-      "BLOB (Binary Large Object) is a data type in standard SQL used to store large amounts of data.",
+      "BLOB stands for Binary Large Object and it is a SQL data type used to store large amounts of data.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
   },
 ];
