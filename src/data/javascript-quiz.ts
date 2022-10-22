@@ -1764,13 +1764,13 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which keyword is used to make portions of code accessible to other modules.?",
+      "In JavaScript, which keyword is used to make portions of code accessible to other modules?",
     Answer: "export",
     Distractor1: "import",
     Distractor2: "as",
     Distractor3: "from",
     Explanation:
-      "The export keyword is used to make it possible to access small portions of code in other modules",
+      "The export keyword is used to make it possible to access small portions of code in other modules.",
     Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
   }
 ];
