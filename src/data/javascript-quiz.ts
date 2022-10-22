@@ -1772,7 +1772,18 @@ const javascriptQuiz = [
     Explanation:
       "The export keyword is used to make it possible to access small portions of code in other modules.",
     Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
+  },
+  {
+    Question:
+      "Which one is a Native Function to run code asynchronously in JavaScript ?",
+    Answer: "setTimeOut()",
+    Distractor1: "repeat()",
+    Distractor2: "timeOut()",
+    Distractor3: "delay()",
+    Explanation:
+      "setTimeout() function will not pause execution of other functions in the functions stack, so it's an asynchronous function and it's a native function.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/setTimeout"
   }
-];
+  ];
 
 export default javascriptQuiz;
