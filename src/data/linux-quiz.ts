@@ -1051,7 +1051,7 @@ const linuxQuiz = [
     Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
   },
   {
-    Question: "In awk, how do you print the last column of a file named demo.txt?",
+    Question: "In Linux, how do you print the last column of a file named demo.txt?",
     Answer: "awk '{print $NF}' demo.txt",
     Distractor1: "awk '{print $0}' demo.txt",
     Distractor2: "awk '{print $1, $4}' demo.txt",
