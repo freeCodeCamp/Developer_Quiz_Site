@@ -1,6 +1,6 @@
 const accessibilityQuiz = [
   {
-    Question: "What is the name of an international body responsible for establishing common web accessibility standards?",
+    Question: "What is the name of the international body responsible for establishing the most common web accessibility standards?",
     Answer:
       "World Wild Web Consortium (W3C)",
     Distractor1: "Websites for All",
