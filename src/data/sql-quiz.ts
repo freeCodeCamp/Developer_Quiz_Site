@@ -644,7 +644,7 @@ const sqlQuiz = [
   },
    {
     Question:
-      "In SQL, what does BLOB stands for",
+      "In SQL, what does BLOB stand for?",
     Answer: "Big Large Object",
     Distractor1: "Bad Listed Object",
     Distractor2: "Bad Labelled Object",
