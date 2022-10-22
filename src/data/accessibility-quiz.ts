@@ -187,7 +187,21 @@ const accessibilityQuiz = [
       "A computer program to scan an application for accessibility improvements.",
     Explanation:
       "A software application with assistive technology that attempts to convey what people with normal eyesight see on a display to their users via non-visual means, like text-to-speech. Developers can utilize a screen reader to understand how a webpage can be made accessible to such people and develop the page accordingly.",
-    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "What is ARIA?",
+    Answer:
+      "ARIA defines the responsibilities and states for screenreaders in order to convey information about custom modules like carousels and tabs.",
+    Distractor1:
+      "A tool that changes visuals on a web page to make it more accesible.",
+    Distractor2:
+      "It is an open-source, automated web page quality measurement tool.",
+    Distractor3:
+      "A computer program to scan an application for accessibility improvements.",
+    Explanation:
+      "ARIA is the acronym for Accessible Rich Internet Application which defines the responsibilities, characteristics, and states for screen readers in order to convey information about modules.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
   },
   {
     Question: "How can you make focus elements more accessible to screen readers on mobile?",
