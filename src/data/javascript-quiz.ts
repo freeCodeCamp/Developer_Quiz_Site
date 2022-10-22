@@ -1775,7 +1775,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "Which one is a Native Function to run code asynchronously in JavaScript ?",
+      "Which of the following options is a web API that runs code asynchronously in JavaScript?",
     Answer: "setTimeOut()",
     Distractor1: "repeat()",
     Distractor2: "timeOut()",
