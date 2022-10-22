@@ -12,7 +12,7 @@ interface QuizQuestion {
   show: boolean;
 }
 
-const QuizModal: React.FC<QuizQuestion> = (QuizQuestion) => {
+const QuizModal: React.FC<QuizQuestion> = QuizQuestion => {
   return (
     <>
       <Modal className="modal-styles" show={QuizQuestion.show}>
