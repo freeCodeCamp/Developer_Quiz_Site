@@ -199,7 +199,7 @@ const accessibilityQuiz = [
     Distractor3:
       "Avoid using descriptive headings which are longer than 10 characters.",
     Explanation:
-      "Screen readers use the string mapped to the accessiblityLabel property to describe focus elements",
+      "Accessibility labels are good ways to describe the element to screen reader users.",
     Link: "https://www.freecodecamp.org/news/mobile-accessibility/",
   },
   {
