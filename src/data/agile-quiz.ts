@@ -290,6 +290,28 @@ const agileQuiz = [
     Explanation:
       "The Kanban method does not prescribe roles or meetings unlike other frameworks such as Scrum.",
     Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
+  },
+  {
+    Question: "What is the connection between feedback and optimum batch size?",
+    Answer:
+      "Small batch sizes enable faster feedback with lower transaction costs",
+    Distractor1: "Lack of feedback contributes to higher holding cost",
+    Distractor2: "Feedback and batch size are generally not connected",
+    Distractor3:
+      "Small batch sizes enable faster feedback with lower transaction costs",
+    Explanation:
+      "The optimal batch size is the balance between transaction cost and holding cost. Transaction cost is the cost of deploying the software into production systems. Holding costs refer to the cost of delay to the business for not releasing a feature earlier. Lack of feedback contributes to higher holding cost.",
+    Link: "https://www.learnow.live/blog/top-10-safe-agilist-certification-exam-practice-questions"
+  },
+  {
+    Question: "What is the primary goal of decentralized decision-making?",
+    Answer: "Enable faster flow of value",
+    Distractor1: "Reduce Cost of Delay",
+    Distractor2: "Resolve dependencies",
+    Distractor3: "Enable faster flow of value",
+    Explanation:
+      "Achieving fast value delivery requires decentralized decision-making. This reduces delays, improves product development flow, enables faster feedback, and creates more innovative solutions designed by those closest to the local knowledge.",
+    Link: "https://www.learnow.live/blog/top-10-safe-agilist-certification-exam-practice-questions"
   }
 ];
 
