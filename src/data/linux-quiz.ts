@@ -1057,7 +1057,7 @@ const linuxQuiz = [
     Distractor2: "awk '{print $1, $4}' demo.txt",
     Distractor3: "awk '/^print/' demo.txt",
     Explanation:
-     "While using the awk command, you can use $NF which represents the last field in a record,to print the last column of a file",
+     "While using the awk command, you can use $NF which represents the last field in a record, to print the last column of a file",
     Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
   },
 ];
