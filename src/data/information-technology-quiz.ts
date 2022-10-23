@@ -508,6 +508,16 @@ const informationTechnologyQuiz = [
     Explanation:
       "SPF allows the owner of a domain (like google.com) to set a TXT record in its DNS that states which servers are allowed to send mail from that domain.",
     Link: "https://www.freecodecamp.org/news/how-does-email-work/"
+  },
+  {
+    Question: "What is the correct command to flush your DNS in Windows?",
+    Answer: "ipconfig /flushdns",
+    Distractor1: "ifconfig",
+    Distractor2: "flushdns",
+    Distractor3: "ipconfig /flushdns",
+    Explanation:
+      "To flush your DNS, 'ipconfig /flushdns' is the correct command on Windows. This means that your cache has been completely cleared, and fresh versions of any website you visit will be loaded.",
+    Link: "https://www.freecodecamp.org/news/flushdns-how-to-flush-dns-with-the-windows-ipconfig-flushdns-command/"
   }
 ];
 
