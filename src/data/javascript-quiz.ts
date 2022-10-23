@@ -1,4 +1,14 @@
 const javascriptQuiz = [
+   {
+    Question: "What does the 'debugger' statement in JavaScript do?",
+    Answer: "It acts as a breakpoint in a program",
+    Distractor1: "It will debug errors in the current statement",
+    Distractor2: "It will debug all the errors in the program at runtime",
+    Distractor3: "All of the above",
+    Explanation:
+      "The 'debugger' statement is used to setup the breakup points at probable points of errors in the code snippet, using the debugger window.",
+    Link: "https://www.freecodecamp.org/news/debugging-javascript-for-beginners-5d4ac15dd1cd/#"
+  },
   {
     Question: "What kind of programming can JavaScript be used for?",
     Answer: "Both Client and Server side programming",
