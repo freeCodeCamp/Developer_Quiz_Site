@@ -1,6 +1,7 @@
 const javascriptQuiz = [
    {
-    Question: "What does the 'debugger' statement in JavaScript do?",
+    Question:
+      "What does the 'debugger' statement in JavaScript do?",
     Answer: "It acts as a breakpoint in a program",
     Distractor1: "It will debug errors in the current statement",
     Distractor2: "It will debug all the errors in the program at runtime",
@@ -10,7 +11,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/debugging-javascript-for-beginners-5d4ac15dd1cd/#"
   },
   {
-    Question: "What kind of programming can JavaScript be used for?",
+    Question:
+      "What kind of programming can JavaScript be used for?",
     Answer: "Both Client and Server side programming",
     Distractor1: "Server side only",
     Distractor2: "Client side only",
@@ -97,7 +99,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/"
   },
   {
-    Question: "Which web API method cancels an event's default behavior?",
+    Question:
+      "Which web API method cancels an event's default behavior?",
     Answer: "preventDefault()",
     Distractor1: "cancel()",
     Distractor2: "preVent()",
@@ -326,7 +329,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this"
   },
   {
-    Question: "In JavaScript, which queue is emptied first by an event loop?",
+    Question:
+      "In JavaScript, which queue is emptied first by an event loop?",
     Answer: "Microtask queue",
     Distractor1: "Callback queue (Macrotask queue)",
     Distractor2: "None",
@@ -493,7 +497,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName"
   },
   {
-    Question: "In JavaScript, which operator is used to concatenate strings?",
+    Question:
+      "In JavaScript, which operator is used to concatenate strings?",
     Answer: "+",
     Distractor1: "*",
     Distractor2: "&",
@@ -503,7 +508,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
   },
   {
-    Question: "What are the two basic groups of data types in JavaScript?",
+    Question:
+      "What are the two basic groups of data types in JavaScript?",
     Answer: "Primitive and Reference types",
     Distractor1: "Enumerated and Object types",
     Distractor2: "Primitive and Floating types",
@@ -590,7 +596,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/array-map-tutorial/"
   },
   {
-    Question: "What kind of function accepts another function as an argument?",
+    Question:
+      "What kind of function accepts another function as an argument?",
     Answer: "Higher order",
     Distractor1: "Arrow function",
     Distractor2: "Anonymous function",
@@ -633,7 +640,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/the-javascript-array-handbook/"
   },
   {
-    Question: "In JavaScript, what is the value of x ? let x = undefined || 1;",
+    Question:
+      "In JavaScript, what is the value of x ? let x = undefined || 1;",
     Answer: "1",
     Distractor1: "2",
     Distractor2: "undefined",
@@ -643,7 +651,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-logical-operators/"
   },
   {
-    Question: "In JavaScript, how do you create a promise inside a function?",
+    Question:
+      "In JavaScript, how do you create a promise inside a function?",
     Answer: "return new Promise((resolve, reject) => {})",
     Distractor1: "return new Promise(resolve, reject)",
     Distractor2: "return new Promise((resolve, reject))",
@@ -674,7 +683,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/the-javascript-array-handbook/"
   },
   {
-    Question: "What does JSON stand for?",
+    Question:
+      "What does JSON stand for?",
     Answer: "JavaScript Object Notation",
     Distractor1: "Jupiter Script Object Notation",
     Distractor2: "Jabber Script Object Notation",
@@ -717,7 +727,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/why-i-left-gulp-and-grunt-for-npm-scripts-3d6853dd22b8/"
   },
   {
-    Question: "In JavaScript, how can you convert a string to an integer?",
+    Question:
+      "In JavaScript, how can you convert a string to an integer?",
     Answer: "parseInt()",
     Distractor1: "parseString()",
     Distractor2: "parseInteger()",
@@ -727,7 +738,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/convert-string-to-number-javascript/"
   },
   {
-    Question: "In JavaScript, how do you write a multiline comment?",
+    Question:
+      "In JavaScript, how do you write a multiline comment?",
     Answer: "/* */",
     Distractor1: "//",
     Distractor2: "<!-- -->",
@@ -736,7 +748,8 @@ const javascriptQuiz = [
     Link: "https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-comment-your-javascript-code/16783"
   },
   {
-    Question: "In JavaScript, what is the logical AND operator?",
+    Question:
+      "In JavaScript, what is the logical AND operator?",
     Answer: "&&",
     Distractor1: "||",
     Distractor2: "!",
@@ -756,7 +769,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-loops-explained-for-loop-for/"
   },
   {
-    Question: "Which one is NOT a JavaScript library?",
+    Question:
+      "Which one is NOT a JavaScript library?",
     Answer: "C#",
     Distractor1: "React",
     Distractor2: "D3",
@@ -832,7 +846,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/global-variables-in-javascript-explained/"
   },
   {
-    Question: "In JavaScript, what keyword is used to define a function?",
+    Question:
+      "In JavaScript, what keyword is used to define a function?",
     Answer: "function",
     Distractor1: "def",
     Distractor2: "func",
@@ -864,7 +879,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
-    Question: "In HTML, what are <script> tags?",
+    Question:
+      "In HTML, what are <script> tags?",
     Answer: "they're used for client side JavaScript code",
     Distractor1: "used for server side JavaScript code",
     Distractor2: "used to link SQL databases",
@@ -896,7 +912,8 @@ const javascriptQuiz = [
     Link: "https://devdocs.io/javascript/global_objects/string/charat"
   },
   {
-    Question: "What is the main purpose of JavaScript in a website?",
+    Question:
+      "What is the main purpose of JavaScript in a website?",
     Answer: "Functionality",
     Distractor1: "Structure",
     Distractor2: "Style",
@@ -906,7 +923,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-javascript-javascript-code-explained-in-plain-english/"
   },
   {
-    Question: "Are semicolons strictly required in JavaScript?",
+    Question:
+      "Are semicolons strictly required in JavaScript?",
     Answer: "No",
     Distractor1: "Yes",
     Distractor2: "only when using the concat method",
@@ -960,7 +978,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-interview-prep-cheatsheet/"
   },
   {
-    Question: "In JavaScript, how can you get the length of a string?",
+    Question:
+      "In JavaScript, how can you get the length of a string?",
     Answer: ".length",
     Distractor1: "len()",
     Distractor2: "length()",
@@ -981,7 +1000,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-tolowercase-how-to-convert-a-string-to-lowercase-and-uppercase-in-js/"
   },
   {
-    Question: "In JavaScript, what are the three types of scope?",
+    Question:
+      "In JavaScript, what are the three types of scope?",
     Answer: "global, function, block",
     Distractor1: "global, function, map",
     Distractor2: "reduce, function, block",
@@ -1013,7 +1033,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-rest-vs-spread-operators/"
   },
   {
-    Question: "What is the DOM in JavaScript?",
+    Question:
+      "What is the DOM in JavaScript?",
     Answer:
       "A programming interface to create, change, or remove elements from the document.",
     Distractor1:
@@ -1047,7 +1068,8 @@ const javascriptQuiz = [
     Link: "https://devdocs.io/javascript/global_objects/string/concat"
   },
   {
-    Question: "What is the filename extension of a JavaScript file?",
+    Question:
+      "What is the filename extension of a JavaScript file?",
     Answer: ".js",
     Distractor1: ".py",
     Distractor2: ".j",
@@ -1067,7 +1089,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
-    Question: "In JavaScript, what is the logical OR operator?",
+    Question:
+      "In JavaScript, what is the logical OR operator?",
     Answer: "||",
     Distractor1: "&&",
     Distractor2: "!",
@@ -1087,7 +1110,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-javascript-javascript-code-explained-in-plain-english/"
   },
   {
-    Question: "Which company created JavaScript?",
+    Question:
+      "Which company created JavaScript?",
     Answer: "Netscape",
     Distractor1: "IBM",
     Distractor2: "Xerox",
@@ -1108,7 +1132,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-array-some-tutorial-how-to-iterate-through-elements-in-an-array/"
   },
   {
-    Question: "In JavaScript, what is the logical NOT operator?",
+    Question:
+      "In JavaScript, what is the logical NOT operator?",
     Answer: "!",
     Distractor1: "&&",
     Distractor2: "||",
@@ -1139,7 +1164,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-is-hoisting-in-javascript/"
   },
   {
-    Question: "In JavaScript, what are the three ways to declare a variable?",
+    Question:
+      "In JavaScript, what are the three ways to declare a variable?",
     Answer: "var, let, const",
     Distractor1: "variable, let, const",
     Distractor2: "var, let-var, const",
@@ -1193,7 +1219,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-tolowercase-how-to-convert-a-string-to-lowercase-and-uppercase-in-js/"
   },
   {
-    Question: "In JavaScript, how do you write an inline comment?",
+    Question:
+      "In JavaScript, how do you write an inline comment?",
     Answer: "// Comment",
     Distractor1: "/* Comment",
     Distractor2: "# Comment",
@@ -1202,7 +1229,8 @@ const javascriptQuiz = [
     Link: "https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-comment-your-javascript-code/16783"
   },
   {
-    Question: "In JavaScript, what does the spread operator do?",
+    Question:
+      "In JavaScript, what does the spread operator do?",
     Answer:
       "It can be used to copy portions of an array or object into another array or object.",
     Distractor1:
@@ -1215,7 +1243,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-use-es6-javascript-features-in-react/"
   },
   {
-    Question: "What does DOM stand for?",
+    Question:
+      "What does DOM stand for?",
     Answer: "Document Object Model",
     Distractor1: "Data Object Model",
     Distractor2: "Document Online Model",
@@ -1246,7 +1275,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/"
   },
   {
-    Question: "In JavaScript, what will 'typeof []' return?",
+    Question:
+      "In JavaScript, what will 'typeof []' return?",
     Answer: "Object",
     Distractor1: "Null",
     Distractor2: "Array",
@@ -1256,7 +1286,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures"
   },
   {
-    Question: "In JavaScript, what will 'typeof NaN' return?",
+    Question:
+      "In JavaScript, what will 'typeof NaN' return?",
     Answer: "Number",
     Distractor1: "ReferenceError",
     Distractor2: "Null",
@@ -1266,7 +1297,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-typeof-how-to-check-the-type-of-a-variable-or-object-in-js/"
   },
   {
-    Question: "In JavaScript, what will the following code return: typeof a?",
+    Question:
+      "In JavaScript, what will the following code return: typeof a?",
     Answer: "undefined",
     Distractor1: "string",
     Distractor2: "object",
@@ -1287,7 +1319,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-data-types-typeof-explained/"
   },
   {
-    Question: "In JavaScript, what is the return value of the .push() method?",
+    Question:
+      "In JavaScript, what is the return value of the .push() method?",
     Answer: "new length of the array, after the element has been pushed",
     Distractor1: "undefined",
     Distractor2: "null",
@@ -1319,7 +1352,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#declarations"
   },
   {
-    Question: "In JavaScript, how many primitive data types are there?",
+    Question:
+      "In JavaScript, how many primitive data types are there?",
     Answer: "7",
     Distractor1: "3",
     Distractor2: "6",
@@ -1329,7 +1363,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
   },
   {
-    Question: "In JavaScript, what does NaN means?",
+    Question:
+      "In JavaScript, what does NaN means?",
     Answer: "Not-A-Number",
     Distractor1: "Near-Me Area Network",
     Distractor2: "Non-Alpha-Numeric",
@@ -1351,7 +1386,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-temporal-dead-zone-and-hoisting-explained/"
   },
   {
-    Question: "In JavaScript, what is the difference between == and ===?",
+    Question:
+      "In JavaScript, what is the difference between == and ===?",
     Answer: "== allows for type coercion of the values, while === does not",
     Distractor1:
       "== does not allow for type coercion of the values, while === does",
@@ -1363,7 +1399,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/js-type-coercion-explained-27ba3d9a2839/"
   },
   {
-    Question: "In JavaScript, how many falsy values are there?",
+    Question:
+      "In JavaScript, how many falsy values are there?",
     Answer: "6",
     Distractor1: "5",
     Distractor2: "7",
@@ -1373,7 +1410,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/falsy-values-in-javascript/"
   },
   {
-    Question: "In JavaScript, what is a function without a name called?",
+    Question:
+      "In JavaScript, what is a function without a name called?",
     Answer: "An anonymous function",
     Distractor1: "An unsigned function",
     Distractor2: "A ghost function",
@@ -1383,7 +1421,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/what-are-functions-in-javascript-a-beginners-guide/"
   },
   {
-    Question: "In JavaScript, what does IIFE stand for?",
+    Question:
+      "In JavaScript, what does IIFE stand for?",
     Answer: "Immediately Invoked Function Expression",
     Distractor1: "Immediately Invoked Function Executor",
     Distractor2: "Internally Invoked Function Expression",
@@ -1445,7 +1484,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift"
   },
   {
-    Question: "In JavaScript, which is a correct way to concatenate 3 arrays?",
+    Question:
+      "In JavaScript, which is a correct way to concatenate 3 arrays?",
     Answer: "const newArr = arr1.concat(arr2, arr3)",
     Distractor1: "const newArr = join(arr1, arr2, arr3)",
     Distractor2: "const newArr = combine[arr1, arr2, arr3]",
@@ -1488,7 +1528,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at"
   },
   {
-    Question: "In JavaScript, what is the runtime model based on?",
+    Question:
+      "In JavaScript, what is the runtime model based on?",
     Answer: "Event Loop",
     Distractor1: "Stack Memory Allotment Model",
     Distractor2: "Queue Memory Allotment Model",
@@ -1509,7 +1550,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/lets-learn-about-set-and-its-unique-functionality-in-javascript-5654c5c03de2/"
   },
   {
-    Question: "In JavaScript, what is the optional chaining operator?",
+    Question:
+      "In JavaScript, what is the optional chaining operator?",
     Answer: "?.",
     Distractor1: "??",
     Distractor2: "&&",
@@ -1529,7 +1571,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Unary_plus"
   },
   {
-    Question: "In JavaScript, which of the following is not an array method?",
+    Question:
+      "In JavaScript, which of the following is not an array method?",
     Answer: ".search()",
     Distractor1: ".includes()",
     Distractor2: ".forEach()",
@@ -1561,7 +1604,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/API/console/table"
   },
   {
-    Question: "In JavaScript, what type of value is an Array?",
+    Question:
+      "In JavaScript, what type of value is an Array?",
     Answer: "Object",
     Distractor1: "Array",
     Distractor2: "Map",
@@ -1571,7 +1615,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array"
   },
   {
-    Question: "In JavaScript, what type of value is an Array?",
+    Question:
+      "In JavaScript, what type of value is an Array?",
     Answer: "Object",
     Distractor1: "Array",
     Distractor2: "Map",
@@ -1592,7 +1637,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed"
   },
   {
-    Question: "In JavaScript, what should be the output of 3 < 2 < 1?",
+    Question:
+      "In JavaScript, what should be the output of 3 < 2 < 1?",
     Answer: "true",
     Distractor1: "false",
     Distractor2: "syntax error",
@@ -1624,7 +1670,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-prototype-explained-with-examples/"
   },
   {
-    Question: "In JavaScript, how many threads does code run in?",
+    Question:
+      "In JavaScript, how many threads does code run in?",
     Answer: "Single thread",
     Distractor1: "Multiple threads",
     Distractor2: "No threads",
@@ -1634,7 +1681,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-concurrency-model-and-event-loop/"
   },
   {
-    Question: "What does BOM stand for?",
+    Question:
+      "What does BOM stand for?",
     Answer: "Browser Object Model",
     Distractor1: "Boolean Object Manipulation",
     Distractor2: "Browser Object Manifest",
@@ -1655,7 +1703,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-store-data-in-web-browser-storage-localstorage-and-session-storage-explained/"
   },
   {
-    Question: "In JavaScript, what does the .seal() method do?",
+    Question:
+      "In JavaScript, what does the .seal() method do?",
     Answer: "Prevents new properties from being added to it.",
     Distractor1: "Permits its prototype from being reassigned",
     Distractor2: "Allows its existing properties to be removed",
@@ -1687,7 +1736,8 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/event-propagation-event-bubbling-event-catching-beginners-guide/"
   },
   {
-    Question: "In JavaScript, what is the nullish coalescing operator?",
+    Question:
+      "In JavaScript, what is the nullish coalescing operator?",
     Answer: "??",
     Distractor1: "?.",
     Distractor2: "&&",
