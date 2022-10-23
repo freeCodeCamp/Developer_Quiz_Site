@@ -1290,7 +1290,7 @@ const generalCSQuiz = [
     Distractor2: "Time complexity of binary search is O(n) whereas time complexity of linear search is O(n)",
     Distractor3: "Time complexity of binary search is O(logn) whereas time complexity of linear search is O(logn)",
     Explanation:
-      "In worst case in case of linear search we have iterate through n elements thus O(n)whereas in binary search in each step we divide in two so O(logn).",
+      "The worst case time complexity for linear search O(n) because we have iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
 ];
