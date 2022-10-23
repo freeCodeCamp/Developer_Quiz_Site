@@ -1090,16 +1090,6 @@ const linuxQuiz = [
     Explanation: "The df command stands for disk-free and it is used to check the available disk space in Linux.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
   },
-  {
-    Question:
-      "In Linux, which command is used to estimate file space usage?",
-    Answer: "du",
-    Distractor1: "free",
-    Distractor2: "df",
-    Distractor3: "top",
-    Explanation: "du command is used to estimate file space usage. It estimates the space used under a particular directory or files on a file system.",
-    Link: "https://en.wikipedia.org/wiki/Du_(Unix)"
-  },
 ];
 
 export default linuxQuiz;
