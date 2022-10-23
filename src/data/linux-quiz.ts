@@ -1,6 +1,6 @@
 const linuxQuiz = [
   {
-    Question: "Which command finds memory being used by Linux?",
+    Question: "In Linux, which command you can use to find memory being used by Linux?",
     Answer: "All of these",
     Distractor1: "free-m",
     Distractor2: "htop",
