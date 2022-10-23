@@ -663,13 +663,13 @@ const sqlQuiz = [
   },
    {
     Question:
-      "In SQL, what does DML stand for?",
-    Answer: "Data Manipulation Language",
-    Distractor1: "Decode Manipulation Language",
-    Distractor2: "Data Manipulation Language",
-    Distractor3: "Data Modify Language",
+      "In SQL, what are the two types of Database Management Systems?",
+    Answer: "relational databases and non-relational databases",
+    Distractor1: "functional and object oriented",
+    Distractor2: "procedural and relational",
+    Distractor3: "non-relational and assembly",
     Explanation:
-      "Some DML commands are INSERT,UPDATE,DELETE",
+      "The two types of Database Management Systems are relational and non-relational databases.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   }, 
 ];
