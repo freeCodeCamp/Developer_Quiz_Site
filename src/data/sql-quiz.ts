@@ -661,6 +661,18 @@ const sqlQuiz = [
       "BLOB stands for Binary Large Object and it is a SQL data type used to store large amounts of data.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
   },
+   {
+    Question:
+      "In SQL, what are the two types of Database Management Systems?",
+    Answer: "relational databases and non-relational databases",
+    Distractor1: "functional and object oriented",
+    Distractor2: "procedural and relational",
+    Distractor3: "non-relational and assembly",
+    Explanation:
+      "The two types of Database Management Systems are relational and non-relational databases.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
+  }, 
 ];
+
 
 export default sqlQuiz;
