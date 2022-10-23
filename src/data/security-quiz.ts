@@ -32,7 +32,7 @@ const securityQuiz = [
     Distractor1: "Symmetric key cryptography",
     Distractor2: "Hash function",
     Distractor3: "Systematical key cryptography",
-    Explanation: "Asymmetric cryptography is a type of cryptography that use pair of related keys. Each key pair consist of a public key and a corresponding private key.",
+    Explanation: "Asymmetric cryptography is a type of cryptography that uses a pair of related keys. Each key pair consists of a public key and a corresponding private key.",
     Link: "https://www.freecodecamp.org/news/http-vs-https/",
   },
   {
