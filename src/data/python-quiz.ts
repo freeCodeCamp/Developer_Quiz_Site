@@ -1581,6 +1581,15 @@ const pythonQuiz = [
     Explanation: "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
     Link: "https://docs.python.org/3/library/math.html",
   },
+   {
+    Question: "In Python, what will be the output of the following code snippet? lst = [10, 20, 30, 40, 50, 60, 70, 80, 90] print(lst[:5:2])?",
+    Answer: "[10, 30, 50]",
+    Distractor1: "[10, 30, 50, 70, 90]",
+    Distractor2: "[70, 90]",
+    Distractor3: "[10, 20, 30]",
+    Explanation: "In Python, list slicing syntax is lst[ Initial : End : IndexJump ]. Leaving any argument like Initial, End or IndexJump blank will lead to the use of default values i.e 0 as Initial, length of list as End and 1 as IndexJump.",
+    Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html",
+  },
 ];
 
 export default pythonQuiz;
