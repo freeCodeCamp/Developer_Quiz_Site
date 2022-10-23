@@ -1282,6 +1282,18 @@ const generalCSQuiz = [
       "An O(branches ^ depth) runtime is often reported (although not always) for recursive functions that make multiple calls.",
     Link: "https://www.freecodecamp.org/news/learn-big-o-notation/"
   }
+   {
+    Question:
+      "What is the worst case time complexity of binary search vs linear search?",
+    Answer: "Time complexity of binary search is O(logn) whereas time complexity of linear search is O(n)",
+    Distractor1: "Time complexity of binary search is O(n) whereas time complexity of linear search is O(logn)",
+    Distractor2: "Time complexity of binary search is O(n) whereas time complexity of linear search is O(n)",
+    Distractor3: "Time complexity of binary search is O(logn) whereas time complexity of linear search is O(logn)",
+    Explanation:
+      "In worst case in case of linear search we have iterate through n elements thus O(n)whereas in binary search in each step we divide in two so O(logn).",
+    Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
+  }
+  
 ];
 
 export default generalCSQuiz;
