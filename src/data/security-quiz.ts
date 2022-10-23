@@ -9,7 +9,7 @@ const securityQuiz = [
     Link: "https://en.wikipedia.org/wiki/Attack_model"
   },
   {
-    Question: "Which of the following reasons is what makes HTTPS more secure than HTTP?",
+    Question: "Which of the following reasons makes HTTPS more secure than HTTP?",
     Answer: "In HTTPS, all communications are encrypted", 
     Distractor1: "HTTPS communications are in plain text",
     Distractor2: "HTTPS communications are beautiful",
