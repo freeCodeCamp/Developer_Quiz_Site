@@ -1070,6 +1070,36 @@ const linuxQuiz = [
      "While using the awk command, you can use $NF which represents the last field in a record, to print the last column of a file",
     Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
   },
+  {
+    Question:
+      "In Linux, which command is used to strip directory and suffix from filenames?",
+    Answer: "basename",
+    Distractor1: "dirname",
+    Distractor2: "pwd",
+    Distractor3: "ls",
+    Explanation: "The basename command can be used to print the filename from the given pathname. It will delete any prefix up to the last forward-slash character and return the result.",
+    Link: "https://en.wikipedia.org/wiki/Basename"
+  },
+  {
+    Question:
+      "In Linux, which command is used to display the amount of available free disk space for file systems?",
+    Answer: "df",
+    Distractor1: "du",
+    Distractor2: "free",
+    Distractor3: "top",
+    Explanation: "df command is used to display the amount of available free disk space for file systems, on which the invoking user has appropriate read access.",
+    Link: "https://en.wikipedia.org/wiki/Df_(Unix)"
+  },
+  {
+    Question:
+      "In Linux, which command is used to estimate file space usage?",
+    Answer: "du",
+    Distractor1: "free",
+    Distractor2: "df",
+    Distractor3: "top",
+    Explanation: "du command is used to estimate file space usage. It estimates the space used under a particular directory or files on a file system.",
+    Link: "https://en.wikipedia.org/wiki/Du_(Unix)"
+  },
 ];
 
 export default linuxQuiz;
