@@ -1078,7 +1078,7 @@ const linuxQuiz = [
     Distractor2: "pwd",
     Distractor3: "ls",
     Explanation: "The basename command can be used to print the filename from the given pathname. It will delete any prefix up to the last forward-slash character and return the result.",
-    Link: "https://en.wikipedia.org/wiki/Basename"
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-basename-command"
   },
   {
     Question:
