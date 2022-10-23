@@ -1646,7 +1646,7 @@ const htmlQuiz = [
     Distractor2: "used to bold text",
     Distractor3: "used to highlight text",
     Explanation:
-      "Hypertext refers to links that connect web pages to one another, either within a single website or between websites.",
+      "Hypertext in HTML refers to text (often with embeds such as images, too) that is organized in order to connect web pages to one another.",
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
 ];
