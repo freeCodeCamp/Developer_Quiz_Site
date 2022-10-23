@@ -1087,7 +1087,7 @@ const linuxQuiz = [
     Distractor1: "du",
     Distractor2: "free",
     Distractor3: "top",
-    Explanation: "df command is used to display the amount of available free disk space for file systems, on which the invoking user has appropriate read access.",
+    Explanation: "The df command stands for disk-free and it is used to check the available disk space in Linux.",
     Link: "https://en.wikipedia.org/wiki/Df_(Unix)"
   },
   {
