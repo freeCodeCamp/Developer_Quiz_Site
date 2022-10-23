@@ -1197,6 +1197,17 @@ const cssQuiz = [
     Explanation:
       "We can use the :last-of-type selector to target an element of a specific type within a container.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/"
+  },
+  {
+    Question:
+      "what is syntax of Attribute Selector in CSS?",
+    Answer: "container[attribute="value"]",
+    Distractor1: "container[value]",
+    Distractor2: "attribute[value]",
+    Distractor3: "value[attribute]",
+    Explanation:
+      "It selects elements with an attribute with specefic value .",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
   }
 ];
 
