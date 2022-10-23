@@ -1088,7 +1088,7 @@ const linuxQuiz = [
     Distractor2: "free",
     Distractor3: "top",
     Explanation: "The df command stands for disk-free and it is used to check the available disk space in Linux.",
-    Link: "https://en.wikipedia.org/wiki/Df_(Unix)"
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
   },
   {
     Question:
