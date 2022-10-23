@@ -1647,7 +1647,7 @@ const htmlQuiz = [
     Distractor3: "used to highlight text",
     Explanation:
       "Hypertext refers to links that connect web pages to one another, either within a single website or between websites.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+    Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   },
 ];
 export default htmlQuiz;
