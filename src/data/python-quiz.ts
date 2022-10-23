@@ -1570,8 +1570,17 @@ const pythonQuiz = [
     Distractor2: "297.49",
     Distractor3: "297.4885",
     Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
-    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/"
-  }
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
+  },
+   {
+    Question: "In Python, what is the result for math.trunc(3.1)?",
+    Answer: "3",
+    Distractor1: "3.5",
+    Distractor2: "3.14",
+    Distractor3: "0.1",
+    Explanation: "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
+    Link: "https://docs.python.org/3/library/math.html",
+  },
 ];
 
 export default pythonQuiz;
