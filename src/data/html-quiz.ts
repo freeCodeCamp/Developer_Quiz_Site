@@ -1638,6 +1638,16 @@ const htmlQuiz = [
     Explanation:
       "The HTML iframe element is used to embed another document within the current HTML document. It is commonly used for advertisements, web analytics and other forms of interactive content.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe"
-  }
+  },
+  {
+    Question: "What does it mean by Hypertext?",
+    Answer: "It refers to links that connect web pages to one another, either within a single website or between websites",
+    Distractor1: "used for creating a html form",
+    Distractor2: "used to bold text",
+    Distractor3: "used to highlight text",
+    Explanation:
+      "Hypertext refers to links that connect web pages to one another, either within a single website or between websites.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML"
+  },
 ];
 export default htmlQuiz;
