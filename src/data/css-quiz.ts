@@ -1197,6 +1197,17 @@ const cssQuiz = [
     Explanation:
       "We can use the :last-of-type selector to target an element of a specific type within a container.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/"
+  },
+  {
+    Question:
+      "In CSS, which of the following is the correct syntax to display the hyperlinks without any underline?",
+    Answer: "text-decoration : none;",
+    Distractor1: "decoration : no-underline;",
+    Distractor2: "text-decoration : underline;",
+    Distractor3: "text-decoration : null;",
+    Explanation:
+      "The text-decoration property is used to decorate the content of the text.",
+    Link: "https://www.w3schools.com/cssref/pr_text_text-decoration.asp"
   }
 ];
 
