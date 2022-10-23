@@ -290,6 +290,16 @@ const agileQuiz = [
     Explanation:
       "The Kanban method does not prescribe roles or meetings unlike other frameworks such as Scrum.",
     Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
+  },
+  {
+    Question: "In a Scrum team, who needs to comply with the Definition of Done?",
+    Answer: "The Scrum Team",
+    Distractor1: "The Product Owner",
+    Distractor2: "The Scrum Master",
+    Distractor3: "The Product Owner and the Scrum Master",
+    Explanation:
+      "The Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.",
+    Link: "https://scrumguides.org/scrum-guide.html"
   }
 ];
 
