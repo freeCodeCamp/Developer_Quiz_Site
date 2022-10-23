@@ -1581,6 +1581,15 @@ const pythonQuiz = [
     Explanation: "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
     Link: "https://docs.python.org/3/library/math.html",
   },
+   {
+    Question : "Config() in Python Tkinter are used for",
+    Answer: "change property of the widget",
+    Distractor1: "destroy the widget",
+    Distractor2: "place the widget",
+    Distractor3: "configure the widget",
+    Explanation: "Config() method is used to update multiple attrs subsequent to object creation",
+    Link: "https://docs.python.org/3/library/tkinter.html#architecture",
+   },
 ];
 
 export default pythonQuiz;
