@@ -1640,7 +1640,7 @@ const htmlQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe"
   },
   {
-    Question: "What does it mean by Hypertext?",
+    Question: "What does Hypertext mean in HTML?",
     Answer: "It refers to links that connect web pages to one another, either within a single website or between websites",
     Distractor1: "used for creating a html form",
     Distractor2: "used to bold text",
