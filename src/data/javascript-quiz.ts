@@ -1810,7 +1810,7 @@ const javascriptQuiz = [
     Distractor1: "12",
     Distractor2: "undefined",
     Distractor3: "NaN",
-    Explanation: "The result is 2 because in Javascript you cant use - on strings so it will automatically convert the strings to numbers and subtract.",
+    Explanation: "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
   }
   ];
 
