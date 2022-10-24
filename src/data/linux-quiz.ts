@@ -1100,6 +1100,17 @@ const linuxQuiz = [
     Explanation: "The df command stands for disk-free and it is used to check the available disk space in Linux.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
   },
+   {
+    Question:
+      "Which command is used in the Vim editor to delete a single character?",
+    Answer: "x",
+    Distractor1: "y",
+    Distractor2: "a",
+    Distractor3: "z",
+    Explanation: "If you want to delete a single character in the Vim editor, you can use the x command.",
+    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
+  },
+  
 ];
 
 export default linuxQuiz;
