@@ -1582,12 +1582,12 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/math.html",
   },
    {
-    Question: "In Python, what will be the output of the following code snippet? lst = [10, 20, 30, 40, 50, 60, 70, 80, 90] print(lst[:5:2])?",
-    Answer: "[10, 30, 50]",
+    Question: "In Python, what is the output for the following: print([10, 20, 60, 90][:2:])?",
+    Answer: "[10, 20]",
     Distractor1: "[10, 30, 50, 70, 90]",
     Distractor2: "[70, 90]",
     Distractor3: "[10, 20, 30]",
-    Explanation: "In Python, list slicing syntax is lst[ Initial : End : IndexJump ]. Leaving any argument like Initial, End or IndexJump blank will lead to the use of default values i.e 0 as Initial, length of list as End and 1 as IndexJump.",
+    Explanation: "In Python, list slicing syntax is list[start:stop[:step]]. The start, stop and step parameters are all optional and if omitted will refer to the defaults of 0, length of sequence and 1 respectively.",
     Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html",
   },
 ];
