@@ -1097,7 +1097,7 @@ const linuxQuiz = [
     Distractor1: "y",
     Distractor2: "a",
     Distractor3: "z",
-    Explanation: "The command x is used to delete a single character in Vim Editor.",
+    Explanation: "If you want to delete a single character in the Vim editor, you can use the x command.",
     Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   },
   
