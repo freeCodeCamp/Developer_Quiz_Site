@@ -10,24 +10,26 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-top-command"
   },
   {
-    Question: "In Linux, which option is used with the uname command to print the processor architecture name?",
+    Question:
+      "In Linux, which option is used with the uname command to print the processor architecture name?",
     Answer: "-p",
     Distractor1: "-arch",
     Distractor2: "-ps",
     Distractor3: "-pname",
     Explanation:
-        "In Linux, the -p option can be used with the uname command to print the processor architecture name.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+      "In Linux, the -p option can be used with the uname command to print the processor architecture name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
-    Question: "In Linux, which option is used with the uname command to print the node network name?",
+    Question:
+      "In Linux, which option is used with the uname command to print the node network name?",
     Answer: "-n",
     Distractor1: "-network",
     Distractor2: "-node",
     Distractor3: "-ntwrk",
     Explanation:
-        "In Linux, the -n option can be used with the uname command to print the node network name.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+      "In Linux, the -n option can be used with the uname command to print the node network name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
     Question:
@@ -1071,13 +1073,14 @@ const linuxQuiz = [
     Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
   },
   {
-    Question: "In Linux, how do you print the last column of a file named demo.txt?",
+    Question:
+      "In Linux, how do you print the last column of a file named demo.txt?",
     Answer: "awk '{print $NF}' demo.txt",
     Distractor1: "awk '{print $0}' demo.txt",
     Distractor2: "awk '{print $1, $4}' demo.txt",
     Distractor3: "awk '/^print/' demo.txt",
     Explanation:
-     "While using the awk command, you can use $NF which represents the last field in a record, to print the last column of a file",
+      "While using the awk command, you can use $NF which represents the last field in a record, to print the last column of a file",
     Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
   },
   {
@@ -1087,7 +1090,8 @@ const linuxQuiz = [
     Distractor1: "dirname",
     Distractor2: "pwd",
     Distractor3: "ls",
-    Explanation: "The basename command can be used to print the filename from the given pathname. It will delete any prefix up to the last forward-slash character and return the result.",
+    Explanation:
+      "The basename command can be used to print the filename from the given pathname. It will delete any prefix up to the last forward-slash character and return the result.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-basename-command"
   },
   {
@@ -1097,9 +1101,21 @@ const linuxQuiz = [
     Distractor1: "du",
     Distractor2: "free",
     Distractor3: "top",
-    Explanation: "The df command stands for disk-free and it is used to check the available disk space in Linux.",
+    Explanation:
+      "The df command stands for disk-free and it is used to check the available disk space in Linux.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
   },
+  {
+    Question:
+      "In Linux, how do you rename a file A.txt, which is in the present working directory, to B.txt?",
+    Answer: "mv A.txt B.txt",
+    Distractor1: "mv B.txt A.txt",
+    Distractor2: "rn A.txt B.txt",
+    Distractor3: "rn B.txt A.txt",
+    Explanation:
+      "To rename a file, we use mv command followed by original file name, space and then new file name",
+    Link: "https://www.freecodecamp.org/news/rename-file-linux-bash-command"
+  }
 ];
 
 export default linuxQuiz;
