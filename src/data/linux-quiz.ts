@@ -6,7 +6,7 @@ const linuxQuiz = [
     Distractor2: "htop",
     Distractor3: "vmstat",
     Explanation:
-      "The top command is used to display dynamic real-time information. You can use free-m, htop, top or vmstat to find memory being used by Linux.",
+      "The top command is used to display dynamic real-time informations. You can use free-m, htop, top or vmstat to find memory being used by Linux.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-top-command"
   },
   {
