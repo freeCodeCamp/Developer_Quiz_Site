@@ -1793,6 +1793,24 @@ const javascriptQuiz = [
     Explanation:
       "The setTimeout() function is an asynchronous function that will not pause execution of other functions in the stack.",
     Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result of the following code? console.log('7' + '5')",
+    Answer: "75",
+    Distractor1: "11",
+    Distractor2: "57",
+    Distractor3: "undefined",
+    Explanation: "The result is '12' because the + operator is used to concatenate strings.",
+  },
+  {
+    Question:
+      "In JavaScript, what is the result of the following code? console.log('7' - '5')",
+    Answer: "2",
+    Distractor1: "12",
+    Distractor2: "undefined",
+    Distractor3: "NaN",
+    Explanation: "The result is 2 because in Javascript you cant use - on strings so it will automatically convert the strings to numbers and subtract.",
   }
   ];
 
