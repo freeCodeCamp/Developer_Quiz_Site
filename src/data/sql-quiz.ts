@@ -672,6 +672,18 @@ const sqlQuiz = [
       "The two types of Database Management Systems are relational and non-relational databases.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
   }, 
+  {
+    Question:
+      "What SQL command is used to display contents of a database?",
+    Answer: "SELECT * FROM TableName",
+    Distractor1: "SELECT Tables FROM *",
+    Distractor2: "SELECT",
+    Distractor3: "SELECT *",
+    Explanation:
+      "SELECT * FROM Table: is usedto display contents of a database where the asterisk( means 'for all')",
+    Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/",
+  }, 
+  
 ];
 
 
