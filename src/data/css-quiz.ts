@@ -1206,7 +1206,7 @@ const cssQuiz = [
     Distractor2: "border-length",
     Distractor3: "border-width",
     Explanation:
-      "You can use border-style: groove; to specify a groove border styles around HTML elements.",
+      "You can use border-style: groove; to specify groove border styles around HTML elements.",
     Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
   }
 ];
