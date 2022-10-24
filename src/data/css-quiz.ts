@@ -1203,7 +1203,7 @@ const cssQuiz = [
       "In CSS, which property is used to apply a groove style to the border?",
     Answer: "border-style",
     Distractor1: "border-bottom-color",
-    Distractor2: "border-style",
+    Distractor2: "border-length",
     Distractor3: "border-width",
     Explanation:
       "The border-style property specifies what kind of border to display.",
