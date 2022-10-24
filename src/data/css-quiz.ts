@@ -1197,6 +1197,17 @@ const cssQuiz = [
     Explanation:
       "We can use the :last-of-type selector to target an element of a specific type within a container.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/"
+  },
+   {
+    Question:
+      "In CSS, which property is used to apply a groove style to the border?",
+    Answer: "border-style",
+    Distractor1: "border-bottom-color",
+    Distractor2: "border-length",
+    Distractor3: "border-width",
+    Explanation:
+      "You can use border-style: groove; to specify groove border styles around HTML elements.",
+    Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
   }
 ];
 
