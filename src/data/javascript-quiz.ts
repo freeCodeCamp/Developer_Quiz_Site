@@ -1796,7 +1796,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what is the result of the following code? console.log(7 + '5')",
+      "In JavaScript, what is the result of the following code: console.log(7 + '5')?",
     Answer: "75",
     Distractor1: "11",
     Distractor2: "57",
