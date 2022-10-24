@@ -1,7 +1,7 @@
 const pythonQuiz = [
    {
     Question: 
-      "In Python, what is the output of the following code print(list(range(3, 6)))?",
+      "In Python, what is the output of the following code: print(list(range(3, 6)))?",
     Answer: "[3, 4, 5]",
     Distractor1: "[3, 4, 5, 6]",
     Distractor2: "[3, 6]",
