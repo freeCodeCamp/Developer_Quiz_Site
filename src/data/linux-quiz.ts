@@ -1100,6 +1100,16 @@ const linuxQuiz = [
     Explanation: "The df command stands for disk-free and it is used to check the available disk space in Linux.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
   },
+  {
+    Question:
+      "In Linux, which command is used to go back to the user's home directory?",
+    Answer: "cd ~",
+    Distractor1: "cd /",
+    Distractor2: "clear",
+    Distractor3: "ls -la",
+    Explanation: "The cd ~ command can be used to get back to home directory in Linux.",
+    Link: "https://www.freecodecamp.org/news/linux-command-line-tutorial/"
+  },
 ];
 
 export default linuxQuiz;
