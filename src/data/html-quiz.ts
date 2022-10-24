@@ -1641,8 +1641,8 @@ const htmlQuiz = [
   },
   {
     Question: "What does Hypertext mean in HTML?",
-    Answer: "organized text and links that connect web pages to together",
-    Distractor1: "used for creating a html form",
+    Answer: "organized text and links that connect web pages together",
+    Distractor1: "used for creating an html form",
     Distractor2: "used to bold text",
     Distractor3: "used to highlight text",
     Explanation:
