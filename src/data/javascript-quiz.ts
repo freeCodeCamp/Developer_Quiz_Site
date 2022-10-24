@@ -1801,7 +1801,7 @@ const javascriptQuiz = [
     Distractor1: "11",
     Distractor2: "57",
     Distractor3: "undefined",
-    Explanation: "The result is '12' because the + operator is used to concatenate strings.",
+    Explanation: "The result for console.log(7 + '5') is 75 because the + operator is used to concatenate strings.",
   },
   {
     Question:
