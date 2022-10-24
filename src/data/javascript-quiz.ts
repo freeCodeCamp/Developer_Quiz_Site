@@ -1811,7 +1811,16 @@ const javascriptQuiz = [
     Distractor2: "undefined",
     Distractor3: "NaN",
     Explanation: "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
+  },
+      "In JavaScript, the ___________ method returns the index position of the last occurrence of a value in an array.",
+    Answer: "lastIndexOf()",
+    Distractor1: "indexOf()",
+    Distractor2: "charAt(0)",
+    Distractor3: "getPosition()",
+    Explanation:
+      "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
   }
-  ];
+];
 
 export default javascriptQuiz;
