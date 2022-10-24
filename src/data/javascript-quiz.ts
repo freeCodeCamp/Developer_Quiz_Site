@@ -1812,6 +1812,8 @@ const javascriptQuiz = [
     Distractor3: "NaN",
     Explanation: "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
   },
+  {
+    Question:
       "In JavaScript, the ___________ method returns the index position of the last occurrence of a value in an array.",
     Answer: "lastIndexOf()",
     Distractor1: "indexOf()",
