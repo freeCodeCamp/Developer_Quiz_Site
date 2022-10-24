@@ -1198,6 +1198,17 @@ const cssQuiz = [
       "We can use the :last-of-type selector to target an element of a specific type within a container.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/"
   },
+  {
+    Question:
+      "Which of the following CSS properties is used to add a stroke in the text ?",
+    Answer: "text-stroke",
+    Distractor1: "text-transform",
+    Distractor2: "text-decoration",
+    Distractor3: "None of the above",
+    Explanation:
+      "text-stroke is a CSS property that is used to add a stroke in the text.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke"
+   },
    {
     Question:
       "In CSS, which property is used to apply a groove style to the border?",
