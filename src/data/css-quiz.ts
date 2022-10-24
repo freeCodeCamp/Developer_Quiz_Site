@@ -1200,13 +1200,13 @@ const cssQuiz = [
   },
   {
     Question:
-      "what is syntax of Attribute Selector in CSS?",
-    Answer: "container[attribute="value"]",
+      "Which of the following is the correct syntax for an attribute selector in CSS?",
+    Answer: "selector[attribute="value"]",
     Distractor1: "container[value]",
     Distractor2: "attribute[value]",
     Distractor3: "value[attribute]",
     Explanation:
-      "It selects elements with an attribute with specefic value .",
+      "The correct syntax for an attribute selector in CSS is selector[attribute='value'].",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
   }
 ];
