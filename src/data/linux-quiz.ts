@@ -1092,7 +1092,7 @@ const linuxQuiz = [
   },
    {
     Question:
-      "What command is used in Vim editor to delete a single character?",
+      "Which command is used in the Vim editor to delete a single character?",
     Answer: "x",
     Distractor1: "y",
     Distractor2: "a",
