@@ -300,6 +300,26 @@ const agileQuiz = [
     Explanation:
       "The Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.",
     Link: "https://scrumguides.org/scrum-guide.html"
+  },
+  {
+    Question: "Who is accountable for establishing Scrum and Scrum Team's effectiveness?",
+    Answer: "The Scrum Master",
+    Distractor1: "The Scrum Team",
+    Distractor2: "The Product Owner and the Scrum Master",
+    Distractor3: "The Product Owner",
+    Explanation:
+      "Scrum Master is responsible for establishing scrum within team & at organization level. They achieve this by enabling the Scrum Team to improve its practices, within scrum framework and help them understand Scrum theory & practices.",
+    Link: "https://scrumguides.org/scrum-guide.html"
+  },
+  {
+    Question: "Who has the authority to cancel the Sprint?",
+    Answer: "The Product Owner",
+    Distractor1: "The Scrum Team",
+    Distractor2: "The Scrum Master",
+    Distractor3: "The Developers",
+    Explanation:
+      "Only the Product Owner has the authority to cancel the Sprint.",
+    Link: "https://scrumguides.org/scrum-guide.html"
   }
 ];
 
