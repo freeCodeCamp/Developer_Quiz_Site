@@ -1,14 +1,13 @@
 const pythonQuiz = [
-   {
-    Question: 
-      "In Python, which method is used to write text to a file?",
+  {
+    Question: "In Python, which method is used to write text to a file?",
     Answer: "write()",
     Distractor1: "read()",
     Distractor2: "appending()",
     Distractor3: "writing()",
-    Explanation: 
+    Explanation:
       "In Python the write() method is used to write text to a file.",
-    Link: "https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/",
+    Link: "https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/"
   },
   {
     Question:
@@ -1570,17 +1569,29 @@ const pythonQuiz = [
     Distractor2: "297.49",
     Distractor3: "297.4885",
     Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
-    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/"
   },
-   {
+  {
     Question: "In Python, what is the result for math.trunc(3.1)?",
     Answer: "3",
     Distractor1: "3.5",
     Distractor2: "3.14",
     Distractor3: "0.1",
-    Explanation: "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
-    Link: "https://docs.python.org/3/library/math.html",
+    Explanation:
+      "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
+    Link: "https://docs.python.org/3/library/math.html"
   },
+  {
+    Question:
+      "Consider the results of a medical experiment that aims to predict whether someone is going to develop myopia based on some physical measurements and heredity. In this case, the input dataset consists of the person’s medical characteristics and the target variable is binary: 1 for those who are likely to develop myopia and 0 for those who aren’t. This can be best classified as",
+    Answer: "Decision Tree",
+    Distractor1: "Regression",
+    Distractor2: "Clustering",
+    Distractor3: "Association Rules",
+    Explanation:
+      "Regression: It is a statistical analysis which is used to establish relation between a response and a predictor variable. It is mainly used in finance related applications. Decision Tree: Decision tree is a computational method which works on descriptive data and records the observations of each object to reach to a result. Clustering: It is a method of grouping more similar objects in a group and the non-similar objects to other groups. Association Rules: It uses if-then reasoning method using the support-confidence technique to give a result. According to the question Decision Tree is the most suitable technique that can be used to get best result of the experiment.",
+    Link: "https://testbook.com/login?redirect_url=%2Fpyp%2Ftests%2F5f2b2154dd24640d1362cdb4%3Futm_source%3DQuestionBank%26utm_medium%3DQuestionBankRecommendation&isSkipEnrollmentFlow=true"
+  }
 ];
 
 export default pythonQuiz;
