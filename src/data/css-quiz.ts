@@ -1200,7 +1200,7 @@ const cssQuiz = [
   },
    {
     Question:
-      "In order to display a groove kind of border, which property should we use?",
+      "In CSS, which property is used to apply a groove style to the border?",
     Answer: "border-style",
     Distractor1: "border-bottom-color",
     Distractor2: "border-style",
