@@ -1200,14 +1200,14 @@ const cssQuiz = [
   },
   {
     Question:
-      "Which of the below CSS property is used to add a stroke in the text ?",
-    Answer: ":text-stroke",
-    Distractor1: ":text-transform",
-    Distractor2: ":text-decoration",
-    Distractor3: ":None of the above",
+      "Which of the following CSS properties is used to add a stroke in the text ?",
+    Answer: "text-stroke",
+    Distractor1: "text-transform",
+    Distractor2: "text-decoration",
+    Distractor3: "None of the above",
     Explanation:
-      "The text-stroke is a CSS property that is used to add a stroke in the text. It is also supported by using WebKit.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke#:~:text=The%20%2Dwebkit%2Dtext%2Dstroke,of%20strokes%20for%20text%20characters."
+      "text-stroke is a CSS property that is used to add a stroke in the text.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke"
   }
 ];
 
