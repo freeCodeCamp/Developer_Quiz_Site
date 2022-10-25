@@ -1591,6 +1591,16 @@ const pythonQuiz = [
     Explanation:
       "In Python, list slicing syntax is list[start:stop[:step]]. The start, stop and step parameters are all optional and if omitted will refer to the defaults of 0, length of sequence and 1 respectively.",
     Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html"
+  },
+  {
+    Question: "In Python, clear() method in list is used to?",
+    Answer: "To delete all the elements of the list",
+    Distractor1: "To delete the list",
+    Distractor2: "To delete the last element of the list",
+    Distractor3: "To delete the specific element of the list",
+    Explanation:
+      "In Python, clear() method in list is used to delete all the elements of the list. The list name you give inside the clear() method will be delete all the element of the list and when list is printed, the output will be the empty list.",
+    Link: "https://docs.python.org/3/tutorial/datastructures.html"
   }
 ];
 
