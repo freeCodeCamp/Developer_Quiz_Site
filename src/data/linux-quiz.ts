@@ -1122,7 +1122,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "Which command is used to find difference between two files in Linux?",
+      "In Linux, which command is used to find the difference between two files?",
     Answer: "diff",
     Distractor1: "uniq",
     Distractor2: "echo",
