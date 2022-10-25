@@ -1,35 +1,32 @@
 import React, { MouseEventHandler } from "react";
 import ResultsModal from "./ResultsByCategoryModal";
 
-const Results: React.FC<{
+interface PointTotals {
   points: number;
   totalPoints: number;
   resetQuiz: MouseEventHandler<HTMLButtonElement>;
   hideResultsBreakdown: MouseEventHandler;
-  generalQuestionsCorrect: number;
-  cssQuestionsCorrect: number;
   agileQuestionsCorrect: number;
   accessibilityQuestionsCorrect: number;
+  cssQuestionsCorrect: number;
+  generalCSQuestionsCorrect: number;
+  gitQuestionsCorrect: number;
+  htmlQuestionsCorrect: number;
   show: boolean;
-}> = ({
-  points,
-  totalPoints,
-  resetQuiz,
-  hideResultsBreakdown,
-  generalQuestionsCorrect,
-  cssQuestionsCorrect,
-  agileQuestionsCorrect,
-  accessibilityQuestionsCorrect,
-  show
-}) => {
-  const totalPercentageCorrect = (Math.floor(points) / totalPoints) * 100;
+}
+
+const Results: React.FC<PointTotals> = PointTotals => {
+  const totalPercentageCorrect =
+    (Math.floor(PointTotals.points) / PointTotals.totalPoints) * 100;
   const tweetMessage = `http://twitter.com/intent/tweet?text=I just scored ${totalPercentageCorrect}%25 on developerquiz.org. Wanna try it for yourself?&hashtags=freecodecamp`;
   return (
     <div className='results-div'>
       <h1 className='results-heading'>Results</h1>
       <h2>
-        {points === totalPoints ? "Wow! Perfect Score!" : "You received"}{" "}
-        {points} out of {totalPoints} points
+        {PointTotals.points === PointTotals.totalPoints
+          ? "Wow! Perfect Score!"
+          : "You received"}{" "}
+        {PointTotals.points} out of {PointTotals.totalPoints} points
       </h2>
       <p className='results-text'>
         Wanna learn how to code? Download the free:&nbsp;
@@ -43,17 +40,19 @@ const Results: React.FC<{
         </a>
       </p>
       <ResultsModal
-        allEarnedPoints={points}
-        allPossiblePoints={totalPoints}
-        agilePoints={agileQuestionsCorrect}
-        accessibilityPoints={accessibilityQuestionsCorrect}
-        cssPoints={cssQuestionsCorrect}
-        generalPoints={generalQuestionsCorrect}
-        show={show}
-        hideResultsBreakdown={hideResultsBreakdown}
+        allEarnedPoints={PointTotals.points}
+        allPossiblePoints={PointTotals.totalPoints}
+        agilePoints={PointTotals.agileQuestionsCorrect}
+        accessibilityPoints={PointTotals.accessibilityQuestionsCorrect}
+        cssPoints={PointTotals.cssQuestionsCorrect}
+        generalPoints={PointTotals.generalCSQuestionsCorrect}
+        gitPoints={PointTotals.gitQuestionsCorrect}
+        htmlPoints={PointTotals.htmlQuestionsCorrect}
+        show={PointTotals.show}
+        hideResultsBreakdown={PointTotals.hideResultsBreakdown}
       />
 
-      <button onClick={resetQuiz} className='results-btn'>
+      <button onClick={PointTotals.resetQuiz} className='results-btn'>
         Play again?
       </button>
 

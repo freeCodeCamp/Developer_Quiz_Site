@@ -11,13 +11,14 @@ describe("Results", () => {
       <Results
         points={0}
         totalPoints={10}
-        generalQuestionsCorrect={0}
+        generalCSQuestionsCorrect={0}
         cssQuestionsCorrect={0}
         agileQuestionsCorrect={0}
         accessibilityQuestionsCorrect={0}
         resetQuiz={undefined}
         show={false}
         hideResultsBreakdown={undefined}
+        gitQuestionsCorrect={0}
       />,
       div
     );
@@ -27,13 +28,14 @@ describe("Results", () => {
       <Results
         points={0}
         totalPoints={10}
-        generalQuestionsCorrect={0}
+        generalCSQuestionsCorrect={0}
         cssQuestionsCorrect={0}
         agileQuestionsCorrect={0}
         accessibilityQuestionsCorrect={0}
         resetQuiz={undefined}
         show={false}
         hideResultsBreakdown={undefined}
+        gitQuestionsCorrect={0}
       />
     );
     expect(
@@ -45,13 +47,14 @@ describe("Results", () => {
       <Results
         points={10}
         totalPoints={10}
-        generalQuestionsCorrect={0}
+        generalCSQuestionsCorrect={0}
         cssQuestionsCorrect={0}
         agileQuestionsCorrect={0}
         accessibilityQuestionsCorrect={0}
         resetQuiz={undefined}
         show={false}
         hideResultsBreakdown={undefined}
+        gitQuestionsCorrect={0}
       />
     );
     expect(

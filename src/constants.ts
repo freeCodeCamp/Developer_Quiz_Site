@@ -29,7 +29,7 @@ export const CATEGORY_NAMES = {
   AGILE: "Agile",
   CSS: "CSS",
   FREECODECAMP: "freecodecamp",
-  GENERAL: "General",
+  GENERAL: "General Computer Science",
   GIT: "Git",
   HTML: "Html",
   JAVASCRIPT: "Javascript",

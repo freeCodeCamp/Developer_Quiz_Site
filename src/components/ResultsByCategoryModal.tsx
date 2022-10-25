@@ -6,10 +6,12 @@ import { CATEGORY_NAMES } from "../constants";
 interface Results {
   allEarnedPoints: number;
   allPossiblePoints: number;
-  generalPoints: number;
-  cssPoints: number;
-  agilePoints: number;
   accessibilityPoints: number;
+  agilePoints: number;
+  cssPoints: number;
+  generalPoints: number;
+  gitPoints: number;
+  htmlPoints: number;
   hideResultsBreakdown: MouseEventHandler;
   show: boolean;
 }
@@ -27,14 +29,6 @@ const ResultsModal: React.FC<Results> = Results => {
       </Modal.Header>
       <Modal.Body>
         <div>
-          <p className='resultCategoryHeading'>{CATEGORY_NAMES.GENERAL} :</p>
-          <p className='resultCategoryScore'>{Results.generalPoints}</p>
-        </div>
-        <div>
-          <p className='resultCategoryHeading'>{CATEGORY_NAMES.CSS} :</p>
-          <p className='resultCategoryScore'>{Results.cssPoints}</p>
-        </div>
-        <div>
           <p className='resultCategoryHeading'>{CATEGORY_NAMES.AGILE} :</p>
           <p className='resultCategoryScore'>{Results.agilePoints}</p>
         </div>
@@ -43,6 +37,22 @@ const ResultsModal: React.FC<Results> = Results => {
             {CATEGORY_NAMES.ACCESSIBILITY} :
           </p>
           <p className='resultCategoryScore'>{Results.accessibilityPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.CSS} :</p>
+          <p className='resultCategoryScore'>{Results.cssPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.GENERAL} :</p>
+          <p className='resultCategoryScore'>{Results.generalPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.GIT} :</p>
+          <p className='resultCategoryScore'>{Results.gitPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.HTML} :</p>
+          <p className='resultCategoryScore'>{Results.htmlPoints}</p>
         </div>
       </Modal.Body>
       <Modal.Footer>

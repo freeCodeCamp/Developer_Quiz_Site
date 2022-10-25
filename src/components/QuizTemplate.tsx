@@ -34,9 +34,10 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [accessibilityQuestionsCorrect, setAccessibilityQuestionsCorrect] =
     useState(0);
   const [agileQuestionsCorrect, setAgileQuestionsCorrect] = useState(0);
-  const [generalQuestionsCorrect, setGeneralQuestionsCorrect] = useState(0);
   const [cssQuestionsCorrect, setCSSQuestionsCorrect] = useState(0);
-
+  const [generalCSQuestionsCorrect, setGeneralCSQuestionsCorrect] = useState(0);
+  const [gitQuestionsCorrect, setGitQuestionsCorrect] = useState(0);
+  const [htmlQuestionsCorrect, setHTMLQuestionsCorrect] = useState(0);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
   const choicesArr: string[][] = [];
   const currQuestion = quiz[questionNumber - 1];
@@ -102,7 +103,9 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setAccessibilityQuestionsCorrect(0);
     setAgileQuestionsCorrect(0);
     setCSSQuestionsCorrect(0);
-    setGeneralQuestionsCorrect(0);
+    setGeneralCSQuestionsCorrect(0);
+    setGitQuestionsCorrect(0);
+    setHTMLQuestionsCorrect(0);
   };
 
   const shuffleModalResponses = (responses: string[]) => {
@@ -115,10 +118,14 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       setAgileQuestionsCorrect(curr => curr + 1);
     } else if (categoryName == CATEGORY_NAMES.ACCESSIBILITY) {
       setAccessibilityQuestionsCorrect(curr => curr + 1);
-    } else if (categoryName == CATEGORY_NAMES.GENERAL) {
-      setGeneralQuestionsCorrect(curr => curr + 1);
     } else if (categoryName == CATEGORY_NAMES.CSS) {
       setCSSQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.GENERAL) {
+      setGeneralCSQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.GIT) {
+      setGitQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.HTML) {
+      setHTMLQuestionsCorrect(curr => curr + 1);
     }
   };
 
@@ -164,8 +171,9 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     accessibilityQuestionsCorrect,
     agileQuestionsCorrect,
     cssQuestionsCorrect,
-    generalQuestionsCorrect,
-
+    generalCSQuestionsCorrect,
+    gitQuestionsCorrect,
+    htmlQuestionsCorrect,
     show
   };
 
