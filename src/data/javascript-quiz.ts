@@ -1,5 +1,25 @@
 const javascriptQuiz = [
   {
+    Question: "What does the 'debugger' statement in JavaScript do?",
+    Answer: "It acts as a breakpoint in a program",
+    Distractor1: "It will debug errors in the current statement",
+    Distractor2: "It will debug all the errors in the program at runtime",
+    Distractor3: "All of the above",
+    Explanation:
+      "The 'debugger' statement is used to setup the breakup points at probable points of errors in the code snippet, using the debugger window.",
+    Link: "https://www.freecodecamp.org/news/debugging-javascript-for-beginners-5d4ac15dd1cd/#"
+  },
+  {
+    Question: "What kind of programming can JavaScript be used for?",
+    Answer: "Both Client and Server side programming",
+    Distractor1: "Server side only",
+    Distractor2: "Client side only",
+    Distractor3: "None of these options",
+    Explanation:
+      "JavaScript is a programming language which can be used on the client and server side.",
+    Link: "https://developer.mozilla.org/en-US/docs/Learn/Server-side/First_steps/Introduction#are_server-side_and_client-side_programming_the_same"
+  },
+  {
     Question:
       "In JavaScript, if let x='5', then what will be the value of console.log(x==5,x===5)?",
     Answer: "true false",
@@ -1806,6 +1826,17 @@ const javascriptQuiz = [
     Explanation:
       "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+  },
+  {
+    Question:
+      "In JavaScript, which of the following is not a primitive data type?",
+    Answer: "Object",
+    Distractor1: "Number",
+    Distractor2: "String",
+    Distractor3: "Undefined",
+    Explanation:
+      "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
   }
 ];
 
