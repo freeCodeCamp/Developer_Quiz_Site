@@ -1,6 +1,6 @@
 const javascriptQuiz = [
   {
-    Question: "The Math.random() method returns a random number in what range?",
+    Question: "In JavaScript, what is the range of numbers returned from the Math.random() method?",
     Answer: "Between 0 and 1 (including 0; not including 1).",
     Distractor1: "Between 0 and 1 (including neither 0 or 1).",
     Distractor2: "Between 0 and 1 (including 1; not including 0).",
