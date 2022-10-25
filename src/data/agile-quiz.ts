@@ -298,7 +298,7 @@ const agileQuiz = [
     Distractor2: "The Scrum Master",
     Distractor3: "The Product Owner and the Scrum Master",
     Explanation:
-      "The Developers are required to conform to the Definition of Done. If there are multiple Scrum Teams working together on a product, they must mutually define and comply with the same Definition of Done.",
+      "In Agile, the developers will decided when the work is finished.",
     Link: "https://scrumguides.org/scrum-guide.html"
   },
   {
@@ -318,7 +318,7 @@ const agileQuiz = [
     Distractor2: "The Scrum Master",
     Distractor3: "The Developers",
     Explanation:
-      "Only the Product Owner has the authority to cancel the Sprint.",
+      "In Agile, the Product Owner has the ability to cancel a Sprint.",
     Link: "https://scrumguides.org/scrum-guide.html"
   }
 ];
