@@ -1120,6 +1120,16 @@ const linuxQuiz = [
     Explanation: "If you want to delete a single character in the Vim editor, you can use the x command.",
     Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   },
+  {
+    Question:
+      "Which command is used to find difference between two files in Linux?",
+    Answer: "diff",
+    Distractor1: "uniq",
+    Distractor2: "echo",
+    Distractor3: "chown",
+    Explanation: "If you want to find difference between files file1 and file2, you can use the diff command as 'diff file1 file2'.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
+  },
 ];
 
 export default linuxQuiz;
