@@ -3,7 +3,7 @@ const javascriptQuiz = [
     Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
     Answer: "indexOf() can take a second parameter while search() cannot",
     Distractor1: "Both methods are same",
-    Distractor2: "indexOf() also take powerful search values (regular expressions)",
+    Distractor2: "indexOf() only takes regular expressions",
     Distractor3: "All of the above",
     Explanation:
       "The search function (one description here) takes a regular expression, which allows you to match against more sophisticated patters, case-insensitive strings, etc., while indexOf (one description here) simply matches a literal string. However, indexOf also allows you to specify a beginning index.",
