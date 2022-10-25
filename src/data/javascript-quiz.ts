@@ -1802,6 +1802,7 @@ const javascriptQuiz = [
     Distractor2: "57",
     Distractor3: "undefined",
     Explanation: "The result for console.log(7 + '5') is 75 because the + operator is used to concatenate strings.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
   },
   {
     Question:
@@ -1811,6 +1812,7 @@ const javascriptQuiz = [
     Distractor2: "undefined",
     Distractor3: "NaN",
     Explanation: "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction#subtraction_with_non-numbers"
   },
   {
     Question:
