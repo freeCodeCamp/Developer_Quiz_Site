@@ -257,6 +257,15 @@ const accessibilityQuiz = [
       "If you don't pay attention to accessibility right from the beginning of your project, it may become an expensive burden once you start retrofitting.",
     Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
   },
+  {
+    Question: "Among the following options where can autocomplete attribue be not used?",
+    Answer:"<html>",
+    Distractor1:"<input>",
+    Distractor2:"<text>",
+    Distractor3:"<form>",
+    Explanation:"Autocomplete can be used on <input>, <textarea>, <select> and <form> elements.",
+    Link:"https://www.w3schools.com/accessibility/accessibility_autocomplete.php",
+  }
 ];
 
 export default accessibilityQuiz;
