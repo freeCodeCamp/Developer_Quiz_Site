@@ -1,5 +1,16 @@
 const linuxQuiz = [
   {
+    Question:
+      "In Git, which command is used to set limits on a file size?",
+    Answer: "ulimit",
+    Distractor1: "fsize",
+    Distractor2: "flimit -r",
+    Distractor3: "usize",
+    Explanation:
+      "ulimit is a Linux command that is used to get and set a limit on a file size.",
+    Link: "https://man7.org/linux/man-pages/man3/ulimit.3.html"
+  },
+  {  
     Question: "In Linux, which one of the following commands can be used to create a symbolic link between files?",
     Answer: "ln",
     Distractor1: "ls",
