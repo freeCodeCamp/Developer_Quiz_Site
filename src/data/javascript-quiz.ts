@@ -7,7 +7,7 @@ const javascriptQuiz = [
     Distractor3: "The search() method runs 4x faster than the indexOf() method",
     Explanation:
       "One key difference between the indexOf() and search() methods is that indexOf() can take a second parameter while search() cannot.",
-    Link: "https://stackoverflow.com/questions/354110/what-is-the-difference-between-indexof-and-search#:~:text=special%20in%20search()&text=The%20search%20function%20(one%20description,to%20specify%20a%20beginning%20index."
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"
   },
    {
     Question: "What does the 'debugger' statement in JavaScript do?",
