@@ -5,7 +5,7 @@ const linuxQuiz = [
     Distractor1: "ls",
     Distractor2: "ln",
     Distractor3: "link",
-    Explanation: "The command 'ln' creates a link to TARGET with the name LINK_NAME.",
+    Explanation: "In Linux, the ln command is used to make links between files.",
     Link: "https://man7.org/linux/man-pages/man1/ln.1.html"
   },
   {
