@@ -1,5 +1,25 @@
 const linuxQuiz = [
   {
+    Question:
+      "In Git, which command is used to set limits on a file size?",
+    Answer: "ulimit",
+    Distractor1: "fsize",
+    Distractor2: "flimit -r",
+    Distractor3: "usize",
+    Explanation:
+      "ulimit is a Linux command that is used to get and set a limit on a file size.",
+    Link: "https://man7.org/linux/man-pages/man3/ulimit.3.html"
+  },
+  {  
+    Question: "In Linux, which one of the following commands can be used to create a symbolic link between files?",
+    Answer: "ln",
+    Distractor1: "ls",
+    Distractor2: "ln",
+    Distractor3: "link",
+    Explanation: "In Linux, the ln command is used to make links between files.",
+    Link: "https://man7.org/linux/man-pages/man1/ln.1.html"
+  },
+  {
     Question: "Which command finds memory being used by Linux?",
     Answer: "All of these",
     Distractor1: "free-m",
@@ -1119,6 +1139,16 @@ const linuxQuiz = [
     Distractor3: "z",
     Explanation: "If you want to delete a single character in the Vim editor, you can use the x command.",
     Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
+  },
+  {
+    Question:
+      "In Linux, which command is used to find the difference between two files?",
+    Answer: "diff",
+    Distractor1: "uniq",
+    Distractor2: "echo",
+    Distractor3: "chown",
+    Explanation: "In Linux, you can use the diff command to display the difference between two files'.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
   },
 ];
 
