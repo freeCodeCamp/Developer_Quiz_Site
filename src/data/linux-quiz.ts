@@ -1,14 +1,14 @@
 const linuxQuiz = [
   {
     Question:
-      "In Git, how can you show the name of the operating system?",
-    Answer: "uname -o",
-    Distractor1: "uname -n",
-    Distractor2: "uname -r",
-    Distractor3: "uname –m",
+      "In Git, which command is used to set limits on file size?",
+    Answer: "ulimit",
+    Distractor1: "fsize",
+    Distractor2: "flimit -r",
+    Distractor3: "usize",
     Explanation:
-      "uname is a command used to show the information related to operating system. Use -o to see the operating system detail in command-line.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
+      "ulimit is a builtin shell command used to show and set various restrictions on resource usage for a shell.",
+    Link: "https://wiki.linuxquestions.org/wiki/Ulimit"
   },
   {
     Question: "Which command finds memory being used by Linux?",
