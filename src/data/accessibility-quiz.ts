@@ -264,6 +264,7 @@ const accessibilityQuiz = [
     Distractor2:"<text>",
     Distractor3:"<form>",
     Explanation:"The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
+    Link:"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
   }
 ];
 
