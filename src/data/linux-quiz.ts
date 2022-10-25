@@ -1110,6 +1110,16 @@ const linuxQuiz = [
     Explanation: "The cd ~ command can be used to get back to home directory in Linux.",
     Link: "https://www.freecodecamp.org/news/linux-command-line-tutorial/"
   },
+  {
+    Question:
+      "Which command is used in the Vim editor to delete a single character?",
+    Answer: "x",
+    Distractor1: "y",
+    Distractor2: "a",
+    Distractor3: "z",
+    Explanation: "If you want to delete a single character in the Vim editor, you can use the x command.",
+    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
+  },
 ];
 
 export default linuxQuiz;
