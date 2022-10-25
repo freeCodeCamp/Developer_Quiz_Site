@@ -1,5 +1,15 @@
 const javascriptQuiz = [
    {
+    Question: "What is diffrence between js indexOf() method and js search() method?",
+    Answer: "indexOf() can take second starting search position while search() cannot",
+    Distractor1: "Both methods are same",
+    Distractor2: "indexOf() also take powerful search values (regular expressions)",
+    Distractor3: "All of the above",
+    Explanation:
+      "The search function (one description here) takes a regular expression, which allows you to match against more sophisticated patters, case-insensitive strings, etc., while indexOf (one description here) simply matches a literal string. However, indexOf also allows you to specify a beginning index.",
+    Link: "https://stackoverflow.com/questions/354110/what-is-the-difference-between-indexof-and-search#:~:text=special%20in%20search()&text=The%20search%20function%20(one%20description,to%20specify%20a%20beginning%20index."
+  },
+   {
     Question: "What does the 'debugger' statement in JavaScript do?",
     Answer: "It acts as a breakpoint in a program",
     Distractor1: "It will debug errors in the current statement",
