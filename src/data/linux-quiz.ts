@@ -8,7 +8,7 @@ const linuxQuiz = [
     Distractor3: "usize",
     Explanation:
       "ulimit is a Linux command that is used to get and set a limit on a file size.",
-    Link: "https://wiki.linuxquestions.org/wiki/Ulimit"
+    Link: "https://man7.org/linux/man-pages/man3/ulimit.3.html"
   },
   {
     Question: "Which command finds memory being used by Linux?",
