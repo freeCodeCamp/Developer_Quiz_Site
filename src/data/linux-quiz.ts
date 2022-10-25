@@ -1,7 +1,7 @@
 const linuxQuiz = [
   {
     Question:
-      "In Git, which command is used to set limits on file size?",
+      "In Git, which command is used to set limits on a file size?",
     Answer: "ulimit",
     Distractor1: "fsize",
     Distractor2: "flimit -r",
