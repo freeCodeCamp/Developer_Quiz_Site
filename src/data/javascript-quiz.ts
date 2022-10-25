@@ -1796,6 +1796,26 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what is the result of the following code: console.log(7 + '5')?",
+    Answer: "75",
+    Distractor1: "11",
+    Distractor2: "57",
+    Distractor3: "undefined",
+    Explanation: "The result for console.log(7 + '5') is 75 because the + operator is used to concatenate strings.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result of the following code: console.log(7 - '5')?",
+    Answer: "2",
+    Distractor1: "12",
+    Distractor2: "undefined",
+    Distractor3: "NaN",
+    Explanation: "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction#subtraction_with_non-numbers"
+  },
+  {
+    Question:
       "In JavaScript, the ___________ method returns the index position of the last occurrence of a value in an array.",
     Answer: "lastIndexOf()",
     Distractor1: "indexOf()",
