@@ -1104,6 +1104,28 @@ const linuxQuiz = [
     Explanation:
       "The df command stands for disk-free and it is used to check the available disk space in Linux.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used to go back to the user's home directory?",
+    Answer: "cd ~",
+    Distractor1: "cd /",
+    Distractor2: "clear",
+    Distractor3: "ls -la",
+    Explanation:
+      "The cd ~ command can be used to get back to home directory in Linux.",
+    Link: "https://www.freecodecamp.org/news/linux-command-line-tutorial/"
+  },
+  {
+    Question:
+      "Which command is used in the Vim editor to delete a single character?",
+    Answer: "x",
+    Distractor1: "y",
+    Distractor2: "a",
+    Distractor3: "z",
+    Explanation:
+      "If you want to delete a single character in the Vim editor, you can use the x command.",
+    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   }
 ];
 
