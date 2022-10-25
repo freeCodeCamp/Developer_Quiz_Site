@@ -244,7 +244,16 @@ const accessibilityQuiz = [
     Distractor3: "As the finishing touch",
     Explanation:
       "If you don't pay attention to accessibility right from the beginning of your project, it may become an expensive burden once you start retrofitting.",
-    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A"
+    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
+  },
+  {
+    Question:"Which of the following HTML tags does NOT use the autocomplete attribute?",
+    Answer:"<html>",
+    Distractor1:"<input>",
+    Distractor2:"<text>",
+    Distractor3:"<form>",
+    Explanation:"The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
+    Link:"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
   }
 ];
 
