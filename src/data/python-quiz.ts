@@ -1601,6 +1601,15 @@ const pythonQuiz = [
     Explanation: "In Python, list slicing syntax is list[start:stop[:step]]. The start, stop and step parameters are all optional and if omitted will refer to the defaults of 0, length of sequence and 1 respectively.",
     Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html",
   },
+  {
+    Question: "In Python, which method is used to trim trailing whitespace from a string?",
+    Answer: "strip()",
+    Distractor1: "trim()",
+    Distractor2: "remove()",
+    Distractor3: "removesapce()",
+    Explanation: "Python has three built-in methods for trimming leading and trailing whitespace and characters from strings: strip(), lstrip(), rstrip()",
+    Link: "https://www.freecodecamp.org/news/python-strip-how-to-trim-a-string-or-line/",
+  },
 ];
 
 export default pythonQuiz;
