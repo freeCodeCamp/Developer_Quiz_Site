@@ -308,7 +308,7 @@ const agileQuiz = [
     Distractor2: "The Product Owner and the Scrum Master",
     Distractor3: "The Product Owner",
     Explanation:
-      "Scrum Master is responsible for establishing scrum within team & at organization level. They achieve this by enabling the Scrum Team to improve its practices, within scrum framework and help them understand Scrum theory & practices.",
+      "The Scrum Master is responsible for establishing scrum within the team & organizational level.",
     Link: "https://scrumguides.org/scrum-guide.html"
   },
   {
