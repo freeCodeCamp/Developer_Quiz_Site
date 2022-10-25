@@ -9,13 +9,15 @@ const securityQuiz = [
     Link: "https://en.wikipedia.org/wiki/Attack_model"
   },
   {
-    Question: "Which of the following reasons makes HTTPS more secure than HTTP?",
-    Answer: "In HTTPS, all communications are encrypted", 
+    Question:
+      "Which of the following reasons makes HTTPS more secure than HTTP?",
+    Answer: "In HTTPS, all communications are encrypted",
     Distractor1: "HTTPS communications are in plain text",
     Distractor2: "HTTPS communications are beautiful",
     Distractor3: "HTTPS uses port 80 by default, therefore it is more secure",
-    Explanation: "HTTPS ensures that all communications between a client(web browser) and a web server are completely encrypted.",
-    Link: "https://www.freecodecamp.org/news/http-vs-https/", 
+    Explanation:
+      "HTTPS ensures that all communications between a client(web browser) and a web server are completely encrypted.",
+    Link: "https://www.freecodecamp.org/news/http-vs-https/"
   },
   {
     Question: "What does GPG stand for?",
@@ -23,17 +25,20 @@ const securityQuiz = [
     Distractor1: "Good Privacy Gate",
     Distractor2: "Gratification Public Guard ",
     Distractor3: "Guard Privacy Guide",
-    Explanation: "GNU Privacy Guard allows one to create cryptographic asymmetric key pairs that can be used for encryption and digital signature.",
-    Link: "https://www.freecodecamp.org/news/what-is-commit-signing-in-git/",
+    Explanation:
+      "GNU Privacy Guard allows one to create cryptographic asymmetric key pairs that can be used for encryption and digital signature.",
+    Link: "https://www.freecodecamp.org/news/what-is-commit-signing-in-git/"
   },
   {
-    Question: "Which of the following Cryptography types consists of a key pair?",
+    Question:
+      "Which of the following Cryptography types consists of a key pair?",
     Answer: "Asymmetric key cryptography",
     Distractor1: "Symmetric key cryptography",
     Distractor2: "Hash function",
     Distractor3: "Systematical key cryptography",
-    Explanation: "Asymmetric cryptography is a type of cryptography that uses a pair of related keys. Each key pair consists of a public key and a corresponding private key.",
-    Link: "https://www.freecodecamp.org/news/http-vs-https/",
+    Explanation:
+      "Asymmetric cryptography is a type of cryptography that uses a pair of related keys. Each key pair consists of a public key and a corresponding private key.",
+    Link: "https://www.freecodecamp.org/news/http-vs-https/"
   },
   {
     Question:
