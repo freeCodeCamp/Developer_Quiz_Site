@@ -1,5 +1,27 @@
 const pythonQuiz = [
   {
+    Question:
+      "In Python, what is the output of the following code: print(list(range(3, 6)))?",
+    Answer: "[3, 4, 5]",
+    Distractor1: "[3, 4, 5, 6]",
+    Distractor2: "[3, 6]",
+    Distractor3: "[3, 3, 3, 3, 3, 3]",
+    Explanation:
+      "The list(range(3, 6)) function returns a list of numbers from 3, increments by 1 (by default), and stops at 5 (excluding 6).",
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/"
+  },
+  {
+    Question:
+      "In Python, which method is used to trim trailing whitespace from a string?",
+    Answer: "strip()",
+    Distractor1: "trim()",
+    Distractor2: "remove()",
+    Distractor3: "removesapce()",
+    Explanation:
+      "Python has three built-in methods for trimming leading and trailing whitespace and characters from strings: strip(), lstrip(), rstrip()",
+    Link: "https://www.freecodecamp.org/news/python-strip-how-to-trim-a-string-or-line/"
+  },
+  {
     Question: "In Python, which method is used to write text to a file?",
     Answer: "write()",
     Distractor1: "read()",
@@ -1593,13 +1615,13 @@ const pythonQuiz = [
     Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html"
   },
   {
-    Question: "In Python, clear() method in list is used to?",
+    Question: "In Python, what does the clear() method in a list do?",
     Answer: "To delete all the elements of the list",
     Distractor1: "To delete the list",
     Distractor2: "To delete the last element of the list",
     Distractor3: "To delete the specific element of the list",
     Explanation:
-      "In Python, clear() method in list is used to delete all the elements of the list. The list name you give inside the clear() method will be delete all the element of the list and when list is printed, the output will be the empty list.",
+      "In Python, the clear() method in list is used to delete all the elements of the list.",
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
   }
 ];
