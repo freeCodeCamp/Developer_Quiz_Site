@@ -7,7 +7,7 @@ const linuxQuiz = [
     Distractor2: "flimit -r",
     Distractor3: "usize",
     Explanation:
-      "ulimit is a builtin shell command used to show and set various restrictions on resource usage for a shell.",
+      "ulimit is a Linux command that is used to get and set a limit on a file size.",
     Link: "https://wiki.linuxquestions.org/wiki/Ulimit"
   },
   {
