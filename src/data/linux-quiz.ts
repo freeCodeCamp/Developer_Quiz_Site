@@ -1,5 +1,14 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which one of the following commands can be used to create a symbolic link between files?",
+    Answer: "ln",
+    Distractor1: "ls",
+    Distractor2: "ln",
+    Distractor3: "link",
+    Explanation: "In Linux, the ln command is used to make links between files.",
+    Link: "https://man7.org/linux/man-pages/man1/ln.1.html"
+  },
+  {
     Question: "Which command finds memory being used by Linux?",
     Answer: "All of these",
     Distractor1: "free-m",
