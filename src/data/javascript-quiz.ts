@@ -1,7 +1,7 @@
 const javascriptQuiz = [
    {
     Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
-    Answer: "indexOf() can take second starting search position while search() cannot",
+    Answer: "indexOf() can take a second parameter while search() cannot",
     Distractor1: "Both methods are same",
     Distractor2: "indexOf() also take powerful search values (regular expressions)",
     Distractor3: "All of the above",
