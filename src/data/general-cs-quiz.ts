@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which of the following sorting algorithms have the same best-case and worst-case time complexities?",
+    Answer: "Merge Sort",
+    Distractor1: "Bubble Sort",
+    Distractor2: "Quick Sort",
+    Distractor3: "Selection sort",
+    Explanation: "Merge sort has a time complexity of O(nlogn) in all cases - best, average and worst.",
+    Link: "https://www.freecodecamp.org/news/merge-sort-algorithm-python-and-java-examples-with-time-complexity/",
+  },
+  {
     Question: "What is Object-Oriented Programming?",
     Answer:
       "OOP is a programming pattern that is built around objects or entities.",
