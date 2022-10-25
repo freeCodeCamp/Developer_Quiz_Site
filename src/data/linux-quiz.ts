@@ -1127,7 +1127,7 @@ const linuxQuiz = [
     Distractor1: "uniq",
     Distractor2: "echo",
     Distractor3: "chown",
-    Explanation: "If you want to find difference between files file1 and file2, you can use the diff command as 'diff file1 file2'.",
+    Explanation: "In Linux, you can use the diff command to display the difference between two files'.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
   },
 ];
