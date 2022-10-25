@@ -1591,7 +1591,7 @@ const pythonQuiz = [
     Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html",
   },
   {
-    Question: "Which Method is use to Remove leading and trailing  whitespace form the String? Eg. convert '    Hello World   ' into 'Hello World' ",
+    Question: "In Python, which method is used to trim trailing whitespace from a string?",
     Answer: "strip()",
     Distractor1: "trim()",
     Distractor2: "remove()",
