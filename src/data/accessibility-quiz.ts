@@ -258,7 +258,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
   },
   {
-    Question: "Among the following options where can autocomplete attribue be not used?",
+    Question: "Which of the following HTML tags does NOT use the autocomplete attribute?",
     Answer:"<html>",
     Distractor1:"<input>",
     Distractor2:"<text>",
