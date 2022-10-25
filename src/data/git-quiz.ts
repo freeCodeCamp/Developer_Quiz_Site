@@ -525,7 +525,7 @@ const gitQuiz = [
     Link: "https://git-scm.com/docs/git-stash"
   },
   {
-    Question: "How do you change the latest commit meassage in git?",
+    Question: "How do you change the latest commit message in Git?",
     Answer: "git commit --amend",
     Distractor1: "git checkout -b change",
     Distractor2: "git rebase -i Head~4",
