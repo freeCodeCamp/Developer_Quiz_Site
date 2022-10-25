@@ -1,7 +1,7 @@
 const gitQuiz = [
   {
     Question:
-      "In Git, how can you push file ending with *.txt extention?",
+      "In Git, how can you stage a file that ends with a *.txt extension?",
     Answer: "git add *.txt",
     Distractor1: "git add *.text",
     Distractor2: "git add -a .txt",
