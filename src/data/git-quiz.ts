@@ -523,6 +523,16 @@ const gitQuiz = [
     Explanation:
       "To delete a SINGLE stash, you use git stash drop stash@{x} where x is the number in the list of stash.",
     Link: "https://git-scm.com/docs/git-stash"
+  },
+  {
+    Question: "How do you change the latest commit message in Git?",
+    Answer: "git commit --amend",
+    Distractor1: "git checkout -b change",
+    Distractor2: "git rebase -i Head~4",
+    Distractor3: "git drop stash@{change}",
+    Explanation:
+      "git commit --amend  is the command used to change the latest commit message.",
+    Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   }
 ];
 

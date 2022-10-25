@@ -1208,8 +1208,8 @@ const cssQuiz = [
     Explanation:
       "text-stroke is a CSS property that is used to add a stroke in the text.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke"
-   },
-   {
+  },
+  {
     Question:
       "In CSS, which property is used to apply a groove style to the border?",
     Answer: "border-style",
