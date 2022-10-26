@@ -1623,7 +1623,16 @@ const pythonQuiz = [
     Explanation:
       "In Python, the clear() method in list is used to delete all the elements of the list.",
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
-  }
+  },
+  {
+    Question: "Which of the following functions is a built-in function in python?",
+    Answer: "print()",
+    Distractor1: "perm()",
+    Distractor2: "mainloop()",
+    Distractor3: "getcwd()",
+    Explanation: "The function perm is a function which is present in the math module. The function mainloop is a part of the tkinter module. The function getcwd is a part of the os module. The print function is a built-in function which prints a value directly to the system output.",
+    Link: "https://docs.python.org/3/search.html"
+  },
 ];
 
 export default pythonQuiz;
