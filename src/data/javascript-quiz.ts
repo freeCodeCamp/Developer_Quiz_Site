@@ -1,6 +1,6 @@
 const javascriptQuiz = [
   {
-    Question: "In Javascript,let x='Prakhar' then what will be the value of console.log(x.substr(2,5),x.substring(2,5))?",
+    Question: "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
     Answer: "akaha aka",
     Distractor1: "akaha akaha",
     Distractor2: "aka aka",
