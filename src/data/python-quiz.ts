@@ -1625,13 +1625,13 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
   },
   {
-    Question: "Which of the following functions is a built-in function in python?",
+    Question: "Which of the following functions is a built-in function in Python?",
     Answer: "print()",
     Distractor1: "perm()",
     Distractor2: "mainloop()",
     Distractor3: "getcwd()",
-    Explanation: "The function perm is a function which is present in the math module. The function mainloop is a part of the tkinter module. The function getcwd is a part of the os module. The print function is a built-in function which prints a value directly to the system output.",
-    Link: "https://docs.python.org/3/search.html"
+    Explanation: "Python's built in print() function is used to print messages to the screen.",
+    Link: "https://docs.python.org/3/library/functions.html#print"
   },
 ];
 
