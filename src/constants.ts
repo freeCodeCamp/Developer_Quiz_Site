@@ -33,7 +33,7 @@ export const CATEGORY_NAMES = {
   GIT: "Git",
   HTML: "Html",
   JAVASCRIPT: "Javascript",
-  INFOTECH: "InfoTech",
+  INFOTECH: "Infomation Technology",
   LINUX: "Linux",
   PYTHON: "Python",
   SECURITY: "Security",

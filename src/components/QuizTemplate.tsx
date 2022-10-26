@@ -38,6 +38,18 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [generalCSQuestionsCorrect, setGeneralCSQuestionsCorrect] = useState(0);
   const [gitQuestionsCorrect, setGitQuestionsCorrect] = useState(0);
   const [htmlQuestionsCorrect, setHTMLQuestionsCorrect] = useState(0);
+  const [infoTechQuestionsCorrect, setInfoTechQuestionsCorrect] = useState(0);
+  const [javascriptQuestionsCorrect, setJavascriptQuestionsCorrect] =
+    useState(0);
+  const [linuxQuestionsCorrect, setLinuxQuestionsCorrect] = useState(0);
+  const [pythonQuestionsCorrect, setPythonQuestionsCorrect] = useState(0);
+  const [
+    qualityAssuranceQuestionsCorrect,
+    setQualityAssuranceQuestionsCorrect
+  ] = useState(0);
+  const [securityQuestionsCorrect, setSecurityQuestionsCorrect] = useState(0);
+  const [sqlQuestionsCorrect, setSQLQuestionsCorrect] = useState(0);
+
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
   const choicesArr: string[][] = [];
   const currQuestion = quiz[questionNumber - 1];
@@ -106,6 +118,13 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setGeneralCSQuestionsCorrect(0);
     setGitQuestionsCorrect(0);
     setHTMLQuestionsCorrect(0);
+    setInfoTechQuestionsCorrect(0);
+    setJavascriptQuestionsCorrect(0);
+    setLinuxQuestionsCorrect(0);
+    setPythonQuestionsCorrect(0);
+    setQualityAssuranceQuestionsCorrect(0);
+    setSecurityQuestionsCorrect(0);
+    setSQLQuestionsCorrect(0);
   };
 
   const shuffleModalResponses = (responses: string[]) => {
@@ -126,6 +145,20 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       setGitQuestionsCorrect(curr => curr + 1);
     } else if (categoryName == CATEGORY_NAMES.HTML) {
       setHTMLQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.INFOTECH) {
+      setInfoTechQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.JAVASCRIPT) {
+      setJavascriptQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.LINUX) {
+      setLinuxQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.PYTHON) {
+      setPythonQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.QUALITYASSURANCE) {
+      setQualityAssuranceQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.SECURITY) {
+      setSecurityQuestionsCorrect(curr => curr + 1);
+    } else if (categoryName == CATEGORY_NAMES.SQL) {
+      setSQLQuestionsCorrect(curr => curr + 1);
     }
   };
 
@@ -174,6 +207,13 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     generalCSQuestionsCorrect,
     gitQuestionsCorrect,
     htmlQuestionsCorrect,
+    infoTechQuestionsCorrect,
+    javascriptQuestionsCorrect,
+    linuxQuestionsCorrect,
+    pythonQuestionsCorrect,
+    qualityAssuranceQuestionsCorrect,
+    securityQuestionsCorrect,
+    sqlQuestionsCorrect,
     show
   };
 

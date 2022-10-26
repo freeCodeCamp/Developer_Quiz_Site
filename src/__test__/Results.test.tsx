@@ -19,6 +19,14 @@ describe("Results", () => {
         show={false}
         hideResultsBreakdown={undefined}
         gitQuestionsCorrect={0}
+        htmlQuestionsCorrect={0}
+        infoTechQuestionsCorrect={0}
+        javascriptQuestionsCorrect={0}
+        linuxQuestionsCorrect={0}
+        pythonQuestionsCorrect={0}
+        qualityAssuranceQuestionsCorrect={0}
+        securityQuestionsCorrect={0}
+        sqlQuestionsCorrect={0}
       />,
       div
     );
@@ -36,6 +44,14 @@ describe("Results", () => {
         show={false}
         hideResultsBreakdown={undefined}
         gitQuestionsCorrect={0}
+        htmlQuestionsCorrect={0}
+        infoTechQuestionsCorrect={0}
+        javascriptQuestionsCorrect={0}
+        linuxQuestionsCorrect={0}
+        pythonQuestionsCorrect={0}
+        qualityAssuranceQuestionsCorrect={0}
+        securityQuestionsCorrect={0}
+        sqlQuestionsCorrect={0}
       />
     );
     expect(
@@ -55,6 +71,14 @@ describe("Results", () => {
         show={false}
         hideResultsBreakdown={undefined}
         gitQuestionsCorrect={0}
+        htmlQuestionsCorrect={0}
+        infoTechQuestionsCorrect={0}
+        javascriptQuestionsCorrect={0}
+        linuxQuestionsCorrect={0}
+        pythonQuestionsCorrect={0}
+        qualityAssuranceQuestionsCorrect={0}
+        securityQuestionsCorrect={0}
+        sqlQuestionsCorrect={0}
       />
     );
     expect(

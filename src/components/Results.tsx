@@ -12,6 +12,13 @@ interface PointTotals {
   generalCSQuestionsCorrect: number;
   gitQuestionsCorrect: number;
   htmlQuestionsCorrect: number;
+  infoTechQuestionsCorrect: number;
+  javascriptQuestionsCorrect: number;
+  linuxQuestionsCorrect: number;
+  pythonQuestionsCorrect: number;
+  qualityAssuranceQuestionsCorrect: number;
+  securityQuestionsCorrect: number;
+  sqlQuestionsCorrect: number;
   show: boolean;
 }
 
@@ -50,6 +57,13 @@ const Results: React.FC<PointTotals> = PointTotals => {
         htmlPoints={PointTotals.htmlQuestionsCorrect}
         show={PointTotals.show}
         hideResultsBreakdown={PointTotals.hideResultsBreakdown}
+        infoTechPoints={PointTotals.infoTechQuestionsCorrect}
+        javascriptPoints={PointTotals.javascriptQuestionsCorrect}
+        linuxPoints={PointTotals.linuxQuestionsCorrect}
+        pythonPoints={PointTotals.pythonQuestionsCorrect}
+        qualityAssurancePoints={PointTotals.qualityAssuranceQuestionsCorrect}
+        securityPoints={PointTotals.securityQuestionsCorrect}
+        sqlPoints={PointTotals.sqlQuestionsCorrect}
       />
 
       <button onClick={PointTotals.resetQuiz} className='results-btn'>

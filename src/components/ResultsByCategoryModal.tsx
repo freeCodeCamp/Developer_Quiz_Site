@@ -4,6 +4,13 @@ import React, { MouseEventHandler } from "react";
 import { CATEGORY_NAMES } from "../constants";
 
 interface Results {
+  infoTechPoints: number;
+  javascriptPoints: number;
+  linuxPoints: number;
+  pythonPoints: number;
+  qualityAssurancePoints: number;
+  securityPoints: number;
+  sqlPoints: number;
   allEarnedPoints: number;
   allPossiblePoints: number;
   accessibilityPoints: number;
@@ -53,6 +60,38 @@ const ResultsModal: React.FC<Results> = Results => {
         <div>
           <p className='resultCategoryHeading'>{CATEGORY_NAMES.HTML} :</p>
           <p className='resultCategoryScore'>{Results.htmlPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.INFOTECH} :</p>
+          <p className='resultCategoryScore'>{Results.infoTechPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.JAVASCRIPT} :</p>
+          <p className='resultCategoryScore'>{Results.javascriptPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.LINUX} :</p>
+          <p className='resultCategoryScore'>{Results.linuxPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.PYTHON} :</p>
+          <p className='resultCategoryScore'>{Results.pythonPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>
+            {CATEGORY_NAMES.QUALITYASSURANCE} :
+          </p>
+          <p className='resultCategoryScore'>
+            {Results.qualityAssurancePoints}
+          </p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.SECURITY} :</p>
+          <p className='resultCategoryScore'>{Results.securityPoints}</p>
+        </div>
+        <div>
+          <p className='resultCategoryHeading'>{CATEGORY_NAMES.SQL} :</p>
+          <p className='resultCategoryScore'>{Results.sqlPoints}</p>
         </div>
       </Modal.Body>
       <Modal.Footer>
