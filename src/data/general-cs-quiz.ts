@@ -1,5 +1,5 @@
 const generalCSQuiz = [
-    {
+   {
     Question: "What is the best algorithm for matrix multiplication?",
     Answer: "Strassen's Algorithm",
     Distractor1: "Multiplication algorithm",
@@ -7,6 +7,15 @@ const generalCSQuiz = [
     Distractor3: "None of the above",
     Explanation: "Strassen's algorithm reduces the number of multiplication and addition in a given matrix and results in a time complexity of O(2.81)",
     Link: "https://en.wikipedia.org/wiki/Strassen_algorithm#",
+  },
+  {
+    Question: "Which of the following sorting algorithms is stable in nature?",
+    Answer: "Merge Sort",
+    Distractor1: "Heap Sort",
+    Distractor2: "Quick Sort",
+    Distractor3: "Selection sort",
+    Explanation: "Stable sorting algorithms maintain the relative order of elements with equal values, or keys. Merge sort is stable in nature.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm",
   },
   {
     Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
