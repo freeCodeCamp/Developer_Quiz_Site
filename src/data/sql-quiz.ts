@@ -648,31 +648,28 @@ const sqlQuiz = [
     Distractor3: "ALTER TABLE BaseCamp SET TO BaseCamp_New ;",
     Explanation:
       "If you want to rename a table called BaseCamp to BaseCamp_New, then you would use the following syntax in MySQL: ALTER TABLE table_name RENAME TO new_table_name;",
-    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/"
   },
   {
-    Question:
-      "In SQL, what does BLOB stand for?",
+    Question: "In SQL, what does BLOB stand for?",
     Answer: "Binary Large Object",
     Distractor1: "Bad Listed Object",
     Distractor2: "Bad Labelled Object",
     Distractor3: "Big Listed Object",
     Explanation:
       "BLOB stands for Binary Large Object and it is a SQL data type used to store large amounts of data.",
-    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
   },
-   {
-    Question:
-      "In SQL, what are the two types of Database Management Systems?",
+  {
+    Question: "In SQL, what are the two types of Database Management Systems?",
     Answer: "relational databases and non-relational databases",
     Distractor1: "functional and object oriented",
     Distractor2: "procedural and relational",
     Distractor3: "non-relational and assembly",
     Explanation:
       "The two types of Database Management Systems are relational and non-relational databases.",
-    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/",
-  }, 
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  }
 ];
-
 
 export default sqlQuiz;
