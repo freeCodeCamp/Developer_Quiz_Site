@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
+    Answer: "Merge Sort",
+    Distractor1: "Bubble Sort",
+    Distractor2: "Quick Sort",
+    Distractor3: "Selection sort",
+    Explanation: "Merge sort has a time complexity of O(nlogn) in all cases - best, average and worst.",
+    Link: "https://www.freecodecamp.org/news/merge-sort-algorithm-python-and-java-examples-with-time-complexity/",
+  },
+  {
     Question: "What is Object-Oriented Programming?",
     Answer:
       "OOP is a programming pattern that is built around objects or entities.",
@@ -1283,7 +1292,8 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-big-o-notation/"
   },
   {
-    Question: "What is the worst case time complexity for binary and linear search?",
+    Question:
+      "What is the worst case time complexity for binary and linear search?",
     Answer: "binary search is O(logn) and linear search is O(n)",
     Distractor1: "binary search is O(n) and linear search is O(logn)",
     Distractor2: "binary search is O(n) and linear search is O(n)",
@@ -1291,7 +1301,7 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
-  },
+  }
 ];
 
 export default generalCSQuiz;

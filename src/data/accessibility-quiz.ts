@@ -1,12 +1,11 @@
 const accessibilityQuiz = [
   {
-    Question: "What is the name of the international body responsible for establishing the most common web accessibility standards?",
-    Answer:
-      "World Wide Web Consortium(W3C)",
+    Question:
+      "What is the name of the international body responsible for establishing the most common web accessibility standards?",
+    Answer: "World Wide Web Consortium(W3C)",
     Distractor1: "Websites for All",
     Distractor2: "Web Accessibility Initiative (WAI)",
-    Distractor3:
-      "A11y",
+    Distractor3: "A11y",
     Explanation:
       "Although there are several standards for accessibility, the most notable and globally recognized are developed by the World Wide Web Consortium (W3C) through its Web Accessibility Initiative.",
     Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/"
@@ -216,47 +215,46 @@ const accessibilityQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
   },
   {
-    Question: "How can you make focus elements more accessible to screen readers on mobile?",
-    Answer:
-      "Add an accessibility label for each element.",
-    Distractor1:
-      "Avoid using images, gifs, and videos altogether.",
-    Distractor2:
-      "Add a contentDesc label to your focus elements.",
+    Question:
+      "How can you make focus elements more accessible to screen readers on mobile?",
+    Answer: "Add an accessibility label for each element.",
+    Distractor1: "Avoid using images, gifs, and videos altogether.",
+    Distractor2: "Add a contentDesc label to your focus elements.",
     Distractor3:
       "Avoid using descriptive headings which are longer than 10 characters.",
     Explanation:
       "Accessibility labels are good ways to describe the element to screen reader users.",
-    Link: "https://www.freecodecamp.org/news/mobile-accessibility/",
+    Link: "https://www.freecodecamp.org/news/mobile-accessibility/"
   },
   {
     Question: "What are some of the benefits of an accessibile design?",
-    Answer:
-      "Follows SEO best practices and better UX",
-    Distractor1:
-      "Better UI and better customer support",
-    Distractor2:
-      "Easier A/B testing and white box testing",
-    Distractor3:
-      "Generates more engagement and widens target demographic",
+    Answer: "Follows SEO best practices and better UX",
+    Distractor1: "Better UI and better customer support",
+    Distractor2: "Easier A/B testing and white box testing",
+    Distractor3: "Generates more engagement and widens target demographic",
     Explanation:
       "Some of the basic accessibility requirements are also SEO best practices, and improving accessibility for people with disabilities will improve the experience for all your users.",
-    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Follows%20SEO%20best,people%20with%20disabilities.",
+    Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Follows%20SEO%20best,people%20with%20disabilities."
   },
   {
     Question: "When should you start thinking about accessibility?",
-    Answer:
-      "Right from the get-go",
-    Distractor1:
-      "After pitching your MVP",
-    Distractor2:
-      "After your first bug-fix",
-    Distractor3:
-      "As the finishing touch",
+    Answer: "Right from the get-go",
+    Distractor1: "After pitching your MVP",
+    Distractor2: "After your first bug-fix",
+    Distractor3: "As the finishing touch",
     Explanation:
       "If you don't pay attention to accessibility right from the beginning of your project, it may become an expensive burden once you start retrofitting.",
     Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
   },
+  {
+    Question:"Which of the following HTML tags does NOT use the autocomplete attribute?",
+    Answer:"<html>",
+    Distractor1:"<input>",
+    Distractor2:"<text>",
+    Distractor3:"<form>",
+    Explanation:"The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
+    Link:"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
+  }
 ];
 
 export default accessibilityQuiz;
