@@ -1,6 +1,6 @@
 const generalCSQuiz = [
   {
-    Question: "Which of the following sorting algorithms have the same best-case and worst-case time complexities?",
+    Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
     Answer: "Merge Sort",
     Distractor1: "Bubble Sort",
     Distractor2: "Quick Sort",
