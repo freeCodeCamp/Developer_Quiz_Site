@@ -6,7 +6,7 @@ const generalCSQuiz = [
     Distractor2: "Divide and Conquer Technique",
     Distractor3: "None of the above",
     Explanation: "Strassen's reduces number of mumtiplication and addition in givven matrix and make time complexity O(2.81)",
-    Link: "https://forum.freecodecamp.org/t/matrix-multiplication-strassen-algortihm-recursive/557115",
+    Link: "https://en.wikipedia.org/wiki/Strassen_algorithm#",
   },
   {
     Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
