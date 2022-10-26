@@ -1,5 +1,14 @@
 const sqlQuiz = [
   {
+    Question: "In SQL, which of the following is not a commonly used SQL constraints",  
+    Answer: "UNIQUE",
+    Distractor1: "CHECK",
+    Distractor2: "DEFAULT",
+    Distractor3: "UPDATE",
+    Explanation: "In SQL, The UPDATE statement is used to modify the existing records in a table.  Hence, it is not a constraint",
+    Link: "https://www.freecodecamp.org/news/best-sql-database-tutorial/",
+  },
+  {
     Question: "In SQL, which of the following is the correct syntax for creating a table?",  
     Answer: "CREATE TABLE table_name (column1_name datatype, ...)",
     Distractor1: "CREATE TABLE table_name (int main void column_name)",
