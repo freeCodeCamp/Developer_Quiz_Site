@@ -6,7 +6,7 @@ const javascriptQuiz = [
     Distractor2: "aka",
     Distractor3: "akkkaha",
     Explanation:
-      "First parameter is for starting position, second in substr defines the length while substring the end position",
+      "The first parameter in the substring method represents the starting index for the string while the second parameter represents the ending index.",
     Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
   },
    {
