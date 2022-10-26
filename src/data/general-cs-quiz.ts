@@ -1319,6 +1319,15 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
+  },
+  {
+    Question: "What is a String?",
+    Answer: "A Data Type that can contain many different characters",
+    Distractor1: "An Array indicator for programming languages",
+    Distractor2: "A Data Structure for data arrangement",
+    Distractor3: "An Programme to do complex tasks",
+    Explanation: "A string is a data type that can contain many different characters. A string is written as a series of characters between single or double quotes.",
+    Link: "https://www.freecodecamp.org/news/how-to-lowercase-a-string-in-javascript-tolowercase-in-js/"
   }
 ];
 
