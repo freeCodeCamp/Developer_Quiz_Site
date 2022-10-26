@@ -1,4 +1,13 @@
 const generalCSQuiz = [
+   {
+    Question: "Which of the following sorting algorithms is stable in nature?",
+    Answer: "Merge Sort",
+    Distractor1: "Heap Sort",
+    Distractor2: "Quick Sort",
+    Distractor3: "Selection sort",
+    Explanation: "Stable sorting algorithms maintain the relative order of elements with equal values, or keys. Merge sort is stable in nature.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm",
+  },
   {
     Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
     Answer: "Merge Sort",
