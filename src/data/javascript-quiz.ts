@@ -1,5 +1,15 @@
 const javascriptQuiz = [
    {
+    Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
+    Answer: "indexOf() can take a second parameter while search() cannot",
+    Distractor1: "Both methods are the same",
+    Distractor2: "indexOf() only takes regular expressions",
+    Distractor3: "The search() method runs 4x faster than the indexOf() method",
+    Explanation:
+      "One key difference between the indexOf() and search() methods is that indexOf() can take a second parameter while search() cannot.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"
+   },
+   {
     Question: "What does the 'debugger' statement in JavaScript do?",
     Answer: "It acts as a breakpoint in a program",
     Distractor1: "It will debug errors in the current statement",
@@ -1796,6 +1806,28 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what is the result of the following code: console.log(7 + '5')?",
+    Answer: "75",
+    Distractor1: "11",
+    Distractor2: "57",
+    Distractor3: "undefined",
+    Explanation:
+      "The result for console.log(7 + '5') is 75 because the + operator is used to concatenate strings.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result of the following code: console.log(7 - '5')?",
+    Answer: "2",
+    Distractor1: "12",
+    Distractor2: "undefined",
+    Distractor3: "NaN",
+    Explanation:
+      "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction#subtraction_with_non-numbers"
+  },
+  {
+    Question:
       "In JavaScript, the ___________ method returns the index position of the last occurrence of a value in an array.",
     Answer: "lastIndexOf()",
     Distractor1: "indexOf()",
@@ -1804,6 +1836,17 @@ const javascriptQuiz = [
     Explanation:
       "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+  },
+  {
+    Question:
+      "In JavaScript, which of the following is not a primitive data type?",
+    Answer: "Object",
+    Distractor1: "Number",
+    Distractor2: "String",
+    Distractor3: "Undefined",
+    Explanation:
+      "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
   }
 ];
 

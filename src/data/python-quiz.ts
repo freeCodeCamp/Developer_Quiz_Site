@@ -1,14 +1,35 @@
 const pythonQuiz = [
-   {
-    Question: 
-      "In Python, which method is used to write text to a file?",
+  {
+    Question:
+      "In Python, what is the output of the following code: print(list(range(3, 6)))?",
+    Answer: "[3, 4, 5]",
+    Distractor1: "[3, 4, 5, 6]",
+    Distractor2: "[3, 6]",
+    Distractor3: "[3, 3, 3, 3, 3, 3]",
+    Explanation:
+      "The list(range(3, 6)) function returns a list of numbers from 3, increments by 1 (by default), and stops at 5 (excluding 6).",
+    Link: "https://www.freecodecamp.org/news/python-range-function-explained-with-code-examples/"
+  },
+  {
+    Question:
+      "In Python, which method is used to trim trailing whitespace from a string?",
+    Answer: "strip()",
+    Distractor1: "trim()",
+    Distractor2: "remove()",
+    Distractor3: "removesapce()",
+    Explanation:
+      "Python has three built-in methods for trimming leading and trailing whitespace and characters from strings: strip(), lstrip(), rstrip()",
+    Link: "https://www.freecodecamp.org/news/python-strip-how-to-trim-a-string-or-line/"
+  },
+  {
+    Question: "In Python, which method is used to write text to a file?",
     Answer: "write()",
     Distractor1: "read()",
     Distractor2: "appending()",
     Distractor3: "writing()",
-    Explanation: 
+    Explanation:
       "In Python the write() method is used to write text to a file.",
-    Link: "https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/",
+    Link: "https://www.freecodecamp.org/news/python-create-file-how-to-append-and-write-to-a-text-file/"
   },
   {
     Question:
@@ -1570,17 +1591,39 @@ const pythonQuiz = [
     Distractor2: "297.49",
     Distractor3: "297.4885",
     Explanation: "print('%.3f'%x) would round 297.4887 to 3 decimal places.",
-    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/",
+    Link: "https://www.freecodecamp.org/news/2f-in-python-what-does-it-mean/"
   },
-   {
+  {
     Question: "In Python, what is the result for math.trunc(3.1)?",
     Answer: "3",
     Distractor1: "3.5",
     Distractor2: "3.14",
     Distractor3: "0.1",
-    Explanation: "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
-    Link: "https://docs.python.org/3/library/math.html",
+    Explanation:
+      "In Python, math.trunc() will return the truncated integer part of the number. When the number is positive, math.trunc() is similar to the .floor() method. But if the number is negative, math.trunc() is similar to the .ceil() method",
+    Link: "https://docs.python.org/3/library/math.html"
   },
+  {
+    Question:
+      "In Python, what is the output for the following: print([10, 20, 60, 90][:2:])?",
+    Answer: "[10, 20]",
+    Distractor1: "[10, 30, 50, 70, 90]",
+    Distractor2: "[70, 90]",
+    Distractor3: "[10, 20, 30]",
+    Explanation:
+      "In Python, list slicing syntax is list[start:stop[:step]]. The start, stop and step parameters are all optional and if omitted will refer to the defaults of 0, length of sequence and 1 respectively.",
+    Link: "https://python-reference.readthedocs.io/en/latest/docs/brackets/slicing.html"
+  },
+  {
+    Question: "In Python, what does the clear() method in a list do?",
+    Answer: "To delete all the elements of the list",
+    Distractor1: "To delete the list",
+    Distractor2: "To delete the last element of the list",
+    Distractor3: "To delete the specific element of the list",
+    Explanation:
+      "In Python, the clear() method in list is used to delete all the elements of the list.",
+    Link: "https://docs.python.org/3/tutorial/datastructures.html"
+  }
 ];
 
 export default pythonQuiz;
