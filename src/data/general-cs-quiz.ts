@@ -1319,6 +1319,15 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
+  },
+  {
+    Question:"What are Proprietary Software?",
+    Answer: "Software which is owned by an organization or an individual.",
+    Distractor1: "Software which code is publicly available for people to modify, share.",
+    Distractor2: "Software Which can be used by everyone for free",
+    Distractor3: "Software which code can be view by anyone",
+    Explanation: "the original authors of proprietary software can modify its code. Users of this type of software have to agree not to alter it in any way unless they have permission from the owners to do so.",
+    Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
   }
 ];
 
