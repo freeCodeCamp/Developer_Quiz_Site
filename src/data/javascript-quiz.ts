@@ -1,5 +1,14 @@
 const javascriptQuiz = [
-   {
+  {
+    Question: "In JavaScript, what is the range of numbers returned from the Math.random() method?",
+    Answer: "Between 0 and 1 (including 0; not including 1).",
+    Distractor1: "Between 0 and 1 (including neither 0 or 1).",
+    Distractor2: "Between 0 and 1 (including 1; not including 0).",
+    Distractor3: "Between 0 and 100 (including 0; not including 100).",
+    Explanation: "Math.random() returns a floating point (decimal) number that is less than one and greater than or equal to zero.",
+    Link: "https://www.freecodecamp.org/news/javascript-math-random-method-explained/"
+  },
+  {
     Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
     Answer: "indexOf() can take a second parameter while search() cannot",
     Distractor1: "Both methods are the same",
@@ -8,8 +17,8 @@ const javascriptQuiz = [
     Explanation:
       "One key difference between the indexOf() and search() methods is that indexOf() can take a second parameter while search() cannot.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"
-   },
-   {
+  },
+  {
     Question: "What does the 'debugger' statement in JavaScript do?",
     Answer: "It acts as a breakpoint in a program",
     Distractor1: "It will debug errors in the current statement",
