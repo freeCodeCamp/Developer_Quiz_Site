@@ -1,5 +1,14 @@
 const generalCSQuiz = [
    {
+    Question: "What is the best algorithm for matrix multiplication?",
+    Answer: "Strassen's Algorithm",
+    Distractor1: "Multiplication algorithm",
+    Distractor2: "Divide and Conquer Technique",
+    Distractor3: "None of the above",
+    Explanation: "Strassen's algorithm reduces the number of multiplication and addition in a given matrix and results in a time complexity of O(2.81)",
+    Link: "https://en.wikipedia.org/wiki/Strassen_algorithm#",
+  },
+  {
     Question: "Which of the following sorting algorithms is stable in nature?",
     Answer: "Merge Sort",
     Distractor1: "Heap Sort",
@@ -68,7 +77,7 @@ const generalCSQuiz = [
       "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
     Distractor1: "Enqueue.",
-    Distractor2: "Peek.",
+    Distractor2: "Peek.", 
     Distractor3: "isFull.",
     Explanation:
       "Dequeue is the term for removing elements from the front of the queue.",
