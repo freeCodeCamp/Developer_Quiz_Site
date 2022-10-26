@@ -1,10 +1,10 @@
 const javascriptQuiz = [
   {
     Question: "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
-    Answer: "akaha aka",
-    Distractor1: "akaha akaha",
-    Distractor2: "aka aka",
-    Distractor3: "aka akaha",
+    Answer: "akh",
+    Distractor1: "akaha",
+    Distractor2: "aka",
+    Distractor3: "akkkaha",
     Explanation:
       "First parameter is for starting position, second in substr defines the length while substring the end position",
     Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
