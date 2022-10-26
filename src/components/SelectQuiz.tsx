@@ -5,7 +5,7 @@ interface SelectQuizProps {
   selectQuizArr: number[];
 }
 
-const SelectQuiz: React.FC<SelectQuizProps> = (SelectQuizProps) => {
+const SelectQuiz: React.FC<SelectQuizProps> = SelectQuizProps => {
   return (
     <div className="select-quiz-styles">
       <h2 className="quiz-heading">Choose a length for the Quiz</h2>
@@ -14,7 +14,7 @@ const SelectQuiz: React.FC<SelectQuizProps> = (SelectQuizProps) => {
           (choice: number, index: number, array: number[]) => (
             <button
               className="select-btns"
-              onClick={(e) => SelectQuizProps.startQuiz(e)}
+              onClick={e => SelectQuizProps.startQuiz(e)}
               value={choice}
               key={index}
             >

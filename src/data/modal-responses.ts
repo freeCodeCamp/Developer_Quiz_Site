@@ -5,7 +5,7 @@ export const correctModalResponses = [
   "Correct! You are really good at this!",
   "Correct! Keep up the good work!",
   "Correct! You're doing great!",
-  "Yes, that's correct.",
+  "Yes, that's correct."
 ];
 
 export const incorrectModalResponses = [
@@ -15,6 +15,5 @@ export const incorrectModalResponses = [
   "Unfortunately, your answer was incorrect.",
   "Oops! That is incorrect.",
   "Incorrect, try again",
-  "That's a wrong answer, keep trying",
+  "That's a wrong answer, keep trying"
 ];
-

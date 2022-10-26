@@ -85,7 +85,7 @@ const agileQuiz = [
   },
   {
     Question:
-      "According to the Agile Manifesto, your highest priority is to _.",
+      "According to the Agile Manifesto, your highest priority is to _____________.",
     Answer: "satisfy the customer/client requirements",
     Distractor1: "achieve the desired Return of Investment",
     Distractor2: "minimize change requests from the customer/client",
@@ -256,7 +256,8 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "What are the four important meetings or ceremonies in Agile Development Methodology?",
+    Question:
+      "What are the four important meetings or ceremonies in Agile Development Methodology?",
     Answer:
       "Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective",
     Distractor1:
@@ -267,7 +268,7 @@ const agileQuiz = [
       "Backlog Planning, Weekly Stand-up, Sprint Review and Sprint Retrospective",
     Explanation:
       "Agile ceremonies are the meetings that happen in following sequence Sprint Planning, Daily Stand-up, Sprint Review and Sprint Retrospective before, within, and after a sprint cycle.",
-    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)",
+    Link: "https://en.wikipedia.org/wiki/Scrum_(software_development)"
   },
   {
     Question: "In Agile, what does FDD stand for?",
@@ -280,7 +281,8 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "In Agile, which methodology has no defined roles or functions where each member can assume the available tasks?",
+    Question:
+      "In Agile, which methodology has no defined roles or functions where each member can assume the available tasks?",
     Answer: "Kanban",
     Distractor1: "Scrum",
     Distractor2: "Lean",
@@ -289,6 +291,38 @@ const agileQuiz = [
       "The Kanban method does not prescribe roles or meetings unlike other frameworks such as Scrum.",
     Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
   },
+  {
+    Question:
+      "In a Scrum team, who needs to comply with the Definition of Done?",
+    Answer: "The Scrum Team",
+    Distractor1: "The Product Owner",
+    Distractor2: "The Scrum Master",
+    Distractor3: "The Product Owner and the Scrum Master",
+    Explanation:
+      "In Agile, the developers will decided when the work is finished.",
+    Link: "https://scrumguides.org/scrum-guide.html"
+  },
+  {
+    Question:
+      "Who is accountable for establishing Scrum and Scrum Team's effectiveness?",
+    Answer: "The Scrum Master",
+    Distractor1: "The Scrum Team",
+    Distractor2: "The Product Owner and the Scrum Master",
+    Distractor3: "The Product Owner",
+    Explanation:
+      "The Scrum Master is responsible for establishing scrum within the team & organizational level.",
+    Link: "https://scrumguides.org/scrum-guide.html"
+  },
+  {
+    Question: "Who has the authority to cancel the Sprint?",
+    Answer: "The Product Owner",
+    Distractor1: "The Scrum Team",
+    Distractor2: "The Scrum Master",
+    Distractor3: "The Developers",
+    Explanation:
+      "In Agile, the Product Owner has the ability to cancel a Sprint.",
+    Link: "https://scrumguides.org/scrum-guide.html"
+  }
 ];
 
 export default agileQuiz;
