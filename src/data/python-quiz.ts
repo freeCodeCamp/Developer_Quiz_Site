@@ -1623,7 +1623,16 @@ const pythonQuiz = [
     Explanation:
       "In Python, the clear() method in list is used to delete all the elements of the list.",
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
-  }
+  },
+  {
+    Question: "In which version of Python, math.perm() and math.prod() function was introduced?",
+    Answer: "python 3.8",
+    Distractor1: "python 3.7",
+    Distractor2: "python 3.9",
+    Distractor3: "python 3.3",
+    Explanation: "With the release of python 3.8, we get math.perm() and math.prod() functions as new feature.",
+    Link: "https://docs.python.org/3.8/library/math.html#math.perm",
+  },
 ];
 
 export default pythonQuiz;
