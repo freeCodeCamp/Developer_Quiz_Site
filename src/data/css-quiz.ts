@@ -1201,7 +1201,7 @@ const cssQuiz = [
   {
     Question:
       "Which of the following is the correct syntax for an attribute selector in CSS?",
-    Answer: "selector[attribute="value"]",
+    Answer: "selector[attribute='value']",
     Distractor1: "container[value]",
     Distractor2: "attribute[value]",
     Distractor3: "value[attribute]",
