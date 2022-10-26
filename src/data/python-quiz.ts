@@ -1625,7 +1625,7 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
   },
   {
-    Question: "Which of the following functions is a built-in function in Python?",
+    Question: "Which of the following is a built-in function in Python?",
     Answer: "print()",
     Distractor1: "perm()",
     Distractor2: "mainloop()",
