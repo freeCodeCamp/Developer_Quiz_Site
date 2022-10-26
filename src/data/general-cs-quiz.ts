@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+    Question: "Which of the following graph algorithms has been used to find minimum shortest path between nodes in efficient way?",
+    Answer: "Dijkstra's Algorithm",
+    Distractor1: "Bellman-Ford Algorithm",
+    Distractor2: "Prim's Algorithm",
+    Distractor3: "Kruskal's Algorithm",
+    Explanation: "Dijkstra's Algorithm stands out from the rest due to its ability to find the shortest path from one node to every other node within the same graph data structure.",
+    Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/",
+  },
+  {
     Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
     Answer: "Merge Sort",
     Distractor1: "Bubble Sort",
