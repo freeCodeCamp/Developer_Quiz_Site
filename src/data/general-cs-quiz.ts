@@ -1319,6 +1319,15 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
+  },
+  {
+    Question:"What are Open Source Software?",
+    Answer: "Software which code is publicly available for people to view, modify, and share.",
+    Distractor1: "Software owned by Big Tech Companies",
+    Distractor2: "Software Which cannot be used by everyone",
+    Distractor3: "Software which code cannot seen by anyone",
+    Explanation: "Open Source Software is code that is publicly available for people to view, modify, and share. One example of open source would be freeCodeCamp.",
+    Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
   }
 ];
 
