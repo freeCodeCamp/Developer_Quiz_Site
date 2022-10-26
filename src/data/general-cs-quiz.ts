@@ -68,7 +68,7 @@ const generalCSQuiz = [
       "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
     Distractor1: "Enqueue.",
-    Distractor2: "Peek.",
+    Distractor2: "Peek.", 
     Distractor3: "isFull.",
     Explanation:
       "Dequeue is the term for removing elements from the front of the queue.",
