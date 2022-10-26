@@ -1319,7 +1319,16 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
-  }
+  },
+  {
+    Question: "How the Merge Sort Algorithm Works?",
+    Answer: "By breaking down an unsorted list into two halves.",
+    Distractor1: "By dividing them into different buckets and then sorting these buckets individually.",
+    Distractor2: "By selects the current smallest element, and swaps it into place.",
+    Distractor3: "By traverses a list and compares adjacent values, swapping them if they are not in the correct order.",
+    Explanation: "The Merge Sort algorithm works by breaking down an unsorted list into two halves, for this it uses Recursion.",
+    Link: "https://www.freecodecamp.org/news/how-to-sort-recursively-in-python"
+  },
 ];
 
 export default generalCSQuiz;
