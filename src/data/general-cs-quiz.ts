@@ -1319,6 +1319,15 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
+  },
+  {
+    Question:"How the Bubble Sort Algorithm Works?",
+    Answer: "By traverses a list and compares adjacent values, swapping them if they are not in the correct order.",
+    Distractor1: "By dividing them into different buckets and then sorting these buckets individually.",
+    Distractor2: "By selects the current smallest element, and swaps it into place.",
+    Distractor3: "By breaking down an unsorted list into two halves.",
+    Explanation: "The algorithm traverses a list and compares adjacent values, swapping them until they are not in the correct order.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c"
   }
 ];
 
