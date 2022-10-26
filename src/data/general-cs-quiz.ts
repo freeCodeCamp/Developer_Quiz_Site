@@ -5,7 +5,7 @@ const generalCSQuiz = [
     Distractor1: "Multiplication algorithm",
     Distractor2: "Divide and Conquer Technique",
     Distractor3: "None of the above",
-    Explanation: "Strassen's reduces number of mumtiplication and addition in givven matrix and make time complexity O(2.81)",
+    Explanation: "Strassen's algorithm reduces the number of multiplication and addition in a given matrix and results in a time complexity of O(2.81)",
     Link: "https://en.wikipedia.org/wiki/Strassen_algorithm#",
   },
   {
