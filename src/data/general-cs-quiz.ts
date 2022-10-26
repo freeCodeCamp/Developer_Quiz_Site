@@ -6,7 +6,7 @@ const generalCSQuiz = [
     Distractor2: "Quick Sort",
     Distractor3: "Selection sort",
     Explanation: "Stable sorting algorithms maintain the relative order of elements with equal values, or keys. Merge sort is stable in nature.",
-    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#:~:text=Insertion%20sort%2C%20merge%20sort%2C%20and,and%20quick%20sort%20are%20unstable.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm",
   },
   {
     Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
