@@ -1200,7 +1200,18 @@ const cssQuiz = [
   },
   {
     Question:
-      "Which of the following CSS properties is used to add a stroke in the text ?",
+      "Which of the following is the correct syntax for an attribute selector in CSS?",
+    Answer: "selector[attribute='value']",
+    Distractor1: "container[value]",
+    Distractor2: "attribute[value]",
+    Distractor3: "value[attribute]",
+    Explanation:
+      "The correct syntax for an attribute selector in CSS is selector[attribute='value'].",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
+  },
+  {
+    Question:
+      "Which of the following CSS properties is used to add a stroke in the text?",
     Answer: "text-stroke",
     Distractor1: "text-transform",
     Distractor2: "text-decoration",
