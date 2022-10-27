@@ -1837,6 +1837,17 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question: "In which of this Operator has the highest Precedence ?",
+    Answer: "( ... ) Grouping Operator",
+    Distractor1: " >> Rigth Shift Operator",
+    Distractor2: " << Left Shift Operator",
+    Distractor3: " / Division Operator",
+    Distractor4: "( ... ) Grouping Operator",
+    Explanation:
+      "Grouping Operator has the highest Precedence. For Example if my code is 2 + 3 * 4 then the answer will be 14 but if my code is (2 + 3) * 4 then the answer will be 20. Here user can set which operation should be performed first",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence"
   }
 ];
 
