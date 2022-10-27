@@ -669,6 +669,16 @@ const sqlQuiz = [
     Explanation:
       "The two types of Database Management Systems are relational and non-relational databases.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  },
+  {
+    Question: "In SQL, which of these is not an aggregate function?",
+    Answer: "CAST",
+    Distractor1: "MIN/MAX",
+    Distractor2: "AVG",
+    Distractor3: "COUNT",
+    Explanation:
+      "Aggregate functions do a particular task across database rows. CAST is used to convert one type of data value into another.",
+    Link: "https://www.freecodecamp.org/news/sql-aggregate-functions-with-example-data-queries-for-beginners/"
   }
 ];
 
