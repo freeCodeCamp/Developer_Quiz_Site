@@ -1875,7 +1875,7 @@ const javascriptQuiz = [
     Distractor2: "Class",
     Distractor3: "Object",
     Explanation:
-      "In JS a composite data type is defined as not being an object as well as having no properties or methods.",
+      "In JavaScript, a composite data type is defined as not being an object as well as having no properties or methods.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
   }
 ];
