@@ -1330,6 +1330,17 @@ const generalCSQuiz = [
       "Bubble sort has a worst case time complexity of O(n^2), which is slow compared to other sorting algorithms.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/"
   },
+  {
+    Question:"Which Time Complexity is said to be good compare to other?",
+    Answer: "O(1)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(nlogn)",
+    Explanation:
+      "O(1) is independent of input size so it remain constant regardless the size of input.",
+    Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
+
+  }
 ];
 
 export default generalCSQuiz;
