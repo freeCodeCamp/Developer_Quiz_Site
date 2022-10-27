@@ -1837,6 +1837,17 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question:
+      "How many types of Notations are used to fetch data from a obejct in JavaScript?",
+    Answer: "2",
+    Distractor1: "3",
+    Distractor2: "1",
+    Distractor3: "2",
+    Explanation:
+      "There are two ways to fetch data from an object in JavaScript. Dot Notation and Bracket Notation.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
   }
 ];
 
