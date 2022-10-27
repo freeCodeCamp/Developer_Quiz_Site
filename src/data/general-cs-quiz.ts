@@ -1321,7 +1321,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
-    Question:"What is the time complexity of Bubble sort?",
+    Question:"What is the worst case time complexity of Bubble sort?",
     Answer: "O(n^2)",
     Distractor1: "O(logn)",
     Distractor2: "O(n)",
