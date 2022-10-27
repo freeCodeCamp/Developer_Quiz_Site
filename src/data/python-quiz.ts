@@ -1633,6 +1633,16 @@ const pythonQuiz = [
     Explanation: "Python's built in print() function is used to print messages to the screen.",
     Link: "https://docs.python.org/3/library/functions.html#print"
   },
+  
+  {
+    Question: "In Python programming, which of the following is not a built-in data type?",
+    Answer: "class",
+    Distractor1: "set",
+    Distractor2: "dict",
+    Distractor3: "frozenset",
+    Explanation: "In Python, class is a user defined data type.",
+    Link: "https://docs.python.org/3/library/datatypes.html#:~:text=Python%20also%20provides%20some%20built,used%20to%20hold%20binary%20data."
+  },
 ];
 
 export default pythonQuiz;
