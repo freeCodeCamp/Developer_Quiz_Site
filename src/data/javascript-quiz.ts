@@ -1837,6 +1837,17 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question:
+      "In which of these method can push data at position (0) in an array ",
+    Answer: "unshift()",
+    Distractor1: "push()",
+    Distractor2: "pop()",
+    Distractor3: "unshift()",
+    Explanation:
+      "unshift is a Array Method that can push data at from the beginning of an array",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift"
   }
 ];
 
