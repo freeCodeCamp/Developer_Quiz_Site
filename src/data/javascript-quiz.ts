@@ -1866,6 +1866,17 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question:
+      "In Javascript, whitch of the following is not a composite data type?",
+    Answer: "String",
+    Distractor1: "Array",
+    Distractor2: "Class",
+    Distractor3: "Object",
+    Explanation:
+      "In JS a composite data type is defined as not being an object as well as having no properties or methods.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
   }
 ];
 
