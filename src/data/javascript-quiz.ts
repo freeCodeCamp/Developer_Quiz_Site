@@ -1837,6 +1837,16 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question: "What is the Sum of this Expression (true + 34)",
+    Answer: "35",
+    Distractor1: "34",
+    Distractor2: "true34",
+    Distractor3: "35",
+    Explanation:
+      "Here the True gets converted to a number and gives out 1. Because 0 = false and 1 = true",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
   }
 ];
 
