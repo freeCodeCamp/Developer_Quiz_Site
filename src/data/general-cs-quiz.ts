@@ -1327,7 +1327,7 @@ const generalCSQuiz = [
     Distractor2: "O(n)",
     Distractor3: "O(nlogn)",
     Explanation:
-      "The Bubble sort has the worst case complexity is O(n^2), which is slow compare to other sorting algorithms.",
+      "Bubble sort has a worst case time complexity of O(n^2), which is slow compared to other sorting algorithms.",
     Link: "https://www.freecodecamp.org/news/bubble-sort/"
   },
 ];
