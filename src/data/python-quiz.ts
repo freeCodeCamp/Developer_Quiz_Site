@@ -1623,7 +1623,16 @@ const pythonQuiz = [
     Explanation:
       "In Python, the clear() method in list is used to delete all the elements of the list.",
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
-  }
+  },
+  {
+    Question: "Which of the following is a built-in function in Python?",
+    Answer: "print()",
+    Distractor1: "perm()",
+    Distractor2: "mainloop()",
+    Distractor3: "getcwd()",
+    Explanation: "Python's built in print() function is used to print messages to the screen.",
+    Link: "https://docs.python.org/3/library/functions.html#print"
+  },
 ];
 
 export default pythonQuiz;
