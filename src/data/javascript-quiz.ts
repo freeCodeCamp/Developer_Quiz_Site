@@ -1839,7 +1839,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
   },
   {
-    Question: "In which of this Operator has the highest Precedence ?",
+    Question: "In which of these Operator has the highest Precedence ?",
     Answer: "( ... ) Grouping Operator",
     Distractor1: " >> Rigth Shift Operator",
     Distractor2: " << Left Shift Operator",
