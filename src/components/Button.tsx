@@ -8,7 +8,7 @@ interface ButtonProps {
   handleClick: MouseEventHandler;
 }
 
-const Button: React.FC<ButtonProps> = (ButtonProps) => {
+const Button: React.FC<ButtonProps> = ButtonProps => {
   const getButtonClasses = useMemo(() => {
     let classes = "btn-default";
     if (ButtonProps.size === "large") {
