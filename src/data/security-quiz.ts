@@ -388,7 +388,7 @@ const securityQuiz = [
     Distractor2: "WPA2",
     Distractor3: "WPA3",
     Explanation:
-      "WEP protocol is the least secure of all.",
+      "The WEP protocol is now deprecated and considered to be the lest secure option from the list.",
     Link: "https://www.freecodecamp.org/news/wifi-security-explained/"
   }
 ];
