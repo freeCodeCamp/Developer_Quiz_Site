@@ -1319,7 +1319,17 @@ const generalCSQuiz = [
     Explanation:
       "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
-  }
+  },
+  {
+    Question:"What is the worst case time complexity for Bubble sort?",
+    Answer: "O(n^2)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(nlogn)",
+    Explanation:
+      "Bubble sort has a worst case time complexity of O(n^2), which is slow compared to other sorting algorithms.",
+    Link: "https://www.freecodecamp.org/news/bubble-sort/"
+  },
 ];
 
 export default generalCSQuiz;
