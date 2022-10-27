@@ -382,7 +382,7 @@ const securityQuiz = [
   },
   {
     Question:
-      "Which wireless security protocol is least secure of all?",
+      "Which wireless security protocol is the least secure?",
     Answer: "WEP",
     Distractor1: "WPA",
     Distractor2: "WPA2",
