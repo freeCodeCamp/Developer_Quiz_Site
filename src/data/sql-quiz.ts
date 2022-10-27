@@ -669,7 +669,17 @@ const sqlQuiz = [
     Explanation:
       "The two types of Database Management Systems are relational and non-relational databases.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
-  }
+  },
+    {
+    Question: "In SQL Server, which of these statements can we check for Errors?",
+    Answer: "INSERT",
+    Distractor1: "CREATE",
+    Distractor2: "DELETE",
+    Distractor3: "DROP",
+    Explanation:
+      "INSERT statement checks for errors among others here.",
+    Link: "https://www.freecodecamp.org/news/insert-into-sql-sql-insert-statement-example/"
+  },
 ];
 
 export default sqlQuiz;
