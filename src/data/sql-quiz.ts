@@ -5,7 +5,7 @@ const sqlQuiz = [
     Distractor1: "CHECK",
     Distractor2: "DEFAULT",
     Distractor3: "UNIQUE",
-    Explanation: "In SQL, The UPDATE statement is used to modify the existing records in a table.  Hence, it is not a constraint",
+    Explanation: "In SQL, the UPDATE statement is used to modify the existing records in a table and therefore not a constraint.",
     Link: "https://www.freecodecamp.org/news/best-sql-database-tutorial/",
   },
   {
