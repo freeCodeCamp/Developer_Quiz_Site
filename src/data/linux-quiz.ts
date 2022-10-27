@@ -1158,6 +1158,17 @@ const linuxQuiz = [
     Explanation:
       "In Linux, you can use the diff command to display the difference between two files'.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
+  },
+  {
+    Question:
+      "Which the command which is used to remove files through linux terminal?",
+    Answer: "rmdir",
+    Distractor1: "remove",
+    Distractor2: "rdir",
+    Distractor3: "delete",
+    Explanation:
+      "In Linux, rmdir is used to delete a directory.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
   }
 ];
 
