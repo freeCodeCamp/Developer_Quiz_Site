@@ -1869,7 +1869,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In Javascript, which of the following is NOT a composite data type?",
+      "In JavaScript, which of the following is NOT a composite data type?",
     Answer: "String",
     Distractor1: "Array",
     Distractor2: "Class",
