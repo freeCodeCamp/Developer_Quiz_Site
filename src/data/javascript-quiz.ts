@@ -1837,6 +1837,18 @@ const javascriptQuiz = [
     Explanation:
       "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question: "What is Type Cocerion?",
+    Answer:
+      "The process of converting a value from one type to another (such as string to number, object to boolean, and so on) automatically or implicitly.",
+    Distractor1:
+      "The process of converting a value from one type to another (such as string to number, object to boolean, and so on) automatically or implicitly.",
+    Distractor2: "The process of adding two values together.",
+    Distractor3: "None of the Above",
+    Explanation:
+      "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
   }
 ];
 
