@@ -1,6 +1,6 @@
 const sqlQuiz = [
   {
-    Question: "In SQL, which of the following is not a commonly used SQL constraints",  
+    Question: "Which of the following is not a commonly used SQL constraint?",  
     Answer: "UNIQUE",
     Distractor1: "CHECK",
     Distractor2: "DEFAULT",
