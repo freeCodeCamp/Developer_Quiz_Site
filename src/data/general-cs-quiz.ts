@@ -1339,7 +1339,6 @@ const generalCSQuiz = [
     Explanation:
       "O(1) is independent of input size so it remains in constant time regardless of the size of the input.",
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
-
   }
 ];
 
