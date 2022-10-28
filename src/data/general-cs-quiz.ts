@@ -1337,7 +1337,7 @@ const generalCSQuiz = [
     Distractor2: "O(n)",
     Distractor3: "O(nlogn)",
     Explanation:
-      "O(1) is independent of input size so it remain constant regardless the size of input.",
+      "O(1) is independent of input size so it remains in constant time regardless of the size of the input.",
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
 
   }
