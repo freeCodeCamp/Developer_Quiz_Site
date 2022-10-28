@@ -1877,6 +1877,17 @@ const javascriptQuiz = [
     Explanation:
       "Both 'function' and 'class' are used in the beginning to declare a function and class respectively.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements"
+  },
+  {
+    Question:
+      "In JavaScript, which of the following is NOT a composite data type?",
+    Answer: "String",
+    Distractor1: "Array",
+    Distractor2: "Class",
+    Distractor3: "Object",
+    Explanation:
+      "In JavaScript, a composite data type is defined as not being an object as well as having no properties or methods.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
   }
 ];
 
