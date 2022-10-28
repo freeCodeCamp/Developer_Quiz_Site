@@ -1,6 +1,7 @@
 const javascriptQuiz = [
   {
-    Question: "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
+    Question:
+      "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
     Answer: "akh",
     Distractor1: "akaha",
     Distractor2: "aka",
@@ -10,16 +11,19 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
   },
   {
-    Question: "In JavaScript, what is the range of numbers returned from the Math.random() method?",
+    Question:
+      "In JavaScript, what is the range of numbers returned from the Math.random() method?",
     Answer: "Between 0 and 1 (including 0; not including 1).",
     Distractor1: "Between 0 and 1 (including neither 0 or 1).",
     Distractor2: "Between 0 and 1 (including 1; not including 0).",
     Distractor3: "Between 0 and 100 (including 0; not including 100).",
-    Explanation: "Math.random() returns a floating point (decimal) number that is less than one and greater than or equal to zero.",
+    Explanation:
+      "Math.random() returns a floating point (decimal) number that is less than one and greater than or equal to zero.",
     Link: "https://www.freecodecamp.org/news/javascript-math-random-method-explained/"
   },
   {
-    Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
+    Question:
+      "In JavaScript, what is the difference between the indexOf() and search() methods?",
     Answer: "indexOf() can take a second parameter while search() cannot",
     Distractor1: "Both methods are the same",
     Distractor2: "indexOf() only takes regular expressions",
@@ -1869,13 +1873,13 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "How many types of Notations are used to fetch data from a obejct in JavaScript?",
+      "In JavaScript, how many ways can you access an object's properties?",
     Answer: "2",
     Distractor1: "1",
     Distractor2: "8",
     Distractor3: "13",
     Explanation:
-      "There are two ways to fetch data from an object in JavaScript. Dot Notation and Bracket Notation.",
+      "To access data from an object in JavaScript, you can use either dot notation or bracket notation.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
   },
   {
