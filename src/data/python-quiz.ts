@@ -1640,7 +1640,7 @@ const pythonQuiz = [
     Distractor1: "set",
     Distractor2: "dict",
     Distractor3: "frozenset",
-    Explanation: "In Python, class is a user defined data type.",
+    Explanation: "In Python, a class is a user defined data type.",
     Link: "https://docs.python.org/3/library/datatypes.html"
   },
 ];
