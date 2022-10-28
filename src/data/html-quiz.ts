@@ -1649,5 +1649,16 @@ const htmlQuiz = [
       "Hypertext in HTML refers to text (often with embeds such as images, too) that is organized in order to connect web pages to one another.",
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   }
+  {
+  Question:
+  "In HTML, which attribute is used to increase speed of marquee? ",
+Answer: "scrollamount",
+Distractor1:"speed",
+Distractor2:"markspeed",
+Distractor3:"scrollmount",
+  Explanation:
+" The Marquee scrollamount attribute in HTML is used to set the amount of scrolling at each interval in pixels.",
+Link: "https://www.geeksforgeeks.org/html-marquee-scrollamount-attribute/  ",
+  }
 ];
 export default htmlQuiz;
