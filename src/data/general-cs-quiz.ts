@@ -1322,7 +1322,7 @@ const generalCSQuiz = [
   },
   {
     Question:"How does the Bubble Sort algorithm work?",
-    Answer: "By traverses a list and compares adjacent values, swapping them if they are not in the correct order.",
+    Answer: "This algorithm traverses a list, compares adjacent values, and swaps them if they are not in the correct order.",
     Distractor1: "By dividing them into different buckets and then sorting these buckets individually.",
     Distractor2: "By selects the current smallest element, and swaps it into place.",
     Distractor3: "By breaking down an unsorted list into two halves.",
