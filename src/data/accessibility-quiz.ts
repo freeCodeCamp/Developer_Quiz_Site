@@ -247,7 +247,7 @@ const accessibilityQuiz = [
   },
   
    {
-    Question: "Which interaction does NOT need to be ensured for ACCESSIBILITY FOR MOTOR DISABILITY?",
+    Question: "Which interaction does NOT need to be ensured for accessibility for motor disability?",
     Answer:
       "Color adjustment",
     Distractor1:
