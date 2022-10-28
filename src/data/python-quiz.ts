@@ -1630,7 +1630,7 @@ const pythonQuiz = [
     Distractor1: "Python 3.7",
     Distractor2: "Python 3.9",
     Distractor3: "Python 3.3",
-    Explanation: "With the release of python 3.8, we get math.perm() and math.prod() functions as new feature.",
+    Explanation: "The release of Python 3.8 introduced the math.perm() and math.prod() functions.",
     Link: "https://docs.python.org/3.8/library/math.html#math.perm",
   },
 ];
