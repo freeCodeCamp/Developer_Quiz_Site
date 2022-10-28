@@ -1325,7 +1325,7 @@ const generalCSQuiz = [
     Answer: "A data type that comprises of a sequence of characters",
     Distractor1: "An Array indicator for programming languages",
     Distractor2: "A Data Structure for data arrangement",
-    Distractor3: "An Programme to do complex tasks",
+    Distractor3: "a programming language for complex tasks",
     Explanation: "A string is a data type that can contain many different characters. A string is written as a series of characters between single or double quotes.",
     Link: "https://www.freecodecamp.org/news/how-to-lowercase-a-string-in-javascript-tolowercase-in-js/"
   }
