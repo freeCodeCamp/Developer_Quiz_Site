@@ -1,8 +1,6 @@
 const informationTechnologyQuiz = [
   {
-    Question:
-
-      "What is the use of a DNS Server?",
+    Question: "What is the use of a DNS Server?",
     Answer:"Converts a domain name to an IP Address",
     Distractor1:"Converts an IP Address to a domain name",
     Distractor2:"Provides access tokens for login in the backend",
