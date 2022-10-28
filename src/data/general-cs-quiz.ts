@@ -1321,6 +1321,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
+    Question: "What is a String?",
+    Answer: "A data type that comprises of a sequence of characters",
+    Distractor1: "An Array indicator for programming languages",
+    Distractor2: "A Data Structure for data arrangement",
+    Distractor3: "a programming language for complex tasks",
+    Explanation: "A string is a data type that can contain many different characters. A string is written as a series of characters between single or double quotes.",
+    Link: "https://www.freecodecamp.org/news/how-to-lowercase-a-string-in-javascript-tolowercase-in-js/"
+  },
+  {
     Question:"What is the worst case time complexity for Bubble sort?",
     Answer: "O(n^2)",
     Distractor1: "O(logn)",
