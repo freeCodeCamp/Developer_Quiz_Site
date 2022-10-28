@@ -1180,6 +1180,17 @@ const linuxQuiz = [
     Explanation:
       "In linux, this formatter with ls command can be used to list all files with similar postfix or extension",
     Link: ""
+  },
+  {
+    Question:
+      "In Linux, which command is used list files with its permissions and users access",
+    Answer: "ls -l",
+    Distractor1: "ls allusers",
+    Distractor2: "ls all",
+    Distractor3: "None of These",
+    Explanation:
+      "In linux, this command is used to long list the files which displays the permissions on files and user access",
+    Link: ""
   }
 ];
 
