@@ -1625,7 +1625,7 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
   },
   {
-    Question: "In which version of Python, math.perm() and math.prod() function was introduced?",
+    Question: "Which version of Python introduced the math.perm() and math.prod() functions?",
     Answer: "python 3.8",
     Distractor1: "python 3.7",
     Distractor2: "python 3.9",
