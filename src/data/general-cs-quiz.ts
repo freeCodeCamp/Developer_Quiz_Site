@@ -1331,7 +1331,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/bubble-sort/"
   },
   {
-    Question:"Which Time Complexity is said to be good compare to other?",
+    Question:"Which of the following time complexities is considered to be the fastest?",
     Answer: "O(1)",
     Distractor1: "O(logn)",
     Distractor2: "O(n)",
