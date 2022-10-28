@@ -1,7 +1,7 @@
 const securityQuiz = [
   {
     Question:
-      "What is the use of DNS Server?",
+      "What is the use of a DNS Server?",
     Answer:"Convert domain name to IP Address",
     Distractor1:"Convert IP Address to domain name",
     Distractor2:"Provides access tokens for login in the backend",
