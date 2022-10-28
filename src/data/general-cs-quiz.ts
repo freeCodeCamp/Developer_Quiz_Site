@@ -1321,6 +1321,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
+    Question:"What is Open Source Software?",
+    Answer: "A type of software where the code is publicly available for people to view, modify, and share.",
+    Distractor1: "Software owned by Big Tech Companies",
+    Distractor2: "Software developed by Facebook",
+    Distractor3: "Software where the code is only available to a select few people",
+    Explanation: "Open Source Software is code that is publicly available for people to view, modify, and share. One example of open source would be freeCodeCamp.",
+    Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
+  },
+  {
     Question:"How does the Bubble Sort algorithm work?",
     Answer: "This algorithm traverses a list, compares adjacent values, and swaps them if they are not in the correct order.",
     Distractor1: "This algorithm divides the list into different buckets and sorts these buckets individually.",
