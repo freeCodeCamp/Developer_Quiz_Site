@@ -1328,6 +1328,62 @@ const generalCSQuiz = [
     Distractor3: "Software that has only been developed by Oracle",
     Explanation: "The original authors of proprietary software can modify its code. Users of this type of software have to agree not to alter it in any way unless they have permission from the owners to do so.",
     Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
+  },
+  {
+    Question:"What is Open Source Software?",
+    Answer: "A type of software where the code is publicly available for people to view, modify, and share.",
+    Distractor1: "Software owned by Big Tech Companies",
+    Distractor2: "Software developed by Facebook",
+    Distractor3: "Software where the code is only available to a select few people",
+    Explanation: "Open Source Software is code that is publicly available for people to view, modify, and share. One example of open source would be freeCodeCamp.",
+    Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
+  },
+  {
+    Question:"How does the Bubble Sort algorithm work?",
+    Answer: "This algorithm traverses a list, compares adjacent values, and swaps them if they are not in the correct order.",
+    Distractor1: "This algorithm divides the list into different buckets and sorts these buckets individually.",
+    Distractor2: "This algorithm selects the current smallest element, and swaps it into place.",
+    Distractor3: "This algorithm breaks down an unsorted list into two halves.",
+    Explanation: "The Bubble Sort algorithm traverses a list, compares adjacent values, and swaps them if they are not in the correct order.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c"
+  },
+  {
+    Question: "What is the underlining process behind the Merge Sort algorithm?",
+    Answer: "Recursion",
+    Distractor1: "String matching and parsing",
+    Distractor2: "backtracking",
+    Distractor3: "graph traversal",
+    Explanation: "The Merge Sort algorithm works by recursively breaking down an unsorted list into two halves until it reaches a point where it can no longer be broken down.",
+    Link: "https://www.freecodecamp.org/news/how-to-sort-recursively-in-python"
+  },
+  {
+    Question: "What is a String?",
+    Answer: "A data type that comprises of a sequence of characters",
+    Distractor1: "An Array indicator for programming languages",
+    Distractor2: "A Data Structure for data arrangement",
+    Distractor3: "a programming language for complex tasks",
+    Explanation: "A string is a data type that can contain many different characters. A string is written as a series of characters between single or double quotes.",
+    Link: "https://www.freecodecamp.org/news/how-to-lowercase-a-string-in-javascript-tolowercase-in-js/"
+  },
+  {
+    Question:"What is the worst case time complexity for Bubble sort?",
+    Answer: "O(n^2)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(nlogn)",
+    Explanation:
+      "Bubble sort has a worst case time complexity of O(n^2), which is slow compared to other sorting algorithms.",
+    Link: "https://www.freecodecamp.org/news/bubble-sort/"
+  },
+  {
+    Question:"Which of the following time complexities is considered to be the fastest?",
+    Answer: "O(1)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(nlogn)",
+    Explanation:
+      "O(1) is independent of input size so it remains in constant time regardless of the size of the input.",
+    Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
   }
 ];
 

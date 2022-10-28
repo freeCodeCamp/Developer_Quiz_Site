@@ -379,6 +379,17 @@ const securityQuiz = [
     Explanation:
       "The Ethereum Blockchain uses the Keccak-256 hash for its Transactions and consensus mechanism.",
     Link: "https://www.freecodecamp.org/news/tag/ethereum/"
+  },
+  {
+    Question:
+      "Which wireless security protocol is the least secure?",
+    Answer: "WEP",
+    Distractor1: "WPA",
+    Distractor2: "WPA2",
+    Distractor3: "WPA3",
+    Explanation:
+      "The WEP protocol is now deprecated and considered to be the lest secure option from the list.",
+    Link: "https://www.freecodecamp.org/news/wifi-security-explained/"
   }
 ];
 
