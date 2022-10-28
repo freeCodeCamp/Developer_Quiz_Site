@@ -1325,7 +1325,7 @@ const generalCSQuiz = [
     Answer: "A type of software where the code is publicly available for people to view, modify, and share.",
     Distractor1: "Software owned by Big Tech Companies",
     Distractor2: "Software developed by Facebook",
-    Distractor3: "Software which code cannot seen by anyone",
+    Distractor3: "Software where the code is only available to a select few people",
     Explanation: "Open Source Software is code that is publicly available for people to view, modify, and share. One example of open source would be freeCodeCamp.",
     Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
   }
