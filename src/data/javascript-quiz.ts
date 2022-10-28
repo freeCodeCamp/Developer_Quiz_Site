@@ -1917,7 +1917,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which array method returns true if ALL values passes a condition?",
+      "In JavaScript, which array method returns true if ALL values pass a condition?",
     Answer: "every()",
     Distractor1: "some()",
     Distractor2: "filter()",
