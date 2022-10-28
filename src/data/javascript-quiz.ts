@@ -1890,7 +1890,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
   },
   {
-    Question: "What is the Sum of this Expression (true + 34)",
+    Question: "In JavaScript, what is the result for the following code: console.log(true + 34)?",
     Answer: "35",
     Distractor1: "34",
     Distractor2: "true34",
