@@ -247,6 +247,20 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/react-accessibility-tools-build-accessible-react-apps/#:~:text=Why%20you%20should,from%20the%20beginning%3A",
   },
   {
+    Question: "For accessibility, which interaction does NOT need to be ensured for motor disability?",
+    Answer:
+      "Color adjustment",
+    Distractor1:
+      "NO keyboard ",
+    Distractor2:
+      "NO limitations on response time",
+    Distractor3:
+      "Customizing the behavior",
+    Explanation:
+      "Color adjustments are key for visual impairments.",
+    Link: "https://www.w3.org/TR/css-color-adjust-1/"
+  },
+  {
     Question:"Which of the following HTML tags does NOT use the autocomplete attribute?",
     Answer:"<html>",
     Distractor1:"<input>",
