@@ -1,12 +1,14 @@
 const informationTechnologyQuiz = [
   {
-    Question: "For a Class A IP address, which octet represents the network ID?",
+    Question:
+      "For a Class A IP address, which octet represents the network ID?",
     Answer: "First octet",
     Distractor1: "Second octet",
     Distractor2: "Third octet",
     Distractor3: "Fourth octet",
-    Explanation: "For Class A IP addresses,  the first octet (8 bits / 1 byte) represents the network ID, and the remaining three octets (24 bits / 3 bytes) represent the host ID.",
-    Link: "https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/",
+    Explanation:
+      "For Class A IP addresses,  the first octet (8 bits / 1 byte) represents the network ID, and the remaining three octets (24 bits / 3 bytes) represent the host ID.",
+    Link: "https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/"
   },
   {
     Question:

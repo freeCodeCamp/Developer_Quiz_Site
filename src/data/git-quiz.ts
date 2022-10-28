@@ -533,7 +533,7 @@ const gitQuiz = [
     Explanation:
       "git commit --amend  is the command used to change the latest commit message.",
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
-  },
+  }
 ];
 
 export default gitQuiz;
