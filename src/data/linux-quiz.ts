@@ -1161,7 +1161,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "Which the command which is used to remove files through linux terminal?",
+      "In Linux, which the command is used to remove an empty directory?",
     Answer: "rmdir",
     Distractor1: "remove",
     Distractor2: "rdir",
