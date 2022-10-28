@@ -1324,7 +1324,7 @@ const generalCSQuiz = [
     Question:"What is Proprietary Software?",
     Answer: "Software which is owned by an organization or an individual.",
     Distractor1: "Software where the code is publicly available for people to modify, and share.",
-    Distractor2: "Software Which can be used by everyone for free",
+    Distractor2: "Software where the code can be used by everyone for free",
     Distractor3: "Software which code can be view by anyone",
     Explanation: "the original authors of proprietary software can modify its code. Users of this type of software have to agree not to alter it in any way unless they have permission from the owners to do so.",
     Link: "https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english"
