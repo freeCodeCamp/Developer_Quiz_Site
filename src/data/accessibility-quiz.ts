@@ -268,6 +268,15 @@ const accessibilityQuiz = [
     Distractor3:"<form>",
     Explanation:"The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
     Link:"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
+  },
+  {
+    Question:"Which of the following attributes turns element with a role of button into a toggle button?",
+    Answer:"aria-pressed",
+    Distractor1:"aria-checked",
+    Distractor2:"aria-expanded",
+    Distractor3:"aria-selected",
+    Explanation:"The aria-pressed attribute indicates the current pressed state of a toggle button.",
+    Link:"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed",
   }
 ];
 
