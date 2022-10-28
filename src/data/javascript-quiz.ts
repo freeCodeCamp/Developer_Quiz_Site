@@ -1869,7 +1869,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "What are 'function' and 'class' called in JavaScript?",
+      "In JavaScript, what is the classification for a 'function' and 'class'?",
     Answer: "Declaration statements",
     Distractor1: "Keywords",
     Distractor2: "Data types",
