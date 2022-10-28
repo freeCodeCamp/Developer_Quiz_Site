@@ -1,5 +1,44 @@
 const javascriptQuiz = [
   {
+    Question: "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
+    Answer: "akh",
+    Distractor1: "akaha",
+    Distractor2: "aka",
+    Distractor3: "akkkaha",
+    Explanation:
+      "The first parameter in the substring method represents the starting index for the string while the second parameter represents the ending index.",
+    Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
+  },
+  {
+    Question: "In JavaScript, what is the range of numbers returned from the Math.random() method?",
+    Answer: "Between 0 and 1 (including 0; not including 1).",
+    Distractor1: "Between 0 and 1 (including neither 0 or 1).",
+    Distractor2: "Between 0 and 1 (including 1; not including 0).",
+    Distractor3: "Between 0 and 100 (including 0; not including 100).",
+    Explanation: "Math.random() returns a floating point (decimal) number that is less than one and greater than or equal to zero.",
+    Link: "https://www.freecodecamp.org/news/javascript-math-random-method-explained/"
+  },
+  {
+    Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
+    Answer: "indexOf() can take a second parameter while search() cannot",
+    Distractor1: "Both methods are the same",
+    Distractor2: "indexOf() only takes regular expressions",
+    Distractor3: "The search() method runs 4x faster than the indexOf() method",
+    Explanation:
+      "One key difference between the indexOf() and search() methods is that indexOf() can take a second parameter while search() cannot.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"
+  },
+  {
+    Question: "What does the 'debugger' statement in JavaScript do?",
+    Answer: "It acts as a breakpoint in a program",
+    Distractor1: "It will debug errors in the current statement",
+    Distractor2: "It will debug all the errors in the program at runtime",
+    Distractor3: "All of the above",
+    Explanation:
+      "The 'debugger' statement is used to setup the breakup points at probable points of errors in the code snippet, using the debugger window.",
+    Link: "https://www.freecodecamp.org/news/debugging-javascript-for-beginners-5d4ac15dd1cd/#"
+  },
+  {
     Question: "What kind of programming can JavaScript be used for?",
     Answer: "Both Client and Server side programming",
     Distractor1: "Server side only",
@@ -1727,8 +1766,7 @@ const javascriptQuiz = [
     Distractor3: "Gate",
     Explanation:
       "The Window object provides access to all JavaScript capabilities and APIs that are used on the client side.",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/API/Window",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/Window"
   },
   {
     Question:
@@ -1739,20 +1777,18 @@ const javascriptQuiz = [
     Distractor3: "Database",
     Explanation:
       "An HTML <input> element with the type='file' attribute is represented by the Input FileUpload object and is a client-side JavaScript object.",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/API/File_API/Using_files_from_web_applications"
   },
   {
     Question:
-    "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
-    Answer:"Promise.all() and Promise.allSettled()",
-    Distractor1:"Promise.any() and Promise.all()",
-    Distractor2:"Promise.resolve() and Promise.allSettled()",
-    Distractor3:"Promise.reject() and Promise.reject()",
+      "In JavaScript, which methods accept an iterable of promises and returns a single array of results?",
+    Answer: "Promise.all() and Promise.allSettled()",
+    Distractor1: "Promise.any() and Promise.all()",
+    Distractor2: "Promise.resolve() and Promise.allSettled()",
+    Distractor3: "Promise.reject() and Promise.reject()",
     Explanation:
       "Promise.all() and Promise.allSettled() accept an iterable of promises and return a single array of results.",
-    Link:
-      "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
   },
   {
     Question:
@@ -1765,6 +1801,94 @@ const javascriptQuiz = [
       "The answer is false. Triple equal ('===') compares the value and the type as well.",
     Link: "https://youtu.be/zJSY8tbf_ys?t=24429"
   },
+  {
+    Question:
+      "In JavaScript, which keyword is used to make portions of code accessible to other modules?",
+    Answer: "export",
+    Distractor1: "import",
+    Distractor2: "as",
+    Distractor3: "from",
+    Explanation:
+      "The export keyword is used to make it possible to access small portions of code in other modules.",
+    Link: "https://www.freecodecamp.org/news/javascript-modules-explained-with-examples/#"
+  },
+  {
+    Question:
+      "Which of the following options is a web API that runs code asynchronously in JavaScript?",
+    Answer: "setTimeOut()",
+    Distractor1: "repeat()",
+    Distractor2: "timeOut()",
+    Distractor3: "delay()",
+    Explanation:
+      "The setTimeout() function is an asynchronous function that will not pause execution of other functions in the stack.",
+    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result of the following code: console.log(7 + '5')?",
+    Answer: "75",
+    Distractor1: "11",
+    Distractor2: "57",
+    Distractor3: "undefined",
+    Explanation:
+      "The result for console.log(7 + '5') is 75 because the + operator is used to concatenate strings.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result of the following code: console.log(7 - '5')?",
+    Answer: "2",
+    Distractor1: "12",
+    Distractor2: "undefined",
+    Distractor3: "NaN",
+    Explanation:
+      "The result is 2 because in JavaScript you can't use the - operator on strings so it will automatically convert the strings to numbers and subtract the two values.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Subtraction#subtraction_with_non-numbers"
+  },
+  {
+    Question:
+      "In JavaScript, the ___________ method returns the index position of the last occurrence of a value in an array.",
+    Answer: "lastIndexOf()",
+    Distractor1: "indexOf()",
+    Distractor2: "charAt(0)",
+    Distractor3: "getPosition()",
+    Explanation:
+      "The lastIndexOf() method returns the last index at which a given element can be found in the array, or -1 if it is not present.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+  },
+  {
+    Question:
+      "In JavaScript, which of the following is not a primitive data type?",
+    Answer: "Object",
+    Distractor1: "Number",
+    Distractor2: "String",
+    Distractor3: "Undefined",
+    Explanation:
+      "JavaScript has 7 primitive data types. Boolean, null, undefined, Number, BigInt, String and Symbol",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_Types#data_structures_and_types"
+  },
+  {
+    Question:
+      "In JavaScript, what is the classification for a 'function' and 'class'?",
+    Answer: "Declaration statements",
+    Distractor1: "Keywords",
+    Distractor2: "Data types",
+    Distractor3: "Variables",
+    Explanation:
+      "Both 'function' and 'class' are used in the beginning to declare a function and class respectively.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements"
+  },
+  {
+    Question:
+      "In JavaScript, which of the following is NOT a composite data type?",
+    Answer: "String",
+    Distractor1: "Array",
+    Distractor2: "Class",
+    Distractor3: "Object",
+    Explanation:
+      "In JavaScript, a composite data type is defined as not being an object as well as having no properties or methods.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+  }
 ];
 
 export default javascriptQuiz;
