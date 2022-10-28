@@ -9,7 +9,7 @@ function shuffle<Type>(array: Type[]): Type[] {
 
     [array[currentIndex], array[randomIndex]] = [
       array[randomIndex],
-      array[currentIndex],
+      array[currentIndex]
     ];
   }
 

@@ -4,7 +4,7 @@
 
 The [developerquiz.org](https://developerquiz.org/) website is the companion to [Learn to Code RPG Game](https://freecodecamp.itch.io/learn-to-code-rpg), a visual novel game developed by [freeCodeCamp](https://www.freecodecamp.org) to help you learn how to code. 😺
 
-[developerquiz.org](https://developerquiz.org/) hosts all **700+** multiple choice questions featured in the game on the following topics:
+[developerquiz.org](https://developerquiz.org/) hosts all **1000+** multiple choice questions featured in the game on the following topics:
 
 - HTML 🖊️
 - CSS 🎨
