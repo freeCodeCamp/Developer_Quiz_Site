@@ -1321,6 +1321,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
+    Question: "What is the underlining process behind the Merge Sort algorithm?",
+    Answer: "Recursion",
+    Distractor1: "String matching and parsing",
+    Distractor2: "backtracking",
+    Distractor3: "graph traversal",
+    Explanation: "The Merge Sort algorithm works by recursively breaking down an unsorted list into two halves until it reaches a point where it can no longer be broken down.",
+    Link: "https://www.freecodecamp.org/news/how-to-sort-recursively-in-python"
+  },
+  {
     Question: "What is a String?",
     Answer: "A data type that comprises of a sequence of characters",
     Distractor1: "An Array indicator for programming languages",
