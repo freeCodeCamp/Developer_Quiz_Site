@@ -1321,7 +1321,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
-    Question: "What is underlining process behind the Merge Sort algorithm?",
+    Question: "What is the underlining process behind the Merge Sort algorithm?",
     Answer: "Recursion",
     Distractor1: "String matching and parsing",
     Distractor2: "backtracking",
