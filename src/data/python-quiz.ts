@@ -1635,7 +1635,7 @@ const pythonQuiz = [
   },
   
   {
-    Question: "In Python programming, which of the following is not a built-in data type?",
+    Question: "In Python, which of the following is NOT a built-in data type?",
     Answer: "class",
     Distractor1: "set",
     Distractor2: "dict",
