@@ -1321,6 +1321,15 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
+    Question:"How does the Bubble Sort algorithm work?",
+    Answer: "This algorithm traverses a list, compares adjacent values, and swaps them if they are not in the correct order.",
+    Distractor1: "This algorithm divides the list into different buckets and sorts these buckets individually.",
+    Distractor2: "This algorithm selects the current smallest element, and swaps it into place.",
+    Distractor3: "This algorithm breaks down an unsorted list into two halves.",
+    Explanation: "The Bubble Sort algorithm traverses a list, compares adjacent values, and swaps them if they are not in the correct order.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c"
+  },
+  {
     Question: "What is the underlining process behind the Merge Sort algorithm?",
     Answer: "Recursion",
     Distractor1: "String matching and parsing",
