@@ -1168,7 +1168,7 @@ const linuxQuiz = [
     Distractor3: "delete",
     Explanation:
       "In Linux, rmdir is used to delete a directory.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   }
 ];
 
