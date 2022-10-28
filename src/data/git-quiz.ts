@@ -533,6 +533,16 @@ const gitQuiz = [
     Explanation:
       "git commit --amend  is the command used to change the latest commit message.",
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
+  },
+  {
+    Question: "How Should a Git commit message be?",
+    Answer: "It should be short, descriptive and in present tense",
+    Distractor1: "It should be longer",
+    Distractor2: "It should be in oneword",
+    Distractor3: "None of these",
+    Explanation:
+      "A good commit message should be short, descriptive and in present tense.",
+    Link: ""
   }
 ];
 
