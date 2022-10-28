@@ -1843,9 +1843,9 @@ const javascriptQuiz = [
     Answer: "35",
     Distractor1: "34",
     Distractor2: "true34",
-    Distractor3: "35",
+    Distractor3: "true",
     Explanation:
-      "Here the True gets converted to a number and gives out 1. Because 0 = false and 1 = true",
+      "Since true is converted to the number 1, then true + 34 would result in 35.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
   }
 ];
