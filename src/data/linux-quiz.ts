@@ -1169,6 +1169,15 @@ const linuxQuiz = [
     Explanation:
       "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
+  },
+  {
+    Question: "In Linux, which command is used to list last 10 lines of a file",
+    Answer: "tail -10 filename",
+    Distractor1: "bottom -10 filename",
+    Distractor2: "last -10 filename",
+    Distractor3: "filename -10",
+    Explanation: "This Command is used to list last 10 lines of a file",
+    Link: ""
   }
 ];
 
