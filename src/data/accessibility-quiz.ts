@@ -257,7 +257,7 @@ const accessibilityQuiz = [
     Distractor3:
       "Customizing the behavior",
     Explanation:
-      "COLOR ADJUSTMENTS are key for visual impairments.",
+      "Color adjustments are key for visual impairments.",
     Link: "https://www.acessibilidade.net/software/"
 ];
 
