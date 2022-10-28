@@ -1323,9 +1323,9 @@ const generalCSQuiz = [
   {
     Question: "What is underlining process behind the Merge Sort algorithm?",
     Answer: "Recursion",
-    Distractor1: "An Array",
-    Distractor2: "A Data Structure",
-    Distractor3: "Complex Alghorithms",
+    Distractor1: "String matching and parsing",
+    Distractor2: "backtracking",
+    Distractor3: "graph traversal",
     Explanation: "The Merge Sort algorithm works by breaking down an unsorted list into two halves, for this it uses Recursion.",
     Link: "https://www.freecodecamp.org/news/how-to-sort-recursively-in-python"
   }
