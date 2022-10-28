@@ -1,15 +1,17 @@
 const sqlQuiz = [
   {
-    Question: "Which of the following is not a commonly used SQL constraint?",  
+    Question: "Which of the following is not a commonly used SQL constraint?",
     Answer: "UPDATE",
     Distractor1: "CHECK",
     Distractor2: "DEFAULT",
     Distractor3: "UNIQUE",
-    Explanation: "In SQL, the UPDATE statement is used to modify the existing records in a table and therefore not a constraint.",
-    Link: "https://www.freecodecamp.org/news/best-sql-database-tutorial/",
+    Explanation:
+      "In SQL, the UPDATE statement is used to modify the existing records in a table and therefore not a constraint.",
+    Link: "https://www.freecodecamp.org/news/best-sql-database-tutorial/"
   },
   {
-    Question: "In SQL, which of the following is the correct syntax for creating a table?",  
+    Question:
+      "In SQL, which of the following is the correct syntax for creating a table?",
     Answer: "CREATE TABLE table_name (column1_name datatype, ...)",
     Distractor1: "CREATE TABLE table_name (int main void column_name)",
     Distractor2: "UPDATE TABLE table_name (column1_name datatype, ...)",
@@ -571,16 +573,6 @@ const sqlQuiz = [
     Explanation:
       "Database data can either be linked by one-to-one, one-to-many, or many-to-many relationships.",
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/"
-  },
-  {
-    Question: "In SQL, what does DDL stand for ",
-    Answer: "Data Definition Language",
-    Distractor1: "Data distinct Language",
-    Distractor2: "Data Decoded Language",
-    Distractor3: "Data Developer Language",
-    Explanation:
-      "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
-    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
   },
   {
     Question:
