@@ -1869,6 +1869,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, what is the classification for a 'function' and 'class'?",
+    Answer: "Declaration statements",
+    Distractor1: "Keywords",
+    Distractor2: "Data types",
+    Distractor3: "Variables",
+    Explanation:
+      "Both 'function' and 'class' are used in the beginning to declare a function and class respectively.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements"
+  },
+  {
+    Question:
       "In JavaScript, which of the following is NOT a composite data type?",
     Answer: "String",
     Distractor1: "Array",
