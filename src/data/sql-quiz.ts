@@ -677,6 +677,16 @@ const sqlQuiz = [
     Explanation:
       "The two types of Database Management Systems are relational and non-relational databases.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  },
+    {
+    Question: "In SQL, which of the following is not a DDL command?",
+    Answer: "DELETE",
+    Distractor1: "RENAME",
+    Distractor2: "TRUNCATE",
+    Distractor3: "COMMENT",
+    Explanation:
+      "DDL stands for Data Definition Language, but DELETE is a DML(Data Manipulation Language) command.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
   }
 ];
 
