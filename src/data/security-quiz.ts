@@ -1,16 +1,5 @@
 const securityQuiz = [
   {
-    Question:
-      "What is the use of a DNS Server?",
-    Answer:"Converts a domain name to an IP Address",
-    Distractor1:"Converts an IP Address to a domain name",
-    Distractor2:"Provides access tokens for login in the backend",
-    Distractor3:"Provides refresh tokens for login in the backend",
-    Explanation:
-      "DNS servers are responsible for translating domain names into IP addresses and use them to locate and connect to web servers.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-dns-server/",
-  },
-  {
    Question:
       "Which of the following terms involves sending packets of data to the target and interpreting their response?",
     Answer: "Scanning",
