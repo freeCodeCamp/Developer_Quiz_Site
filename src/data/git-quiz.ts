@@ -533,6 +533,16 @@ const gitQuiz = [
     Explanation:
       "git commit --amend  is the command used to change the latest commit message.",
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
+  },
+  {
+    Question: "In Git, How to log the previous commits in single line form?",
+    Answer: "git log --oneline",
+    Distractor1: "git log singleline",
+    Distractor2: "git single log",
+    Distractor3: "git log -1",
+    Explanation:
+      "git log --oneline is the command used to log the previous commits in single line form.",
+    Link: "https://www.javatpoint.com/git-log#:~:text=Git%20Log%20Oneline,%24%20git%20log%20%2D%2Doneline"
   }
 ];
 
