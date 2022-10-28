@@ -1169,6 +1169,17 @@ const linuxQuiz = [
     Explanation:
       "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used to display first 10 lines of a file?",
+    Answer: "head -10 'filename'",
+    Distractor1: "filename -10",
+    Distractor2: "filename -f",
+    Distractor3: "ls filename -10",
+    Explanation:
+      "The head command is used to display the first / top most content of a file.",
+    Link: "https://phoenixnap.com/kb/linux-head#:~:text=The%20Linux%20head%20command%20prints,easy%2Dto%2Dfollow%20examples."
   }
 ];
 
