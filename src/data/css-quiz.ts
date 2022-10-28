@@ -1198,7 +1198,7 @@ const cssQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/",
   },
   {
-    Question: "In CSS ,which of the following property can be used to set body color to black?",
+    Question: "In CSS, which of the following properties can be used to set the body color to black?",
     Answer: "background-color:black;",
     Distractor1: "body-color:black",
     Distractor2: "backgroundColor:black",
