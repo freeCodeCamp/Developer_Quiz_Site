@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import SelectQuiz from "./SelectQuiz";
 
-import { ALL_CATEGORIES, CATEGORY_NAMES, QuizQuestion } from "../constants";
-
+import { ALL_CATEGORIES, CATEGORY_NAMES } from "../constants";
+import { QuizQuestion } from "../types";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
 import Button from "./Button";

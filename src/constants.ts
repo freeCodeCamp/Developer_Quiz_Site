@@ -12,28 +12,18 @@ import pythonQuiz from "./data/python-quiz";
 import qualityAssuranceQuiz from "./data/quality-assurance-quiz";
 import securityQuiz from "./data/security-quiz";
 import sqlQuiz from "./data/sql-quiz";
-
-export interface QuizQuestion {
-  Question: string;
-  Answer: string;
-  Distractor1: string;
-  Distractor2: string;
-  Distractor3: string;
-  Explanation: string;
-  Link?: string;
-  Category?: string;
-}
+import { QuizQuestion } from "./types";
 
 export const CATEGORY_NAMES = {
   ACCESSIBILITY: "Accessibility",
   AGILE: "Agile",
   CSS: "CSS",
-  FREECODECAMP: "freecodecamp",
+  FREECODECAMP: "freeCodeCamp",
   GENERAL: "General Computer Science",
   GIT: "Git",
-  HTML: "Html",
-  JAVASCRIPT: "Javascript",
-  INFOTECH: "Infomation Technology",
+  HTML: "HTML",
+  JAVASCRIPT: "HTML",
+  INFOTECH: "Information Technology",
   LINUX: "Linux",
   PYTHON: "Python",
   SECURITY: "Security",
@@ -66,4 +56,4 @@ export const ALL_CATEGORIES = [
   ...addCategoryToQuiz(securityQuiz, CATEGORY_NAMES.SECURITY)
 ];
 
-export const ROUNDED_QUESTION_COUNT = 900;
+export const ROUNDED_QUESTION_COUNT = 1000;
