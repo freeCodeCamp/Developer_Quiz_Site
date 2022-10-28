@@ -292,7 +292,8 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
   },
   {
-    Question: "In a Scrum team, who needs to comply with the Definition of Done?",
+    Question:
+      "In a Scrum team, who needs to comply with the Definition of Done?",
     Answer: "The Scrum Team",
     Distractor1: "The Product Owner",
     Distractor2: "The Scrum Master",
@@ -302,7 +303,8 @@ const agileQuiz = [
     Link: "https://scrumguides.org/scrum-guide.html"
   },
   {
-    Question: "Who is accountable for establishing Scrum and Scrum Team's effectiveness?",
+    Question:
+      "Who is accountable for establishing Scrum and Scrum Team's effectiveness?",
     Answer: "The Scrum Master",
     Distractor1: "The Scrum Team",
     Distractor2: "The Product Owner and the Scrum Master",
