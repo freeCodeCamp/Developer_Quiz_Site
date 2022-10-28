@@ -1898,7 +1898,7 @@ const javascriptQuiz = [
     Explanation:
       "Since true is converted to the number 1, then true + 34 would result in 35.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
-}
+  }
 ];
 
 export default javascriptQuiz;
