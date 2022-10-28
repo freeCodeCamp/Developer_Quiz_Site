@@ -1842,9 +1842,9 @@ const javascriptQuiz = [
     Question:
       "How many types of Notations are used to fetch data from a obejct in JavaScript?",
     Answer: "2",
-    Distractor1: "3",
-    Distractor2: "1",
-    Distractor3: "2",
+    Distractor1: "1",
+    Distractor2: "8",
+    Distractor3: "13",
     Explanation:
       "There are two ways to fetch data from an object in JavaScript. Dot Notation and Bracket Notation.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
