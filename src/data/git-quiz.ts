@@ -357,7 +357,7 @@ const gitQuiz = [
   },
   {
     Question:
-      "In Git, what do you do right after resovling a merge conflict in a file?",
+      "In Git, what do you do right after resolving a merge conflict in a file?",
     Answer: "git add file_that_had_conflict",
     Distractor1: "git commit",
     Distractor2: "git status",

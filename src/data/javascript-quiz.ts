@@ -1873,6 +1873,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, how many ways can you access an object's properties?",
+    Answer: "2",
+    Distractor1: "1",
+    Distractor2: "8",
+    Distractor3: "13",
+    Explanation:
+      "To access data from an object in JavaScript, you can use either dot notation or bracket notation.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
+  },
+  {
+    Question:
       "In JavaScript, what is the classification for a 'function' and 'class'?",
     Answer: "Declaration statements",
     Distractor1: "Keywords",
@@ -1892,6 +1903,17 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript, a composite data type is defined as not being an object as well as having no properties or methods.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for the following code: console.log(true + 34)?",
+    Answer: "35",
+    Distractor1: "34",
+    Distractor2: "true34",
+    Distractor3: "true",
+    Explanation:
+      "Since true is converted to the number 1, then true + 34 would result in 35.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
   },
   {
     Question:
