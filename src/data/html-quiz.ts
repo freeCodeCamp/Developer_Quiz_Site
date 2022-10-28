@@ -1,5 +1,14 @@
 const htmlQuiz = [
   {
+    Question: "In HTML, which of the following is the correct way for showing how to import an external script?",
+    Answer: "<script src='index.js'></script>",
+    Distractor1: "<script add='index.js'></script>",
+    Distractor2: "<script adding-js='index.js'></script>",
+    Distractor3: "<script js='index.js'></script>",
+    Explanation: "If you want to show how to import an external script using the script element, then you will need to use the following syntax: <script src='index.js'></script>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+  },  
+  {
     Question: "In HTML, which tag is used to insert a favicon?",
     Answer: "<link>",
     Distractor1: "<fav>",
