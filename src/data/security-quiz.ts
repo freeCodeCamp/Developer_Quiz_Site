@@ -1,5 +1,4 @@
 const securityQuiz = [
-  
   {
     Question: "Which of the following is not an Attack model in cryptanalysis?",
     Answer: "CVA (Chosen Vector Attack)",

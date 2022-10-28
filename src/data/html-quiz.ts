@@ -7,8 +7,7 @@ const htmlQuiz = [
     Distractor3: "<script js="index.js"></script>",
     Explanation: "If you want to show how to import an external script using the script element, then you will need to use the following syntax: <script src="index.js"></script>",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
-  },
-    
+  },  
   {
     Question: "In HTML, which tag is used to insert a favicon?",
     Answer: "<link>",
