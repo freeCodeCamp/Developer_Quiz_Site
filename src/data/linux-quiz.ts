@@ -1169,6 +1169,17 @@ const linuxQuiz = [
     Explanation:
       "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used list files with its permissions and users access",
+    Answer: "ls -l",
+    Distractor1: "ls allusers",
+    Distractor2: "ls all",
+    Distractor3: "None of These",
+    Explanation:
+      "In linux, this command is used to long list the files which displays the permissions on files and user access",
+    Link: ""
   }
 ];
 
