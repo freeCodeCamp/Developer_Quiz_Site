@@ -1,13 +1,11 @@
 const htmlQuiz = [
   {
-    Question: "Which script code produces the output as Welcome to “Javascript” in HTML?",
-    Answer: "<script>var x="welcome to \"Javascript\"“; alert(x);</script>",
-    
-    Distractor1: "<script>var x="welcome to \"Javascript\"“; alert(x);</script>",
-    Distractor2: "<script>var x="welcome to "Javascript"“; alert(x);</script>",
-    Distractor3: "<script>var x="welcome to \"Javascript\"“; x. alert(x);</script>",
-  
-    Explanation: "It is the Use of Script Tag.",
+    Question: "In HTML, which of the following is the correct way for showing how to import an external script?",
+    Answer: "<script src="index.js"></script>",
+    Distractor1: "<script add="index.js"></script>",
+    Distractor2: "<script adding-js="index.js"></script>",
+    Distractor3: "<script js="index.js"></script>",
+    Explanation: "If you want to show how to import an external script using the script element, then you will need to use the following syntax: <script src="index.js"></script>",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
   },
     
