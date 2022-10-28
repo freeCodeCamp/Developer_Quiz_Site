@@ -1169,6 +1169,17 @@ const linuxQuiz = [
     Explanation:
       "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used to list all files with .js extenstion",
+    Answer: "ls *.js",
+    Distractor1: "ls js",
+    Distractor2: "ls .js files",
+    Distractor3: "None of These",
+    Explanation:
+      "In linux, this formatter with ls command can be used to list all files with similar postfix or extension",
+    Link: ""
   }
 ];
 
