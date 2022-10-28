@@ -1322,7 +1322,7 @@ const generalCSQuiz = [
   },
   {
     Question: "What is a String?",
-    Answer: "A Data Type that can contain many different characters",
+    Answer: "A data type that comprises of a sequence of characters",
     Distractor1: "An Array indicator for programming languages",
     Distractor2: "A Data Structure for data arrangement",
     Distractor3: "An Programme to do complex tasks",
