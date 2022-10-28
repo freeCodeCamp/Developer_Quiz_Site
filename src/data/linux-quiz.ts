@@ -1167,7 +1167,7 @@ const linuxQuiz = [
     Distractor2: "rdir",
     Distractor3: "delete",
     Explanation:
-      "In Linux, rmdir is used to delete a directory.",
+      "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   }
 ];
