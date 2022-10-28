@@ -1,16 +1,5 @@
 const securityQuiz = [
   {
-    Question:
-      "What is the name of the service that runs recursive DNS Servers?",
-    Answer: "Internet Service Providers",
-    Distractor1: "Netowrk Service Providers",
-    Distractor2: "SAML Service Provider",
-    Distractor3: "Application Service Provider",
-    Explanation:
-      "Recursive DNS servers are typically run by Internet Service Providers. These are the companies you pay for your internet access each month.",
-    Link: "https://www.freecodecamp.org/news/what-is-a-dns-server/",
-  },
-  {
     Question: "Which of the following is not an Attack model in cryptanalysis?",
     Answer: "CVA (Chosen Vector Attack)",
     Distractor1: "CPA (Chosen Plaintext Attack)",
