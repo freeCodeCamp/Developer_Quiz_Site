@@ -1925,6 +1925,16 @@ const javascriptQuiz = [
     Explanation:
       "The every() method returns true if all values in the array pass a condition and false if any value fails the condition.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+  },
+  {
+    Question: "In JavaScript, what does the forEach() method return?",
+    Answer: "undefined",
+    Distractor1: "true",
+    Distractor2: "false",
+    Distractor3: "null",
+    Explanation:
+      "forEach() always returns undefined. It makes no difference whether the return keyword is used or not.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
   }
 ];
 
