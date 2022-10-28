@@ -677,7 +677,7 @@ const sqlQuiz = [
     Distractor2: "AVG",
     Distractor3: "COUNT",
     Explanation:
-      "Aggregate functions do a particular task across database rows. CAST is used to convert one type of data value into another.",
+      "Aggregate functions do a particular task across database rows. CAST is not an aggregate function because it is used to convert one type of data value into another.",
     Link: "https://www.freecodecamp.org/news/sql-aggregate-functions-with-example-data-queries-for-beginners/"
   }
 ];
