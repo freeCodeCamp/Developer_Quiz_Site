@@ -1,7 +1,7 @@
 const securityQuiz = [
   {
     Question:
-      "Recursive DNS Servers are typically run by?",
+      "What is the name of the service that runs recursive DNS Servers?",
     Answer: "Internet Service Providers",
     Distractor1: "Netowrk Service Providers",
     Distractor2: "SAML Service Provider",
