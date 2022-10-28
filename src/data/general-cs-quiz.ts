@@ -1326,7 +1326,7 @@ const generalCSQuiz = [
     Distractor1: "String matching and parsing",
     Distractor2: "backtracking",
     Distractor3: "graph traversal",
-    Explanation: "The Merge Sort algorithm works by breaking down an unsorted list into two halves, for this it uses Recursion.",
+    Explanation: "The Merge Sort algorithm works by recursively breaking down an unsorted list into two halves until it reaches a point where it can no longer be broken down.",
     Link: "https://www.freecodecamp.org/news/how-to-sort-recursively-in-python"
   }
 ];
