@@ -1,13 +1,56 @@
 const linuxQuiz = [
   {
-    Question: "In Linux, which option is used with the uname command to print the node network name?",
+    Question: "In Git, which command is used to set limits on a file size?",
+    Answer: "ulimit",
+    Distractor1: "fsize",
+    Distractor2: "flimit -r",
+    Distractor3: "usize",
+    Explanation:
+      "ulimit is a Linux command that is used to get and set a limit on a file size.",
+    Link: "https://man7.org/linux/man-pages/man3/ulimit.3.html"
+  },
+  {
+    Question:
+      "In Linux, which one of the following commands can be used to create a symbolic link between files?",
+    Answer: "ln",
+    Distractor1: "ls",
+    Distractor2: "ln",
+    Distractor3: "link",
+    Explanation:
+      "In Linux, the ln command is used to make links between files.",
+    Link: "https://man7.org/linux/man-pages/man1/ln.1.html"
+  },
+  {
+    Question: "Which command finds memory being used by Linux?",
+    Answer: "All of these",
+    Distractor1: "free-m",
+    Distractor2: "htop",
+    Distractor3: "vmstat",
+    Explanation:
+      "The top command is used to display dynamic real-time information. You can use free-m, htop, top or vmstat to find memory being used by Linux.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-top-command"
+  },
+  {
+    Question:
+      "In Linux, which option is used with the uname command to print the processor architecture name?",
+    Answer: "-p",
+    Distractor1: "-arch",
+    Distractor2: "-ps",
+    Distractor3: "-pname",
+    Explanation:
+      "In Linux, the -p option can be used with the uname command to print the processor architecture name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
+  },
+  {
+    Question:
+      "In Linux, which option is used with the uname command to print the node network name?",
     Answer: "-n",
     Distractor1: "-network",
     Distractor2: "-node",
     Distractor3: "-ntwrk",
     Explanation:
-        "In Linux, the -n option can be used with the uname command to print the node network name.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command",
+      "In Linux, the -n option can be used with the uname command to print the node network name.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-uname-command"
   },
   {
     Question:
@@ -1050,6 +1093,83 @@ const linuxQuiz = [
       "In Linux, the -d or --directory option is used to list the directories but not the directory contents.",
     Link: "https://man7.org/linux/man-pages/man1/ls.1.html"
   },
+  {
+    Question:
+      "In Linux, how do you print the last column of a file named demo.txt?",
+    Answer: "awk '{print $NF}' demo.txt",
+    Distractor1: "awk '{print $0}' demo.txt",
+    Distractor2: "awk '{print $1, $4}' demo.txt",
+    Distractor3: "awk '/^print/' demo.txt",
+    Explanation:
+      "While using the awk command, you can use $NF which represents the last field in a record, to print the last column of a file",
+    Link: "https://www.freecodecamp.org/news/the-linux-awk-command-linux-and-unix-usage-syntax-examples/"
+  },
+  {
+    Question:
+      "In Linux, which command is used to strip directory and suffix from filenames?",
+    Answer: "basename",
+    Distractor1: "dirname",
+    Distractor2: "pwd",
+    Distractor3: "ls",
+    Explanation:
+      "The basename command can be used to print the filename from the given pathname. It will delete any prefix up to the last forward-slash character and return the result.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-basename-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used to display the amount of available free disk space for file systems?",
+    Answer: "df",
+    Distractor1: "du",
+    Distractor2: "free",
+    Distractor3: "top",
+    Explanation:
+      "The df command stands for disk-free and it is used to check the available disk space in Linux.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-df-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used to go back to the user's home directory?",
+    Answer: "cd ~",
+    Distractor1: "cd /",
+    Distractor2: "clear",
+    Distractor3: "ls -la",
+    Explanation:
+      "The cd ~ command can be used to get back to home directory in Linux.",
+    Link: "https://www.freecodecamp.org/news/linux-command-line-tutorial/"
+  },
+  {
+    Question:
+      "Which command is used in the Vim editor to delete a single character?",
+    Answer: "x",
+    Distractor1: "y",
+    Distractor2: "a",
+    Distractor3: "z",
+    Explanation:
+      "If you want to delete a single character in the Vim editor, you can use the x command.",
+    Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
+  },
+  {
+    Question:
+      "In Linux, which command is used to find the difference between two files?",
+    Answer: "diff",
+    Distractor1: "uniq",
+    Distractor2: "echo",
+    Distractor3: "chown",
+    Explanation:
+      "In Linux, you can use the diff command to display the difference between two files'.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-diff-command"
+  },
+  {
+    Question:
+      "In Linux, which the command is used to remove an empty directory?",
+    Answer: "rmdir",
+    Distractor1: "remove",
+    Distractor2: "rdir",
+    Distractor3: "delete",
+    Explanation:
+      "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
+  }
 ];
 
 export default linuxQuiz;

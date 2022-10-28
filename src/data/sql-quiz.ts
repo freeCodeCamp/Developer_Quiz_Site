@@ -1,5 +1,15 @@
 const sqlQuiz = [
   {
+    Question: "Which of the following is not a commonly used SQL constraint?",
+    Answer: "UPDATE",
+    Distractor1: "CHECK",
+    Distractor2: "DEFAULT",
+    Distractor3: "UNIQUE",
+    Explanation:
+      "In SQL, the UPDATE statement is used to modify the existing records in a table and therefore not a constraint.",
+    Link: "https://www.freecodecamp.org/news/best-sql-database-tutorial/"
+  },
+  {
     Question:
       "In SQL, which of the following is the correct syntax for creating a table?",
     Answer: "CREATE TABLE table_name (column1_name datatype, ...)",
@@ -565,16 +575,6 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/"
   },
   {
-    Question: "In SQL, what does DDL stand for ",
-    Answer: "Data Definition Language",
-    Distractor1: "Data distinct Language",
-    Distractor2: "Data Decoded Language",
-    Distractor3: "Data Developer Language",
-    Explanation:
-      "Some of the Data Definition Language commands include CREATE, ALTER, DROP, and TRUNCATE.",
-    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
-  },
-  {
     Question:
       "In SQL, which function rounds a number to a specified number of decimal places?",
     Answer: "ROUND()",
@@ -648,19 +648,38 @@ const sqlQuiz = [
     Distractor3: "ALTER TABLE BaseCamp SET TO BaseCamp_New ;",
     Explanation:
       "If you want to rename a table called BaseCamp to BaseCamp_New, then you would use the following syntax in MySQL: ALTER TABLE table_name RENAME TO new_table_name;",
-    Link: "https://www.freecodecamp.org/news/basic-sql-commands/",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/"
   },
   {
-    Question:
-      "In SQL, what does BLOB stand for?",
+    Question: "In SQL, what does BLOB stand for?",
     Answer: "Binary Large Object",
     Distractor1: "Bad Listed Object",
     Distractor2: "Bad Labelled Object",
     Distractor3: "Big Listed Object",
     Explanation:
       "BLOB stands for Binary Large Object and it is a SQL data type used to store large amounts of data.",
-    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/",
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
   },
+  {
+    Question: "In SQL, what are the two types of Database Management Systems?",
+    Answer: "relational databases and non-relational databases",
+    Distractor1: "functional and object oriented",
+    Distractor2: "procedural and relational",
+    Distractor3: "non-relational and assembly",
+    Explanation:
+      "The two types of Database Management Systems are relational and non-relational databases.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  },
+    {
+    Question: "In SQL, which of the following is not a DDL command?",
+    Answer: "DELETE",
+    Distractor1: "RENAME",
+    Distractor2: "TRUNCATE",
+    Distractor3: "COMMENT",
+    Explanation:
+      "DDL stands for Data Definition Language, but DELETE is a DML(Data Manipulation Language) command.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  }
 ];
 
 export default sqlQuiz;

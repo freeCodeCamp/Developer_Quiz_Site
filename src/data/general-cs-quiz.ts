@@ -1,4 +1,31 @@
 const generalCSQuiz = [
+   {
+    Question: "What is the best algorithm for matrix multiplication?",
+    Answer: "Strassen's Algorithm",
+    Distractor1: "Multiplication algorithm",
+    Distractor2: "Divide and Conquer Technique",
+    Distractor3: "None of the above",
+    Explanation: "Strassen's algorithm reduces the number of multiplication and addition in a given matrix and results in a time complexity of O(2.81)",
+    Link: "https://en.wikipedia.org/wiki/Strassen_algorithm#",
+  },
+  {
+    Question: "Which of the following sorting algorithms is stable in nature?",
+    Answer: "Merge Sort",
+    Distractor1: "Heap Sort",
+    Distractor2: "Quick Sort",
+    Distractor3: "Selection sort",
+    Explanation: "Stable sorting algorithms maintain the relative order of elements with equal values, or keys. Merge sort is stable in nature.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm",
+  },
+  {
+    Question: "Which of the following sorting algorithms has the same best-case and worst-case time complexities?",
+    Answer: "Merge Sort",
+    Distractor1: "Bubble Sort",
+    Distractor2: "Quick Sort",
+    Distractor3: "Selection sort",
+    Explanation: "Merge sort has a time complexity of O(nlogn) in all cases - best, average and worst.",
+    Link: "https://www.freecodecamp.org/news/merge-sort-algorithm-python-and-java-examples-with-time-complexity/",
+  },
   {
     Question: "What is Object-Oriented Programming?",
     Answer:
@@ -50,7 +77,7 @@ const generalCSQuiz = [
       "Which term is used for removing elements from the front of the queue?",
     Answer: "Dequeue.",
     Distractor1: "Enqueue.",
-    Distractor2: "Peek.",
+    Distractor2: "Peek.", 
     Distractor3: "isFull.",
     Explanation:
       "Dequeue is the term for removing elements from the front of the queue.",
@@ -1281,6 +1308,37 @@ const generalCSQuiz = [
     Explanation:
       "An O(branches ^ depth) runtime is often reported (although not always) for recursive functions that make multiple calls.",
     Link: "https://www.freecodecamp.org/news/learn-big-o-notation/"
+  },
+  {
+    Question:
+      "What is the worst case time complexity for binary and linear search?",
+    Answer: "binary search is O(logn) and linear search is O(n)",
+    Distractor1: "binary search is O(n) and linear search is O(logn)",
+    Distractor2: "binary search is O(n) and linear search is O(n)",
+    Distractor3: "binary search is O(logn) and linear search is O(logn)",
+    Explanation:
+      "The worst case time complexity for linear search O(n) because we have to iterate through n elements. The worst case time complexity for binary search is O(logn) because it is a divide and conquer algorithm.",
+    Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
+  },
+  {
+    Question:"What is the worst case time complexity for Bubble sort?",
+    Answer: "O(n^2)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(nlogn)",
+    Explanation:
+      "Bubble sort has a worst case time complexity of O(n^2), which is slow compared to other sorting algorithms.",
+    Link: "https://www.freecodecamp.org/news/bubble-sort/"
+  },
+  {
+    Question:"Which of the following time complexities is considered to be the fastest?",
+    Answer: "O(1)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(nlogn)",
+    Explanation:
+      "O(1) is independent of input size so it remains in constant time regardless of the size of the input.",
+    Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
   }
 ];
 

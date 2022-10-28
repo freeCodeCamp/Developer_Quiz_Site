@@ -1194,9 +1194,50 @@ const cssQuiz = [
     Distractor1: ":nth-last-child",
     Distractor2: ":last-child",
     Distractor3: ":last",
+    Explanation: "We can use the :last-of-type selector to target an element of a specific type within a container.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/",
+  },
+  {
+    Question: "In CSS, which of the following properties can be used to set the body color to black?",
+    Answer: "background-color:black;",
+    Distractor1: "body-color:black",
+    Distractor2: "backgroundColor:black",
+    Distractor3: "color:black",
+    Explanation: "In CSS, the background-color property is used to set the color of the background.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
+  },
+  {
+    Question:
+      "Which of the following is the correct syntax for an attribute selector in CSS?",
+    Answer: "selector[attribute='value']",
+    Distractor1: "container[value]",
+    Distractor2: "attribute[value]",
+    Distractor3: "value[attribute]",
     Explanation:
-      "We can use the :last-of-type selector to target an element of a specific type within a container.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type/"
+      "The correct syntax for an attribute selector in CSS is selector[attribute='value'].",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors"
+  },
+  {
+    Question:
+      "Which of the following CSS properties is used to add a stroke in the text?",
+    Answer: "text-stroke",
+    Distractor1: "text-transform",
+    Distractor2: "text-decoration",
+    Distractor3: "None of the above",
+    Explanation:
+      "text-stroke is a CSS property that is used to add a stroke in the text.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/-webkit-text-stroke"
+  },
+  {
+    Question:
+      "In CSS, which property is used to apply a groove style to the border?",
+    Answer: "border-style",
+    Distractor1: "border-bottom-color",
+    Distractor2: "border-length",
+    Distractor3: "border-width",
+    Explanation:
+      "You can use border-style: groove; to specify groove border styles around HTML elements.",
+    Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
   }
 ];
 

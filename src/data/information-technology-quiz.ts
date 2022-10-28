@@ -1,12 +1,35 @@
 const informationTechnologyQuiz = [
   {
-    Question: "For a Class A IP address, which octet represents the network ID?",
+    Question:
+      "What is the name of the service that runs recursive DNS Servers?",
+    Answer: "Internet Service Providers",
+    Distractor1: "Netowrk Service Providers",
+    Distractor2: "SAML Service Provider",
+    Distractor3: "Application Service Provider",
+    Explanation:
+      "Recursive DNS servers are typically run by Internet Service Providers. These are the companies you pay for your internet access each month.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-dns-server/",
+  },
+  {
+    Question: "What is the use of a DNS Server?",
+    Answer:"Converts a domain name to an IP Address",
+    Distractor1:"Converts an IP Address to a domain name",
+    Distractor2:"Provides access tokens for login in the backend",
+    Distractor3:"Provides refresh tokens for login in the backend",
+    Explanation:
+      "DNS servers are responsible for translating domain names into IP addresses and use them to locate and connect to web servers.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-dns-server/",
+  },
+  {
+    Question:
+      "For a Class A IP address, which octet represents the network ID?",
     Answer: "First octet",
     Distractor1: "Second octet",
     Distractor2: "Third octet",
     Distractor3: "Fourth octet",
-    Explanation: "For Class A IP addresses,  the first octet (8 bits / 1 byte) represents the network ID, and the remaining three octets (24 bits / 3 bytes) represent the host ID.",
-    Link: "https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/",
+    Explanation:
+      "For Class A IP addresses,  the first octet (8 bits / 1 byte) represents the network ID, and the remaining three octets (24 bits / 3 bytes) represent the host ID.",
+    Link: "https://www.freecodecamp.org/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/"
   },
   {
     Question:
@@ -508,6 +531,16 @@ const informationTechnologyQuiz = [
     Explanation:
       "SPF allows the owner of a domain (like google.com) to set a TXT record in its DNS that states which servers are allowed to send mail from that domain.",
     Link: "https://www.freecodecamp.org/news/how-does-email-work/"
+  },
+  {
+    Question: "What is the correct command to flush your DNS in Windows?",
+    Answer: "ipconfig /flushdns",
+    Distractor1: "ifconfig",
+    Distractor2: "flushdns",
+    Distractor3: "ipconfig /flushdns",
+    Explanation:
+      "To flush your DNS, 'ipconfig /flushdns' is the correct command on Windows. This means that your cache has been completely cleared, and fresh versions of any website you visit will be loaded.",
+    Link: "https://www.freecodecamp.org/news/flushdns-how-to-flush-dns-with-the-windows-ipconfig-flushdns-command/"
   }
 ];
 
