@@ -8,7 +8,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "Integration",
     Explanation:
       "Regression testing is done on a new build to ensure that new functionality has not unintentionally broken previously tested functionality.",
-    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/"
   },
   {
     Question:
@@ -19,7 +19,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "It's what happens during end to end testing.",
     Explanation:
       "If you truly try to test every aspect and test case in your software, it will take too much time and effort, and it's not practical.",
-    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#software-testing-principles",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#software-testing-principles"
   },
   {
     Question: "What do the terms QA and QC stand for?",
@@ -29,7 +29,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "Quality Assessment and Quality Computing",
     Explanation:
       "Quality Assurance (commonly known as QA) and Quality Control (commonly known as QC)",
-    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/"
   },
   {
     Question: "What type of test involves catching errors while writing code?",
@@ -39,7 +39,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "End to End",
     Explanation:
       "One of the most common sources of bugs is related to typos and incorrect types. Static Analysis Testing lets you catch typos and type errors as you write the code.",
-    Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-2-part-3-be699ee7be60/",
+    Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-2-part-3-be699ee7be60/"
   },
   {
     Question:
@@ -50,7 +50,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "End to End",
     Explanation:
       "Unit Testing lets us verify that individual, isolated parts work as expected.",
-    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing"
   },
   {
     Question:
@@ -61,7 +61,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "End to End",
     Explanation:
       "Integration Testing lets us verify that several units work together in harmony.",
-    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing"
   },
   {
     Question:
@@ -72,7 +72,7 @@ const qualityAssuranceQuiz = [
     Distractor3: "Integration",
     Explanation:
       "End to End tests typically run the entire application (both frontend and backend) and your test will interact with the app just like a typical user would.",
-    Link: "https://www.freecodecamp.org/news/end-to-end-testing-tutorial/",
+    Link: "https://www.freecodecamp.org/news/end-to-end-testing-tutorial/"
   },
   {
     Question:
@@ -84,19 +84,17 @@ const qualityAssuranceQuiz = [
     Distractor3: "Using software tests saves money.",
     Explanation:
       "Even if the app is 99% bug free, if it doesn't meet consumer requirements or fulfill the original user requirements it is useless.",
-    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/"
   },
   {
-    Question:
-      "What are regression tests?",
-    Answer:
-      "Re-applying tests at later stages of development.",
+    Question: "What are regression tests?",
+    Answer: "Re-applying tests at later stages of development.",
     Distractor1: "Only testing individual units of code",
     Distractor2: "tests that check for basic functionality only",
     Distractor3: "There is no such thing as regression tests",
     Explanation:
       "Regression tests refers to re-applying tests at later stages of development to ensure they still work.",
-    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/"
   },
   {
     Question:
@@ -107,19 +105,18 @@ const qualityAssuranceQuiz = [
     Distractor3: "Integration",
     Explanation:
       "In system testing, the quality assurance team evaluates how each component of the application/software work together in a full, integrated environment.",
-    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#types-of-software-testing"
   },
   {
-    Question:
-      "What does the term TDD stand for?",
+    Question: "What does the term TDD stand for?",
     Answer: "Test-Driven Development",
-    Distractor1:  "Test-Driving Development",
-    Distractor2:  "Test-Distributing Development",
-    Distractor3:  "Test-Distinct Development",
-    Explanation:  
+    Distractor1: "Test-Driving Development",
+    Distractor2: "Test-Distributing Development",
+    Distractor3: "Test-Distinct Development",
+    Explanation:
       "Test-driven development is the act of first deciding what you want your program to do (the specifications), formulating a failing test, then writing the code to make that test pass.",
-    Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/",
-  },
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/"
+  }
 ];
 
 export default qualityAssuranceQuiz;
