@@ -1321,7 +1321,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
-    Question:"What are Open Source Software?",
+    Question:"What is Open Source Software?",
     Answer: "Software which code is publicly available for people to view, modify, and share.",
     Distractor1: "Software owned by Big Tech Companies",
     Distractor2: "Software Which cannot be used by everyone",
