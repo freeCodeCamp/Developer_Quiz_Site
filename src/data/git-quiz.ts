@@ -534,6 +534,16 @@ const gitQuiz = [
       "git commit --amend  is the command used to change the latest commit message.",
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
+  {
+    Question: "Shorthand command to stage all changes in Git?",
+    Answer: "git -m -a 'commit message'",
+    Distractor1: "git add -m 'commit message'",
+    Distractor2: "git commit all 'commit message'",
+    Distractor3: "git add commit -m 'commit message'",
+    Explanation:
+      "This Shorthand Command is used to stage all changes in Git. It is used to commit all changes in the current directory and its subdirectories.",
+    Link: ""
+  }
 ];
 
 export default gitQuiz;
