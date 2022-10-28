@@ -1321,7 +1321,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/search-algorithms-linear-and-binary-search-explained/"
   },
   {
-    Question:"What are Proprietary Software?",
+    Question:"What is Proprietary Software?",
     Answer: "Software which is owned by an organization or an individual.",
     Distractor1: "Software which code is publicly available for people to modify, share.",
     Distractor2: "Software Which can be used by everyone for free",
