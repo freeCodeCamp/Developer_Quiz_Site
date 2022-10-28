@@ -1197,7 +1197,7 @@ const cssQuiz = [
     Distractor1: "body-color:black",
     Distractor2: "backgroundColor:black",
     Distractor3: "color:black",
-    Explanation: "We can use the background color property to set the color of the background.",
+    Explanation: "In CSS, the background-color property is used to set the color of the background.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color",
   }
 ];
