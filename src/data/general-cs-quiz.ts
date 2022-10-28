@@ -1322,7 +1322,7 @@ const generalCSQuiz = [
   },
   {
     Question:"What is Open Source Software?",
-    Answer: "Software which code is publicly available for people to view, modify, and share.",
+    Answer: "A type of software where the code is publicly available for people to view, modify, and share.",
     Distractor1: "Software owned by Big Tech Companies",
     Distractor2: "Software developed by Facebook",
     Distractor3: "Software which code cannot seen by anyone",
