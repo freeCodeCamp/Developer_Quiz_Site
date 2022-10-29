@@ -1161,6 +1161,17 @@ const linuxQuiz = [
   },
   {
     Question:
+      "In Linux, which command is used to used to securely remove data?",
+    Answer: "shred",
+    Distractor1: "rm",
+    Distractor2: "mkdir",
+    Distractor3: "dd",
+    Explanation:
+      "The shred command helps to overwrite the data in place several times. This makes it harder for third party software and hardware probing to recover the data. That is why it's commonly used to securely remove data.",
+    Link: "https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/"
+  },
+  {
+    Question:
       "In Linux, which the command is used to remove an empty directory?",
     Answer: "rmdir",
     Distractor1: "remove",

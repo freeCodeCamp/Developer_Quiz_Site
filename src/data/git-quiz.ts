@@ -357,7 +357,7 @@ const gitQuiz = [
   },
   {
     Question:
-      "In Git, what do you do right after resovling a merge conflict in a file?",
+      "In Git, what do you do right after resolving a merge conflict in a file?",
     Answer: "git add file_that_had_conflict",
     Distractor1: "git commit",
     Distractor2: "git status",
@@ -543,6 +543,27 @@ const gitQuiz = [
     Explanation:
       "git log --oneline is the command used to log the previous commits in single line form.",
     Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
+  },
+  {
+    Question: "In Git, what does a good commit message look like?",
+    Answer: "It should be short, descriptive and in present tense",
+    Distractor1: "It should be long",
+    Distractor2: "It should be in one word",
+    Distractor3: "None of these",
+    Explanation:
+      "A good commit message should be short, descriptive and in present tense.",
+    Link: "https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/"
+  },
+  {
+    Question:
+      "In Git, what is the shorthand command to stage and commit all changes?",
+    Answer: "git commit -am  '<commit message>'",
+    Distractor1: "git add -m 'commit message'",
+    Distractor2: "git commit all 'commit message'",
+    Distractor3: "git add commit -m 'commit message'",
+    Explanation:
+      "git commit -am  '<commit message>' is used to stage and commit all changes in the current directory and its subdirectories.",
+    Link: "https://git-scm.com/docs/git-commit"
   }
 ];
 
