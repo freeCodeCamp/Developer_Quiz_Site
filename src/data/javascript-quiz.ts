@@ -1903,6 +1903,60 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript, a composite data type is defined as not being an object as well as having no properties or methods.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for the following code: console.log(true + 34)?",
+    Answer: "35",
+    Distractor1: "34",
+    Distractor2: "true34",
+    Distractor3: "true",
+    Explanation:
+      "Since true is converted to the number 1, then true + 34 would result in 35.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
+  },
+  {
+    Question:
+      "In JavaScript, how many parameters does the forEach() method take?",
+    Answer: "3",
+    Distractor1: "1",
+    Distractor2: "2",
+    Distractor3: "4",
+    Explanation:
+      "The forEach() method takes 3 parameters: the current value, the index, and the array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+  },
+  {
+    Question:
+      "In JavaScript, how many parameters does the reduce() method take?",
+    Answer: "4",
+    Distractor1: "1",
+    Distractor2: "2",
+    Distractor3: "3",
+    Explanation:
+      "The reduce() method takes 4 parameters: the accumulator, the current value, the index, and the array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce"
+  },
+  {
+    Question:
+      "In JavaScript, which array method returns true if ALL values pass a condition?",
+    Answer: "every()",
+    Distractor1: "some()",
+    Distractor2: "filter()",
+    Distractor3: "find()",
+    Explanation:
+      "The every() method returns true if all values in the array pass a condition and false if any value fails the condition.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+  },
+  {
+    Question: "In JavaScript, what does the forEach() method return?",
+    Answer: "undefined",
+    Distractor1: "true",
+    Distractor2: "false",
+    Distractor3: "null",
+    Explanation:
+      "forEach() always returns undefined. It makes no difference whether the return keyword is used or not.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
   }
 ];
 
