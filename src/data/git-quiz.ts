@@ -535,7 +535,7 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
-    Question: "In Git, How to log the previous commits in single line form?",
+    Question: "In Git, which command logs the previous commits in single line form?",
     Answer: "git log --oneline",
     Distractor1: "git log singleline",
     Distractor2: "git single log",
