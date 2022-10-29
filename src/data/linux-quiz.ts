@@ -1178,7 +1178,7 @@ const linuxQuiz = [
     Distractor2: "create filename",
     Distractor3: "None of the above",
     Explanation:
-      "This command is used to create a new file using terminal and open it in the Vim editor.",
+      "vi filename.extention is used to create a new file using the terminal and open it in the Vim editor.",
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   }
 ];
