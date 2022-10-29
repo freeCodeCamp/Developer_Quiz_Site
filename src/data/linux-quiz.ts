@@ -1172,7 +1172,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, which command is used to display first 10 lines of a file?",
+      "In Linux, which command is used to display the first 10 lines of a file?",
     Answer: "head -10 'filename'",
     Distractor1: "filename -10",
     Distractor2: "filename -f",
