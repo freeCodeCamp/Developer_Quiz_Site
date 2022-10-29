@@ -1177,7 +1177,7 @@ const linuxQuiz = [
     Distractor2: "last -10 filename",
     Distractor3: "filename -10",
     Explanation: "tail -10 filename is used to list the last 10 lines of a file.",
-    Link: ""
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
