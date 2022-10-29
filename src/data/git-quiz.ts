@@ -541,7 +541,7 @@ const gitQuiz = [
     Distractor2: "git commit all 'commit message'",
     Distractor3: "git add commit -m 'commit message'",
     Explanation:
-      "This Shorthand Command is used to stage all changes in Git. It is used to commit all changes in the current directory and its subdirectories.",
+      "git commit -am  '<commit message>' is used to stage and commit all changes in the current directory and its subdirectories.",
     Link: ""
   }
 ];
