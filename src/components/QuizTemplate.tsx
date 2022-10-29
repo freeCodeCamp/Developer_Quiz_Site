@@ -31,6 +31,9 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(true);
   // Category Questions
+  //TODO: Use an object https://www.freecodecamp.org/news/react-hooks-cheatsheet/
+  const [questionScoreList, setQuestionScoreList] = useState({});
+
   const [accessibilityQuestionsCorrect, setAccessibilityQuestionsCorrect] =
     useState(0);
   const [agileQuestionsCorrect, setAgileQuestionsCorrect] = useState(0);
@@ -232,7 +235,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     <>
       <Button
         handleClick={QuizProps.home}
-        text='Home'
+        text="Home"
         isTransparent={false}
         size={""}
       />

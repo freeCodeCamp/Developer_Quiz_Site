@@ -8,3 +8,8 @@ export interface QuizQuestion {
   Link?: string;
   Category?: string;
 }
+
+export interface ScoreData {
+  Category: string;
+  Score: number;
+}
