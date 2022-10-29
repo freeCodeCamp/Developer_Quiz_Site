@@ -1172,7 +1172,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, which command is used to list all files with .js extenstion",
+      "In Linux, which command is used to list all files with the .js extension?",
     Answer: "ls *.js",
     Distractor1: "ls js",
     Distractor2: "ls .js files",
