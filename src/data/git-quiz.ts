@@ -533,6 +533,16 @@ const gitQuiz = [
     Explanation:
       "git commit --amend  is the command used to change the latest commit message.",
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
+  },
+  {
+    Question: "How to unstage a staged file in git ?",
+    Answer: "git restore --staged <file-path>",
+    Distractor1: "git unstage <file-name>",
+    Distractor2: "git restore <file-name>",
+    Distractor3: "git restore --staged <file-path>",
+    Explanation:
+      "git restore --staged <file-path> command is used to unstage a staged file in git.",
+    Link: "https://www.git-tower.com/learn/git/commands/git-restore"
   }
 ];
 
