@@ -1189,7 +1189,7 @@ const linuxQuiz = [
     Distractor2: "filename -f",
     Distractor3: "ls filename -10",
     Explanation:
-      "The head command is used to display the first / top most content of a file.",
+      "The head -10 'filename' command is used to display the first 10 lines of a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
    },
    {
