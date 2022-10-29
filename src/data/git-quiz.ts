@@ -542,7 +542,7 @@ const gitQuiz = [
     Distractor3: "None of these",
     Explanation:
       "A good commit message should be short, descriptive and in present tense.",
-    Link: ""
+   Link: "https://www.freecodecamp.org/news/how-to-write-better-git-commit-messages/"
   }
 ];
 
