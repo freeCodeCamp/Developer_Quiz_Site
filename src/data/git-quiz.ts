@@ -535,6 +535,16 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
+    Question: "Which one of the following is the default text editor in Git Bash?",
+    Answer: "Vim",
+    Distractor1: "Emacs",
+    Distractor2: "Nano",
+    Distractor3: "VS Code",
+    Explanation:
+      "Vim stands for Vi Improved and it is terminal based text editor used among Linux users. You can open the editor by using the following command: vi fileName"",
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
+  },
+  {
     Question: "How do you unstage a staged file in git?",
     Answer: "git restore --staged <file-path>",
     Distractor1: "git unstage <file-path>",
