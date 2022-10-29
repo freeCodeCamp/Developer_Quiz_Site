@@ -1651,7 +1651,7 @@ const htmlQuiz = [
   }
   {
   Question:
-  "In HTML, which attribute is used to increase speed of marquee? ",
+  "In HTML, which attribute is used to increase the speed for the deprecated marquee tag? ",
 Answer: "scrollamount",
 Distractor1:"speed",
 Distractor2:"markspeed",
