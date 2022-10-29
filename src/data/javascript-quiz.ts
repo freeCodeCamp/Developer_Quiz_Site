@@ -1,6 +1,7 @@
 const javascriptQuiz = [
   {
-    Question: "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
+    Question:
+      "In JavaScript, if let x='Prakhar', then what will be the result for console.log(x.substring(2,5))?",
     Answer: "akh",
     Distractor1: "akaha",
     Distractor2: "aka",
@@ -10,16 +11,19 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-substring-examples-slice-substr-and-substring-methods-in-js/"
   },
   {
-    Question: "In JavaScript, what is the range of numbers returned from the Math.random() method?",
+    Question:
+      "In JavaScript, what is the range of numbers returned from the Math.random() method?",
     Answer: "Between 0 and 1 (including 0; not including 1).",
     Distractor1: "Between 0 and 1 (including neither 0 or 1).",
     Distractor2: "Between 0 and 1 (including 1; not including 0).",
     Distractor3: "Between 0 and 100 (including 0; not including 100).",
-    Explanation: "Math.random() returns a floating point (decimal) number that is less than one and greater than or equal to zero.",
+    Explanation:
+      "Math.random() returns a floating point (decimal) number that is less than one and greater than or equal to zero.",
     Link: "https://www.freecodecamp.org/news/javascript-math-random-method-explained/"
   },
   {
-    Question: "In JavaScript, what is the difference between the indexOf() and search() methods?",
+    Question:
+      "In JavaScript, what is the difference between the indexOf() and search() methods?",
     Answer: "indexOf() can take a second parameter while search() cannot",
     Distractor1: "Both methods are the same",
     Distractor2: "indexOf() only takes regular expressions",
@@ -1869,6 +1873,17 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, how many ways can you access an object's properties?",
+    Answer: "2",
+    Distractor1: "1",
+    Distractor2: "8",
+    Distractor3: "13",
+    Explanation:
+      "To access data from an object in JavaScript, you can use either dot notation or bracket notation.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Property_accessors"
+  },
+  {
+    Question:
       "In JavaScript, what is the classification for a 'function' and 'class'?",
     Answer: "Declaration statements",
     Distractor1: "Keywords",
@@ -1888,6 +1903,60 @@ const javascriptQuiz = [
     Explanation:
       "In JavaScript, a composite data type is defined as not being an object as well as having no properties or methods.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Primitive"
+  },
+  {
+    Question:
+      "In JavaScript, what is the result for the following code: console.log(true + 34)?",
+    Answer: "35",
+    Distractor1: "34",
+    Distractor2: "true34",
+    Distractor3: "true",
+    Explanation:
+      "Since true is converted to the number 1, then true + 34 would result in 35.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/Type_coercion"
+  },
+  {
+    Question:
+      "In JavaScript, how many parameters does the forEach() method take?",
+    Answer: "3",
+    Distractor1: "1",
+    Distractor2: "2",
+    Distractor3: "4",
+    Explanation:
+      "The forEach() method takes 3 parameters: the current value, the index, and the array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+  },
+  {
+    Question:
+      "In JavaScript, how many parameters does the reduce() method take?",
+    Answer: "4",
+    Distractor1: "1",
+    Distractor2: "2",
+    Distractor3: "3",
+    Explanation:
+      "The reduce() method takes 4 parameters: the accumulator, the current value, the index, and the array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce"
+  },
+  {
+    Question:
+      "In JavaScript, which array method returns true if ALL values pass a condition?",
+    Answer: "every()",
+    Distractor1: "some()",
+    Distractor2: "filter()",
+    Distractor3: "find()",
+    Explanation:
+      "The every() method returns true if all values in the array pass a condition and false if any value fails the condition.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+  },
+  {
+    Question: "In JavaScript, what does the forEach() method return?",
+    Answer: "undefined",
+    Distractor1: "true",
+    Distractor2: "false",
+    Distractor3: "null",
+    Explanation:
+      "forEach() always returns undefined. It makes no difference whether the return keyword is used or not.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
   }
 ];
 

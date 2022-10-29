@@ -1625,15 +1625,27 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/tutorial/datastructures.html"
   },
   {
+    Question:
+      "Which version of Python introduced the math.perm() and math.prod() functions?",
+    Answer: "Python 3.8",
+    Distractor1: "Python 3.7",
+    Distractor2: "Python 3.9",
+    Distractor3: "Python 3.3",
+    Explanation:
+      "The release of Python 3.8 introduced the math.perm() and math.prod() functions.",
+    Link: "https://docs.python.org/3.8/library/math.html#math.perm"
+  },
+  {
     Question: "Which of the following is a built-in function in Python?",
     Answer: "print()",
     Distractor1: "perm()",
     Distractor2: "mainloop()",
     Distractor3: "getcwd()",
-    Explanation: "Python's built in print() function is used to print messages to the screen.",
+    Explanation:
+      "Python's built in print() function is used to print messages to the screen.",
     Link: "https://docs.python.org/3/library/functions.html#print"
   },
-  
+
   {
     Question: "In Python, which of the following is NOT a built-in data type?",
     Answer: "class",
@@ -1642,7 +1654,7 @@ const pythonQuiz = [
     Distractor3: "frozenset",
     Explanation: "In Python, a class is a user defined data type.",
     Link: "https://docs.python.org/3/library/datatypes.html"
-  },
+  }
 ];
 
 export default pythonQuiz;
