@@ -535,7 +535,7 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
-    Question: "How Should a Git commit message be?",
+    Question: "In Git, what does a good commit message look like?",
     Answer: "It should be short, descriptive and in present tense",
     Distractor1: "It should be long",
     Distractor2: "It should be in one word",
