@@ -535,7 +535,7 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
-    Question: "Shorthand command to stage all changes in Git?",
+    Question: "In Git, what is the shorthand command to stage and commit all changes?",
     Answer: "git -m -a 'commit message'",
     Distractor1: "git add -m 'commit message'",
     Distractor2: "git commit all 'commit message'",
