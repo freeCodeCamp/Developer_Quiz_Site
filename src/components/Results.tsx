@@ -3,11 +3,7 @@ import { CATEGORY_NAMES } from "../constants";
 import { ScoreData } from "../types";
 import ResultsModal from "./ResultsByCategoryModal";
 
-interface PointTotals {
-  points: number;
-  totalPoints: number;
-  resetQuiz: MouseEventHandler<HTMLButtonElement>;
-  hideResultsBreakdown: MouseEventHandler;
+interface QuestionCategories {
   agileQuestionsCorrect: number;
   accessibilityQuestionsCorrect: number;
   cssQuestionsCorrect: number;
@@ -21,6 +17,14 @@ interface PointTotals {
   qualityAssuranceQuestionsCorrect: number;
   securityQuestionsCorrect: number;
   sqlQuestionsCorrect: number;
+}
+
+interface PointTotals {
+  points: number;
+  totalPoints: number;
+  resetQuiz: MouseEventHandler<HTMLButtonElement>;
+  hideResultsBreakdown: MouseEventHandler;
+  questionCategories: QuestionCategories;
   show: boolean;
 }
 
@@ -32,55 +36,55 @@ const Results: React.FC<PointTotals> = PointTotals => {
 
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.AGILE,
-    Score: PointTotals.agileQuestionsCorrect
+    Score: PointTotals.questionCategories.agileQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.ACCESSIBILITY,
-    Score: PointTotals.accessibilityQuestionsCorrect
+    Score: PointTotals.questionCategories.accessibilityQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.CSS,
-    Score: PointTotals.cssQuestionsCorrect
+    Score: PointTotals.questionCategories.cssQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.GENERAL,
-    Score: PointTotals.generalCSQuestionsCorrect
+    Score: PointTotals.questionCategories.generalCSQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.GIT,
-    Score: PointTotals.gitQuestionsCorrect
+    Score: PointTotals.questionCategories.gitQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.HTML,
-    Score: PointTotals.htmlQuestionsCorrect
+    Score: PointTotals.questionCategories.htmlQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.INFOTECH,
-    Score: PointTotals.infoTechQuestionsCorrect
+    Score: PointTotals.questionCategories.infoTechQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.JAVASCRIPT,
-    Score: PointTotals.javascriptQuestionsCorrect
+    Score: PointTotals.questionCategories.javascriptQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.LINUX,
-    Score: PointTotals.linuxQuestionsCorrect
+    Score: PointTotals.questionCategories.linuxQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.PYTHON,
-    Score: PointTotals.pythonQuestionsCorrect
+    Score: PointTotals.questionCategories.pythonQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.SQL,
-    Score: PointTotals.sqlQuestionsCorrect
+    Score: PointTotals.questionCategories.sqlQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.QUALITYASSURANCE,
-    Score: PointTotals.qualityAssuranceQuestionsCorrect
+    Score: PointTotals.questionCategories.qualityAssuranceQuestionsCorrect
   });
   scoreTotalArray.push({
     Category: CATEGORY_NAMES.SECURITY,
-    Score: PointTotals.securityQuestionsCorrect
+    Score: PointTotals.questionCategories.securityQuestionsCorrect
   });
 
   return (

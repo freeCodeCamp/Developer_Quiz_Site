@@ -11,22 +11,10 @@ describe("Results", () => {
       <Results
         points={0}
         totalPoints={10}
-        generalCSQuestionsCorrect={0}
-        cssQuestionsCorrect={0}
-        agileQuestionsCorrect={0}
-        accessibilityQuestionsCorrect={0}
         resetQuiz={undefined}
         show={false}
         hideResultsBreakdown={undefined}
-        gitQuestionsCorrect={0}
-        htmlQuestionsCorrect={0}
-        infoTechQuestionsCorrect={0}
-        javascriptQuestionsCorrect={0}
-        linuxQuestionsCorrect={0}
-        pythonQuestionsCorrect={0}
-        qualityAssuranceQuestionsCorrect={0}
-        securityQuestionsCorrect={0}
-        sqlQuestionsCorrect={0}
+        questionCategories={undefined}
       />,
       div
     );
@@ -36,22 +24,10 @@ describe("Results", () => {
       <Results
         points={0}
         totalPoints={10}
-        generalCSQuestionsCorrect={0}
-        cssQuestionsCorrect={0}
-        agileQuestionsCorrect={0}
-        accessibilityQuestionsCorrect={0}
         resetQuiz={undefined}
         show={false}
         hideResultsBreakdown={undefined}
-        gitQuestionsCorrect={0}
-        htmlQuestionsCorrect={0}
-        infoTechQuestionsCorrect={0}
-        javascriptQuestionsCorrect={0}
-        linuxQuestionsCorrect={0}
-        pythonQuestionsCorrect={0}
-        qualityAssuranceQuestionsCorrect={0}
-        securityQuestionsCorrect={0}
-        sqlQuestionsCorrect={0}
+        questionCategories={undefined}
       />
     );
     expect(
@@ -63,22 +39,10 @@ describe("Results", () => {
       <Results
         points={10}
         totalPoints={10}
-        generalCSQuestionsCorrect={0}
-        cssQuestionsCorrect={0}
-        agileQuestionsCorrect={0}
-        accessibilityQuestionsCorrect={0}
         resetQuiz={undefined}
         show={false}
         hideResultsBreakdown={undefined}
-        gitQuestionsCorrect={0}
-        htmlQuestionsCorrect={0}
-        infoTechQuestionsCorrect={0}
-        javascriptQuestionsCorrect={0}
-        linuxQuestionsCorrect={0}
-        pythonQuestionsCorrect={0}
-        qualityAssuranceQuestionsCorrect={0}
-        securityQuestionsCorrect={0}
-        sqlQuestionsCorrect={0}
+        questionCategories={undefined}
       />
     );
     expect(
