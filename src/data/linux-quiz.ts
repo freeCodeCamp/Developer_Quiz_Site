@@ -1182,6 +1182,17 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   },
   {
+    Question:
+      "In Linux, which command is used to create a new file and open it in the Vim editor?",
+    Answer: "vi filename.extention",
+    Distractor1: "new filename.extention",
+    Distractor2: "create filename",
+    Distractor3: "None of the above",
+    Explanation:
+      "vi filename.extention is used to create a new file using the terminal and open it in the Vim editor.",
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
+  },
+  {
     Question: "In Linux, which command is used to list the last 10 lines of a file?",
     Answer: "tail -10 filename",
     Distractor1: "bottom -10 filename",
