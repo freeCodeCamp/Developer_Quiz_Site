@@ -1178,7 +1178,7 @@ const linuxQuiz = [
     Distractor2: "ls alpha",
     Distractor3: "ls -extension",
     Explanation:
-      "This command in linux is used to list the file extensions in alphabetical order.",
+      "The ls -X command is used to list the file extensions in alphabetical order.",
     Link: ""
   }
 ];
