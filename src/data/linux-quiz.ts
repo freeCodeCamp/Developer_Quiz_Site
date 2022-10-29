@@ -1179,7 +1179,7 @@ const linuxQuiz = [
     Distractor3: "ls filename -10",
     Explanation:
       "The head command is used to display the first / top most content of a file.",
-    Link: "https://phoenixnap.com/kb/linux-head#:~:text=The%20Linux%20head%20command%20prints,easy%2Dto%2Dfollow%20examples."
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
