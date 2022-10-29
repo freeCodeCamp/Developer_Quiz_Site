@@ -1180,6 +1180,17 @@ const linuxQuiz = [
     Explanation:
       "If you have an empty directory that you would like to remove, then you can use the rmdir command in the terminal.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
+  },
+  {
+    Question:
+      "In Linux, which command is used to list the file extensions in alphabetical order?",
+    Answer: "ls -X",
+    Distractor1: "ls -a",
+    Distractor2: "ls alpha",
+    Distractor3: "ls -extension",
+    Explanation:
+      "The ls -X command is used to list the file extensions in alphabetical order.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
