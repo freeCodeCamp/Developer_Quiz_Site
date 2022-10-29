@@ -177,10 +177,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setQuestionCategories(copy);
   };
 
-  //var copy = Object.assign({},category)
-  //setQuestionCategories(copy);
-  //
-
   const checkAnswer = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setChooseAnswer(true);
     const userAnswer = e.currentTarget.value;
