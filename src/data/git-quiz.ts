@@ -542,7 +542,7 @@ const gitQuiz = [
     Distractor3: "git log -1",
     Explanation:
       "git log --oneline is the command used to log the previous commits in single line form.",
-    Link: "https://www.javatpoint.com/git-log#:~:text=Git%20Log%20Oneline,%24%20git%20log%20%2D%2Doneline"
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
   }
 ];
 
