@@ -1172,7 +1172,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, which command is used list files with its permissions and users access",
+      "In Linux, which command is used to list files with its permissions and users access?",
     Answer: "ls -l",
     Distractor1: "ls allusers",
     Distractor2: "ls all",
