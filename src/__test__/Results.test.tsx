@@ -112,4 +112,17 @@ describe("Results", () => {
       getByText(CATEGORY_NAMES.ACCESSIBILITY + ":").textContent
     ).toBeDefined();
   });
+  it("Displays the correct score", () => {
+    const { getAllByText } = render(
+      <Results
+        points={10}
+        totalPoints={10}
+        resetQuiz={undefined}
+        show={true}
+        hideResultsBreakdown={undefined}
+        questionCategories={defaultAllCorrectAnswers}
+      />
+    );
+    expect(getAllByText("3")[0].textContent).toBeDefined();
+  });
 });
