@@ -1658,7 +1658,7 @@ Distractor2:"markspeed",
 Distractor3:"scrollmount",
   Explanation:
 " The Marquee scrollamount attribute in HTML is used to set the amount of scrolling at each interval in pixels.",
-Link: "https://www.geeksforgeeks.org/html-marquee-scrollamount-attribute/  ",
+Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee#attr-scrollamount",
   }
 ];
 export default htmlQuiz;
