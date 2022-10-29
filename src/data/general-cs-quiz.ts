@@ -1392,6 +1392,16 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/bubble-sort/"
   },
   {
+    Question: "What HTTP status code means “I'm a teapot”?",
+    Answer: "418",
+    Distractor1: "000",
+    Distractor2: "007",
+    Distractor3: "128",
+    Explanation:
+      "Any attempt to brew coffee with a teapot should result in the error code “418 I'm a teapot”.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418#:~:text=The%20HTTP%20418%20I'm,coffee%20should%20instead%20return%20503."
+  },
+  {
     Question:
       "Which of the following time complexities is considered to be the fastest?",
     Answer: "O(1)",
