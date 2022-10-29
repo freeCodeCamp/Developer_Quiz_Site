@@ -689,6 +689,15 @@ const sqlQuiz = [
     Explanation:
       "DDL stands for Data Definition Language, but DELETE is a DML(Data Manipulation Language) command.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  },
+  {
+    Question: "In MySQL, which of the following would be used to delete a database named 'users'?",
+    Answer: "DROP DATABASE users",
+    Distractor1: "DELETE DATABASE users",
+    Distractor2: "TRUNCATE DATABASE users",
+    Distractor3: "UNDO DATABASE users",
+    Explanation: "'DROP DATABASE <table-name>' drops all tables in the database and deletes the database.",
+    Link: "https://dev.mysql.com/doc/refman/8.0/en/drop-database.html"
   }
 ];
 
