@@ -536,7 +536,7 @@ const gitQuiz = [
   },
   {
     Question: "In Git, what is the shorthand command to stage and commit all changes?",
-    Answer: "git -m -a 'commit message'",
+    Answer: "git commit -am  '<commit message>'",
     Distractor1: "git add -m 'commit message'",
     Distractor2: "git commit all 'commit message'",
     Distractor3: "git add commit -m 'commit message'",
