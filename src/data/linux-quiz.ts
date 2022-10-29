@@ -1179,7 +1179,7 @@ const linuxQuiz = [
     Distractor3: "ls -extension",
     Explanation:
       "The ls -X command is used to list the file extensions in alphabetical order.",
-    Link: ""
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
