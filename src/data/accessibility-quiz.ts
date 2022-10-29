@@ -270,7 +270,7 @@ const accessibilityQuiz = [
     Link:"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
   },
   {
-    Question:"Which of the following attributes turns element with a role of button into a toggle button?",
+    Question:"Which of the following attributes turns an element with a role of button into a toggle button?",
     Answer:"aria-pressed",
     Distractor1:"aria-checked",
     Distractor2:"aria-expanded",
