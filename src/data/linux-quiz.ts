@@ -1183,6 +1183,17 @@ const linuxQuiz = [
   },
   {
     Question:
+      "In Linux, which command is used to list all files with the .js extension?",
+    Answer: "ls *.js",
+    Distractor1: "ls js",
+    Distractor2: "ls .js files",
+    Distractor3: "None of These",
+    Explanation:
+      "In Linux, this formatter with the ls command can be used to list all files with similar postfix or extension",
+    Link:"https://www.freecodecamp.org/news/the-linux-commands-handbook"
+  },
+  {
+    Question:
       "In Linux, which command is used to list the file extensions in alphabetical order?",
     Answer: "ls -X",
     Distractor1: "ls -a",
