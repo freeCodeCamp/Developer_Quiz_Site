@@ -538,7 +538,7 @@ const gitQuiz = [
     Question: "How Should a Git commit message be?",
     Answer: "It should be short, descriptive and in present tense",
     Distractor1: "It should be longer",
-    Distractor2: "It should be in oneword",
+    Distractor2: "It should be in one word",
     Distractor3: "None of these",
     Explanation:
       "A good commit message should be short, descriptive and in present tense.",
