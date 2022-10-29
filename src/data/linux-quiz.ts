@@ -1178,7 +1178,7 @@ const linuxQuiz = [
     Distractor2: "ls all",
     Distractor3: "None of These",
     Explanation:
-      "In linux, this command is used to long list the files which displays the permissions on files and user access",
+      "In Linux, the ls -l command is used to long list the files which displays the permissions on files and user access",
     Link: ""
   }
 ];
