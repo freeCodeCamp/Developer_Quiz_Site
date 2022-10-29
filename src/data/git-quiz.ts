@@ -535,6 +535,16 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
+    Question: "How do you unstage a staged file in git?",
+    Answer: "git restore --staged <file-path>",
+    Distractor1: "git unstage <file-path>",
+    Distractor2: "git restore <file-path>",
+    Distractor3: "git restore --staged <file-path>",
+    Explanation:
+      "git restore --staged <file-path> command is used to unstage a staged file in git.",
+    Link: "https://www.git-tower.com/learn/git/commands/git-restore"
+  },
+  {
     Question: "In Git, which command logs the previous commits in single line form?",
     Answer: "git log --oneline",
     Distractor1: "git log singleline",
