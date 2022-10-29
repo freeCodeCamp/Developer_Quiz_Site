@@ -535,6 +535,16 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
+    Question: "In Git, which command logs the previous commits in single line form?",
+    Answer: "git log --oneline",
+    Distractor1: "git log singleline",
+    Distractor2: "git single log",
+    Distractor3: "git log -1",
+    Explanation:
+      "git log --oneline is the command used to log the previous commits in single line form.",
+    Link: "https://www.freecodecamp.org/news/git-cheat-sheet/"
+  },
+  {
     Question: "In Git, what does a good commit message look like?",
     Answer: "It should be short, descriptive and in present tense",
     Distractor1: "It should be long",
