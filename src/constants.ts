@@ -33,7 +33,7 @@ export const CATEGORY_NAMES = {
 
 function addCategoryToQuiz(quizQuestion: QuizQuestion[], category: string) {
   const questionHolder: QuizQuestion[] = [];
-  quizQuestion.map(x =>
+  quizQuestion.forEach(x =>
     questionHolder.push(Object.assign({}, x, { Category: category }))
   );
   return questionHolder;
