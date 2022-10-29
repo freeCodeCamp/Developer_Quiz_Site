@@ -1182,6 +1182,15 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-rmdir-command"
   },
   {
+    Question: "In Linux, which command is used to list the last 10 lines of a file?",
+    Answer: "tail -10 filename",
+    Distractor1: "bottom -10 filename",
+    Distractor2: "last -10 filename",
+    Distractor3: "filename -10",
+    Explanation: "tail -10 filename is used to list the last 10 lines of a file.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
+  },
+  {
     Question:
       "In Linux, which command is used to display the first 10 lines of a file?",
     Answer: "head -10 'filename'",
