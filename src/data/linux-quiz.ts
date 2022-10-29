@@ -1179,7 +1179,7 @@ const linuxQuiz = [
     Distractor3: "None of the above",
     Explanation:
       "This command is used to create a new file using terminal and open it in the Vim editor.",
-    Link: ""
+    Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   }
 ];
 
