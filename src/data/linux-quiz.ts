@@ -1179,7 +1179,7 @@ const linuxQuiz = [
     Distractor3: "None of These",
     Explanation:
       "In linux, this formatter with ls command can be used to list all files with similar postfix or extension",
-    Link: ""
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
