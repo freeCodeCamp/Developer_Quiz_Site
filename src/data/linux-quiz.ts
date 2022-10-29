@@ -1161,6 +1161,17 @@ const linuxQuiz = [
   },
   {
     Question:
+      "In Linux, which command is used to used to securely remove data?",
+    Answer: "shred",
+    Distractor1: "rm",
+    Distractor2: "mkdir",
+    Distractor3: "dd",
+    Explanation:
+      "The shred command helps to overwrite the data in place several times. This makes it harder for third party software and hardware probing to recover the data. That is why it's commonly used to securely remove data.",
+    Link: "https://www.freecodecamp.org/news/securely-erasing-a-disk-and-file-using-linux-command-shred/"
+  },
+  {
+    Question:
       "In Linux, which the command is used to remove an empty directory?",
     Answer: "rmdir",
     Distractor1: "remove",
@@ -1180,6 +1191,59 @@ const linuxQuiz = [
     Explanation:
       "vi filename.extention is used to create a new file using the terminal and open it in the Vim editor.",
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
+  },
+  {
+    Question: "In Linux, which command is used to list the last 10 lines of a file?",
+    Answer: "tail -10 filename",
+    Distractor1: "bottom -10 filename",
+    Distractor2: "last -10 filename",
+    Distractor3: "filename -10",
+    Explanation: "tail -10 filename is used to list the last 10 lines of a file.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
+  },
+  {
+    Question:
+      "In Linux, which command is used to display the first 10 lines of a file?",
+    Answer: "head -10 'filename'",
+    Distractor1: "filename -10",
+    Distractor2: "filename -f",
+    Distractor3: "ls filename -10",
+    Explanation:
+      "The head -10 'filename' command is used to display the first 10 lines of a file.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
+   },
+   {
+    Question:
+      "In Linux, which command is used to list files with its permissions and users access?",
+    Answer: "ls -l",
+    Distractor1: "ls allusers",
+    Distractor2: "ls all",
+    Distractor3: "None of These",
+    Explanation:
+      "In Linux, the ls -l command is used to long list the files which displays the permissions of files and user access",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
+  },
+  {
+    Question:
+      "In Linux, which command is used to list all files with the .js extension?",
+    Answer: "ls *.js",
+    Distractor1: "ls js",
+    Distractor2: "ls .js files",
+    Distractor3: "None of These",
+    Explanation:
+      "In Linux, this formatter with the ls command can be used to list all files with similar postfix or extension",
+    Link:"https://www.freecodecamp.org/news/the-linux-commands-handbook"
+  },
+  {
+    Question:
+      "In Linux, which command is used to list the file extensions in alphabetical order?",
+    Answer: "ls -X",
+    Distractor1: "ls -a",
+    Distractor2: "ls alpha",
+    Distractor3: "ls -extension",
+    Explanation:
+      "The ls -X command is used to list the file extensions in alphabetical order.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
