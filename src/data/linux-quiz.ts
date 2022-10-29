@@ -1183,6 +1183,17 @@ const linuxQuiz = [
   },
   {
     Question:
+      "In Linux, which command is used to list files with its permissions and users access?",
+    Answer: "ls -l",
+    Distractor1: "ls allusers",
+    Distractor2: "ls all",
+    Distractor3: "None of These",
+    Explanation:
+      "In Linux, the ls -l command is used to long list the files which displays the permissions of files and user access",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
+  },
+  {
+    Question:
       "In Linux, which command is used to list all files with the .js extension?",
     Answer: "ls *.js",
     Distractor1: "ls js",
