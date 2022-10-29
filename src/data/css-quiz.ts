@@ -1200,6 +1200,17 @@ const cssQuiz = [
   },
   {
     Question:
+      "In CSS, which of the following properties can be used to set the body color to black?",
+    Answer: "background-color:black;",
+    Distractor1: "body-color:black",
+    Distractor2: "backgroundColor:black",
+    Distractor3: "color:black",
+    Explanation:
+      "In CSS, the background-color property is used to set the color of the background.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/background-color"
+  },
+  {
+    Question:
       "Which of the following is the correct syntax for an attribute selector in CSS?",
     Answer: "selector[attribute='value']",
     Distractor1: "container[value]",

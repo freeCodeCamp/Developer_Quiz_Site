@@ -1,5 +1,16 @@
 const htmlQuiz = [
   {
+    Question:
+      "In HTML, which of the following is the correct way for showing how to import an external script?",
+    Answer: "<script src='index.js'></script>",
+    Distractor1: "<script add='index.js'></script>",
+    Distractor2: "<script adding-js='index.js'></script>",
+    Distractor3: "<script js='index.js'></script>",
+    Explanation:
+      "If you want to show how to import an external script using the script element, then you will need to use the following syntax: <script src='index.js'></script>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/script"
+  },
+  {
     Question: "In HTML, which tag is used to insert a favicon?",
     Answer: "<link>",
     Distractor1: "<fav>",
@@ -1648,6 +1659,17 @@ const htmlQuiz = [
     Explanation:
       "Hypertext in HTML refers to text (often with embeds such as images, too) that is organized in order to connect web pages to one another.",
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
+  },
+  {
+    Question:
+      "In HTML, which attribute is used to increase the speed for the deprecated marquee tag? ",
+    Answer: "scrollamount",
+    Distractor1:"speed",
+    Distractor2:"markspeed",
+    Distractor3:"scrollmount",
+    Explanation:
+    "The Marquee scrollamount attribute in HTML is used to set the amount of scrolling at each interval in pixels.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee#attr-scrollamount",
   }
 ];
 export default htmlQuiz;
