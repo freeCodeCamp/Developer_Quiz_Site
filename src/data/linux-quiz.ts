@@ -1178,7 +1178,7 @@ const linuxQuiz = [
     Distractor2: "ls .js files",
     Distractor3: "None of These",
     Explanation:
-      "In Linux, this formatter with ls command can be used to list all files with similar postfix or extension",
+      "In Linux, this formatter with the ls command can be used to list all files with similar postfix or extension",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
