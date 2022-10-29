@@ -535,7 +535,7 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
-    Question: "How to unstage a staged file in git ?",
+    Question: "How do you unstage a staged file in git?",
     Answer: "git restore --staged <file-path>",
     Distractor1: "git unstage <file-path>",
     Distractor2: "git restore <file-path>",
