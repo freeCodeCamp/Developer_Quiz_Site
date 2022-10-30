@@ -116,7 +116,7 @@ const securityQuiz = [
     Distractor3:
       "an attack where hackers can flood the system with network requests",
     Explanation:
-      "Free wifi hotspots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
+      "Free wifi hot spots are often targeted by hackers and can put you at risk of MitM attacks (Man in the Middle Attacks) where a hacker spies on your internet traffic, and may even modify it without you knowing.",
     Link: "https://www.freecodecamp.org/news/personal-digital-security-an-intro/"
   },
   {
@@ -334,7 +334,7 @@ const securityQuiz = [
     Distractor2: "Serial Secure Layer",
     Distractor3: "Series Socket Layer",
     Explanation:
-      "Transport Layer Security (TLS), formely known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
+      "Transport Layer Security (TLS), formerly known as Secure Sockets Layer (SSL), is the protocol used to encrypt communications. It is the newer and more secure version of SSL",
     Link: "https://www.freecodecamp.org/news/what-is-https-http-vs-https-meaning-and-how-it-works/"
   },
   {
@@ -381,8 +381,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/tag/ethereum/"
   },
   {
-    Question:
-      "Which wireless security protocol is the least secure?",
+    Question: "Which wireless security protocol is the least secure?",
     Answer: "WEP",
     Distractor1: "WPA",
     Distractor2: "WPA2",
