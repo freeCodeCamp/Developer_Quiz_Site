@@ -280,6 +280,17 @@ const accessibilityQuiz = [
   },
   {
     Question:
+      "What is the semantic HTML equivalent for the ARIA: link role (role=`link`)?",
+    Answer: "<a>",
+    Distractor1: "<nav>",
+    Distractor2: "<link>",
+    Distractor3: "<iframe>",
+    Explanation:
+      "Where possible, it is recommended that you use a native <a> element rather than the link role, as native elements are more widely supported by user agents and assistive technology.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/link_role"
+  },
+  {
+    Question:
       "Which of the following HTML tags does NOT use the autocomplete attribute?",
     Answer: "<html>",
     Distractor1: "<input>",
