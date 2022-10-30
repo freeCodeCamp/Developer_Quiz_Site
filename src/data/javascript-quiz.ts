@@ -983,7 +983,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, which one of these variable declarations can be redeclared within its scope?",
+      "In JavaScript, which one of these variable declarations can be re declared within its scope?",
     Answer: "var",
     Distractor1: "splice",
     Distractor2: "object.freeze",
@@ -1642,7 +1642,7 @@ const javascriptQuiz = [
     Distractor2: "Unary plus +",
     Distractor3: "Equality ==",
     Explanation:
-      "On the precendence table, the grouping () operator is the highest with a precedence value of 18",
+      "On the precedence table, the grouping () operator is the highest with a precedence value of 18",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence#table"
   },
   {
