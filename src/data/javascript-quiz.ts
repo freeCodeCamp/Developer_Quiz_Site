@@ -1971,7 +1971,7 @@ const javascriptQuiz = [
   {
     Question:
       "When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints",
-    Answer: "Displays \'Infinity'",
+    Answer: "Displays 'Infinity'",
     Distractor1: "Prints an exception error",
     Distractor2: "Prints an overflow error",
     Distractor3: "Prints the value as such",
