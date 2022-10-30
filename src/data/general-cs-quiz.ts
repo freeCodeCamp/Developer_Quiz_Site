@@ -1399,7 +1399,7 @@ const generalCSQuiz = [
     Distractor3: "128",
     Explanation:
       "HTTP status code 418 returns 'I'm a teapot' and it is a reference to a 1998 April Fools' joke.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418#:~:text=The%20HTTP%20418%20I'm,coffee%20should%20instead%20return%20503."
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418#"
   },
   {
     Question:
