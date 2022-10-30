@@ -3,7 +3,7 @@ const informationTechnologyQuiz = [
     Question:
       "What is the name of the service that runs recursive DNS Servers?",
     Answer: "Internet Service Providers",
-    Distractor1: "Netowrk Service Providers",
+    Distractor1: "Network Service Providers",
     Distractor2: "SAML Service Provider",
     Distractor3: "Application Service Provider",
     Explanation:
@@ -519,7 +519,7 @@ const informationTechnologyQuiz = [
     Distractor2: "The network layer",
     Distractor3: "The application layer",
     Explanation:
-      "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
+      "Layer 1 is the physical layer. There's a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
     Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/"
   },
   {
