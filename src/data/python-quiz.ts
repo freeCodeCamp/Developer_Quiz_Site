@@ -1645,6 +1645,15 @@ const pythonQuiz = [
     Distractor3: "frozenset",
     Explanation: "In Python, a class is a user defined data type.",
     Link: "https://docs.python.org/3/library/datatypes.html"
+  },
+   {
+    Question: "In Python the built-in way or after importing math library, which of the following is NOT the right way to find 5 raise to the power 9?",
+    Answer: "print(deg(5,9))",
+    Distractor1: "print(5**9)",
+    Distractor2: "print(pow(5,9))",
+    Distractor3: "print(math.pow(9, 3))",
+    Explanation: "In Python, '**' operator, built-in function pow() and math.pow() function in math library can be used to get exponent to the base.",
+    Link: "https://docs.python.org/3/library/math.html"
   }
 ];
 
