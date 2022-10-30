@@ -1404,13 +1404,13 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "Which of the following is a dyanamically typed language?",
+      "Which of the following is a dynamically typed language?",
     Answer: "Python",
     Distractor1: "C",
     Distractor2: "Java",
     Distractor3: "C++",
     Explanation:
-      "Statically-typed languages like C, C++, Java, perform type checking at compile time whereas dynamically-typed languages like Python and JavaScript  perform type checking at runtime.",
+      "Statically-typed languages like C, C++, and Java, perform type checking at compile time whereas dynamically-typed languages like Python and JavaScript  perform type checking at runtime.",
     Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-1-8382da1e0adb/#:~:text=series%20is%20about.-,First%2C%20a%20definition,-The%20quickest%20way"
   }
 ];
