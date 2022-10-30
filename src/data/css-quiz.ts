@@ -1010,7 +1010,7 @@ const cssQuiz = [
     Link: "https://www.freecodecamp.org/news/10-css-tricks-for-your-next-coding-project/"
   },
   {
-    Question: "How do you create a flexbox container in CSS Flexbox?",
+    Question: "How do you create a Flexbox container in CSS Flexbox?",
     Answer: "display:flex;",
     Distractor1: "display:flexbox;",
     Distractor2: "display:flexcontainer;",
