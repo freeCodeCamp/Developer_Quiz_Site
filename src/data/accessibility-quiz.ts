@@ -203,9 +203,9 @@ const accessibilityQuiz = [
   {
     Question: "What is ARIA?",
     Answer:
-      "ARIA defines the responsibilities and states for screenreaders in order to convey information about custom modules like carousels and tabs.",
+      "ARIA defines the responsibilities and states for screen readers in order to convey information about custom modules like carousels and tabs.",
     Distractor1:
-      "A tool that changes visuals on a web page to make it more accesible.",
+      "A tool that changes visuals on a web page to make it more accessible.",
     Distractor2:
       "It is an open-source, automated web page quality measurement tool.",
     Distractor3:
@@ -227,7 +227,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/mobile-accessibility/"
   },
   {
-    Question: "What are some of the benefits of an accessibile design?",
+    Question: "What are some of the benefits of an accessible design?",
     Answer: "Follows SEO best practices and better UX",
     Distractor1: "Better UI and better customer support",
     Distractor2: "Easier A/B testing and white box testing",
@@ -257,22 +257,26 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/TR/css-color-adjust-1/"
   },
   {
-    Question:"Which of the following HTML tags does NOT use the autocomplete attribute?",
-    Answer:"<html>",
-    Distractor1:"<input>",
-    Distractor2:"<text>",
-    Distractor3:"<form>",
-    Explanation:"The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
-    Link:"https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete",
+    Question:
+      "Which of the following HTML tags does NOT use the autocomplete attribute?",
+    Answer: "<html>",
+    Distractor1: "<input>",
+    Distractor2: "<text>",
+    Distractor3: "<form>",
+    Explanation:
+      "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
   },
   {
-    Question:"Which of the following attributes turns an element with a role of button into a toggle button?",
-    Answer:"aria-pressed",
-    Distractor1:"aria-checked",
-    Distractor2:"aria-expanded",
-    Distractor3:"aria-selected",
-    Explanation:"The aria-pressed attribute indicates the current pressed state of a toggle button.",
-    Link:"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed",
+    Question:
+      "Which of the following attributes turns an element with a role of button into a toggle button?",
+    Answer: "aria-pressed",
+    Distractor1: "aria-checked",
+    Distractor2: "aria-expanded",
+    Distractor3: "aria-selected",
+    Explanation:
+      "The aria-pressed attribute indicates the current pressed state of a toggle button.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed"
   },
   {
     Question:
