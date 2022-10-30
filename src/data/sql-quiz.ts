@@ -155,11 +155,11 @@ const sqlQuiz = [
   },
   {
     Question:
-      "In SQL, how do you select every row in a given table named 'freecodecamp'?",
-    Answer: "SELECT * FROM freecodecamp",
-    Distractor1: "SELECT all FROM freecodecamp;",
-    Distractor2: "FROM freecodecamp SELECT all;",
-    Distractor3: "FROM freecodecamp SELECT *;",
+      "In SQL, how do you select every row in a given table named 'freeCodeCamp'?",
+    Answer: "SELECT * FROM freeCodeCamp",
+    Distractor1: "SELECT all FROM freeCodeCamp;",
+    Distractor2: "FROM freeCodeCamp SELECT all;",
+    Distractor3: "FROM freeCodeCamp SELECT *;",
     Explanation:
       "In SQl, SELECT is used to select data from a database. The * is a wildcard character that matches any column in the table. The FROM clause specifies the table to select from.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/"
@@ -180,7 +180,7 @@ const sqlQuiz = [
       "In SQL, what keyword is used if the WHERE clause fails when being used with aggregate functions?",
     Answer: "HAVING",
     Distractor1: "ADD",
-    Distractor2: "DISTINTC",
+    Distractor2: "DISTINCT",
     Distractor3: "LIMIT",
     Explanation:
       "In SQL, you will have to use the HAVING clause because the WHERE clause fails when used with aggregate functions.",
@@ -356,7 +356,7 @@ const sqlQuiz = [
     Answer: "Data Control Language",
     Distractor1: "Data Manipulation Language",
     Distractor2: "Data Definition Language",
-    Distractor3: "Data Concato Language",
+    Distractor3: "Data Concat Language",
     Explanation: "DCL stands for Data Control Language.",
     Link: "https://en.wikipedia.org/wiki/Data_control_language"
   },
@@ -691,12 +691,14 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
   },
   {
-    Question: "In MySQL, which of the following would be used to delete a database named 'users'?",
+    Question:
+      "In MySQL, which of the following would be used to delete a database named 'users'?",
     Answer: "DROP DATABASE users",
     Distractor1: "DELETE DATABASE users",
     Distractor2: "TRUNCATE DATABASE users",
     Distractor3: "UNDO DATABASE users",
-    Explanation: "'DROP DATABASE <table-name>' drops all tables in the database and deletes the database.",
+    Explanation:
+      "'DROP DATABASE <table-name>' drops all tables in the database and deletes the database.",
     Link: "https://dev.mysql.com/doc/refman/8.0/en/drop-database.html"
   }
 ];
