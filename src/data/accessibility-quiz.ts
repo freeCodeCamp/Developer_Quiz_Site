@@ -286,7 +286,7 @@ const accessibilityQuiz = [
     Distractor2: "<link>",
     Distractor3: "<iframe>",
     Explanation:
-      "Where possible, it is recommended that you use a native <a> element rather than the link role, as native elements are more widely supported by user agents and assistive technology.",
+      "The anchor element is the HTML equivalent to the  ARIA link role. It is best to use the anchor element because it is best supported by assistive technologies.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/link_role"
   },
   {
