@@ -1401,7 +1401,17 @@ const generalCSQuiz = [
     Explanation:
       "O(1) is independent of input size so it remains in constant time regardless of the size of the input.",
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
-  }
+  },
+  {
+    Question: "What is the worst case time complexity for Selection sort?",
+    Answer: "O(n*n)",
+    Distractor1: "O(n*logn)",
+    Distractor2: "O(n^2)",
+    Distractor3: "O(n+k)",
+    Explanation:
+      "Selection sort has a worst case time complexity of O(n*n), due to the two nested loops.",
+    Link: "https://forum.freecodecamp.org/t/the-selection-sort-algorithm-explained-with-examples/16106"
+  },
 ];
 
 export default generalCSQuiz;
