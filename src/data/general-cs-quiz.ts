@@ -1392,7 +1392,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/bubble-sort/"
   },
   {
-    Question: "What HTTP status code means “I'm a teapot”?",
+    Question: "Which HTTP status code returns 'I'm a teapot'?",
     Answer: "418",
     Distractor1: "000",
     Distractor2: "007",
