@@ -37,7 +37,7 @@ const htmlQuiz = [
     Distractor2: "An empty tag cannot having any content within it",
     Distractor3: "None of these",
     Explanation:
-      "In HTML, empty tags are those tags that don’t require a closing tag.",
+      "In HTML, empty tags are those tags that don't require a closing tag.",
     Link: "https://www.freecodecamp.org/news/empty-and-blank-53b9e96151cd/"
   },
   {
@@ -1664,12 +1664,12 @@ const htmlQuiz = [
     Question:
       "In HTML, which attribute is used to increase the speed for the deprecated marquee tag? ",
     Answer: "scrollamount",
-    Distractor1:"speed",
-    Distractor2:"markspeed",
-    Distractor3:"scrollmount",
+    Distractor1: "speed",
+    Distractor2: "markspeed",
+    Distractor3: "scrollmount",
     Explanation:
-    "The Marquee scrollamount attribute in HTML is used to set the amount of scrolling at each interval in pixels.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee#attr-scrollamount",
+      "The Marquee scrollamount attribute in HTML is used to set the amount of scrolling at each interval in pixels.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/marquee#attr-scrollamount"
   }
 ];
 export default htmlQuiz;
