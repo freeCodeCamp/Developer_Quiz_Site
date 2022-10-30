@@ -18,7 +18,7 @@ const gitQuiz = [
     Distractor2: "git save code",
     Distractor3: "git clone --for later",
     Explanation:
-      "Stashes are temporary storage spaces where you can store your code. When you’re done, you can put your code back from the stash using git stash pop. You won’t have to worry about losing any uncommitted changes!",
+      "Stashes are temporary storage spaces where you can store your code. When you're done, you can put your code back from the stash using git stash pop. You won’t have to worry about losing any uncommitted changes!",
     Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-as-temporary-storage-84a0a1e37a43/"
   },
   {
@@ -535,7 +535,8 @@ const gitQuiz = [
     Link: "https://forum.freecodecamp.org/t/git-guide-how-to-amend-your-most-recent-git-commit-message/13186"
   },
   {
-    Question: "Which one of the following is the default text editor in Git Bash?",
+    Question:
+      "Which one of the following is the default text editor in Git Bash?",
     Answer: "Vim",
     Distractor1: "Emacs",
     Distractor2: "Nano",
@@ -555,7 +556,8 @@ const gitQuiz = [
     Link: "https://www.git-tower.com/learn/git/commands/git-restore"
   },
   {
-    Question: "In Git, which command logs the previous commits in single line form?",
+    Question:
+      "In Git, which command logs the previous commits in single line form?",
     Answer: "git log --oneline",
     Distractor1: "git log singleline",
     Distractor2: "git single log",
