@@ -390,15 +390,6 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/python-print-variable-how-to-print-a-string-and-variable/"
   },
   {
-    Question: "In Python, what is the new line character?",
-    Answer: "\\n",
-    Distractor1: "\\s",
-    Distractor2: "\\new",
-    Distractor3: "\\m",
-    Explanation: "\\n is the newline character in Python.",
-    Link: "https://www.freecodecamp.org/news/python-new-line-and-how-to-python-print-without-a-newline/"
-  },
-  {
     Question: "In Python, how can you create an empty dictionary?",
     Answer: "{}",
     Distractor1: "[]",
@@ -969,7 +960,7 @@ const pythonQuiz = [
     Distractor2: "Maintainable",
     Distractor3: "Unstoppable",
     Explanation:
-      "Strings are immutable, so we can’t update or remove their characters after they have been defined in the program. ",
+      "Strings are immutable, so we can't update or remove their characters after they have been defined in the program. ",
     Link: "https://www.freecodecamp.org/news/python-code-examples-sample-script-coding-tutorial-for-beginners/#-data-types-and-built-in-data-structures-in-python"
   },
   {
