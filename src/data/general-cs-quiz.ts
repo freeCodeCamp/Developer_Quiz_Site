@@ -1398,7 +1398,7 @@ const generalCSQuiz = [
     Distractor2: "007",
     Distractor3: "128",
     Explanation:
-      "Any attempt to brew coffee with a teapot should result in the error code “418 I'm a teapot”.",
+      "HTTP status code 418 returns 'I'm a teapot' and it is a reference to a 1998 April Fools' joke.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418#:~:text=The%20HTTP%20418%20I'm,coffee%20should%20instead%20return%20503."
   },
   {
