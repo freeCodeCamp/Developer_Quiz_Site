@@ -1967,7 +1967,18 @@ const javascriptQuiz = [
     Explanation:
       "Variables that can have their values changed are referred to as Mutable Variables. Only objects and arrays are changeable in JavaScript; primitive values are not.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
-  }
+  },
+  {
+    Question:
+      "When there is an indefinite or an infinite value during an arithmetic computation in a program, then JavaScript prints",
+    Answer: "Displays \'Infinity'",
+    Distractor1: "Prints an exception error",
+    Distractor2: "Prints an overflow error",
+    Distractor3: "Prints the value as such",
+    Explanation:
+      "In the case, where the result of any arithmetic expression is beyond the largest represent-able number,JavaScript prints the infinity. Similarly, if the result of any numerical operation is beyond the largest negative number, JavaScript prints negative infinity.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators"
+  },
 ];
 
 export default javascriptQuiz;
