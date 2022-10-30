@@ -1959,7 +1959,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
   },
 {
-    Question: "In JavaScript, what is a variable that can be changed called?",
+    Question: "In JavaScript, what is the name for a variable that can be changed?",
     Answer: "Mutable Variable",
     Distractor1: "Volatile Variable",
     Distractor2: "Dynamic Variable",
