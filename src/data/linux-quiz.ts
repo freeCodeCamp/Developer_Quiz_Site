@@ -450,7 +450,7 @@ const linuxQuiz = [
     Distractor2: ":q!",
     Distractor3: ":wq",
     Explanation:
-      "The i command( for ’insert’), immediately switches vim to insert mode. Once you are in insert mode, you can insert characters just like a regular text editor.",
+      "The i command( for 'insert'), immediately switches vim to insert mode. Once you are in insert mode, you can insert characters just like a regular text editor.",
     Link: "https://www.freecodecamp.org/news/vim-editor-modes-explained/"
   },
   {
@@ -459,7 +459,7 @@ const linuxQuiz = [
     Distractor1: "Tail",
     Distractor2: "Ping",
     Distractor3: "Flux",
-    Explanation: "Linux’s mascot is a penguin named “Tux”.",
+    Explanation: "Linux's mascot is a penguin named “Tux”.",
     Link: "https://www.freecodecamp.org/news/linux-is-25-yay-lets-celebrate-with-25-rad-facts-about-linux-c8d8ac30076d/"
   },
   {
@@ -643,7 +643,7 @@ const linuxQuiz = [
     Distractor2: "The transport Layer",
     Distractor3: "The application layer",
     Explanation:
-      "Layer 1 is the physical layer. There’s a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
+      "Layer 1 is the physical layer. There's a lot of technology in Layer 1 - everything from physical network devices, cabling, to how the cables hook up to the devices.",
     Link: "https://www.freecodecamp.org/news/osi-model-networking-layers-explained-in-plain-english/"
   },
   {
@@ -821,7 +821,7 @@ const linuxQuiz = [
     Distractor1: "GeNeral Unix",
     Distractor2: "Great New Unix",
     Distractor3: "Greatly Needed Unix",
-    Explanation: "GNU is a recursive acronym for ‘GNU's not UNIX’.",
+    Explanation: "GNU is a recursive acronym for 'GNU's not UNIX'.",
     Link: "https://forum.freecodecamp.org/t/the-origins-of-linux-and-the-free-software-movement-a-brief-history/19527"
   },
   {
@@ -1184,21 +1184,23 @@ const linuxQuiz = [
   {
     Question:
       "In Linux, which command is used to create a new file and open it in the Vim editor?",
-    Answer: "vi filename.extention",
-    Distractor1: "new filename.extention",
+    Answer: "vi filename.extension",
+    Distractor1: "new filename.extension",
     Distractor2: "create filename",
     Distractor3: "None of the above",
     Explanation:
-      "vi filename.extention is used to create a new file using the terminal and open it in the Vim editor.",
+      "vi filename.extension is used to create a new file using the terminal and open it in the Vim editor.",
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   },
   {
-    Question: "In Linux, which command is used to list the last 10 lines of a file?",
+    Question:
+      "In Linux, which command is used to list the last 10 lines of a file?",
     Answer: "tail -10 filename",
     Distractor1: "bottom -10 filename",
     Distractor2: "last -10 filename",
     Distractor3: "filename -10",
-    Explanation: "tail -10 filename is used to list the last 10 lines of a file.",
+    Explanation:
+      "tail -10 filename is used to list the last 10 lines of a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
   },
   {
@@ -1211,8 +1213,8 @@ const linuxQuiz = [
     Explanation:
       "The head -10 'filename' command is used to display the first 10 lines of a file.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
-   },
-   {
+  },
+  {
     Question:
       "In Linux, which command is used to list files with its permissions and users access?",
     Answer: "ls -l",
@@ -1232,7 +1234,7 @@ const linuxQuiz = [
     Distractor3: "None of These",
     Explanation:
       "In Linux, this formatter with the ls command can be used to list all files with similar postfix or extension",
-    Link:"https://www.freecodecamp.org/news/the-linux-commands-handbook"
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook"
   },
   {
     Question:
