@@ -1411,6 +1411,17 @@ const generalCSQuiz = [
     Explanation:
       "O(1) is independent of input size so it remains in constant time regardless of the size of the input.",
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
+  },
+  {
+    Question:
+      "Which of the following is a dynamically typed language?",
+    Answer: "Python",
+    Distractor1: "C",
+    Distractor2: "Java",
+    Distractor3: "C++",
+    Explanation:
+      "Statically-typed languages like C, C++, and Java, perform type checking at compile time whereas dynamically-typed languages like Python and JavaScript  perform type checking at runtime.",
+    Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-1-8382da1e0adb/#:~:text=series%20is%20about.-,First%2C%20a%20definition,-The%20quickest%20way"
   }
 ];
 
