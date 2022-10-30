@@ -275,6 +275,15 @@ const accessibilityQuiz = [
     Link:"https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-pressed",
   },
   {
+    Question:"How can we make an image accessible to someone who can’t see it?",
+    Answer:"Add an alternative (`alt`) text that describes the image to screen readers",
+    Distractor1:"Create a separate version of the page with no images",
+    Distractor2:"Do not use images on your page under any circumstances",
+    Distractor3:"Add `img` role (role=`img`) to your <img> element",
+    Explanation:"The HTMLImageElement property alt provides fallback (alternate) text to display when the image specified by the <img> element is not loaded.",
+    Link:"https://developer.mozilla.org/en-US/docs/Web/API/HTMLImageElement/alt",
+  },
+  {
     Question:
       "Which of the following HTML tags does NOT use the autocomplete attribute?",
     Answer: "<html>",
