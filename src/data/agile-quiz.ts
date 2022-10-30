@@ -15,7 +15,7 @@ const agileQuiz = [
     Answer: "Commitment, Focus, Openness, Respect, and Courage.",
     Distractor1: "Commitment, Respect, Honesty, Loyalty, Truth .",
     Distractor2: "Focus, Loyalty, Courage, Patience, Openness.",
-    Distractor3: "Openess, Commitment, Honesty, Discipline, Patience.",
+    Distractor3: "Openness, Commitment, Honesty, Discipline, Patience.",
     Explanation:
       "The five values that people should master in order to successfully apply Scrum are commitment, focus, openness, respect and courage.",
     Link: "https://scrumguides.org/scrum-guide.html"
@@ -181,7 +181,7 @@ const agileQuiz = [
       "In Agile, which of the following is NOT one of notable features of story points?",
     Answer: "points are assigned in a odd-like sequence: 1, 3, 5, 7, 9...",
     Distractor1: "points represent the contributions of the whole team",
-    Distractor2: "points estimate the ‘size’ of stories relative to each other",
+    Distractor2: "points estimate the 'size' of stories relative to each other",
     Distractor3: "points do not equate directly to time the task might take",
     Explanation:
       "Points estimate the amount of effort required to deliver a user story and are assigned using the Fibonacci sequence",
