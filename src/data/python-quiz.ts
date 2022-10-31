@@ -1636,7 +1636,6 @@ const pythonQuiz = [
       "Python's built in print() function is used to print messages to the screen.",
     Link: "https://docs.python.org/3/library/functions.html#print"
   },
-
   {
     Question: "In Python, which of the following is NOT a built-in data type?",
     Answer: "class",
@@ -1645,7 +1644,7 @@ const pythonQuiz = [
     Distractor3: "frozenset",
     Explanation: "In Python, a class is a user defined data type.",
     Link: "https://docs.python.org/3/library/datatypes.html"
-  },
+   },
    {
     Question: "In Python, which of the following is NOT the right way to find 5 raised to the power of 9?",
     Answer: "print(deg(5,9))",
