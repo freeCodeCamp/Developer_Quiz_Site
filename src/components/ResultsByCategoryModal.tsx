@@ -32,7 +32,12 @@ const ResultsModal: React.FC<Results> = Results => {
           </h2>
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>{scoreElements}</Modal.Body>
+      <Modal.Body>   {Results.pointsWithCategories.map(({ Category, Score }) => (
+          <div key={Category}>
+            <p className="resultCategoryHeading">{Category}: </p>
+            <p className="resultCategoryScore">{Score}</p>
+          </div>
+        ))}</Modal.Body>
       <Modal.Footer>
         <button className="modal-btn" onClick={Results.hideResultsBreakdown}>
           Close Breakdown
