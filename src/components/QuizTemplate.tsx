@@ -42,9 +42,9 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     javascriptQuestionsCorrect: 0,
     linuxQuestionsCorrect: 0,
     pythonQuestionsCorrect: 0,
-    qualityAssuranceQuestionsCorrect: 0,
     securityQuestionsCorrect: 0,
-    sqlQuestionsCorrect: 0
+    sqlQuestionsCorrect: 0,
+    qualityAssuranceQuestionsCorrect: 0
   });
 
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
@@ -113,17 +113,17 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       accessibilityQuestionsCorrect: 0,
       agileQuestionsCorrect: 0,
       cssQuestionsCorrect: 0,
+      freeCodeCampQuestionsCorrect: 0,
       generalCSQuestionsCorrect: 0,
       gitQuestionsCorrect: 0,
-      freeCodeCampQuestionsCorrect: 0,
       htmlQuestionsCorrect: 0,
       infoTechQuestionsCorrect: 0,
       javascriptQuestionsCorrect: 0,
       linuxQuestionsCorrect: 0,
       pythonQuestionsCorrect: 0,
-      qualityAssuranceQuestionsCorrect: 0,
       securityQuestionsCorrect: 0,
-      sqlQuestionsCorrect: 0
+      sqlQuestionsCorrect: 0,
+      qualityAssuranceQuestionsCorrect: 0
     });
   };
 
