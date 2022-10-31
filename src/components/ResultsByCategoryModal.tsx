@@ -12,16 +12,6 @@ interface Results {
 }
 
 const ResultsModal: React.FC<Results> = Results => {
-  const scoreElements = [];
-  for (let i = 0; i < Results.pointsWithCategories.length; i++) {
-    const score = Results.pointsWithCategories[i];
-    scoreElements.push(
-      <div key={score.Category}>
-        <p className="resultCategoryHeading">{score.Category}: </p>
-        <p className="resultCategoryScore">{score.Score}</p>
-      </div>
-    );
-  }
   return (
     <Modal className="modal-styles" show={Results.show}>
       <Modal.Header>
@@ -32,12 +22,15 @@ const ResultsModal: React.FC<Results> = Results => {
           </h2>
         </Modal.Title>
       </Modal.Header>
-      <Modal.Body>   {Results.pointsWithCategories.map(({ Category, Score }) => (
+      <Modal.Body>
+        {" "}
+        {Results.pointsWithCategories.map(({ Category, Score }) => (
           <div key={Category}>
             <p className="resultCategoryHeading">{Category}: </p>
             <p className="resultCategoryScore">{Score}</p>
           </div>
-        ))}</Modal.Body>
+        ))}
+      </Modal.Body>
       <Modal.Footer>
         <button className="modal-btn" onClick={Results.hideResultsBreakdown}>
           Close Breakdown
