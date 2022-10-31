@@ -1647,7 +1647,7 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/datatypes.html"
   },
    {
-    Question: "In Python the built-in way or after importing math library, which of the following is NOT the right way to find 5 raise to the power 9?",
+    Question: "In Python, which of the following is NOT the right way to find 5 raised to the power of 9?",
     Answer: "print(deg(5,9))",
     Distractor1: "print(5**9)",
     Distractor2: "print(pow(5,9))",
