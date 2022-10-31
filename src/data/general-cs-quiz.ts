@@ -1392,6 +1392,16 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/bubble-sort/"
   },
   {
+    Question: "Which HTTP status code returns 'I'm a teapot'?",
+    Answer: "418",
+    Distractor1: "000",
+    Distractor2: "007",
+    Distractor3: "128",
+    Explanation:
+      "HTTP status code 418 returns 'I'm a teapot' and it is a reference to a 1998 April Fools' joke.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/418#"
+  },
+  {
     Question:
       "Which of the following time complexities is considered to be the fastest?",
     Answer: "O(1)",
@@ -1412,6 +1422,17 @@ const generalCSQuiz = [
       "Selection sort has a worst case time complexity of O(n*n), due to the two nested loops.",
     Link: "https://forum.freecodecamp.org/t/the-selection-sort-algorithm-explained-with-examples/16106"
   },
+  {
+    Question:
+      "Which of the following is a dynamically typed language?",
+    Answer: "Python",
+    Distractor1: "C",
+    Distractor2: "Java",
+    Distractor3: "C++",
+    Explanation:
+      "Statically-typed languages like C, C++, and Java, perform type checking at compile time whereas dynamically-typed languages like Python and JavaScript  perform type checking at runtime.",
+    Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-1-8382da1e0adb/#:~:text=series%20is%20about.-,First%2C%20a%20definition,-The%20quickest%20way"
+  }
 ];
 
 export default generalCSQuiz;

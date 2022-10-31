@@ -700,7 +700,17 @@ const sqlQuiz = [
     Explanation:
       "'DROP DATABASE <table-name>' drops all tables in the database and deletes the database.",
     Link: "https://dev.mysql.com/doc/refman/8.0/en/drop-database.html"
-  }
+  },
+  {
+    Question: "In SQL, which of the following is a DQL command?",
+    Answer: "SELECT",
+    Distractor1: "UPDATE",
+    Distractor2: "COMMIT",
+    Distractor3: "INSERT",
+    Explanation:
+      "DQL stands for Data Query Language, and 'SELECT' is the only DQL command.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
+  },
 ];
 
 export default sqlQuiz;
