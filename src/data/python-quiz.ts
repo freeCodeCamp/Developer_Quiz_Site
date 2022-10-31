@@ -1637,6 +1637,15 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/functions.html#print"
   },
   {
+    Question: "In Python, which of the following statements is false?",
+    Answer: "Lists in Python are of a fixed size.",
+    Distractor1: "Tuples are an ordered, immutable set of data.",
+    Distractor2: "Dictionaries associate keywords with values.",
+    Distractor3: "Python is an object-oriented language.",
+    Explanation: "In Python, lists are not fixed-size.",
+    Link: "https://www.freecodecamp.org/news/python-array-tutorial-define-index-methods/"
+  },
+  {
     Question: "In Python, which of the following is NOT a built-in data type?",
     Answer: "class",
     Distractor1: "set",
