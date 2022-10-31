@@ -1246,6 +1246,16 @@ const linuxQuiz = [
     Explanation:
       "The ls -X command is used to list the file extensions in alphabetical order.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
+  },
+  {
+    Question: "In Linux, how many operations does the CAT command do?",
+    Answer: "4",
+    Distractor1: "2",
+    Distractor2: "6",
+    Distractor3: "1",
+    Explanation:
+      "The Cat command does 4 operations in Linux. It can create, read, write and append files.",
+    Link: "https://www.freecodecamp.org/news/the-cat-command-in-linux-how-to-create-a-text-file-with-cat-or-touch/"
   }
 ];
 
