@@ -280,6 +280,17 @@ const accessibilityQuiz = [
   },
   {
     Question:
+      "What is the semantic HTML equivalent for the ARIA: link role (role=`link`)?",
+    Answer: "<a>",
+    Distractor1: "<nav>",
+    Distractor2: "<link>",
+    Distractor3: "<iframe>",
+    Explanation:
+      "The anchor element is the HTML equivalent to the  ARIA link role. It is best to use the anchor element because it is best supported by assistive technologies.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/link_role"
+  },
+  {
+    Question:
       "Which of the following HTML tags does NOT use the autocomplete attribute?",
     Answer: "<html>",
     Distractor1: "<input>",
