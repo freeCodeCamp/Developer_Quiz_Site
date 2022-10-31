@@ -708,7 +708,7 @@ const sqlQuiz = [
     Distractor2: "COMMIT",
     Distractor3: "INSERT",
     Explanation:
-      "DQL stands for Data Query Language, 'SELECT' is the only DQL command.",
+      "DQL stands for Data Query Language, and 'SELECT' is the only DQL command.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
   },
 ];
