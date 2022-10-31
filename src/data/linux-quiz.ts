@@ -1246,6 +1246,17 @@ const linuxQuiz = [
     Explanation:
       "The ls -X command is used to list the file extensions in alphabetical order.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
+  },
+  {
+    Question:
+      "In Linux, Which command is used to concatinate two files and display the output?",
+    Answer: "Cat file1 file2 file3",
+    Distractor1: "Cat file1 + file2",
+    Distractor2: "Cat file1 file2 > file3",
+    Distractor3: "Cat file1 > file2",
+    Explanation:
+      "The ls -X command is used to list the file extensions in alphabetical order.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
 
