@@ -1652,7 +1652,7 @@ const pythonQuiz = [
     Distractor1: "print(5**9)",
     Distractor2: "print(pow(5,9))",
     Distractor3: "print(math.pow(9, 3))",
-    Explanation: "In Python, '**' operator, built-in function pow() and math.pow() function in math library can be used to get exponent to the base.",
+    Explanation: "In Python, the '**' operator, the built-in function pow() and the math.pow() function are three different ways to get the exponent to the base.",
     Link: "https://docs.python.org/3/library/math.html"
   }
 ];
