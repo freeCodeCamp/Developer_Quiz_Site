@@ -7,6 +7,7 @@ interface QuestionCategories {
   agileQuestionsCorrect: number;
   accessibilityQuestionsCorrect: number;
   cssQuestionsCorrect: number;
+  freeCodeCampQuestionsCorrect: number;
   generalCSQuestionsCorrect: number;
   gitQuestionsCorrect: number;
   htmlQuestionsCorrect: number;
@@ -32,60 +33,13 @@ const Results: React.FC<PointTotals> = PointTotals => {
   const totalPercentageCorrect =
     (Math.floor(PointTotals.points) / PointTotals.totalPoints) * 100;
   const tweetMessage = `http://twitter.com/intent/tweet?text=I just scored ${totalPercentageCorrect}%25 on developerquiz.org. Wanna try it for yourself?&hashtags=freecodecamp`;
-  const scoreTotalArray: ScoreData[] = [];
-
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.AGILE,
-    Score: PointTotals.questionCategories.agileQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.ACCESSIBILITY,
-    Score: PointTotals.questionCategories.accessibilityQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.CSS,
-    Score: PointTotals.questionCategories.cssQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.GENERAL,
-    Score: PointTotals.questionCategories.generalCSQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.GIT,
-    Score: PointTotals.questionCategories.gitQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.HTML,
-    Score: PointTotals.questionCategories.htmlQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.INFOTECH,
-    Score: PointTotals.questionCategories.infoTechQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.JAVASCRIPT,
-    Score: PointTotals.questionCategories.javascriptQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.LINUX,
-    Score: PointTotals.questionCategories.linuxQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.PYTHON,
-    Score: PointTotals.questionCategories.pythonQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.SQL,
-    Score: PointTotals.questionCategories.sqlQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.QUALITYASSURANCE,
-    Score: PointTotals.questionCategories.qualityAssuranceQuestionsCorrect
-  });
-  scoreTotalArray.push({
-    Category: CATEGORY_NAMES.SECURITY,
-    Score: PointTotals.questionCategories.securityQuestionsCorrect
-  });
+  const categoryTotals = Object.values(PointTotals.questionCategories);
+  const scoreTotalArray: ScoreData[] = Object.values(CATEGORY_NAMES).map(
+    (category, idx) => ({
+      Category: category,
+      Score: categoryTotals[idx]
+    })
+  );
 
   return (
     <div className="results-div">

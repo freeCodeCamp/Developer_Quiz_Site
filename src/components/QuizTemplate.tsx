@@ -34,6 +34,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     accessibilityQuestionsCorrect: 0,
     agileQuestionsCorrect: 0,
     cssQuestionsCorrect: 0,
+    freeCodeCampQuestionsCorrect: 0,
     generalCSQuestionsCorrect: 0,
     gitQuestionsCorrect: 0,
     htmlQuestionsCorrect: 0,
@@ -114,6 +115,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       cssQuestionsCorrect: 0,
       generalCSQuestionsCorrect: 0,
       gitQuestionsCorrect: 0,
+      freeCodeCampQuestionsCorrect: 0,
       htmlQuestionsCorrect: 0,
       infoTechQuestionsCorrect: 0,
       javascriptQuestionsCorrect: 0,
@@ -142,6 +144,10 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     } else if (categoryName == CATEGORY_NAMES.CSS) {
       const cssScore = questionCategories.cssQuestionsCorrect + 1;
       copy.cssQuestionsCorrect = cssScore;
+    } else if (categoryName == CATEGORY_NAMES.FREECODECAMP) {
+      const freeCodeCampScore =
+        questionCategories.freeCodeCampQuestionsCorrect + 1;
+      copy.freeCodeCampQuestionsCorrect = freeCodeCampScore;
     } else if (categoryName == CATEGORY_NAMES.GENERAL) {
       const generalScore = questionCategories.generalCSQuestionsCorrect + 1;
       copy.generalCSQuestionsCorrect = generalScore;
