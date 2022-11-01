@@ -12,22 +12,48 @@ import pythonQuiz from "./data/python-quiz";
 import qualityAssuranceQuiz from "./data/quality-assurance-quiz";
 import securityQuiz from "./data/security-quiz";
 import sqlQuiz from "./data/sql-quiz";
+import { QuizQuestion } from "./types";
+
+export const CATEGORY_NAMES = {
+  ACCESSIBILITY: "Accessibility",
+  AGILE: "Agile",
+  CSS: "CSS",
+  FREECODECAMP: "freeCodeCamp",
+  GENERAL: "General Computer Science",
+  GIT: "Git",
+  HTML: "HTML",
+  INFOTECH: "Information Technology",
+  JAVASCRIPT: "JavaScript",
+  LINUX: "Linux",
+  PYTHON: "Python",
+  SECURITY: "Security",
+  SQL: "SQL",
+  QUALITYASSURANCE: "Quality Assurance"
+};
+
+function addCategoryToQuiz(quizQuestion: QuizQuestion[], category: string) {
+  const questionHolder: QuizQuestion[] = [];
+  quizQuestion.forEach(x =>
+    questionHolder.push(Object.assign({}, x, { Category: category }))
+  );
+  return questionHolder;
+}
 
 export const ALL_CATEGORIES = [
-  ...accessibilityQuiz,
-  ...cssQuiz,
-  ...freecodecampQuiz,
-  ...generalCSQuiz,
-  ...gitQuiz,
-  ...htmlQuiz,
-  ...informationTechnologyQuiz,
-  ...javascriptQuiz,
-  ...linuxQuiz,
-  ...pythonQuiz,
-  ...sqlQuiz,
-  ...agileQuiz,
-  ...qualityAssuranceQuiz,
-  ...securityQuiz
+  ...addCategoryToQuiz(accessibilityQuiz, CATEGORY_NAMES.ACCESSIBILITY),
+  ...addCategoryToQuiz(cssQuiz, CATEGORY_NAMES.CSS),
+  ...addCategoryToQuiz(freecodecampQuiz, CATEGORY_NAMES.FREECODECAMP),
+  ...addCategoryToQuiz(generalCSQuiz, CATEGORY_NAMES.GENERAL),
+  ...addCategoryToQuiz(gitQuiz, CATEGORY_NAMES.GIT),
+  ...addCategoryToQuiz(htmlQuiz, CATEGORY_NAMES.HTML),
+  ...addCategoryToQuiz(informationTechnologyQuiz, CATEGORY_NAMES.INFOTECH),
+  ...addCategoryToQuiz(javascriptQuiz, CATEGORY_NAMES.JAVASCRIPT),
+  ...addCategoryToQuiz(linuxQuiz, CATEGORY_NAMES.LINUX),
+  ...addCategoryToQuiz(pythonQuiz, CATEGORY_NAMES.PYTHON),
+  ...addCategoryToQuiz(sqlQuiz, CATEGORY_NAMES.SQL),
+  ...addCategoryToQuiz(agileQuiz, CATEGORY_NAMES.AGILE),
+  ...addCategoryToQuiz(qualityAssuranceQuiz, CATEGORY_NAMES.QUALITYASSURANCE),
+  ...addCategoryToQuiz(securityQuiz, CATEGORY_NAMES.SECURITY)
 ];
 
 export const ROUNDED_QUESTION_COUNT = 1000;
