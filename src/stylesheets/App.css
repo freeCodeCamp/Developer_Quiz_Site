@@ -33,19 +33,21 @@ a:hover {
   display: block;
 }
 
-/*Quiz styles*/
-
-.select-quiz-styles {
+/* Common shared styles */
+.select-quiz-styles,
+.quiz-div,
+.results-div {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/*Quiz styles*/
 .quiz-heading,
 .results-heading {
-  text-align: center;
   font-family: "Roboto Mono", monospace;
+  text-align: center;
 }
 
 .select-btn-div {
@@ -56,13 +58,13 @@ a:hover {
 
 .select-btns,
 .answers-btns {
-  cursor: pointer;
-  padding: 10px;
-  border-radius: 15px;
-  margin: 10px 0;
-  background-color: #ffffff;
-  border: none;
   font-size: 1.2rem;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  border: none;
+  cursor: pointer;
 }
 
 .quiz-btn,
@@ -72,13 +74,6 @@ a:hover {
   border: 3px solid #feac32;
   font-size: 1.2rem;
   padding: 5px;
-}
-
-.quiz-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
 }
 
 .quiz-answers-div {
@@ -95,8 +90,8 @@ a:hover {
 
 .quiz-text {
   display: flex;
-  padding: 0 10px;
   justify-content: space-evenly;
+  padding: 0 10px;
   font-size: 1.4rem;
 }
 
@@ -117,14 +112,6 @@ a:hover {
 }
 
 /*Results styles*/
-
-.results-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
 .results-text {
   font-size: 1.3rem;
   margin-top: 20px;

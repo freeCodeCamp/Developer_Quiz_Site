@@ -5,29 +5,29 @@
 .btn-default {
   width: 100px;
   margin: 10px;
-  color: #0a0a23;
+  font-family: Roboto Mono, monospace;
   font-size: 18px;
+  color: #0a0a23;
   background-color: #feac32;
   background-image: linear-gradient(#fecc4c, #ffac33);
   border-color: #feac32;
   border-width: 3px;
-  font-family: Roboto Mono, monospace;
 }
 
 .transparent-btn {
-  color: var(--gray-00, #fff);
   height: 32px;
-  font-size: 18px;
   font-family: lato, sans-serif;
-  cursor: pointer;
-  border: 1px solid var(--gray-00, #fff);
+  font-size: 18px;
   background: transparent;
+  color: var(--gray-00, #fff);
+  border: 1px solid var(--gray-00, #fff);
+  cursor: pointer;
 }
 
 .transparent-btn:hover {
+  font-weight: bold;
   background-color: var(--gray-00, #fff);
   color: #0a0a23;
-  font-weight: bold;
 }
 
 .large-btn {

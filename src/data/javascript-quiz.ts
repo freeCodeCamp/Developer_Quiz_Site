@@ -120,6 +120,28 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript, if let n = 12345.6789, then what will be the result for console.log(n.toFixed())?",
+    Answer: "12346",
+    Distractor1: "12345",
+    Distractor2: "12345.6789",
+    Distractor3: "Undefined. toFixed() must take parameters",
+    Explanation:
+      "Parameters are optional. If not passed, it will round the given number, leaving with no fractional part",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed#examples"
+  },
+  {
+    Question:
+      "In JavaScript, what will be the value for console.log(((a, b = 1, c) => {}).length)?",
+    Answer: "1",
+    Distractor1: "3",
+    Distractor2: "2",
+    Distractor3: "0",
+    Explanation:
+      "length property inside the function indicates the expected number of parameters. But, only paramaters before the first one with a default value are counted.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length"
+  },
+  {
+    Question:
       "What is the process of converting a value from one data type to another called?",
     Answer: "Type Coercion",
     Distractor1: "Type Casting",
@@ -1959,7 +1981,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
   },
   {
-    Question: "In JavaScript, what is the name for a variable that can be changed?",
+    Question:
+      "In JavaScript, what is the name for a variable that can be changed?",
     Answer: "Mutable Variable",
     Distractor1: "Volatile Variable",
     Distractor2: "Dynamic Variable",

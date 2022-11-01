@@ -3,8 +3,8 @@ p {
 }
 
 .featurette-heading {
-  font-weight: 700;
   margin: 22px;
+  font-weight: 700;
 }
 
 .content-section-img {
@@ -12,8 +12,8 @@ p {
 }
 
 .content-row-container {
-  display: flex;
   width: 100vw;
+  display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 20px;
@@ -22,12 +22,12 @@ p {
 }
 
 .content-text-container {
-  padding: 20px 30px !important;
-  justify-content: center;
+  max-width: 485px !important;
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  max-width: 485px !important;
+  justify-content: center;
+  padding: 20px 30px !important;
 }
 
 .lead {
@@ -50,18 +50,18 @@ p {
 }
 
 #divider {
+  height: 2px;
   margin-top: 0;
   margin-bottom: 0;
   color: white;
-  height: 2px;
   opacity: 0.8;
 }
 
 #fcc-image {
   width: 100%;
   height: 100%;
-  object-fit: contain;
   padding-left: 10px;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 768px) {
