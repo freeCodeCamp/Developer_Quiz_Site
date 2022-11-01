@@ -23,39 +23,24 @@
 }
 
 .hero-text {
-  background-color: #0a0a23f2;
   padding: 20px;
   font-family: Lato, sans-serif;
   text-align: center;
   letter-spacing: 1px;
   line-height: 1.5em;
+  background-color: #0a0a23f2;
   box-shadow: inset -5px -6px #0a0a232e;
 }
 
 .question-count {
   font-size: 2rem;
 }
+
 .hero-text h1 {
   font-weight: bold;
-  font-size: 2.1rem;
+  font-size: clamp(2.1rem, 7vw, 3.75rem);
 }
 
 .hero-text h2 {
-  font-size: 1.5rem;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-text h1 {
-    font-size: 3.1rem;
-  }
-
-  .hero-text h2 {
-    font-size: 1.8rem;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .hero-text h1 {
-    font-size: 3.75rem;
-  }
+  font-size: clamp(1.5rem, 4vw, 1.8rem);
 }

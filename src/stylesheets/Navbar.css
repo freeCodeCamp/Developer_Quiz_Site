@@ -3,7 +3,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 10px;
+  padding: 10px;
   background-color: #0a0a23;
 }
 
@@ -23,15 +23,14 @@ header {
 
 .website-logo {
   display: flex;
+  width: auto;
   height: 35px;
   margin: 7px 0;
-  width: auto;
 }
 
 @media screen and (max-width: 590px) {
   .homepage-navbar {
     display: block;
-    justify-content: center;
   }
 
   .navbar-buttons {
