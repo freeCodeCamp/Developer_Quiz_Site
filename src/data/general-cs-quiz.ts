@@ -1432,6 +1432,15 @@ const generalCSQuiz = [
     Explanation:
       "Statically-typed languages like C, C++, and Java, perform type checking at compile time whereas dynamically-typed languages like Python and JavaScript  perform type checking at runtime.",
     Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-1-8382da1e0adb/#:~:text=series%20is%20about.-,First%2C%20a%20definition,-The%20quickest%20way"
+  },
+  {
+    Question: "If you were to solve the classic FizzBuzz challenge, what would be the output for the 15th iteration?",
+    Answer: "FizzBuzz",
+    Distractor1: "Fizz",
+    Distractor2: "Buzz",
+    Distractor3: "BuzzFizz",
+    Explanation:  "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5.. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
+    Link: "https://en.wikipedia.org/wiki/Fizz_buzz"
   }
 ];
 

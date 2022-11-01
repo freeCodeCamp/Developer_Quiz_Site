@@ -1967,15 +1967,6 @@ const javascriptQuiz = [
     Explanation:
       "Variables that can have their values changed are referred to as Mutable Variables. Only objects and arrays are changeable in JavaScript; primitive values are not.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
-  },
-  {
-    Question: "Write a loop that iterates from 1 to 15 while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. What is the last output?",
-    Answer: "FizzBuzz",
-    Distractor1: "Fizz",
-    Distractor2: "Buzz",
-    Distractor3: "BuzzFizz",
-    Explanation: "Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
-    Link: "https://en.wikipedia.org/wiki/Fizz_buzz"
   }
 ];
 
