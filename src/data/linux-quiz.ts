@@ -1250,7 +1250,7 @@ const linuxQuiz = [
   {
     Question:
       "In Linux, which command is used to concatenate two files and display the output?",
-    Answer: "Cat file1 file2 file3",
+    Answer: "cat file1 file2 file3",
     Distractor1: "Cat file1 + file2",
     Distractor2: "Cat file1 file2 > file3",
     Distractor3: "Cat file1 > file2",
