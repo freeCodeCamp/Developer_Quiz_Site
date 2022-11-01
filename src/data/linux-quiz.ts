@@ -1249,7 +1249,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Linux, Which command is used to concatinate two files and display the output?",
+      "In Linux, which command is used to concatenate two files and display the output?",
     Answer: "Cat file1 file2 file3",
     Distractor1: "Cat file1 + file2",
     Distractor2: "Cat file1 file2 > file3",
