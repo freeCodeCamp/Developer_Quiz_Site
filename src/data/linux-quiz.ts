@@ -1255,7 +1255,7 @@ const linuxQuiz = [
     Distractor2: "Cat file1 file2 > file3",
     Distractor3: "Cat file1 > file2",
     Explanation:
-      "The ls -X command is used to list the file extensions in alphabetical order.",
+      "The cat command prints a file's content to the standard output",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   }
 ];
