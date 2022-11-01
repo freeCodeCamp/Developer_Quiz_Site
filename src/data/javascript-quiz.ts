@@ -1958,7 +1958,7 @@ const javascriptQuiz = [
       "forEach() always returns undefined. It makes no difference whether the return keyword is used or not.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
   },
-{
+  {
     Question: "In JavaScript, what is the name for a variable that can be changed?",
     Answer: "Mutable Variable",
     Distractor1: "Volatile Variable",
