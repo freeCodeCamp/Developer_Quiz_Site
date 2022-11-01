@@ -1254,7 +1254,7 @@ const linuxQuiz = [
     Distractor2: "sort, destroy, move and append files",
     Distractor3: "reverse, read, write and multiply files",
     Explanation:
-      "The Cat command does 4 operations in Linux. It can create, read, write and append files.",
+      "The cat command can create, read, write and append files.",
     Link: "https://www.freecodecamp.org/news/the-cat-command-in-linux-how-to-create-a-text-file-with-cat-or-touch/"
   }
 ];
