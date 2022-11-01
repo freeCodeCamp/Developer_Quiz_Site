@@ -1248,6 +1248,17 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
+    Question:
+      "In Linux, which command is used to concatenate two files and display the output?",
+    Answer: "cat file1 file2 file3",
+    Distractor1: "Cat file1 + file2",
+    Distractor2: "Cat file1 file2 > file3",
+    Distractor3: "Cat file1 > file2",
+    Explanation:
+      "The cat command prints a file's content to the standard output",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
+  },
+  {
     Question: "In Linux, what are four operations that can be done with the cat command?",
     Answer: "create, read, write and append files",
     Distractor1: "create, delete, reverse and append files",
