@@ -1439,7 +1439,7 @@ const generalCSQuiz = [
     Distractor1: "Fizz",
     Distractor2: "Buzz",
     Distractor3: "BuzzFizz",
-    Explanation:  "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5.. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
+    Explanation:  "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
     Link: "https://en.wikipedia.org/wiki/Fizz_buzz"
   }
 ];
