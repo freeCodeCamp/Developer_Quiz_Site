@@ -1248,7 +1248,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
-    Question: "In Linux, how many operations does the CAT command do?",
+    Question: "In Linux, what are four operations that can be done with the cat command?",
     Answer: "4",
     Distractor1: "2",
     Distractor2: "6",
