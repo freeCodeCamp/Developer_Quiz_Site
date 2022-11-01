@@ -1151,13 +1151,13 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what is the name of the method used to find elements that match one of more selectors?",
+      "In JavaScript, what is the name of the method used to find elements that match one or more selectors?",
     Answer: ".querySelector()",
     Distractor1: ".textContent()",
     Distractor2: ".padEnd()",
     Distractor3: "Optional chaining",
     Explanation:
-      "The .querySelector() method is used to find elements in the DOM that match one of more selectors.",
+      "The .querySelector() method is used to find elements in the DOM that match one or more selectors.",
     Link: "https://www.freecodecamp.org/news/what-is-the-dom-document-object-model-meaning-in-javascript/"
   },
   {
