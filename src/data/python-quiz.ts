@@ -1516,7 +1516,7 @@ const pythonQuiz = [
     Distractor2: "len(x)",
     Distractor3: "os.getsizeof(x)",
     Explanation:
-      "When you import the sys module and use the the getsizeof() method, Python will calculate how much memory that object has consumed.",
+      "When you import the sys module and use the getsizeof() method, Python will calculate how much memory that object has consumed.",
     Link: "https://www.freecodecamp.org/news/python-programming-tips/"
   },
   {
@@ -1653,14 +1653,16 @@ const pythonQuiz = [
     Distractor3: "frozenset",
     Explanation: "In Python, a class is a user defined data type.",
     Link: "https://docs.python.org/3/library/datatypes.html"
-   },
-   {
-    Question: "In Python, which of the following is NOT the right way to find 5 raised to the power of 9?",
+  },
+  {
+    Question:
+      "In Python, which of the following is NOT the right way to find 5 raised to the power of 9?",
     Answer: "print(deg(5,9))",
     Distractor1: "print(5**9)",
     Distractor2: "print(pow(5,9))",
     Distractor3: "print(math.pow(9, 3))",
-    Explanation: "In Python, the '**' operator, the built-in function pow() and the math.pow() function are three different ways to get the exponent to the base.",
+    Explanation:
+      "In Python, the '**' operator, the built-in function pow() and the math.pow() function are three different ways to get the exponent to the base.",
     Link: "https://docs.python.org/3/library/math.html"
   }
 ];

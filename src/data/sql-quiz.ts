@@ -161,7 +161,7 @@ const sqlQuiz = [
     Distractor2: "FROM freeCodeCamp SELECT all;",
     Distractor3: "FROM freeCodeCamp SELECT *;",
     Explanation:
-      "In SQl, SELECT is used to select data from a database. The * is a wildcard character that matches any column in the table. The FROM clause specifies the table to select from.",
+      "In SQL, SELECT is used to select data from a database. The * is a wildcard character that matches any column in the table. The FROM clause specifies the table to select from.",
     Link: "https://www.freecodecamp.org/news/learn-sql-queries-database-query-tutorial-for-beginners/"
   },
   {
@@ -710,7 +710,7 @@ const sqlQuiz = [
     Explanation:
       "DQL stands for Data Query Language, and 'SELECT' is the only DQL command.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
-  },
+  }
 ];
 
 export default sqlQuiz;

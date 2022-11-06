@@ -533,7 +533,7 @@ const linuxQuiz = [
     Distractor2: "Refers to no directory",
     Distractor3: "Refers to the root of the file structure",
     Explanation:
-      "The .. is a special path and means one level up. It refers to the the parent directory.",
+      "The .. is a special path and means one level up. It refers to the parent directory.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
@@ -1259,13 +1259,13 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
   {
-    Question: "In Linux, what are four operations that can be done with the cat command?",
+    Question:
+      "In Linux, what are four operations that can be done with the cat command?",
     Answer: "create, read, write and append files",
     Distractor1: "create, delete, reverse and append files",
     Distractor2: "sort, destroy, move and append files",
     Distractor3: "reverse, read, write and multiply files",
-    Explanation:
-      "The cat command can create, read, write and append files.",
+    Explanation: "The cat command can create, read, write and append files.",
     Link: "https://www.freecodecamp.org/news/the-cat-command-in-linux-how-to-create-a-text-file-with-cat-or-touch/"
   }
 ];
