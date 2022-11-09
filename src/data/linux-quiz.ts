@@ -1271,8 +1271,8 @@ const linuxQuiz = [
   {
     Question: "In Linux, which of the following options is the correct way to create a new file?",
     Answer: "> filename.extension",
-    Distractor1: "touch filename.extension",
-    Distractor2: "cat filename.extension",
+    Distractor1: "cd filename.extension",
+    Distractor2: "ls filename.extension",
     Distractor3: "None of the above",
     Explanation:
       "> greater than operator is used to create a new file in Linux.",
