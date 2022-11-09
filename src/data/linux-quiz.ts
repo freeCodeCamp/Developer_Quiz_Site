@@ -1267,6 +1267,16 @@ const linuxQuiz = [
     Distractor3: "reverse, read, write and multiply files",
     Explanation: "The cat command can create, read, write and append files.",
     Link: "https://www.freecodecamp.org/news/the-cat-command-in-linux-how-to-create-a-text-file-with-cat-or-touch/"
+  },
+  {
+    Question: "In Linux, which of the following options is the correct way to create a new file?",
+    Answer: "> filename.extension",
+    Distractor1: "cd filename.extension",
+    Distractor2: "ls filename.extension",
+    Distractor3: "None of the above",
+    Explanation:
+      "> greater than operator is used to create a new file in Linux.",
+    Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
   }
 ];
 
