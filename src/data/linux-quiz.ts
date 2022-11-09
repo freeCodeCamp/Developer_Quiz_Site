@@ -1276,7 +1276,7 @@ const linuxQuiz = [
     Distractor3: "None of the above",
     Explanation:
       "> greater than operator is used to create a new file in Linux.",
-    Link: "https://dev.to/shaikmohdhuzaifa/most-convenient-way-to-create-a-new-file-2kmo"
+    Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
   }
 ];
 
