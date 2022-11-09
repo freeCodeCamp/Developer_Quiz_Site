@@ -1269,7 +1269,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cat-command-in-linux-how-to-create-a-text-file-with-cat-or-touch/"
   },
   {
-    Question: "In Linux, which is the most convinent way to create a new file?",
+    Question: "In Linux, which of the following options is the correct way to create a new file?",
     Answer: "> filename.extension",
     Distractor1: "touch filename.extension",
     Distractor2: "cat filename.extension",
