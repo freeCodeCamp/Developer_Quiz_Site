@@ -1269,7 +1269,8 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cat-command-in-linux-how-to-create-a-text-file-with-cat-or-touch/"
   },
   {
-    Question: "In Linux, which of the following options is the correct way to create a new file?",
+    Question:
+      "In Linux, which of the following options is the correct way to create a new file?",
     Answer: "> filename.extension",
     Distractor1: "cd filename.extension",
     Distractor2: "ls filename.extension",
@@ -1277,6 +1278,15 @@ const linuxQuiz = [
     Explanation:
       "> greater than operator is used to create a new file in Linux.",
     Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
+  },
+  {
+    Question: "In Linux, What does elif stand for?",
+    Answer: "else if",
+    Distractor1: "elif condition",
+    Distractor2: "elif statement",
+    Distractor3: "None of the above",
+    Explanation: "elif is else if statement in Shell Scripting.",
+    Link: "https://www.geeksforgeeks.org/conditional-statements-shell-script/"
   }
 ];
 
