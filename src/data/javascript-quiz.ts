@@ -1990,17 +1990,6 @@ const javascriptQuiz = [
     Explanation:
       "Variables that can have their values changed are referred to as Mutable Variables. Only objects and arrays are changeable in JavaScript; primitive values are not.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
-  },
-  {
-    Question:
-      "In JavaScript, Can we write a if else statement without paranthesis?",
-    Answer: "Yes, When we have only one line statement",
-    Distractor1: "No ",
-    Distractor2: "Its Impossible",
-    Distractor3: "No I don't Know",
-    Explanation:
-      "Javascript allows us to write a oneline if else statement without paranthesis",
-    Link: "https://stackoverflow.com/questions/4797286/are-braces-necessary-in-one-line-statements-in-javascript"
   }
 ];
 
