@@ -1990,6 +1990,16 @@ const javascriptQuiz = [
     Explanation:
       "Variables that can have their values changed are referred to as Mutable Variables. Only objects and arrays are changeable in JavaScript; primitive values are not.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
+  },
+  {
+    Question: "In JavaScript, Can we write a function without a name?",
+    Answer: "Yes",
+    Distractor1: "No",
+    Distractor2: "Maybe",
+    Distractor3: "I don't know",
+    Explanation:
+      "Yes, we can write a function without a name. It is called an anonymous function and it is mostly used when a eventlistener is added to a element.",
+    Link: "https://www.geeksforgeeks.org/javascript-anonymous-functions/"
   }
 ];
 
