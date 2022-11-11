@@ -1241,6 +1241,16 @@ const cssQuiz = [
     Explanation:
       "You can use border-style: groove; to specify groove border styles around HTML elements.",
     Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
+  },
+  {
+    Question: "In CSS, What will this pseudo class selector do? :nth-child(2)",
+    Answer: "Selects the second child of the parent element",
+    Distractor1: "Select 2 children of the parent element",
+    Distractor2: "Select 2 elements of the parent element",
+    Distractor3: "None of the above",
+    Explanation:
+      "The :nth-child() pseudo-class selector matches every element that is the second child, third child, etc. of its parent.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child"
   }
 ];
 
