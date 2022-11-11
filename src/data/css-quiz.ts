@@ -1241,6 +1241,17 @@ const cssQuiz = [
     Explanation:
       "You can use border-style: groove; to specify groove border styles around HTML elements.",
     Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
+  },
+  {
+    Question:
+      "In CSS, When flex-direction is changed to column the main axis becomes the:",
+    Answer: "Cross axis",
+    Distractor1: "X axis",
+    Distractor2: "Y axis",
+    Distractor3: "None of the Above",
+    Explanation:
+      "The main axis is the direction in which flex items are placed. When flex-direction is changed to column the main axis becomes the cross axis.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/flex-direction"
   }
 ];
 
