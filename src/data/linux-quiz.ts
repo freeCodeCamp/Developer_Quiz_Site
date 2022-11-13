@@ -1280,7 +1280,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
   },
   {
-    Question: "In Linux, What does elif stand for?",
+    Question: "In Linux, what does elif stand for?",
     Answer: "else if",
     Distractor1: "elif condition",
     Distractor2: "elif statement",
