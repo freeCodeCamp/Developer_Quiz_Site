@@ -1285,7 +1285,7 @@ const linuxQuiz = [
     Distractor1: "elif condition",
     Distractor2: "elif statement",
     Distractor3: "None of the above",
-    Explanation: "elif is else if statement in Shell Scripting.",
+    Explanation: "elif is an else if statement in Shell Scripting.",
     Link: "https://www.geeksforgeeks.org/conditional-statements-shell-script/"
   }
 ];
