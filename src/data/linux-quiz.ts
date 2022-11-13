@@ -1280,7 +1280,7 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
   },
   {
-    Question: "In Linux, How to end an if statement?",
+    Question: "In Linux, which one is the correct keyword used to end an if statement?",
     Answer: "fi keyword",
     Distractor1: "end keyword",
     Distractor2: "{} p",
