@@ -1115,7 +1115,7 @@ const generalCSQuiz = [
     Question: "What is a Nibble?",
     Answer: "Nibble is a four-bit aggregation",
     Distractor1: "Nibble is an algorithm",
-    Distractor2: "Nibble is a octet",
+    Distractor2: "Nibble is an octet",
     Distractor3: "Nibble is a device",
     Explanation: "A Nibble is a group of four bits (half of a byte)",
     Link: "https://en.wikipedia.org/wiki/Nibble"
@@ -1423,8 +1423,7 @@ const generalCSQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-selection-sort-algorithm-explained-with-examples/16106"
   },
   {
-    Question:
-      "Which of the following is a dynamically typed language?",
+    Question: "Which of the following is a dynamically typed language?",
     Answer: "Python",
     Distractor1: "C",
     Distractor2: "Java",
@@ -1434,12 +1433,14 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-1-8382da1e0adb/#:~:text=series%20is%20about.-,First%2C%20a%20definition,-The%20quickest%20way"
   },
   {
-    Question: "If you were to solve the classic FizzBuzz challenge, what would be the output for the 15th iteration?",
+    Question:
+      "If you were to solve the classic FizzBuzz challenge, what would be the output for the 15th iteration?",
     Answer: "FizzBuzz",
     Distractor1: "Fizz",
     Distractor2: "Buzz",
     Distractor3: "BuzzFizz",
-    Explanation:  "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
+    Explanation:
+      "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
     Link: "https://en.wikipedia.org/wiki/Fizz_buzz"
   }
 ];

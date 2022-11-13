@@ -1,0 +1,6 @@
+{
+  "files": ["./src/data"],
+  "generateDictionary": true,
+  "quiet": false,
+  "dictionaries": ["./dictionary-clean.txt"]
+}

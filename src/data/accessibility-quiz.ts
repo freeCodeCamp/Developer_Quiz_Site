@@ -191,7 +191,7 @@ const accessibilityQuiz = [
     Answer:
       "A software application that attempts to convey what is displayed via non-visual means, like text-to-speech.",
     Distractor1:
-      "A Chrome extension that reads all text on a web page and converts it to a audio files.",
+      "A Chrome extension that reads all text on a web page and converts it to audio files.",
     Distractor2:
       "A site that provides examples of how to implement alt text to images.",
     Distractor3:

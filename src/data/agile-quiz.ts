@@ -179,7 +179,7 @@ const agileQuiz = [
   {
     Question:
       "In Agile, which of the following is NOT one of notable features of story points?",
-    Answer: "points are assigned in a odd-like sequence: 1, 3, 5, 7, 9...",
+    Answer: "points are assigned in an odd-like sequence: 1, 3, 5, 7, 9...",
     Distractor1: "points represent the contributions of the whole team",
     Distractor2: "points estimate the 'size' of stories relative to each other",
     Distractor3: "points do not equate directly to time the task might take",

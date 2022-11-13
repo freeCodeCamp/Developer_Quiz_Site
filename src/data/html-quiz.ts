@@ -27,7 +27,7 @@ const htmlQuiz = [
     Distractor2: "<a href='www.freecodecamp.org' freeCodeCamp /a>",
     Distractor3: "<a link='www.freecodecamp.org' freeCodeCamp > </a>",
     Explanation:
-      "In HTML, an anchor element is used to create links on a a web page. Here is the correct syntax: <a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
+      "In HTML, an anchor element is used to create links on a web page. Here is the correct syntax: <a href= 'www.freecodecamp.org'> freeCodeCamp </a>",
     Link: "https://www.freecodecamp.org/news/the-html-a-tag-anchor-tag-example-code/"
   },
   {
@@ -983,7 +983,7 @@ const htmlQuiz = [
     Distractor2: "id",
     Distractor3: "style",
     Explanation:
-      "On the opening tag, <a>, an href attribute is added which is short for hypertext reference. The value of the href attribute specifies the desired URL you want the link to take users to when the link text is clicked.",
+      "On the opening tag, <a>, a href attribute is added which is short for hypertext reference. The value of the href attribute specifies the desired URL you want the link to take users to when the link text is clicked.",
     Link: "https://www.freecodecamp.org/news/what-is-a-hyperlink-definition-for-html-link-beginners/"
   },
   {
