@@ -1244,7 +1244,7 @@ const cssQuiz = [
   },
   {
     Question:
-      "In CSS, When flex-direction is changed to column the main axis becomes the:",
+      "In CSS, if flex-direction is set to column, then what would the main axis become?",
     Answer: "Cross axis",
     Distractor1: "X axis",
     Distractor2: "Y axis",
