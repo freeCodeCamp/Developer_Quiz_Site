@@ -1993,14 +1993,14 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, Can we write a if else statement without paranthesis?",
-    Answer: "Yes, When we have only one line statement",
-    Distractor1: "No ",
-    Distractor2: "Its Impossible",
-    Distractor3: "No I don't Know",
+      "In JavaScript, which of the following is the correct syntax for a one line if statement?",
+    Answer: "if(5>4) console.log("This is true");",
+    Distractor1: "if(5>4) <<>> console.log("This is true"); ",
+    Distractor2: "if[5>4] console.log("This is true");",
+    Distractor3: "((if(5>4) console.log("This is true")));",
     Explanation:
-      "Javascript allows us to write a oneline if else statement without paranthesis",
-    Link: "https://stackoverflow.com/questions/4797286/are-braces-necessary-in-one-line-statements-in-javascript"
+      "In JavaScript, you can create a one line if statement without the curly braces using this syntax: if (condition is true) // short one line of code is executed",
+    Link: "https://www.freecodecamp.org/news/javascript-if-else-and-if-then-js-conditional-statements/"
   }
 ];
 
