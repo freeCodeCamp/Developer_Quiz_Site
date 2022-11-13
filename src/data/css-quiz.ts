@@ -1250,7 +1250,7 @@ const cssQuiz = [
     Distractor2: "flex-direction, flex-wrap, and flex-flow",
     Distractor3: "flex-direction, flex-wrap, and flex-flow",
     Explanation:
-      "Flex is a shorthand property for all these three properties: flex-grow, flex-shrink, and flex-basis.",
+      "Flex is a shorthand property for these three properties: flex-grow, flex-shrink, and flex-basis.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/flex"
   }
 ];
