@@ -1286,7 +1286,7 @@ const linuxQuiz = [
     Distractor2: "{} p",
     Distractor3: "end if",
     Explanation: "The fi keyword is used to end an if statement in Linux.",
-    Link: "https://www.freecodecamp.org/news/javascript-if-else-and-if-then-js-conditional-statements/"
+    Link: "https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/"
   }
 ];
 
