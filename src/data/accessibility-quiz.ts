@@ -114,13 +114,13 @@ const accessibilityQuiz = [
   {
     Question:
       "Which of the following HTML elements can improve the accessibility for your website?",
-    Answer: "<section>",
+    Answer: "<main>",
     Distractor1: "<div>",
     Distractor2: "<span>",
     Distractor3: "<head>",
     Explanation:
-      "The section element holds semantic meaning and defines sections within the HTML document.",
-    Link: "https://www.freecodecamp.org/news/semantic-html5-elements/"
+      "The main element defines a main landmark on the page which allows screen reader users to quickly navigate to the beginning of the main content.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
   },
   {
     Question:
