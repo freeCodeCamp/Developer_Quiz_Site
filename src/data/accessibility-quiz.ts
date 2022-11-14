@@ -216,7 +216,7 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "How can you make focus elements more accessible to screen readers on mobile?",
+      "How can you make focus elements more accessible to screen readers on native mobile apps?",
     Answer: "Add an accessibility label for each element.",
     Distractor1: "Avoid using images, gifs, and videos altogether.",
     Distractor2: "Add a contentDesc label to your focus elements.",
