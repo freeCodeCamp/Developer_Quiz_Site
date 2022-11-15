@@ -1278,15 +1278,6 @@ const linuxQuiz = [
     Explanation:
       "> greater than operator is used to create a new file in Linux.",
     Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
-  },
-  {
-    Question: "In Linux, which one is the correct keyword used to end an if statement?",
-    Answer: "fi keyword",
-    Distractor1: "end keyword",
-    Distractor2: "{} p",
-    Distractor3: "end if",
-    Explanation: "The fi keyword is used to end an if statement in Linux.",
-    Link: "https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/"
   }
 ];
 

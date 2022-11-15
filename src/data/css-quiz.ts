@@ -1241,17 +1241,6 @@ const cssQuiz = [
     Explanation:
       "You can use border-style: groove; to specify groove border styles around HTML elements.",
     Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
-  },
-  {
-    Question:
-      "In CSS, Flex is a shorthand property for which of the following properties?",
-    Answer: "flex-grow, flex-shrink, and flex-basis",
-    Distractor1: "justify-content, align-items, and align-content",
-    Distractor2: "flex-direction, flex-wrap, and flex-flow",
-    Distractor3: "flex-direction, order, and flex-reverse",
-    Explanation:
-      "Flex is a shorthand property for these three properties: flex-grow, flex-shrink, and flex-basis.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/flex"
   }
 ];
 

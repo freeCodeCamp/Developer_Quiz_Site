@@ -114,13 +114,13 @@ const accessibilityQuiz = [
   {
     Question:
       "Which of the following HTML elements can improve the accessibility for your website?",
-    Answer: "<section>",
+    Answer: "<main>",
     Distractor1: "<div>",
     Distractor2: "<span>",
     Distractor3: "<head>",
     Explanation:
-      "The section element holds semantic meaning and defines sections within the HTML document.",
-    Link: "https://www.freecodecamp.org/news/semantic-html5-elements/"
+      "The main element defines a main landmark on the page which allows screen reader users to quickly navigate to the beginning of the main content.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
   },
   {
     Question:
@@ -173,17 +173,17 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "Why would providing a skip navigation link create a better experience for visually impaired users?",
+      "Why would providing a skip navigation link create a better experience for keyboard users?",
     Answer:
-      "It would allow a user to skip to the main content of a site and avoid tabbing through all the main navigation links.",
+      "It would allow them to skip to the main content of a site and avoid tabbing through all the main navigation links.",
     Distractor1:
-      "It would disable all main navigation links for quicker access.",
+      "It would disable all main navigation links, allowing for quicker access to the main content.",
     Distractor2:
       "It would go through all of the navigation options before the main content of a site.",
     Distractor3:
-      "It would allow a users to skip to the site's navigation links for more efficient access to content.",
+      "It would allow them to skip to the site's navigation links for more efficient access to content.",
     Explanation:
-      "In order to give visually impaired users a pleasant experience on your website, they need to be able to access content quickly and efficiently. To allow visually impaired users to skip the main content of a site and avoid tabbing through all the main navigation, you can create a 'skip navigation link'",
+      "In order to give keyboard users a pleasant experience on your website, they need to be able to access content quickly and efficiently. To allow them to skip to the main content of a site and avoid tabbing through all the main navigation, you can create a 'skip navigation link'.",
     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
   },
   {
@@ -216,7 +216,7 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "How can you make focus elements more accessible to screen readers on mobile?",
+      "How can you make focus elements more accessible to screen readers on native mobile apps?",
     Answer: "Add an accessibility label for each element.",
     Distractor1: "Avoid using images, gifs, and videos altogether.",
     Distractor2: "Add a contentDesc label to your focus elements.",
