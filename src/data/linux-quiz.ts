@@ -1278,6 +1278,15 @@ const linuxQuiz = [
     Explanation:
       "> greater than operator is used to create a new file in Linux.",
     Link: "https://www.freecodecamp.org/news/learn-the-50-most-used-linux-terminal-commands/"
+  },
+  {
+    Question: "In Linux, what does elif stand for?",
+    Answer: "else if",
+    Distractor1: "elif condition",
+    Distractor2: "elif statement",
+    Distractor3: "None of the above",
+    Explanation: "elif is an else if statement in Shell Scripting.",
+    Link: "https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/"
   }
 ];
 
