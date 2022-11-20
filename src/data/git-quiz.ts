@@ -586,6 +586,17 @@ const gitQuiz = [
     Explanation:
       "git commit -am  '<commit message>' is used to stage and commit all changes in the current directory and its subdirectories.",
     Link: "https://git-scm.com/docs/git-commit"
+  },
+    {
+    Question:
+      "Which git command allows you to download objects and refs from another repository without committing to the main branch?",
+    Answer: "git fetch <remote> <branch>",
+    Distractor1: "git pull <remote> <branch>",
+    Distractor2: "git push <remote> <branch>",
+    Distractor3: "git clone <repo>",
+    Explanation:
+      "git fetch <remote> <branch> is used to download objects and refs without committing to the main branch that you are working on",
+    Link: "https://git-scm.com/docs/git-fetch"
   }
 ];
 
