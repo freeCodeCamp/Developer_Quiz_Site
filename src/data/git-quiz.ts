@@ -589,7 +589,7 @@ const gitQuiz = [
   },
     {
     Question:
-      "What git command allow to download objects and refs from another repository without commiting to the main branch?",
+      "Which git command allows you to download objects and refs from another repository without committing to the main branch?",
     Answer: "git fetch <remote> <branch>",
     Distractor1: "git pull <remote> <branch>",
     Distractor2: "git push <remote> <branch>",
