@@ -595,7 +595,7 @@ const gitQuiz = [
     Distractor2: "git push <remote> <branch>",
     Distractor3: "git clone <repo>",
     Explanation:
-      "git fetch <remote> <branch> it is used to download objects and refs without commiting to the main branch that you are working",
+      "git fetch <remote> <branch> is used to download objects and refs without committing to the main branch that you are working on",
     Link: "https://git-scm.com/docs/git-fetch"
   }
 ];
