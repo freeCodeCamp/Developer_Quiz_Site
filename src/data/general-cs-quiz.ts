@@ -1430,7 +1430,17 @@ const generalCSQuiz = [
     Distractor3: "BuzzFizz",
     Explanation:  "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
     Link: "https://en.wikipedia.org/wiki/Fizz_buzz"
-  }
+  },
+  {
+    Question: "What's the Big O notation of an algorithm that increases the running time linearly with the input size?" ,
+    Answer: "O(n)" ,
+    Distractor1: "O(n^2)" ,
+    Distractor2: "O(1)" ,
+    Distractor3: "O(log n)" ,
+    Explanation: "The letter n represents the input size, and the big O represents the increase of the running time." ,
+    Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
+   }
+  
 ];
 
 export default generalCSQuiz;
