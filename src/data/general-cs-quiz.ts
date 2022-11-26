@@ -1437,7 +1437,7 @@ const generalCSQuiz = [
     Distractor1: "O(n^2)" ,
     Distractor2: "O(1)" ,
     Distractor3: "O(log n)" ,
-    Explanation: "The letter n represents the input size, the big O represents the increase of the running time." ,
+    Explanation: "The letter n represents the input size, and the big O represents the increase of the running time." ,
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
    }
   
