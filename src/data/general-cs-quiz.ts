@@ -662,15 +662,6 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/ram-definition/"
   },
   {
-    Question: "What is an Algorithm?",
-    Answer: "A set of steps to solve a problem",
-    Distractor1: "A programming language",
-    Distractor2: "A collection of fonts",
-    Distractor3: "A data type",
-    Explanation: "An algorithm is a set of steps to solve a problem.",
-    Link: "https://www.freecodecamp.org/news/algorithm-definition/"
-  },
-  {
     Question: "What unit is used to measure the speed of a CPU?",
     Answer: "GHz (gigahertz)",
     Distractor1: "MHz (megahertz)",
