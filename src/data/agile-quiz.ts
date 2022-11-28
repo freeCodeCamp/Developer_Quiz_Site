@@ -1,5 +1,25 @@
 const agileQuiz = [
   {
+    Question: "What are the first steps of Test Driven Development (TDD)?",
+    Answer: "Deciding what the program should do (the specifications) and formulating a failing test",
+    Distractor1: "Analyzing the code and deciding how many tests are needed",
+    Distractor2: "Writing out documentation and pseudo code so that the product owner knows the testing standards",
+    Distractor3: "Updating the program requirements and rendering the foundation to meet testing regulations",
+    Explanation:
+      "Before any actual code is written, the specifications and a failing test are set up. Then, the code that's written should make the test pass.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/"
+  }, 
+  {
+    Question: "Which development process did Behavior Driven Development (BDD) emerge from?",
+    Answer: "Test Driven Development (TDD)",
+    Distractor1: "Feature Driven Development (FDD)",
+    Distractor2: "User Driven Development (UDD)",
+    Distractor3: "Configuration Driven Development (CDD)",
+    Explanation:
+      "Behavior Driven Development combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design ",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
     Question: "In Agile, what are epics?",
     Answer:
       "epics are a way to group pieces of work together to represent a feature.",
