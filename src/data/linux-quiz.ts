@@ -987,7 +987,8 @@ const linuxQuiz = [
     Distractor2: "{whoami, user, others}",
     Distractor3: "{user, group, all}",
     Explanation:
-      "In Linux, there are three types of users: user, group and other."
+      "In Linux, there are three types of users: user, group and other.",
+    Link: "https://www.freecodecamp.org/news/linux-basics/"
   },
   {
     Question:

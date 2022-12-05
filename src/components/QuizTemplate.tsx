@@ -33,6 +33,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [questionCategories, setQuestionCategories] = useState({
     accessibilityQuestionsCorrect: 0,
     agileQuestionsCorrect: 0,
+    cloudComputingQuestionsCorrect: 0,
     cssQuestionsCorrect: 0,
     freeCodeCampQuestionsCorrect: 0,
     generalCSQuestionsCorrect: 0,
@@ -44,7 +45,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     pythonQuestionsCorrect: 0,
     securityQuestionsCorrect: 0,
     sqlQuestionsCorrect: 0,
-    qualityAssuranceQuestionsCorrect: 0
+    qualityAssuranceQuestionsCorrect: 0,
+    regexQuestionsCorrect: 0
   });
 
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
@@ -112,6 +114,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setQuestionCategories({
       accessibilityQuestionsCorrect: 0,
       agileQuestionsCorrect: 0,
+      cloudComputingQuestionsCorrect: 0,
       cssQuestionsCorrect: 0,
       freeCodeCampQuestionsCorrect: 0,
       generalCSQuestionsCorrect: 0,
@@ -123,7 +126,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       pythonQuestionsCorrect: 0,
       securityQuestionsCorrect: 0,
       sqlQuestionsCorrect: 0,
-      qualityAssuranceQuestionsCorrect: 0
+      qualityAssuranceQuestionsCorrect: 0,
+      regexQuestionsCorrect: 0
     });
   };
 
@@ -141,6 +145,10 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       const accessibilityScore =
         questionCategories.accessibilityQuestionsCorrect + 1;
       copy.accessibilityQuestionsCorrect = accessibilityScore;
+    } else if (categoryName == CATEGORY_NAMES.CLOUDCOMPUTING) {
+      const cloudComputingScore =
+        questionCategories.cloudComputingQuestionsCorrect + 1;
+      copy.cloudComputingQuestionsCorrect = cloudComputingScore;
     } else if (categoryName == CATEGORY_NAMES.CSS) {
       const cssScore = questionCategories.cssQuestionsCorrect + 1;
       copy.cssQuestionsCorrect = cssScore;
@@ -173,6 +181,9 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       const qualityAssuranceScore =
         questionCategories.qualityAssuranceQuestionsCorrect + 1;
       copy.qualityAssuranceQuestionsCorrect = qualityAssuranceScore;
+    } else if (categoryName == CATEGORY_NAMES.REGEX) {
+      const regexScore = questionCategories.regexQuestionsCorrect + 1;
+      copy.regexQuestionsCorrect = regexScore;
     } else if (categoryName == CATEGORY_NAMES.SECURITY) {
       const securityScore = questionCategories.securityQuestionsCorrect + 1;
       copy.securityQuestionsCorrect = securityScore;

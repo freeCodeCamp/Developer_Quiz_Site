@@ -7,6 +7,7 @@ import { CATEGORY_NAMES } from "../constants";
 const defaultAllCorrectAnswers = {
   accessibilityQuestionsCorrect: 3,
   agileQuestionsCorrect: 3,
+  cloudComputingQuestionsCorrect: 0,
   cssQuestionsCorrect: 0,
   freeCodeCampQuestionsCorrect: 0,
   generalCSQuestionsCorrect: 0,
@@ -17,6 +18,7 @@ const defaultAllCorrectAnswers = {
   linuxQuestionsCorrect: 2,
   pythonQuestionsCorrect: 2,
   qualityAssuranceQuestionsCorrect: 0,
+  regexQuestionsCorrect: 0,
   securityQuestionsCorrect: 0,
   sqlQuestionsCorrect: 0
 };
@@ -24,6 +26,7 @@ const defaultAllCorrectAnswers = {
 const allWrongAnswers = {
   accessibilityQuestionsCorrect: 0,
   agileQuestionsCorrect: 0,
+  cloudComputingQuestionsCorrect: 0,
   cssQuestionsCorrect: 0,
   freeCodeCampQuestionsCorrect: 0,
   generalCSQuestionsCorrect: 0,
@@ -34,6 +37,7 @@ const allWrongAnswers = {
   linuxQuestionsCorrect: 0,
   pythonQuestionsCorrect: 0,
   qualityAssuranceQuestionsCorrect: 0,
+  regexQuestionsCorrect: 0,
   securityQuestionsCorrect: 0,
   sqlQuestionsCorrect: 0
 };

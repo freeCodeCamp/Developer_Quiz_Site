@@ -6,6 +6,7 @@ import ResultsModal from "./ResultsByCategoryModal";
 interface QuestionCategories {
   agileQuestionsCorrect: number;
   accessibilityQuestionsCorrect: number;
+  cloudComputingQuestionsCorrect: number;
   cssQuestionsCorrect: number;
   freeCodeCampQuestionsCorrect: number;
   generalCSQuestionsCorrect: number;
@@ -18,6 +19,7 @@ interface QuestionCategories {
   qualityAssuranceQuestionsCorrect: number;
   securityQuestionsCorrect: number;
   sqlQuestionsCorrect: number;
+  regexQuestionsCorrect: number;
 }
 
 interface PointTotals {
