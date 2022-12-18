@@ -35,6 +35,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     agileQuestionsCorrect: 0,
     cloudComputingQuestionsCorrect: 0,
     cssQuestionsCorrect: 0,
+    devOpsQuestionsCorrect: 0,
     freeCodeCampQuestionsCorrect: 0,
     generalCSQuestionsCorrect: 0,
     gitQuestionsCorrect: 0,
@@ -116,6 +117,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       agileQuestionsCorrect: 0,
       cloudComputingQuestionsCorrect: 0,
       cssQuestionsCorrect: 0,
+      devOpsQuestionsCorrect: 0,
       freeCodeCampQuestionsCorrect: 0,
       generalCSQuestionsCorrect: 0,
       gitQuestionsCorrect: 0,
@@ -152,6 +154,9 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     } else if (categoryName == CATEGORY_NAMES.CSS) {
       const cssScore = questionCategories.cssQuestionsCorrect + 1;
       copy.cssQuestionsCorrect = cssScore;
+    } else if (categoryName == CATEGORY_NAMES.DEVOPS) {
+      const devopsScore = questionCategories.devOpsQuestionsCorrect + 1;
+      copy.devOpsQuestionsCorrect = devopsScore;
     } else if (categoryName == CATEGORY_NAMES.FREECODECAMP) {
       const freeCodeCampScore =
         questionCategories.freeCodeCampQuestionsCorrect + 1;

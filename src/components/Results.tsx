@@ -8,6 +8,7 @@ interface QuestionCategories {
   accessibilityQuestionsCorrect: number;
   cloudComputingQuestionsCorrect: number;
   cssQuestionsCorrect: number;
+  devOpsQuestionsCorrect: number;
   freeCodeCampQuestionsCorrect: number;
   generalCSQuestionsCorrect: number;
   gitQuestionsCorrect: number;

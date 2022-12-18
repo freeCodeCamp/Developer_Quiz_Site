@@ -2,6 +2,7 @@ import accessibilityQuiz from "./data/accessibility-quiz";
 import agileQuiz from "./data/agile-quiz";
 import cloudComputingQuiz from "./data/cloud-computing-quiz";
 import cssQuiz from "./data/css-quiz";
+import devopsQuiz from "./data/devops-quiz";
 import freecodecampQuiz from "./data/freecodecamp-quiz";
 import generalCSQuiz from "./data/general-cs-quiz";
 import gitQuiz from "./data/git-quiz";
@@ -14,6 +15,7 @@ import qualityAssuranceQuiz from "./data/quality-assurance-quiz";
 import securityQuiz from "./data/security-quiz";
 import sqlQuiz from "./data/sql-quiz";
 import regexQuiz from "./data/regex-quiz";
+
 import { QuizQuestion } from "./types";
 
 export const CATEGORY_NAMES = {
@@ -21,6 +23,7 @@ export const CATEGORY_NAMES = {
   AGILE: "Agile",
   CLOUDCOMPUTING: "Cloud Computing",
   CSS: "CSS",
+  DEVOPS: "DevOps",
   FREECODECAMP: "freeCodeCamp",
   GENERAL: "General Computer Science",
   GIT: "Git",
@@ -47,6 +50,7 @@ export const ALL_CATEGORIES = [
   ...addCategoryToQuiz(accessibilityQuiz, CATEGORY_NAMES.ACCESSIBILITY),
   ...addCategoryToQuiz(cloudComputingQuiz, CATEGORY_NAMES.CLOUDCOMPUTING),
   ...addCategoryToQuiz(cssQuiz, CATEGORY_NAMES.CSS),
+  ...addCategoryToQuiz(devopsQuiz, CATEGORY_NAMES.DEVOPS),
   ...addCategoryToQuiz(freecodecampQuiz, CATEGORY_NAMES.FREECODECAMP),
   ...addCategoryToQuiz(generalCSQuiz, CATEGORY_NAMES.GENERAL),
   ...addCategoryToQuiz(gitQuiz, CATEGORY_NAMES.GIT),
@@ -62,4 +66,4 @@ export const ALL_CATEGORIES = [
   ...addCategoryToQuiz(regexQuiz, CATEGORY_NAMES.REGEX)
 ];
 
-export const ROUNDED_QUESTION_COUNT = 1000;
+export const ROUNDED_QUESTION_COUNT = 1200;
