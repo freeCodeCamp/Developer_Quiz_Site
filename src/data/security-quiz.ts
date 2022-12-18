@@ -389,6 +389,135 @@ const securityQuiz = [
     Explanation:
       "The WEP protocol is now deprecated and considered to be the lest secure option from the list.",
     Link: "https://www.freecodecamp.org/news/wifi-security-explained/"
+  },
+  {
+    Question: "What does PoLP stand for in Cybersecurity?",
+    Answer: "Principle of Least Privilege",
+    Distractor1: "Principle of Lasting Promise",
+    Distractor2: "Passing of Least Privilege ",
+    Distractor3: "Programming of Least Privilege",
+    Explanation:
+      "The Principle of Least Privilege (PoLP) is the practice of limiting access to resources for members of an organization.",
+    Link: "https://www.freecodecamp.org/news/principle-of-lease-privilege-meaning-cybersecurity/"
+  },
+  {
+    Question:
+      "What is the name of the popular open-source tool that automatically finds and exploits SQL injection vulnerabilities?",
+    Answer: "SQLmap",
+    Distractor1: "SQL security 2.0",
+    Distractor2: "SQL injection tester",
+    Distractor3: "SQL injection destroyer",
+    Explanation:
+      "SQLmap is an open-source tool that automatically finds and exploits SQL injection vulnerabilities. We can use it to test web applications for SQL injection vulnerabilities and gain access to a vulnerable database.",
+    Link: "https://www.freecodecamp.org/news/how-to-protect-against-sql-injection-attacks/"
+  },
+  {
+    Question:
+      "Which of the following is NOT a good way to protect against SQL Injection Attacks?",
+    Answer: "Never sanitizing user inputs",
+    Distractor1: "using parameterized queries when interacting with a database",
+    Distractor2:
+      "Watching your database for suspicious activity and set alerts",
+    Distractor3:
+      "having strong authentication and access controls to our database",
+    Explanation:
+      "It is important to sanitize user inputs because we want make sure the input does not contain any dangerous characters or malicious code.",
+    Link: "https://www.freecodecamp.org/news/how-to-protect-against-sql-injection-attacks/"
+  },
+  {
+    Question: "What is Cybersecurity?",
+    Answer:
+      "The act of securing computers and networks against malicious attackers",
+    Distractor1: "the act of providing security only for Google products",
+    Distractor2: "the act of providing security only for mobile phones",
+    Distractor3: "the act of providing security only for Linux users",
+    Explanation:
+      "The act of securing computers and networks against malicious attackers",
+    Link: "https://en.wikipedia.org/wiki/Computer_security"
+  },
+  {
+    Question: "What is spoofing in Cybersecurity?",
+    Answer:
+      "the act of impersonating a valid service as a means of getting hold of a user's sensitive information",
+    Distractor1:
+      "the act of changing a user's password without their knowledge",
+    Distractor2: "the act of erasing a user's data on their computer",
+    Distractor3: "the act of logging out a user from a service",
+    Explanation:
+      "Spoofing is the act of impersonating a valid service as a means of getting hold of a user's sensitive information.",
+    Link: "https://en.wikipedia.org/wiki/Spoofing_attack"
+  },
+  {
+    Question: "What is a cyber attack?",
+    Answer:
+      "an attack on computer systems with the intent of stealing information",
+    Distractor1:
+      "an attack with malicious intent that only targets Google products",
+    Distractor2: "an attack that was only used during the 1990's",
+    Distractor3:
+      "an attack with malicious intent that only affects Apple products",
+    Explanation:
+      "A cyber attack is when a malicious user launches an attack on a computer system when the intent of stealing personal information and doing harm.",
+    Link: "https://en.wikipedia.org/wiki/Cyberattack"
+  },
+  {
+    Question: "What is a Trojan horse?",
+    Answer:
+      "a type of malware downloaded to a computer that looks legitimate but performs malicious activity instead",
+    Distractor1: "a type of software that will write emails for you",
+    Distractor2: "a type of software used to delete text messages for you",
+    Distractor3:
+      "a type of software that will speed up downloading games to your computer",
+    Explanation:
+      "A Trojan horse is a type of malware downloaded to a computer that looks legitimate but performs malicious activity instead",
+    Link: "https://en.wikipedia.org/wiki/Cyberattack#Trojan_horses"
+  },
+  {
+    Question: "Which of the following is NOT a common threat in Cybersecurity?",
+    Answer: "spot logging",
+    Distractor1: "spoofing",
+    Distractor2: "Man-in-the-middle attack",
+    Distractor3: "Trojan horse",
+    Explanation:
+      "Common forms of threats in Cybersecurity include spoofing, Man-in-the-middle attack, and Trojan horses.",
+    Link: "https://en.wikipedia.org/wiki/Cybersecurity_information_technology_list#Threats"
+  },
+  {
+    Question: "What is Phishing?",
+    Answer:
+      "the act of sending messages to users with the intent of tricking them to reveal sensitive information",
+    Distractor1:
+      "the act of deleting someone's text messages without their knowledge",
+    Distractor2: "the act of reading someone's emails without their knowledge",
+    Distractor3: "the act of changing someone's computer password",
+    Explanation:
+      "Phishing is where a malicious user will send fraudulent messages to a user with the intent of getting them to reveal sensitive information.",
+    Link: "https://en.wikipedia.org/wiki/Phishing"
+  },
+  {
+    Question: "What is spyware?",
+    Answer:
+      "software that is downloaded onto your computer and monitors your activity",
+    Distractor1:
+      "the act of sending messages to users with the intent of tricking them to reveal sensitive information",
+    Distractor2: "the act of logging out a user from a service",
+    Distractor3: "an attack where hackers can send emails with fake links",
+    Explanation:
+      "Spyware is a type of software that is downloaded to your computer without your knowledge with the intent of monitoring your activity.",
+    Link: "https://en.wikipedia.org/wiki/Spyware"
+  },
+  {
+    Question: "What is a computer worm in Cybersecurity?",
+    Answer:
+      "a type of malware that duplicates itself and spreads to other computers",
+    Distractor1:
+      "a type of software that reads someone's emails without their knowledge",
+    Distractor2: "a type of software used to delete text messages for you",
+    Distractor3:
+      "a type of software that sends messages to users with the intent of tricking them to reveal sensitive information",
+    Explanation:
+      "A computer worm is a type of malware that duplicates itself and spreads to other computers.",
+    Link: "https://en.wikipedia.org/wiki/Computer_worm"
   }
 ];
 
