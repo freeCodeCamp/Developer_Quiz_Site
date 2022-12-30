@@ -1430,6 +1430,15 @@ const generalCSQuiz = [
     Distractor3: "O(log n)" ,
     Explanation: "The letter n represents the input size, and the big O represents the increase of the running time." ,
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
+   },
+  {
+    Question: "Why Sorting Algorithms are Important?" ,
+    Answer: "Sorting algorithms are important because they can reduce the complexity of a problem." ,
+    Distractor1: "Sorting algorithms are important because they are only used to arrange data in alphabetical order" ,
+    Distractor2: "Sorting algorithms are important because they are frequently asked in interviews." ,
+    Distractor3: "Sorting algorithms are not important because there are faster ways to solve problems" ,
+    Explanation: "Sorting algorithms are important because they can reduce the complexity of a problem by arranging data in a specific order, which can make it easier to solve and streamline various tasks and processes." ,
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm"
    }
   
 ];
