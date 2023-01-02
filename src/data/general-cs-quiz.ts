@@ -1430,7 +1430,7 @@ const generalCSQuiz = [
     Distractor3: "O(log n)" ,
     Explanation: "The letter n represents the input size, and the big O represents the increase of the running time." ,
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
-   },
+  },
   {
     Question: "Why are sorting algorithms important in programming?" ,
     Answer: "Sorting algorithms are important because they can reduce the complexity of a problem." ,
