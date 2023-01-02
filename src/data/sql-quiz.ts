@@ -710,7 +710,18 @@ const sqlQuiz = [
     Explanation:
       "DQL stands for Data Query Language, and 'SELECT' is the only DQL command.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
+  },
+  {
+    Question: "Which of the following SQL Databases would you describe as: Good for certain use cases but not super fast",
+    Answer: "PostgresSQL",
+    Distractor1: "MySQL",
+    Distractor2: "Oracle",
+    Distractor3: "None of the above",
+    Explanation:
+      "PostgresSQL can be use for certain use cases but it won't achieve the speed of MySQL or the stability of Oracle",
+    Link: "https://www.freecodecamp.org/news/sql-and-databases-explained-in-plain-english/"
   }
+  
 ];
 
 export default sqlQuiz;
