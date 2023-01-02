@@ -1432,7 +1432,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
    },
   {
-    Question: "Why Sorting Algorithms are Important?" ,
+    Question: "Why are sorting algorithms important in programming?" ,
     Answer: "Sorting algorithms are important because they can reduce the complexity of a problem." ,
     Distractor1: "Sorting algorithms are important because they are only used to arrange data in alphabetical order" ,
     Distractor2: "Sorting algorithms are important because they are frequently asked in interviews." ,
