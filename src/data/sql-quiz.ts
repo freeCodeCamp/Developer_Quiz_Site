@@ -710,6 +710,16 @@ const sqlQuiz = [
     Explanation:
       "DQL stands for Data Query Language, and 'SELECT' is the only DQL command.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
+  },
+  {
+    Question: "In SQL, which of the following is not a string data type?",
+    Answer: "DEC",
+    Distractor1: "BLOB",
+    Distractor2: "BINARY",
+    Distractor3: "VARCHAR",
+    Explanation:
+      "DEC is a numeric data type while BLOB, BINARY and VARCHAR are string data types in SQL.",
+    Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
   }
 ];
 
