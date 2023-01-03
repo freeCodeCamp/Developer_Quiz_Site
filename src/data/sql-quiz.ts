@@ -718,7 +718,7 @@ const sqlQuiz = [
     Distractor2: "BINARY",
     Distractor3: "VARCHAR",
     Explanation:
-      "DEC is a numeric data type, the rest of the options store strings in different ways",
+      "DEC is a numeric data type while BLOB, BINARY AND VARCHAR are string data types in SQL.",
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
   }
 ];
