@@ -26,7 +26,6 @@ const Questions: React.FC<QuizProps> = QuizProps => {
   return (
     <>
       <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
-      <br />
       <div className="quiz-text mt-4">
         <p>
           Question: {QuizProps.questionNumber}/{QuizProps.totalQuestions}
