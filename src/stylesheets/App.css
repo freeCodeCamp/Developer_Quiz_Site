@@ -83,12 +83,15 @@ a:hover {
   margin: 20px;
 }
 
+.quiz-answers-div legend {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
 .quiz-answers-div ul {
   padding: 0;
   list-style: none;
 }
-
-
 
 .quiz-btn {
   position: absolute;

@@ -27,9 +27,6 @@ const Questions: React.FC<QuizProps> = QuizProps => {
     <>
       <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
       <br />
-      <div className="quiz-text">
-        <h2>{QuizProps.currQuestion.Question}</h2>
-      </div>
       <div className="quiz-text mt-4">
         <p>
           Question: {QuizProps.questionNumber}/{QuizProps.totalQuestions}
@@ -41,7 +38,11 @@ const Questions: React.FC<QuizProps> = QuizProps => {
         {QuizProps.chooseAnswer ? (
           <QuizModal {...QuizProps.modalProps} />
         ) : (
-          <div className="w-50 quiz-answers-div">
+            <fieldset className="w-50 quiz-answers-div">
+              <legend>
+                <span className='sr-only'>Question {QuizProps.questionNumber}</span>{' '}
+                {QuizProps.currQuestion.Question}
+              </legend>
             <ul>
               {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
                 (btn: string | string[] | number, index: number) => (
@@ -58,7 +59,7 @@ const Questions: React.FC<QuizProps> = QuizProps => {
                 )
               )}
             </ul>
-          </div>
+          </fieldset>
         )}
       </div>
     </>
