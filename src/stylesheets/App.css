@@ -65,6 +65,7 @@ a:hover {
   border-radius: 15px;
   border: none;
   cursor: pointer;
+  width: 100%;
 }
 
 .quiz-btn,
@@ -81,6 +82,13 @@ a:hover {
   flex-direction: column;
   margin: 20px;
 }
+
+.quiz-answers-div ul {
+  padding: 0;
+  list-style: none;
+}
+
+
 
 .quiz-btn {
   position: absolute;

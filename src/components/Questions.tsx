@@ -42,18 +42,22 @@ const Questions: React.FC<QuizProps> = QuizProps => {
           <QuizModal {...QuizProps.modalProps} />
         ) : (
           <div className="w-50 quiz-answers-div">
-            {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
-              (btn: string | string[] | number, index: number) => (
-                <button
-                  className="answers-btns"
-                  value={btn}
-                  onClick={e => QuizProps.checkAnswer(e)}
-                  key={index}
-                >
-                  {btn}
-                </button>
-              )
-            )}
+            <ul>
+              {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
+                (btn: string | string[] | number, index: number) => (
+                  <li key={index}>
+                    <button
+                      className="answers-btns"
+                      value={btn}
+                      onClick={e => QuizProps.checkAnswer(e)}
+                      key={index}
+                    >
+                      {btn}
+                    </button>
+                  </li>
+                )
+              )}
+            </ul>
           </div>
         )}
       </div>
