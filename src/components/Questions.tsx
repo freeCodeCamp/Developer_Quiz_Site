@@ -49,7 +49,6 @@ const Questions: React.FC<QuizProps> = QuizProps => {
                       className="answers-btns"
                       value={btn}
                       onClick={e => QuizProps.checkAnswer(e)}
-                      key={index}
                     >
                       {btn}
                     </button>
