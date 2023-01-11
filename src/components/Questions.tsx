@@ -25,14 +25,13 @@ interface QuizProps {
 const Questions: React.FC<QuizProps> = QuizProps => {
   return (
     <>
-      <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
-      <div className="quiz-text mt-4">
+      <div className="quiz-text">
         <p>
           Question: {QuizProps.questionNumber}/{QuizProps.totalQuestions}
         </p>
         <p>Points: {QuizProps.points}</p>
       </div>
-
+      <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
       <div className="quiz-div">
         {QuizProps.chooseAnswer ? (
           <QuizModal {...QuizProps.modalProps} />
