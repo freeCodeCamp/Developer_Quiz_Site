@@ -25,36 +25,38 @@ interface QuizProps {
 const Questions: React.FC<QuizProps> = QuizProps => {
   return (
     <>
-      <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
-      <br />
       <div className="quiz-text">
-        <h2>{QuizProps.currQuestion.Question}</h2>
-      </div>
-      <div className="quiz-text mt-4">
         <p>
           Question: {QuizProps.questionNumber}/{QuizProps.totalQuestions}
         </p>
         <p>Points: {QuizProps.points}</p>
       </div>
-
+      <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
       <div className="quiz-div">
         {QuizProps.chooseAnswer ? (
           <QuizModal {...QuizProps.modalProps} />
         ) : (
-          <div className="w-50 quiz-answers-div">
-            {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
-              (btn: string | string[] | number, index: number) => (
-                <button
-                  className="answers-btns"
-                  value={btn}
-                  onClick={e => QuizProps.checkAnswer(e)}
-                  key={index}
-                >
-                  {btn}
-                </button>
-              )
-            )}
-          </div>
+            <fieldset className="w-50 quiz-answers-div">
+              <legend>
+                <span className='sr-only'>Question {QuizProps.questionNumber}</span>{' '}
+                {QuizProps.currQuestion.Question}
+              </legend>
+            <ul>
+              {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
+                (btn: string | string[] | number, index: number) => (
+                  <li key={index}>
+                    <button
+                      className="answers-btns"
+                      value={btn}
+                      onClick={e => QuizProps.checkAnswer(e)}
+                    >
+                      {btn}
+                    </button>
+                  </li>
+                )
+              )}
+            </ul>
+          </fieldset>
         )}
       </div>
     </>
