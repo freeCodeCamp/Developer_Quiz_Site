@@ -1458,6 +1458,8 @@ const generalCSQuiz = [
       "Every word is lower case in grouped together words and separated by underscores.",
     Distractor3:
       "Every word has the first letter capitalized except the first in grouped together words.",
+    Explanation:
+      "Kebab case has all words are lowercase, and each word gets separated by a dash.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
   }
 ];
