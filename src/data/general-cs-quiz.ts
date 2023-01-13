@@ -1449,17 +1449,13 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm"
   },
   {
-    Question: "What is the kebab case format?",
-    Answer:
-      "Every word is lower case in grouped together words and separated by hyphens.",
-    Distractor1:
-      "Every word has the first letter capitalized in grouped together words.",
-    Distractor2:
-      "Every word is lower case in grouped together words and separated by underscores.",
-    Distractor3:
-      "Every word has the first letter capitalized except the first in grouped together words.",
-    Explanation:
-      "Kebab case has all words are lowercase, and each word gets separated by a dash.",
+    Question:
+      "Which of the following examples shows the correct syntax for kebab case?",
+    Answer: "number-of-donuts",
+    Distractor1: "number_of_donuts",
+    Distractor2: "numberOfDonuts",
+    Distractor3: "number*of*donuts",
+    Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
   }
 ];
