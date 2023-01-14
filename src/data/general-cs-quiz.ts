@@ -1403,8 +1403,7 @@ const generalCSQuiz = [
     Link: "https://forum.freecodecamp.org/t/the-selection-sort-algorithm-explained-with-examples/16106"
   },
   {
-    Question:
-      "Which of the following is a dynamically typed language?",
+    Question: "Which of the following is a dynamically typed language?",
     Answer: "Python",
     Distractor1: "C",
     Distractor2: "Java",
@@ -1414,33 +1413,51 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/why-use-static-types-in-javascript-part-1-8382da1e0adb/#:~:text=series%20is%20about.-,First%2C%20a%20definition,-The%20quickest%20way"
   },
   {
-    Question: "If you were to solve the classic FizzBuzz challenge, what would be the output for the 15th iteration?",
+    Question:
+      "If you were to solve the classic FizzBuzz challenge, what would be the output for the 15th iteration?",
     Answer: "FizzBuzz",
     Distractor1: "Fizz",
     Distractor2: "Buzz",
     Distractor3: "BuzzFizz",
-    Explanation:  "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
+    Explanation:
+      "FizzBuzz is a common coding challenge where you will need to write a loop that iterates from 1 to N while outputting 'Fizz' at multiples of 3, 'Buzz' at multiples of 5 and 'FizzBuzz' at multiples of 3 and 5. Position 15 has the word FizzBuzz because it is a multiple of both 3 and 5.",
     Link: "https://en.wikipedia.org/wiki/Fizz_buzz"
   },
   {
-    Question: "What's the Big O notation of an algorithm that increases the running time linearly with the input size?" ,
-    Answer: "O(n)" ,
-    Distractor1: "O(n^2)" ,
-    Distractor2: "O(1)" ,
-    Distractor3: "O(log n)" ,
-    Explanation: "The letter n represents the input size, and the big O represents the increase of the running time." ,
+    Question:
+      "What's the Big O notation of an algorithm that increases the running time linearly with the input size?",
+    Answer: "O(n)",
+    Distractor1: "O(n^2)",
+    Distractor2: "O(1)",
+    Distractor3: "O(log n)",
+    Explanation:
+      "The letter n represents the input size, and the big O represents the increase of the running time.",
     Link: "https://www.freecodecamp.org/news/big-o-cheat-sheet-time-complexity-chart/"
   },
   {
-    Question: "Why are sorting algorithms important in programming?" ,
-    Answer: "Sorting algorithms are important because they can reduce the complexity of a problem." ,
-    Distractor1: "Sorting algorithms are important because they are only used to arrange data in alphabetical order" ,
-    Distractor2: "Sorting algorithms are important because they are frequently asked in interviews." ,
-    Distractor3: "Sorting algorithms are not important because there are faster ways to solve problems" ,
-    Explanation: "Sorting algorithms are important because they can reduce the complexity of a problem by arranging data in a specific order, which can make it easier to solve and streamline various tasks and processes." ,
+    Question: "Why are sorting algorithms important in programming?",
+    Answer:
+      "Sorting algorithms are important because they can reduce the complexity of a problem.",
+    Distractor1:
+      "Sorting algorithms are important because they are only used to arrange data in alphabetical order",
+    Distractor2:
+      "Sorting algorithms are important because they are frequently asked in interviews.",
+    Distractor3:
+      "Sorting algorithms are not important because there are faster ways to solve problems",
+    Explanation:
+      "Sorting algorithms are important because they can reduce the complexity of a problem by arranging data in a specific order, which can make it easier to solve and streamline various tasks and processes.",
     Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm"
-   }
-  
+  },
+  {
+    Question:
+      "Which of the following examples shows the correct syntax for kebab case?",
+    Answer: "number-of-donuts",
+    Distractor1: "number_of_donuts",
+    Distractor2: "numberOfDonuts",
+    Distractor3: "number*of*donuts",
+    Explanation: "Kebab case separates each lowercase word by dashes.",
+    Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  }
 ];
 
 export default generalCSQuiz;
