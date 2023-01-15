@@ -728,7 +728,7 @@ const sqlQuiz = [
     Distractor2: "TEXT",
     Distractor3: "BLOBs",
     Explanation:
-      "CHAR allows to hold a fixed length string (up to 255 characters), while VARCHAR and TEXT holds variable length strings, BLOBs store Binary Large Objects",
+      "CHAR holds a fixed length string (up to 255 characters), while VARCHAR and TEXT hold variable length strings.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
   }
 ];
