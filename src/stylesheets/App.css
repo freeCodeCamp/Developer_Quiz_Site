@@ -131,12 +131,3 @@ a:hover {
 .results-rpg-link {
   color: #f1be32;
 }
-
-.resultCategoryHeading {
-  display: inline-block;
-}
-
-.resultCategoryScore {
-  display: inline-block;
-  margin-right: 10px;
-}

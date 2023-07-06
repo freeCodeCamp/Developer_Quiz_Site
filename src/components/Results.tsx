@@ -1,57 +1,25 @@
 import React, { MouseEventHandler } from "react";
-import { CATEGORY_NAMES } from "../constants";
-import { ScoreData } from "../types";
-import ResultsModal from "./ResultsByCategoryModal";
-
-interface QuestionCategories {
-  agileQuestionsCorrect: number;
-  accessibilityQuestionsCorrect: number;
-  cloudComputingQuestionsCorrect: number;
-  cssQuestionsCorrect: number;
-  devOpsQuestionsCorrect: number;
-  freeCodeCampQuestionsCorrect: number;
-  generalCSQuestionsCorrect: number;
-  gitQuestionsCorrect: number;
-  htmlQuestionsCorrect: number;
-  infoTechQuestionsCorrect: number;
-  javascriptQuestionsCorrect: number;
-  linuxQuestionsCorrect: number;
-  pythonQuestionsCorrect: number;
-  qualityAssuranceQuestionsCorrect: number;
-  securityQuestionsCorrect: number;
-  sqlQuestionsCorrect: number;
-  regexQuestionsCorrect: number;
-}
 
 interface PointTotals {
   points: number;
   totalPoints: number;
   resetQuiz: MouseEventHandler<HTMLButtonElement>;
-  hideResultsBreakdown: MouseEventHandler;
-  questionCategories: QuestionCategories;
-  show: boolean;
 }
 
-const Results: React.FC<PointTotals> = PointTotals => {
-  const totalPercentageCorrect =
-    (Math.floor(PointTotals.points) / PointTotals.totalPoints) * 100;
+const Results: React.FC<PointTotals> = ({
+  points,
+  totalPoints,
+  resetQuiz
+}: PointTotals) => {
+  const totalPercentageCorrect = (Math.floor(points) / totalPoints) * 100;
   const tweetMessage = `http://twitter.com/intent/tweet?text=I just scored ${totalPercentageCorrect}%25 on developerquiz.org. Wanna try it for yourself?&hashtags=freecodecamp`;
-  const categoryTotals = Object.values(PointTotals.questionCategories);
-  const scoreTotalArray: ScoreData[] = Object.values(CATEGORY_NAMES).map(
-    (category, idx) => ({
-      Category: category,
-      Score: categoryTotals[idx]
-    })
-  );
 
   return (
     <div className="results-div">
       <h1 className="results-heading">Results</h1>
       <h2>
-        {PointTotals.points === PointTotals.totalPoints
-          ? "Wow! Perfect Score!"
-          : "You received"}{" "}
-        {PointTotals.points} out of {PointTotals.totalPoints} points
+        {points === totalPoints ? "Wow! Perfect Score!" : "You received"}{" "}
+        {points} out of {totalPoints} points
       </h2>
       <p className="results-text">
         Wanna learn how to code? Download the free:&nbsp;
@@ -64,15 +32,8 @@ const Results: React.FC<PointTotals> = PointTotals => {
           RPG game
         </a>
       </p>
-      <ResultsModal
-        allEarnedPoints={PointTotals.points}
-        allPossiblePoints={PointTotals.totalPoints}
-        pointsWithCategories={scoreTotalArray}
-        show={PointTotals.show}
-        hideResultsBreakdown={PointTotals.hideResultsBreakdown}
-      />
 
-      <button onClick={PointTotals.resetQuiz} className="results-btn">
+      <button onClick={resetQuiz} className="results-btn">
         Play again?
       </button>
 
