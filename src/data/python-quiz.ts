@@ -661,16 +661,6 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/functions.html#round"
   },
   {
-    Question: "In Python, what do you use to write comments?",
-    Answer: "#",
-    Distractor1: "!",
-    Distractor2: "//",
-    Distractor3: "/* */",
-    Explanation:
-      "Everything after the # symbol is considered a comment in Python and therefore is not executed.",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/#comment-"
-  },
-  {
     Question:
       "In Python, non-empty sequences, non-empty collections, and numerical values different from 0 are...",
     Answer: "Truthy",
