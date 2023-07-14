@@ -30,6 +30,17 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(true);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
+  const selectCategoryArr = [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Accessibility",
+    "General CS",
+    "IT",
+    "Linux",
+    "Python",
+    "SQL"
+  ];
   const choicesArr: string[][] = [];
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
@@ -113,6 +124,11 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     selectQuizArr
   };
 
+  const selectCategoryProps = {
+    startQuiz,
+    selectCategoryArr
+  }
+
   const modalProps = {
     chosenAnswer,
     message,
@@ -150,7 +166,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       />
       <FCCLogo />
       {showOptions ? (
-        <SelectQuiz {...selectQuizProps} />
+        // <SelectQuiz {...selectQuizProps} />
+        <SelectCategory {...selectCategoryProps} />
       ) : isResults ? (
         <Results {...resultsProps} />
       ) : (
