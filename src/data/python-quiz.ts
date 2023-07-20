@@ -1210,17 +1210,6 @@ const pythonQuiz = [
   },
   {
     Question:
-      "In Python, if you try to access a key that does not exist in a dictionary, you will get a...",
-    Answer: "KeyError",
-    Distractor1: "Spelling Error",
-    Distractor2: "ValueError",
-    Distractor3: "TypeError",
-    Explanation:
-      "If you try to access a key that does not exist in a Python dictionary, you will get a KeyError.",
-    Link: "https://www.freecodecamp.org/news/python-dictionaries-detailed-visual-introduction/"
-  },
-  {
-    Question:
       "In Python, what function returns the string representing a character whose Unicode code point is the integer passed as an argument?",
     Answer: "chr()",
     Distractor1: "ord()",
