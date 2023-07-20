@@ -672,16 +672,6 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/"
   },
   {
-    Question:
-      "In Python, which built-in function is used for taking user input?",
-    Answer: "input()",
-    Distractor1: "in()",
-    Distractor2: "user()",
-    Distractor3: "receive()",
-    Explanation: "The input() function is used to take user input in Python.",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/"
-  },
-  {
     Question: "In Python, how can you create an empty list?",
     Answer: "[]",
     Distractor1: "dict()",
