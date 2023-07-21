@@ -1,8 +1,10 @@
 import React from "react";
 
 interface SelectCategoryProps {
-  startQuiz: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-  selectCategoryArr: string[]
+  category: string;
+  selectCategoryArr: string[],
+  selectQuiz: (category: string, index: number) => void;
+  selectQuizNumber: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => void;
 }
   
 const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
@@ -14,7 +16,7 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
           (category: string, index: number) => (
             <button
               className="select-btns"
-              onClick={e => SelectCategoryProps.startQuiz(e)}
+              onClick={() => SelectCategoryProps.selectQuiz(category, index)}
               value={category}
               key={index}
             >

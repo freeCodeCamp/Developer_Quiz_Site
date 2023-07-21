@@ -28,7 +28,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [chosenAnswer, setChosenAnswer] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
-  const [showOptions, setShowOptions] = useState(true);
+  const [showOptions, setShowOptions] = useState(false);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
   const selectCategoryArr = [
     "HTML",
@@ -61,6 +61,16 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     e.preventDefault();
     e.returnValue = "";
   };
+  const [selectedCategory, setSelectedCategory] = useState("");
+  const [selectedQuiz, setSelectedQuiz] = useState(0);
+
+  const selectQuiz= (category: string, index: number) => {
+    console.log({showOptions});
+    setSelectedCategory(category);
+  setSelectedQuiz(selectQuizArr[index]);
+  setShowOptions(true); 
+  setIsResults(false); // Set to false to hide Results component
+  }
 
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setShowOptions(false);
@@ -120,14 +130,10 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   };
 
   const selectQuizProps = {
-    startQuiz,
-    selectQuizArr
+    quiz, 
+    selectedCategory, 
+    selectedQuiz
   };
-
-  const selectCategoryProps = {
-    startQuiz,
-    selectCategoryArr
-  }
 
   const modalProps = {
     chosenAnswer,
@@ -165,9 +171,18 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
         size={""}
       />
       <FCCLogo />
-      {showOptions ? (
-        // <SelectQuiz {...selectQuizProps} />
-        <SelectCategory {...selectCategoryProps} />
+      {!showOptions ? (
+        <SelectCategory
+          selectQuizNumber={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => selectQuiz(category, 0)}
+          category={selectedCategory}
+          selectCategoryArr={selectCategoryArr} 
+            selectQuiz= {selectQuiz}   />
+      ) : showOptions ? (
+        <SelectQuiz
+          startQuiz={startQuiz}
+          selectQuizArr={selectQuizArr}
+          {...selectQuizProps}
+        />
       ) : isResults ? (
         <Results {...resultsProps} />
       ) : (
