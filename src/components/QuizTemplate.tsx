@@ -46,6 +46,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const totalPoints = quiz.length;
+  const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
+
 
   //detects if the user tries the refresh the page in the middle of the quiz
   useEffect(() => {
@@ -66,18 +68,20 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [selectedQuiz, setSelectedQuiz] = useState(0);
 
   const selectQuiz= (category: string, index: number) => {
-    console.log({showOptions});
     setSelectedCategory(category);
-  setSelectedQuiz(selectQuizArr[index]);
-  setShowOptions(true); 
-  setIsResults(false); // Set to false to hide Results component
+    setSelectedQuiz(selectQuizArr[index]);
+    setShowOptions(true); 
+    setIsResults(false); // Set to false to hide Results component
+    // Filter questions based on the selected category
+  const filteredQuiz = ALL_CATEGORIES.filter((q) => q.Category === category);
+  setFilteredQuestions(filteredQuiz);
   }
 
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setIsReady(true)
     const userAnswer = parseInt(e.currentTarget.value);
     setQuiz(shuffle(quiz).slice(0, userAnswer));
-    console.log({isReady})
+    console.log({userAnswer})
 
   };
 
