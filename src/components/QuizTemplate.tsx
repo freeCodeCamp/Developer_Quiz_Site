@@ -30,6 +30,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(false);
   const selectQuizArr = [10, 25, 50, 100, quiz.length];
+  const [isReady, setIsReady] = useState(false);
   const selectCategoryArr = [
     "HTML",
     "CSS",
@@ -73,9 +74,11 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   }
 
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    setShowOptions(false);
+    setIsReady(true)
     const userAnswer = parseInt(e.currentTarget.value);
     setQuiz(shuffle(quiz).slice(0, userAnswer));
+    console.log({isReady})
+
   };
 
   //function for toggling the react-bootstrap modal
@@ -172,22 +175,23 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       />
       <FCCLogo />
       {!showOptions ? (
-        <SelectCategory
-          selectQuizNumber={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => selectQuiz(category, 0)}
-          category={selectedCategory}
-          selectCategoryArr={selectCategoryArr} 
-            selectQuiz= {selectQuiz}   />
-      ) : showOptions ? (
-        <SelectQuiz
-          startQuiz={startQuiz}
-          selectQuizArr={selectQuizArr}
-          {...selectQuizProps}
-        />
-      ) : isResults ? (
-        <Results {...resultsProps} />
-      ) : (
-        <Questions {...questionProps} {...modalProps} />
-      )}
+      <SelectCategory
+        selectQuizNumber={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => selectQuiz(category, 0)}
+        category={selectedCategory}
+        selectCategoryArr={selectCategoryArr}
+        selectQuiz={selectQuiz}
+      />
+    ) : isResults ? (
+      <Results {...resultsProps} />
+    ) : isReady ? (
+      <Questions {...questionProps} {...modalProps} />
+    ) : (
+      <SelectQuiz
+        startQuiz={startQuiz}
+        selectQuizArr={selectQuizArr}
+        {...selectQuizProps}
+      />
+    )}
     </>
   );
 };
