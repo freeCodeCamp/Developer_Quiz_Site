@@ -80,9 +80,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setIsReady(true)
     const userAnswer = parseInt(e.currentTarget.value);
-    setQuiz(shuffle(quiz).slice(0, userAnswer));
-    console.log({userAnswer})
-
+    setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
   };
 
   //function for toggling the react-bootstrap modal
