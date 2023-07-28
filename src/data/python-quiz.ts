@@ -661,16 +661,6 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/functions.html#round"
   },
   {
-    Question: "In Python, what do you use to write comments?",
-    Answer: "#",
-    Distractor1: "!",
-    Distractor2: "//",
-    Distractor3: "/* */",
-    Explanation:
-      "Everything after the # symbol is considered a comment in Python and therefore is not executed.",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/#comment-"
-  },
-  {
     Question:
       "In Python, non-empty sequences, non-empty collections, and numerical values different from 0 are...",
     Answer: "Truthy",
@@ -680,16 +670,6 @@ const pythonQuiz = [
     Explanation:
       "Non-empty sequences, collections, and numerical values different from 0 are truthy values.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/"
-  },
-  {
-    Question:
-      "In Python, which built-in function is used for taking user input?",
-    Answer: "input()",
-    Distractor1: "in()",
-    Distractor2: "user()",
-    Distractor3: "receive()",
-    Explanation: "The input() function is used to take user input in Python.",
-    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-python-from-beginner-to-intermediate-to-pro/"
   },
   {
     Question: "In Python, how can you create an empty list?",
@@ -1217,17 +1197,6 @@ const pythonQuiz = [
     Explanation:
       "A value that evaluates to False in a boolean context is known as a falsy value.",
     Link: "https://www.freecodecamp.org/news/truthy-and-falsy-values-in-python/"
-  },
-  {
-    Question:
-      "In Python, if you try to access a key that does not exist in a dictionary, you will get a...",
-    Answer: "KeyError",
-    Distractor1: "Spelling Error",
-    Distractor2: "ValueError",
-    Distractor3: "TypeError",
-    Explanation:
-      "If you try to access a key that does not exist in a Python dictionary, you will get a KeyError.",
-    Link: "https://www.freecodecamp.org/news/python-dictionaries-detailed-visual-introduction/"
   },
   {
     Question:
