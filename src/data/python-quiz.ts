@@ -1415,17 +1415,6 @@ const pythonQuiz = [
   },
   {
     Question:
-      "Which of the following statements is used to create an empty set in Python?",
-    Answer: "set()",
-    Distractor1: "{}",
-    Distractor2: "[]",
-    Distractor3: "()",
-    Explanation:
-      "{} creates an empty dictionary while set() creates an empty set.",
-    Link: "https://www.freecodecamp.org/news/free-python-crash-course/"
-  },
-  {
-    Question:
       "In Python, if y = lambda x : x ** 2 + 7 , then what will be the result returned when the following code is executed: print(y(3))?",
     Answer: "16",
     Distractor1: "5",
