@@ -1622,6 +1622,17 @@ const pythonQuiz = [
     Explanation:
       "In Python, the '**' operator, the built-in function pow() and the math.pow() function are three different ways to get the exponent to the base.",
     Link: "https://docs.python.org/3/library/math.html"
+  },
+  {
+    Question:
+      "In Python, which of the following is NOT a list method?",
+    Answer: "add()",
+    Distractor1: "append()",
+    Distractor2: "pop()",
+    Distractor3: "extend()",
+    Explanation:
+      "In Python, lists have several built-in methods to perform various operations. However, the method 'add()' is not a valid method for lists.",
+    Link: "https://www.freecodecamp.org/news/lists-in-python-comprehensive-guide/"
   }
 ];
 
