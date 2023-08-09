@@ -81,6 +81,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setIsReady(true)
     const userAnswer = parseInt(e.currentTarget.value);
     setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
+    console.log({userAnswer})
   };
 
     // Function to start a random quiz
@@ -116,13 +117,17 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   };
 
   const resetQuiz = () => {
-    setQuiz(ALL_CATEGORIES);
+    setSelectedCategory(""); // Reset selected category
+  setSelectedQuiz(0); // Reset selected quiz
+    // setQuiz(ALL_CATEGORIES);
+    setShowOptions(false);
     setIsResults(false);
     setShow(false);
-    setShowOptions(true);
+    setIsReady(false);
     setChooseAnswer(false);
     setPoints(0);
     setQuestionNumber(1);
+    console.log({showOptions})
   };
 
   const shuffleModalResponses = (responses: string[]) => {

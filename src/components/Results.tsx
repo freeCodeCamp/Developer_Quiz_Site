@@ -3,7 +3,8 @@ import React, { MouseEventHandler } from "react";
 interface PointTotals {
   points: number;
   totalPoints: number;
-  resetQuiz: MouseEventHandler<HTMLButtonElement>;
+  // resetQuiz: MouseEventHandler<HTMLButtonElement>;
+  resetQuiz: () => void;
 }
 
 const Results: React.FC<PointTotals> = ({
