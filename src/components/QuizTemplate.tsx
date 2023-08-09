@@ -83,6 +83,20 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
   };
 
+    // Function to start a random quiz
+    const startRandomQuiz = () => {
+      setSelectedCategory("Random"); // Set the selected category to "Random"
+      const randomIndex = Math.floor(Math.random() * selectCategoryArr.length);
+      setSelectedQuiz(selectQuizArr[randomIndex]);
+      setShowOptions(true); 
+      setIsResults(false);
+      // Generate a random set of questions
+      const randomQuestions = shuffle(ALL_CATEGORIES).slice(0, selectQuizArr[randomIndex]);
+      setQuiz(randomQuestions);
+      console.log(randomQuestions)
+
+    };
+
   //function for toggling the react-bootstrap modal
   const handleShow = () => setShow(true);
 
@@ -178,11 +192,11 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       <FCCLogo />
       {!showOptions ? (
       <SelectCategory
-        selectQuizNumber={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => selectQuiz(category, 0)}
-        category={selectedCategory}
-        selectCategoryArr={selectCategoryArr}
-        selectQuiz={selectQuiz}
-      />
+          selectQuizNumber={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => selectQuiz(category, 0)}
+          category={selectedCategory}
+          selectCategoryArr={selectCategoryArr}
+          selectQuiz={selectQuiz} 
+          startRandomQuiz={startRandomQuiz }      />
     ) : isResults ? (
       <Results {...resultsProps} />
     ) : isReady ? (

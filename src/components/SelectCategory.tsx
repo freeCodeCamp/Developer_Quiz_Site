@@ -5,6 +5,7 @@ interface SelectCategoryProps {
   selectCategoryArr: string[],
   selectQuiz: (category: string, index: number) => void;
   selectQuizNumber: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => void;
+  startRandomQuiz: () => void;
 }
   
 const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
@@ -24,6 +25,9 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
             </button>
           )
         )}
+          <button className="select-btns" onClick={SelectCategoryProps.startRandomQuiz}>
+          Random
+        </button>
       </div>
     </div>
   );
