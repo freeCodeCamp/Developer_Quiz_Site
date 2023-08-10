@@ -29,7 +29,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
   const [showOptions, setShowOptions] = useState(false);
-  const selectQuizArr = [10, 25, 50, 100, quiz.length];
+  const selectQuizArr = [10, 25, 50, 100];
   const [isReady, setIsReady] = useState(false);
   const selectCategoryArr = [
     "HTML",
@@ -80,13 +80,12 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setIsReady(true)
     const userAnswer = parseInt(e.currentTarget.value);
     setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
-    console.log({userAnswer})
   };
 
     // Function to start a random quiz
     const startRandomQuiz = () => {
       setSelectedCategory("Random"); // Set the selected category to "Random"
-      const randomIndex = Math.floor(Math.random() * selectCategoryArr.length);
+      const randomIndex = Math.floor(Math.random() * selectQuizArr.length);
       setSelectedQuiz(selectQuizArr[randomIndex]);
       setShowOptions(true); 
       setIsResults(false);
@@ -204,10 +203,11 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     ) : isResults ? (
       <Results {...resultsProps} />
     ) : isReady ? (
-      <Questions {...questionProps} {...modalProps} />
+      <Questions {...questionProps}  {...modalProps} />
     ) : (
       <SelectQuiz
         startQuiz={startQuiz}
+        totalQuestions={filteredQuestions.length}
         selectQuizArr={selectQuizArr}
         {...selectQuizProps}
       />
