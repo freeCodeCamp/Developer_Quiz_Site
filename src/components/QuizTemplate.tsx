@@ -92,8 +92,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       // Generate a random set of questions
       const randomQuestions = shuffle(ALL_CATEGORIES).slice(0, selectQuizArr[randomIndex]);
       setQuiz(randomQuestions);
-      console.log(randomQuestions)
-
     };
 
   //function for toggling the react-bootstrap modal
@@ -125,7 +123,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setChooseAnswer(false);
     setPoints(0);
     setQuestionNumber(1);
-    console.log({showOptions})
   };
 
   const shuffleModalResponses = (responses: string[]) => {
