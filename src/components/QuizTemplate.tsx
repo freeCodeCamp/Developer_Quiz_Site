@@ -45,7 +45,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const choicesArr: string[][] = [];
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
-  const totalPoints = quiz.length;
   const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
 
 
@@ -171,7 +170,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
 
   const resultsProps = {
     points,
-    totalPoints,
+    totalQuestions,
     resetQuiz
   };
 

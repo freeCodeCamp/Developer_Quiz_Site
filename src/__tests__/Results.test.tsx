@@ -8,13 +8,13 @@ describe("Results", () => {
   it("Renders without crashing", () => {
     const div = document.createElement("div");
     ReactDOM.render(
-      <Results points={0} totalPoints={10} resetQuiz={undefined} />,
+      <Results points={0} totalQuestions={10} resetQuiz={undefined} />,
       div
     );
   });
   it("Displays the accurate score for wrong answers", () => {
     const { getByText } = render(
-      <Results points={0} totalPoints={10} resetQuiz={undefined} />
+      <Results points={0} totalQuestions={10} resetQuiz={undefined} />
     );
     expect(
       getByText("You received 0 out of 10 points").textContent
@@ -22,7 +22,7 @@ describe("Results", () => {
   });
   it("Displays the perfect score message if all answers are correct", () => {
     const { getByText } = render(
-      <Results points={10} totalPoints={10} resetQuiz={undefined} />
+      <Results points={10} totalQuestions={10} resetQuiz={undefined} />
     );
     expect(
       getByText("Wow! Perfect Score! 10 out of 10 points").textContent
