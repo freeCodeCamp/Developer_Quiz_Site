@@ -119,13 +119,14 @@ const qualityAssuranceQuiz = [
   },
   {
     Question: "Which of the following is true about TDD?",
-    Answer:"With TDD, test logic precedes application logic.",
-    Distractor1:"With TDD, application logic precedes test logic",
-    Distractor2:"TDD stands for Test-Distributing Development",
-    Distractor3:"TDD stands for Testing Distributed Development",
-    Explanation:"The term TDD stands for Test-Driven Development and it is the act of first deciding what you want your program to do (the specifications), formulating a failing test, then writing the code to make that test pass.",
-    Link:"https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/",
-  },
+    Answer: "With TDD, test logic precedes application logic.",
+    Distractor1: "With TDD, application logic precedes test logic",
+    Distractor2: "TDD stands for Test-Distributing Development",
+    Distractor3: "TDD stands for Testing Distributed Development",
+    Explanation:
+      "The term TDD stands for Test-Driven Development and it is the act of first deciding what you want your program to do (the specifications), formulating a failing test, then writing the code to make that test pass.",
+    Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/"
+  }
 ];
 
 export default qualityAssuranceQuiz;

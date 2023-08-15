@@ -2,12 +2,15 @@ import React from "react";
 
 interface SelectCategoryProps {
   category: string;
-  selectCategoryArr: string[],
+  selectCategoryArr: string[];
   selectQuiz: (category: string, index: number) => void;
-  selectQuizNumber: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => void;
+  selectQuizNumber: (
+    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+    category: string
+  ) => void;
   startRandomQuiz: () => void;
 }
-  
+
 const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
   return (
     <div className="select-quiz-styles">
@@ -21,11 +24,14 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
               value={category}
               key={index}
             >
-             {category}
+              {category}
             </button>
           )
         )}
-          <button className="select-btns" onClick={SelectCategoryProps.startRandomQuiz}>
+        <button
+          className="select-btns"
+          onClick={SelectCategoryProps.startRandomQuiz}
+        >
           Random
         </button>
       </div>

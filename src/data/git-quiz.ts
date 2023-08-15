@@ -587,7 +587,7 @@ const gitQuiz = [
       "git commit -am  '<commit message>' is used to stage and commit all changes in the current directory and its subdirectories.",
     Link: "https://git-scm.com/docs/git-commit"
   },
-    {
+  {
     Question:
       "Which git command allows you to download objects and refs from another repository without committing to the main branch?",
     Answer: "git fetch <remote> <branch>",

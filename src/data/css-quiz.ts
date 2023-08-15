@@ -1254,7 +1254,8 @@ const cssQuiz = [
     Link: "https://www.freecodecamp.org/news/css-border-style-and-html-code-examples/"
   },
   {
-    Question: "In CSS, what will the following pseudo class selector do :nth-child(2)?",
+    Question:
+      "In CSS, what will the following pseudo class selector do :nth-child(2)?",
     Answer: "Selects the second child of the parent element",
     Distractor1: "Select 2 children of the parent element",
     Distractor2: "Select 2 elements of the parent element",

@@ -15,9 +15,9 @@ import qualityAssuranceQuiz from "./data/quality-assurance-quiz";
 import securityQuiz from "./data/security-quiz";
 import sqlQuiz from "./data/sql-quiz";
 import regexQuiz from "./data/regex-quiz";
-const mapQuizCategory = (quiz: any[], category: string)=> {
-  return quiz.map((q) => ({ ...q, Category: category }));
-}
+const mapQuizCategory = (quiz: any[], category: string) => {
+  return quiz.map(q => ({ ...q, Category: category }));
+};
 export const ALL_CATEGORIES = [
   ...mapQuizCategory(accessibilityQuiz, "Accessibility"),
   ...mapQuizCategory(cssQuiz, "CSS"),
@@ -35,9 +35,7 @@ export const ALL_CATEGORIES = [
   ...mapQuizCategory(agileQuiz, "Agile"),
   ...mapQuizCategory(qualityAssuranceQuiz, "QA"),
   ...mapQuizCategory(securityQuiz, "Security"),
-  ...mapQuizCategory(regexQuiz, "Regex"),
+  ...mapQuizCategory(regexQuiz, "Regex")
 ];
-
-
 
 export const ROUNDED_QUESTION_COUNT = 1200;

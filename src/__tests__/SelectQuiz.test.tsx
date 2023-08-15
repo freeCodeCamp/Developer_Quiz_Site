@@ -11,13 +11,21 @@ describe("Select Quiz", () => {
     ReactDOM.render(
       <SelectQuiz
         startQuiz={undefined}
-        selectQuizArr={[10, 25, 50, 100, 681]} selectedCategory={""} totalQuestions={0}      />,
+        selectQuizArr={[10, 25, 50, 100, 681]}
+        selectedCategory={""}
+        totalQuestions={0}
+      />,
       div
     );
   });
   it("has a button for every quiz question amount under 600", () => {
     const { getByText } = render(
-      <SelectQuiz startQuiz={undefined} selectQuizArr={[10, 25, 50, 100]} selectedCategory={""} totalQuestions={600} />
+      <SelectQuiz
+        startQuiz={undefined}
+        selectQuizArr={[10, 25, 50, 100]}
+        selectedCategory={""}
+        totalQuestions={600}
+      />
     );
     expect(getByText("10").textContent).toBeDefined();
     expect(getByText("25").textContent).toBeDefined();
@@ -27,8 +35,12 @@ describe("Select Quiz", () => {
 
   it("Has a button for max amount equal to 601", () => {
     const { getByText } = render(
-      <SelectQuiz startQuiz={undefined} 
-      selectQuizArr={[600, 601]} selectedCategory={""} totalQuestions={601} />
+      <SelectQuiz
+        startQuiz={undefined}
+        selectQuizArr={[600, 601]}
+        selectedCategory={""}
+        totalQuestions={601}
+      />
     );
     expect(getByText("All (601)").textContent).toBeDefined();
   });

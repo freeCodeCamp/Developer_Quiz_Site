@@ -36,11 +36,13 @@ const Questions: React.FC<QuizProps> = QuizProps => {
         {QuizProps.chooseAnswer ? (
           <QuizModal {...QuizProps.modalProps} />
         ) : (
-            <fieldset className="w-50 quiz-answers-div">
-              <legend>
-                <span className='sr-only'>Question {QuizProps.questionNumber}</span>{' '}
-                {QuizProps.currQuestion.Question}
-              </legend>
+          <fieldset className="w-50 quiz-answers-div">
+            <legend>
+              <span className="sr-only">
+                Question {QuizProps.questionNumber}
+              </span>{" "}
+              {QuizProps.currQuestion.Question}
+            </legend>
             <ul>
               {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
                 (btn: string | string[] | number, index: number) => (

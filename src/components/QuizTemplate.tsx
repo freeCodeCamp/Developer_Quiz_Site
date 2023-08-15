@@ -47,7 +47,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const totalQuestions = quiz.length;
   const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
 
-
   //detects if the user tries the refresh the page in the middle of the quiz
   useEffect(() => {
     window.addEventListener("beforeunload", alertUser);
@@ -66,33 +65,36 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [selectedCategory, setSelectedCategory] = useState("");
   const [selectedQuiz, setSelectedQuiz] = useState(0);
 
-  const selectQuiz= (category: string, index: number) => {
+  const selectQuiz = (category: string, index: number) => {
     setSelectedCategory(category);
     setSelectedQuiz(selectQuizArr[index]);
-    setShowOptions(true); 
+    setShowOptions(true);
     setIsResults(false); // Set to false to hide Results component
     // Filter questions based on the selected category
-  const filteredQuiz = ALL_CATEGORIES.filter((q) => q.Category === category);
-  setFilteredQuestions(filteredQuiz);
-  }
+    const filteredQuiz = ALL_CATEGORIES.filter(q => q.Category === category);
+    setFilteredQuestions(filteredQuiz);
+  };
 
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    setIsReady(true)
+    setIsReady(true);
     const userAnswer = parseInt(e.currentTarget.value);
     setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
   };
 
-    // Function to start a random quiz
-    const startRandomQuiz = () => {
-      setSelectedCategory("Random"); // Set the selected category to "Random"
-      const randomIndex = Math.floor(Math.random() * selectQuizArr.length);
-      setSelectedQuiz(selectQuizArr[randomIndex]);
-      setShowOptions(true); 
-      setIsResults(false);
-      // Generate a random set of questions
-      const randomQuestions = shuffle(ALL_CATEGORIES).slice(0, selectQuizArr[randomIndex]);
-      setQuiz(randomQuestions);
-    };
+  // Function to start a random quiz
+  const startRandomQuiz = () => {
+    setSelectedCategory("Random"); // Set the selected category to "Random"
+    const randomIndex = Math.floor(Math.random() * selectQuizArr.length);
+    setSelectedQuiz(selectQuizArr[randomIndex]);
+    setShowOptions(true);
+    setIsResults(false);
+    // Generate a random set of questions
+    const randomQuestions = shuffle(ALL_CATEGORIES).slice(
+      0,
+      selectQuizArr[randomIndex]
+    );
+    setQuiz(randomQuestions);
+  };
 
   //function for toggling the react-bootstrap modal
   const handleShow = () => setShow(true);
@@ -114,7 +116,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
 
   const resetQuiz = () => {
     setSelectedCategory(""); // Reset selected category
-  setSelectedQuiz(0); // Reset selected quiz
+    setSelectedQuiz(0); // Reset selected quiz
     // setQuiz(ALL_CATEGORIES);
     setShowOptions(false);
     setIsResults(false);
@@ -149,8 +151,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   };
 
   const selectQuizProps = {
-    quiz, 
-    selectedCategory, 
+    quiz,
+    selectedCategory,
     selectedQuiz
   };
 
@@ -191,24 +193,28 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
       />
       <FCCLogo />
       {!showOptions ? (
-      <SelectCategory
-          selectQuizNumber={(e: React.MouseEvent<HTMLButtonElement, MouseEvent>, category: string) => selectQuiz(category, 0)}
+        <SelectCategory
+          selectQuizNumber={(
+            e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+            category: string
+          ) => selectQuiz(category, 0)}
           category={selectedCategory}
           selectCategoryArr={selectCategoryArr}
-          selectQuiz={selectQuiz} 
-          startRandomQuiz={startRandomQuiz }      />
-    ) : isResults ? (
-      <Results {...resultsProps} />
-    ) : isReady ? (
-      <Questions {...questionProps}  {...modalProps} />
-    ) : (
-      <SelectQuiz
-        startQuiz={startQuiz}
-        totalQuestions={filteredQuestions.length}
-        selectQuizArr={selectQuizArr}
-        {...selectQuizProps}
-      />
-    )}
+          selectQuiz={selectQuiz}
+          startRandomQuiz={startRandomQuiz}
+        />
+      ) : isResults ? (
+        <Results {...resultsProps} />
+      ) : isReady ? (
+        <Questions {...questionProps} {...modalProps} />
+      ) : (
+        <SelectQuiz
+          startQuiz={startQuiz}
+          totalQuestions={filteredQuestions.length}
+          selectQuizArr={selectQuizArr}
+          {...selectQuizProps}
+        />
+      )}
     </>
   );
 };
