@@ -17,7 +17,7 @@ describe("SelectCategory", () => {
       "SQL"
     ];
   
-    it("renders without crashing", () => {
+    it("displays the Choose a Category screen", () => {
       const { getByText }: RenderResult = render(
         <SelectCategory
           selectCategoryArr={selectCategoryArr}
