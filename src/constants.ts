@@ -23,7 +23,7 @@ export const ALL_CATEGORIES = [
   ...mapQuizCategory(cssQuiz, "CSS"),
   ...mapQuizCategory(cloudComputingQuiz, "Cloud Computing"),
   ...mapQuizCategory(devopsQuiz, "DevOps"),
-  ...mapQuizCategory(freecodecampQuiz, "FreeCodeCamp"),
+  ...mapQuizCategory(freecodecampQuiz, "freeCodeCamp"),
   ...mapQuizCategory(generalCSQuiz, "General CS"),
   ...mapQuizCategory(gitQuiz, "Git"),
   ...mapQuizCategory(htmlQuiz, "HTML"),
