@@ -15,6 +15,7 @@ import qualityAssuranceQuiz from "./data/quality-assurance-quiz";
 import securityQuiz from "./data/security-quiz";
 import sqlQuiz from "./data/sql-quiz";
 import regexQuiz from "./data/regex-quiz";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const mapQuizCategory = (quiz: any[], category: string) => {
   return quiz.map(q => ({ ...q, Category: category }));
 };
