@@ -722,7 +722,8 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-sql-in-10-minutes/"
   },
   {
-    Question: "In SQL, which of the following data types holds a FIXED length string?",
+    Question:
+      "In SQL, which of the following data types holds a FIXED length string?",
     Answer: "CHAR",
     Distractor1: "VARCHAR",
     Distractor2: "TEXT",

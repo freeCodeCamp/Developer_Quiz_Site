@@ -15,25 +15,27 @@ import qualityAssuranceQuiz from "./data/quality-assurance-quiz";
 import securityQuiz from "./data/security-quiz";
 import sqlQuiz from "./data/sql-quiz";
 import regexQuiz from "./data/regex-quiz";
-
+const mapQuizCategory = (quiz: any[], category: string) => {
+  return quiz.map(q => ({ ...q, Category: category }));
+};
 export const ALL_CATEGORIES = [
-  ...accessibilityQuiz,
-  ...cssQuiz,
-  ...cloudComputingQuiz,
-  ...devopsQuiz,
-  ...freecodecampQuiz,
-  ...generalCSQuiz,
-  ...gitQuiz,
-  ...htmlQuiz,
-  ...informationTechnologyQuiz,
-  ...javascriptQuiz,
-  ...linuxQuiz,
-  ...pythonQuiz,
-  ...sqlQuiz,
-  ...agileQuiz,
-  ...qualityAssuranceQuiz,
-  ...securityQuiz,
-  ...regexQuiz
+  ...mapQuizCategory(accessibilityQuiz, "Accessibility"),
+  ...mapQuizCategory(cssQuiz, "CSS"),
+  ...mapQuizCategory(cloudComputingQuiz, "Cloud Computing"),
+  ...mapQuizCategory(devopsQuiz, "DevOps"),
+  ...mapQuizCategory(freecodecampQuiz, "freeCodeCamp"),
+  ...mapQuizCategory(generalCSQuiz, "General CS"),
+  ...mapQuizCategory(gitQuiz, "Git"),
+  ...mapQuizCategory(htmlQuiz, "HTML"),
+  ...mapQuizCategory(informationTechnologyQuiz, "IT"),
+  ...mapQuizCategory(javascriptQuiz, "JavaScript"),
+  ...mapQuizCategory(linuxQuiz, "Linux"),
+  ...mapQuizCategory(pythonQuiz, "Python"),
+  ...mapQuizCategory(sqlQuiz, "SQL"),
+  ...mapQuizCategory(agileQuiz, "Agile"),
+  ...mapQuizCategory(qualityAssuranceQuiz, "QA"),
+  ...mapQuizCategory(securityQuiz, "Security"),
+  ...mapQuizCategory(regexQuiz, "Regex")
 ];
 
 export const ROUNDED_QUESTION_COUNT = 1200;
