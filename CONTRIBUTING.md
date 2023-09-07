@@ -60,6 +60,19 @@ You can read more about how to create timestamps in this [helpful article](https
 
 **PLEASE NOTE: Any PR's that have questions taken from other quiz sites will not accepted. Please come up with your own quiz questions.**
 
+## Issues available for contribution
+
+### Open to multiple contributors label
+Any open issue that is marked with the `open to multiple contributors` label is free for anyone to work on and will not be assigned to just one person.
+
+### Available for assignment label
+Any open issue that is marked with the `Available for assignment` label will open for the first person that replies back to the issue asking to be assigned. Once that person has been assigned then they are free to start work on the issue.
+
+### Already Assigned label
+Open issues that have the `already assigned` label are not available for pickup. If someone has been assigned to this issue and there has been no movement on it for weeks, then the maintainers will reach out to the individual to ask if they are still interested in working on it. If the individual has decided not to pursue the issue anymore, then the maintainers will open it back up for contribution and remove the `already assigned` label.
+
+**NOTE: Only the person assigned to the issue is free to create a PR. Other contributors that create a PR for an already assigned issue will have their PR closed.**
+
 ## How to contribute and make a pull request
 
 1. In the command line, make sure you are in the Developer Quiz directory. `cd Developer_Quiz_Site`
