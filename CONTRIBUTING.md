@@ -60,6 +60,10 @@ You can read more about how to create timestamps in this [helpful article](https
 
 **PLEASE NOTE: Any PR's that have questions taken from other quiz sites will not accepted. Please come up with your own quiz questions.**
 
+### Quiz questions with code samples
+
+Please refrain from creating quiz questions that have code samples. The reason for this is that we have found that these types of questions don't end up displaying well in the current layout and they are sometimes hard to read.
+
 ## Issues available for contribution
 
 ### Open to multiple contributors label
