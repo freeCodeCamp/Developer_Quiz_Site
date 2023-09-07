@@ -131,17 +131,6 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what will be the value for console.log(((a, b = 1, c) => {}).length)?",
-    Answer: "1",
-    Distractor1: "3",
-    Distractor2: "2",
-    Distractor3: "0",
-    Explanation:
-      "length property inside the function indicates the expected number of parameters. But, only paramaters before the first one with a default value are counted.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/length"
-  },
-  {
-    Question:
       "What is the process of converting a value from one data type to another called?",
     Answer: "Type Coercion",
     Distractor1: "Type Casting",
