@@ -93,6 +93,8 @@ If you need any help, please reach out in the [discussions tab](https://github.c
 
 If you are interested in proposing new features, please open up a new [GitHub discussion](https://github.com/freeCodeCamp/Developer_Quiz_Site/discussions) with details for the proposed feature.
 
+Please do not create a PR for a new feature without first discussing it with the maintainers. If you create a PR for a new feature without discussing it first, then your PR will be closed.
+
 ## How to report bugs in the codebase and typos in the documentation
 
 If you spot a bug in the codebase or issues with the documentation, please open up a [GitHub issue](https://github.com/freeCodeCamp/Developer_Quiz_Site/issues) detailing the problem.
