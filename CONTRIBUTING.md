@@ -27,8 +27,6 @@ In the command line:
 
 We are looking to add more quiz questions for the following categories:
 
-- JavaScript
-- Python
 - Linux
 - SQL
 - Computer Science
@@ -60,6 +58,8 @@ If you choose to reference a video, please make sure to include the timestamp fo
 
 You can read more about how to create timestamps in this [helpful article](https://www.lifewire.com/link-to-specific-part-of-youtube-video-1616414).
 
+**PLEASE NOTE: Any PR's that have questions taken from other quiz sites will not accepted. Please come up with your own quiz questions.**
+
 ## How to contribute and make a pull request
 
 1. In the command line, make sure you are in the Developer Quiz directory. `cd Developer_Quiz_Site`
@@ -71,7 +71,7 @@ You can read more about how to create timestamps in this [helpful article](https
 7. Open up a pull request (PR) directed to our `main` branch.
 8. Then the maintainers will review your PR and either request changes or approve it.
 
-If you need any help, please reach out on the [freeCodeCamp forum](https://forum.freecodecamp.org/).
+If you need any help, please reach out in the [discussions tab](https://github.com/freeCodeCamp/Developer_Quiz_Site/discussions).
 
 ## How to propose new features
 
