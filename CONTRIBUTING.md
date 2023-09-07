@@ -12,15 +12,15 @@ In the command line:
 1. Clone the repo by typing `git clone https://github.com/YOUR-GITHUB-USERNAME/Developer_Quiz_Site.git`
 2. Then type `cd Developer_Quiz_Site` to go into the project's directory.
 3. Ensure Node.js and NPM are installed on machine
-4. Install dependecies with `npm install`
+4. Install dependencies with `npm install`
 5. Test local changes:
-    - Option A: NPM
-      1. Run the project with `npm start`
-    - Option B: Docker
-      1. Ensure docker is installed on machine. Installations instructions can be found on the [official Docker docs](https://docs.docker.com/get-docker/).
-      2. Build the docker image with `docker build -t developer-quiz-site .`
-      3. Run the docker container: `docker container run --rm -it -p 3000:3000 developer-quiz-site` or alternatively, `npm run start:local-docker`.
-      4. Visit `localhost:3000` in a browser to view the site!
+   - Option A: NPM
+     1. Run the project with `npm start`
+   - Option B: Docker
+     1. Ensure docker is installed on machine. Installations instructions can be found on the [official Docker docs](https://docs.docker.com/get-docker/).
+     2. Build the docker image with `docker build -t developer-quiz-site .`
+     3. Run the docker container: `docker container run --rm -it -p 3000:3000 developer-quiz-site` or alternatively, `npm run start:local-docker`.
+     4. Visit `localhost:3000` in a browser to view the site!
 6. Have fun 🚀
 
 ## Guidelines for adding quiz questions
@@ -63,12 +63,15 @@ You can read more about how to create timestamps in this [helpful article](https
 ## Issues available for contribution
 
 ### Open to multiple contributors label
+
 Any open issue that is marked with the `open to multiple contributors` label is free for anyone to work on and will not be assigned to just one person.
 
 ### Available for assignment label
+
 Any open issue that is marked with the `Available for assignment` label will open for the first person that replies back to the issue asking to be assigned. Once that person has been assigned then they are free to start work on the issue.
 
 ### Already Assigned label
+
 Open issues that have the `already assigned` label are not available for pickup. If someone has been assigned to this issue and there has been no movement on it for weeks, then the maintainers will reach out to the individual to ask if they are still interested in working on it. If the individual has decided not to pursue the issue anymore, then the maintainers will open it back up for contribution and remove the `already assigned` label.
 
 **NOTE: Only the person assigned to the issue is free to create a PR. Other contributors that create a PR for an already assigned issue will have their PR closed.**
