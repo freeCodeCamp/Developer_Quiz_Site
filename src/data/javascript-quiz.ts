@@ -338,7 +338,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what will be the value of output? let output = null ?? 20",
+      "In JavaScript, what will be the value for the following code: null ?? 20",
     Answer: "20",
     Distractor1: "undefined",
     Distractor2: "null",
