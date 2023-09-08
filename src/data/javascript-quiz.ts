@@ -120,7 +120,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, if let n = 12345.6789, then what will be the result for console.log(n.toFixed())?",
+      "In JavaScript, what will be the result for the following code: 12345.6789.toFixed()?",
     Answer: "12346",
     Distractor1: "12345",
     Distractor2: "12345.6789",
