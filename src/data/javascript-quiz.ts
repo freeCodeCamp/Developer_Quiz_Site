@@ -326,12 +326,11 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Strict_equality"
   },
   {
-    Question:
-      "In JavaScript, select the right syntax for an ES6 arrow function:",
-    Answer: "let variable = () => {//code block}",
-    Distractor1: "let variable => (){//code block}",
-    Distractor2: "let variable = function() => {//code block}",
-    Distractor3: "let variable = function(){//code block}",
+    Question: "Select the correct syntax for a JavaScript ES6 arrow function:",
+    Answer: "const variable = () => // code",
+    Distractor1: "const variable <=> ()()// code ",
+    Distractor2: "const variable === function() => {//code}",
+    Distractor3: "const variable =>> function(){//code}",
     Explanation:
       "ES6 arrow functions provide you with an alternative way to write shorter syntax compared to the traditional function expression.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions"
