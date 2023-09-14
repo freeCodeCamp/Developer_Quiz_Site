@@ -1,5 +1,15 @@
 const sqlQuiz = [
   {
+    Question: "What SQL command is used to delete a record from a table?",
+    Answer: "DELETE FROM",
+    Distractor1: "REMOVE FROM",
+    Distractor2: "DROP FROM",
+    Distractor3: "CUT FROM",
+    Explanation:
+      "The DELETE FROM command is used to remove records from a table in an SQL database. It's important to use a WHERE clause to specify which records to delete, otherwise all records will be removed.",
+    Link: "https://www.freecodecamp.org/news/how-to-perform-crud-operations-js-and-sql/"
+  },
+  {
     Question: "Which of the following is not a commonly used SQL constraint?",
     Answer: "UPDATE",
     Distractor1: "CHECK",
