@@ -518,6 +518,17 @@ const securityQuiz = [
     Explanation:
       "A computer worm is a type of malware that duplicates itself and spreads to other computers.",
     Link: "https://en.wikipedia.org/wiki/Computer_worm"
+  },
+  {
+    Question:
+      "Which attack aims to overwhelm a target system or network with a flood of traffic, rendering it inaccessible to legitimate users?",
+    Answer: "Denial of Service",
+    Distractor1: "Spear phishing",
+    Distractor2: "Man in the Middle",
+    Distractor3: "SQL Injection",
+    Explanation:
+      "Denial of Service (DoS) attacks aim to flood the victim servers with fake requests, thus preventing them from serving legitimate users.",
+    Link: "https://www.freecodecamp.org/news/how-we-handled-a-denial-of-service-attack-a-simple-security-lesson-8cdd542d4def/"
   }
 ];
 
