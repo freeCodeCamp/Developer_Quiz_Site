@@ -126,6 +126,28 @@ const qualityAssuranceQuiz = [
     Explanation:
       "The term TDD stands for Test-Driven Development and it is the act of first deciding what you want your program to do (the specifications), formulating a failing test, then writing the code to make that test pass.",
     Link: "https://www.freecodecamp.org/news/an-introduction-to-test-driven-development-c4de6dce5c/"
+  },
+  {
+    Question:
+      "Which testing technique focuses on examining the internal logic and structure of a software application?",
+    Answer: "White-Box Testing",
+    Distractor1: "Black-Box Testing",
+    Distractor2: "Grey-Box Testing",
+    Distractor3: "User Acceptance Testing",
+    Explanation:
+      "White-box testing involves analyzing the internal code, logic, and structure of a software application to ensure thorough coverage of all code paths.",
+    Link: "https://www.freecodecamp.org/news/4-testing-methods-which-are-mandatory-for-any-software-7731ad194fb3/"
+  },
+  {
+    Question:
+      "What does SAST stand for in the context of software security testing?",
+    Answer: "Static Application Security Testing",
+    Distractor1: "Systematic Application Safety Testing",
+    Distractor2: "Source Analysis Security Testing",
+    Distractor3: "Secure Algorithmic Source Testing",
+    Explanation:
+      "Static Application Security Testing (SAST) involves analyzing the codebase for security vulnerabilities and violations of security rules, providing insights into potential issues before the final application build.",
+    Link: "https://www.freecodecamp.org/news/4-testing-methods-which-are-mandatory-for-any-software-7731ad194fb3/"
   }
 ];
 
