@@ -1,5 +1,3 @@
-Checklist:
-
 ## Summary of changes
 
 <!-- Please provide a quick summary of the changes made in this PR -->
