@@ -1,5 +1,17 @@
 const qualityAssuranceQuiz = [
   {
+  Question:
+    "What is the primary goal of quality assurance in software development?",
+  Answer: "To ensure software quality",
+  Distractor1: "To fix all software bugs",
+  Distractor2: "To develop software faster",
+  Distractor3: "To design software interfaces",
+  Explanation:
+    "The primary goal of quality assurance (QA) in software development is to ensure that the software meets the required quality standards and is free from major defects.",
+  Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/"
+},
+
+  {
     Question:
       "What type of testing is done on a new feature to ensure that it doesn't accidentally break existing functionality?",
     Answer: "Regression",
