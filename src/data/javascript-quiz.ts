@@ -1957,6 +1957,17 @@ const javascriptQuiz = [
     Explanation:
       "Variables that can have their values changed are referred to as Mutable Variables. Only objects and arrays are changeable in JavaScript; primitive values are not.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
+  },
+  {
+    Question:
+      "In JavaScript, what is the use of immediately invoked function expression ?",
+    Answer: "To Create a Private Variable",
+    Distractor1: "To Create a Global Variable",
+    Distractor2: "To Run a Function",
+    Distractor3: "To Create a Constant",
+    Explanation:
+      "IIFE or Immediately Invoked function expression is used to declare a private variable , if a function is declared iife by using parenthesis around it the variable declared inside it becomes private and its value can be accessed using getter function inside the orignal function.",
+    Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
   }
 ];
 
