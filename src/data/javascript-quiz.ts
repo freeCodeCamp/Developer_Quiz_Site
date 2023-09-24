@@ -1960,13 +1960,13 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In JavaScript, what is the use of immediately invoked function expression ?",
-    Answer: "To Create a Private Variable",
+      "In JavaScript, what is a use case for using an IIFE?",
+    Answer: "To create a private variable and avoid polluting the global environment",
     Distractor1: "To Create a Global Variable",
     Distractor2: "To Run a Function",
     Distractor3: "To Create a Constant",
     Explanation:
-      "IIFE or Immediately Invoked function expression is used to declare a private variable , if a function is declared iife by using parenthesis around it the variable declared inside it becomes private and its value can be accessed using getter function inside the orignal function.",
+      "An IIFE or Immediately Invoked Function Expression, is used to declare a private variable and to avoid polluting the global environment. If a function is declared with an IIFE by using a parenthesis around it, the variable declared inside it becomes private and its value can be accessed using a getter function inside the original function.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
   }
 ];
