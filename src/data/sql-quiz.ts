@@ -1,5 +1,16 @@
 const sqlQuiz = [
   {
+    Question:
+      "How can you retrieve unique values from a specific column in SQL to avoid duplicates?",
+    Answer: "SELECT DISTINCT column_name FROM table_name;",
+    Distractor1: "DELETE DUPLICATE column_name FROM table_name;",
+    Distractor2: "REMOVE DUPLICATE column_name FROM table_name;",
+    Distractor3: "SELECT UNIQUE column_name FROM table_name;",
+    Explanation:
+      "The DISTINCT keyword in a SELECT statement retrieves only unique values from a particular column, effectively removing duplicates.",
+    Link: "https://www.freecodecamp.org/news/how-to-remove-duplicate-data-in-sql/"
+  },
+  {
     Question: "What SQL command is used to delete a record from a table?",
     Answer: "DELETE FROM",
     Distractor1: "REMOVE FROM",
