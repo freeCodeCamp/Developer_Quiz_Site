@@ -752,6 +752,16 @@ const sqlQuiz = [
     Explanation:
       "CHAR holds a fixed length string (up to 255 characters), while VARCHAR and TEXT hold variable length strings.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
+  },
+    {
+    Question: "In SQL, which of the following LIKE operator finds any values that have "or" at any position?",
+    Answer: "%or%",
+    Distractor1: "__r%",
+    Distractor2: "a__%",
+    Distractor3: "or%",
+    Explanation:
+      "The SQL LIKE operator with "%or%" matches any values containing "or" at any position within the string.",
+    Link: "https://youtu.be/-fW2X7fh7Yg?t=5881/"
   }
 ];
 
