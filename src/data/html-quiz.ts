@@ -507,7 +507,7 @@ const htmlQuiz = [
   },
   {
     Question:
-      "In HTML, what attribute should you add to <input> to create a checkbox?",
+      "In HTML, which attribute is used in the input element to create a checkbox?",
     Answer: 'type="checkbox"',
     Distractor1: 'type="radio"',
     Distractor2: 'type="check"',
