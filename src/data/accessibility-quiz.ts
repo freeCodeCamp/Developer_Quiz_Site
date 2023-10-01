@@ -352,7 +352,7 @@ const accessibilityQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/contentinfo_role",
   },
   {
-    Question: "What is the ARIA role, `<comment>`used for?",
+    Question: "What is the ARIA comment role used for?",
     Answer: "To describe a reaction or emotion in some content",
     Distractor1: "To provide notes about certain lines of code",
     Distractor2: "To share an opinion",
