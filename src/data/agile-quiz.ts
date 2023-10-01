@@ -21,6 +21,56 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/"
   },
   {
+    Question:
+      'According to Lean Software Development, what is the goal when considering "change requests" in software development?',
+    Answer:
+      'The goal is to minimize the time that each "change request" is on the assembly line before being delivered',
+    Distractor1:
+      'The goal is to maximize the number of "change requests" in the pipeline',
+    Distractor2:
+      'The goal is to delay the processing of "change requests" as much as possible',
+    Distractor3: 'The goal is to eliminate all "change requests"',
+    Explanation:
+      'In Lean Software Development, the focus is on reducing lead time and delivering value quickly. Therefore, the goal with "change requests" is to process them efficiently and minimize the time they spend in the development pipeline before they are delivered.',
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What is the primary focus of Lean Software Development?",
+    Answer:
+      "It focuses on using techniques that minimize extra work and wasted effort in the software development process",
+    Distractor1: "It emphasizes extensive documentation",
+    Distractor2: "It prioritizes speed over quality",
+    Distractor3: "It borrows techniques from the automotive industry",
+    Explanation:
+      "Lean Software Development is the process of building software with the focus on using techniques which minimize extra work and wasted effort. These techniques are borrowed from the Lean manufacturing movement and applied to the context of software development.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "In Agile, what is meant by Integration Hell?",
+    Answer:
+      "The phase where multiple components or modules are integrated into a single system, often causing unexpected issues",
+    Distractor1:
+      "A stage in Agile development where teams struggle to integrate user stories",
+    Distractor2:
+      "A term used to describe smooth and seamless integration processes",
+    Distractor3: "A project management technique to prevent integration issues",
+    Explanation:
+      "Integration Hell is a slang term for when all the members of a development team goes through the process of implementing their code at random times with no way to incorporate the different pieces of code into one seamless string of code.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question:
+      "What is the purpose of a retrospective meeting in Agile Methodology?",
+    Answer:
+      "To reflect on the previous iteration and identify areas for improvement",
+    Distractor1: "To plan the tasks for the next iteration",
+    Distractor2: "To review and approve user stories",
+    Distractor3: "To demo the product to stakeholders",
+    Explanation:
+      "The purpose of an Agile retrospective is to reflect on the previous iteration and identify what went well and what could be improved. It allows the team to continuously adapt and enhance their processes and practices.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
     Question: "What are the first steps of Test Driven Development (TDD)?",
     Answer:
       "Deciding what the program should do (the specifications) and formulating a failing test",
