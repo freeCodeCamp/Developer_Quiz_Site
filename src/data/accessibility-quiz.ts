@@ -344,7 +344,7 @@ const accessibilityQuiz = [
   },
   {
     Question: "What is the function of the contentinfo ARIA role?",
-    Answer: "displays content at that bottom of a website",
+    Answer: "defines the footer content at that bottom of a website",
     Distractor1: "defines the navigation content",
     Distractor2: "displays a list",
     Distractor3: "defines article element content",
