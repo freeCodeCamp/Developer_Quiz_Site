@@ -754,7 +754,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
   },
     {
-    Question: "In SQL, which of the following LIKE operator finds any values that have 'or' at any position?",
+    Question: "In SQL, which of the following wildcards combined with the LIKE operator finds any value that has 'or' at any position?",
     Answer: "%or%",
     Distractor1: "__r%",
     Distractor2: "a__%",
