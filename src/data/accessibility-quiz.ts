@@ -360,8 +360,7 @@ const accessibilityQuiz = [
     Explanation: "If a website has a testimonial section, the `<comment>` role helps describe this information to people who use screen readers.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/comment_role",
   },
-    Question:
-      "What is the minimum contrast ratio needed, according to the WCAG?",
+   { Question: "What is the minimum contrast ratio needed, according to the WCAG?",
     Answer: "4.5:1",
     Distractor1: "1:1",
     Distractor2: "3:1",
@@ -369,7 +368,7 @@ const accessibilityQuiz = [
     Explanation:
       "The minimum contrast ratio needed depends on the type and size of the text and the level of conformance. For normal text, the minimum contrast ratio is 4.5:1.",
     Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
-  }
+  },
 ];
 
 export default accessibilityQuiz;
