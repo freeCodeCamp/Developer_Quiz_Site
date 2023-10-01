@@ -1,6 +1,7 @@
 const agileQuiz = [
   {
-    Question: "What is the key concept of Agile development methodology?",
+    Question:
+      "What is the core concept behind the Agile development methodology?",
     Answer: "Iterative and incremental development",
     Distractor1: "Comprehensive documentation",
     Distractor2: "Long-term planning",
