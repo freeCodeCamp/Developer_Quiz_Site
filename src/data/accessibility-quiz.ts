@@ -1,5 +1,38 @@
 const accessibilityQuiz = [
   {
+    Question: "What does WCAG stand for in the context of web accessibility?",
+    Answer: "Web Content Accessibility Guidelines",
+    Distractor1: "Website Coding and Graphics",
+    Distractor2: "Web Content Approval Group",
+    Distractor3: "Webpage Creation and Graphics",
+    Explanation:
+      "WCAG stands for Web Content Accessibility Guidelines, which provide a set of recommendations for making web content more accessible.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of color contrast in web accessibility?",
+    Answer:
+      "Ensuring text and content remain readable for individuals with visual impairments.",
+    Distractor1: "Creating visually appealing websites",
+    Distractor2: "Enhancing website loading speed",
+    Distractor3: "Improving SEO ranking",
+    Explanation:
+      "Color contrast is essential to make text and content distinguishable for users with various levels of vision, ensuring readability and accessibility.",
+    Link: "https://www.w3.org/TR/WCAG21/"
+  },
+  {
+    Question:
+      "What is the purpose of alternative text (alt text) in web accessibility?",
+    Answer:
+      "Providing descriptions of images for screen reader users and users with visual impairments.",
+    Distractor1: "Improving website design",
+    Distractor2: "Enhancing website performance",
+    Distractor3: "Hiding images from users",
+    Explanation:
+      "Alternative text (alt text) is used to describe images on web pages, making them accessible to individuals who use screen readers or have visual impairments.",
+    Link: "https://www.w3.org/WAI/tutorials/images/decision-tree/"
+  },
+  {
     Question:
       "What is the name of the international body responsible for establishing the most common web accessibility standards?",
     Answer: "World Wide Web Consortium(W3C)",
