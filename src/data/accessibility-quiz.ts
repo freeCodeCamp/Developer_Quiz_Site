@@ -343,7 +343,7 @@ const accessibilityQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
   },
   {
-    Question: "What is the function of the `<contentinfo>` ARIA role?",
+    Question: "What is the function of the contentinfo ARIA role?",
     Answer: "displays content at that bottom of a website",
     Distractor1: "displays content",
     Distractor2: "displays a list",
