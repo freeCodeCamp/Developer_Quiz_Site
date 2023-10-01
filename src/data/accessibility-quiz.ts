@@ -250,7 +250,7 @@ const accessibilityQuiz = [
   {
     Question: "What should you avoid doing with the tabindex attribute when it comes to keyboard accessibility?",
     Answer: 
-    "Don't `<tabindex>` attribute greater than zero",
+    "setting the tabindex attribute greater than zero",
     Distractor1: "Use Javascript",
     Distractor2: "Don't `<tabindex>` attribute greater than zero",
     Distractor3: "Put the headings in an unordered fashion",
