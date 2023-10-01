@@ -1,5 +1,48 @@
 const accessibilityQuiz = [
   {
+    Question: "What is the purpose of 'aria-label' attribute in ARIA?",
+    Answer:
+      "To provide a text label for an element when the visible label is not present",
+    Distractor1: "To change the background color of an element",
+    Distractor2: "To add audio effects to an element",
+    Distractor3: "To hide an element from screen readers",
+    Explanation:
+      "The 'aria-label' attribute is used to provide an accessible label for an element when the visible label is not sufficient.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute"
+  },
+  {
+    Question: "What is the purpose of the 'aria-live' attribute in ARIA?",
+    Answer:
+      "To specify when and how updates to content should be announced by screen readers",
+    Distractor1: "To control the volume of audio elements on a webpage",
+    Distractor2: "To change the font size of text",
+    Distractor3: "To add video captions to multimedia content",
+    Explanation:
+      "The 'aria-live' attribute is used to control how and when updates to dynamic content are announced to screen reader users.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-live_attribute"
+  },
+  {
+    Question: "What is the purpose of 'role' attributes in ARIA?",
+    Answer:
+      "To define the function or purpose of an element for assistive technologies",
+    Distractor1: "To specify the text color of an element",
+    Distractor2: "To create hyperlinks on a webpage",
+    Distractor3: "To apply CSS styles to an element",
+    Explanation:
+      "ARIA 'role' attributes help convey the semantic meaning and behavior of elements to assistive technologies.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid/"
+  },
+  {
+    Question: "What is the purpose of the 'tabindex' attribute in HTML?",
+    Answer: "To control the order in which elements receive focus",
+    Distractor1: "To add styling to elements",
+    Distractor2: "To hide elements from screen readers",
+    Distractor3: "To create hyperlinks",
+    Explanation:
+      "The 'tabindex' attribute specifies the order in which elements should be focused when navigating with the keyboard.",
+    Link: "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/"
+  },
+  {
     Question:
       "What is the name of the international body responsible for establishing the most common web accessibility standards?",
     Answer: "World Wide Web Consortium(W3C)",
