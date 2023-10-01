@@ -1,5 +1,32 @@
 const cloudComputingQuiz = [
   {
+    Question: "What cloud computing term refers to the ability to quickly scale resources up or down based on demand?",
+    Answer: "Elasticity",
+    Distractor1: "Resilience",
+    Distractor2: "Orchestration",
+    Distractor3: "Virtualization",
+    Explanation: "Elasticity allows cloud resources to be easily adjusted to handle changing workloads.",
+    Link: "https://www.freecodecamp.org/news/aws-and-elasticity-keeping-ahead-of-user-demand/"
+  },
+  {
+    Question: "What is the primary goal of cloud load balancing?",
+    Answer: "Distribute traffic evenly across multiple servers or resources",
+    Distractor1: "Minimize latency within the cloud network",
+    Distractor2: "Increase server capacity",
+    Distractor3: "Enhance data encryption in transit",
+    Explanation: "Cloud load balancing ensures that incoming network traffic is distributed evenly across multiple servers or resources for improved performance.",
+    Link: "https://www.freecodecamp.org/news/high-availability-concepts-and-theory/"
+  },
+  {
+    Question: "What is the primary advantage of using a serverless architecture in cloud computing?",
+    Answer: "Automatic scaling and resource management",
+    Distractor1: "Low latency network connections",
+    Distractor2: "Complete control over server configuration",
+    Distractor3: "Reduced cost of hardware",
+    Explanation: "Serverless computing automatically scales resources up or down based on demand, eliminating the need for manual resource management.",
+    Link: "https://www.freecodecamp.org/news/how-to-get-started-with-serverless-architecture/"
+  },
+  {
     Question:
       "Which type of cloud computing focuses on designing a product that is run and managed by the service provider?",
     Answer: "Software as a Service",
