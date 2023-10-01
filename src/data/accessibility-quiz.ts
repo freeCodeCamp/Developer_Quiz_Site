@@ -248,7 +248,7 @@ const accessibilityQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA"
   },
   {
-    Question: "What is the best way to make your website keyboard accessible?",
+    Question: "What should you avoid doing with the tabindex attribute when it comes to keyboard accessibility?",
     Answer: 
     "Don't `<tabindex>` attribute greater than zero",
     Distractor1: "Use Javascript",
