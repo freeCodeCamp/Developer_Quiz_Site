@@ -252,7 +252,7 @@ const accessibilityQuiz = [
     Answer: 
     "setting the tabindex attribute greater than zero",
     Distractor1: "Use Javascript",
-    Distractor2: "Don't `<tabindex>` attribute greater than zero",
+    Distractor2: "setting the tabindex to use only numbers",
     Distractor3: "Put the headings in an unordered fashion",
     Explanation: "Putting the `<tabindex>` attribute greater than zero causes the focus order of a website's page to be disorganized, causing people who only user their keyboards to navigate the web to be confused",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard",
