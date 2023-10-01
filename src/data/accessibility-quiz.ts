@@ -299,6 +299,17 @@ const accessibilityQuiz = [
     Explanation:
       "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+  },
+  {
+    Question:
+      "What is the minimum contrast ratio needed, according to the WCAG?",
+    Answer: "4.5:1",
+    Distractor1: "1:1",
+    Distractor2: "3:1",
+    Distractor3: "2.5:1",
+    Explanation:
+      "The minimum contrast ratio needed depends on the type and size of the text and the level of conformance. For normal text, the minimum contrast ratio is 4.5:1.",
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
   }
 ];
 
