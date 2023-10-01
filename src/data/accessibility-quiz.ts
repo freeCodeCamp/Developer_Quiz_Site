@@ -357,7 +357,7 @@ const accessibilityQuiz = [
     Distractor1: "To provide notes about certain lines of code",
     Distractor2: "To share an opinion",
     Distractor3: "To critique a piece of text",
-    Explanation: "If a website has a testimonial section, the `<comment>` role helps describe this information to people who use screen readers.",
+    Explanation: "If a website has a testimonial section, the comment role helps describe this information to people who use screen readers.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/comment_role",
   },
    { Question: "What is the minimum contrast ratio needed, according to the WCAG?",
