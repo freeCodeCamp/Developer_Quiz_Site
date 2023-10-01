@@ -8,7 +8,7 @@ const accessibilityQuiz = [
     Distractor3: "To hide an element from screen readers",
     Explanation:
       "The 'aria-label' attribute is used to provide an accessible label for an element when the visible label is not sufficient.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-label_attribute"
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-label"
   },
   {
     Question: "What is the purpose of the 'aria-live' attribute in ARIA?",
@@ -19,7 +19,7 @@ const accessibilityQuiz = [
     Distractor3: "To add video captions to multimedia content",
     Explanation:
       "The 'aria-live' attribute is used to control how and when updates to dynamic content are announced to screen reader users.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Techniques/Using_the_aria-live_attribute"
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions"
   },
   {
     Question: "What is the purpose of 'role' attributes in ARIA?",
