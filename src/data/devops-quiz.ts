@@ -1,49 +1,5 @@
 const devopsQuiz = [
   {
-    Question:
-      "Within the realm of DevOps, what does 'Immutable Infrastructure' signify?",
-    Answer:
-      "An approach where infrastructure components are never modified but replaced entirely when changes are needed",
-    Distractor1: "A strategy for manually configuring servers",
-    Distractor2: "A method for continuously updating infrastructure",
-    Distractor3: "A way to centralize infrastructure management",
-    Explanation:
-      "Immutable Infrastructure is a methodology that involves the complete replacement of servers and infrastructure components whenever modifications are required. This approach is in harmony with DevOps principles, underscoring the significance of automation in ensuring dependable and uniform operations",
-    Link: "https://www.freecodecamp.org/news/learn-instructure-as-a-code-by-building-custom-machine-image-in-aws/"
-  },
-  {
-    Question: "What is 'Microservices Architecture' in DevOps?",
-    Answer:
-      "An architectural style where applications are composed of small, independent services",
-    Distractor1:
-      "A way to centralize all software components into a single monolithic application",
-    Distractor2: "A method for managing server hardware",
-    Distractor3: "A strategy for code versioning",
-    Explanation:
-      "Microservices is an architectural style where applications are composed of small, independent services that can be deployed and scaled individually as they promote flexibility and scalability in software development and deployment.",
-    Link: "https://www.freecodecamp.org/news/microservices-and-software-system-design-course/"
-  },
-  {
-    Question: "What is the role of a 'Repository' in Continuous Integration?",
-    Answer: "To store and version control source code",
-    Distractor1: "To deploy applications to production servers",
-    Distractor2: "To monitor system performance",
-    Distractor3: "To automate infrastructure provisioning",
-    Explanation:
-      "A repository, often using version control systems like Git, is used to store and track changes to source code in CI/CD pipelines.",
-    Link: "https://www.freecodecamp.org/news/git-and-github-crash-course/"
-  },
-  {
-    Question: "What is the purpose of a Dockerfile in containerization?",
-    Answer: "To define the instructions for building a Docker container image",
-    Distractor1: "To create a virtual machine",
-    Distractor2: "To write unit tests for code",
-    Distractor3: "To configure network settings",
-    Explanation:
-      "A Dockerfile is used to specify the instructions for building a Docker container image, including dependencies and configurations.",
-    Link: "https://www.freecodecamp.org/news/the-docker-handbook/"
-  },
-  {
     Question: "What is DevOps?",
     Answer:
       "a combination of software development and IT operations with the goal of shortening the systems development life cycle ",
