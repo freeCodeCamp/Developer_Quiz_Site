@@ -345,9 +345,9 @@ const accessibilityQuiz = [
   {
     Question: "What is the function of the contentinfo ARIA role?",
     Answer: "displays content at that bottom of a website",
-    Distractor1: "displays content",
+    Distractor1: "defines the navigation content",
     Distractor2: "displays a list",
-    Distractor3: "creates content",
+    Distractor3: "defines article element content",
     Explanation: "The `<contentinfo>` role is used describe the information that is presented at the bottom of the website, such as copyright statements, links to help people navigate the website, etc. ",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/contentinfo_role",
   },
