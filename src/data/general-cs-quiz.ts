@@ -1460,10 +1460,10 @@ const generalCSQuiz = [
   },
   {
     Question: "Which of the following tree traversal algorithms has an O(1) space complexity?",
-    Answer: "Morris Traversal",
-    Distractor1: "Preorder Trversal",
-    Distractor2: "Postorder Traversal",
-    Distractor3: "Inorder Traversal",
+    Answer: "Morris algorithm",
+    Distractor1: "Bellman-Ford algorithm",
+    Distractor2: "Floyd Warshall algorithm",
+    Distractor3: "Dijkstra's algorithm",
     Explanation: "Morris traversal is a tree traversal algorithm that does not employ the use of recursion or a stack. In this traversal, links are created as successors and nodes are printed using these links.",
     Link: "https://en.wikipedia.org/wiki/Tree_traversal#Morris_in-order_traversal_using_threading"
   }
