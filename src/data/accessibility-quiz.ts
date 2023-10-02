@@ -376,7 +376,17 @@ const accessibilityQuiz = [
       "The anchor element is the HTML equivalent to the  ARIA link role. It is best to use the anchor element because it is best supported by assistive technologies.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/link_role"
   },
-
+  {
+    Question:
+      "Which of the following HTML tags does NOT use the rel attribute?",
+    Answer: "<link>",
+    Distractor1: "<input>",
+    Distractor2: "<area>",
+    Distractor3: "<form>",
+    Explanation:
+      "The rel attribute can be used in the following HTML elements: <link>, <a>, <area>, and <form>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
+  },
   {
     Question: "What is the function of the contentinfo ARIA role?",
     Answer: "defines the footer content at that bottom of a website",
