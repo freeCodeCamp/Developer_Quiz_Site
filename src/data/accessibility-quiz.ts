@@ -420,7 +420,7 @@ const accessibilityQuiz = [
   },
   {
     Question: "What is keyboard accessibility, and why is it important for web accessibility?",
-    Answer: "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse. It is crucial for web accessibility because it ensures that people with mobility impairments or those who cannot use a mouse can still use and interact with a website effectively.",
+    Answer: "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
     Distractor1: "Keyboard accessibility refers to using specialized keyboards for web browsing.",
     Distractor2: "Keyboard accessibility is a feature that improves website loading speed.",
     Distractor3: "Keyboard accessibility is only important for developers, not users.",
