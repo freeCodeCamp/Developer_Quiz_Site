@@ -1457,6 +1457,15 @@ const generalCSQuiz = [
     Distractor3: "number*of*donuts",
     Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  },
+  {
+    Question: "Which of the following type of trees is also known as a 'large key' tree?",
+    Answer: "B-Tree",
+    Distractor1: "Binary Search Tree",
+    Distractor2: "Adelson-Velsky and Landis Tree (AVL Tree/Height balanced tree)",
+    Distractor3: "Ternary Tree",
+    Explanation: "B-Trees are identified by their capacity to hold a significant quantity of keys within a single node, leading to their alternative name, large key trees.",
+    Link: "https://www.freecodecamp.org/news/b-tree-self-balancing-search-index-data-structures-explained/"
   }, 
   {
     Question: "Which data structure is used to implement an auto-complete feature?",
