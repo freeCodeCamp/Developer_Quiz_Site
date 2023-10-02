@@ -6,7 +6,7 @@ const linuxQuiz = [
     Distractor2: "grep -v",
     Distractor3: "grep -s",
     Explanation:
-      "grep -i command is used to perform a case-insensitive search, allowing you to find text patterns ignoring the case.",
+      "The grep -i command is used to perform a case-insensitive search, allowing you to find text patterns ignoring the case.",
     Link: "https://man7.org/linux/man-pages/man1/grep.1.html"
   },
   {
