@@ -376,17 +376,7 @@ const accessibilityQuiz = [
       "The anchor element is the HTML equivalent to the  ARIA link role. It is best to use the anchor element because it is best supported by assistive technologies.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/link_role"
   },
-  {
-    Question:
-      "Which of the following HTML tags does NOT use the autocomplete attribute?",
-    Answer: "<html>",
-    Distractor1: "<input>",
-    Distractor2: "<text>",
-    Distractor3: "<form>",
-    Explanation:
-      "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
-  },
+
   {
     Question: "What is the function of the contentinfo ARIA role?",
     Answer: "defines the footer content at that bottom of a website",
