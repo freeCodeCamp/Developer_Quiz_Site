@@ -1464,7 +1464,7 @@ const generalCSQuiz = [
     Distractor1: "Binary Search Tree",
     Distractor2: "Adelson-Velsky and Landis Tree (AVL Tree/Height balanced tree)",
     Distractor3: "Ternary Tree",
-    Explanation: "B-Trees are characterized by the large number of keys that they can store in a single node, which is why they are also known as large key trees",
+    Explanation: "B-Trees are identified by their capacity to hold a significant quantity of keys within a single node, leading to their alternative name, large key trees.",
     Link: "https://www.freecodecamp.org/news/b-tree-self-balancing-search-index-data-structures-explained/"
   }
 ];
