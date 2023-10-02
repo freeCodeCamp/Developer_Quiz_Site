@@ -419,6 +419,17 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
   },
   {
+    Question:
+      "In the context of web accessibility, what does 'cognitive accessibility' refer to?",
+    Answer: "Ensuring that web content is easy to understand and use for individuals with cognitive disabilities.",
+    Distractor1: "Making web content more engaging and interactive.",
+    Distractor2: "Enhancing the creativity and aesthetics of web design.",
+    Distractor3: "Providing audio descriptions for video content.",
+    Explanation:
+      "'Cognitive accessibility' refers to the practice of designing and structuring web content in a way that makes it easy to comprehend and navigate for individuals with cognitive disabilities like dyslexia, attention deficit disorders, or intellectual disabilities.",
+    Link: "https://www.w3.org/WAI/cognitive/"
+  },
+  {
     Question: "What is keyboard accessibility, and why is it important for web accessibility?",
     Answer: "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
     Distractor1: "Keyboard accessibility refers to using specialized keyboards for web browsing.",
