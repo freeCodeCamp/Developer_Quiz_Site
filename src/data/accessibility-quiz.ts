@@ -1,4 +1,13 @@
 const accessibilityQuiz = [
+  {
+    Question: "What does WCAG (sometimes pronounced wee-kag) stand for?",
+    Answer: "Web Content Accessibility Guidelines",
+    Distractor1: "World Content Accessibility Guidelines",
+    Distractor2: "Web Consortium Accessibility Guidelines",
+    Distractor3: "World Consortium Accessibility Guidelines",
+    Explanation: "Web Content Accessibility Guidelines (WCAG) covers a wide range of recommendations for making Web content more accessible.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
    {
     Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
