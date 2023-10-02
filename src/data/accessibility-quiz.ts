@@ -28,7 +28,7 @@ const accessibilityQuiz = [
       "The 'aria-expanded' attribute conveys open or closed states for accessibility, aiding users when the visual indicator is not available.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded"
   },
-   {
+  {
     Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
       "To provide a text label for an element when the visible label is not present",
@@ -450,7 +450,8 @@ const accessibilityQuiz = [
   {
     Question:
       "In the context of web accessibility, what does 'cognitive accessibility' refer to?",
-    Answer: "Ensuring that web content is easy to understand and use for individuals with cognitive disabilities.",
+    Answer:
+      "Ensuring that web content is easy to understand and use for individuals with cognitive disabilities.",
     Distractor1: "Making web content more engaging and interactive.",
     Distractor2: "Enhancing the creativity and aesthetics of web design.",
     Distractor3: "Providing audio descriptions for video content.",
@@ -459,16 +460,20 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/cognitive/"
   },
   {
-    Question: "What is keyboard accessibility, and why is it important for web accessibility?",
-    Answer: "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
-    Distractor1: "Keyboard accessibility refers to using specialized keyboards for web browsing.",
-    Distractor2: "Keyboard accessibility is a feature that improves website loading speed.",
-    Distractor3: "Keyboard accessibility is only important for developers, not users.",
+    Question:
+      "What is keyboard accessibility, and why is it important for web accessibility?",
+    Answer:
+      "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
+    Distractor1:
+      "Keyboard accessibility refers to using specialized keyboards for web browsing.",
+    Distractor2:
+      "Keyboard accessibility is a feature that improves website loading speed.",
+    Distractor3:
+      "Keyboard accessibility is only important for developers, not users.",
     Explanation:
       "Keyboard accessibility is a fundamental aspect of web accessibility, as it ensures that websites are usable by a wide range of users, including those with disabilities. Providing keyboard support means implementing focus management, allowing users to navigate through interactive elements, and ensuring that all functionality is accessible via keyboard input.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets"
   }
-  
 ];
 
 export default accessibilityQuiz;

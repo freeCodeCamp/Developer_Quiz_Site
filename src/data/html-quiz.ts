@@ -1659,6 +1659,6 @@ const htmlQuiz = [
     Explanation:
       "Hypertext in HTML refers to text (often with embeds such as images, too) that is organized in order to connect web pages to one another.",
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
-  },
+  }
 ];
 export default htmlQuiz;
