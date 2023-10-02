@@ -378,14 +378,14 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "Which of the following HTML tags does NOT use the autocomplete attribute?",
-    Answer: "<html>",
-    Distractor1: "<input>",
-    Distractor2: "<text>",
+      "Which of the following HTML tags does NOT use the rel attribute?",
+    Answer: "<input>",
+    Distractor1: "<link>",
+    Distractor2: "<area>",
     Distractor3: "<form>",
     Explanation:
-      "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+      "The rel attribute can be used in the following HTML elements: <link>, <a>, <area>, and <form>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
   },
   {
     Question: "What is the function of the contentinfo ARIA role?",
