@@ -1459,7 +1459,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
   },
   {
-    Question: "Which of the following tree traversal algorithm has O(1) space complexity?",
+    Question: "Which of the following tree traversal algorithms has an O(1) space complexity?",
     Answer: "Morris Traversal",
     Distractor1: "Preorder Trversal",
     Distractor2: "Postorder Traversal",
