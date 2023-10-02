@@ -4,6 +4,14 @@ import ReactDOM from "react-dom";
 import { render, cleanup } from "@testing-library/react";
 
 afterEach(cleanup);
+
+// Mock the react-confetti module to prevent rendering actual confetti
+jest.mock("react-confetti", () => {
+  return function MockConfetti() {
+    return <div data-testid="confetti-mock" />;
+  };
+});
+
 describe("Results", () => {
   it("Renders without crashing", () => {
     const div = document.createElement("div");
@@ -27,5 +35,15 @@ describe("Results", () => {
     expect(
       getByText("Wow! Perfect Score! 10 out of 10 points").textContent
     ).toBeDefined();
+  });
+  it("renders with perfect score and showConfetti is true", () => {
+    const props = {
+      points: 10,
+      totalQuestions: 10,
+      resetQuiz: jest.fn()
+    };
+    const { getByTestId } = render(<Results {...props} />);
+    const confettiElement = getByTestId("confetti-mock");
+    expect(confettiElement).toBeInTheDocument();
   });
 });
