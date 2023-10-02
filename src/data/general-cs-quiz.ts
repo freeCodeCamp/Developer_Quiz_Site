@@ -1457,6 +1457,15 @@ const generalCSQuiz = [
     Distractor3: "number*of*donuts",
     Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  },
+  {
+    Question: "Which of the following search algorithms is best for finding the minimum or maximum of an unimodal function?",
+    Answer: "Ternary Search",
+    Distractor1: "Binary Search",
+    Distractor2: "Linear Search",
+    Distractor3: "Sentinel Linear Search",
+    Explanation: "Ternary Search is similar to binary search but distinguishes itself through a trisection approach giving us three possibilities for the two points m1 and m2 f(m1) < f(m2), f(m1) > f(m2), f(m1) = f(m2)",
+    Link: "https://en.wikipedia.org/wiki/Ternary_search"
   }
 ];
 
