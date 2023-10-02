@@ -1,4 +1,15 @@
 const accessibilityQuiz = [
+     {
+    Question: "What is the purpose of the 'aria-expanded' attribute in ARIA?",
+    Answer:
+      "To indicate whether an element is open or closed when the visual indicator is not available",
+    Distractor1: "To specify the font size of text on a webpage",
+    Distractor2: "To apply a transition effect to an element's size",
+    Distractor3: "To adjust the spacing between elements on a webpage",
+    Explanation:
+      "The 'aria-expanded' attribute conveys open or closed states for accessibility, aiding users when the visual indicator is not available.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded"
+  },
    {
     Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
