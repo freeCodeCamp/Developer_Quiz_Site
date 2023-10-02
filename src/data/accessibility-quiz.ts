@@ -379,8 +379,8 @@ const accessibilityQuiz = [
   {
     Question:
       "Which of the following HTML tags does NOT use the rel attribute?",
-    Answer: "<link>",
-    Distractor1: "<input>",
+    Answer: "<input>",
+    Distractor1: "<link>",
     Distractor2: "<area>",
     Distractor3: "<form>",
     Explanation:
