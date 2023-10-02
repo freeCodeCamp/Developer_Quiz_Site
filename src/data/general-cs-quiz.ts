@@ -1459,7 +1459,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
   },
   {
-    Question: "Which of the following type of tree is also known as 'large key' tree?",
+    Question: "Which of the following type of trees is also known as a 'large key' tree?",
     Answer: "B-Tree",
     Distractor1: "Binary Search Tree",
     Distractor2: "Adelson-Velsky and Landis Tree (AVL Tree/Height balanced tree)",
