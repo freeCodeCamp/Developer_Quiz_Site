@@ -249,6 +249,17 @@ const accessibilityQuiz = [
   },
   {
     Question:
+      "What should you avoid doing with the tabindex attribute when it comes to keyboard accessibility?",
+    Answer: "setting the tabindex attribute greater than zero",
+    Distractor1: "Use Javascript",
+    Distractor2: "setting the tabindex to use only numbers",
+    Distractor3: "Put the headings in an unordered fashion",
+    Explanation:
+      "Putting the tabindex attribute greater than zero causes the focus order of a website's page to be disorganized, causing people who only user their keyboards to navigate the web to be confused",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard"
+  },
+  {
+    Question:
       "How can you make focus elements more accessible to screen readers on native mobile apps?",
     Answer: "Add an accessibility label for each element.",
     Distractor1: "Avoid using images, gifs, and videos altogether.",
@@ -332,6 +343,26 @@ const accessibilityQuiz = [
     Explanation:
       "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+  },
+  {
+    Question: "What is the function of the contentinfo ARIA role?",
+    Answer: "defines the footer content at that bottom of a website",
+    Distractor1: "defines the navigation content",
+    Distractor2: "displays a list",
+    Distractor3: "defines article element content",
+    Explanation:
+      "The contentinfo role is used describe the information that is presented at the bottom of the website, such as copyright statements, links to help people navigate the website, etc. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/contentinfo_role"
+  },
+  {
+    Question: "What is the ARIA comment role used for?",
+    Answer: "To describe a reaction or emotion in some content",
+    Distractor1: "To provide notes about certain lines of code",
+    Distractor2: "To share an opinion",
+    Distractor3: "To critique a piece of text",
+    Explanation:
+      "If a website has a testimonial section, the comment role helps describe this information to people who use screen readers.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/comment_role"
   },
   {
     Question:
