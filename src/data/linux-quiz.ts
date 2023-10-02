@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, which command option is used to perform a case-insensitive search when searching for text patterns?",
+    Answer: "grep -i",
+    Distractor1: "grep -c",
+    Distractor2: "grep -v",
+    Distractor3: "grep -s",
+    Explanation:
+      "The grep -i command is used to perform a case-insensitive search, allowing you to find text patterns ignoring the case.",
+    Link: "https://man7.org/linux/man-pages/man1/grep.1.html"
+  },
+  {
     Question: "In Linux, which command is used to set limits on a file size?",
     Answer: "ulimit",
     Distractor1: "fsize",
