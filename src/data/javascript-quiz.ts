@@ -1959,9 +1959,9 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/Mutable"
   },
   {
-    Question:
-      "In JavaScript, what is a use case for using an IIFE?",
-    Answer: "To create a private variable and avoid polluting the global environment",
+    Question: "In JavaScript, what is a use case for using an IIFE?",
+    Answer:
+      "To create a private variable and avoid polluting the global environment",
     Distractor1: "To Create a Global Variable",
     Distractor2: "To Run a Function",
     Distractor3: "To Create a Constant",
