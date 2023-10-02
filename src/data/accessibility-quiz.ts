@@ -1,5 +1,5 @@
 const accessibilityQuiz = [
-  {
+   {
     Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
       "To provide a text label for an element when the visible label is not present",
@@ -41,6 +41,39 @@ const accessibilityQuiz = [
     Explanation:
       "The 'tabindex' attribute specifies the order in which elements should be focused when navigating with the keyboard.",
     Link: "https://www.freecodecamp.org/news/html-roving-tabindex-attribute-explained-with-examples/"
+  },
+  {
+    Question: "What does WCAG stand for in the context of web accessibility?",
+    Answer: "Web Content Accessibility Guidelines",
+    Distractor1: "Website Coding and Graphics",
+    Distractor2: "Web Content Approval Group",
+    Distractor3: "Webpage Creation and Graphics",
+    Explanation:
+      "WCAG stands for Web Content Accessibility Guidelines, which provide a set of recommendations for making web content more accessible.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of color contrast in web accessibility?",
+    Answer:
+      "Ensuring text and content remain readable for individuals with visual impairments.",
+    Distractor1: "Creating visually appealing websites",
+    Distractor2: "Enhancing website loading speed",
+    Distractor3: "Improving SEO ranking",
+    Explanation:
+      "Color contrast is essential to make text and content distinguishable for users with various levels of vision, ensuring readability and accessibility.",
+    Link: "https://www.w3.org/TR/WCAG21/"
+  },
+  {
+    Question:
+      "What is the purpose of alternative text (alt text) in web accessibility?",
+    Answer:
+      "Providing descriptions of images for screen reader users and users with visual impairments.",
+    Distractor1: "Improving website design",
+    Distractor2: "Enhancing website performance",
+    Distractor3: "Hiding images from users",
+    Explanation:
+      "Alternative text (alt text) is used to describe images on web pages, making them accessible to individuals who use screen readers or have visual impairments.",
+    Link: "https://www.w3.org/WAI/tutorials/images/decision-tree/"
   },
   {
     Question:
@@ -259,6 +292,17 @@ const accessibilityQuiz = [
   },
   {
     Question:
+      "What should you avoid doing with the tabindex attribute when it comes to keyboard accessibility?",
+    Answer: "setting the tabindex attribute greater than zero",
+    Distractor1: "Use Javascript",
+    Distractor2: "setting the tabindex to use only numbers",
+    Distractor3: "Put the headings in an unordered fashion",
+    Explanation:
+      "Putting the tabindex attribute greater than zero causes the focus order of a website's page to be disorganized, causing people who only user their keyboards to navigate the web to be confused",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Understanding_WCAG/Keyboard"
+  },
+  {
+    Question:
       "How can you make focus elements more accessible to screen readers on native mobile apps?",
     Answer: "Add an accessibility label for each element.",
     Distractor1: "Avoid using images, gifs, and videos altogether.",
@@ -342,6 +386,37 @@ const accessibilityQuiz = [
     Explanation:
       "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+  },
+  {
+    Question: "What is the function of the contentinfo ARIA role?",
+    Answer: "defines the footer content at that bottom of a website",
+    Distractor1: "defines the navigation content",
+    Distractor2: "displays a list",
+    Distractor3: "defines article element content",
+    Explanation:
+      "The contentinfo role is used describe the information that is presented at the bottom of the website, such as copyright statements, links to help people navigate the website, etc. ",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/contentinfo_role"
+  },
+  {
+    Question: "What is the ARIA comment role used for?",
+    Answer: "To describe a reaction or emotion in some content",
+    Distractor1: "To provide notes about certain lines of code",
+    Distractor2: "To share an opinion",
+    Distractor3: "To critique a piece of text",
+    Explanation:
+      "If a website has a testimonial section, the comment role helps describe this information to people who use screen readers.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/comment_role"
+  },
+  {
+    Question:
+      "What is the minimum contrast ratio needed, according to the WCAG?",
+    Answer: "4.5:1",
+    Distractor1: "1:1",
+    Distractor2: "3:1",
+    Distractor3: "2.5:1",
+    Explanation:
+      "The minimum contrast ratio needed depends on the type and size of the text and the level of conformance. For normal text, the minimum contrast ratio is 4.5:1.",
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
   }
 ];
 

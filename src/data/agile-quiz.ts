@@ -1,6 +1,28 @@
 const agileQuiz = [
   {
     Question:
+      "What is the core concept behind the Agile development methodology?",
+    Answer: "Iterative and incremental development",
+    Distractor1: "Comprehensive documentation",
+    Distractor2: "Long-term planning",
+    Distractor3: "Hierarchical decision-making",
+    Explanation:
+      "Agile focuses on iterative and incremental development, allowing for flexibility and adaptability.",
+    Link: "https://www.freecodecamp.org/news/agile-methods-and-methodology-for-beginners/"
+  },
+  {
+    Question:
+      "What is the primary purpose of the Daily Stand-up meeting in Scrum?",
+    Answer: "To provide a quick status update and identify any impediments",
+    Distractor1: "To discuss long-term project goals",
+    Distractor2: "To assign tasks for the day",
+    Distractor3: "To review the entire project timeline",
+    Explanation:
+      "The Daily Stand-up meeting in Scrum aims to keep the team informed, identify issues, and ensure alignment on daily tasks.",
+    Link: "https://www.freecodecamp.org/news/scrum-the-hard-parts/"
+  },
+  {
+    Question:
       'According to Lean Software Development, what is the goal when considering "change requests" in software development?',
     Answer:
       'The goal is to minimize the time that each "change request" is on the assembly line before being delivered',
