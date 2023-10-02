@@ -426,7 +426,7 @@ const agileQuiz = [
     Distractor2: "Kanban board",
     Distractor3: "Customer satisfaction",
     Explanation:
-      "Working software is the primary measure of progress in agile, according to the seventh principle of the Agile Manifesto1. This means that agile teams focus on delivering software that meets the customer’s needs and provides value. By delivering working software frequently, agile teams can demonstrate their progress and achievements",
+      "Working software is the primary measure of progress in Agile, according to the seventh principle of the Agile Manifesto. This means that agile teams focus on delivering software that meets the customer’s needs and provides value. By delivering working software frequently, Agile teams can demonstrate their progress and achievements",
     Link: "https://www.freecodecamp.org/news/you-say-your-team-is-agile-but-that-word-may-not-mean-what-you-think-6dd26eaf9b21/"
   }
 ];
