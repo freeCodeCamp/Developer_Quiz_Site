@@ -1459,7 +1459,7 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
   }, 
   {
-    Question: "Which data structure is used to implement auto-complete feature?",
+    Question: "Which data structure is used to implement an auto-complete feature?",
     Answer: "Trie",
     Distractor1: "Linked List",
     Distractor2: "Stack",
