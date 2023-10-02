@@ -1,5 +1,15 @@
 const generalCSQuiz = [
   {
+    Question: "What does NFC stand for?",
+    Answer: "Near-Field Communication",
+    Distractor1: "Narrow Field Communication",
+    Distractor2: "Near-Fragile Communication",
+    Distractor3: "None of the above",
+    Explanation:
+      "NFC stands for near-field communication.",
+    Link: "https://www.freecodecamp.org/news/what-is-nfc-near-field-communication-uses-chips-tags-and-readers-explained/"
+  },
+  {
     Question: "What is the best algorithm for matrix multiplication?",
     Answer: "Strassen's Algorithm",
     Distractor1: "Multiplication algorithm",
