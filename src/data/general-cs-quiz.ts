@@ -1457,6 +1457,15 @@ const generalCSQuiz = [
     Distractor3: "number*of*donuts",
     Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  },
+  {
+    Question: "Which of the following tree traversal algorithm has O(1) space complexity?",
+    Answer: "Morris Traversal",
+    Distractor1: "Preorder Trversal",
+    Distractor2: "Postorder Traversal",
+    Distractor3: "Inorder Traversal",
+    Explanation: "Morris traversal is a tree traversal algorithm that does not employ the use of recursion or a stack. In this traversal, links are created as successors and nodes are printed using these links.",
+    Link: "https://en.wikipedia.org/wiki/Tree_traversal#Morris_in-order_traversal_using_threading"
   }
 ];
 
