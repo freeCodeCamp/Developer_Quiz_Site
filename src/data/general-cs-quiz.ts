@@ -1466,6 +1466,24 @@ const generalCSQuiz = [
     Distractor3: "Tree",
     Explanation: "A Trie is a tree based data structure where each node stores a character performing efficient search operations on them",
     Link: "https://en.wikipedia.org/wiki/Trie"
+  },
+  {
+    Question: "Which of the following tree traversal algorithms has an O(1) space complexity?",
+    Answer: "Morris algorithm",
+    Distractor1: "Bellman-Ford algorithm",
+    Distractor2: "Floyd Warshall algorithm",
+    Distractor3: "Dijkstra's algorithm",
+    Explanation: "Morris traversal is a tree traversal algorithm that does not employ the use of recursion or a stack. In this traversal, links are created as successors and nodes are printed using these links.",
+    Link: "https://en.wikipedia.org/wiki/Tree_traversal#Morris_in-order_traversal_using_threading"
+  },
+  {
+    Question: "Which of the following search algorithms is best for finding the minimum or maximum of an unimodal function?",
+    Answer: "Ternary Search",
+    Distractor1: "Binary Search",
+    Distractor2: "Linear Search",
+    Distractor3: "Sentinel Linear Search",
+    Explanation: "Ternary Search is similar to binary search but distinguishes itself through a trisection approach giving us three possibilities for the two points m1 and m2 f(m1) < f(m2), f(m1) > f(m2), f(m1) = f(m2)",
+    Link: "https://en.wikipedia.org/wiki/Ternary_search"
   }
 ];
 
