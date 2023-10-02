@@ -1457,6 +1457,15 @@ const generalCSQuiz = [
     Distractor3: "number*of*donuts",
     Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  }, 
+  {
+    Question: "Which data structure is used to implement an auto-complete feature?",
+    Answer: "Trie",
+    Distractor1: "Linked List",
+    Distractor2: "Stack",
+    Distractor3: "Tree",
+    Explanation: "A Trie is a tree based data structure where each node stores a character performing efficient search operations on them",
+    Link: "https://en.wikipedia.org/wiki/Trie"
   },
   {
     Question: "Which of the following tree traversal algorithms has an O(1) space complexity?",
