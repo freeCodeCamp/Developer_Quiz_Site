@@ -378,14 +378,14 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "Which of the following HTML tags does NOT use the autocomplete attribute?",
-    Answer: "<html>",
-    Distractor1: "<input>",
-    Distractor2: "<text>",
+      "Which of the following HTML tags does NOT use the rel attribute?",
+    Answer: "<input>",
+    Distractor1: "<link>",
+    Distractor2: "<area>",
     Distractor3: "<form>",
     Explanation:
-      "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+      "The rel attribute can be used in the following HTML elements: <link>, <a>, <area>, and <form>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
   },
   {
     Question: "What is the function of the contentinfo ARIA role?",
@@ -417,6 +417,17 @@ const accessibilityQuiz = [
     Explanation:
       "The minimum contrast ratio needed depends on the type and size of the text and the level of conformance. For normal text, the minimum contrast ratio is 4.5:1.",
     Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+  },
+  {
+    Question:
+      "In the context of web accessibility, what does 'cognitive accessibility' refer to?",
+    Answer: "Ensuring that web content is easy to understand and use for individuals with cognitive disabilities.",
+    Distractor1: "Making web content more engaging and interactive.",
+    Distractor2: "Enhancing the creativity and aesthetics of web design.",
+    Distractor3: "Providing audio descriptions for video content.",
+    Explanation:
+      "'Cognitive accessibility' refers to the practice of designing and structuring web content in a way that makes it easy to comprehend and navigate for individuals with cognitive disabilities like dyslexia, attention deficit disorders, or intellectual disabilities.",
+    Link: "https://www.w3.org/WAI/cognitive/"
   },
   {
     Question: "What is keyboard accessibility, and why is it important for web accessibility?",
