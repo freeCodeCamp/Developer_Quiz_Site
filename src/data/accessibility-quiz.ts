@@ -1,6 +1,6 @@
 const accessibilityQuiz = [
   {
-    Question: "What is the purpose of 'aria-label' attribute in ARIA?",
+    Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
       "To provide a text label for an element when the visible label is not present",
     Distractor1: "To change the background color of an element",
