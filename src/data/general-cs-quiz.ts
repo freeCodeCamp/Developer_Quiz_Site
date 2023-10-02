@@ -1464,7 +1464,7 @@ const generalCSQuiz = [
     Distractor1: "Linked List",
     Distractor2: "Stack",
     Distractor3: "Tree",
-    Explanation: "Trie is a tree based data structure where each node stores a character performing efficient search operations on them",
+    Explanation: "A Trie is a tree based data structure where each node stores a character performing efficient search operations on them",
     Link: "https://forum.freecodecamp.org/t/an-article-i-wrote-featuring-predictive-text-and-trie-data-structure/26203"
   }
 ];
