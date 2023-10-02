@@ -417,7 +417,18 @@ const accessibilityQuiz = [
     Explanation:
       "The minimum contrast ratio needed depends on the type and size of the text and the level of conformance. For normal text, the minimum contrast ratio is 4.5:1.",
     Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+  },
+  {
+    Question: "What is keyboard accessibility, and why is it important for web accessibility?",
+    Answer: "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse. It is crucial for web accessibility because it ensures that people with mobility impairments or those who cannot use a mouse can still use and interact with a website effectively.",
+    Distractor1: "Keyboard accessibility refers to using specialized keyboards for web browsing.",
+    Distractor2: "Keyboard accessibility is a feature that improves website loading speed.",
+    Distractor3: "Keyboard accessibility is only important for developers, not users.",
+    Explanation:
+      "Keyboard accessibility is a fundamental aspect of web accessibility, as it ensures that websites are usable by a wide range of users, including those with disabilities. Providing keyboard support means implementing focus management, allowing users to navigate through interactive elements, and ensuring that all functionality is accessible via keyboard input.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets"
   }
+  
 ];
 
 export default accessibilityQuiz;
