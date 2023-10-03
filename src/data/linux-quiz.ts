@@ -1,5 +1,15 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, Which command is used to export variables to child processes?",
+    Answer: "export",
+    Distractor1: "env",
+    Distractor2: "move",
+    Distractor3: "df",
+    Explanation:
+      "The export command is used to export variables to child processes.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-export-command"
+  },
+  {
     Question: "In Linux, which command option is used to perform a case-insensitive search when searching for text patterns?",
     Answer: "grep -i",
     Distractor1: "grep -c",
