@@ -1,5 +1,14 @@
 const accessibilityQuiz = [
   {
+    Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
+    Answer:  "Utilize the 'px' unit to define font sizes.",
+    Distractor1: "Ensure there is always a fallback generic font",
+    Distractor2: "Opt for numbers instead of names when specifying colors.",
+    Distractor3: "Ensure consistent 'class' names for the same concept across all style sheets",
+    Explanation: "For setting font sizes, use the 'em' unit and favor relative length units and percentages.",
+    Link: "https://www.w3.org/WAI/GL/WD-WCAG10-TECHS-20000615/css-techniques.html#:~:text=Users%20should%20where%20necessary.,units%20even%20in%20absolute%20positioning."
+  },
+    {
     Question: "What is the purpose of the 'aria-expanded' attribute in ARIA?",
     Answer:
       "To indicate whether an element is open or closed when the visual indicator is not available",
