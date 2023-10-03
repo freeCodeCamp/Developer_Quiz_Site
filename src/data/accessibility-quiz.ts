@@ -1,11 +1,11 @@
 const accessibilityQuiz = [
   {
-    Question: "According to W3C,which is not the valid guideline for creating style sheets that promote accessibility?",
-    Answer: "Use the 'px' unit to set font sizes",
-    Distractor1: "Always specify a fallback generic font",
-    Distractor2: "Use numbers, not names, for colors",
-    Distractor3: " Use the same 'class' name for the same concept in all of the style sheets",
-    Explanation: "Use the 'em' unit to set font sizes.Use relative length units and percentages",
+    Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
+    Answer:  "Utilize the 'px' unit to define font sizes.",
+    Distractor1: "Ensure there is always a fallback generic font",
+    Distractor2: "Opt for numbers instead of names when specifying colors.",
+    Distractor3: "Ensure consistent 'class' names for the same concept across all style sheets",
+    Explanation: "For setting font sizes, use the 'em' unit and favor relative length units and percentages.",
     Link: "https://www.w3.org/WAI/GL/WD-WCAG10-TECHS-20000615/css-techniques.html#:~:text=Users%20should%20where%20necessary.,units%20even%20in%20absolute%20positioning."
   },
     {
