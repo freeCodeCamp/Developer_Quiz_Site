@@ -1,5 +1,14 @@
 const cloudComputingQuiz = [
   {
+    Question: "Which of the following is NOT considered an advantage of cloud computing?",
+    Answer: "Depends on network connectivity",
+    Distractor1: "Depends on network connectivity",
+    Distractor2: "Globalization",
+    Distractor3: "Agility",
+    Explanation: " Cloud services rely on an internet connection, and if the network experiences downtime or slowdowns, it can affect access to cloud resources and services.",
+    Link: "https://www.freecodecamp.org/news/advantages-of-cloud-computing/"
+  },
+  {
     Question: "What cloud computing term refers to the ability to quickly scale resources up or down based on demand?",
     Answer: "Elasticity",
     Distractor1: "Resilience",
