@@ -1,5 +1,23 @@
 const generalCSQuiz = [
   {
+    Question: "What is the acceptable range of Balance Factor for an AVL tree?",
+    Answer: "[-1,1]",
+    Distractor1: "[0,1]",
+    Distractor2: "[-1,0]",
+    Distractor3: "None of the above",
+    Explanation: " The self balancing property of an AVL tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1",
+    Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
+  },
+  {
+    Question: "What method copies the actual value of an argument into the formal parameter of the function?",
+    Answer: "Call by Value",
+    Distractor1: "Call by pointer",
+    Distractor2: "Call by reference",
+    Distractor3: "Call by address",
+    Explanation: "In the pass-by-value method, a duplicate of the argument's value is created, and any change made to the formal parameter within the function do not change the original argument outside of the function because the function operates on its separate local copy of the data.",
+    Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
+  },
+  {
     Question: "What does NFC stands for?",
     Answer: "Near-Field Communication",
     Distractor1: "Narrow Field Communication",
