@@ -1,5 +1,14 @@
 const sqlQuiz = [
   {
+    Question: "In SQL, what does CRUD stand for?",
+    Answer: "CREATE, READ, UPDATE, DELETE",
+    Distractor1: "CREATE, ROW, UNION, DROP ",
+    Distractor2: "COPY, ROW, UPDATE, DISPLAY",
+    Distractor3: "COLUMNS, ROWS, UNION, DELETE",
+    Explanation: "CRUD is an acronym that stands for CREATE, READ, UPDATE, and DELETE. These four operations are the bread and butter of nearly every database you will create.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
+  },
+  {
     Question:
       "Which of the following best describes the role of the NEW keyword when working with triggers in SQL?",
     Answer:
