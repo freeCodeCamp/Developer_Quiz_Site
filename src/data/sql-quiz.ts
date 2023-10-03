@@ -775,6 +775,28 @@ const sqlQuiz = [
     Explanation:
       "The SQL LIKE operator with '%or%' matches any values containing 'or' at any position within the string.",
     Link: "https://youtu.be/-fW2X7fh7Yg?t=5881/"
+  },
+  {
+    Question:
+      "How can you retrieve all columns from a table named 'employees' in SQL?",
+    Answer: "SELECT * FROM employees;",
+    Distractor1: "SELECT ALL columns FROM employees;",
+    Distractor2: "SELECT COLUMN employees FROM *;",
+    Distractor3: "GET * FROM employees;",
+    Explanation:
+      "The SELECT * statement retrieves all columns from the 'employees' table.",
+    Link: "https://www.w3schools.com/sql/sql_select.asp"
+  },
+  {
+    Question:
+      "What SQL function is used to count the number of rows in a table?",
+    Answer: "SELECT COUNT(*) FROM table_name;",
+    Distractor1: "SUM(*) FROM table_name;",
+    Distractor2: "COUNT(table_name);",
+    Distractor3: "TOTAL_ROWS(table_name);",
+    Explanation:
+      "The COUNT(*) function in SQL is used to count the number of rows in a table.",
+    Link: "https://www.w3schools.com/sql/sql_count.asp"
   }
 ];
 
