@@ -170,6 +170,15 @@ const devopsQuiz = [
     Explanation:
       "JUnit, Jenkins, and Selenium are some commonly used testing tools used in DevOps.",
     Link: "https://youtu.be/j5Zsa_eOXeY"
-  }
+  },
+  {
+    Question: "What is the primary goal of 'Infrastructure as Code' (IaC) in DevOps?",
+    Answer: "To automate and manage infrastructure provisioning through code",
+    Distractor1: "To manually configure servers for specific applications",
+    Distractor2: "To optimize database performance",
+    Distractor3: "To streamline the software development process",
+    Explanation: "Infrastructure as Code (IaC) is a practice in DevOps that aims to automate and manage infrastructure provisioning through code, allowing for consistent and repeatable infrastructure deployments.",
+    Link: "https://www.freecodecamp.org/news/what-is-infrastructure-as-code/"
+  }  
 ];
 export default devopsQuiz;
