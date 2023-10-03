@@ -1,6 +1,18 @@
 const sqlQuiz = [
   {
     Question:
+      "Which of the following best describes the role of the NEW keyword when working with triggers in SQL?",
+    Answer:
+      "It provides access to the new data being inserted or updated, allowing modification before the event if the trigger time is set to BEFORE.",
+    Distractor1: "It refers to the data after an UPDATE or DELETE operation.",
+    Distractor2: "It encrypts data before insertion.",
+    Distractor3: "It deletes old data when new data is inserted.",
+    Explanation:
+      "The NEW keyword provides access to the new data being created in INSERT and UPDATE events. When using BEFORE as the trigger time, the data can be modified before it is stored in the database.",
+    Link: "https://www.freecodecamp.org/news/sql-triggers/"
+  },
+  {
+    Question:
       "How can you retrieve unique values from a specific column in SQL to avoid duplicates?",
     Answer: "SELECT DISTINCT column_name FROM table_name;",
     Distractor1: "DELETE DUPLICATE column_name FROM table_name;",
