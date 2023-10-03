@@ -2,7 +2,7 @@ const cloudComputingQuiz = [
   {
     Question: "Which of the following is NOT considered an advantage of cloud computing?",
     Answer: "Depends on network connectivity",
-    Distractor1: "Depends on network connectivity",
+    Distractor1: "Scalability",
     Distractor2: "Globalization",
     Distractor3: "Agility",
     Explanation: " Cloud services rely on an internet connection, and if the network experiences downtime or slowdowns, it can affect access to cloud resources and services.",
