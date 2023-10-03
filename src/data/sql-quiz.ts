@@ -1,6 +1,6 @@
 const sqlQuiz = [
   {
-    Question: "In SQL, what does CRUD Operations stand for?",
+    Question: "In SQL, what does CRUD stand for?",
     Answer: "CREATE, READ, UPDATE, DELETE",
     Distractor1: "CREATE, ROW, UNION, DROP ",
     Distractor2: "COPY, ROW, UPDATE, DISPLAY",
