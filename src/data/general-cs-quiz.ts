@@ -1,5 +1,15 @@
 const generalCSQuiz = [
   {
+    Question: "What does NFC stands for?",
+    Answer: "Near-Field Communication",
+    Distractor1: "Narrow Field Communication",
+    Distractor2: "Near-Fragile Communication",
+    Distractor3: "Nearly Factory Communication",
+    Explanation:
+      "NFC stands for near-field communication and it is the standard for devices to communicate with each other wirelessly from a very close distance.",
+    Link: "https://www.freecodecamp.org/news/what-is-nfc-near-field-communication-uses-chips-tags-and-readers-explained/"
+  },
+  {
     Question: "What is the best algorithm for matrix multiplication?",
     Answer: "Strassen's Algorithm",
     Distractor1: "Multiplication algorithm",
@@ -1457,6 +1467,51 @@ const generalCSQuiz = [
     Distractor3: "number*of*donuts",
     Explanation: "Kebab case separates each lowercase word by dashes.",
     Link: "https://www.freecodecamp.org/news/snake-case-vs-camel-case-vs-pascal-case-vs-kebab-case-whats-the-difference/"
+  },
+  {
+    Question:
+      "Which of the following type of trees is also known as a 'large key' tree?",
+    Answer: "B-Tree",
+    Distractor1: "Binary Search Tree",
+    Distractor2:
+      "Adelson-Velsky and Landis Tree (AVL Tree/Height balanced tree)",
+    Distractor3: "Ternary Tree",
+    Explanation:
+      "B-Trees are identified by their capacity to hold a significant quantity of keys within a single node, leading to their alternative name, large key trees.",
+    Link: "https://www.freecodecamp.org/news/b-tree-self-balancing-search-index-data-structures-explained/"
+  },
+  {
+    Question:
+      "Which data structure is used to implement an auto-complete feature?",
+    Answer: "Trie",
+    Distractor1: "Linked List",
+    Distractor2: "Stack",
+    Distractor3: "Tree",
+    Explanation:
+      "A Trie is a tree based data structure where each node stores a character performing efficient search operations on them",
+    Link: "https://en.wikipedia.org/wiki/Trie"
+  },
+  {
+    Question:
+      "Which of the following tree traversal algorithms has an O(1) space complexity?",
+    Answer: "Morris algorithm",
+    Distractor1: "Bellman-Ford algorithm",
+    Distractor2: "Floyd Warshall algorithm",
+    Distractor3: "Dijkstra's algorithm",
+    Explanation:
+      "Morris traversal is a tree traversal algorithm that does not employ the use of recursion or a stack. In this traversal, links are created as successors and nodes are printed using these links.",
+    Link: "https://en.wikipedia.org/wiki/Tree_traversal#Morris_in-order_traversal_using_threading"
+  },
+  {
+    Question:
+      "Which of the following search algorithms is best for finding the minimum or maximum of an unimodal function?",
+    Answer: "Ternary Search",
+    Distractor1: "Binary Search",
+    Distractor2: "Linear Search",
+    Distractor3: "Sentinel Linear Search",
+    Explanation:
+      "Ternary Search is similar to binary search but distinguishes itself through a trisection approach giving us three possibilities for the two points m1 and m2 f(m1) < f(m2), f(m1) > f(m2), f(m1) = f(m2)",
+    Link: "https://en.wikipedia.org/wiki/Ternary_search"
   }
 ];
 

@@ -1,5 +1,26 @@
 const sqlQuiz = [
   {
+    Question: "In SQL, what does CRUD stand for?",
+    Answer: "CREATE, READ, UPDATE, DELETE",
+    Distractor1: "CREATE, ROW, UNION, DROP ",
+    Distractor2: "COPY, ROW, UPDATE, DISPLAY",
+    Distractor3: "COLUMNS, ROWS, UNION, DELETE",
+    Explanation: "CRUD is an acronym that stands for CREATE, READ, UPDATE, and DELETE. These four operations are the bread and butter of nearly every database you will create.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
+  },
+  {
+    Question:
+      "Which of the following best describes the role of the NEW keyword when working with triggers in SQL?",
+    Answer:
+      "It provides access to the new data being inserted or updated, allowing modification before the event if the trigger time is set to BEFORE.",
+    Distractor1: "It refers to the data after an UPDATE or DELETE operation.",
+    Distractor2: "It encrypts data before insertion.",
+    Distractor3: "It deletes old data when new data is inserted.",
+    Explanation:
+      "The NEW keyword provides access to the new data being created in INSERT and UPDATE events. When using BEFORE as the trigger time, the data can be modified before it is stored in the database.",
+    Link: "https://www.freecodecamp.org/news/sql-triggers/"
+  },
+  {
     Question:
       "How can you retrieve unique values from a specific column in SQL to avoid duplicates?",
     Answer: "SELECT DISTINCT column_name FROM table_name;",
@@ -753,8 +774,9 @@ const sqlQuiz = [
       "CHAR holds a fixed length string (up to 255 characters), while VARCHAR and TEXT hold variable length strings.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
   },
-    {
-    Question: "In SQL, which of the following wildcards combined with the LIKE operator finds any value that has 'or' at any position?",
+  {
+    Question:
+      "In SQL, which of the following wildcards combined with the LIKE operator finds any value that has 'or' at any position?",
     Answer: "%or%",
     Distractor1: "__r%",
     Distractor2: "a__%",

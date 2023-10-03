@@ -1624,8 +1624,7 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/math.html"
   },
   {
-    Question:
-      "In Python, which of the following is NOT a list method?",
+    Question: "In Python, which of the following is NOT a list method?",
     Answer: "add()",
     Distractor1: "append()",
     Distractor2: "pop()",

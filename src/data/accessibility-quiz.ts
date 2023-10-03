@@ -1,5 +1,25 @@
 const accessibilityQuiz = [
-   {
+  {
+    Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
+    Answer:  "Utilize the 'px' unit to define font sizes.",
+    Distractor1: "Ensure there is always a fallback generic font",
+    Distractor2: "Opt for numbers instead of names when specifying colors.",
+    Distractor3: "Ensure consistent 'class' names for the same concept across all style sheets",
+    Explanation: "For setting font sizes, use the 'em' unit and favor relative length units and percentages.",
+    Link: "https://www.w3.org/WAI/GL/WD-WCAG10-TECHS-20000615/css-techniques.html#:~:text=Users%20should%20where%20necessary.,units%20even%20in%20absolute%20positioning."
+  },
+    {
+    Question: "What is the purpose of the 'aria-expanded' attribute in ARIA?",
+    Answer:
+      "To indicate whether an element is open or closed when the visual indicator is not available",
+    Distractor1: "To specify the font size of text on a webpage",
+    Distractor2: "To apply a transition effect to an element's size",
+    Distractor3: "To adjust the spacing between elements on a webpage",
+    Explanation:
+      "The 'aria-expanded' attribute conveys open or closed states for accessibility, aiding users when the visual indicator is not available.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-expanded"
+  },
+  {
     Question: "What is the purpose of the 'aria-label' attribute in ARIA?",
     Answer:
       "To provide a text label for an element when the visible label is not present",
@@ -378,14 +398,14 @@ const accessibilityQuiz = [
   },
   {
     Question:
-      "Which of the following HTML tags does NOT use the autocomplete attribute?",
-    Answer: "<html>",
-    Distractor1: "<input>",
-    Distractor2: "<text>",
+      "Which of the following HTML tags does NOT use the rel attribute?",
+    Answer: "<input>",
+    Distractor1: "<link>",
+    Distractor2: "<area>",
     Distractor3: "<form>",
     Explanation:
-      "The autocomplete attribute can be used in the following HTML elements: <input>, <textarea>, <select> and <form>.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete"
+      "The rel attribute can be used in the following HTML elements: <link>, <a>, <area>, and <form>",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/rel"
   },
   {
     Question: "What is the function of the contentinfo ARIA role?",
@@ -417,6 +437,33 @@ const accessibilityQuiz = [
     Explanation:
       "The minimum contrast ratio needed depends on the type and size of the text and the level of conformance. For normal text, the minimum contrast ratio is 4.5:1.",
     Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+  },
+  {
+    Question:
+      "In the context of web accessibility, what does 'cognitive accessibility' refer to?",
+    Answer:
+      "Ensuring that web content is easy to understand and use for individuals with cognitive disabilities.",
+    Distractor1: "Making web content more engaging and interactive.",
+    Distractor2: "Enhancing the creativity and aesthetics of web design.",
+    Distractor3: "Providing audio descriptions for video content.",
+    Explanation:
+      "'Cognitive accessibility' refers to the practice of designing and structuring web content in a way that makes it easy to comprehend and navigate for individuals with cognitive disabilities like dyslexia, attention deficit disorders, or intellectual disabilities.",
+    Link: "https://www.w3.org/WAI/cognitive/"
+  },
+  {
+    Question:
+      "What is keyboard accessibility, and why is it important for web accessibility?",
+    Answer:
+      "Keyboard accessibility refers to the ability to navigate and interact with a website using only the keyboard, without relying on a mouse.",
+    Distractor1:
+      "Keyboard accessibility refers to using specialized keyboards for web browsing.",
+    Distractor2:
+      "Keyboard accessibility is a feature that improves website loading speed.",
+    Distractor3:
+      "Keyboard accessibility is only important for developers, not users.",
+    Explanation:
+      "Keyboard accessibility is a fundamental aspect of web accessibility, as it ensures that websites are usable by a wide range of users, including those with disabilities. Providing keyboard support means implementing focus management, allowing users to navigate through interactive elements, and ensuring that all functionality is accessible via keyboard input.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets"
   }
 ];
 

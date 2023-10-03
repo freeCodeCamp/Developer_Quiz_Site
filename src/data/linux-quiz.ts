@@ -1,5 +1,25 @@
 const linuxQuiz = [
   {
+    Question: "In Linux, Which command is used to export variables to child processes?",
+    Answer: "export",
+    Distractor1: "env",
+    Distractor2: "move",
+    Distractor3: "df",
+    Explanation:
+      "The export command is used to export variables to child processes.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-export-command"
+  },
+  {
+    Question: "In Linux, which command option is used to perform a case-insensitive search when searching for text patterns?",
+    Answer: "grep -i",
+    Distractor1: "grep -c",
+    Distractor2: "grep -v",
+    Distractor3: "grep -s",
+    Explanation:
+      "The grep -i command is used to perform a case-insensitive search, allowing you to find text patterns ignoring the case.",
+    Link: "https://man7.org/linux/man-pages/man1/grep.1.html"
+  },
+  {
     Question: "In Linux, which command is used to set limits on a file size?",
     Answer: "ulimit",
     Distractor1: "fsize",
