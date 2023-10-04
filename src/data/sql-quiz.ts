@@ -818,6 +818,17 @@ const sqlQuiz = [
     Explanation:
       "When you specify the compulsory arguments, the SUBSTRING_INDEX() function will get you every part of the string that occurs before the delimiter you specify.",
     Link: "https://www.freecodecamp.org/news/sql-where-contains-string-substring-query-example/"
+  },
+  {
+    Question:
+      "Which logical operator can be used to modify a WHERE clause to determine if a value is in the middle of two numbers?",
+    Answer: "BETWEEN",
+    Distractor1: "IN",
+    Distractor2: "SOME",
+    Distractor3: "EXISTS",
+    Explanation:
+      "The BETWEEN operator is an intuitive way to use the WHERE clause to help narrow down a result set.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
   }
 ];
 
