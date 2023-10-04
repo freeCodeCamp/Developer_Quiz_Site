@@ -1,5 +1,14 @@
 const accessibilityQuiz = [
   {
+    Question: "Why is it important to add alternative text to images on web pages?",
+    Answer: "To describe the content of the image for visually impaired users who rely on screen readers.",
+    Distractor1: "To make images load faster on the web.",
+    Distractor2: "To improve the design and aesthetics of the website.",
+    Distractor3: "To enhance the website's search engine optimization (SEO).",
+    Explanation: "Adding alternative text to images is crucial for accessibility, as it allows visually impaired users to understand the content of the image using screen readers.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
     Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
     Answer:  "Utilize the 'px' unit to define font sizes.",
     Distractor1: "Ensure there is always a fallback generic font",
