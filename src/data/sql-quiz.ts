@@ -5,7 +5,8 @@ const sqlQuiz = [
     Distractor1: "CREATE, ROW, UNION, DROP ",
     Distractor2: "COPY, ROW, UPDATE, DISPLAY",
     Distractor3: "COLUMNS, ROWS, UNION, DELETE",
-    Explanation: "CRUD is an acronym that stands for CREATE, READ, UPDATE, and DELETE. These four operations are the bread and butter of nearly every database you will create.",
+    Explanation:
+      "CRUD is an acronym that stands for CREATE, READ, UPDATE, and DELETE. These four operations are the bread and butter of nearly every database you will create.",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
   },
   {
@@ -806,7 +807,18 @@ const sqlQuiz = [
     Explanation:
       "The COUNT(*) function in SQL is used to count the number of rows in a table.",
     Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
-  }    
+  },
+  {
+    Question:
+      "What SQL function is used to get every part of the string that occurs before the delimiter you specify?",
+    Answer: "SUBSTRING_INDEX()",
+    Distractor1: "COUNT()",
+    Distractor2: "CHAR_LENGTH()",
+    Distractor3: "CONCAT()",
+    Explanation:
+      "When you specify the compulsory arguments, the SUBSTRING_INDEX() function will get you every part of the string that occurs before the delimiter you specify.",
+    Link: "https://www.freecodecamp.org/news/sql-where-contains-string-substring-query-example/"
+  }
 ];
 
 export default sqlQuiz;
