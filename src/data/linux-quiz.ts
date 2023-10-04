@@ -1,6 +1,7 @@
 const linuxQuiz = [
   {
-    Question: "In Linux, Which command is used to export variables to child processes?",
+    Question:
+      "In Linux, Which command is used to export variables to child processes?",
     Answer: "export",
     Distractor1: "env",
     Distractor2: "move",
@@ -10,7 +11,8 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-export-command"
   },
   {
-    Question: "In Linux, which command option is used to perform a case-insensitive search when searching for text patterns?",
+    Question:
+      "In Linux, which command option is used to perform a case-insensitive search when searching for text patterns?",
     Answer: "grep -i",
     Distractor1: "grep -c",
     Distractor2: "grep -v",
@@ -1308,6 +1310,16 @@ const linuxQuiz = [
     Distractor3: "None of the above",
     Explanation: "elif is an else if statement in Shell Scripting.",
     Link: "https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/"
+  },
+  {
+    Question: "In Linux, Which command is used to stop a running process?",
+    Answer: "kill -9 [process ID]",
+    Distractor1: "pidof [OPTIONS] NAME",
+    Distractor2: "ps -ef",
+    Distractor3: "stop [signal] PID",
+    Explanation:
+      "The export command is used to export variables to child processes.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-export-command"
   }
 ];
 
