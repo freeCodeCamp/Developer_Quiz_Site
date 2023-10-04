@@ -840,6 +840,17 @@ const sqlQuiz = [
     Explanation:
       "A SQL subquery is a query inside a query. So, in SQL, a subquery is also called a nested query or an inner query. The outer query in which the inner query is inserted is the main query.",
     Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
+  },
+  {
+    Question:
+      "What is a good reason to use a temporary table?",
+    Answer: "to store and reuse intermediate query results to avoid redundant computations",
+    Distractor1: "to store data for a short-lived analysis such as 1-2 weeks",
+    Distractor2: "to improve database security",
+    Distractor3: "to improve query performance",
+    Explanation:
+      "A temporary SQL table is a table that is created and used within the context of a specific session or transaction in a database.",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
   }
 ];
 
