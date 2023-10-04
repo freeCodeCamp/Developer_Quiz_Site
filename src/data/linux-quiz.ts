@@ -1317,9 +1317,8 @@ const linuxQuiz = [
     Distractor1: "pidof [OPTIONS] NAME",
     Distractor2: "ps -ef",
     Distractor3: "stop [signal] PID",
-    Explanation:
-      "The export command is used to export variables to child processes.",
-    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-export-command"
+    Explanation: "The kill command is used to stop a running process.",
+    Link: "https://www.linuxfoundation.org/blog/blog/classic-sysadmin-how-to-kill-a-process-from-the-command-line"
   }
 ];
 
