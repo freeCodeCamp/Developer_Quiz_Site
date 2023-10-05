@@ -1,7 +1,7 @@
 const accessibilityQuiz = [
   {
     Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
-    Answer: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and reputational damage, in addition to the potential loss of customers and legal compliance obligations.",
+    Answer: "Businesses can face lawsuits or financial penalties",
     Distractor1: "no repercussions",
     Distractor2: "they will serve 10 years in jail",
     Distractor3: "they will do 2500 hours of community service",
