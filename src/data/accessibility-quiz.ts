@@ -1,11 +1,11 @@
 const accessibilityQuiz = [
   {
-    Question: "Why is it important to add alternative text to images on web pages?",
-    Answer: "To describe the content of the image for visually impaired users who rely on screen readers.",
-    Distractor1: "To make images load faster on the web.",
-    Distractor2: "To improve the design and aesthetics of the website.",
-    Distractor3: "To enhance the website's search engine optimization (SEO).",
-    Explanation: "Adding alternative text to images is crucial for accessibility, as it allows visually impaired users to understand the content of the image using screen readers.",
+    Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
+    Answer: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and reputational damage, in addition to the potential loss of customers and legal compliance obligations.",
+    Distractor1: "What are the top five e-commerce trends for 2023?",
+    Distractor2: "How can businesses optimize their supply chain management processes?",
+    Distractor3: "What are the benefits of adopting cloud computing in the corporate sector?",
+    Explanation: "This question highlights the legal consequences businesses may encounter when neglecting website accessibility, emphasizing the importance of compliance in the digital age.",
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
   },
   {
