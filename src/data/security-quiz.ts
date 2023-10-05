@@ -540,6 +540,17 @@ const securityQuiz = [
     Explanation:
       "Salt is added to the password before hashing it to increase its security and prevent attacks",
     Link: "https://www.freecodecamp.org/news/learn-to-speak-the-security-lingo/"
+  },
+  {
+    Question:
+    "What is a common method to protect sensitive data in transit over the internet?",
+    Answer: "Using HTTPS (Hypertext Transfer Protocol Secure) for secure communication.",
+    Distractor1: "Encrypting data only at the server-side.",
+    Distractor2: "Sharing data through plain HTTP.",
+    Distractor3: "Storing sensitive data in plaintext on the server.",
+    Explanation:
+      "HTTPS encrypts the data transmitted between a user's web browser and the web server, ensuring confidentiality and integrity during transit.",
+    Link: "https://www.freecodecamp.org/news/what-is-https-a-guide-to-secure-web-browsing-and-browser-encryption/"
   }
 ];
 
