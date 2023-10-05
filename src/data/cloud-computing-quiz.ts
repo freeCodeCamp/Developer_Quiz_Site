@@ -1,5 +1,14 @@
 const cloudComputingQuiz = [
   {
+    Question: "Which of the following is NOT a common strategy in cloud migration?",
+    Answer: "Redecorating",
+    Distractor1: "Rehosting",
+    Distractor2: "Repurchasing",
+    Distractor3: "Refactoring",
+    Explanation: "The term 'Redecorating' is not a recognized strategy in cloud migration. While Rehosting, Repurchasing, and Refactoring are established methods for migrating applications and services to the cloud.",
+    Link: "https://www.freecodecamp.org/news/advantages-of-cloud-computing/"
+  },
+  {
     Question: "Which of the following is NOT considered an advantage of cloud computing?",
     Answer: "Depends on network connectivity",
     Distractor1: "Scalability",
