@@ -131,3 +131,9 @@ a:hover {
 .results-rpg-link {
   color: #f1be32;
 }
+
+@media screen and (max-width: 460px) {
+  .select-btn-div {
+    width: auto !important;
+  }
+}
