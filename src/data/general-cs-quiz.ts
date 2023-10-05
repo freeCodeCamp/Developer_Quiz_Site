@@ -14,7 +14,7 @@ const generalCSQuiz = [
     Distractor1: "Call by pointer",
     Distractor2: "Call by reference",
     Distractor3: "Call by address",
-    Explanation: "In the pass-by-value method, a duplicate of the argument's value is created, and any change made to the formal parameter within the function do not change the original argument outside of the function because the function operates on its separate local copy of the data.",
+    Explanation: "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
   {
