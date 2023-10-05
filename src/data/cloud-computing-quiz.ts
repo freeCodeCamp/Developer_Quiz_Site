@@ -1,6 +1,6 @@
 const cloudComputingQuiz = [
   {
-    Question: "What is the cloud computing strategy often referred to as 'Lift and Shift'?",
+    Question: "Which cloud computing strategy is often referred to as 'Lift and Shift'?",
     Answer: "Rehosting",
     Distractor1: "Repurchase",
     Distractor2: "Replatform",
