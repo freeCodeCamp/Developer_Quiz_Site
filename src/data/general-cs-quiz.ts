@@ -9,7 +9,7 @@ const generalCSQuiz = [
     Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
   },
   {
-    Question: "What method copies the actual value of an argument into the formal parameter of the function?",
+    Question: "Which approach involves duplicating the argument's value into the function's formal parameter?",
     Answer: "Call by Value",
     Distractor1: "Call by pointer",
     Distractor2: "Call by reference",
