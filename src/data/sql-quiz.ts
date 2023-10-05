@@ -829,6 +829,28 @@ const sqlQuiz = [
     Explanation:
       "The BETWEEN operator is an intuitive way to use the WHERE clause to help narrow down a result set.",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question:
+      "What SQL statement contains a valid subquery?",
+    Answer: "SELECT * FROM employees WHERE wage > (SELECT AVG(wage) FROM employees)",
+    Distractor1: "SELECT MAX(*) FROM employees",
+    Distractor2: "SELECT AVG(wage) FROM employees WHERE name IN ('name1', 'name2', 'name3')",
+    Distractor3: "SELECT country, AVG(wage) FROM employees GROUP BY country LIMIT 3",
+    Explanation:
+      "A SQL subquery is a query inside a query. So, in SQL, a subquery is also called a nested query or an inner query. The outer query in which the inner query is inserted is the main query.",
+    Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
+  },
+  {
+    Question:
+      "What is a good reason to use a temporary table?",
+    Answer: "to store and reuse intermediate query results to avoid redundant computations",
+    Distractor1: "to store data for a short-lived analysis such as 1-2 weeks",
+    Distractor2: "to improve database security",
+    Distractor3: "to improve query performance",
+    Explanation:
+      "A temporary SQL table is a table that is created and used within the context of a specific session or transaction in a database.",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
   }
 ];
 
