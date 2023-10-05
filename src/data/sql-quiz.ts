@@ -5,7 +5,8 @@ const sqlQuiz = [
     Distractor1: "CREATE, ROW, UNION, DROP ",
     Distractor2: "COPY, ROW, UPDATE, DISPLAY",
     Distractor3: "COLUMNS, ROWS, UNION, DELETE",
-    Explanation: "CRUD is an acronym that stands for CREATE, READ, UPDATE, and DELETE. These four operations are the bread and butter of nearly every database you will create.",
+    Explanation:
+      "CRUD is an acronym that stands for CREATE, READ, UPDATE, and DELETE. These four operations are the bread and butter of nearly every database you will create.",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
   },
   {
@@ -784,6 +785,72 @@ const sqlQuiz = [
     Explanation:
       "The SQL LIKE operator with '%or%' matches any values containing 'or' at any position within the string.",
     Link: "https://youtu.be/-fW2X7fh7Yg?t=5881/"
+  },
+  {
+    Question:
+      "How can you retrieve all columns from a table named 'employees' in SQL?",
+    Answer: "SELECT * FROM employees;",
+    Distractor1: "SELECT ALL columns FROM employees;",
+    Distractor2: "SELECT COLUMN employees FROM *;",
+    Distractor3: "GET * FROM employees;",
+    Explanation:
+      "The SELECT * statement retrieves all columns from the 'employees' table.",
+    Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
+  },
+  {
+    Question:
+      "What SQL function is used to count the number of rows in a table?",
+    Answer: "SELECT COUNT(*) FROM table_name;",
+    Distractor1: "SUM(*) FROM table_name;",
+    Distractor2: "COUNT(table_name);",
+    Distractor3: "TOTAL_ROWS(table_name);",
+    Explanation:
+      "The COUNT(*) function in SQL is used to count the number of rows in a table.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
+  },
+  {
+    Question:
+      "What SQL function is used to get every part of the string that occurs before the delimiter you specify?",
+    Answer: "SUBSTRING_INDEX()",
+    Distractor1: "COUNT()",
+    Distractor2: "CHAR_LENGTH()",
+    Distractor3: "CONCAT()",
+    Explanation:
+      "When you specify the compulsory arguments, the SUBSTRING_INDEX() function will get you every part of the string that occurs before the delimiter you specify.",
+    Link: "https://www.freecodecamp.org/news/sql-where-contains-string-substring-query-example/"
+  },
+  {
+    Question:
+      "Which logical operator can be used to modify a WHERE clause to determine if a value is in the middle of two numbers?",
+    Answer: "BETWEEN",
+    Distractor1: "IN",
+    Distractor2: "SOME",
+    Distractor3: "EXISTS",
+    Explanation:
+      "The BETWEEN operator is an intuitive way to use the WHERE clause to help narrow down a result set.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question:
+      "What SQL statement contains a valid subquery?",
+    Answer: "SELECT * FROM employees WHERE wage > (SELECT AVG(wage) FROM employees)",
+    Distractor1: "SELECT MAX(*) FROM employees",
+    Distractor2: "SELECT AVG(wage) FROM employees WHERE name IN ('name1', 'name2', 'name3')",
+    Distractor3: "SELECT country, AVG(wage) FROM employees GROUP BY country LIMIT 3",
+    Explanation:
+      "A SQL subquery is a query inside a query. So, in SQL, a subquery is also called a nested query or an inner query. The outer query in which the inner query is inserted is the main query.",
+    Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
+  },
+  {
+    Question:
+      "What is a good reason to use a temporary table?",
+    Answer: "to store and reuse intermediate query results to avoid redundant computations",
+    Distractor1: "to store data for a short-lived analysis such as 1-2 weeks",
+    Distractor2: "to improve database security",
+    Distractor3: "to improve query performance",
+    Explanation:
+      "A temporary SQL table is a table that is created and used within the context of a specific session or transaction in a database.",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
   }
 ];
 
