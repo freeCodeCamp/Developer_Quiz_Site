@@ -1,5 +1,15 @@
 const agileQuiz = [
   {
+    Question: "What are the three primary roles in Scrum and their key responsibilities?",
+    Answer: "The three primary roles in Scrum are Product Owner, Scrum Master, and Team Member. The Product Owner maximizes ROI, the Scrum Master guides team performance, and Team Members have authority over work methods.",
+    Distractor1: "Benefits of Agile methodologies.",
+    Distractor2: "Difference between Scrum and Kanban.",
+    Distractor3: "History of project management.",
+    Explanation:
+    "This question explores the roles within a Scrum team and their responsibilities, providing insights into how Scrum operates within an organization.",
+    Link: "https://www.freecodecamp.org/news/scrum-for-startups-or-for-any-project-for-that-matter-93ad0db17a84/"
+  },
+  {
     Question:
       "What is the core concept behind the Agile development methodology?",
     Answer: "Iterative and incremental development",
