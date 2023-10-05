@@ -5,7 +5,7 @@ const cloudComputingQuiz = [
     Distractor1: "Rehosting",
     Distractor2: "Repurchasing",
     Distractor3: "Refactoring",
-    Explanation: "Rehosting, repurchasing, and refactoring are common cloud migration strategies, each with its own approach to moving applications and services to the cloud. Redecorating is not a recognized strategy in cloud migration and is included as a distractor.",
+    Explanation: "The term 'Redecorating' is not a recognized strategy in cloud migration. While Rehosting, Repurchasing, and Refactoring are established methods for migrating applications and services to the cloud.",
     Link: "https://www.freecodecamp.org/news/advantages-of-cloud-computing/"
   },
   {
