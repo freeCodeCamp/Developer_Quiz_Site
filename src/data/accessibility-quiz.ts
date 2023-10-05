@@ -5,7 +5,7 @@ const accessibilityQuiz = [
     Distractor1: "no repercussions",
     Distractor2: "they will serve 10 years in jail",
     Distractor3: "they will do 2500 hours of community service",
-    Explanation: "This question highlights the legal consequences businesses may encounter when neglecting website accessibility, emphasizing the importance of compliance in the digital age.",
+    Explanation: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and damage to their reputation. Maintaining good accessibility standards is good for everyone in this digital age.",
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
   },
   {
