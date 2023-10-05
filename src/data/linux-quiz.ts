@@ -1,6 +1,17 @@
 const linuxQuiz = [
   {
     Question:
+      "In Linux, Which command is used to convert and copy files with specific size?",
+    Answer: "dd",
+    Distractor1: "cp",
+    Distractor2: "mv",
+    Distractor3: "df",
+    Explanation:
+      "The dd command is used to convert data along with copying files of specific size.",
+    Link: "https://www.freecodecamp.org/news/linux-example-bash-command-line/#linux-dd-command-example"
+  },
+  {
+    Question:
       "In Linux, Which command is used to export variables to child processes?",
     Answer: "export",
     Distractor1: "env",
