@@ -1650,7 +1650,7 @@ const pythonQuiz = [
     Distractor2: "input()",
     Distractor3: "quit()",
     Explanation:
-      "The eval() function is not secure because it can be used to execute Python code. You don't know if the code executed is malicious or not. Therefore, it is recommended to avoid using eval() in your code.",
+      "If you use the eval() function to get input from an external source you don't know for sure if the code executed is malicious or not. This can pose a security risk to your codebase and it is recommended to avoid using the eval() function.",
     Link: "https://en.wikipedia.org/wiki/Eval#Python"
   }
 ];
