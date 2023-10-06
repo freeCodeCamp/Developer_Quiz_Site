@@ -476,7 +476,7 @@ const accessibilityQuiz = [
   },
   {
     Question:
-    "What HTML element should you use to create a button that triggers an action when pressed and is accessible for screen readers?",
+    "Which HTML element triggers an action when pressed and is accessible for screen readers?",
     Answer: "<button>",
     Distractor1: "<div>",
     Distractor2: "<span>",
