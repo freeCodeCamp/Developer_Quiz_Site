@@ -473,6 +473,17 @@ const accessibilityQuiz = [
     Explanation:
       "Keyboard accessibility is a fundamental aspect of web accessibility, as it ensures that websites are usable by a wide range of users, including those with disabilities. Providing keyboard support means implementing focus management, allowing users to navigate through interactive elements, and ensuring that all functionality is accessible via keyboard input.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets"
+  },
+  {
+    Question:
+    "Which HTML element triggers an action when pressed and is accessible for screen readers?",
+    Answer: "<button>",
+    Distractor1: "<div>",
+    Distractor2: "<span>",
+    Distractor3: "<a>",
+    Explanation:
+    "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
+    Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
   }
 ];
 
