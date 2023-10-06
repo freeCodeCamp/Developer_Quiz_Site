@@ -171,6 +171,17 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Static Application Security Testing (SAST) involves analyzing the codebase for security vulnerabilities and violations of security rules, providing insights into potential issues before the final application build.",
     Link: "https://www.freecodecamp.org/news/4-testing-methods-which-are-mandatory-for-any-software-7731ad194fb3/"
+  },
+  {
+    Question:
+      "How many phases/stages does the Software Development Life Cycle have?",
+    Answer: "7",
+    Distractor1: "3",
+    Distractor2: "7",
+    Distractor3: "5",
+    Explanation:
+      "A good QA engineer should understand the full life cycle of software products in order to effectively plan and test them. There are 7 phases of the Software Development Life Cycle",
+    Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
   }
 ];
 
