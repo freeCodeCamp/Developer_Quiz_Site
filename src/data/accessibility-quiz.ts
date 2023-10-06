@@ -1,14 +1,5 @@
 const accessibilityQuiz = [
   {
-    Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
-    Answer: "Businesses can face lawsuits or financial penalties",
-    Distractor1: "no repercussions",
-    Distractor2: "they will serve 10 years in jail",
-    Distractor3: "they will do 2500 hours of community service",
-    Explanation: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and damage to their reputation. Maintaining good accessibility standards is good for everyone in this digital age.",
-    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
-  },
-  {
     Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
     Answer:  "Utilize the 'px' unit to define font sizes.",
     Distractor1: "Ensure there is always a fallback generic font",
