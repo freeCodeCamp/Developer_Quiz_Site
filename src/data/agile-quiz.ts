@@ -2,9 +2,9 @@ const agileQuiz = [
   {
     Question: "What are the three primary roles in Scrum and their key responsibilities?",
     Answer: "Product Owner, Scrum Master, and Team Member",
-    Distractor1: "Benefits of Agile methodologies.",
-    Distractor2: "Difference between Scrum and Kanban.",
-    Distractor3: "History of project management.",
+    Distractor1: "CEO, CTO, web master",
+    Distractor2: "Scrum Master, CFO, CTO",
+    Distractor3: "Product Owner, COO, Scrum Master",
     Explanation:
     "This question explores the roles within a Scrum team and their responsibilities, providing insights into how Scrum operates within an organization.",
     Link: "https://www.freecodecamp.org/news/scrum-for-startups-or-for-any-project-for-that-matter-93ad0db17a84/"
