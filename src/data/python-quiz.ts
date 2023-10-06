@@ -1644,7 +1644,7 @@ const pythonQuiz = [
     Link: "https://docs.python.org/3/library/random.html"
   },
   {
-    Question: "Which of the following Python functions are known for being vulnerable?",
+    Question: "Which of the following Python functions are known for posing security risks?",
     Answer: "eval()",
     Distractor1: "print()",
     Distractor2: "input()",
