@@ -1,8 +1,19 @@
 const regexQuiz = [
   {
+    {
+    Question: "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
+    Answer: "[a-z]{3}",
+    Distractor1: "[a-z]+",
+    Distractor2: "[a-z]{2,3}",
+    Distractor3: "[a-z]{4}",
+    Explanation: "[a-z]{3} is the correct regular expression for matching a string containing exactly three lowercase letters (a-z) in a row.",
+    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/",
+  },
+  },
+  {
     Question: "What are Regular Expressions?",
     Answer: "Patterns that allow you to describe, match, or parse text.",
-    Distractor1: "popular type of compilers built in the 1980's",
+    Distractor1: "popular type of compiler built in the 1980's",
     Distractor2: "a category of sorting algorithms",
     Distractor3: "Patterns that allow you to reverse strings",
     Explanation:
@@ -87,7 +98,7 @@ const regexQuiz = [
     Question: "What is a character class in Regular Expressions?",
     Answer:
       "A character class is used to match any one of several characters in a particular position",
-    Distractor1: "A character class is used to removing spaces from a string",
+    Distractor1: "A character class is used to remove spaces from a string",
     Distractor2: "A character class is used to remove numbers from a string",
     Distractor3:
       "A character class is used to add alpha numeric characters to a string",
