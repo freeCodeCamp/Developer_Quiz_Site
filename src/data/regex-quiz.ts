@@ -1,5 +1,14 @@
 const regexQuiz = [
   {
+    Question: "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
+    Answer: "[a-z]{3}",
+    Distractor1: "[a-z]+",
+    Distractor2: "[a-z]{2,3}",
+    Distractor3: "[a-z]{4}",
+    Explanation: "[a-z]{3} is the correct regular expression for matching a string containing exactly three lowercase letters (a-z) in a row.",
+    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
+  },
+  {
     Question: "Which regular expression pattern can be used to match valid email addresses according to the most common email format standards?",
     Answer: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$",
     Distractor1: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-z]{2,}$",
