@@ -1,6 +1,6 @@
 const cloudComputingQuiz = [
   {
-    Question: "Which cloud computing delivery model focuses on providing infrastructure like servers, networking technology, storage, and data center space as a service to users?",
+    Question: "Which cloud computing delivery model focuses on providing infrastructure as a service to users?",
     Answer: "IaaS",
     Distractor1: "FaaS",
     Distractor2: "Saas",
