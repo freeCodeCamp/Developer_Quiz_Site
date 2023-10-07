@@ -5,7 +5,7 @@ const cloudComputingQuiz = [
     Distractor1: "It is the lowest level abstraction of storage.",
     Distractor2: "It is bootable.",
     Distractor3: "Block storage devices are usually only attached to a single instance.",
-    Explanation: "Block storage does not store data as objects in a flat structure; instead, it divides data into fixed-sized blocks and provides low-level access to these blocks. Object storage, on the other hand, stores data as objects in a flat structure with associated metadata.",
+    Explanation: "Block storage does not store data as objects in a flat structure. Instead, it divides data into fixed-sized blocks and provides low-level access to these blocks. Object storage, on the other hand, stores data as objects in a flat structure with associated metadata.",
     Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
   },
   {
