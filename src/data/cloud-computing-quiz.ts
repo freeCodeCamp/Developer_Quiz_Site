@@ -6,7 +6,7 @@ const cloudComputingQuiz = [
     Distractor2: "Saas",
     Distractor3: "PaaS",
     Explanation: "IaaS cloud computing delivery model focuses on providing infrastructure like servers, networking technology, storage, and data center space as a service to users. This gives users the autonomy to decide what infrastructure is provisioned based on the different needs of their application.",
-    Link: "https://www.freecodecamp.org/news/advantages-of-cloud-computing/"
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
   },
   {
     Question: "Which cloud computing strategy is often referred to as 'Lift and Shift'?",
