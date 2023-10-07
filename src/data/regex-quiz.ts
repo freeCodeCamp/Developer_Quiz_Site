@@ -1,8 +1,17 @@
 const regexQuiz = [
   {
+    Question: "Which regular expression pattern can be used to match valid email addresses according to the most common email format standards?",
+    Answer: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$",
+    Distractor1: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-z]{2,}$",
+    Distractor2: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]{2,}$",
+    Distractor3: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z]{2,}$",
+    Explanation: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$ matches valid email addresses by ensuring alphanumeric characters, dots, underscores, plus signs, and hyphens before @ and a valid domain with at least one dot after @.",
+    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
+  },
+  {
     Question: "What are Regular Expressions?",
-    Answer: "Patterns that allow you to describe, match, or parse text.",
-    Distractor1: "popular type of compilers built in the 1980's",
+    Answer: "Patterns that allow you to describe, match, or parse text",
+    Distractor1: "popular type of compiler built in the 1980's",
     Distractor2: "a category of sorting algorithms",
     Distractor3: "Patterns that allow you to reverse strings",
     Explanation:
@@ -84,13 +93,13 @@ const regexQuiz = [
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
   },
   {
-    Question: "What is a character class in Regular Expressions?",
+    Question: "What is a character class in Regular Expressions?" ,
     Answer:
       "A character class is used to match any one of several characters in a particular position",
-    Distractor1: "A character class is used to removing spaces from a string",
+    Distractor1: "A character class is used to remove spaces from a string",
     Distractor2: "A character class is used to remove numbers from a string",
     Distractor3:
-      "A character class is used to add alpha numeric characters to a string",
+      "A character class is used to add alphanumeric characters to a string",
     Explanation:
       "A character class is used to match any one of several characters in a particular position.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
