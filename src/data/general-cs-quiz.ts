@@ -5,16 +5,19 @@ const generalCSQuiz = [
     Distractor1: "[0,1]",
     Distractor2: "[-1,0]",
     Distractor3: "None of the above",
-    Explanation: " The self balancing property of an AVL tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1",
+    Explanation:
+      " The self balancing property of an AVL tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1",
     Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
   },
   {
-    Question: "Which approach involves duplicating the argument's value into the function's formal parameter?",
+    Question:
+      "Which approach involves duplicating the argument's value into the function's formal parameter?",
     Answer: "Call by Value",
     Distractor1: "Call by pointer",
     Distractor2: "Call by reference",
     Distractor3: "Call by address",
-    Explanation: "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
+    Explanation:
+      "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
   {
@@ -1530,6 +1533,27 @@ const generalCSQuiz = [
     Explanation:
       "Ternary Search is similar to binary search but distinguishes itself through a trisection approach giving us three possibilities for the two points m1 and m2 f(m1) < f(m2), f(m1) > f(m2), f(m1) = f(m2)",
     Link: "https://en.wikipedia.org/wiki/Ternary_search"
+  },
+  {
+    Question: "In Red-Black Tree, Every tree leaf node is ?",
+    Answer: "Black",
+    Distractor1: "Red",
+    Distractor2: "Red or Black",
+    Distractor3: "White",
+    Explanation:
+      "To maintain the black height and to ensure that the red child is not having a red node as its parent.",
+    Link: "https://forum.freecodecamp.org/t/red-black-trees/297473"
+  },
+  {
+    Question:
+      "What is a data structure that consists of nodes, where each node has data and a reference to the next node in the sequence?",
+    Answer: "Linked List",
+    Distractor1: "Vector",
+    Distractor2: "Stack",
+    Distractor3: "Heap",
+    Explanation:
+      "A Linekd List contains node and each node has data and a reference to next node so that it can have access to the data of its next node and we can get the informstion of all nodes by iterting the node until it reaches nullptr.",
+    Link: "https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-create-a-linked-list-class/301628"
   }
 ];
 
