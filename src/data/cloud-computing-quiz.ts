@@ -3,7 +3,7 @@ const cloudComputingQuiz = [
     Question: "Which statement is incorrect for block storage?",
     Answer: "It stores all data as objects in a flat structure",
     Distractor1: "It is the lowest level abstraction of storage.",
-    Distractor2: "These are also used to store the operating system and they are also bootable.",
+    Distractor2: "It is bootable.",
     Distractor3: "Block storage devices are usually only attached to a single instance.",
     Explanation: "Block storage does not store data as objects in a flat structure; instead, it divides data into fixed-sized blocks and provides low-level access to these blocks. Object storage, on the other hand, stores data as objects in a flat structure with associated metadata.",
     Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
