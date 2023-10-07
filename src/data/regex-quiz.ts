@@ -9,8 +9,6 @@ const regexQuiz = [
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
-    Question: "What are Regular Expressions?",
-    Answer: "Patterns that allow you to describe, match, or parse text.",
     Question: "Which regular expression pattern can be used to match valid email addresses according to the most common email format standards?",
     Answer: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$",
     Distractor1: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-z]{2,}$",
