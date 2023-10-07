@@ -1536,23 +1536,23 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "In RotateLeft or RotateRight function in an AVL tree, When do we update the root of the tree [we pass node as a argument to the function]",
-    Answer: "when Parent of node becomes nullptr",
-    Distractor1: "when node becomes nullptr",
-    Distractor2: "when node becomes a leaf of the tree",
+      "In the RotateLeft or RotateRight function in an AVL tree, when do we update the root of the tree?",
+    Answer: "when the Parent of the node becomes nullptr",
+    Distractor1: "when the node becomes nullptr",
+    Distractor2: "when the node becomes a leaf of the tree",
     Distractor3: "when the height balance is restored ",
     Explanation:
-      "When the parent of the node becomes nullptr, this means the  node is the root of the tree,so when we make right or left rotation we need to update the root of the tree with appropriate child of node.",
+      "When the parent of the node becomes nullptr, this means the  node is the root of the tree.  So when we make a right or left rotation, we need to update the root of the tree with the appropriate child of the node.",
     Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
   },
   {
-    Question: "In Red-Black Tree, Every tree leaf node is ?",
+    Question: "In a Red-Black Tree, every tree leaf node is _________",
     Answer: "Black",
     Distractor1: "Red",
     Distractor2: "Red or Black",
     Distractor3: "White",
     Explanation:
-      "To maintain the black height and to ensure that the red child is not having a red node as its parent.",
+      "A Red-Black Tree is a self-balancing Binary Search Tree (BST) and every tree leaf node is always black.",
     Link: "https://forum.freecodecamp.org/t/red-black-trees/297473"
   },
   {
@@ -1563,8 +1563,8 @@ const generalCSQuiz = [
     Distractor2: "Stack",
     Distractor3: "Heap",
     Explanation:
-      "A Linekd List contains node and each node has data and a reference to next node so that it can have access to the data of its next node and we can get the informstion of all nodes by iterting the node until it reaches nullptr.",
-    Link: "https://forum.freecodecamp.org/t/freecodecamp-challenge-guide-create-a-linked-list-class/301628"
+      "A Linked List contains nodes and each node has data and a reference to next node so that it can have access to the data of its next node and we can get the information of all nodes by iterating the node until it reaches nullptr.",
+    Link: "https://www.freecodecamp.org/news/how-linked-lists-work/"
   }
 ];
 
