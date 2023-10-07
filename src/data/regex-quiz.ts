@@ -1,6 +1,5 @@
 const regexQuiz = [
   {
-    {
     Question: "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
     Answer: "[a-z]{3}",
     Distractor1: "[a-z]+",
