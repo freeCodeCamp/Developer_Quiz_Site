@@ -1535,6 +1535,17 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Ternary_search"
   },
   {
+    Question:
+      "In RotateLeft or RotateRight function in an AVL tree, When do we update the root of the tree [we pass node as a argument to the function]",
+    Answer: "when Parent of node becomes nullptr",
+    Distractor1: "when node becomes nullptr",
+    Distractor2: "when node becomes a leaf of the tree",
+    Distractor3: "when the height balance is restored ",
+    Explanation:
+      "When the parent of the node becomes nullptr, this means the  node is the root of the tree,so when we make right or left rotation we need to update the root of the tree with appropriate child of node.",
+    Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
+  },
+  {
     Question: "In Red-Black Tree, Every tree leaf node is ?",
     Answer: "Black",
     Distractor1: "Red",
