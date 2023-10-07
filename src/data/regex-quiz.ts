@@ -9,7 +9,6 @@ const regexQuiz = [
     Explanation: "[a-z]{3} is the correct regular expression for matching a string containing exactly three lowercase letters (a-z) in a row.",
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/",
   },
-  },
   {
     Question: "What are Regular Expressions?",
     Answer: "Patterns that allow you to describe, match, or parse text.",
