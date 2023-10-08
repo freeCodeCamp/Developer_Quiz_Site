@@ -1,5 +1,14 @@
 const regexQuiz = [
   {
+    Question: "What does the regex character class [A-Za-z] match?",
+    Answer: "Any letter(both uppercase and lowercase)",
+    Distractor1: "Any number",
+    Distractor2: "Any special characters",
+    Distractor3: "Only upper case letters",
+    Explanation: "This character class matches any single letter, whether it's uppercase or lowercase.",
+    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
+  },
+  {
     Question: "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
     Answer: "[a-z]{3}",
     Distractor1: "[a-z]+",
