@@ -1,5 +1,14 @@
 const regexQuiz = [
   {
+    Question: "Which regex flag is used to make the pattern-matching case-insensitive?",
+    Answer: "i",
+    Distractor1: "m",
+    Distractor2: "g",
+    Distractor3: "s",
+    Explanation: "The i flag makes the regex pattern matching case-insensitive so it will match both uppercase and lowercase characters.",
+    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
+  },
+  {
     Question: "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
     Answer: "[a-z]{3}",
     Distractor1: "[a-z]+",
