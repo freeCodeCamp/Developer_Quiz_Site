@@ -1565,6 +1565,38 @@ const generalCSQuiz = [
     Explanation:
       "A Linked List contains nodes and each node has data and a reference to next node so that it can have access to the data of its next node and we can get the information of all nodes by iterating the node until it reaches nullptr.",
     Link: "https://www.freecodecamp.org/news/how-linked-lists-work/"
+  },
+  {
+    Question: "What is the Basis for a Red-Black tree?",
+    Answer: "2-3-4 tree",
+    Distractor1: "AVL Tree",
+    Distractor2: "Red-Black Graphs",
+    Distractor3: "Linked List",
+    Explanation:
+      "A Red Black Tree is based upon a 2-3-4 tree where the red nodes collapse into the black node above them to form a 2-3-4 node.",
+    Link: "https://www.cs.purdue.edu/homes/ayg/CS251/slides/chap13b.pdf"
+  },
+  {
+    Question:
+      "What is the space complexity of a Red-Black Tree and Time Complexity of the worst case in Insertion in Big-Oh notoation Respectively? Where n are the number of entries.",
+    Answer: "O(n), O(logn)",
+    Distractor1: "O(n), O(n^2)",
+    Distractor2: "O(logn), O(logn)",
+    Distractor3: "O(nlogn), O(1)",
+    Explanation:
+      "As we have n Nodes we get a Space Complexity of O(n).\nThe (re-)balancing is not perfect, but guarantees searching in Big O time of logn. The insert and delete operations, along with the tree rearrangement and recoloring, are also performed in O(logn) time",
+    Link: "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree"
+  },
+  {
+    Question:
+      "which of the follwing Algorithm is used in Identifying a circular linked list?",
+    Answer: "Floyd's Tortoise-Hare Algorithm",
+    Distractor1: "Dijkstra's Algorithm",
+    Distractor2: "Greedy Algorithms",
+    Distractor3: "Linear Search Algorithm",
+    Explanation:
+      "Floyd's Tortoise-Hare Algorithm is for finding a circular Linked list. Hare is a pointer which jumps 2 nodes and Tortoise moves to next in case they both meet we get a circular linked list if they any of them becomes nullptr then there is no Circular Linked list.Dijkstra's Algorithm is for finding shortest distance between 2 nodes in a graph.Linear Search Algorithm this for finding a element in a linear data. Greedy Algorithms are based on algorithmic paradigm that builds up a solution piece by piece, always choosing the next piece that offers the most obvious and immediate benefit. So the problems where choosing locally optimal also leads to global solution are the best fit for Greedy and not for Circular linkedLists.",
+    Link: "https://en.wikipedia.org/wiki/Cycle_detection"
   }
 ];
 
