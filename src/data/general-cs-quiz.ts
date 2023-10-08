@@ -1565,6 +1565,38 @@ const generalCSQuiz = [
     Explanation:
       "A Linked List contains nodes and each node has data and a reference to next node so that it can have access to the data of its next node and we can get the information of all nodes by iterating the node until it reaches nullptr.",
     Link: "https://www.freecodecamp.org/news/how-linked-lists-work/"
+  },
+  {
+    Question: "What is the basis for a Red-Black tree?",
+    Answer: "2-3-4 tree",
+    Distractor1: "AVL Tree",
+    Distractor2: "Red-Black Graphs",
+    Distractor3: "Linked List",
+    Explanation:
+      "A Red-Black Tree is based upon a 2-3-4 tree where the red nodes collapse into the black node above them to form a 2-3-4 node.",
+    Link: "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree"
+  },
+  {
+    Question:
+      "What are the space and time complexities for Red-Black Trees where n are the number of entries?",
+    Answer: "O(n), O(logn)",
+    Distractor1: "O(n), O(n^2)",
+    Distractor2: "O(logn), O(logn)",
+    Distractor3: "O(nlogn), O(1)",
+    Explanation:
+      "As we have n Nodes we get a Space Complexity of O(n).  The (re-)balancing is not perfect, but guarantees searching in O(log n). The insert and delete operations, along with the tree rearrangement and recoloring, are also performed in O(log n) time",
+    Link: "https://en.wikipedia.org/wiki/Red%E2%80%93black_tree"
+  },
+  {
+    Question:
+      "Which of the following algorithms is used in Identifying a circular linked list?",
+    Answer: "Floyd's Tortoise-Hare Algorithm",
+    Distractor1: "Dijkstra's Algorithm",
+    Distractor2: "Greedy Algorithms",
+    Distractor3: "Linear Search Algorithm",
+    Explanation:
+      "Floyd's Tortoise-Hare Algorithm is for finding a circular Linked list. The Hare is a pointer which jumps 2 nodes while the Tortoise moves one node at a time. In case they both meet, we get a circular linked list. If any of them becomes nullptr, then there is no Circular Linked list.",
+    Link: "https://en.wikipedia.org/wiki/Cycle_detection"
   }
 ];
 
