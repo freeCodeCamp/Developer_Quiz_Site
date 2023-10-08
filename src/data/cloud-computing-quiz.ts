@@ -1,5 +1,14 @@
 const cloudComputingQuiz = [
   {
+    Question: "In a cloud-native architecture, which of the following is not considered a core component?",
+    Answer: "Monolithic architecture",
+    Distractor1: "Microservices architecture",
+    Distractor2: "Containerization",
+    Distractor3: "CI/CD (Continuous Integration/Continuous Deployment)",
+    Explanation: "Cloud-native architecture often focuses on the use of microservices, containers, and continuous integration/continuous deployment (CI/CD) practices, which are more agile and scalable than monolithic architectures.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
     Question: "Which statement is incorrect for block storage?",
     Answer: "It stores all data as objects in a flat structure",
     Distractor1: "It is the lowest level abstraction of storage.",
