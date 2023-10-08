@@ -1,5 +1,14 @@
 const regexQuiz = [
   {
+    Question: "Which regex metacharacter represents the start of a line?",
+    Answer: "^",
+    Distractor1: "$",
+    Distractor2: ".",
+    Distractor3: "\\",
+    Explanation: "The ^ metacharacter represents the start of a line in a regular expression.",
+    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
+  },
+  {
     Question: "Which regex flag is used to make the pattern-matching case-insensitive?",
     Answer: "i",
     Distractor1: "m",
