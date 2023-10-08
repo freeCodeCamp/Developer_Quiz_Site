@@ -9,15 +9,6 @@ const regexQuiz = [
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
-    Question: "What does the regex character class [A-Za-z] match?",
-    Answer: "Any letter(both uppercase and lowercase)",
-    Distractor1: "Any uppercase letter",
-    Distractor2: "Any lowercase letter",
-    Distractor3: "Any single character",
-    Explanation: "This character class matches any single letter, whether it's uppercase or lowercase.",
-    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
-  },
-  {
     Question: "Which regex metacharacter represents the start of a line?",
     Answer: "^",
     Distractor1: "$",

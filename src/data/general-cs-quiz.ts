@@ -5,16 +5,19 @@ const generalCSQuiz = [
     Distractor1: "[0,1]",
     Distractor2: "[-1,0]",
     Distractor3: "None of the above",
-    Explanation: " The self balancing property of an AVL tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1",
+    Explanation:
+      " The self balancing property of an AVL tree is maintained by the balance factor. The value of balance factor should always be -1, 0 or +1",
     Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
   },
   {
-    Question: "Which approach involves duplicating the argument's value into the function's formal parameter?",
+    Question:
+      "Which approach involves duplicating the argument's value into the function's formal parameter?",
     Answer: "Call by Value",
     Distractor1: "Call by pointer",
     Distractor2: "Call by reference",
     Distractor3: "Call by address",
-    Explanation: "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
+    Explanation:
+      "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
   {
@@ -1530,6 +1533,38 @@ const generalCSQuiz = [
     Explanation:
       "Ternary Search is similar to binary search but distinguishes itself through a trisection approach giving us three possibilities for the two points m1 and m2 f(m1) < f(m2), f(m1) > f(m2), f(m1) = f(m2)",
     Link: "https://en.wikipedia.org/wiki/Ternary_search"
+  },
+  {
+    Question:
+      "In the RotateLeft or RotateRight function in an AVL tree, when do we update the root of the tree?",
+    Answer: "when the Parent of the node becomes nullptr",
+    Distractor1: "when the node becomes nullptr",
+    Distractor2: "when the node becomes a leaf of the tree",
+    Distractor3: "when the height balance is restored ",
+    Explanation:
+      "When the parent of the node becomes nullptr, this means the  node is the root of the tree.  So when we make a right or left rotation, we need to update the root of the tree with the appropriate child of the node.",
+    Link: "https://forum.freecodecamp.org/t/algorithms-avl-trees/297458"
+  },
+  {
+    Question: "In a Red-Black Tree, every tree leaf node is _________",
+    Answer: "Black",
+    Distractor1: "Red",
+    Distractor2: "Red or Black",
+    Distractor3: "White",
+    Explanation:
+      "A Red-Black Tree is a self-balancing Binary Search Tree (BST) and every tree leaf node is always black.",
+    Link: "https://forum.freecodecamp.org/t/red-black-trees/297473"
+  },
+  {
+    Question:
+      "What is a data structure that consists of nodes, where each node has data and a reference to the next node in the sequence?",
+    Answer: "Linked List",
+    Distractor1: "Vector",
+    Distractor2: "Stack",
+    Distractor3: "Heap",
+    Explanation:
+      "A Linked List contains nodes and each node has data and a reference to next node so that it can have access to the data of its next node and we can get the information of all nodes by iterating the node until it reaches nullptr.",
+    Link: "https://www.freecodecamp.org/news/how-linked-lists-work/"
   }
 ];
 
