@@ -96,13 +96,13 @@ const regexQuiz = [
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
   },
   {
-    Question: "Which of the following regex pattern can be used to match one or more occurrences of a digit in a string?",
-    Answer: "\d+",
-    Distractor1: "\d*",
-    Distractor2: "\d?",
-    Distractor3: "\d{2}",
+    Question: "Which of the following regex patterns can be used to match one or more occurrences of a digit in a string?",
+    Answer: "d+",
+    Distractor1: "d*",
+    Distractor2: "d?",
+    Distractor3: "d{2}",
     Explanation:
-      "The regex pattern \d+ matches one or more occurrences of a digit in a string. The plus sign (+) means 'one or more' in regular expressions.",
+      "The regex pattern d+ matches one or more occurrences of a digit in a string. The plus sign (+) means 'one or more' in regular expressions.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
   }
 ];
