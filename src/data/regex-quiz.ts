@@ -1,7 +1,7 @@
 const regexQuiz = [
   {
     Question: "What does the regex character class [A-Za-z] match?",
-    Answer: "Any letter (both uppercase and lowercase)",
+    Answer: "Any letter(both uppercase and lowercase)",
     Distractor1: "Any uppercase letter",
     Distractor2: "Any lowercase letter",
     Distractor3: "Any single character",
