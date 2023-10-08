@@ -177,7 +177,7 @@ const qualityAssuranceQuiz = [
       "How many phases/stages does the Software Development Life Cycle have?",
     Answer: "7",
     Distractor1: "3",
-    Distractor2: "7",
+    Distractor2: "12",
     Distractor3: "5",
     Explanation:
       "A good QA engineer should understand the full life cycle of software products in order to effectively plan and test them. There are 7 phases of the Software Development Life Cycle",
