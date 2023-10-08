@@ -2,28 +2,10 @@ const regexQuiz = [
   {
     Question: "What does the regex character class [A-Za-z] match?",
     Answer: "Any letter(both uppercase and lowercase)",
-    Distractor1: "Any uppercase letter",
-    Distractor2: "Any lowercase letter",
-    Distractor3: "Any single character",
+    Distractor1: "Any number",
+    Distractor2: "Any special characters",
+    Distractor3: "Only upper case letters",
     Explanation: "This character class matches any single letter, whether it's uppercase or lowercase.",
-    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
-  },
-  {
-    Question: "Which regex metacharacter represents the start of a line?",
-    Answer: "^",
-    Distractor1: "$",
-    Distractor2: ".",
-    Distractor3: "\\",
-    Explanation: "The ^ metacharacter represents the start of a line in a regular expression.",
-    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
-  },
-  {
-    Question: "Which regex flag is used to make the pattern-matching case-insensitive?",
-    Answer: "i",
-    Distractor1: "m",
-    Distractor2: "g",
-    Distractor3: "s",
-    Explanation: "The i flag makes the regex pattern matching case-insensitive so it will match both uppercase and lowercase characters.",
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
