@@ -1,5 +1,27 @@
 const accessibilityQuiz = [
   {
+    Question: "What is the purpose of the 'aria-labelledby' attribute in ARIA?",
+    Answer:
+      "To enable authors to reference other elements on the page to define an accessible name.",
+    Distractor1: "To hide an element from screen readers",
+    Distractor2: "To add a tooltip to an element",
+    Distractor3: "To change the focus order of elements",
+    Explanation:
+      "The aria-labelledby attribute identifies the element (or elements) that labels the element it is applied to.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby"
+  },
+  {
+    Question: "What is the purpose of the 'aria-describedby' attribute in ARIA?",
+    Answer:
+      "To list the ids of the elements that describe the object.",
+    Distractor1: "To change the font size",
+    Distractor2: "To add a border to an element",
+    Distractor3: "To change the background color of an element",
+    Explanation:
+      "The aria-describedby attribute identifies the element (or elements) that describes the element on which the attribute is set.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby"
+  },
+  {
     Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
     Answer: "Businesses can face lawsuits or financial penalties",
     Distractor1: "no repercussions",
