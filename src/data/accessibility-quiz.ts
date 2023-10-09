@@ -13,7 +13,7 @@ const accessibilityQuiz = [
   {
     Question: "What is the purpose of the 'aria-describedby' attribute in ARIA?",
     Answer:
-      "To list the ids of the elements that describe the object.",
+      "To list the IDs of the elements that describe the object.",
     Distractor1: "To change the font size",
     Distractor2: "To add a border to an element",
     Distractor3: "To change the background color of an element",
