@@ -1,5 +1,23 @@
 const cloudComputingQuiz = [
   {
+    Question: "What is the key benefit of deploying Edge Computing resources in managing data from IoT devices?",
+    Answer: " Consuming and transforming IoT data faster at the network edges.",
+    Distractor1: "Encouraging IoT devices to move closer to data centers.",
+    Distractor2: "The act of asking customers to move closer to server locations.",
+    Distractor3: "Increasing the physical distance between IoT devices and servers..",
+    Explanation: "The key benefit of deploying Edge Computing for managing IoT data is the ability to process and transform data quickly at the network edges, improving responsiveness and efficiency in IoT applications.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is Edge Computing?",
+    Answer: "The installation of distributed networks of smaller servers to reduce latency.",
+    Distractor1: "The process of magically reducing latency without any physical changes.",
+    Distractor2: "The act of asking customers to move closer to server locations.",
+    Distractor3: "The use of long-distance data transfer to improve network efficiency.",
+    Explanation: "Edge Computing refers to the strategy of placing smaller servers or computing resources closer to the location where data is generated or needed, such as near end-users or IoT devices. This approach is used to improve the speed and responsiveness of network services and applications.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
     Question: "In a cloud-native architecture, which of the following is not considered a core component?",
     Answer: "Monolithic architecture",
     Distractor1: "Microservices architecture",
