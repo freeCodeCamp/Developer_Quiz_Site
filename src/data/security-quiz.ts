@@ -559,7 +559,7 @@ const securityQuiz = [
     Distractor2: "getline()",
     Distractor3: "printf()",
     Explanation:
-      "gets() is known to be vulnerable to buffer overflow attacks since it doesn't check if the input is larger than the buffer size.",
+      "In the C programming language, the  gets() function is known to be vulnerable to buffer overflow attacks since it doesn't check if the input is larger than the buffer size.",
     Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/"
   }
 ];
