@@ -551,6 +551,16 @@ const securityQuiz = [
     Explanation:
       "HTTPS encrypts the data transmitted between a user's web browser and the web server, ensuring confidentiality and integrity during transit.",
     Link: "https://www.freecodecamp.org/news/what-is-https-a-guide-to-secure-web-browsing-and-browser-encryption/"
+  },
+  {
+    Question: "Which of the following C functions are known to be vulnerable?",
+    Answer: "gets()",
+    Distractor1: "fgets()",
+    Distractor2: "getline()",
+    Distractor3: "printf()",
+    Explanation:
+      "gets() is known to be vulnerable to buffer overflow attacks since it doesn't check if the input is larger than the buffer size.",
+    Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/"
   }
 ];
 
