@@ -19,7 +19,7 @@ const accessibilityQuiz = [
     Distractor3: "To change the background color of an element",
     Explanation:
       "The aria-describedby attribute identifies the element (or elements) that describes the element on which the attribute is set.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-describedby"
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid/"
   },
   {
     Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
