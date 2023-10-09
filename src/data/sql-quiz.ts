@@ -860,7 +860,7 @@ const sqlQuiz = [
     Distractor2: "EXISTS",
     Distractor3: "LIKE",
     Explanation:
-      "The IN operator is used to check if a value exists in a specified set of values in SQL.",
+      "The IN operator returns true or false if the first operand matches any of the values in the second operand. The IN operator is a shorthand for multiple OR conditions.",
     Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
 }
 ];
