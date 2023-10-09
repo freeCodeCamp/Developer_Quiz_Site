@@ -7,7 +7,7 @@ const accessibilityQuiz = [
     Distractor2: "To add a tooltip to an element",
     Distractor3: "To change the focus order of elements",
     Explanation:
-      "The aria-labelledby attribute identifies the element (or elements) that labels the element it is applied to.",
+      "The 'aria-labelledby' attribute specifies the element or elements responsible for providing labels to the element to which it is assigned.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby"
   },
   {
