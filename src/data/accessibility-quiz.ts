@@ -8,7 +8,7 @@ const accessibilityQuiz = [
     Distractor3: "To change the focus order of elements",
     Explanation:
       "The 'aria-labelledby' attribute specifies the element or elements responsible for providing labels to the element to which it is assigned.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby"
+    Link: "https://forum.freecodecamp.org/t/why-is-aria-labelledby-needed/589633/17"
   },
   {
     Question: "What is the purpose of the 'aria-describedby' attribute in ARIA?",
