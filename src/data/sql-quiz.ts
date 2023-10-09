@@ -851,7 +851,18 @@ const sqlQuiz = [
     Explanation:
       "A temporary SQL table is a table that is created and used within the context of a specific session or transaction in a database.",
     Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
-  }
+  },
+  {
+    Question:
+      "In SQL, which operator is used to check if a value exists in a specified set of values?",
+    Answer: "IN",
+    Distractor1: "BETWEEN",
+    Distractor2: "EXISTS",
+    Distractor3: "LIKE",
+    Explanation:
+      "The IN operator is used to check if a value exists in a specified set of values in SQL.",
+    Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
+}
 ];
 
 export default sqlQuiz;
