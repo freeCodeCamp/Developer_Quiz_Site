@@ -1,5 +1,50 @@
 const cloudComputingQuiz = [
   {
+    Question: "What is the key benefit of deploying Edge Computing resources in managing data from IoT devices?",
+    Answer: " Consuming and transforming IoT data faster at the network edges.",
+    Distractor1: "Encouraging IoT devices to move closer to data centers.",
+    Distractor2: "The act of asking customers to move closer to server locations.",
+    Distractor3: "Increasing the physical distance between IoT devices and servers..",
+    Explanation: "The key benefit of deploying Edge Computing for managing IoT data is the ability to process and transform data quickly at the network edges, improving responsiveness and efficiency in IoT applications.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is Edge Computing?",
+    Answer: "The installation of distributed networks of smaller servers to reduce latency.",
+    Distractor1: "The process of magically reducing latency without any physical changes.",
+    Distractor2: "The act of asking customers to move closer to server locations.",
+    Distractor3: "The use of long-distance data transfer to improve network efficiency.",
+    Explanation: "Edge Computing refers to the strategy of placing smaller servers or computing resources closer to the location where data is generated or needed, such as near end-users or IoT devices. This approach is used to improve the speed and responsiveness of network services and applications.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "In a cloud-native architecture, which of the following is not considered a core component?",
+    Answer: "Monolithic architecture",
+    Distractor1: "Microservices architecture",
+    Distractor2: "Containerization",
+    Distractor3: "CI/CD (Continuous Integration/Continuous Deployment)",
+    Explanation: "Cloud-native architecture often focuses on the use of microservices, containers, and continuous integration/continuous deployment (CI/CD) practices, which are more agile and scalable than monolithic architectures.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question: "Which statement is incorrect for block storage?",
+    Answer: "It stores all data as objects in a flat structure",
+    Distractor1: "It is the lowest level abstraction of storage.",
+    Distractor2: "It is bootable.",
+    Distractor3: "Block storage devices are usually only attached to a single instance.",
+    Explanation: "Block storage does not store data as objects in a flat structure. Instead, it divides data into fixed-sized blocks and provides low-level access to these blocks. Object storage, on the other hand, stores data as objects in a flat structure with associated metadata.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "Which cloud computing delivery model focuses on providing infrastructure as a service to users?",
+    Answer: "IaaS",
+    Distractor1: "FaaS",
+    Distractor2: "Saas",
+    Distractor3: "PaaS",
+    Explanation: "IaaS cloud computing delivery model focuses on providing infrastructure like servers, networking technology, storage, and data center space as a service to users. This gives users the autonomy to decide what infrastructure is provisioned based on the different needs of their application.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
     Question: "Which cloud computing strategy is often referred to as 'Lift and Shift'?",
     Answer: "Rehosting",
     Distractor1: "Repurchase",

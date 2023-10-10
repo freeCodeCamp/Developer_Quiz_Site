@@ -1,5 +1,27 @@
 const accessibilityQuiz = [
   {
+    Question: "What is the purpose of the 'aria-labelledby' attribute in ARIA?",
+    Answer:
+      "To enable authors to reference other elements on the page to define an accessible name.",
+    Distractor1: "To hide an element from screen readers",
+    Distractor2: "To add a tooltip to an element",
+    Distractor3: "To change the focus order of elements",
+    Explanation:
+      "The 'aria-labelledby' attribute specifies the element or elements responsible for providing labels to the element to which it is assigned.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby"
+  },
+  {
+    Question: "What is the purpose of the 'aria-describedby' attribute in ARIA?",
+    Answer:
+      "To list the IDs of the elements that describe the object.",
+    Distractor1: "To change the font size",
+    Distractor2: "To add a border to an element",
+    Distractor3: "To change the background color of an element",
+    Explanation:
+      "The aria-describedby attribute identifies the element (or elements) that describes the element on which the attribute is set.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid/"
+  },
+  {
     Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
     Answer: "Businesses can face lawsuits or financial penalties",
     Distractor1: "no repercussions",
@@ -484,7 +506,31 @@ const accessibilityQuiz = [
     Explanation:
     "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
     Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
+  },
+  {
+    Question:
+    "When designing a website to enhance accessibility, what is the purpose of a skip navigation link?",
+    Answer: "It helps visually impaired users to skip to the main content of a site.",
+    Distractor1: "It serves as a link to the website's home page.",
+    Distractor2: "It allows users to to skip directly to the website's contact page.",
+    Distractor3: "It provides a link to download a screen reader application.",
+    Explanation:
+    "A skip navigation link allow visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
+  },
+  {
+    Question:
+      "What are the four broad guidelines of web accessibility that addresses different aspects of usability and inclusivity?",
+    Answer:
+      "Perceivable, Operable, Understandable, Robust.",
+    Distractor1: "Responsive, Mobile-Friendly, Fast-Loading and Secure.",
+    Distractor2: "Content, Design, Interaction and Navigation.",
+    Distractor3: "Productivity, Accessibility, Scalabity and Visual.",
+    Explanation:
+      "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, Robust. They help ensure that web content is accessible to all users, including those with disabilities",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
   }
+  
 ];
 
 export default accessibilityQuiz;
