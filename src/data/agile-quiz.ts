@@ -459,6 +459,15 @@ const agileQuiz = [
       "A 'Dev Huddle' or a recurring meeting in agile development serve as a forum for developers to discuss technical topics, make decisions regarding architecture, conventions, and other aspects of the tech stack.",
     Link: "https://www.freecodecamp.org/news/how-to-use-the-dev-huddle-to-get-your-developers-on-the-same-page/"
   },
+  {
+  Question: "What is the purpose of a burndown chart in Agile development?",
+  Answer: "To track the progress of user stories throughout a sprint.",
+  Distractor1: "To estimate the total cost of a project.",
+  Distractor2: "To assign tasks to team members.",
+  Distractor3: "To prioritize backlog items.",
+  Explanation: "A burndown chart in Agile development is used to track the progress of user stories or tasks throughout a sprint. It visually represents the amount of work remaining over time, helping the team to manage their workload effectively.",
+  Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  }
 ];
 
 export default agileQuiz;
