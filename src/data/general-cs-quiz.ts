@@ -20,6 +20,16 @@ const generalCSQuiz = [
       "In the call-by-value approach, a replica of the argument's value is generated, and any modifications made to the formal parameter within the function do not affect the original argument outside of the function, as the function operates on its own isolated copy of the data.",
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
+   {
+    Question: "Which of hte following algorithms is used to find the shortest path between two points in a connected weighted graph?",
+    Answer: "Kruskal Algorithm",
+    Distractor1: "Floyd's Tortoise-Hare Algorithm",
+    Distractor2: "Greedy Algorithms",
+    Distractor3: "Prims Algorithms",
+    Explanation:
+      "Kruskal Algorithm is used to find the shortest path between two points in a connected weighted graph.",
+    Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
+  },
   {
     Question: "What does NFC stands for?",
     Answer: "Near-Field Communication",
