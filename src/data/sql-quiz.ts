@@ -896,7 +896,7 @@ const sqlQuiz = [
     Distractor3: "A query that deletes records from a table.",
     Explanation:
       "A subquery in SQL refers to a query that is nested within another query, allowing you to perform complex operations and retrieve data from multiple tables.",
-    Link: "https://www.w3schools.com/sql/sql_subqueries.asp"
+    Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
   },
   {
     Question: "What is the purpose of an SQL JOIN condition?",
