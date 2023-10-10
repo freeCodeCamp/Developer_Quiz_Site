@@ -1,10 +1,37 @@
 const cloudComputingQuiz = [
   {
+    Question: "Which cloud platforms offer serverless computing services mentioned in the text?",
+    Answer: "Amazon Lambda and Azure Functions.",
+    Distractor1: "Amazon Elastic Beanstalk and Google Cloud Functions.",
+    Distractor2: "Amazon Elastic Beanstalk and Azure App Service.",
+    Distractor3: "Google Cloud Run and AWS Fargate.",
+    Explanation: "Amazon Lambda and Azure Functions are examples of serverless computing platforms that provide services for running code without having to manage server infrastructure.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "Which of the following statements accurately describes serverless computing?",
+    Answer: "Serverless computing is a form of virtualization that abstracts everything, including application code.",
+    Distractor1: "Serverless computing involves running software code without any underlying server infrastructure.",
+    Distractor2: "Serverless computing is similar to virtualization but requires extensive configuration.",
+    Distractor3: "Serverless platforms like Amazon Lambda and Azure Functions are equivalent to dedicated servers.",
+    Explanation: "Serverless computing is a form of cloud computing that abstracts server management, including server instance settings, and allows developers to focus only on writing application code.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is the main difference between serverless computing and traditional server computing?",
+    Answer: "Serverless computing doesn't require configuring server instance settings, while traditional computing does.",
+    Distractor1: "Serverless computing uses physical servers, while traditional computing uses virtual servers.",
+    Distractor2: "Serverless computing is more cost effective than traditional computing.",
+    Distractor3: "Serverless computing requires you to see the server physically.",
+    Explanation: "In traditional server computing, you typically need to configure server instance settings, such as CPU, memory, and networking, which is not required in serverless computing.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
     Question: "What is the key benefit of deploying Edge Computing resources in managing data from IoT devices?",
-    Answer: " Consuming and transforming IoT data faster at the network edges.",
+    Answer: "Consuming and transforming IoT data faster at the network edges.",
     Distractor1: "Encouraging IoT devices to move closer to data centers.",
     Distractor2: "The act of asking customers to move closer to server locations.",
-    Distractor3: "Increasing the physical distance between IoT devices and servers..",
+    Distractor3: "Increasing the physical distance between IoT devices and servers.",
     Explanation: "The key benefit of deploying Edge Computing for managing IoT data is the ability to process and transform data quickly at the network edges, improving responsiveness and efficiency in IoT applications.",
     Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
   },
