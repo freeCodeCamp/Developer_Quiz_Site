@@ -506,7 +506,31 @@ const accessibilityQuiz = [
     Explanation:
     "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
     Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
+  },
+  {
+    Question:
+    "When designing a website to enhance accessibility, what is the purpose of a skip navigation link?",
+    Answer: "It helps visually impaired users to skip to the main content of a site.",
+    Distractor1: "It serves as a link to the website's home page.",
+    Distractor2: "It allows users to to skip directly to the website's contact page.",
+    Distractor3: "It provides a link to download a screen reader application.",
+    Explanation:
+    "A skip navigation link allow visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
+  },
+  {
+    Question:
+      "What are the four broad guidelines of web accessibility that addresses different aspects of usability and inclusivity?",
+    Answer:
+      "Perceivable, Operable, Understandable, Robust.",
+    Distractor1: "Responsive, Mobile-Friendly, Fast-Loading and Secure.",
+    Distractor2: "Content, Design, Interaction and Navigation.",
+    Distractor3: "Productivity, Accessibility, Scalabity and Visual.",
+    Explanation:
+      "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, Robust. They help ensure that web content is accessible to all users, including those with disabilities",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
   }
+  
 ];
 
 export default accessibilityQuiz;
