@@ -874,7 +874,7 @@ const sqlQuiz = [
     Distractor3: "SELECT ALL",
     Explanation:
       "The SQL SELECT DISTINCT statement is used to retrieve unique values from a column in a database table, eliminating duplicate values.",
-    Link: "https://www.w3schools.com/sql/sql_distinct.asp"
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
   },
   {
     Question: "In SQL, what does the term 'subquery' refer to?",
@@ -884,7 +884,7 @@ const sqlQuiz = [
     Distractor3: "A query that deletes records from a table.",
     Explanation:
       "A subquery in SQL refers to a query that is nested within another query, allowing you to perform complex operations and retrieve data from multiple tables.",
-    Link: "https://www.w3schools.com/sql/sql_subqueries.asp"
+    Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
   },
   {
     Question: "What is the purpose of an SQL JOIN condition?",
@@ -895,7 +895,7 @@ const sqlQuiz = [
     Distractor3: "To limit the number of rows returned.",
     Explanation:
       "An SQL JOIN condition is used to specify how two or more tables are related and merged together in a query, enabling you to retrieve data from multiple tables.",
-    Link: "https://www.w3schools.com/sql/sql_join.asp"
+    Link: "https://www.freecodecamp.org/news/understanding-sql-joins/"
   },
   {
     Question:
@@ -906,7 +906,7 @@ const sqlQuiz = [
     Distractor3: "RENAME TABLE",
     Explanation:
       "The SQL ALTER TABLE statement is used to change the structure of an existing database table, such as adding, modifying, or deleting columns.",
-    Link: "https://www.w3schools.com/sql/sql_alter.asp"
+    Link: "https://www.freecodecamp.org/news/alter-table-in-sql-how-to-add-a-column-or-rename-a-column-in-sql/"
   },
   {
     Question:
@@ -951,7 +951,7 @@ const sqlQuiz = [
     Distractor3: "UPDATE ... SET",
     Explanation:
       "The SQL CREATE TABLE ... AS SELECT statement is used to create a new table based on the structure and data of an existing table.",
-    Link: "https://www.w3schools.com/sql/sql_create_table.asp"
+    Link: "https://www.freecodecamp.org/news/sql-create-table-statement-with-example-syntax/"
   },
   {
     Question: "What is the purpose of SQL views?",
@@ -963,7 +963,7 @@ const sqlQuiz = [
     Distractor3: "To enforce data encryption in a database.",
     Explanation:
       "SQL views are virtual tables that simplify complex queries, enhance security by restricting access to certain columns, and allow users to work with a predefined subset of data.",
-    Link: "https://www.w3schools.com/sql/sql_view.asp"
+    Link: "https://www.freecodecamp.org/news/sql-create-view-mysql/"
   }
 ];
 
