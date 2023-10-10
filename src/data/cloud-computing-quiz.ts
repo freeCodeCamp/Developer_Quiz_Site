@@ -5,7 +5,7 @@ const cloudComputingQuiz = [
     Distractor1: "Amazon Elastic Beanstalk and Google Cloud Functions.",
     Distractor2: "Amazon Elastic Beanstalk and Azure App Service.",
     Distractor3: "Google Cloud Run and AWS Fargate.",
-    Explanation: " Amazon Lambda and Azure Functions are examples of serverless computing platforms that provide services for running code without having to manage server infrastructure.",
+    Explanation: "Amazon Lambda and Azure Functions are examples of serverless computing platforms that provide services for running code without having to manage server infrastructure.",
     Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
   },
   {
