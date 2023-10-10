@@ -865,18 +865,6 @@ const sqlQuiz = [
       "The IN operator returns true or false if the first operand matches any of the values in the second operand. The IN operator is a shorthand for multiple OR conditions.",
     Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
   },
-
-  {
-    Question:
-      "What SQL clause is used to filter rows from a result set based on a specified condition?",
-    Answer: "WHERE",
-    Distractor1: "HAVING",
-    Distractor2: "GROUP BY",
-    Distractor3: "ORDER BY",
-    Explanation:
-      "The SQL WHERE clause is used to filter rows from a result set based on a specified condition, allowing you to retrieve only the rows that meet the criteria.",
-    Link: "https://www.w3schools.com/sql/sql_where.asp"
-  },
   {
     Question:
       "What SQL statement is used to retrieve unique values from a column?",
