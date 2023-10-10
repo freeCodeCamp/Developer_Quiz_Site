@@ -1330,7 +1330,70 @@ const linuxQuiz = [
     Distractor3: "stop [signal] PID",
     Explanation: "The kill command is used to stop a running process.",
     Link: "https://www.linuxfoundation.org/blog/blog/classic-sysadmin-how-to-kill-a-process-from-the-command-line"
-  }
+  },
+  {
+   Question: "In Linux, what command is used to create a RAM disk or block device with specified size and file system?",
+   Answer: "dd",
+   Distractor1: "mkfs",
+   Distractor2: "mount",
+   Distractor3: "fdisk",
+   Explanation: "The 'dd' command can be used to create a RAM disk by copying data with a specified size, which effectively creates a block device with the desired size and can be formatted with a file system afterward.",
+   Link: "https://www.linuxjournal.com/content/creating-ram-disk-device"
+   },
+   {
+      Question: "In Linux, which command is used to perform a binary file comparison and display the differences between two files?",
+      Answer: "cmp",
+      Distractor1: "diff",
+      Distractor2: "compare",
+      Distractor3: "contrast",
+      Explanation: "The 'cmp' command is used to compare two binary files byte by byte and displays the differences between them, if any.",
+      Link: "https://linux.die.net/man/1/cmp"
+    },
+    {
+      Question: "What Linux command is used to search for text patterns in files and supports regular expressions for advanced pattern matching?",
+      Answer: "grep",
+      Distractor1: "find",
+      Distractor2: "search",
+      Distractor3: "locate",
+      Explanation: "The 'grep' command is used to search for text patterns in files and supports powerful regular expressions for advanced pattern matching.",
+      Link: "https://linux.die.net/man/1/grep"
+    },
+    {
+      Question: "In Linux, what command is used to analyze and display detailed information about system resource usage by processes?",
+      Answer: "top",
+      Distractor1: "ps",
+      Distractor2: "htop",
+      Distractor3: "uptime",
+      Explanation: "The 'top' command provides a real-time view of system resource usage by processes, including CPU, memory, and more.",
+      Link: "https://linux.die.net/man/1/top"
+    },
+    {
+      Question: "Which Linux command is used to securely copy files and directories over SSH?",
+      Answer: "scp",
+      Distractor1: "rsync",
+      Distractor2: "ftp",
+      Distractor3: "wget",
+      Explanation: "The 'scp' command is used for secure copy over SSH, allowing files and directories to be transferred securely between hosts.",
+      Link: "https://linux.die.net/man/1/scp"
+    },
+    {
+      Question: "In Linux, what is the purpose of the 'strace' command, and how is it used for debugging?",
+      Answer: "The 'strace' command is used to trace system calls and signals made by a process. It helps in debugging by providing insights into the system interactions of a running program. To use 'strace', you specify the program's name and its arguments as parameters.",
+      Distractor1: "The 'strace' command is used to check network status.",
+      Distractor2: "The 'strace' command is used to list running processes.",
+      Distractor3: "The 'strace' command is used to analyze memory usage.",
+      Explanation: "Strace can be an invaluable tool for diagnosing issues with programs and understanding their behavior at a system call level.",
+      Link: "https://linux.die.net/man/1/strace"
+    },
+    {
+      Question: "What Linux command is used to view and edit the system's crontab, which controls scheduled tasks and cron jobs?",
+      Answer: "crontab",
+      Distractor1: "cronjob",
+      Distractor2: "taskcron",
+      Distractor3: "cronedit",
+      Explanation: "The 'crontab' command is used to view and edit the cron jobs for a user. It opens the user's crontab file for editing.",
+      Link: "https://linux.die.net/man/1/crontab"
+    },
 ];
 
 export default linuxQuiz;
