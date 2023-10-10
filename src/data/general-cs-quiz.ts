@@ -1607,16 +1607,6 @@ const generalCSQuiz = [
     Explanation:
       "Floyd's Tortoise-Hare Algorithm is for finding a circular Linked list. The Hare is a pointer which jumps 2 nodes while the Tortoise moves one node at a time. In case they both meet, we get a circular linked list. If any of them becomes nullptr, then there is no Circular Linked list.",
     Link: "https://en.wikipedia.org/wiki/Cycle_detection"
-  },
-  {
-    Question: "Which of hte following algorithms is used to find the shortest path between two points in a connected weighted graph?",
-    Answer: "Kruskal Algorithm",
-    Distractor1: "Floyd's Tortoise-Hare Algorithm",
-    Distractor2: "Greedy Algorithms",
-    Distractor3: "Prims Algorithms",
-    Explanation:
-      "Kruskal Algorithm is used to find the shortest path between two points in a connected weighted graph.",
-    Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
   }
 ];
 
