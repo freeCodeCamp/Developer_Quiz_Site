@@ -831,20 +831,22 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
   },
   {
-    Question:
-      "What SQL statement contains a valid subquery?",
-    Answer: "SELECT * FROM employees WHERE wage > (SELECT AVG(wage) FROM employees)",
+    Question: "What SQL statement contains a valid subquery?",
+    Answer:
+      "SELECT * FROM employees WHERE wage > (SELECT AVG(wage) FROM employees)",
     Distractor1: "SELECT MAX(*) FROM employees",
-    Distractor2: "SELECT AVG(wage) FROM employees WHERE name IN ('name1', 'name2', 'name3')",
-    Distractor3: "SELECT country, AVG(wage) FROM employees GROUP BY country LIMIT 3",
+    Distractor2:
+      "SELECT AVG(wage) FROM employees WHERE name IN ('name1', 'name2', 'name3')",
+    Distractor3:
+      "SELECT country, AVG(wage) FROM employees GROUP BY country LIMIT 3",
     Explanation:
       "A SQL subquery is a query inside a query. So, in SQL, a subquery is also called a nested query or an inner query. The outer query in which the inner query is inserted is the main query.",
     Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
   },
   {
-    Question:
-      "What is a good reason to use a temporary table?",
-    Answer: "to store and reuse intermediate query results to avoid redundant computations",
+    Question: "What is a good reason to use a temporary table?",
+    Answer:
+      "to store and reuse intermediate query results to avoid redundant computations",
     Distractor1: "to store data for a short-lived analysis such as 1-2 weeks",
     Distractor2: "to improve database security",
     Distractor3: "to improve query performance",
@@ -862,7 +864,62 @@ const sqlQuiz = [
     Explanation:
       "The IN operator returns true or false if the first operand matches any of the values in the second operand. The IN operator is a shorthand for multiple OR conditions.",
     Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
-}
+  },
+
+  {
+    Question:
+      "What SQL clause is used to filter rows from a result set based on a specified condition?",
+    Answer: "WHERE",
+    Distractor1: "HAVING",
+    Distractor2: "GROUP BY",
+    Distractor3: "ORDER BY",
+    Explanation:
+      "The SQL WHERE clause is used to filter rows from a result set based on a specified condition, allowing you to retrieve only the rows that meet the criteria.",
+    Link: "https://www.w3schools.com/sql/sql_where.asp"
+  },
+  {
+    Question:
+      "What SQL statement is used to retrieve unique values from a column?",
+    Answer: "SELECT DISTINCT",
+    Distractor1: "SELECT UNIQUE",
+    Distractor2: "SELECT UNIQUEVALUES",
+    Distractor3: "SELECT ALL",
+    Explanation:
+      "The SQL SELECT DISTINCT statement is used to retrieve unique values from a column in a database table, eliminating duplicate values.",
+    Link: "https://www.w3schools.com/sql/sql_distinct.asp"
+  },
+  {
+    Question: "In SQL, what does the term 'subquery' refer to?",
+    Answer: "A query nested within another query.",
+    Distractor1: "A query that returns multiple columns.",
+    Distractor2: "A query that joins multiple tables.",
+    Distractor3: "A query that deletes records from a table.",
+    Explanation:
+      "A subquery in SQL refers to a query that is nested within another query, allowing you to perform complex operations and retrieve data from multiple tables.",
+    Link: "https://www.w3schools.com/sql/sql_subqueries.asp"
+  },
+  {
+    Question: "What is the purpose of an SQL JOIN condition?",
+    Answer:
+      "To specify how two tables are related and merged together in a query.",
+    Distractor1: "To filter rows based on a condition.",
+    Distractor2: "To sort the result set in ascending order.",
+    Distractor3: "To limit the number of rows returned.",
+    Explanation:
+      "An SQL JOIN condition is used to specify how two or more tables are related and merged together in a query, enabling you to retrieve data from multiple tables.",
+    Link: "https://www.w3schools.com/sql/sql_join.asp"
+  },
+  {
+    Question:
+      "What SQL statement is used to change the structure of an existing table?",
+    Answer: "ALTER TABLE",
+    Distractor1: "CREATE TABLE",
+    Distractor2: "MODIFY TABLE",
+    Distractor3: "RENAME TABLE",
+    Explanation:
+      "The SQL ALTER TABLE statement is used to change the structure of an existing database table, such as adding, modifying, or deleting columns.",
+    Link: "https://www.w3schools.com/sql/sql_alter.asp"
+  }
 ];
 
 export default sqlQuiz;
