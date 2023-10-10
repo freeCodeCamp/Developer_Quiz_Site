@@ -918,7 +918,7 @@ const sqlQuiz = [
     Distractor3: "RENAME TABLE",
     Explanation:
       "The SQL ALTER TABLE statement is used to change the structure of an existing database table, such as adding, modifying, or deleting columns.",
-    Link: "https://www.w3schools.com/sql/sql_alter.asp"
+    Link: "https://www.freecodecamp.org/news/alter-table-in-sql-how-to-add-a-column-or-rename-a-column-in-sql/"
   },
   {
     Question:
