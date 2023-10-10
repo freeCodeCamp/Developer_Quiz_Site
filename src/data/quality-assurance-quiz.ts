@@ -182,7 +182,61 @@ const qualityAssuranceQuiz = [
     Explanation:
       "A good QA engineer should understand the full life cycle of software products in order to effectively plan and test them. There are 7 phases of the Software Development Life Cycle",
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
-  }
+  },
+  {
+      Question: "What is the primary purpose of a test plan in software quality assurance?",
+      Answer: "A test plan outlines the scope, approach, resources, and schedule for testing activities. Its primary purpose is to guide the testing process and ensure that all aspects of testing are systematically covered.",
+      Distractor1: "A test plan is used to document defects found during testing.",
+      Distractor2: "A test plan specifies the code changes needed to fix defects.",
+      Distractor3: "A test plan is only created after testing is complete.",
+      Explanation: "Test plans are essential for planning, managing, and executing testing efforts in a structured manner. They help teams achieve comprehensive test coverage and meet quality goals.",
+      Link: "https://www.guru99.com/test-plan.html"
+    },
+    {
+      Question: "What is the key difference between functional testing and non-functional testing?",
+      Answer: "Functional testing checks whether a software application performs its intended functions correctly, while non-functional testing focuses on aspects like performance, scalability, security, and usability.",
+      Distractor1: "Functional testing is automated, while non-functional testing is manual.",
+      Distractor2: "Functional testing is concerned with code quality, while non-functional testing checks user interfaces.",
+      Distractor3: "Functional testing verifies user documentation, while non-functional testing assesses data integrity.",
+      Explanation: "Understanding the distinction between functional and non-functional testing is crucial for designing comprehensive test strategies.",
+      Link: "https://www.softwaretestinghelp.com/types-of-software-testing/"
+    },
+    {
+      Question: "What is the 'boundary value analysis' technique in software testing, and how is it applied?",
+      Answer: "Boundary value analysis involves testing values at the boundaries of input domains. Test cases are designed for minimum, maximum, and just beyond boundary values to expose potential defects.",
+      Distractor1: "Boundary value analysis focuses on the middle range of input values.",
+      Distractor2: "Boundary value analysis is only applicable to functional testing.",
+      Distractor3: "Boundary value analysis applies to non-functional testing exclusively.",
+      Explanation: "This technique helps identify issues related to boundary conditions that are often a source of defects in software.",
+      Link: "https://www.guru99.com/boundary-value-analysis-and-equivalence-partitioning.html"
+    },
+    {
+      Question: "What is the purpose of 'equivalence partitioning' in software testing, and how does it work?",
+      Answer: "Equivalence partitioning is a testing technique that divides input data into groups with similar characteristics, treating each group as equivalent. Test cases are then designed to represent each group.",
+      Distractor1: "Equivalence partitioning only applies to user interface testing.",
+      Distractor2: "Equivalence partitioning is used to test code comments.",
+      Distractor3: "Equivalence partitioning is not applicable to functional testing.",
+      Explanation: "Equivalence partitioning reduces the number of test cases needed while ensuring good test coverage by testing representative values from each partition.",
+      Link: "https://www.softwaretestinghelp.com/equivalence-partitioning-guide/"
+    },
+    {
+      Question: "Explain what 'regression testing' is in the context of software quality assurance and why it is important.",
+      Answer: "Regression testing is the process of retesting a software application to ensure that new code changes have not adversely affected existing functionalities. It is important to catch regression defects early and maintain software quality.",
+      Distractor1: "Regression testing focuses on testing new features only.",
+      Distractor2: "Regression testing is only performed after a software release.",
+      Distractor3: "Regression testing is not necessary if thorough initial testing is conducted.",
+      Explanation: "Regression testing is a critical part of the software development lifecycle to prevent the introduction of new defects while making enhancements or fixes.",
+      Link: "https://www.guru99.com/regression-testing.html"
+    },
+    {
+      Question: "What is 'test automation,' and what are the advantages and disadvantages of using test automation in quality assurance?",
+      Answer: "Test automation is the use of software tools and scripts to perform test cases automatically. Advantages include faster testing, repeatability, and reduced human errors, while disadvantages may include high initial setup costs and maintenance overhead.",
+      Distractor1: "Test automation is the same as manual testing.",
+      Distractor2: "Test automation has no advantages over manual testing.",
+      Distractor3: "Test automation is only used for non-functional testing.",
+      Explanation: "Understanding the pros and cons of test automation helps QA teams make informed decisions about when and how to implement it.",
+      Link: "https://www.guru99.com/advantages-and-disadvantages"
+    },
 ];
 
 export default qualityAssuranceQuiz;
