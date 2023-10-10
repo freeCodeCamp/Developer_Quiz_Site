@@ -876,7 +876,7 @@ const sqlQuiz = [
     Distractor3:
       "SELECT employee_name FROM employees WHERE COUNT(SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id) > 0;",
     Explanation:
-      "Check for the existence of at least one task for each employee using the EXISTS operator and the correlated subquery.",
+      "The following SQL statement checks for the existence of at least one task for each employee using the EXISTS operator: SELECT employee_name FROM employees WHERE EXISTS (SELECT 1 FROM tasks WHERE tasks.employee_id = employees.employee_id);",
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
   },
   {
