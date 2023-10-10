@@ -886,7 +886,7 @@ const sqlQuiz = [
     Distractor3: "SELECT ALL",
     Explanation:
       "The SQL SELECT DISTINCT statement is used to retrieve unique values from a column in a database table, eliminating duplicate values.",
-    Link: "https://www.w3schools.com/sql/sql_distinct.asp"
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
   },
   {
     Question: "In SQL, what does the term 'subquery' refer to?",
