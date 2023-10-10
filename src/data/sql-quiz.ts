@@ -963,7 +963,7 @@ const sqlQuiz = [
     Distractor3: "UPDATE ... SET",
     Explanation:
       "The SQL CREATE TABLE ... AS SELECT statement is used to create a new table based on the structure and data of an existing table.",
-    Link: "https://www.w3schools.com/sql/sql_create_table.asp"
+    Link: "https://www.freecodecamp.org/news/sql-create-table-statement-with-example-syntax/"
   },
   {
     Question: "What is the purpose of SQL views?",
