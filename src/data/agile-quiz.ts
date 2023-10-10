@@ -443,7 +443,7 @@ const agileQuiz = [
     Question: "In agile, why is it generally advisable to avoid assigning a very high number of points (e.g 13 points) to a single user story?",
     Answer: "Because high point stories cannot be completed in a single sprint.",
     Distractor1: "Because high point stories are reserved for critical features only.",
-    Distractor2: "Because high point stories indicate a lack detail in the user story.",
+    Distractor2: "Because high point stories indicate a lack of detail in the user story.",
     Distractor3: "Because it is a convention to use lower points values for better accuracy.",
     Explanation:
       "In Agile, assigning a very high number of points to a single user story is generally discouraged because it indicates that the story is too large to be completed within a sprint.",
