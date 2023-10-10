@@ -870,7 +870,7 @@ const sqlQuiz = [
     Distractor2: "Blind SQL Injection",
     Distractor3: "Union SQL Injection",
     Explanation:
-      "Intersection SQL Injection is not a type of SQL injection.",
+      "SQL injection is when you insert or inject a SQL query via input data from the client to the application. Error-Based SQL Injection, Blind SQL Injection, UNION SQL Injection are common types of SQL injections. ",
     Link: "https://www.freecodecamp.org/news/what-is-sql-injection-how-to-prevent-it/"
   }
 ];
