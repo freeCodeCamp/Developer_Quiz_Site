@@ -907,7 +907,7 @@ const sqlQuiz = [
     Distractor3: "To limit the number of rows returned.",
     Explanation:
       "An SQL JOIN condition is used to specify how two or more tables are related and merged together in a query, enabling you to retrieve data from multiple tables.",
-    Link: "https://www.w3schools.com/sql/sql_join.asp"
+    Link: "https://www.freecodecamp.org/news/understanding-sql-joins/"
   },
   {
     Question:
