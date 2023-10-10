@@ -919,6 +919,63 @@ const sqlQuiz = [
     Explanation:
       "The SQL ALTER TABLE statement is used to change the structure of an existing database table, such as adding, modifying, or deleting columns.",
     Link: "https://www.w3schools.com/sql/sql_alter.asp"
+  },
+  {
+    Question:
+      "In SQL, what does the term 'ACID' stand for in the context of database transactions?",
+    Answer: "Atomicity, Consistency, Isolation, Durability",
+    Distractor1: "Aggregation, Compression, Invalidation, Decomposition",
+    Distractor2: "All Columns In Database",
+    Distractor3: "Advanced Concurrent Indexing Design",
+    Explanation:
+      "ACID is an acronym for Atomicity, Consistency, Isolation, and Durability, which are the four properties that ensure the reliability of database transactions.",
+    Link: "https://en.wikipedia.org/wiki/ACID"
+  },
+  {
+    Question: "What is a 'recursive common table expression' (CTE) in SQL?",
+    Answer: "A CTE that can refer to itself in its own definition.",
+    Distractor1: "A CTE that is defined within a recursive stored procedure.",
+    Distractor2: "A CTE that performs table joins.",
+    Distractor3: "A CTE used for complex data aggregations.",
+    Explanation:
+      "A recursive common table expression (CTE) in SQL is a CTE that can refer to itself within its own definition, making it useful for solving hierarchical or recursive problems.",
+    Link: "https://en.wikipedia.org/wiki/Common_table_expressions#Recursive_CTEs"
+  },
+  {
+    Question:
+      "What does the SQL term 'normalization' refer to in the context of database design?",
+    Answer:
+      "A process of organizing data in a database to eliminate redundancy and improve data integrity.",
+    Distractor1: "The process of optimizing SQL query performance.",
+    Distractor2: "A technique for creating database backups.",
+    Distractor3:
+      "The process of converting unstructured data into structured data.",
+    Explanation:
+      "Normalization in SQL is a process that involves organizing data in a database to eliminate redundancy and improve data integrity by reducing data anomalies.",
+    Link: "https://en.wikipedia.org/wiki/Database_normalization"
+  },
+  {
+    Question:
+      "What SQL statement is used to define a new table based on the structure of an existing table?",
+    Answer: "CREATE TABLE ... AS SELECT",
+    Distractor1: "ALTER TABLE ... ADD COLUMN",
+    Distractor2: "INSERT INTO ... VALUES",
+    Distractor3: "UPDATE ... SET",
+    Explanation:
+      "The SQL CREATE TABLE ... AS SELECT statement is used to create a new table based on the structure and data of an existing table.",
+    Link: "https://www.w3schools.com/sql/sql_create_table.asp"
+  },
+  {
+    Question: "What is the purpose of SQL views?",
+    Answer:
+      "To provide a virtual table that simplifies complex queries and enhances security.",
+    Distractor1:
+      "To create temporary tables for storing intermediate query results.",
+    Distractor2: "To define constraints for database tables.",
+    Distractor3: "To enforce data encryption in a database.",
+    Explanation:
+      "SQL views are virtual tables that simplify complex queries, enhance security by restricting access to certain columns, and allow users to work with a predefined subset of data.",
+    Link: "https://www.w3schools.com/sql/sql_view.asp"
   }
 ];
 
