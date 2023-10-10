@@ -901,18 +901,6 @@ const sqlQuiz = [
     Explanation:
       "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
-  },
-  {
-    Question:
-      "What is the primary purpose of the GROUP_CONCAT() function in SQL?",
-    Answer:
-      "To concatenate values from multiple rows into a single string within each group.",
-    Distractor1: "To perform mathematical calculations on grouped data.",
-    Distractor2: "To sort the result set based on a specific column.",
-    Distractor3: "To filter rows based on specified conditions.",
-    Explanation:
-      "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
-    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
   }
 ];
 
