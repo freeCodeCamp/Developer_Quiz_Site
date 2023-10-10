@@ -1,7 +1,7 @@
 const cloudComputingQuiz = [
   {
     Question: "Which cloud platforms offer serverless computing services mentioned in the text?",
-    Answer: " Amazon Lambda and Azure Functions.",
+    Answer: "Amazon Lambda and Azure Functions.",
     Distractor1: "Amazon Elastic Beanstalk and Google Cloud Functions.",
     Distractor2: "Amazon Elastic Beanstalk and Azure App Service.",
     Distractor3: "Google Cloud Run and AWS Fargate.",
