@@ -1668,7 +1668,17 @@ const generalCSQuiz = [
     Explanation:
       "The P vs. NP problem is a fundamental question in computer science and mathematics, addressing the efficiency of solving problems and the class of problems that can be solved efficiently.",
     Link: "https://en.wikipedia.org/wiki/P_versus_NP_problem"
-  }
+  },
+  {
+  Question: "What is the use of a priority queue?",
+  Answer: "A priority queue manages elements based on priority, ensuring higher priority items are processed first.",
+  Distractor1: "It's a queue that organizes elements by their value.",
+  Distractor2: "It's a fixed-size queue.",
+  Distractor3: "It only accepts elements of the same type.",
+  Explanation: "A priority queue is essential in scenarios where certain tasks need to be handled in order of importance or urgency.",
+  Link: "https://www.freecodecamp.org/news/priority-queue-implementation-in-java/"
+}
+
 ];
 
 export default generalCSQuiz;
