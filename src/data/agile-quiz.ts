@@ -438,7 +438,27 @@ const agileQuiz = [
     Explanation:
       "Working software is the primary measure of progress in Agile, according to the seventh principle of the Agile Manifesto. This means that Agile teams focus on delivering software that meets the customer’s needs and provides value. By delivering working software frequently, Agile teams can demonstrate their progress and achievements",
     Link: "https://www.freecodecamp.org/news/you-say-your-team-is-agile-but-that-word-may-not-mean-what-you-think-6dd26eaf9b21/"
-  }
+  },
+  {
+    Question: "In agile, why is it generally advisable to avoid assigning a very high number of points (e.g 13 points) to a single user story?",
+    Answer: "Because high point stories cannot be completed in a single sprint.",
+    Distractor1: "Because high point stories are reserved for critical features only.",
+    Distractor2: "Because high point stories indicate a lack of detail in the user story.",
+    Distractor3: "Because it is a convention to use lower points values for better accuracy.",
+    Explanation:
+      "In Agile, assigning a very high number of points to a single user story is generally discouraged because it indicates that the story is too large to be completed within a sprint.",
+    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/"
+  },
+  {
+    Question: "In agile, what is the primary purpose of a recurring meeting (Dev Huddle) for developers?",
+    Answer: "To align developers' expectations and make technical decisions",
+    Distractor1: "To discuss project timelines and deadlines",
+    Distractor2: "To plan a vacation program",
+    Distractor3: "To provide status updates to stakeholders",
+    Explanation:
+      "A 'Dev Huddle' or a recurring meeting in agile development serve as a forum for developers to discuss technical topics, make decisions regarding architecture, conventions, and other aspects of the tech stack.",
+    Link: "https://www.freecodecamp.org/news/how-to-use-the-dev-huddle-to-get-your-developers-on-the-same-page/"
+  },
 ];
 
 export default agileQuiz;

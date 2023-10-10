@@ -964,6 +964,54 @@ const sqlQuiz = [
     Explanation:
       "SQL views are virtual tables that simplify complex queries, enhance security by restricting access to certain columns, and allow users to work with a predefined subset of data.",
     Link: "https://www.freecodecamp.org/news/sql-create-view-mysql/"
+  },
+  {
+    Question: "What is the primary use of the EXISTS operator in SQL?",
+    Answer: "To check the existence of rows in a subquery result set",
+    Distractor1: "To perform arithmetic operations on columns.",
+    Distractor2: "To concatenate strings from different columns.",
+    Distractor3: "To filter rows based on a specified pattern.",
+    Explanation:
+      "In SQL, the EXISTS operator is a logical operator used to determine if a subquery returns any rows.",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "Which of the following SQL statements retrieves the names of employees who have completed at least one task from the given schema?",
+    Answer:
+      "SELECT employee_name FROM employees WHERE EXISTS (SELECT 1 FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Distractor1:
+      "SELECT employee_name FROM employees WHERE NOT EXISTS (SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Distractor2:
+      "SELECT employee_name FROM employees WHERE EXISTS (SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Distractor3:
+      "SELECT employee_name FROM employees WHERE COUNT(SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id) > 0;",
+    Explanation:
+      "The following SQL statement checks for the existence of at least one task for each employee using the EXISTS operator: SELECT employee_name FROM employees WHERE EXISTS (SELECT 1 FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question: "What is the primary purpose of the CASE statement in SQL?",
+    Answer:
+      "To perform conditional logic and return different values based on specified conditions.",
+    Distractor1: "To sort the result set in ascending order.",
+    Distractor2: "To perform mathematical calculations on columns.",
+    Distractor3: "To join multiple tables in a query.",
+    Explanation:
+      "The CASE statement evaluates a list of conditions and returns one of several possible result expressions.",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "What is the primary purpose of the GROUP_CONCAT() function in SQL?",
+    Answer:
+      "To concatenate values from multiple rows into a single string within each group.",
+    Distractor1: "To perform mathematical calculations on grouped data.",
+    Distractor2: "To sort the result set based on a specific column.",
+    Distractor3: "To filter rows based on specified conditions.",
+    Explanation:
+      "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
   }
 ];
 

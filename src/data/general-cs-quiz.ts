@@ -21,6 +21,16 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
   {
+    Question: "Which of the following algorithms is used to find the shortest path between two points in a connected weighted graph?",
+    Answer: "Kruskal Algorithm",
+    Distractor1: "Floyd's Tortoise-Hare Algorithm",
+    Distractor2: "Greedy Algorithms",
+    Distractor3: "Prims Algorithms",
+    Explanation:
+      "Kruskal Algorithm is used to find the shortest path between two points in a connected weighted graph.",
+    Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
+  },
+  {
     Question: "What does NFC stands for?",
     Answer: "Near-Field Communication",
     Distractor1: "Narrow Field Communication",
@@ -1597,6 +1607,67 @@ const generalCSQuiz = [
     Explanation:
       "Floyd's Tortoise-Hare Algorithm is for finding a circular Linked list. The Hare is a pointer which jumps 2 nodes while the Tortoise moves one node at a time. In case they both meet, we get a circular linked list. If any of them becomes nullptr, then there is no Circular Linked list.",
     Link: "https://en.wikipedia.org/wiki/Cycle_detection"
+  },
+  {
+    Question:
+      "What is the time complexity of the Floyd-Warshall algorithm for finding all shortest paths in a weighted graph?",
+    Answer: "O(V^3)",
+    Distractor1: "O(V log V)",
+    Distractor2: "O(V^2 log V)",
+    Distractor3: "O(E log V)",
+    Explanation:
+      "The Floyd-Warshall algorithm has a time complexity of O(V^3), where V is the number of vertices in the graph.",
+    Link: "https://en.wikipedia.org/wiki/Floyd%E2%80%93Warshall_algorithm"
+  },
+  {
+    Question:
+      "In the context of machine learning, what is the bias-variance trade-off?",
+    Answer:
+      "The balance between underfitting (high bias) and overfitting (high variance) in a model.",
+    Distractor1: "A technique to reduce overfitting in neural networks.",
+    Distractor2:
+      "The trade-off between precision and recall in classification.",
+    Distractor3:
+      "The relationship between accuracy and complexity in algorithms.",
+    Explanation:
+      "The bias-variance trade-off refers to finding the right balance in a machine learning model to avoid underfitting (high bias) and overfitting (high variance).",
+    Link: "https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff"
+  },
+  {
+    Question: "What is the purpose of a Bloom filter in computer science?",
+    Answer:
+      "To test whether an element is a member of a set with a small probability of false positives.",
+    Distractor1: "To compress data for efficient storage.",
+    Distractor2: "To encrypt data for secure transmission.",
+    Distractor3: "To hash passwords for authentication.",
+    Explanation:
+      "A Bloom filter is a data structure used to test membership in a set with a small probability of false positives, making it suitable for tasks like spell checking and network routing.",
+    Link: "https://en.wikipedia.org/wiki/Bloom_filter"
+  },
+  {
+    Question: "What is the purpose of dynamic programming in algorithm design?",
+    Answer:
+      "To solve problems by breaking them into smaller subproblems and storing their solutions to avoid redundant calculations.",
+    Distractor1: "To optimize code for parallel processing.",
+    Distractor2:
+      "To reduce the time complexity of algorithms through loop unrolling.",
+    Distractor3: "To balance load in distributed systems.",
+    Explanation:
+      "Dynamic programming is a technique used to solve problems by breaking them into smaller subproblems and storing their solutions, reducing redundant calculations and improving efficiency.",
+    Link: "https://en.wikipedia.org/wiki/Dynamic_programming"
+  },
+  {
+    Question:
+      "What is the significance of P vs. NP problem in computer science and mathematics?",
+    Answer:
+      "It addresses the question of whether every problem whose solution can be verified quickly can also be solved quickly.",
+    Distractor1: "It defines the class of polynomial-time algorithms.",
+    Distractor2: "It characterizes the complexity of sorting algorithms.",
+    Distractor3:
+      "It studies the relationship between parallel and distributed computing.",
+    Explanation:
+      "The P vs. NP problem is a fundamental question in computer science and mathematics, addressing the efficiency of solving problems and the class of problems that can be solved efficiently.",
+    Link: "https://en.wikipedia.org/wiki/P_versus_NP_problem"
   }
 ];
 
