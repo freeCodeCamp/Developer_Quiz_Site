@@ -862,7 +862,17 @@ const sqlQuiz = [
     Explanation:
       "The IN operator returns true or false if the first operand matches any of the values in the second operand. The IN operator is a shorthand for multiple OR conditions.",
     Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
-}
+  },
+  {
+    Question: "Which of the following is not a type of SQL injection?",
+    Answer: "Intersection SQL Injection",
+    Distractor1: "Error-Based SQL Injection",
+    Distractor2: "Blind SQL Injection",
+    Distractor3: "Union SQL Injection",
+    Explanation:
+      "Intersection SQL Injection is not a type of SQL injection.",
+    Link: "https://www.freecodecamp.org/news/what-is-sql-injection-how-to-prevent-it/"
+  }
 ];
 
 export default sqlQuiz;
