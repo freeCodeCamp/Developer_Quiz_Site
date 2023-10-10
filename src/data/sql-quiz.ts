@@ -975,7 +975,7 @@ const sqlQuiz = [
     Distractor3: "To enforce data encryption in a database.",
     Explanation:
       "SQL views are virtual tables that simplify complex queries, enhance security by restricting access to certain columns, and allow users to work with a predefined subset of data.",
-    Link: "https://www.w3schools.com/sql/sql_view.asp"
+    Link: "https://www.freecodecamp.org/news/sql-create-view-mysql/"
   }
 ];
 
