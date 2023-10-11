@@ -207,7 +207,7 @@ const qualityAssuranceQuiz = [
       Distractor1: "Boundary value analysis focuses on the middle range of input values.",
       Distractor2: "Boundary value analysis is only applicable to functional testing.",
       Distractor3: "Boundary value analysis applies to non-functional testing exclusively.",
-      Explanation: "This technique helps identify issues related to boundary conditions that are often a source of defects in software.",
+      Explanation: "Boundary value analysis involves testing values at the boundaries of input domains. Test cases are designed for minimum, maximum, and just beyond boundary values to expose potential defects.",
       Link: "https://www.guru99.com/boundary-value-analysis-and-equivalence-partitioning.html"
     },
     {
