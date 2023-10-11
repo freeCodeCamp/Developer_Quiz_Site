@@ -1331,15 +1331,6 @@ const linuxQuiz = [
     Explanation: "The kill command is used to stop a running process.",
     Link: "https://www.linuxfoundation.org/blog/blog/classic-sysadmin-how-to-kill-a-process-from-the-command-line"
   },
-  {
-   Question: "In Linux, what command is used to create a RAM disk or block device with specified size and file system?",
-   Answer: "dd",
-   Distractor1: "mkfs",
-   Distractor2: "mount",
-   Distractor3: "fdisk",
-   Explanation: "The 'dd' command can be used to create a RAM disk by copying data with a specified size, which effectively creates a block device with the desired size and can be formatted with a file system afterward.",
-   Link: "https://www.linuxjournal.com/content/creating-ram-disk-device"
-   },
    {
       Question: "In Linux, which command is used to perform a binary file comparison and display the differences between two files?",
       Answer: "cmp",
