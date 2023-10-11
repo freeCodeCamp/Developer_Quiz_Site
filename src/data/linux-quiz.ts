@@ -1364,7 +1364,7 @@ const linuxQuiz = [
       Distractor1: "The 'strace' command is used to check network status.",
       Distractor2: "The 'strace' command is used to list running processes.",
       Distractor3: "The 'strace' command is used to analyze memory usage.",
-      Explanation: "Strace can be an invaluable tool for diagnosing issues with programs and understanding their behavior at a system call level.",
+      Explanation: "The 'strace' command can be an invaluable tool for diagnosing issues with programs and understanding their behavior at a system call level. This command is used to trace system calls and signals made by a process. To use 'strace', you specify the program's name and its arguments as parameters.",
       Link: "https://linux.die.net/man/1/strace"
     },
     {
