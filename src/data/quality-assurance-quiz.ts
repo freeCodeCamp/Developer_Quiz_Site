@@ -212,7 +212,7 @@ const qualityAssuranceQuiz = [
     },
     {
       Question: "What is the purpose of 'equivalence partitioning' in software testing, and how does it work?",
-      Answer: "Equivalence partitioning is a testing technique that divides input data into groups with similar characteristics, treating each group as equivalent. Test cases are then designed to represent each group.",
+      Answer: "Equivalence partitioning is a testing technique that divides input data into groups with similar characteristics, treating each group as equivalent.",
       Distractor1: "Equivalence partitioning only applies to user interface testing.",
       Distractor2: "Equivalence partitioning is used to test code comments.",
       Distractor3: "Equivalence partitioning is not applicable to functional testing.",
