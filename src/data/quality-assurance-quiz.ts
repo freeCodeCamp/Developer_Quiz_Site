@@ -198,7 +198,7 @@ const qualityAssuranceQuiz = [
       Distractor1: "Functional testing is automated, while non-functional testing is manual.",
       Distractor2: "Functional testing is concerned with code quality, while non-functional testing checks user interfaces.",
       Distractor3: "Functional testing verifies user documentation, while non-functional testing assesses data integrity.",
-      Explanation: "Understanding the distinction between functional and non-functional testing is crucial for designing comprehensive test strategies.",
+      Explanation: "Functional testing checks whether a software application performs its intended functions correctly, while non-functional testing focuses on aspects like performance, scalability, security, and usability. Understanding the distinction between functional and non-functional testing is crucial for designing comprehensive test strategies.",
       Link: "https://www.softwaretestinghelp.com/types-of-software-testing/"
     },
     {
