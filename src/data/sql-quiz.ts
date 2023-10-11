@@ -932,7 +932,7 @@ const sqlQuiz = [
     Link: "https://learn.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15"
   },
   {
-    Question: "Write an SQL query to find the top N most frequent values in a column of a table. Display the values and their frequencies in descending order.",
+    Question: "Which SQL query is used to find the top N most frequent values in a column of a table?",
     Answer: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
     Distractor1: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName HAVING Frequency > N ORDER BY Frequency DESC;",
     Distractor2: "SELECT ColumnName, MAX(Frequency) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
