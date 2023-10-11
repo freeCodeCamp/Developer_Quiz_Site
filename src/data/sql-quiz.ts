@@ -937,7 +937,7 @@ const sqlQuiz = [
     Distractor1: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName HAVING Frequency > N ORDER BY Frequency DESC;",
     Distractor2: "SELECT ColumnName, MAX(Frequency) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
     Distractor3: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY ColumnName DESC LIMIT N;",
-    Explanation: "This SQL query groups the data by the column of interest, counts the frequency of each value, and orders the results by frequency in descending order with a limit of N.",
+    Explanation: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N; is a SQL query that is used to find the top N most frequent values in a column of a table. This query  groups the data by the column of interest, counts the frequency of each value, and orders the results by frequency in descending order with a limit of N.",
     Link: "https://www.sqltutorial.org/sql-top-sql-limit/"
   }
 ];
