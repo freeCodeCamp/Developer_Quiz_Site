@@ -18,7 +18,7 @@ const agileQuiz = [
     Explanation:
     "CI/CD tools can be used to automate software building, testing, and deployment, and they often work together with build automation tools to deliver software to production more frequently and with less risk.",
     Link: "https://www.freecodecamp.org/news/how-devops-works/"
-   },
+  },
   {
     Question: "What are the two most popular CI/CD tools?",
     Answer: "Jenkins and GitHub Actions",
@@ -28,8 +28,7 @@ const agileQuiz = [
     Explanation:
     "Both Jenkins and GitHub Actions are powerful CI/CD tools that can help to deliver software faster, with higher quality, and with less risk.",
     Link: "https://www.freecodecamp.org/news/how-devops-works/"
-   },
-  
+  },
   {
     Question: "What are the three primary roles in Scrum and their key responsibilities?",
     Answer: "Product Owner, Scrum Master, and Team Member",
