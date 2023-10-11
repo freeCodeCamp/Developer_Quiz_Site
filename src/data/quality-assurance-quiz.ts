@@ -234,7 +234,7 @@ const qualityAssuranceQuiz = [
       Distractor1: "Test automation is the same as manual testing.",
       Distractor2: "Test automation has no advantages over manual testing.",
       Distractor3: "Test automation is only used for non-functional testing.",
-      Explanation: "Understanding the pros and cons of test automation helps QA teams make informed decisions about when and how to implement it.",
+      Explanation: "Test automation is the use of software tools and scripts to perform test cases automatically. Advantages include faster testing, repeatability, and reduced human errors, while disadvantages may include high initial setup costs and maintenance overhead.",
       Link: "https://www.guru99.com/advantages-and-disadvantages"
     },
 ];
