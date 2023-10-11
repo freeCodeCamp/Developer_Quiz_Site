@@ -866,6 +866,16 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
   },
   {
+    Question: "Which of the following is not a type of SQL injection?",
+    Answer: "Intersection SQL Injection",
+    Distractor1: "Error-Based SQL Injection",
+    Distractor2: "Blind SQL Injection",
+    Distractor3: "Union SQL Injection",
+    Explanation:
+      "SQL injection is when you insert or inject a SQL query via input data from the client to the application. Error-Based SQL Injection, Blind SQL Injection, UNION SQL Injection are common types of SQL injections. ",
+    Link: "https://www.freecodecamp.org/news/what-is-sql-injection-how-to-prevent-it/"
+  },
+  {
     Question: "What is the primary use of the EXISTS operator in SQL?",
     Answer: "To check the existence of rows in a subquery result set",
     Distractor1: "To perform arithmetic operations on columns.",
