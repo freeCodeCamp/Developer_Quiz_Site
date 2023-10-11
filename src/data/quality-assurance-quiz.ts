@@ -195,7 +195,7 @@ const qualityAssuranceQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
   },
   {
-    Question: "Which of the following skills is NOT typically required for a QA engineer",
+    Question: "Which of the following skills is NOT typically required for a QA engineer?",
     Answer: "Proficiency in writing code.",
     Distractor1: "Good time management skills",
     Distractor2: "Strong listening skills",
