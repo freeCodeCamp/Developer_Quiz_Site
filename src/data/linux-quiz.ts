@@ -1359,7 +1359,7 @@ const linuxQuiz = [
       Link: "https://linux.die.net/man/1/scp"
     },
     {
-      Question: "In Linux, what is the purpose of the 'strace' command, and how is it used for debugging?",
+      Question: "In Linux, what is the purpose of the 'strace' command?",
       Answer: "The 'strace' command is used to trace system calls and signals made by a process.",
       Distractor1: "The 'strace' command is used to check network status.",
       Distractor2: "The 'strace' command is used to list running processes.",
