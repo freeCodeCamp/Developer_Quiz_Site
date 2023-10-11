@@ -1360,7 +1360,7 @@ const linuxQuiz = [
     },
     {
       Question: "In Linux, what is the purpose of the 'strace' command, and how is it used for debugging?",
-      Answer: "The 'strace' command is used to trace system calls and signals made by a process. It helps in debugging by providing insights into the system interactions of a running program. To use 'strace', you specify the program's name and its arguments as parameters.",
+      Answer: "The 'strace' command is used to trace system calls and signals made by a process.",
       Distractor1: "The 'strace' command is used to check network status.",
       Distractor2: "The 'strace' command is used to list running processes.",
       Distractor3: "The 'strace' command is used to analyze memory usage.",
