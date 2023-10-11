@@ -467,7 +467,34 @@ const agileQuiz = [
   Distractor3: "To prioritize backlog items.",
   Explanation: "A burndown chart in Agile development is used to track the progress of user stories or tasks throughout a sprint. It visually represents the amount of work remaining over time, helping the team to manage their workload effectively.",
   Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
-  }
+  },
+  {
+    Question: "Which of the following is not something BDD (Behavioral Driven Development) focuses on?",
+    Answer: "How short the code is",
+    Distractor1: "Where to start in the process",
+    Distractor2: "What to test and what not to test",
+    Distractor3: "How much to test in one go",
+    Explanation: "The principal idea behind BDD is how software development should be managed by both business interests and technical insights. It is a software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#behavior-driven-development",
+  },
+  {
+    Question: "In Agile, what is Acceptance Criteria?",
+    Answer: "Tells the Delivery Team how the code should behave.",
+    Distractor1: "The estimated time required to complete a user story.",
+    Distractor2: "A list of tasks to be completed by the development team.",
+    Distractor3: "A document outlining the entire project plan and timelines.",
+    Explanation: "In agile, if a story does not meet each of the Acceptance Criteria, then the Product Owner should not be accepting the story at the end of the iteration. Additionally, acceptance criteria can be viewed as an instrument to protect the Delivery Team. ",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#acceptance-criteria",
+  },
+  {
+    Question: "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
+    Answer: "Deep discussions on architecture or paradigms.",
+    Distractor1: "What you have done since the last DSU.",
+    Distractor2: "What you will be doing after this DSU.",
+    Distractor3: "What are the major obstacles that are stopping your progress, and where do you need help?",
+    Explanation: "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of scrum that allows team members to listen to other's contributions and attempt to identify areas where they can assist each other's progress.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum",
+  },
 ];
 
 export default agileQuiz;
