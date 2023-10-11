@@ -913,33 +913,33 @@ const sqlQuiz = [
       "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
   },
-  {
-    Question: "Which SQL query is used to find the nth highest salary from the 'Employees' table?",
-    Answer: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT 1 OFFSET n-1;",
-    Distractor1: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary ASC LIMIT n, 1;",
-    Distractor2: "SELECT MAX(Salary) FROM Employees WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employees);",
-    Distractor3: "SELECT Salary FROM Employees WHERE Salary IN (SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT n) ORDER BY Salary ASC LIMIT 1;",
-    Explanation: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT 1 OFFSET n-1; is the correct SQL query to find the nth highest salary from the 'Employees' table. This query selects distinct salary values, orders them in descending order, and retrieves the nth row using 'LIMIT 1 OFFSET n-1'.",
-    Link: "https://stackoverflow.com/questions/13759804/sql-query-to-fetch-the-nth-highest-salary-from-a-table"
+   {
+    Question: "What is the purpose of the SQL ORDER BY clause?",
+    Answer: "To sort the result set based on one or more columns in ascending or descending order.",
+    Distractor1: "To filter rows based on specified conditions.",
+    Distractor2: "To group the result set based on common values in a column.",
+    Distractor3: "To calculate the total of a numeric column.",
+    Explanation: "The ORDER BY clause is used for sorting query results in SQL.",
+    Link: "https://www.freecodecamp.org/news/ascending-order-with-sql-order-by/#:~:text=You%20can%20sort%20your%20table,to%20use%20the%20DESC%20keyword."
+   },
+   {
+    Question: "What is the purpose of the SQL SELECT statement?",
+    Answer: "To retrieve data from one or more tables.",
+    Distractor1: "To update data in a table.",
+    Distractor2: "To delete data from a table.",
+    Distractor3: "To create a new table.",
+    Explanation: "The SELECT statement is used to retrieve data from one or more tables in a database.",
+    Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
   },
   {
-    Question: "Write an SQL query to calculate the total revenue for each product by multiplying the 'UnitPrice' and 'Quantity' columns in the 'OrderDetails' table. Display the product name and total revenue.",
-    Answer: "SELECT Products.ProductName, SUM(OrderDetails.UnitPrice * OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Distractor1: "SELECT Products.ProductName, (OrderDetails.UnitPrice + OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Distractor2: "SELECT Products.ProductName, AVG(OrderDetails.UnitPrice * OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Distractor3: "SELECT Products.ProductName, MAX(OrderDetails.UnitPrice * OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Explanation: "This SQL query joins the 'OrderDetails' and 'Products' tables, calculates the total revenue for each product, and groups the results by product name.",
-    Link: "https://learn.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15"
-  },
-  {
-    Question: "Which SQL query is used to find the top N most frequent values in a column of a table?",
-    Answer: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
-    Distractor1: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName HAVING Frequency > N ORDER BY Frequency DESC;",
-    Distractor2: "SELECT ColumnName, MAX(Frequency) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
-    Distractor3: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY ColumnName DESC LIMIT N;",
-    Explanation: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N; is a SQL query that is used to find the top N most frequent values in a column of a table. This query  groups the data by the column of interest, counts the frequency of each value, and orders the results by frequency in descending order with a limit of N.",
-    Link: "https://www.sqltutorial.org/sql-top-sql-limit/"
-  }
+   Question: "In SQL, what is the difference between INNER JOIN and LEFT JOIN?",
+   Answer: "INNER JOIN returns only matching rows from both tables, while LEFT JOIN returns all rows from the left table and the matching rows from the right table.",
+   Distractor1: "INNER JOIN returns all rows from both tables, while LEFT JOIN returns only matching rows from the left table.",
+   Distractor2: "INNER JOIN returns all rows from the left table and the matching rows from the right table, while LEFT JOIN returns only matching rows from both tables.",
+   Distractor3: "INNER JOIN and LEFT JOIN are the same; they return all rows from both tables.",
+   Explanation: "INNER JOIN and LEFT JOIN are types of table joins that behave differently in terms of the rows they return.",
+   Link: "https://www.freecodecamp.org/news/sql-join-types-inner-join-vs-outer-join-example/"
+ }
 ];
 
 export default sqlQuiz;
