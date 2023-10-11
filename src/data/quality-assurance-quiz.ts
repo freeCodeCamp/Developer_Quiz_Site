@@ -230,7 +230,7 @@ const qualityAssuranceQuiz = [
     },
     {
       Question: "What is 'test automation'?",
-      Answer: "Test automation is the use of software tools and scripts to perform test cases automatically. Advantages include faster testing, repeatability, and reduced human errors, while disadvantages may include high initial setup costs and maintenance overhead.",
+      Answer: "Test automation is the use of software tools and scripts to perform test cases automatically.",
       Distractor1: "Test automation is the same as manual testing.",
       Distractor2: "Test automation has no advantages over manual testing.",
       Distractor3: "Test automation is only used for non-functional testing.",
