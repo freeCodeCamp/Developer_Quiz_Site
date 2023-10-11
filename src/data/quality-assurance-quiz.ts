@@ -182,6 +182,27 @@ const qualityAssuranceQuiz = [
     Explanation:
       "A good QA engineer should understand the full life cycle of software products in order to effectively plan and test them. There are 7 phases of the Software Development Life Cycle",
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question:
+      "What is the primary focus of quality assurance (QA) in the Software Development process, as compared to quality control (QC)?",
+    Answer: "QA focuses on proactive processes and adherence to quality standards, while QC is primarily concerned with reactive corrections",
+    Distractor1: "QA focuses on inspection and testing, while QC focuses on documentation, and audits.",
+    Distractor2: "QA and QC implies the same thing and can be used interchangeably.",
+    Distractor3: "QC is perfomed before QA.",
+    Explanation:
+      "QA focuses more on proactive processes while QC focuses more on reactive corrections. QA is concerned with processes and adherence, while QC is centered on inspections, testing and making corrections.",
+    Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question: "Which of the following skills is NOT typically required for a QA engineer?",
+    Answer: "Proficiency in writing code.",
+    Distractor1: "Good time management skills",
+    Distractor2: "Strong listening skills",
+    Distractor3: "Attention to detail",
+    Explanation:
+      "Core skills needed for becoming a good QA engineer are good time management skills, strong listening skills and attention to detail.",
+    Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
   }
 ];
 
