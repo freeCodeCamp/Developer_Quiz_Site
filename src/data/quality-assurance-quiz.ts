@@ -185,7 +185,7 @@ const qualityAssuranceQuiz = [
   },
   {
       Question: "What is the primary purpose of a test plan in software quality assurance?",
-      Answer: "A test plan outlines the scope, approach, resources, and schedule for testing activities. Its primary purpose is to guide the testing process and ensure that all aspects of testing are systematically covered.",
+      Answer: "A test plan outlines the scope, approach, resources, and schedule for testing activities.",
       Distractor1: "A test plan is used to document defects found during testing.",
       Distractor2: "A test plan specifies the code changes needed to fix defects.",
       Distractor3: "A test plan is only created after testing is complete.",
