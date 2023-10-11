@@ -914,7 +914,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
   },
   {
-    Question: "Write an SQL query to find the nth highest salary from the 'Employees' table. If there is no nth highest salary, return 'NULL'.",
+    Question: "Which SQL query is used to find the nth highest salary from the 'Employees' table?",
     Answer: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT 1 OFFSET n-1;",
     Distractor1: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary ASC LIMIT n, 1;",
     Distractor2: "SELECT MAX(Salary) FROM Employees WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employees);",
