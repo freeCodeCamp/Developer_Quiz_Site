@@ -191,7 +191,7 @@ const qualityAssuranceQuiz = [
     Distractor2: "QA and QC implies the same thing and can be used interchangeably.",
     Distractor3: "QC is perfomed before QA.",
     Explanation:
-      "QA focuses more on proactive processes while QC focuses more on reactive corrections. QA is concerned with processes and aadherence, while QC is centered on inspections, testing and making corrections.",
+      "QA focuses more on proactive processes while QC focuses more on reactive corrections. QA is concerned with processes and adherence, while QC is centered on inspections, testing and making corrections.",
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
   },
   {
