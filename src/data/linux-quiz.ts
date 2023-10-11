@@ -1376,6 +1376,15 @@ const linuxQuiz = [
       Explanation: "The 'crontab' command is used to view and edit the cron jobs for a user. It opens the user's crontab file for editing.",
       Link: "https://linux.die.net/man/1/crontab"
     },
+    {
+      Question: "How does Linux work on Ubuntu?",
+      Answer: "Linux kernel serves as an interface between hardware and software.",
+      Distractor1: "Ubuntu kernel is entirely separate from Linux.",
+      Distractor2: "Ubuntu uses a proprietary operating system.",
+      Distractor3: "Linux operates without a kernel on Ubuntu.",
+      Explanation: "The Linux kernel, which manages system resources, acts as the bridge between the hardware and software on Ubuntu. It initializes hardware, establishes the system environment, and loads nece>
+      Link: "https://www.freecodecamp.org/news/introduction-to-linux/"
+    }
 ];
 
 export default linuxQuiz;
