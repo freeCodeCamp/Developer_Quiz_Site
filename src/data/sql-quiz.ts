@@ -919,7 +919,7 @@ const sqlQuiz = [
     Distractor1: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary ASC LIMIT n, 1;",
     Distractor2: "SELECT MAX(Salary) FROM Employees WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employees);",
     Distractor3: "SELECT Salary FROM Employees WHERE Salary IN (SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT n) ORDER BY Salary ASC LIMIT 1;",
-    Explanation: "This SQL query selects distinct salary values, orders them in descending order, and retrieves the nth row using 'LIMIT 1 OFFSET n-1'. Replace 'n' with the desired rank.",
+    Explanation: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT 1 OFFSET n-1; is the correct SQL query to find the nth highest salary from the 'Employees' table. This query selects distinct salary values, orders them in descending order, and retrieves the nth row using 'LIMIT 1 OFFSET n-1'.",
     Link: "https://stackoverflow.com/questions/13759804/sql-query-to-fetch-the-nth-highest-salary-from-a-table"
   },
   {
