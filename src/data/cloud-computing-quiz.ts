@@ -1,5 +1,23 @@
 const cloudComputingQuiz = [
   {
+    Question: "Which of the following is an example of a major IaaS player?",
+    Answer: "Amazon EC2",
+    Distractor1: "AWS Elastic Beanstalk",
+    Distractor2: "Salesforce Lightning Platform",
+    Distractor3: "Google G Suite",
+    Explanation: "Amazon Elastic Compute Cloud (EC2) is a well-known and widely used Infrastructure as a Service (IaaS) offering provided by Amazon Web Services (AWS).",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is the primary responsibility of users in an Infrastructure as a Service (IaaS) environment?",
+    Answer: "Managing the operating system and software.",
+    Distractor1: "Managing hardware, networking, and security elements.",
+    Distractor2: "Managing end-user interfaces.",
+    Distractor3: "Managing data and code deployment.",
+    Explanation: "In an IaaS environment, the provider takes care of the underlying hardware, networking, and security, while users are responsible for managing the operating system and any additional software they install on their virtual server instances.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
     Question: "Which cloud platforms offer serverless computing services mentioned in the text?",
     Answer: "Amazon Lambda and Azure Functions.",
     Distractor1: "Amazon Elastic Beanstalk and Google Cloud Functions.",
