@@ -202,7 +202,7 @@ const qualityAssuranceQuiz = [
       Link: "https://www.softwaretestinghelp.com/types-of-software-testing/"
     },
     {
-      Question: "What is the 'boundary value analysis' technique in software testing, and how is it applied?",
+      Question: "What is the 'boundary value analysis' technique in software testing?",
       Answer: "Boundary value analysis involves testing values at the boundaries of input domains.",
       Distractor1: "Boundary value analysis focuses on the middle range of input values.",
       Distractor2: "Boundary value analysis is only applicable to functional testing.",
