@@ -203,7 +203,7 @@ const qualityAssuranceQuiz = [
     },
     {
       Question: "What is the 'boundary value analysis' technique in software testing, and how is it applied?",
-      Answer: "Boundary value analysis involves testing values at the boundaries of input domains. Test cases are designed for minimum, maximum, and just beyond boundary values to expose potential defects.",
+      Answer: "Boundary value analysis involves testing values at the boundaries of input domains.",
       Distractor1: "Boundary value analysis focuses on the middle range of input values.",
       Distractor2: "Boundary value analysis is only applicable to functional testing.",
       Distractor3: "Boundary value analysis applies to non-functional testing exclusively.",
