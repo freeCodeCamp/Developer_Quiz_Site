@@ -1341,15 +1341,6 @@ const linuxQuiz = [
       Link: "https://linux.die.net/man/1/cmp"
     },
     {
-      Question: "What Linux command is used to search for text patterns in files and supports regular expressions for advanced pattern matching?",
-      Answer: "grep",
-      Distractor1: "find",
-      Distractor2: "search",
-      Distractor3: "locate",
-      Explanation: "The 'grep' command is used to search for text patterns in files and supports powerful regular expressions for advanced pattern matching.",
-      Link: "https://linux.die.net/man/1/grep"
-    },
-    {
       Question: "In Linux, what command is used to analyze and display detailed information about system resource usage by processes?",
       Answer: "top",
       Distractor1: "ps",
