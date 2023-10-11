@@ -1331,33 +1331,6 @@ const linuxQuiz = [
     Explanation: "The kill command is used to stop a running process.",
     Link: "https://www.linuxfoundation.org/blog/blog/classic-sysadmin-how-to-kill-a-process-from-the-command-line"
   },
-  {
-    Question: "Write an SQL query to find the nth highest salary from the 'Employees' table. If there is no nth highest salary, return 'NULL'.",
-    Answer: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT 1 OFFSET n-1;",
-    Distractor1: "SELECT DISTINCT Salary FROM Employees ORDER BY Salary ASC LIMIT n, 1;",
-    Distractor2: "SELECT MAX(Salary) FROM Employees WHERE Salary NOT IN (SELECT MAX(Salary) FROM Employees);",
-    Distractor3: "SELECT Salary FROM Employees WHERE Salary IN (SELECT DISTINCT Salary FROM Employees ORDER BY Salary DESC LIMIT n) ORDER BY Salary ASC LIMIT 1;",
-    Explanation: "This SQL query selects distinct salary values, orders them in descending order, and retrieves the nth row using 'LIMIT 1 OFFSET n-1'. Replace 'n' with the desired rank.",
-    Link: "https://stackoverflow.com/questions/13759804/sql-query-to-fetch-the-nth-highest-salary-from-a-table"
-  },
-  {
-    Question: "Write an SQL query to calculate the total revenue for each product by multiplying the 'UnitPrice' and 'Quantity' columns in the 'OrderDetails' table. Display the product name and total revenue.",
-    Answer: "SELECT Products.ProductName, SUM(OrderDetails.UnitPrice * OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Distractor1: "SELECT Products.ProductName, (OrderDetails.UnitPrice + OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Distractor2: "SELECT Products.ProductName, AVG(OrderDetails.UnitPrice * OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Distractor3: "SELECT Products.ProductName, MAX(OrderDetails.UnitPrice * OrderDetails.Quantity) AS TotalRevenue FROM OrderDetails JOIN Products ON OrderDetails.ProductID = Products.ProductID GROUP BY Products.ProductName;",
-    Explanation: "This SQL query joins the 'OrderDetails' and 'Products' tables, calculates the total revenue for each product, and groups the results by product name.",
-    Link: "https://learn.microsoft.com/en-us/sql/t-sql/queries/select-transact-sql?view=sql-server-ver15"
-  },
-  {
-    Question: "Write an SQL query to find the top N most frequent values in a column of a table. Display the values and their frequencies in descending order.",
-    Answer: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
-    Distractor1: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName HAVING Frequency > N ORDER BY Frequency DESC;",
-    Distractor2: "SELECT ColumnName, MAX(Frequency) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY Frequency DESC LIMIT N;",
-    Distractor3: "SELECT ColumnName, COUNT(*) AS Frequency FROM TableName GROUP BY ColumnName ORDER BY ColumnName DESC LIMIT N;",
-    Explanation: "This SQL query groups the data by the column of interest, counts the frequency of each value, and orders the results by frequency in descending order with a limit of N.",
-    Link: "https://www.sqltutorial.org/sql-top-sql-limit/"
-  }
 ];
 
 export default linuxQuiz;
