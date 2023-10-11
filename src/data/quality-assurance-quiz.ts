@@ -211,7 +211,7 @@ const qualityAssuranceQuiz = [
       Link: "https://www.guru99.com/boundary-value-analysis-and-equivalence-partitioning.html"
     },
     {
-      Question: "What is the purpose of 'equivalence partitioning' in software testing, and how does it work?",
+      Question: "What is the purpose of 'equivalence partitioning' in software testing?",
       Answer: "Equivalence partitioning is a testing technique that divides input data into groups with similar characteristics, treating each group as equivalent.",
       Distractor1: "Equivalence partitioning only applies to user interface testing.",
       Distractor2: "Equivalence partitioning is used to test code comments.",
