@@ -1378,7 +1378,7 @@ const linuxQuiz = [
     },
     {
       Question: "How does Linux work on Ubuntu?",
-      Answer: "Linux kernel serves as an interface between hardware and software.",
+      Answer: "The Linux kernel serves as an interface between hardware and software.",
       Distractor1: "Ubuntu kernel is entirely separate from Linux.",
       Distractor2: "Ubuntu uses a proprietary operating system.",
       Distractor3: "Linux operates without a kernel on Ubuntu.",
