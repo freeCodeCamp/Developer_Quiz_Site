@@ -1382,8 +1382,7 @@ const linuxQuiz = [
       Distractor1: "Ubuntu kernel is entirely separate from Linux.",
       Distractor2: "Ubuntu uses a proprietary operating system.",
       Distractor3: "Linux operates without a kernel on Ubuntu.",
-      Explanation: "The Linux kernel, which manages system resources, acts as the bridge between the hardware and software on Ubuntu. It initializes hardware, establishes the system environment,loads necessar
-y drivers, allowing applications to run on top of it. This fundamental structure is common to all Linux distributions, including Ubuntu.",
+      Explanation: "The Linux kernel, which manages system resources, acts as the bridge between the hardware and software on Ubuntu. It initializes hardware, establishes the system environment, loads necessary drivers, and allows applications to run on top of it. This fundamental structure is common to all Linux distributions, including Ubuntu.",
       Link: "https://www.freecodecamp.org/news/introduction-to-linux/"
     }
 ];
