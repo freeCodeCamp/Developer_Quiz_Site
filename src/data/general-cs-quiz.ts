@@ -1703,7 +1703,7 @@ const generalCSQuiz = [
   Distractor2: "A stack and a queue are both unordered collections of elements.",
   Distractor3: "A stack and a queue are not used in computer programming.",
   Explanation: "Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
-  Link: "https://en.wikipedia.org/wiki/Stack_(abstract_data_type)",
+  Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
 },
 {
   Question: "What is the purpose of an algorithm in computer science?",
