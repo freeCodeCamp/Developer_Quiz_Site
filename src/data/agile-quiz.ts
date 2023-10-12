@@ -467,7 +467,52 @@ const agileQuiz = [
   Distractor3: "To prioritize backlog items.",
   Explanation: "A burndown chart in Agile development is used to track the progress of user stories or tasks throughout a sprint. It visually represents the amount of work remaining over time, helping the team to manage their workload effectively.",
   Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
-  }
+  },
+  {
+    "Question": "What is the purpose of a burndown chart in Agile development?",
+    "Answer": "To track the progress of user stories throughout a sprint.",
+    "Distractor1": "To estimate the total cost of a project.",
+    "Distractor2": "To assign tasks to team members.",
+    "Distractor3": "To prioritize backlog items.",
+    "Explanation": "A burndown chart in Agile development is used to track the progress of user stories or tasks throughout a sprint. It visually represents the amount of work remaining over time, helping the team to manage their workload effectively.",
+    "Link": "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+   },
+    {
+        Question: "What is the purpose of a daily stand-up meeting in Agile?",
+        Answer: "To provide team members with a quick, daily update on progress, identify and address issues, and synchronize their work.",
+        Distractor1: "To discuss long-term project strategy and planning.",
+        Distractor2: "To assign tasks for the entire sprint.",
+        Distractor3: "To review the project's final deliverables.",
+        Explanation: "Daily stand-up meetings in Agile, also known as daily scrums, serve to provide team members with a daily opportunity to share updates on their work, identify any issues, and ensure that the team is aligned and focused on the sprint goal.",
+        Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+      },
+      {
+        Question: "What is the purpose of a Product Owner in Agile?",
+        Answer: "To represent the customer or stakeholder's interests, prioritize the backlog, and make decisions regarding what features should be developed.",
+        Distractor1: "To manage the technical aspects of the development process.",
+        Distractor2: "To facilitate daily stand-up meetings.",
+        Distractor3: "To write code for the project.",
+        Explanation: "The Product Owner plays a crucial role in Agile by acting as the voice of the customer, ensuring that the team is working on the most valuable features, and making decisions to maximize the project's ROI.",
+        Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/#:~:text=Scrum%20Roles,on%20the%20most%20valuable%20features."
+      },
+      {
+        Question: "What is the primary goal of a retrospective meeting in Agile?",
+        Answer: "To reflect on the past sprint, identify areas for improvement, and make actionable changes for the next sprint.",
+        Distractor1: "To assign tasks for the upcoming sprint.",
+        Distractor2: "To review and approve project budgets.",
+        Distractor3: "To create the initial project backlog.",
+        Explanation: "Retrospective meetings are essential for continuous improvement in Agile. They provide a structured opportunity for the team to assess their work, discuss what went well and what didn't, and plan for improvements in the next sprint.",
+        Link:"https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+      },
+      {
+        Question: "What is the role of a Scrum Master in Agile development?",
+        Answer: "To facilitate the Scrum process, remove impediments, and ensure the team follows Agile principles and practices.",
+        Distractor1: "To manage the project's finances and budgets.",
+        Distractor2: "To write code for the project.",
+        Distractor3: "To prioritize backlog items.",
+        Explanation: "The Scrum Master acts as a servant-leader for the team, helping them understand and apply Agile principles, facilitating meetings, and removing obstacles that may hinder the team's progress.",
+        Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/"
+      },
 ];
 
 export default agileQuiz;
