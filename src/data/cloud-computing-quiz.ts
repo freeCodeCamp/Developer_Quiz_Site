@@ -14,7 +14,7 @@ const cloudComputingQuiz = [
     Distractor1: "IaaS solutions",
     Distractor2: "PaaS solutions",
     Distractor3: "Graphic design solutions",
-    Explanation: "Both Microsoft Office 365 and Google G Suite are examples of Software as a Service (SaaS) office productivity tools, providing applications like word processing, spreadsheets, and email as online services.",
+    Explanation: "Both Microsoft Office 365 and Google G Suite are cloud based examples of Software as a Service (SaaS) office productivity tools, providing applications like word processing, spreadsheets, and email as online services.",
     Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
   },
   {
