@@ -1,5 +1,25 @@
 const generalCSQuiz = [
   {
+    Question: "What is the time complexity of inserting an element into a linked list at the beginning?",
+    Answer: "O(1)",
+    Distractor1: "O(log n)",
+    Distractor2: "O(n)",
+    Distractor3: "O(n2)",
+    Explanation:
+      "The time complexity involved to insert a node at the head of the linked list as well as to append at the tail is O(1).",
+    Link: "https://www.freecodecamp.org/news/data-structures-101-linked-lists-254c82cf5883/"
+  },
+  {
+    Question: "What is the time complexity of Bellman Ford's Algorithm?",
+    Answer: "O(V*E)",
+    Distractor1: "O(V)",
+    Distractor2: "O(E)",
+    Distractor3: "O(V+E)",
+    Explanation:
+      "Bellman Ford's algorithm is a shortest path finding algorithm for graphs that can have negative weights having the optimal time complexity of O(V*E).",
+    Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/"
+  },
+  {
     Question: "What is the acceptable range of Balance Factor for an AVL tree?",
     Answer: "[-1,1]",
     Distractor1: "[0,1]",
