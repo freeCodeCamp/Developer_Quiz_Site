@@ -1702,7 +1702,7 @@ const generalCSQuiz = [
   Distractor1: "A stack and a queue have the same behavior and are interchangeable in data structures.",
   Distractor2: "A stack and a queue are both unordered collections of elements.",
   Distractor3: "A stack and a queue are not used in computer programming.",
-  Explanation: "Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
+  Explanation: "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
   Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
 },
 {
