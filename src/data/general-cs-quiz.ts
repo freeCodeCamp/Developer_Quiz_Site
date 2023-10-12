@@ -1705,15 +1705,6 @@ const generalCSQuiz = [
   Explanation: "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
   Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
 },
-{
-  Question: "What is the purpose of an algorithm in computer science?",
-  Answer:"Algorithms provide step-by-step instructions for solving problems efficiently and accurately.",
-  Distractor1: "Algorithms are only used in theoretical computer science, not in practical applications.",
-  Distractor2: "The sole purpose of an algorithm is to make software run as fast as possible.",
-  Distractor3: "Algorithms are only used in computer hardware design.",
-  Explanation: "Algorithms are fundamental in computer science and play a critical role in various fields, from data analysis to software development.",
-  Link: "https://en.wikipedia.org/wiki/Algorithm"
-}
 ];
 
 export default generalCSQuiz;
