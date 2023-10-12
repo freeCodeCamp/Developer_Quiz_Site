@@ -1,5 +1,44 @@
 const qualityAssuranceQuiz = [
   {
+    Question: "What is Cross-Browser Compatibility Testing?",
+    Answer:
+      "Quality assurance process in web development to ensure a website functions consistently across different web browsers.",
+    Distractor1: "A method for developing new web browsers.",
+    Distractor2: "A technique for improving website performance.",
+    Distractor3: "A term for website accessibility testing.",
+    Explanation:
+      "Cross-Browser Compatibility Testing is crucial to deliver a consistent user experience across various web browsers, ensuring that a website works correctly and looks the same in all of them.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
+  },
+  {
+    Question: "Why is Cross-Browser Compatibility Testing important?",
+    Answer:
+      "Ensures a consistent user experience, maximizes market reach, maintains credibility, adapts to mobile devices, impacts SEO, and reduces support and maintenance.",
+    Distractor1:
+      "It is a non-essential practice in web development that primarily focuses on the visual design and layout of websites.",
+    Distractor2:
+      "It primarily addresses website performance, aiming to make sites load faster and use fewer resources, which is beneficial for user experience.",
+    Distractor3:
+      "It mainly concerns itself with enhancing website security by implementing encryption protocols and firewalls to protect user data.",
+    Explanation:
+      "Cross-Browser Compatibility Testing is crucial for various reasons, including user experience, market reach, credibility, mobile adaptability, SEO, and reducing ongoing support and maintenance efforts.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
+  },
+  {
+    Question: "What are common cross-browser compatibility issues?",
+    Answer:
+      "Differences in rendering, CSS styles, plugin compatibility, third-party dependencies, and browser-specific bugs.",
+    Distractor1:
+      "Cross-browser testing typically reveals no issues, as all browsers have standardized their rendering engines.",
+    Distractor2:
+      "Common issues often involve minor visual discrepancies in font sizes and spacing due to browser rendering inconsistencies.",
+    Distractor3:
+      "All browsers interpret code in the same way, resulting in a uniform user experience and visual presentation.",
+    Explanation:
+      "Common issues in cross-browser compatibility include rendering disparities, CSS style variations, plugin compatibility problems, third-party dependency issues, and browser-specific bugs.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
+  },
+  {
     Question:
       "What is the purpose of a test case execution report in software testing?",
     Answer: "To track the progress of test execution",
@@ -182,6 +221,59 @@ const qualityAssuranceQuiz = [
     Explanation:
       "A good QA engineer should understand the full life cycle of software products in order to effectively plan and test them. There are 7 phases of the Software Development Life Cycle",
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question:
+      "What is the primary focus of quality assurance (QA) in the Software Development process, as compared to quality control (QC)?",
+    Answer:
+      "QA focuses on proactive processes and adherence to quality standards, while QC is primarily concerned with reactive corrections",
+    Distractor1:
+      "QA focuses on inspection and testing, while QC focuses on documentation, and audits.",
+    Distractor2:
+      "QA and QC implies the same thing and can be used interchangeably.",
+    Distractor3: "QC is perfomed before QA.",
+    Explanation:
+      "QA focuses more on proactive processes while QC focuses more on reactive corrections. QA is concerned with processes and adherence, while QC is centered on inspections, testing and making corrections.",
+    Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question:
+      "Which of the following skills is NOT typically required for a QA engineer?",
+    Answer: "Proficiency in writing code.",
+    Distractor1: "Good time management skills",
+    Distractor2: "Strong listening skills",
+    Distractor3: "Attention to detail",
+    Explanation:
+      "Core skills needed for becoming a good QA engineer are good time management skills, strong listening skills and attention to detail.",
+    Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question: "What is the scope of cross-browser testing?",
+    Answer:
+      "Focused on ensuring a website functions consistently across various web browsers.",
+    Distractor1:
+      "Cross-browser testing extends to evaluating all aspects of a website, including its design, content, and features, excluding only the browsers themselves.",
+    Distractor2:
+      "It's exclusively centered on analyzing the unique features and capabilities of a single web browser to enhance user experience.",
+    Distractor3:
+      "It encompasses the assessment of every website on the internet to guarantee their optimal performance and user satisfaction.",
+    Explanation:
+      "Cross-Browser Testing specifically targets ensuring a website's consistency across different web browsers and their versions.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
+  },
+  {
+    Question:
+      "How does compatibility testing differ from cross-browser testing?",
+    Answer:
+      "Compatibility testing is broader, assessing different operating systems, devices, screen sizes, and network conditions, while cross-browser testing focuses specifically on browsers.",
+    Distractor1: "Compatibility testing is limited to a single web browser.",
+    Distractor2:
+      "Compatibility testing and cross-browser testing are the same thing.",
+    Distractor3:
+      "Compatibility testing only checks the appearance of a website.",
+    Explanation:
+      "Compatibility testing encompasses a wide range of factors, including operating systems, devices, screen sizes, and network conditions, while cross-browser testing concentrates on web browsers.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
   }
 ];
 

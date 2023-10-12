@@ -1,5 +1,35 @@
 const agileQuiz = [
   {
+    Question: "What is the average duration for sprints?",
+    Answer: "2 weeks to a month",
+    Distractor1: "3 weeks to 6 weeks",
+    Distractor2: "1 month to 3 months",
+    Distractor3: "3 months to 6 months",
+    Explanation:
+    "The average duration for sprints is usually two weeks to a month which can vary based on the projects and the team size involved",
+    Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
+  },
+  {
+    Question: "What is the main purpose of continuous integration and continuous delivery(CI/CD)?",
+    Answer: "To automate the software development and delivery process",
+    Distractor1: "To reduce the cost of software development.",
+    Distractor2: "To improve the quality of software.",
+    Distractor3: "To increase the number of features released in a given period of time.",
+    Explanation:
+    "CI/CD tools can be used to automate software building, testing, and deployment, and they often work together with build automation tools to deliver software to production more frequently and with less risk.",
+    Link: "https://www.freecodecamp.org/news/how-devops-works/"
+  },
+  {
+    Question: "What are the two most popular CI/CD tools?",
+    Answer: "Jenkins and GitHub Actions",
+    Distractor1: "Selenium",
+    Distractor2: "Docker",
+    Distractor3: "Kubernetes",
+    Explanation:
+    "Both Jenkins and GitHub Actions are powerful CI/CD tools that can help to deliver software faster, with higher quality, and with less risk.",
+    Link: "https://www.freecodecamp.org/news/how-devops-works/"
+  },
+  {
     Question: "What are the three primary roles in Scrum and their key responsibilities?",
     Answer: "Product Owner, Scrum Master, and Team Member",
     Distractor1: "CEO, CTO, web master",
@@ -513,6 +543,33 @@ const agileQuiz = [
         Explanation: "The Scrum Master acts as a servant-leader for the team, helping them understand and apply Agile principles, facilitating meetings, and removing obstacles that may hinder the team's progress.",
         Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/"
       },
+      {
+    Question: "Which of the following is not something BDD (Behavioral Driven Development) focuses on?",
+    Answer: "How short the code is",
+    Distractor1: "Where to start in the process",
+    Distractor2: "What to test and what not to test",
+    Distractor3: "How much to test in one go",
+    Explanation: "The principal idea behind BDD is how software development should be managed by both business interests and technical insights. It is a software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#behavior-driven-development",
+  },
+  {
+    Question: "In Agile, what is Acceptance Criteria?",
+    Answer: "Tells the Delivery Team how the code should behave.",
+    Distractor1: "The estimated time required to complete a user story.",
+    Distractor2: "A list of tasks to be completed by the development team.",
+    Distractor3: "A document outlining the entire project plan and timelines.",
+    Explanation: "In agile, if a story does not meet each of the Acceptance Criteria, then the Product Owner should not be accepting the story at the end of the iteration. Additionally, acceptance criteria can be viewed as an instrument to protect the Delivery Team. ",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#acceptance-criteria",
+  },
+  {
+    Question: "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
+    Answer: "Deep discussions on architecture or paradigms.",
+    Distractor1: "What you have done since the last DSU.",
+    Distractor2: "What you will be doing after this DSU.",
+    Distractor3: "What are the major obstacles that are stopping your progress, and where do you need help?",
+    Explanation: "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of scrum that allows team members to listen to other's contributions and attempt to identify areas where they can assist each other's progress.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum",
+  },
 ];
 
 export default agileQuiz;
