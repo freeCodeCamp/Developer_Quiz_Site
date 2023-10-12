@@ -1,5 +1,15 @@
 const regexQuiz = [
+    {
+    Question: "Consider a regular expression pattern: `^([a-zA-Z]+)\d{2,}([!@#$%^&*]+)$`.Which of the following strings will match this pattern?",
+    Answer: "`Hello123@`",
+    Distractor1: "Abc123!@",
+    Distractor2: "XYZ567@#$",
+    Distractor3: "Test12!@#$",
+    Explanation: "Abc123!@, matches this pattern because it starts with alphabetical characters, followed by at least two digits, and ends with special characters !@.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/",
+  },
   {
+    
     Question: "Which regex quantifier matches 0 or 1 occurrence of the preceding character or group?",
     Answer: "?",
     Distractor1: "*",
