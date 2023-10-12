@@ -246,6 +246,34 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Core skills needed for becoming a good QA engineer are good time management skills, strong listening skills and attention to detail.",
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question: "What is the scope of cross-browser testing?",
+    Answer:
+      "Focused on ensuring a website functions consistently across various web browsers.",
+    Distractor1:
+      "Cross-browser testing extends to evaluating all aspects of a website, including its design, content, and features, excluding only the browsers themselves.",
+    Distractor2:
+      "It's exclusively centered on analyzing the unique features and capabilities of a single web browser to enhance user experience.",
+    Distractor3:
+      "It encompasses the assessment of every website on the internet to guarantee their optimal performance and user satisfaction.",
+    Explanation:
+      "Cross-Browser Testing specifically targets ensuring a website's consistency across different web browsers and their versions.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
+  },
+  {
+    Question:
+      "How does compatibility testing differ from cross-browser testing?",
+    Answer:
+      "Compatibility testing is broader, assessing different operating systems, devices, screen sizes, and network conditions, while cross-browser testing focuses specifically on browsers.",
+    Distractor1: "Compatibility testing is limited to a single web browser.",
+    Distractor2:
+      "Compatibility testing and cross-browser testing are the same thing.",
+    Distractor3:
+      "Compatibility testing only checks the appearance of a website.",
+    Explanation:
+      "Compatibility testing encompasses a wide range of factors, including operating systems, devices, screen sizes, and network conditions, while cross-browser testing concentrates on web browsers.",
+    Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
   }
 ];
 
