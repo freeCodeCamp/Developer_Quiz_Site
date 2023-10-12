@@ -4,7 +4,7 @@ const sqlQuiz = [
     Answer: "ON DELETE SET NULL",
     Distractor1: "UPDATE TO NULL ",
     Distractor2: "ON DELETE CASCADE",
-    Distractor3: "ALL OF THE ABOVE",
+    Distractor3: "DELETE NULL",
     Explanation:"SQL Server sets the rows in the child table to NULL if the corresponding rows in the parent table are deleted",
     Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/"
   },
