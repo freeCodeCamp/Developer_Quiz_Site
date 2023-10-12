@@ -537,7 +537,7 @@ const accessibilityQuiz = [
     Distractor2: "Adding missing alternative text for images",
     Distractor3: "Fix empty links",
     Explanation:
-      "Fix empty links, Adding missing alternative text for images, Update low contrast text are the common ways to fix the accessiblility error",
+      "Fix empty links, Adding missing alternative text for images, Update low contrast text are the common ways to fix the accessiblility errors",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
   },
   {
