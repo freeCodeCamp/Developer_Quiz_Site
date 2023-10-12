@@ -1677,8 +1677,34 @@ const generalCSQuiz = [
   Distractor3: "It only accepts elements of the same type.",
   Explanation: "A priority queue is essential in scenarios where certain tasks need to be handled in order of importance or urgency.",
   Link: "https://www.freecodecamp.org/news/priority-queue-implementation-in-java/"
-}
-
+},
+{
+  Question: "What is a binary search algorithm?",
+  Answer: "Binary search efficiently finds values in sorted arrays by dividing the search space in half until the target is found or determined to be absent.",
+  Distractor1: "Binary search is used for searching unsorted arrays.",
+  Distractor2: "Binary search only works with non-integer values.",
+  Distractor3: "Binary search has a time complexity of O(n).",
+  Explanation: "Binary search is a fundamental and highly efficient algorithm for searching in sorted data structures like arrays and is based on the principle of divide and conquer.",
+  Link: "https://www.freecodecamp.org/news/binary-search-algorithm-and-time-complexity-explained/",
+},
+{
+  Question: "What is a hash table in computer science?",
+  Answer: "A hash table stores key-value pairs, using a hash function to enable fast data retrieval.",
+  Distractor1: "A hash table is a data structure that only stores keys, not values.",
+  Distractor2: "A hash table is primarily used for sorting data.",
+  Distractor3: "A hash table is limited to a fixed size and cannot grow dynamically.",
+  Explanation: "Hash tables are widely used in computer science for implementing associative arrays, databases, and various applications that require fast data access.",
+  Link: "https://www.freecodecamp.org/news/hash-tables/"
+},
+{
+  Question: "What is the difference between a stack and a queue in data structures?",
+  Answer: "A stack (LIFO) removes the last element added first, while a queue (FIFO) removes the first element added first.",
+  Distractor1: "A stack and a queue have the same behavior and are interchangeable in data structures.",
+  Distractor2: "A stack and a queue are both unordered collections of elements.",
+  Distractor3: "A stack and a queue are not used in computer programming.",
+  Explanation: "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
+  Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
+},
 ];
 
 export default generalCSQuiz;
