@@ -1694,7 +1694,7 @@ const generalCSQuiz = [
   Distractor2: "A hash table is primarily used for sorting data.",
   Distractor3: "A hash table is limited to a fixed size and cannot grow dynamically.",
   Explanation: "Hash tables are widely used in computer science for implementing associative arrays, databases, and various applications that require fast data access.",
-  Link: "https://en.wikipedia.org/wiki/Hash_table"
+  Link: "https://www.freecodecamp.org/news/hash-tables/"
 },
 {
   Question: "What is the difference between a stack and a queue in data structures?",
