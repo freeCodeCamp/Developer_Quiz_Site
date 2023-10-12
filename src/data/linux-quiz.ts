@@ -1,6 +1,17 @@
 const linuxQuiz = [
   {
     Question:
+      "In Linux, Which command is used to convert and copy files with specific size?",
+    Answer: "dd",
+    Distractor1: "cp",
+    Distractor2: "mv",
+    Distractor3: "df",
+    Explanation:
+      "The dd command is used to convert data along with copying files of specific size.",
+    Link: "https://www.freecodecamp.org/news/linux-example-bash-command-line/#linux-dd-command-example"
+  },
+  {
+    Question:
       "In Linux, Which command is used to export variables to child processes?",
     Answer: "export",
     Distractor1: "env",
@@ -1319,7 +1330,61 @@ const linuxQuiz = [
     Distractor3: "stop [signal] PID",
     Explanation: "The kill command is used to stop a running process.",
     Link: "https://www.linuxfoundation.org/blog/blog/classic-sysadmin-how-to-kill-a-process-from-the-command-line"
-  }
+  },
+   {
+      Question: "In Linux, which command is used to perform a binary file comparison and display the differences between two files?",
+      Answer: "cmp",
+      Distractor1: "diff",
+      Distractor2: "compare",
+      Distractor3: "contrast",
+      Explanation: "The 'cmp' command is used to compare two binary files byte by byte and displays the differences between them, if any.",
+      Link: "https://linux.die.net/man/1/cmp"
+    },
+    {
+      Question: "In Linux, what command is used to analyze and display detailed information about system resource usage by processes?",
+      Answer: "top",
+      Distractor1: "ps",
+      Distractor2: "htop",
+      Distractor3: "uptime",
+      Explanation: "The 'top' command provides a real-time view of system resource usage by processes, including CPU, memory, and more.",
+      Link: "https://linux.die.net/man/1/top"
+    },
+    {
+      Question: "Which Linux command is used to securely copy files and directories over SSH?",
+      Answer: "scp",
+      Distractor1: "rsync",
+      Distractor2: "ftp",
+      Distractor3: "wget",
+      Explanation: "The 'scp' command is used for secure copy over SSH, allowing files and directories to be transferred securely between hosts.",
+      Link: "https://linux.die.net/man/1/scp"
+    },
+    {
+      Question: "In Linux, what is the purpose of the 'strace' command?",
+      Answer: "The 'strace' command is used to trace system calls and signals made by a process.",
+      Distractor1: "The 'strace' command is used to check network status.",
+      Distractor2: "The 'strace' command is used to list running processes.",
+      Distractor3: "The 'strace' command is used to analyze memory usage.",
+      Explanation: "The 'strace' command can be an invaluable tool for diagnosing issues with programs and understanding their behavior at a system call level. This command is used to trace system calls and signals made by a process. To use 'strace', you specify the program's name and its arguments as parameters.",
+      Link: "https://linux.die.net/man/1/strace"
+    },
+    {
+      Question: "What Linux command is used to view and edit the system's crontab, which controls scheduled tasks and cron jobs?",
+      Answer: "crontab",
+      Distractor1: "cronjob",
+      Distractor2: "taskcron",
+      Distractor3: "cronedit",
+      Explanation: "The 'crontab' command is used to view and edit the cron jobs for a user. It opens the user's crontab file for editing.",
+      Link: "https://linux.die.net/man/1/crontab"
+    },
+    {
+      Question: "How does Linux work on Ubuntu?",
+      Answer: "The Linux kernel serves as an interface between hardware and software.",
+      Distractor1: "Ubuntu kernel is entirely separate from Linux.",
+      Distractor2: "Ubuntu uses a proprietary operating system.",
+      Distractor3: "Linux operates without a kernel on Ubuntu.",
+      Explanation: "The Linux kernel, which manages system resources, acts as the bridge between the hardware and software on Ubuntu. It initializes hardware, establishes the system environment, loads necessary drivers, and allows applications to run on top of it. This fundamental structure is common to all Linux distributions, including Ubuntu.",
+      Link: "https://www.freecodecamp.org/news/introduction-to-linux/"
+    }
 ];
 
 export default linuxQuiz;

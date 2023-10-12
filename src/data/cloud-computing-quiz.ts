@@ -1,5 +1,113 @@
 const cloudComputingQuiz = [
   {
+    Question: "Which of the following is an example of a major IaaS player?",
+    Answer: "Amazon EC2",
+    Distractor1: "AWS Elastic Beanstalk",
+    Distractor2: "Salesforce Lightning Platform",
+    Distractor3: "Google G Suite",
+    Explanation: "Amazon Elastic Compute Cloud (EC2) is a well-known and widely used Infrastructure as a Service (IaaS) offering provided by Amazon Web Services (AWS).",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is the primary responsibility of users in an Infrastructure as a Service (IaaS) environment?",
+    Answer: "Managing the operating system and software.",
+    Distractor1: "Managing hardware, networking, and security elements.",
+    Distractor2: "Managing end-user interfaces.",
+    Distractor3: "Managing data and code deployment.",
+    Explanation: "In an IaaS environment, the provider takes care of the underlying hardware, networking, and security, while users are responsible for managing the operating system and any additional software they install on their virtual server instances.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "Which cloud platforms offer serverless computing services mentioned in the text?",
+    Answer: "Amazon Lambda and Azure Functions.",
+    Distractor1: "Amazon Elastic Beanstalk and Google Cloud Functions.",
+    Distractor2: "Amazon Elastic Beanstalk and Azure App Service.",
+    Distractor3: "Google Cloud Run and AWS Fargate.",
+    Explanation: "Amazon Lambda and Azure Functions are examples of serverless computing platforms that provide services for running code without having to manage server infrastructure.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "Which of the following statements accurately describes serverless computing?",
+    Answer: "Serverless computing is a form of virtualization that abstracts everything, including application code.",
+    Distractor1: "Serverless computing involves running software code without any underlying server infrastructure.",
+    Distractor2: "Serverless computing is similar to virtualization but requires extensive configuration.",
+    Distractor3: "Serverless platforms like Amazon Lambda and Azure Functions are equivalent to dedicated servers.",
+    Explanation: "Serverless computing is a form of cloud computing that abstracts server management, including server instance settings, and allows developers to focus only on writing application code.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is the main difference between serverless computing and traditional server computing?",
+    Answer: "Serverless computing doesn't require configuring server instance settings, while traditional computing does.",
+    Distractor1: "Serverless computing uses physical servers, while traditional computing uses virtual servers.",
+    Distractor2: "Serverless computing is more cost effective than traditional computing.",
+    Distractor3: "Serverless computing requires you to see the server physically.",
+    Explanation: "In traditional server computing, you typically need to configure server instance settings, such as CPU, memory, and networking, which is not required in serverless computing.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is the key benefit of deploying Edge Computing resources in managing data from IoT devices?",
+    Answer: "Consuming and transforming IoT data faster at the network edges.",
+    Distractor1: "Encouraging IoT devices to move closer to data centers.",
+    Distractor2: "The act of asking customers to move closer to server locations.",
+    Distractor3: "Increasing the physical distance between IoT devices and servers.",
+    Explanation: "The key benefit of deploying Edge Computing for managing IoT data is the ability to process and transform data quickly at the network edges, improving responsiveness and efficiency in IoT applications.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What is Edge Computing?",
+    Answer: "The installation of distributed networks of smaller servers to reduce latency.",
+    Distractor1: "The process of magically reducing latency without any physical changes.",
+    Distractor2: "The act of asking customers to move closer to server locations.",
+    Distractor3: "The use of long-distance data transfer to improve network efficiency.",
+    Explanation: "Edge Computing refers to the strategy of placing smaller servers or computing resources closer to the location where data is generated or needed, such as near end-users or IoT devices. This approach is used to improve the speed and responsiveness of network services and applications.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "In a cloud-native architecture, which of the following is not considered a core component?",
+    Answer: "Monolithic architecture",
+    Distractor1: "Microservices architecture",
+    Distractor2: "Containerization",
+    Distractor3: "CI/CD (Continuous Integration/Continuous Deployment)",
+    Explanation: "Cloud-native architecture often focuses on the use of microservices, containers, and continuous integration/continuous deployment (CI/CD) practices, which are more agile and scalable than monolithic architectures.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question: "Which statement is incorrect for block storage?",
+    Answer: "It stores all data as objects in a flat structure",
+    Distractor1: "It is the lowest level abstraction of storage.",
+    Distractor2: "It is bootable.",
+    Distractor3: "Block storage devices are usually only attached to a single instance.",
+    Explanation: "Block storage does not store data as objects in a flat structure. Instead, it divides data into fixed-sized blocks and provides low-level access to these blocks. Object storage, on the other hand, stores data as objects in a flat structure with associated metadata.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "Which cloud computing delivery model focuses on providing infrastructure as a service to users?",
+    Answer: "IaaS",
+    Distractor1: "FaaS",
+    Distractor2: "Saas",
+    Distractor3: "PaaS",
+    Explanation: "IaaS cloud computing delivery model focuses on providing infrastructure like servers, networking technology, storage, and data center space as a service to users. This gives users the autonomy to decide what infrastructure is provisioned based on the different needs of their application.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question: "Which cloud computing strategy is often referred to as 'Lift and Shift'?",
+    Answer: "Rehosting",
+    Distractor1: "Repurchase",
+    Distractor2: "Replatform",
+    Distractor3: "Rearchitect",
+    Explanation: "The Rehosting strategy is often referred to as 'Lift and Shift' because you are moving your existing data and systems to the cloud with no changes. The advantage of this strategy is that it has a lower risk when migrating to the cloud",
+    Link: "https://www.freecodecamp.org/news/advantages-of-cloud-computing/"
+  },
+  {
+    Question: "Which of the following is NOT a common strategy in cloud migration?",
+    Answer: "Redecorating",
+    Distractor1: "Rehosting",
+    Distractor2: "Repurchasing",
+    Distractor3: "Refactoring",
+    Explanation: "The term 'Redecorating' is not a recognized strategy in cloud migration. While Rehosting, Repurchasing, and Refactoring are established methods for migrating applications and services to the cloud.",
+    Link: "https://www.freecodecamp.org/news/advantages-of-cloud-computing/"
+  },
+  {
     Question: "Which of the following is NOT considered an advantage of cloud computing?",
     Answer: "Depends on network connectivity",
     Distractor1: "Scalability",

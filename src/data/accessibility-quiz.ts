@@ -1,5 +1,36 @@
 const accessibilityQuiz = [
   {
+    Question: "What is the purpose of the 'aria-labelledby' attribute in ARIA?",
+    Answer:
+      "To enable authors to reference other elements on the page to define an accessible name.",
+    Distractor1: "To hide an element from screen readers",
+    Distractor2: "To add a tooltip to an element",
+    Distractor3: "To change the focus order of elements",
+    Explanation:
+      "The 'aria-labelledby' attribute specifies the element or elements responsible for providing labels to the element to which it is assigned.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby"
+  },
+  {
+    Question: "What is the purpose of the 'aria-describedby' attribute in ARIA?",
+    Answer:
+      "To list the IDs of the elements that describe the object.",
+    Distractor1: "To change the font size",
+    Distractor2: "To add a border to an element",
+    Distractor3: "To change the background color of an element",
+    Explanation:
+      "The aria-describedby attribute identifies the element (or elements) that describes the element on which the attribute is set.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid/"
+  },
+  {
+    Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
+    Answer: "Businesses can face lawsuits or financial penalties",
+    Distractor1: "no repercussions",
+    Distractor2: "they will serve 10 years in jail",
+    Distractor3: "they will do 2500 hours of community service",
+    Explanation: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and damage to their reputation. Maintaining good accessibility standards is good for everyone in this digital age.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
     Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
     Answer:  "Utilize the 'px' unit to define font sizes.",
     Distractor1: "Ensure there is always a fallback generic font",
@@ -464,7 +495,62 @@ const accessibilityQuiz = [
     Explanation:
       "Keyboard accessibility is a fundamental aspect of web accessibility, as it ensures that websites are usable by a wide range of users, including those with disabilities. Providing keyboard support means implementing focus management, allowing users to navigate through interactive elements, and ensuring that all functionality is accessible via keyboard input.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/Keyboard-navigable_JavaScript_widgets"
-  }
+  },
+  {
+    Question:
+    "Which HTML element triggers an action when pressed and is accessible for screen readers?",
+    Answer: "<button>",
+    Distractor1: "<div>",
+    Distractor2: "<span>",
+    Distractor3: "<a>",
+    Explanation:
+    "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
+    Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
+  },
+  {
+    Question:
+    "When designing a website to enhance accessibility, what is the purpose of a skip navigation link?",
+    Answer: "It helps visually impaired users to skip to the main content of a site.",
+    Distractor1: "It serves as a link to the website's home page.",
+    Distractor2: "It allows users to to skip directly to the website's contact page.",
+    Distractor3: "It provides a link to download a screen reader application.",
+    Explanation:
+    "A skip navigation link allow visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
+  },
+  {
+    Question:
+      "What are the four broad guidelines of web accessibility that addresses different aspects of usability and inclusivity?",
+    Answer:
+      "Perceivable, Operable, Understandable, Robust.",
+    Distractor1: "Responsive, Mobile-Friendly, Fast-Loading and Secure.",
+    Distractor2: "Content, Design, Interaction and Navigation.",
+    Distractor3: "Productivity, Accessibility, Scalabity and Visual.",
+    Explanation:
+      "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, Robust. They help ensure that web content is accessible to all users, including those with disabilities",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question: "Which of the following is not the way to fix web accessibility errors?",
+    Answer: "Changing document color",
+    Distractor1: "Updating low contrast text",
+    Distractor2: "Adding missing alternative text for images",
+    Distractor3: "Fix empty links",
+    Explanation:
+      "Fixing empty links, adding missing alternative text for images, updating low contrast text are some common ways to fix accessiblility errors",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
+  },
+  {
+    Question: "When was version 1.0 of the Web Content Accessibility Guidelines (WCAG) released?",
+    Answer: "1999",
+    Distractor1: "2008",
+    Distractor2: "1995",
+    Distractor3: "2005",
+    Explanation:
+      "WCAG version 1.0 was published on May 5, 1999 and was a total game-changer for web accessibility.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-and-checklist/",
+  },
+  
 ];
 
 export default accessibilityQuiz;

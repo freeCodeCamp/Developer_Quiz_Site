@@ -1,5 +1,45 @@
 const agileQuiz = [
   {
+    Question: "What is the average duration for sprints?",
+    Answer: "2 weeks to a month",
+    Distractor1: "3 weeks to 6 weeks",
+    Distractor2: "1 month to 3 months",
+    Distractor3: "3 months to 6 months",
+    Explanation:
+    "The average duration for sprints is usually two weeks to a month which can vary based on the projects and the team size involved",
+    Link: "https://www.freecodecamp.org/news/being-agile-kanban-vs-scrum/"
+  },
+  {
+    Question: "What is the main purpose of continuous integration and continuous delivery(CI/CD)?",
+    Answer: "To automate the software development and delivery process",
+    Distractor1: "To reduce the cost of software development.",
+    Distractor2: "To improve the quality of software.",
+    Distractor3: "To increase the number of features released in a given period of time.",
+    Explanation:
+    "CI/CD tools can be used to automate software building, testing, and deployment, and they often work together with build automation tools to deliver software to production more frequently and with less risk.",
+    Link: "https://www.freecodecamp.org/news/how-devops-works/"
+  },
+  {
+    Question: "What are the two most popular CI/CD tools?",
+    Answer: "Jenkins and GitHub Actions",
+    Distractor1: "Selenium",
+    Distractor2: "Docker",
+    Distractor3: "Kubernetes",
+    Explanation:
+    "Both Jenkins and GitHub Actions are powerful CI/CD tools that can help to deliver software faster, with higher quality, and with less risk.",
+    Link: "https://www.freecodecamp.org/news/how-devops-works/"
+  },
+  {
+    Question: "What are the three primary roles in Scrum and their key responsibilities?",
+    Answer: "Product Owner, Scrum Master, and Team Member",
+    Distractor1: "CEO, CTO, web master",
+    Distractor2: "Scrum Master, CFO, CTO",
+    Distractor3: "Product Owner, COO, Scrum Master",
+    Explanation:
+    "The three primary roles in Scrum are Product Owner, Scrum Master, and Team Member. The Product Owner maximizes ROI, the Scrum Master guides team performance, and Team Members have authority over work methods.",
+    Link: "https://www.freecodecamp.org/news/scrum-for-startups-or-for-any-project-for-that-matter-93ad0db17a84/"
+  },
+  {
     Question:
       "What is the core concept behind the Agile development methodology?",
     Answer: "Iterative and incremental development",
@@ -428,7 +468,63 @@ const agileQuiz = [
     Explanation:
       "Working software is the primary measure of progress in Agile, according to the seventh principle of the Agile Manifesto. This means that Agile teams focus on delivering software that meets the customer’s needs and provides value. By delivering working software frequently, Agile teams can demonstrate their progress and achievements",
     Link: "https://www.freecodecamp.org/news/you-say-your-team-is-agile-but-that-word-may-not-mean-what-you-think-6dd26eaf9b21/"
-  }
+  },
+  {
+    Question: "In agile, why is it generally advisable to avoid assigning a very high number of points (e.g 13 points) to a single user story?",
+    Answer: "Because high point stories cannot be completed in a single sprint.",
+    Distractor1: "Because high point stories are reserved for critical features only.",
+    Distractor2: "Because high point stories indicate a lack of detail in the user story.",
+    Distractor3: "Because it is a convention to use lower points values for better accuracy.",
+    Explanation:
+      "In Agile, assigning a very high number of points to a single user story is generally discouraged because it indicates that the story is too large to be completed within a sprint.",
+    Link: "https://www.freecodecamp.org/news/what-is-agile-and-how-youcan-become-an-epic-storyteller/"
+  },
+  {
+    Question: "In agile, what is the primary purpose of a recurring meeting (Dev Huddle) for developers?",
+    Answer: "To align developers' expectations and make technical decisions",
+    Distractor1: "To discuss project timelines and deadlines",
+    Distractor2: "To plan a vacation program",
+    Distractor3: "To provide status updates to stakeholders",
+    Explanation:
+      "A 'Dev Huddle' or a recurring meeting in agile development serve as a forum for developers to discuss technical topics, make decisions regarding architecture, conventions, and other aspects of the tech stack.",
+    Link: "https://www.freecodecamp.org/news/how-to-use-the-dev-huddle-to-get-your-developers-on-the-same-page/"
+  },
+  {
+  Question: "What is the purpose of a burndown chart in Agile development?",
+  Answer: "To track the progress of user stories throughout a sprint.",
+  Distractor1: "To estimate the total cost of a project.",
+  Distractor2: "To assign tasks to team members.",
+  Distractor3: "To prioritize backlog items.",
+  Explanation: "A burndown chart in Agile development is used to track the progress of user stories or tasks throughout a sprint. It visually represents the amount of work remaining over time, helping the team to manage their workload effectively.",
+  Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "Which of the following is not something BDD (Behavioral Driven Development) focuses on?",
+    Answer: "How short the code is",
+    Distractor1: "Where to start in the process",
+    Distractor2: "What to test and what not to test",
+    Distractor3: "How much to test in one go",
+    Explanation: "The principal idea behind BDD is how software development should be managed by both business interests and technical insights. It is a software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#behavior-driven-development",
+  },
+  {
+    Question: "In Agile, what is Acceptance Criteria?",
+    Answer: "Tells the Delivery Team how the code should behave.",
+    Distractor1: "The estimated time required to complete a user story.",
+    Distractor2: "A list of tasks to be completed by the development team.",
+    Distractor3: "A document outlining the entire project plan and timelines.",
+    Explanation: "In agile, if a story does not meet each of the Acceptance Criteria, then the Product Owner should not be accepting the story at the end of the iteration. Additionally, acceptance criteria can be viewed as an instrument to protect the Delivery Team. ",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#acceptance-criteria",
+  },
+  {
+    Question: "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
+    Answer: "Deep discussions on architecture or paradigms.",
+    Distractor1: "What you have done since the last DSU.",
+    Distractor2: "What you will be doing after this DSU.",
+    Distractor3: "What are the major obstacles that are stopping your progress, and where do you need help?",
+    Explanation: "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of scrum that allows team members to listen to other's contributions and attempt to identify areas where they can assist each other's progress.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum",
+  },
 ];
 
 export default agileQuiz;
