@@ -1,6 +1,6 @@
 const sqlQuiz = [
   {
-    Question: "Which clause set the child data to NULL when the parent data is deleted?",
+    Question: "Which SQL clause sets the child data to NULL when the parent data is deleted?",
     Answer: "ON DELETE SET NULL",
     Distractor1: "UPDATE TO NULL ",
     Distractor2: "ON DELETE CASCADE",
