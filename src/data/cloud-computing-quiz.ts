@@ -1,5 +1,23 @@
 const cloudComputingQuiz = [
   {
+    Question: "What types of applications are now available as online software equivalents through the growing marketplace of SaaS tools?",
+    Answer: "Accounting, computer-assisted design (CAD), and graphic design solutions",
+    Distractor1: "Hardware management tools",
+    Distractor2: "Operating system utilities",
+    Distractor3: "Gaming software",
+    Explanation: "The growing marketplace of SaaS tools offers online software equivalents for various applications, including accounting, CAD, and graphic design solutions. This allows users to access and use these applications in the cloud without the need for standalone workstations.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What are Microsoft's Office 365 and Google's G Suite examples of?",
+    Answer: "SaaS office productivity tools",
+    Distractor1: "IaaS solutions",
+    Distractor2: "PaaS solutions",
+    Distractor3: "Graphic design solutions",
+    Explanation: "Both Microsoft Office 365 and Google G Suite are cloud based examples of Software as a Service (SaaS) office productivity tools, providing applications like word processing, spreadsheets, and email as online services.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
     Question: "Which of the following is an example of a major IaaS player?",
     Answer: "Amazon EC2",
     Distractor1: "AWS Elastic Beanstalk",
