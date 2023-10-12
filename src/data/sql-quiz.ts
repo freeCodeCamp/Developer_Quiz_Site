@@ -1,5 +1,14 @@
 const sqlQuiz = [
   {
+    Question: "Which clause set the child data to NULL when the parent data is deleted?",
+    Answer: "ON DELETE SET NULL",
+    Distractor1: "UPDATE TO NULL ",
+    Distractor2: "ON DELETE CASCADE",
+    Distractor3: "ALL OF THE ABOVE",
+    Explanation:"SQL Server sets the rows in the child table to NULL if the corresponding rows in the parent table are deleted",
+    Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/"
+  },
+  {
     Question: "In SQL, what does CRUD stand for?",
     Answer: "CREATE, READ, UPDATE, DELETE",
     Distractor1: "CREATE, ROW, UNION, DROP ",
