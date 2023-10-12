@@ -1685,7 +1685,7 @@ const generalCSQuiz = [
   Distractor2: "Binary search only works with non-integer values.",
   Distractor3: "Binary search has a time complexity of O(n).",
   Explanation: "Binary search is a fundamental and highly efficient algorithm for searching in sorted data structures like arrays and is based on the principle of divide and conquer.",
-  Link: "https://en.wikipedia.org/wiki/Binary_search_algorithm",
+  Link: "https://www.freecodecamp.org/news/binary-search-algorithm-and-time-complexity-explained/",
 },
 {
   Question: "What is a hash table in computer science?",
