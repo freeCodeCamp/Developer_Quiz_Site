@@ -140,7 +140,7 @@ const accessibilityQuiz = [
     Distractor2: "to many labels and inputs",
     Distractor3: "Low contrast text",
     Explanation: 
-      "The accessibility problem associated with missing form input labels is precisely 'Missing form input labels.",
+      "A form label is an HTML element used in forms to describe what the the various fields in the form are for. Without the label element, screen reader users will not know what the form is when they focus on it.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
