@@ -88,7 +88,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
-    Question: "Which accessibility problem is associated with empty buttons, particularly those without text for screen reader users?",
+    Question: "Which accessibility issue is associated with buttons?",
     Answer: 
       "lack of button text for screen reader users",
     Distractor1: "lack of background color",
