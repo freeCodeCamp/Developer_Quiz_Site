@@ -133,7 +133,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
-    Question: "What accessibility problem is associated with missing form input labels?",
+    Question: "What is a common accessibility issue when it comes to forms?",
     Answer: 
       "Missing form input labels",
     Distractor1: "Empty links",
