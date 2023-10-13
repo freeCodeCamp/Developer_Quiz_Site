@@ -1,5 +1,41 @@
 const cloudComputingQuiz = [
   {
+    Question: "In the context of file storage, what is the role of the operating system?",
+    Answer: "To abstract away the block storage and create a file cabinet-like structure.",
+    Distractor1: "To expose the underlying block storage to applications.",
+    Distractor2: "To provide a low-level interface for data manipulation.",
+    Distractor3: "To optimize file storage for performance..",
+    Explanation: "In file storage, the operating system abstracts the underlying block storage, presenting a hierarchical file structure to users and applications. This abstraction simplifies data access and management.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "How does file storage improve data management compared to block storage?",
+    Answer: "File storage groups related blocks into files and organizes them into directories.",
+    Distractor1: "File storage simplifies access to applications by exposing the underlying block addresses.",
+    Distractor2: "File storage allows you to read and write individual data blocks directly.",
+    Distractor3: "File storage is more cost-effective for all use cases.",
+    Explanation: " File storage improves data management by grouping related blocks into files and organizing those files within directories, providing a more intuitive and structured way to access and manage data.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "Which of the following best describes file storage's hierarchical structure?",
+    Answer: "The arrangement of files and directories for organizing and managing data.",
+    Distractor1: "A bookshelf-like organization of blocks.",
+    Distractor2: "A low-level interface for reading and writing data blocks.",
+    Distractor3: "A complex system of block addresses for data retrieval.",
+    Explanation: "File storage's hierarchical structure refers to the way data is organized into files and directories, allowing for efficient data management and access.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "What is the primary difference between block storage and file storage?",
+    Answer: "File storage introduces the concept of files and directories on top of block storage.",
+    Distractor1: "Block storage is more abstract than file storage.",
+    Distractor2: "Block storage is hierarchical, while file storage deals with individual blocks",
+    Distractor3: "Block storage is typically used for cloud storage, while file storage is used for local storage.",
+    Explanation: "Block storage is a low-level storage abstraction that deals with individual data blocks but lacks the concept of files and directories. File storage, on the other hand, builds on top of block storage and introduces the organizational structure of files and directories.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
     Question: "What types of applications are now available as online software equivalents through the growing marketplace of SaaS tools?",
     Answer: "Accounting, computer-assisted design (CAD), and graphic design solutions",
     Distractor1: "Hardware management tools",
