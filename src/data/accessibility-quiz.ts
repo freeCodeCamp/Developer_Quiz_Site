@@ -62,7 +62,7 @@ const accessibilityQuiz = [
     Distractor2: "It offers free stock images",
     Distractor3: "It is a social media network",
     Explanation: 
-    "The 'a11yproject' is a valuable resource for web developers looking to enhance the accessibility of their projects.",
+    "The 'a11yproject' offers practical guides, examples, how-tos, myths, tips, and recommended accessibility tools for implementing accessible features and components during web development. It is a community-driven project that can be contributed to on Github. The 'a11yproject' is a valuable resource for web developers looking to enhance the accessibility of their projects.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   },
   {
