@@ -14,9 +14,9 @@ const accessibilityQuiz = [
     Question: "What is the purpose of the 'Chrome Accessibility Developer Tools' extension for Google Chrome?",
     Answer: 
     "It's a tool to check accessibility properties of web elements.",
-    Distractor1: "It's a new JavaScript framework",
-    Distractor2: "It's a sorting algorithm",
-    Distractor3: "It's a type of programming paradigm",
+    Distractor1: "It's a tool to only fix color contrast errors",
+    Distractor2: "It's a tool to only fix font size errors",
+    Distractor3: "It's a tool to audit only keyboard accessibility errors",
     Explanation: 
     "The extension aids in inspecting and ensuring web accessibility by providing relevant information in the Developer tools.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
