@@ -73,7 +73,7 @@ const accessibilityQuiz = [
     Distractor2: "Randoma11y Color Generator",
     Distractor3: "Check My Colours",
     Explanation: 
-    "The WebAIM Color Contrast Checker is a tool to verify color contrast, a crucial aspect of web accessibility.",
+    "The WebAIM Color Contrast Checker is a tool to verify color contrast which is a crucial aspect of web accessibility.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   },
   {
