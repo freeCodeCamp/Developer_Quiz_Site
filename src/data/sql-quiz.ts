@@ -1,12 +1,12 @@
 const sqlQuiz = [
   {
-    Question: "In SQL,How many Primary keys can be created on a table?",
+    Question: "In SQL,how many primary keys can be created in a table?",
     Answer: "Only one",
     Distractor1: "Infinte",
-    Distractor2: "Finitely many",
+    Distractor2: "Twelve",
     Distractor3: "Two",
     Explanation:
-      "The major reason is because that is the definition of the primary key. A table can have multiple unique keys that identify each row, but only one primary key",
+      "A table can have multiple unique keys that identify each row, but only one primary key.",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
   },
   {
