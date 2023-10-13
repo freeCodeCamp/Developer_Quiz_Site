@@ -13,7 +13,7 @@ const accessibilityQuiz = [
   {
     Question: "What is the purpose of the 'Chrome Accessibility Developer Tools' extension for Google Chrome?",
     Answer: 
-    "This extension adds an Accessibility sidebar pane to the Chrome Developer tools and can be used to check accessibility properties of web elements.",
+    "It's a tool to check accessibility properties of web elements.",
     Distractor1: "It's a new JavaScript framework",
     Distractor2: "It's a sorting algorithm",
     Distractor3: "It's a type of programming paradigm",
