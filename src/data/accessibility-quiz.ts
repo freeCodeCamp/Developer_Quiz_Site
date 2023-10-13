@@ -1,5 +1,160 @@
 const accessibilityQuiz = [
   {
+    Question: "What role does the 'alt' attribute play when adding alternative text to images on a webpage?",
+    Answer: 
+      "The 'alt' attribute describes the content of the image to users who cannot see it.",
+    Distractor1: "The 'alt' attribute enhances image aesthetics.",
+    Distractor2: "The 'alt' attribute speeds up image loading.",
+    Distractor3: "The 'alt' attribute provides translations for the image content.",
+    Explanation: 
+      "The 'alt' attribute in alternative text describes image content to users who cannot see the image.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "What is the purpose of the 'Chrome Accessibility Developer Tools' extension for Google Chrome?",
+    Answer: 
+    "This extension adds an Accessibility sidebar pane to the Chrome Developer tools and can be used to check accessibility properties of web elements.",
+    Distractor1: "It's a new JavaScript framework",
+    Distractor2: "It's a sorting algorithm",
+    Distractor3: "It's a type of programming paradigm",
+    Explanation: 
+    "The extension aids in inspecting and ensuring web accessibility by providing relevant information in the Developer tools.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "Which tool or extension allows you to find accessibility defects on your web page in both Chrome and Firefox?",
+    Answer: 
+    "WAVE",
+    Distractor1: "Color Oracle",
+    Distractor2: "aXe",
+    Distractor3: "ChromeVox",
+    Explanation: 
+    "WAVE is an extension available for both Chrome and Firefox that helps identify accessibility issues on web pages.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "What is the primary function of a screen reader in web development?",
+    Answer: 
+    "Screen readers are used to convey the content of a webpage to users with visual impairments via text-to-speech, helping developers understand and create accessible web content.",
+    Distractor1: "It's a web design tool",
+    Distractor2: "It's a code editor",
+    Distractor3: "It's a graphics rendering software",
+    Explanation: 
+    "Screen readers assist users with visual impairments in accessing web content through spoken text.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "Why is it important to add labels to form inputs like search forms?",
+    Answer: 
+      "Labels indicate the purpose of form inputs and make them accessible to screen reader users.",
+    Distractor1: "Labels improve website aesthetics.",
+    Distractor2: "Labels increase website loading speed.",
+    Distractor3: "Labels provide translations for form inputs.",
+    Explanation: 
+      "Labels associated with form inputs, such as search forms, describe the purpose of the input, making it accessible to screen reader users.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },  
+  {
+    Question: "What are the four broad guidelines of web accessibility according to WCAG?",
+    Answer: 
+      "Perceivable, Operable, Understandable, Robust",
+    Distractor1: "Creative, Original, Unique, Dynamic",
+    Distractor2: "Left, Right, Up, Down",
+    Distractor3: "HTML, CSS, JavaScript, PHP",
+    Explanation: 
+      "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, and Robust, often referred to as WCAG.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+
+  },
+  {
+    Question: "Which screen reader is a Free & Open-source downloadable software for Windows OS?",
+    Answer: 
+      "NVDA (Non Visual Desktop Access)",
+    Distractor1: "JAWS (Job Access With Speech)",
+    Distractor2: "ChromeVox",
+    Distractor3: "a11yproject",
+    Explanation: 
+      "NVDA is a free screen reader for Windows, making it accessible to a wide audience.",
+      Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "What does the 'a11yproject' provide for web development, and what can you find on their site?",
+    Answer: 
+    "The 'a11yproject' offers practical guides, examples, how-tos, myths, tips, and recommended accessibility tools for implementing accessible features and components during web development. It is a community-driven project that can be contributed to on Github.",
+    Distractor1: "It provides a platform for game development",
+    Distractor2: "It offers free stock images",
+    Distractor3: "It is a social media network",
+    Explanation: 
+    "The 'a11yproject' is a valuable resource for web developers looking to enhance the accessibility of their projects.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "Which tool allows you to check foreground and background color values for AA and AAA color contrast ratios for small and large text?",
+    Answer: 
+    "WebAIM Color Contrast Checker",
+    Distractor1: "Accessible Color Palette Builder",
+    Distractor2: "Randoma11y Color Generator",
+    Distractor3: "Check My Colours",
+    Explanation: 
+    "The WebAIM Color Contrast Checker is a tool to verify color contrast, a crucial aspect of web accessibility.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "Why is web accessibility important for SEO (Search Engine Optimization)?",
+    Answer: 
+      "It helps search engines understand and index website content better.",
+    Distractor1: "It decreases website load times.",
+    Distractor2: "It automatically improves website design.",
+    Distractor3: "It increases advertising revenue.",
+    Explanation: 
+      "Accessibility practices that make content understandable to screen readers also benefit search engines in understanding and indexing website content.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "Which accessibility problem is associated with empty buttons, particularly those without text for screen reader users?",
+    Answer: 
+      "Empty buttons",
+    Distractor1: "Low color contrast",
+    Distractor2: "Missing alternative text for images",
+    Distractor3: "Missing form input labels",
+    Explanation: 
+      "Empty buttons that lack text for screen reader users are an accessibility issue.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "What is the primary reason for adding a language attribute to the HTML tag of a webpage?",
+    Answer: 
+      "Screen readers use the document language to pronounce words, and it's good for SEO.",
+    Distractor1: "Language attributes improve website aesthetics.",
+    Distractor2: "Language attributes speed up website loading.",
+    Distractor3: "Language attributes provide translations for the page.",
+    Explanation:
+      "Adding a language attribute to the HTML tag helps screen readers pronounce words correctly and benefits SEO.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "What accessibility problem is associated with missing form input labels?",
+    Answer: 
+      "Missing form input labels",
+    Distractor1: "Empty links",
+    Distractor2: "Empty buttons",
+    Distractor3: "Low contrast text",
+    Explanation: 
+      "The accessibility problem associated with missing form input labels is precisely 'Missing form input labels.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "What is the primary accessibility problem associated with low color contrast on a webpage?",
+    Answer:
+      "Low contrast text",
+    Distractor1: "Broken links",
+    Distractor2: "Empty buttons",
+    Distractor3: "Missing document language",
+    Explanation: 
+      "Low color contrast, specifically with text, leads to the accessibility problem of low contrast text.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },    
+  {
     Question: "What is the purpose of the 'aria-labelledby' attribute in ARIA?",
     Answer:
       "To enable authors to reference other elements on the page to define an accessible name.",
