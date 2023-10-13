@@ -7,7 +7,7 @@ const accessibilityQuiz = [
     Distractor2: "The 'alt' attribute speeds up image loading.",
     Distractor3: "The 'alt' attribute provides translations for the image content.",
     Explanation: 
-      "The 'alt' attribute in alternative text describes image content to users who cannot see the image.",
+      "It's a tool to check accessibility properties of web elements."
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
@@ -33,17 +33,6 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   },
   {
-    Question: "What is the primary function of a screen reader in web development?",
-    Answer: 
-    "Screen readers are used to convey the content of a webpage to users with visual impairments via text-to-speech, helping developers understand and create accessible web content.",
-    Distractor1: "It's a web design tool",
-    Distractor2: "It's a code editor",
-    Distractor3: "It's a graphics rendering software",
-    Explanation: 
-    "Screen readers assist users with visual impairments in accessing web content through spoken text.",
-    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
-  },
-  {
     Question: "Why is it important to add labels to form inputs like search forms?",
     Answer: 
       "Labels indicate the purpose of form inputs and make them accessible to screen reader users.",
@@ -54,18 +43,6 @@ const accessibilityQuiz = [
       "Labels associated with form inputs, such as search forms, describe the purpose of the input, making it accessible to screen reader users.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },  
-  {
-    Question: "What are the four broad guidelines of web accessibility according to WCAG?",
-    Answer: 
-      "Perceivable, Operable, Understandable, Robust",
-    Distractor1: "Creative, Original, Unique, Dynamic",
-    Distractor2: "Left, Right, Up, Down",
-    Distractor3: "HTML, CSS, JavaScript, PHP",
-    Explanation: 
-      "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, and Robust, often referred to as WCAG.",
-    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
-
-  },
   {
     Question: "Which screen reader is a Free & Open-source downloadable software for Windows OS?",
     Answer: 
@@ -119,17 +96,6 @@ const accessibilityQuiz = [
     Distractor3: "lack of border styles",
     Explanation: 
       "Empty buttons that lack text for screen reader users are an accessibility issue.",
-    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
-  },
-  {
-    Question: "What is the primary reason for adding a language attribute to the HTML tag of a webpage?",
-    Answer: 
-      "Screen readers use the document language to pronounce words, and it's good for SEO.",
-    Distractor1: "Language attributes improve website aesthetics.",
-    Distractor2: "Language attributes speed up website loading.",
-    Distractor3: "Language attributes provide translations for the page.",
-    Explanation:
-      "Adding a language attribute to the HTML tag helps screen readers pronounce words correctly and benefits SEO.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
