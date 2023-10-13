@@ -114,9 +114,9 @@ const accessibilityQuiz = [
     Question: "Which accessibility problem is associated with empty buttons, particularly those without text for screen reader users?",
     Answer: 
       "Empty buttons",
-    Distractor1: "Low color contrast",
-    Distractor2: "Missing alternative text for images",
-    Distractor3: "Missing form input labels",
+    Distractor1: "lack of background color",
+    Distractor2: "lack of font color",
+    Distractor3: "lack of border styles",
     Explanation: 
       "Empty buttons that lack text for screen reader users are an accessibility issue.",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
