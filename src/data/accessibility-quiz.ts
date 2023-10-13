@@ -57,7 +57,7 @@ const accessibilityQuiz = [
   {
     Question: "What does the 'a11yproject' provide for web development, and what can you find on their site?",
     Answer: 
-    "The 'a11yproject' offers practical guides, examples, how-tos, myths, tips, and recommended accessibility tools for implementing accessible features and components during web development. It is a community-driven project that can be contributed to on Github.",
+    "It provides practical guides, examples, how-tos, myths, tips, and recommended accessibility tools.",
     Distractor1: "It provides a platform for game development",
     Distractor2: "It offers free stock images",
     Distractor3: "It is a social media network",
