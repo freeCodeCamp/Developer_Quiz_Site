@@ -22,7 +22,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   },
   {
-    Question: "Which tool or extension allows you to find accessibility defects on your web page in both Chrome and Firefox?",
+    Question: "As of 2023, which tool or extension allows you to find accessibility defects on your web page in both Chrome and Firefox?",
     Answer: 
     "WAVE",
     Distractor1: "Color Oracle",
