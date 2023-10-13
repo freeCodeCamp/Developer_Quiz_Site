@@ -14,7 +14,7 @@ const cloudComputingQuiz = [
     Distractor1: "File storage simplifies access to applications by exposing the underlying block addresses.",
     Distractor2: "File storage allows you to read and write individual data blocks directly.",
     Distractor3: "File storage is more cost-effective for all use cases.",
-    Explanation: " File storage improves data management by grouping related blocks into files and organizing those files within directories, providing a more intuitive and structured way to access and manage data.",
+    Explanation: "File storage improves data management by grouping related blocks into files and organizing those files within directories, providing a more intuitive and structured way to access and manage data.",
     Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
   },
   {
