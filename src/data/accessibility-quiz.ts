@@ -44,7 +44,7 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },  
   {
-    Question: "Which screen reader is a Free & Open-source downloadable software for Windows OS?",
+    Question: "As of 2023, which screen reader is a Free & Open-source downloadable software for Windows OS?",
     Answer: 
       "NVDA (Non Visual Desktop Access)",
     Distractor1: "JAWS (Job Access With Speech)",
