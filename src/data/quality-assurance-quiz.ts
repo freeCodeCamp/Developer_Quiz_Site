@@ -1,5 +1,25 @@
 const qualityAssuranceQuiz = [
   {
+    Question: "What is defect clustering?",
+    Answer: "Most of the problems that are found occur in just a few parts of the application or software.",
+    Distractor1: "The random distribution of defects throughout a software application.",
+    Distractor2: "The problem that is only found in large software applications.",
+    Distractor3: "The principle that 50% of the defects in a software application are caused by 50% of the modules.",
+    Explanation:
+    "Defect clustering is a common phenomenon in software development where a small number of modules in a software application contain a large proportion of the defects.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide/#software-testing-principles"
+  },
+  {
+    Question: "What is the purpose of smoke testing?",
+    Answer: "To verify that the basic functionality of a software application is working as expected.",
+    Distractor1: "To identify all of the defects in a software application.",
+    Distractor2: "To verify that a software application meets all of its requirements.",
+    Distractor3: "To ensure that a software application is compatible with all of its supported environments.",
+    Explanation:
+    " It is a quick and lightweight test that is designed to identify any major issues with the software application before more detailed testing is performed.",
+    Link: "https://www.freecodecamp.org/news/smoke-testing/#what-is-smoke-testing"
+  },
+  {
     Question: "What is Cross-Browser Compatibility Testing?",
     Answer:
       "Quality assurance process in web development to ensure a website functions consistently across different web browsers.",
