@@ -90,7 +90,7 @@ const accessibilityQuiz = [
   {
     Question: "Which accessibility problem is associated with empty buttons, particularly those without text for screen reader users?",
     Answer: 
-      "Empty buttons",
+      "lack of button text for screen reader users",
     Distractor1: "lack of background color",
     Distractor2: "lack of font color",
     Distractor3: "lack of border styles",
