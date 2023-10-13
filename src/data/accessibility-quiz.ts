@@ -137,7 +137,7 @@ const accessibilityQuiz = [
     Answer: 
       "Missing form input labels",
     Distractor1: "Empty links",
-    Distractor2: "Empty buttons",
+    Distractor2: "to many labels and inputs",
     Distractor3: "Low contrast text",
     Explanation: 
       "The accessibility problem associated with missing form input labels is precisely 'Missing form input labels.",
