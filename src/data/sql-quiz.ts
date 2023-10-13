@@ -1,5 +1,58 @@
 const sqlQuiz = [
   {
+    Question: "In SQL,how many primary keys can be created in a table?",
+    Answer: "Only one",
+    Distractor1: "Infinte",
+    Distractor2: "Twelve",
+    Distractor3: "Two",
+    Explanation:
+      "A table can have multiple unique keys that identify each row, but only one primary key.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL, what does the HAVING clause typically follow?",
+    Answer: "GROUP BY",
+    Distractor1: "ORDER BY",
+    Distractor2: "WHERE",
+    Distractor3: "HAVING is used alone",
+    Explanation:
+      "The HAVING clause is used in combination with the GROUP BY clause to filter grouped records based on specified conditions.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
+  },
+  {
+    Question:
+      "In database normalization, what does the First Normal Form (1NF) require?",
+    Answer: "All attributes must have unique names",
+    Distractor1: "All data values in a column must be of the same data type",
+    Distractor2: "All primary keys must be integers",
+    Distractor3: " All attributes must have a value for every record",
+    Explanation:
+      "The First Normal Form (1NF) requires that all attributes in a table must have unique names, ensuring that each column represents a single atomic value.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which normal form ensures that there are no transitive dependencies?",
+    Answer: "Third Normal Form (3NF)",
+    Distractor1: "Second Normal Form (2NF)",
+    Distractor2: " Boyce-Codd Normal Form (BCNF)",
+    Distractor3: "Fourth Normal Form (4NF)",
+    Explanation:
+      "The Third Normal Form (3NF) addresses transitive dependencies and ensures that non-key attributes are not dependent on other non-key attributes.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which SQL clause is used to filter rows before applying the aggregate functions?",
+    Answer: "WHERE",
+    Distractor1: "GROUP BY",
+    Distractor2: "HAVING",
+    Distractor3: "ORDER BY",
+    Explanation:
+      "The WHERE clause in SQL is used to filter rows before applying the aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
+  },
+  {
     Question: "Which SQL clause sets the child data to NULL when the parent data is deleted?",
     Answer: "ON DELETE SET NULL",
     Distractor1: "UPDATE TO NULL ",
