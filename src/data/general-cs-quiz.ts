@@ -1725,6 +1725,60 @@ const generalCSQuiz = [
   Explanation: "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
   Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
 },
+{
+  Question:"What is the time complexity of Kruskal's algorithm in terms of the number of edges (E) and vertices (V) in the graph?",
+  Answer: "O(E log V)",
+  Distractor1: "O(E)",
+  Distractor2: "O(E log V)",
+  Distractor3: "O(V log E)",
+  Explanation:"E is at most O(V^2) in a complete graph, and log(V^2) is equivalent to 2 * log(V), the time complexity is often expressed as O(E log V). This is because, in most cases, E is significantly smaller than V^2, and it simplifies to O(E log V).",
+  Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
+},
+{
+  Question: "What is a key characteristic of a complete binary tree?",
+  Answer: "It has the maximum number of nodes for a given height",
+  Distractor1: "All nodes have exactly two children.",
+  Distractor2: "The last level may have gaps in node positions",
+  Distractor3: "It has the maximum number of nodes for a given height",
+  Explanation:"The key characteristic of a complete binary tree is that it contains the maximum possible number of nodes for a tree of its height. This maximizes the number of nodes that can be accommodated while maintaining the structure's completeness.",
+  Link: "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees"
+},
+{
+  Question:"Which header file should be included to use the malloc function in C?",
+  Answer: "<stdlib.h>",
+  Distractor1: "<memory.h>.",
+  Distractor2: "<stdlib.h>",
+  Distractor3: "<stdio.h>",
+  Explanation:"<stdlib.h> is the header file that provides declarations for many standard library functions in C, including memory allocation and deallocation functions like malloc, calloc, and free",
+  Link: "https://www.freecodecamp.org/news/malloc-in-c-dynamic-memory-allocation-in-c-explained/"
+},
+{
+  Question:"How is memory allocated by the calloc function different from malloc in C Programming?",
+  Answer:"calloc initializes memory to 0, while malloc leaves it uninitialized",
+  Distractor1:"calloc initializes memory to 0, while malloc leaves it uninitialized",
+  Distractor2: "calloc allocates more memory than malloc",
+  Distractor3: "calloc is used for allocating memory for variables.",
+  Explanation:"malloc allocates memory without initializing it, while calloc initializes the allocated memory to zero. This is an important distinction.",
+  Link: "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#:~:text=to%20the%20system-,Differences%20between%20malloc()%20and%20calloc(),the%20size%20of%20each%20element."
+},
+{
+  Question:"What is the postfix notation for the infix expression: 3 * (5 + 2)?",
+  Answer: "3 5 2 * +",
+  Distractor1: "3 5 2 + *",
+  Distractor2: "3 5 + 2 *",
+  Distractor3: "3 5 2 * +",
+  Explanation:'The postfix notation for the infix expression "3 * (5 + 2)" is "3 5 2 * +". This notation represents the same mathematical expression and can be directly evaluated using a stack-based algorithm.',
+  Link: "https://youtu.be/B31LgI4Y4DQ?si=R1q51bZBH-OWHot1&t=15255"
+},
+{
+  Question: "What is the primary purpose of the <iostream> library in C++?",
+  Answer: "To provide input and output functionality",
+  Distractor1: "To perform mathematical operations",
+  Distractor2: "To define classes and structures",
+  Distractor3: "To provide input and output functionality",
+  Explanation:"The <iostream> library in C++ is primarily used for input and output operations. It provides a set of standard objects and classes for performing input (reading data from the user or files) and output (displaying data to the user or writing to files) operations",
+  Link: "https://www.freecodecamp.org/news/the-c-plus-plus-programming-language/#:~:text=iostream%20stands%20for%20%22input%2Doutput,features%20of%20standard%20C%2B%2B."
+}
 ];
 
 export default generalCSQuiz;
