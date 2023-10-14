@@ -29,7 +29,7 @@ const qualityAssuranceQuiz = [
     Distractor2: "Agile development.",
     Distractor3: "Scrum methodology.",
     Explanation: 
-      "TDD involves writing unit tests before implementing the code, making unit testing a fundamental practice.",
+      "TDD (Test-Driven Development) involves writing unit tests before implementing the code, making unit testing a fundamental practice.",
     Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
   },
   {
