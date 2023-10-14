@@ -643,19 +643,19 @@ const accessibilityQuiz = [
       "It helps visually impaired users to skip to the main content of a site.",
     Distractor1: "It serves as a link to the website's home page.",
     Distractor2:
-      "It allows users to to skip directly to the website's contact page.",
+      "It allows users to skip directly to the website's contact page.",
     Distractor3: "It provides a link to download a screen reader application.",
     Explanation:
-      "A skip navigation link allow visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
+      "A skip navigation link allows visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
   },
   {
     Question:
-      "What are the four broad guidelines of web accessibility that addresses different aspects of usability and inclusivity?",
+      "What are the four broad guidelines of web accessibility that address different aspects of usability and inclusivity?",
     Answer: "Perceivable, Operable, Understandable, Robust.",
     Distractor1: "Responsive, Mobile-Friendly, Fast-Loading and Secure.",
     Distractor2: "Content, Design, Interaction and Navigation.",
-    Distractor3: "Productivity, Accessibility, Scalabity and Visual.",
+    Distractor3: "Productivity, Accessibility, Scalability and Visual.",
     Explanation:
       "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, Robust. They help ensure that web content is accessible to all users, including those with disabilities",
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
@@ -668,7 +668,7 @@ const accessibilityQuiz = [
     Distractor2: "Adding missing alternative text for images",
     Distractor3: "Fix empty links",
     Explanation:
-      "Fixing empty links, adding missing alternative text for images, updating low contrast text are some common ways to fix accessiblility errors",
+      "Fixing empty links, adding missing alternative text for images, updating low contrast text are some common ways to fix accessibility errors",
     Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
@@ -681,6 +681,17 @@ const accessibilityQuiz = [
     Explanation:
       "WCAG version 1.0 was published on May 5, 1999 and was a total game-changer for web accessibility.",
     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-and-checklist/"
+  },
+   {
+    Question:
+      "Which of the following is NOT an example of web accessibility?",
+    Answer: "Programming Robots using Machine Learning",
+    Distractor1: "Alternative Text for Images",
+    Distractor2: "Keyboard Input",
+    Distractor3: "Transcripts for Audio",
+    Explanation:
+      "All of the above are current examples of web accessibility, except for Machine Learning, which may become a future trend.",
+    Link: "https://www.w3.org/WAI/fundamentals/accessibility-intro/#examples"
   }
 ];
 
