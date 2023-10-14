@@ -1384,6 +1384,15 @@ const linuxQuiz = [
       Distractor3: "Linux operates without a kernel on Ubuntu.",
       Explanation: "The Linux kernel, which manages system resources, acts as the bridge between the hardware and software on Ubuntu. It initializes hardware, establishes the system environment, loads necessary drivers, and allows applications to run on top of it. This fundamental structure is common to all Linux distributions, including Ubuntu.",
       Link: "https://www.freecodecamp.org/news/introduction-to-linux/"
+    },
+    {
+      Question: "Which Linux utility is used for partitioning disks?",
+      Answer: "fdisk",
+      Distractor1: "ping",
+      Distractor2: "tar",
+      Distractor3: "ssh",
+      Explanation: "fdisk is a command-line utility in Linux used for disk partitioning, while the other options are not related to disk partitioning.",
+      Link: "https://linux.die.net/man/8/fdisk"
     }
 ];
 
