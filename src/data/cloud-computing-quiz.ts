@@ -1,10 +1,28 @@
 const cloudComputingQuiz = [
   {
+    Question: "What is the key advantage of file storage compared to block storage regarding multiple compute instances?",
+    Answer: "Multiple instances can be mounted on the same file storage device in file storage.",
+    Distractor1: "Block storage is more scalable for multiple instances.",
+    Distractor2: "File storage is not suitable for use with multiple compute instances.",
+    Distractor3: "Block storage allows instances to share data more efficiently.",
+    Explanation: "In file storage, multiple compute instances can share and access the same file storage device, making it easier to collaborate and share data among different instances. This is a key advantage over block storage, which is often more limited in this regard.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "Which major cloud providers offer file storage options?",
+    Answer: "AWS, GCP, and Azure.",
+    Distractor1: "AWS, GCP, and IBM Cloud.",
+    Distractor2: "Microsoft, Oracle, and Google Cloud.",
+    Distractor3: "AWS, Azure, and Alibaba Cloud.",
+    Explanation: "Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure are major cloud providers that offer file storage solutions, such as AWS Elastic File Storage (EFS), GCP Cloud Filestore, and Azure Files.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
     Question: "In the context of file storage, what is the role of the operating system?",
     Answer: "To abstract away the block storage and create a file cabinet-like structure.",
     Distractor1: "To expose the underlying block storage to applications.",
     Distractor2: "To provide a low-level interface for data manipulation.",
-    Distractor3: "To optimize file storage for performance..",
+    Distractor3: "To optimize file storage for performance.",
     Explanation: "In file storage, the operating system abstracts the underlying block storage, presenting a hierarchical file structure to users and applications. This abstraction simplifies data access and management.",
     Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
   },
