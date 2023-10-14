@@ -789,6 +789,17 @@ const cssQuiz = [
       "The repeat-x value of the background-repeat property repeats the image along the x-axis.",
     Link: "https://www.freecodecamp.org/news/learn-css-background-properties/"
   },
+   {
+    Question:
+      "In CSS, what is the name of the CSS property used to position the grid inside the grid container along the y-axis?",
+    Answer: "align-content",
+    Distractor1: "justify-content",
+    Distractor2: "end",
+    Distractor3: "grid-unit-rows",
+    Explanation:
+      "The align-content property is used to position the grid inside the grid container along the y-axis.",
+    Link: "https://www.freecodecamp.org/news/css-grid-tutorial-with-cheatsheet/#css-grid-architecture"
+  },
   {
     Question: "In CSS, how is the and operator used in a media query?",
     Answer: "It is used to join multiple media features.",
