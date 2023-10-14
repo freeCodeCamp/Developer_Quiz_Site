@@ -1687,7 +1687,7 @@ const htmlQuiz = [
       "If the type attribute is not specified in an HTML <input> element, the default type is text",
     Link: "https://www.freecodecamp.org/news/text-box-in-html-the-input-field-html-tag/"
   },{
-    Question: "In HTML,how can you create a range input that allows users to select values from 1 to 100 with step increments of 5?",
+    Question: "In HTML, how can you create a range input that allows users to select values from 1 to 100 with step increments of 5?",
     Answer: '<input type="range" min="1" max="100" step="5">',
     Distractor1: '<input type="range" min="1" max="100" step="5">',
     Distractor2: '<input type="range" min="1" max="100" increment="5">',
