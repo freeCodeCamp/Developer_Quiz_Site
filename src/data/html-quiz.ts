@@ -1689,7 +1689,7 @@ const htmlQuiz = [
   },{
     Question: "In HTML, how can you create a range input that allows users to select values from 1 to 100 with step increments of 5?",
     Answer: '<input type="range" min="1" max="100" step="5">',
-    Distractor1: '<input type="range" min="1" max="100" step="5">',
+    Distractor1: '<input type="range" min="34" max="100" step="15">',
     Distractor2: '<input type="range" min="1" max="100" increment="5">',
     Distractor3: '<input type="slider" min="1" max="100" step="5">',
     Explanation:
