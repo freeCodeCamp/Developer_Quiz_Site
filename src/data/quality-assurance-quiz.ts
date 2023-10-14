@@ -35,10 +35,10 @@ const qualityAssuranceQuiz = [
   {
     Question: "In JavaScript, which assertion library is commonly used for writing unit tests?",
     Answer: 
-      "Chai.",
-    Distractor1: "Mocha.",
-    Distractor2: "Jasmine.",
-    Distractor3: "Jest.",
+      "Chai",
+    Distractor1: "Yii",
+    Distractor2: "Spock",
+    Distractor3: "NUnit",
     Explanation: 
       "Chai is a popular assertion library often used in combination with testing frameworks like Mocha.",
     Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
