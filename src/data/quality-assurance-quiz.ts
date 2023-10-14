@@ -1,6 +1,6 @@
 const qualityAssuranceQuiz = [
   {
-    Question: "What is defect clustering?",
+    Question: "What does the term defect clustering refer to?",
     Answer: "Most of the problems that are found occur in just a few parts of the application or software.",
     Distractor1: "The random distribution of defects throughout a software application.",
     Distractor2: "The problem that is only found in large software applications.",
