@@ -1660,7 +1660,7 @@ const htmlQuiz = [
       "Hypertext in HTML refers to text (often with embeds such as images, too) that is organized in order to connect web pages to one another.",
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
   }, {
-    Question: "Which is not a block-level element in HTML?",
+    Question: "In HTML, which of the following elements is NOT a block-level element?",
     Answer: "<span>",
     Distractor1: "<h2>",
     Distractor2: "<p>",
