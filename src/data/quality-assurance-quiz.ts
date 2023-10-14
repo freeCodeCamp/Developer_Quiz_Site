@@ -182,6 +182,18 @@ const qualityAssuranceQuiz = [
     Explanation:
       "A good QA engineer should understand the full life cycle of software products in order to effectively plan and test them. There are 7 phases of the Software Development Life Cycle",
     Link: "https://www.freecodecamp.org/news/how-to-become-a-quality-assurance-engineer-qa-engineer-career-guide/"
+  },
+  {
+    Question: "What is exploratory testing?",
+    Answer:
+      "An unscripted approach to testing in an effort to find unknown bugs and identify regressions",
+    Distractor1: "Tests that check for basic functionality",
+    Distractor2: "A replacement for scripted testing",
+    Distractor3:
+      "Focuses on one area of the software that will most likely contain bugs",
+    Explanation:
+      "An unscripted approach to testing, which relies on the tester's unique creativity in an effort to find unknown bugs and identify regressions",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/"
   }
 ];
 
