@@ -1672,7 +1672,7 @@ const htmlQuiz = [
     Question: "Which HTML5 feature allows for the storage of data on the client-side, even after the browser is closed?",
     Answer: "Local Storage",
     Distractor1: "WebSockets",
-    Distractor2: "Local Storage",
+    Distractor2: "navigator",
     Distractor3: "Session Storage",
     Explanation:
       "Local Storage is a client-side storage mechanism introduced in HTML5. It allows web applications to store data in a key-value pair format on the user's browser.",
