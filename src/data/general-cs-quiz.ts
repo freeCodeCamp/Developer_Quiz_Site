@@ -1744,24 +1744,6 @@ const generalCSQuiz = [
   Link: "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees"
 },
 {
-  Question:"Which header file should be included to use the malloc function in C?",
-  Answer: "<stdlib.h>",
-  Distractor1: "<memory.h>.",
-  Distractor2: "<stdlib.h>",
-  Distractor3: "<stdio.h>",
-  Explanation:"<stdlib.h> is the header file that provides declarations for many standard library functions in C, including memory allocation and deallocation functions like malloc, calloc, and free",
-  Link: "https://www.freecodecamp.org/news/malloc-in-c-dynamic-memory-allocation-in-c-explained/"
-},
-{
-  Question:"How is memory allocated by the calloc function different from malloc in C Programming?",
-  Answer:"calloc initializes memory to 0, while malloc leaves it uninitialized",
-  Distractor1:"calloc initializes memory to 0, while malloc leaves it uninitialized",
-  Distractor2: "calloc allocates more memory than malloc",
-  Distractor3: "calloc is used for allocating memory for variables.",
-  Explanation:"malloc allocates memory without initializing it, while calloc initializes the allocated memory to zero. This is an important distinction.",
-  Link: "https://en.wikipedia.org/wiki/C_dynamic_memory_allocation#:~:text=to%20the%20system-,Differences%20between%20malloc()%20and%20calloc(),the%20size%20of%20each%20element."
-},
-{
   Question:"What is the postfix notation for the infix expression: 3 * (5 + 2)?",
   Answer: "3 5 2 * +",
   Distractor1: "3 5 2 + *",
@@ -1770,15 +1752,6 @@ const generalCSQuiz = [
   Explanation:'The postfix notation for the infix expression "3 * (5 + 2)" is "3 5 2 * +". This notation represents the same mathematical expression and can be directly evaluated using a stack-based algorithm.',
   Link: "https://youtu.be/B31LgI4Y4DQ?si=R1q51bZBH-OWHot1&t=15255"
 },
-{
-  Question: "What is the primary purpose of the <iostream> library in C++?",
-  Answer: "To provide input and output functionality",
-  Distractor1: "To perform mathematical operations",
-  Distractor2: "To define classes and structures",
-  Distractor3: "To provide input and output functionality",
-  Explanation:"The <iostream> library in C++ is primarily used for input and output operations. It provides a set of standard objects and classes for performing input (reading data from the user or files) and output (displaying data to the user or writing to files) operations",
-  Link: "https://www.freecodecamp.org/news/the-c-plus-plus-programming-language/#:~:text=iostream%20stands%20for%20%22input%2Doutput,features%20of%20standard%20C%2B%2B."
-}
 ];
 
 export default generalCSQuiz;
