@@ -16,7 +16,7 @@ const qualityAssuranceQuiz = [
     Distractor2: "To verify that a software application meets all of its requirements.",
     Distractor3: "To ensure that a software application is compatible with all of its supported environments.",
     Explanation:
-    " It is a quick and lightweight test that is designed to identify any major issues with the software application before more detailed testing is performed.",
+    "It is a quick and lightweight test that is designed to identify any major issues with the software application before more detailed testing is performed.",
     Link: "https://www.freecodecamp.org/news/smoke-testing/#what-is-smoke-testing"
   },
   {
