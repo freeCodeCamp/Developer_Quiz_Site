@@ -1,5 +1,15 @@
 const agileQuiz = [
   {
+    Question: "Agile Software Development is based on",
+    Answer: "Both Incremental and Iterative Development",
+    Distractor1: " Incremental Development",
+    Distractor2: " Iterative Development",
+    Distractor3: "Linear Development",
+    Explanation:
+    "The software is developed in increments with the customer specifying the requirements to be included in each increment and the highest priority is to satisfy the customer through early and continuous delivery of valuable software. They are iterative because they work on one iteration followed by improvements in next iteration",
+    Link: "https://www.sanfoundry.com/software-engg-mcqs-agile-software-development/"
+  },
+  {
     Question: "What is the average duration for sprints?",
     Answer: "2 weeks to a month",
     Distractor1: "3 weeks to 6 weeks",
