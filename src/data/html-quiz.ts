@@ -1693,7 +1693,7 @@ const htmlQuiz = [
     Distractor2: '<input type="range" min="1" max="100" increment="5">',
     Distractor3: '<input type="slider" min="1" max="100" step="5">',
     Explanation:
-      '<input> element with the type attribute set to "range." To define the range and the step increments, you use the min and max attributes to specify the minimum and maximum values,and the step attribute to set the step increment.',
+      'To define the range and the step increments for an input element, use the min and max attributes to specify the minimum and maximum values, and the step attribute to set the step increment.',
     Link: "https://www.w3.org/wiki/Html/Elements/input/range"
   },{
     Question: "What HTML5 attribute is used to associate a <label> element with a specific form control?",
