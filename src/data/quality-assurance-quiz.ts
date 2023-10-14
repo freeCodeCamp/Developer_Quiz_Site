@@ -1,5 +1,93 @@
 const qualityAssuranceQuiz = [
   {
+    Question: "The primary purpose of unit testing in software development is to:",
+    Answer: 
+      "Break down the codebase into smaller parts (units) and test them in isolation.",
+    Distractor1: "Validate the overall functionality of a software application.",
+    Distractor2: "Ensure proper integration between different software components.",
+    Distractor3: "Verify the user interface and user experience of the software.",
+    Explanation: 
+      "Unit testing involves testing individual components or units of code in isolation to ensure they work as intended.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "How does unit testing contribute to code documentation?",
+    Answer: 
+      "Unit testing documents the behavior and flow of code, making it easier for new developers to understand.",
+    Distractor1: "Unit testing is not related to code documentation.",
+    Distractor2: "Unit testing generates automated documentation.",
+    Distractor3: "Unit testing documentation is only for experienced developers.",
+    Explanation: 
+      "Unit tests serve as living documentation that describes how code should behave.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "Which software development approach often emphasizes the use of unit testing?",
+    Answer: 
+      "Test-Driven Development (TDD).",
+    Distractor1: "Waterfall model.",
+    Distractor2: "Agile development.",
+    Distractor3: "Scrum methodology.",
+    Explanation: 
+      "TDD involves writing unit tests before implementing the code, making unit testing a fundamental practice.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "In JavaScript, which assertion library is commonly used for writing unit tests?",
+    Answer: 
+      "Chai.",
+    Distractor1: "Mocha.",
+    Distractor2: "Jasmine.",
+    Distractor3: "Jest.",
+    Explanation: 
+      "Chai is a popular assertion library often used in combination with testing frameworks like Mocha.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "What is the typical process after writing unit tests in Test-Driven Development (TDD)?",
+    Answer: 
+      "Implement the minimum code required to pass the test cases and then refactor the code.",
+    Distractor1: "Ignore the test results and proceed with coding.",
+    Distractor2: "Write additional test cases without implementing any code.",
+    Distractor3: "Abandon the unit testing approach and rely on manual testing.",
+    Explanation: 
+      "TDD involves an iterative process of writing tests, implementing code, and refactoring.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "Which aspect of code quality does unit testing help enforce?",
+    Answer: 
+      "Unit testing enforces good and extendable interfaces and patterns in the code.",
+    Distractor1: "Unit testing focuses on code performance optimization.",
+    Distractor2: "Unit testing ensures user interface design quality.",
+    Distractor3: "Unit testing checks for code comments and documentation.",
+    Explanation: 
+      "Unit tests encourage developers to think about code structure and maintainability.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "What is the key benefit of unit testing in software development?",
+    Answer: 
+      "Confidence to add changes, reuse, or refactor code without introducing bugs.",
+    Distractor1: "Unit testing guarantees the absence of all bugs.",
+    Distractor2: "Unit testing reduces the need for debugging.",
+    Distractor3: "Unit testing simplifies user acceptance testing.",
+    Explanation: 
+      "Unit testing provides confidence in code modifications and refactoring.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
+    Question: "How does unit testing contribute to industry standards in software development?",
+    Answer: 
+      "Unit testing is a common discipline and a requirement for many software companies, making it an industry standard.",
+    Distractor1: "Unit testing is a niche practice adopted by a few companies.",
+    Distractor2: "Unit testing is primarily used in academic research.",
+    Distractor3: "Unit testing varies widely by geographical regions.",
+    Explanation: 
+      "Many software companies consider unit testing essential for software quality and reliability.",
+    Link: "https://www.freecodecamp.org/news/unit-tests-explained/"
+  },
+  {
     Question: "What does the term defect clustering refer to?",
     Answer: "Most of the problems that are found occur in just a few parts of the application or software.",
     Distractor1: "The random distribution of defects throughout a software application.",
