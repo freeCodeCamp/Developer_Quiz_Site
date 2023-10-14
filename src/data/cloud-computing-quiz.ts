@@ -1,6 +1,6 @@
 const cloudComputingQuiz = [
   {
-   Question: "What is the key advantage of file storage compared to block storage regarding multiple compute instances?",
+    Question: "What is the key advantage of file storage compared to block storage regarding multiple compute instances?",
     Answer: "Multiple instances can be mounted on the same file storage device in file storage.",
     Distractor1: "Block storage is more scalable for multiple instances.",
     Distractor2: "File storage is not suitable for use with multiple compute instances.",
