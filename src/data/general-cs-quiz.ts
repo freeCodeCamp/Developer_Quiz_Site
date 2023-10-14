@@ -1725,6 +1725,33 @@ const generalCSQuiz = [
   Explanation: "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
   Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
 },
+{
+  Question:"What is the time complexity of Kruskal's algorithm in terms of the number of edges (E) and vertices (V) in the graph?",
+  Answer: "O(E log V)",
+  Distractor1: "O(E)",
+  Distractor2: "O(E log V)",
+  Distractor3: "O(V log E)",
+  Explanation:"E is at most O(V^2) in a complete graph, and log(V^2) is equivalent to 2 * log(V), the time complexity is often expressed as O(E log V). This is because, in most cases, E is significantly smaller than V^2, and it simplifies to O(E log V).",
+  Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
+},
+{
+  Question: "What is a key characteristic of a complete binary tree?",
+  Answer: "It has the maximum number of nodes for a given height",
+  Distractor1: "All nodes have exactly two children.",
+  Distractor2: "The last level may have gaps in node positions",
+  Distractor3: "It has the maximum number of nodes for a given height",
+  Explanation:"The key characteristic of a complete binary tree is that it contains the maximum possible number of nodes for a tree of its height. This maximizes the number of nodes that can be accommodated while maintaining the structure's completeness.",
+  Link: "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees"
+},
+{
+  Question:"What is the postfix notation for the infix expression: 3 * (5 + 2)?",
+  Answer: "3 5 2 * +",
+  Distractor1: "3 5 2 + *",
+  Distractor2: "3 5 + 2 *",
+  Distractor3: "3 5 2 * +",
+  Explanation:'The postfix notation for the infix expression "3 * (5 + 2)" is "3 5 2 * +". This notation represents the same mathematical expression and can be directly evaluated using a stack-based algorithm.',
+  Link: "https://youtu.be/B31LgI4Y4DQ?si=R1q51bZBH-OWHot1&t=15255"
+},
 ];
 
 export default generalCSQuiz;
