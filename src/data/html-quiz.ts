@@ -1659,6 +1659,53 @@ const htmlQuiz = [
     Explanation:
       "Hypertext in HTML refers to text (often with embeds such as images, too) that is organized in order to connect web pages to one another.",
     Link: "https://www.freecodecamp.org/news/what-is-html-definition-and-meaning/"
+  }, {
+    Question: "Which is not a block-level element in HTML?",
+    Answer: "<span>",
+    Distractor1: "<h2>",
+    Distractor2: "<p>",
+    Distractor3: "<span>",
+    Explanation:
+      "<span> is an inline element. It is used to apply styles to a specific part of the text within a block-level element without breaking the flow of the content",
+    Link: "https://www.freecodecamp.org/news/inline-elements-and-block-elements-in-html-explained/"
+  }, {
+    Question: "Which HTML5 feature allows for the storage of data on the client-side, even after the browser is closed?",
+    Answer: "Local Storage",
+    Distractor1: "WebSockets",
+    Distractor2: "Local Storage",
+    Distractor3: "Session Storage",
+    Explanation:
+      " Local Storage is a client-side storage mechanism introduced in HTML5. It allows web applications to store data in a key-value pair format on the user's browser.",
+    Link: "https://www.freecodecamp.org/news/how-web-storage-works/"
+  },{
+    Question: "Which is the default type of input field if type is not specified",
+    Answer: "text",
+    Distractor1: "radio",
+    Distractor2: "text",
+    Distractor3: "email",
+    Explanation:
+      "If the type attribute is not specified in an HTML <input> element, the default type is text",
+    Link: "https://www.freecodecamp.org/news/text-box-in-html-the-input-field-html-tag/"
+  },{
+    Question: "In HTML,how can you create a range input that allows users to select values from 1 to 100 with step increments of 5?",
+    Answer: '<input type="range" min="1" max="100" step="5">',
+    Distractor1: '<input type="range" min="1" max="100" step="5">',
+    Distractor2: '<input type="range" min="1" max="100" increment="5">',
+    Distractor3: '<input type="slider" min="1" max="100" step="5">',
+    Explanation:
+      '<input> element with the type attribute set to "range." To define the range and the step increments, you use the min and max attributes to specify the minimum and maximum values,and the step attribute to set the step increment.',
+    Link: "https://www.w3.org/wiki/Html/Elements/input/range"
+  },{
+    Question: "What HTML5 attribute is used to associate a <label> element with a specific form control?",
+    Answer: 'for',
+    Distractor1: 'control',
+    Distractor2: 'link',
+    Distractor3: 'for',
+    Explanation:
+      'In HTML, the for attribute is used in conjunction with the <label> element to associate the label with a specific form control (such as an <input> element). This association is important for improving the usability and accessibility of web forms.',
+    Link: "https://www.freecodecamp.org/news/html-label-label-tag-example/#:~:text=You%20use%20the%20HTML%20%3Clabel,elements%20inside%20a%20form%20element."
   }
 ];
 export default htmlQuiz;
+
+
