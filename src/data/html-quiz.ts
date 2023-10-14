@@ -1703,7 +1703,7 @@ const htmlQuiz = [
     Distractor3: 'date',
     Explanation:
       'In HTML, the for attribute is used in conjunction with the <label> element to associate the label with a specific form control (such as an <input> element). This association is important for improving the usability and accessibility of web forms.',
-    Link: "https://www.freecodecamp.org/news/html-label-label-tag-example/#:~:text=You%20use%20the%20HTML%20%3Clabel,elements%20inside%20a%20form%20element."
+    Link: "https://www.freecodecamp.org/news/html-label-label-tag-example"
   }
 ];
 export default htmlQuiz;
