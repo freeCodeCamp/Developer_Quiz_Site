@@ -1678,7 +1678,7 @@ const htmlQuiz = [
       "Local Storage is a client-side storage mechanism introduced in HTML5. It allows web applications to store data in a key-value pair format on the user's browser.",
     Link: "https://www.freecodecamp.org/news/how-web-storage-works/"
   },{
-    Question: "Which is the default type of input field if type is not specified",
+    Question: "In HTML, which of the following is the default type for the input field?",
     Answer: "text",
     Distractor1: "radio",
     Distractor2: "text",
