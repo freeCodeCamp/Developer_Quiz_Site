@@ -1666,7 +1666,7 @@ const htmlQuiz = [
     Distractor2: "<p>",
     Distractor3: "<span>",
     Explanation:
-      "<span> is an inline element. It is used to apply styles to a specific part of the text within a block-level element without breaking the flow of the content",
+      "The span element is a generic inline container that can be used for grouping content and styling purposes.",
     Link: "https://www.freecodecamp.org/news/inline-elements-and-block-elements-in-html-explained/"
   }, {
     Question: "Which HTML5 feature allows for the storage of data on the client-side, even after the browser is closed?",
