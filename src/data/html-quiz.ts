@@ -1681,7 +1681,7 @@ const htmlQuiz = [
     Question: "In HTML, which of the following is the default type for the input field?",
     Answer: "text",
     Distractor1: "radio",
-    Distractor2: "text",
+    Distractor2: "color",
     Distractor3: "email",
     Explanation:
       "If the type attribute is not specified in an HTML <input> element, the default type is text",
