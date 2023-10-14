@@ -1664,7 +1664,7 @@ const htmlQuiz = [
     Answer: "<span>",
     Distractor1: "<h2>",
     Distractor2: "<p>",
-    Distractor3: "<span>",
+    Distractor3: "<div>",
     Explanation:
       "The span element is a generic inline container that can be used for grouping content and styling purposes.",
     Link: "https://www.freecodecamp.org/news/inline-elements-and-block-elements-in-html-explained/"
