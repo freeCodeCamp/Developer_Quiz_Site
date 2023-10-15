@@ -1976,7 +1976,7 @@ const javascriptQuiz = [
     Distractor2: "split()",
     Distractor3: "process.nextTick",
     Explanation:
-      "The JavaScript setTimeout() method is a built-in method that allows you to time the execution of a certain function . You need to pass the amount of time to wait for in milliseconds , which means to wait for one second, you need to pass one thousand milliseconds.",
+      "The JavaScript setTimeout() method is a built-in method that allows you to time the execution of a certain function. You need to pass the amount of time to wait for in milliseconds, which means to wait for one second, you need to pass one thousand milliseconds.",
     Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
   }
 ];
