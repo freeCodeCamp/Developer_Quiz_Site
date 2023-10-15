@@ -1968,7 +1968,16 @@ const javascriptQuiz = [
     Explanation:
       "An IIFE or Immediately Invoked Function Expression, is used to declare a private variable and to avoid polluting the global environment. If a function is declared with an IIFE by using a parenthesis around it, the variable declared inside it becomes private and its value can be accessed using a getter function inside the original function.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
-  }
+  },
+  {
+    Question: "What is the purpose of the 'use strict' directive in JavaScript?",
+    Answer: "It enforces a stricter set of rules, catches common coding mistakes, and prevents the use of undeclared variables.",
+    Distractor1: "It enables asynchronous JavaScript execution.",
+    Distractor2: "It allows for more lenient type coercion in comparisons.",
+    Distractor3: "It defines a new JavaScript version.",
+    Explanation: "The 'use strict' directive in JavaScript enables strict mode, which enforces a stricter set of rules for coding. It helps catch common coding mistakes and prevents the use of undeclared variables, which can lead to better code quality and fewer bugs.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
+    }
 ];
 
 export default javascriptQuiz;
