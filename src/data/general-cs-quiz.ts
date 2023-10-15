@@ -1,5 +1,15 @@
 const generalCSQuiz = [
   {
+    Question: "How many layers are there in the OSI Model in Computer Networking ?"
+    Answer: "7",
+    Distractor1: "6",
+    Distractor2: "5",
+    Distractor3: "8",
+    Explanation:
+      "There are 7 layers present in the OSI model, Application, Presentation, Session, Transport, Network, Data Link and Physical layer.",
+    Link: "https://www.youtube.com/watch?v=qiQR5rTSshw&t=27870s"
+  },
+  {
     Question: "What is the time complexity of inserting an element into a linked list at the beginning?",
     Answer: "O(1)",
     Distractor1: "O(log n)",
