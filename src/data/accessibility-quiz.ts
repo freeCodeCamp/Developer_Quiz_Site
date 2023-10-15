@@ -1,4 +1,16 @@
-const accessibilityQuiz = [
+const accessibilityQuiz = [{
+  Question:
+    "Why is it better to use relative unit(em and rem) than absolute mesurement(px)?",
+  Answer:
+    "With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
+  Distractor1: "Absolute units like 'px' provide better control over the design's precise layout.",
+  Distractor2: "Relative units like 'em' and 'rem' are only useful for text size, not layout.",
+  Distractor3:
+  "There is no significant difference between relative and absolute units in web design.",
+  Explanation:
+    "This is because nowadays, screen sizes come in different sizes and shapes. If we use px, the element's size remains constant regardless of the size of the screen",
+  Link: "https://www.freecodecamp.org/news/why-use-rem-to-set-font-size-in-css/#:~:text=For%20styling%20a%20webpage%2C%20we,the%20size%20of%20the%20screen."
+},
   {
     Question:
       "What role does the 'alt' attribute play when adding alternative text to images on a webpage?",
