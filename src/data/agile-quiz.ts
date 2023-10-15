@@ -570,6 +570,42 @@ const agileQuiz = [
     Explanation: "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of scrum that allows team members to listen to other's contributions and attempt to identify areas where they can assist each other's progress.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum",
   },
+  {
+    Question: "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
+    Answer: "Deep discussions on architecture or paradigms.",
+    Distractor1: "What you have done since the last DSU.",
+    Distractor2: "What you will be doing after this DSU.",
+    Distractor3: "What are the major obstacles that are stopping your progress, and where do you need help?",
+    Explanation: "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of Scrum that allows team members to listen to each other's contributions and attempt to identify areas where they can assist each other's progress.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum"
+  },
+  {
+    Question: "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
+    Answer: "Deep discussions on architecture or paradigms.",
+    Distractor1: "What you have done since the last DSU.",
+    Distractor2: "What you will be doing after this DSU.",
+    Distractor3: "What are the major obstacles that are stopping your progress, and where do you need help?",
+    Explanation: "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of Scrum that allows team members to listen to each other's contributions and attempt to identify areas where they can assist each other's progress.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum"
+  },
+  {
+    Question: "What is a 'User Story' in Agile development?",
+    Answer: "A simple, informal description of a software feature from an end user's perspective.",
+    Distractor1: "A comprehensive project plan for the entire development process.",
+    Distractor2: "A technical document used by developers to write code.",
+    Distractor3: "A formal contract between the development team and stakeholders.",
+    Explanation: "User Stories are a common way of expressing software requirements in a way that's easy to understand by both developers and non-technical stakeholders.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What is 'Velocity' in the context of Agile project management?",
+    Answer: "A measure of the amount of work a team can complete in a single iteration (sprint).",
+    Distractor1: "The speed at which the team conducts daily stand-up meetings.",
+    Distractor2: "The number of bugs or defects found in the software during testing.",
+    Distractor3: "The total budget allocated for an Agile project.",
+    Explanation: "Velocity is used to estimate the team's capacity and helps with sprint planning by forecasting how much work can be completed.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
 ];
 
 export default agileQuiz;
