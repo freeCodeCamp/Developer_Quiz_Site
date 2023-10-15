@@ -262,6 +262,20 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In Javascript class-based OOP, are objects and classes the same constructs?",
+    Answer: "No, objects and classes are two separate constructs.",
+    Distractor1:
+      "No, objects and classes are completely unrelated in JavaScript.",
+    Distractor2:
+      "Yes, objects and classes are only used in functional programming, not in Javascript class-based OOP",
+    Distractor3:
+      "Yes, objects and classes are interchangeable and can be used interchangeably in Javascript class-based OOP.",
+    Explanation:
+      "Classes and objects are two separate constructs, and objects are always created as instances of classes.",
+    Link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
+  },
+  {
+    Question:
       "In JavaScript, a variable declared with the _________ keyword must be assigned an initial value.",
     Answer: "const",
     Distractor1: "finally",
@@ -1970,7 +1984,8 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
   },
   {
-    Question: "In JavaScript, which of the following is an example of a macrotask?",
+    Question:
+      "In JavaScript, which of the following is an example of a macrotask?",
     Answer: "setTimeout()",
     Distractor1: "promise",
     Distractor2: "split()",
