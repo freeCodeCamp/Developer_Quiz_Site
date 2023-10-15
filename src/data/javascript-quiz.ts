@@ -1973,7 +1973,7 @@ const javascriptQuiz = [
     Question: "In JavaScript, which of the following is an example of a macrotask?",
     Answer: "setTimeout()",
     Distractor1: "promise",
-    Distractor2: "setTimeout()",
+    Distractor2: "split()",
     Distractor3: "process.nextTick",
     Explanation:
       "The JavaScript setTimeout() method is a built-in method that allows you to time the execution of a certain function . You need to pass the amount of time to wait for in milliseconds , which means to wait for one second, you need to pass one thousand milliseconds.",
