@@ -1970,7 +1970,7 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
   },
   {
-    Question: "In JavaScript, which is an example of macrotask?",
+    Question: "In JavaScript, which of the following is an example of a macrotask?",
     Answer: "macrotask examples: setTimeout(), setInterval()",
     Distractor1: "promise",
     Distractor2: "setTimeout()",
