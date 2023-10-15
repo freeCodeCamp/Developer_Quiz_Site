@@ -1386,13 +1386,13 @@ const linuxQuiz = [
       Link: "https://www.freecodecamp.org/news/introduction-to-linux/"
     },
     {
-      Question: "Which Linux utility is used for partitioning disks?",
-      Answer: "fdisk",
-      Distractor1: "ping",
-      Distractor2: "tar",
-      Distractor3: "ssh",
-      Explanation: "fdisk is a command-line utility in Linux used for disk partitioning, while the other options are not related to disk partitioning.",
-      Link: "https://linux.die.net/man/8/fdisk"
+      Question: "Which package manager is commonly used in Debian-based Linux distributions, such as Ubuntu?",
+      Answer: "APT",
+      Distractor1: "YUM",
+      Distractor2: "DNF",
+      Distractor3: "Pacman",
+      Explanation: "APT (Advanced Package Tool) is the package manager commonly used in Debian-based distributions, while the other options are more associated with other Linux distributions.",
+      Link: "https://linux.die.net/man/8/apt"
     }
 ];
 
