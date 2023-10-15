@@ -1971,7 +1971,7 @@ const javascriptQuiz = [
   },
   {
     Question: "In JavaScript, which of the following is an example of a macrotask?",
-    Answer: "macrotask examples: setTimeout(), setInterval()",
+    Answer: "setTimeout()",
     Distractor1: "promise",
     Distractor2: "setTimeout()",
     Distractor3: "process.nextTick",
