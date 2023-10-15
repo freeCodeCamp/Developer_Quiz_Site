@@ -1,6 +1,6 @@
 const generalCSQuiz = [
   {
-    Question: "How many layers are there in the OSI Model in Computer Networking ?"
+    Question: "How many layers are there in the OSI Model in Computer Networking ?",
     Answer: "7",
     Distractor1: "6",
     Distractor2: "5",
