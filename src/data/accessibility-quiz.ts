@@ -706,6 +706,28 @@ const accessibilityQuiz = [
     Explanation:
       "All of the above are current examples of web accessibility, except for Machine Learning, which may become a future trend.",
     Link: "https://www.w3.org/WAI/fundamentals/accessibility-intro/#examples"
+  },
+  {
+    Question: "What is the purpose of adding a document language?",
+    Answer: "To make the page more accessible to screen readers",
+    Distractor1: "To improve the accuracy of machine translation",
+    Distractor2: "To comply with accessibility laws",
+    Distractor3: "Transcripts for Audio",
+    Explanation:
+      "It's important to indicate the language of the page because screen readers use the document language to know how to pronounce the words.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "What is the role of the main tag in web accessibility?",
+    Answer: "To identify the main content section of a page to screen readers",
+    Distractor1:
+      "To provide a way for users to quickly navigate to the most important pages on a site",
+    Distractor2: "To improve the overall accessibility of a site",
+    Distractor3:
+      "To provide a way for users to quickly navigate to the most important pages on a site",
+    Explanation:
+      "Role main is added to the  main  tag to signify to screen readers that this tag is the  main  content section. Needing to add the role on the  main  is depreciated in HTML5 but should still be added in order to support as many screen readers as possible.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips"
   }
 ];
 
