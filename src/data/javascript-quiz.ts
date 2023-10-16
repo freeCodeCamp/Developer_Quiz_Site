@@ -262,7 +262,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "In Javascript class-based OOP, are objects and classes the same constructs?",
+      "In JavaScript class-based OOP, are objects and classes the same constructs?",
     Answer: "No, objects and classes are two separate constructs.",
     Distractor1:
       "No, objects and classes are completely unrelated in JavaScript.",
