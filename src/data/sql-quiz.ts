@@ -1031,7 +1031,7 @@ const sqlQuiz = [
       "WHERE activity_date >= '10/09/2023' AND activity_date <= '10/15/2023'",
     Distractor3: "WHERE activity_date BETWEEN '2023-10-09' AND '2023-10-16'",
     Explanation:
-      "To select some particular date between one date and another, you can use the `BETWEEN` and `AND` keywords while specifying the dates. Or simply using comparison operators such as greater than >, less than <, or euqal=.",
+      "To select some particular date between one date and another, you can use the BETWEEN and AND keywords while specifying the dates. You can also use comparison operators such as greater than (>), less than (<), or equal(=).",
     Link: "https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"
   }
 ];
