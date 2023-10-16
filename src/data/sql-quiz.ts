@@ -1020,6 +1020,19 @@ const sqlQuiz = [
     Explanation:
       "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "Which of the following SQL queries correctly shows the records within a 7-day period ending on 10/15/2023?",
+    Answer: "WHERE date >= '2023-10-09' AND date <= '2023-10-15'",
+    Distractor1:
+      "WHERE activity_date > '2023-10-15' AND activity_date <= '2023-10-08'",
+    Distractor2:
+      "WHERE activity_date >= '10/09/2023' AND activity_date <= '10/15/2023'",
+    Distractor3: "WHERE activity_date BETWEEN '2023-10-09' AND '2023-10-16'",
+    Explanation:
+      "To select some particular date between one date and another, you can use the BETWEEN and AND keywords while specifying the dates. You can also use comparison operators such as greater than (>), less than (<), or equal(=).",
+    Link: "https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"
   }
 ];
 
