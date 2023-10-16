@@ -1411,8 +1411,8 @@ const linuxQuiz = [
   {
     Question: "What is the primary purpose of the halt command in Linux?",
     Answer:
-      "The correct purpose of the halt command in Linux is to initiate the system shutdown process and power off the computer.",
-    Distractor1: "It shuts down all running applications on the system.",
+      "It initiates the system shutdown process and powers off the computer.",
+    Distractor1: "It moves files from one directory to another.",
     Distractor2: "It displays system information and statistics.",
     Distractor3: "It reboots the system.",
     Explanation:
