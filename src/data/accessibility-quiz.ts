@@ -762,15 +762,6 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
   },
   {
-    Question: "What does the acronym POUR stand for in the context of web accessibility?",
-    Answer: "Perceivable, Operable, Understandable, Robust.",
-    Distractor1: "Personal, Outstanding, Unique, Realistic.",
-    Distractor2: "Page, Organization, User, Request.",
-    Distractor3: "Public, Official, Unprecedented, Regular.",
-    Explanation: "POUR is a framework for the four principles of web accessibility as defined by WCAG.",
-    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
-  },
-  {
     Question: "What is the purpose of text resizing options in web accessibility?",
     Answer: "To allow users to adjust text size to meet their specific needs and preferences.",
     Distractor1: "To change the website's background color.",
@@ -796,15 +787,6 @@ const accessibilityQuiz = [
     Distractor3: "To hide the document's content.",
     Explanation: "The 'lang' attribute helps screen readers and other tools correctly interpret the language of the content.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang"
-  },
-  {
-    Question: "What is the purpose of audio descriptions in web accessibility?",
-    Answer: "To provide a narration of visual content, making it accessible to individuals with visual impairments.",
-    Distractor1: "To play music in the background of a web page.",
-    Distractor2: "To add commentary to articles.",
-    Distractor3: "To replace images with text.",
-    Explanation: "Audio descriptions help visually impaired users understand the visual elements of a video or multimedia content.",
-    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
   },
   {
     Question: "Why is it important to provide accessible alternatives for multimedia content?",
