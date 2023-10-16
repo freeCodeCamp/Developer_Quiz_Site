@@ -706,7 +706,97 @@ const accessibilityQuiz = [
     Explanation:
       "All of the above are current examples of web accessibility, except for Machine Learning, which may become a future trend.",
     Link: "https://www.w3.org/WAI/fundamentals/accessibility-intro/#examples"
-  }
+  },
+  {
+    Question: "Which type of color combinations should be avoided to improve web accessibility for colorblind users?",
+    Answer: "Red and green combinations.",
+    Distractor1: "Black and white combinations.",
+    Distractor2: "Blue and yellow combinations.",
+    Distractor3: "Purple and orange combinations.",
+    Explanation: "Red and green are problematic for colorblind users, so it's important to choose color combinations that are distinguishable by everyone.",
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+  },
+  {
+    Question: "Which web accessibility guideline ensures that website navigation can be operated via a keyboard?",
+    Answer: "Keyboard Accessibility",
+    Distractor1: "Image Alt Text",
+    Distractor2: "Audio Descriptions",
+    Distractor3: "Video Captions",
+    Explanation: "Keyboard accessibility ensures that users can navigate and interact with a website using only a keyboard.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "Why is it important to provide captions for videos on a website?",
+    Answer: "To make video content accessible to individuals with hearing impairments.",
+    Distractor1: "To add decorative elements to videos.",
+    Distractor2: "To increase the video's play speed.",
+    Distractor3: "To hide the video from users.",
+    Explanation: "Captions are essential for conveying spoken content to those who cannot hear it.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "How can a web developer improve the keyboard accessibility of a website?",
+    Answer: "By ensuring all interactive elements can be accessed and used via the keyboard alone.",
+    Distractor1: "By removing all interactive elements from the website.",
+    Distractor2: "By increasing the size of interactive elements.",
+    Distractor3: "By using more images on the website.",
+    Explanation: "Keyboard accessibility means that users can perform all actions using just the keyboard, without a mouse or other pointing device.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the role of focus indicators in web accessibility?",
+    Answer: "To provide a visual indication of where keyboard focus is on the page.",
+    Distractor1: "To highlight decorative elements on the page.",
+    Distractor2: "To disable keyboard navigation.",
+    Distractor3: "To change the font size of text content.",
+    Explanation: "Focus indicators help users understand where they are on a web page and improve navigation for keyboard users.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of an accessible form in web accessibility?",
+    Answer: "To ensure that forms are usable by individuals with disabilities, including those who use screen readers or keyboard navigation.",
+    Distractor1: "To collect personal information from users.",
+    Distractor2: "To create complex visual effects on a web page.",
+    Distractor3: "To prevent users from submitting forms.",
+    Explanation: "Accessible forms are designed to be usable by everyone, including those with disabilities.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of text resizing options in web accessibility?",
+    Answer: "To allow users to adjust text size to meet their specific needs and preferences.",
+    Distractor1: "To change the website's background color.",
+    Distractor2: "To add animated transitions to the website.",
+    Distractor3: "To hide the website's navigation menu.",
+    Explanation: "Text resizing options improve accessibility by accommodating users with varying visual impairments.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of ARIA landmarks in web accessibility?",
+    Answer: "To provide a way for screen readers to navigate and understand the structure of a web page.",
+    Distractor1: "To create colorful graphics on the page.",
+    Distractor2: "To insert advertising banners on the page.",
+    Distractor3: "To change the page's font style.",
+    Explanation: "ARIA landmarks help screen reader users quickly locate and understand different sections of a web page.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/aria/"
+  },
+  {
+    Question: "Why is it important to provide accessible alternatives for multimedia content?",
+    Answer: "To ensure that all users, including those with disabilities, can access and understand the content.",
+    Distractor1: "To increase the number of multimedia elements on a website.",
+    Distractor2: "To add visual effects to multimedia content.",
+    Distractor3: "To reduce the page load time.",
+    Explanation: "Accessible alternatives like captions and audio descriptions make multimedia content inclusive.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the role of screen readers in web accessibility?",
+    Answer: "To provide audible representation of on-screen content for individuals with visual impairments.",
+    Distractor1: "To display visual content on a screen.",
+    Distractor2: "To make text content larger on a screen.",
+    Distractor3: "To increase the website's loading speed.",
+    Explanation: "Screen readers are essential for making digital content accessible to blind and visually impaired users.",
+    Link: "https://en.wikipedia.org/wiki/Screen_reader"
+  },
 ];
 
 export default accessibilityQuiz;
