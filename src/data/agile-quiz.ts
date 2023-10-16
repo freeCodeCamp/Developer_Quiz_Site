@@ -538,7 +538,7 @@ const agileQuiz = [
     Distractor3: "To write code for the project.",
     Explanation:
       "The Product Owner plays a crucial role in Agile by acting as the voice of the customer, ensuring that the team is working on the most valuable features, and making decisions to maximize the project's ROI.",
-    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/#:~:text=Scrum%20Roles,on%20the%20most%20valuable%20features."
+    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/#scrum-roles"
   },
   {
     Question: "What is the primary goal of a retrospective meeting in Agile?",
