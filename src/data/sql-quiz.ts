@@ -1,14 +1,5 @@
 const sqlQuiz = [
   {
-    Question: "What SQL statement is used to create a new table in a database?",
-    Answer: "CREATE TABLE",
-    Distractor1: "INSERT INTO",
-    Distractor2: "UPDATE",
-    Distractor3: "DELETE FROM",
-    Explanation: "The CREATE TABLE statement is used to define the structure of a new table in a database.",
-    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
-  },
-  {
     Question: "Which SQL database is known for its powerful features, open-source nature, and is often considered production-ready?",
     Answer: "PostgreSQL",
     Distractor1: "MySQL",
@@ -27,24 +18,6 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
   },
   {
-    Question: "What SQL operation is used to add a new column to an existing table?",
-    Answer: "ALTER TABLE",
-    Distractor1: "UPDATE",
-    Distractor2: "CREATE TABLE",
-    Distractor3: "DELETE",
-    Explanation: "ALTER TABLE is used to modify the structure of an existing table, including adding new columns.",
-    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
-  },
-  {
-    Question: "What is the purpose of a foreign key in a relational database?",
-    Answer: "To establish relationships between tables",
-    Distractor1: "To ensure data integrity",
-    Distractor2: "To store binary data",
-    Distractor3: "To filter data",
-    Explanation: "Foreign keys are used to establish relationships between tables, enforcing referential integrity.",
-    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
-  },
-  {
     Question: "In SQL, how are boolean values typically stored in databases?",
     Answer: "As integers (0 for false, 1 for true)",
     Distractor1: "As text strings ('true' or 'false')",
@@ -54,30 +27,12 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
   },
   {
-    Question: "What is the purpose of a primary key in a database table?",
-    Answer: "To uniquely identify records in the table",
-    Distractor1: "To create relationships with other tables",
-    Distractor2: "To store binary data",
-    Distractor3: "To define the table structure",
-    Explanation: "A primary key is used to ensure each record in the table is unique.",
-    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
-  },
-  {
     Question: "What is a common strategy for protecting against data loss when deleting records from a database?",
     Answer: "Using soft deletes",
     Distractor1: "Creating manual backups",
     Distractor2: "Not allowing deletions",
     Distractor3: "Using SQL injections",
     Explanation: "Soft deletes involve marking records as deleted instead of physically removing them, allowing for potential data recovery.",
-    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
-  },
-  {
-    Question: "Which SQL operation is used to update data in a database?",
-    Answer: "UPDATE",
-    Distractor1: "INSERT INTO",
-    Distractor2: "CREATE TABLE",
-    Distractor3: "DELETE FROM",
-    Explanation: "The UPDATE statement is used to modify existing data in a database.",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
   },
   {
