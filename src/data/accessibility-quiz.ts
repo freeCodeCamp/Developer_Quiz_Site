@@ -1,6 +1,21 @@
 const accessibilityQuiz = [
   {
     Question:
+      "Why is it better for accessibility reasons to use relative units(em and rem) instead of absolute units(px)?",
+    Answer:
+      "With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
+    Distractor1:
+      "Absolute units like 'px' provide better control over the design's precise layout.",
+    Distractor2:
+      "Relative units like 'em' and 'rem' are only useful for text size, not layout.",
+    Distractor3:
+      "There is no significant difference between relative and absolute units in web design.",
+    Explanation:
+      "When you use px, the element's size remains constant regardless of the size of the screen. With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
+    Link: "https://www.freecodecamp.org/news/why-use-rem-to-set-font-size-in-css#what-are-relative-units-in-css"
+  },
+  {
+    Question:
       "What role does the 'alt' attribute play when adding alternative text to images on a webpage?",
     Answer:
       "The 'alt' attribute describes the content of the image to users who cannot see it.",
@@ -682,9 +697,8 @@ const accessibilityQuiz = [
       "WCAG version 1.0 was published on May 5, 1999 and was a total game-changer for web accessibility.",
     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-and-checklist/"
   },
-   {
-    Question:
-      "Which of the following is NOT an example of web accessibility?",
+  {
+    Question: "Which of the following is NOT an example of web accessibility?",
     Answer: "Programming Robots using Machine Learning",
     Distractor1: "Alternative Text for Images",
     Distractor2: "Keyboard Input",

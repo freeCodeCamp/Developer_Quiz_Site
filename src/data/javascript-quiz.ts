@@ -1970,14 +1970,15 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
   },
   {
-    Question: "What is the purpose of the 'use strict' directive in JavaScript?",
-    Answer: "It enforces a stricter set of rules, catches common coding mistakes, and prevents the use of undeclared variables.",
-    Distractor1: "It enables asynchronous JavaScript execution.",
-    Distractor2: "It allows for more lenient type coercion in comparisons.",
-    Distractor3: "It defines a new JavaScript version.",
-    Explanation: "The 'use strict' directive in JavaScript enables strict mode, which enforces a stricter set of rules for coding. It helps catch common coding mistakes and prevents the use of undeclared variables, which can lead to better code quality and fewer bugs.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode"
-    }
+    Question: "In JavaScript, which of the following is an example of a macrotask?",
+    Answer: "setTimeout()",
+    Distractor1: "promise",
+    Distractor2: "split()",
+    Distractor3: "process.nextTick",
+    Explanation:
+      "The JavaScript setTimeout() method is a built-in method that allows you to time the execution of a certain function. You need to pass the amount of time to wait for in milliseconds, which means to wait for one second, you need to pass one thousand milliseconds.",
+    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
+  }
 ];
 
 export default javascriptQuiz;
