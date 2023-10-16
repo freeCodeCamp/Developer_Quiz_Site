@@ -780,15 +780,6 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/standards-guidelines/aria/"
   },
   {
-    Question: "What is the purpose of the 'lang' attribute in HTML documents?",
-    Answer: "To specify the language of the document's text content, aiding screen readers in pronunciation and understanding.",
-    Distractor1: "To set the background color of the page.",
-    Distractor2: "To change the document's font style.",
-    Distractor3: "To hide the document's content.",
-    Explanation: "The 'lang' attribute helps screen readers and other tools correctly interpret the language of the content.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/lang"
-  },
-  {
     Question: "Why is it important to provide accessible alternatives for multimedia content?",
     Answer: "To ensure that all users, including those with disabilities, can access and understand the content.",
     Distractor1: "To increase the number of multimedia elements on a website.",
