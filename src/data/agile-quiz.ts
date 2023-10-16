@@ -509,16 +509,6 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "What is the purpose of a burndown chart in Agile development?",
-    Answer: "To track the progress of user stories throughout a sprint.",
-    Distractor1: "To estimate the total cost of a project.",
-    Distractor2: "To assign tasks to team members.",
-    Distractor3: "To prioritize backlog items.",
-    Explanation:
-      "A burndown chart in Agile development is used to track the progress of user stories or tasks throughout a sprint. It visually represents the amount of work remaining over time, helping the team to manage their workload effectively.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
-  },
-  {
     Question: "What is the purpose of a daily stand-up meeting in Agile?",
     Answer:
       "To provide team members with a quick, daily update on progress, identify and address issues, and synchronize their work.",
@@ -528,17 +518,6 @@ const agileQuiz = [
     Explanation:
       "Daily stand-up meetings in Agile, also known as daily scrums, serve to provide team members with a daily opportunity to share updates on their work, identify any issues, and ensure that the team is aligned and focused on the sprint goal.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
-  },
-  {
-    Question: "What is the purpose of a Product Owner in Agile?",
-    Answer:
-      "To represent the customer or stakeholder's interests, prioritize the backlog, and make decisions regarding what features should be developed.",
-    Distractor1: "To manage the technical aspects of the development process.",
-    Distractor2: "To facilitate daily stand-up meetings.",
-    Distractor3: "To write code for the project.",
-    Explanation:
-      "The Product Owner plays a crucial role in Agile by acting as the voice of the customer, ensuring that the team is working on the most valuable features, and making decisions to maximize the project's ROI.",
-    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/#scrum-roles"
   },
   {
     Question: "What is the primary goal of a retrospective meeting in Agile?",
@@ -561,17 +540,6 @@ const agileQuiz = [
     Explanation:
       "The Scrum Master acts as a servant-leader for the team, helping them understand and apply Agile principles, facilitating meetings, and removing obstacles that may hinder the team's progress.",
     Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/"
-  },
-  {
-    Question:
-      "Which of the following is not something BDD (Behavioral Driven Development) focuses on?",
-    Answer: "How short the code is",
-    Distractor1: "Where to start in the process",
-    Distractor2: "What to test and what not to test",
-    Distractor3: "How much to test in one go",
-    Explanation:
-      "The principal idea behind BDD is how software development should be managed by both business interests and technical insights. It is a software development methodology in which an application is specified and designed by describing how its behavior should appear to an outside observer.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#behavior-driven-development"
   },
   {
     Question: "In Agile, what is Acceptance Criteria?",
@@ -603,18 +571,6 @@ const agileQuiz = [
     Distractor2: "What you will be doing after this DSU.",
     Distractor3:
       "What are the major obstacles that are stopping your progress, and where do you need help?",
-    Explanation:
-      "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of Scrum that allows team members to listen to each other's contributions and attempt to identify areas where they can assist each other's progress.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum"
-  },
-  {
-    Question:
-      "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
-    Answer: "Deep discussions on architecture or paradigms.",
-    Distractor1: "What you have done since the last DSU.",
-    Distractor2: "What you will be doing after this DSU.",
-    Distractor3:
-      "Deep discussions on frameworks and libraries",
     Explanation:
       "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of Scrum that allows team members to listen to each other's contributions and attempt to identify areas where they can assist each other's progress.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum"
