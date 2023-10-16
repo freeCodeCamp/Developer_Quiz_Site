@@ -115,7 +115,16 @@ const freecodecampQuiz = [
     Explanation:
       "Quincy Larson founded freeCodeCamp in 2014 as a program meant to help individuals learn the basics of programming and land a developer job.",
     Link: "https://www.freecodecamp.org/news/about/"
-  }
+  },
+  {
+    "Question": "Which section of freeCodeCamp's curriculum focuses on algorithms and data structures?",
+    "Answer": "Data Structures and Algorithms",
+    "Distractor1": "Responsive Web Design",
+    "Distractor2": "Machine Learning",
+    "Distractor3": "Cybersecurity",
+    "Explanation": "The 'Data Structures and Algorithms' section is dedicated to teaching fundamental concepts related to algorithms and data structures.",
+    "Link": "https://www.freecodecamp.org/learn"
+  },
 ];
 
 export default freecodecampQuiz;
