@@ -1,5 +1,23 @@
 const cloudComputingQuiz = [
   {
+    Question: "What architectural approach do cloud-native apps typically use to build independently deployable components?",
+    Answer: "Microservices architecture",
+    Distractor1: "Monolithic architecture",
+    Distractor2: "Hybrid architecture",
+    Distractor3: "Serverless architecture",
+    Explanation: "Cloud-native apps often use the microservices architecture, which breaks down applications into small, independent components that can be developed, managed, and deployed separately. This architectural approach enhances independence and flexibility.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question: "How does the use of microservices in cloud-native apps affect their independence?",
+    Answer: "It allows components to be built, managed, and deployed independently",
+    Distractor1: "It makes them dependent on each other",
+    Distractor2: "It requires all components to be deployed simultaneously",
+    Distractor3: "It slows down the development process.",
+    Explanation: "Microservices architecture allows individual components to be developed, managed, and deployed independently, promoting independence and reducing the impact of changes in one component on others.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
     Question: "What is the key advantage of file storage compared to block storage regarding multiple compute instances?",
     Answer: "Multiple instances can be mounted on the same file storage device in file storage.",
     Distractor1: "Block storage is more scalable for multiple instances.",
