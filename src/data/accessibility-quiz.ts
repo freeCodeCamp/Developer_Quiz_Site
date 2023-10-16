@@ -718,10 +718,10 @@ const accessibilityQuiz = [
   },
   {
     Question: "Which web accessibility guideline ensures that website navigation can be operated via a keyboard?",
-    Answer: "Keyboard Accessibility.",
-    Distractor1: "Image Alt Text.",
-    Distractor2: "Audio Descriptions.",
-    Distractor3: "Video Captions.",
+    Answer: "Keyboard Accessibility",
+    Distractor1: "Image Alt Text",
+    Distractor2: "Audio Descriptions",
+    Distractor3: "Video Captions",
     Explanation: "Keyboard accessibility ensures that users can navigate and interact with a website using only a keyboard.",
     Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
   },
