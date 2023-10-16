@@ -1385,15 +1385,6 @@ const linuxQuiz = [
       Explanation: "The Linux kernel, which manages system resources, acts as the bridge between the hardware and software on Ubuntu. It initializes hardware, establishes the system environment, loads necessary drivers, and allows applications to run on top of it. This fundamental structure is common to all Linux distributions, including Ubuntu.",
       Link: "https://www.freecodecamp.org/news/introduction-to-linux/"
     },
-    {
-      Question: "Which package manager is commonly used in Debian-based Linux distributions, such as Ubuntu?",
-      Answer: "APT",
-      Distractor1: "YUM",
-      Distractor2: "DNF",
-      Distractor3: "Pacman",
-      Explanation: "APT (Advanced Package Tool) is the package manager commonly used in Debian-based distributions, while the other options are more associated with other Linux distributions.",
-      Link: "https://linux.die.net/man/8/apt"
-    } 
 ];
 
 export default linuxQuiz;
