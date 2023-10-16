@@ -1,5 +1,77 @@
 const cloudComputingQuiz = [
   {
+    Question: "What is the key advantage of file storage compared to block storage regarding multiple compute instances?",
+    Answer: "Multiple instances can be mounted on the same file storage device in file storage.",
+    Distractor1: "Block storage is more scalable for multiple instances.",
+    Distractor2: "File storage is not suitable for use with multiple compute instances.",
+    Distractor3: "Block storage allows instances to share data more efficiently.",
+    Explanation: "In file storage, multiple compute instances can share and access the same file storage device, making it easier to collaborate and share data among different instances. This is a key advantage over block storage, which is often more limited in this regard.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "Which major cloud providers offer file storage options?",
+    Answer: "AWS, GCP, and Azure.",
+    Distractor1: "AWS, GCP, and IBM Cloud.",
+    Distractor2: "Microsoft, Oracle, and Google Cloud.",
+    Distractor3: "AWS, Azure, and Alibaba Cloud.",
+    Explanation: "Amazon Web Services (AWS), Google Cloud Platform (GCP), and Microsoft Azure are major cloud providers that offer file storage solutions, such as AWS Elastic File Storage (EFS), GCP Cloud Filestore, and Azure Files.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "In the context of file storage, what is the role of the operating system?",
+    Answer: "To abstract away the block storage and create a file cabinet-like structure.",
+    Distractor1: "To expose the underlying block storage to applications.",
+    Distractor2: "To provide a low-level interface for data manipulation.",
+    Distractor3: "To optimize file storage for performance.",
+    Explanation: "In file storage, the operating system abstracts the underlying block storage, presenting a hierarchical file structure to users and applications. This abstraction simplifies data access and management.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "How does file storage improve data management compared to block storage?",
+    Answer: "File storage groups related blocks into files and organizes them into directories.",
+    Distractor1: "File storage simplifies access to applications by exposing the underlying block addresses.",
+    Distractor2: "File storage allows you to read and write individual data blocks directly.",
+    Distractor3: "File storage is more cost-effective for all use cases.",
+    Explanation: "File storage improves data management by grouping related blocks into files and organizing those files within directories, providing a more intuitive and structured way to access and manage data.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "Which of the following best describes file storage's hierarchical structure?",
+    Answer: "The arrangement of files and directories for organizing and managing data.",
+    Distractor1: "A bookshelf-like organization of blocks.",
+    Distractor2: "A low-level interface for reading and writing data blocks.",
+    Distractor3: "A complex system of block addresses for data retrieval.",
+    Explanation: "File storage's hierarchical structure refers to the way data is organized into files and directories, allowing for efficient data management and access.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "What is the primary difference between block storage and file storage?",
+    Answer: "File storage introduces the concept of files and directories on top of block storage.",
+    Distractor1: "Block storage is more abstract than file storage.",
+    Distractor2: "Block storage is hierarchical, while file storage deals with individual blocks",
+    Distractor3: "Block storage is typically used for cloud storage, while file storage is used for local storage.",
+    Explanation: "Block storage is a low-level storage abstraction that deals with individual data blocks but lacks the concept of files and directories. File storage, on the other hand, builds on top of block storage and introduces the organizational structure of files and directories.",
+    Link: "https://www.freecodecamp.org/news/cloud-storage-options/"
+  },
+  {
+    Question: "What types of applications are now available as online software equivalents through the growing marketplace of SaaS tools?",
+    Answer: "Accounting, computer-assisted design (CAD), and graphic design solutions",
+    Distractor1: "Hardware management tools",
+    Distractor2: "Operating system utilities",
+    Distractor3: "Gaming software",
+    Explanation: "The growing marketplace of SaaS tools offers online software equivalents for various applications, including accounting, CAD, and graphic design solutions. This allows users to access and use these applications in the cloud without the need for standalone workstations.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
+    Question: "What are Microsoft's Office 365 and Google's G Suite examples of?",
+    Answer: "SaaS office productivity tools",
+    Distractor1: "IaaS solutions",
+    Distractor2: "PaaS solutions",
+    Distractor3: "Graphic design solutions",
+    Explanation: "Both Microsoft Office 365 and Google G Suite are cloud based examples of Software as a Service (SaaS) office productivity tools, providing applications like word processing, spreadsheets, and email as online services.",
+    Link: "https://www.freecodecamp.org/news/modern-compute-platforms/"
+  },
+  {
     Question: "Which of the following is an example of a major IaaS player?",
     Answer: "Amazon EC2",
     Distractor1: "AWS Elastic Beanstalk",
