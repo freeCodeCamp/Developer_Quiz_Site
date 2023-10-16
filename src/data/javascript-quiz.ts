@@ -267,7 +267,7 @@ const javascriptQuiz = [
     Distractor1:
       "No, objects and classes are completely unrelated in JavaScript.",
     Distractor2:
-      "Yes, objects and classes are only used in functional programming, not in Javascript class-based OOP",
+      "Yes, objects and classes are only used in functional programming, not in JavaScript class-based OOP",
     Distractor3:
       "Yes, objects and classes are interchangeable and can be used interchangeably in Javascript class-based OOP.",
     Explanation:
