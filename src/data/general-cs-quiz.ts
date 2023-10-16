@@ -1,5 +1,28 @@
 const generalCSQuiz = [
   {
+    Question:
+      "Which sorting algorithm has an average and worst-case time complexity of O(nlogn)?",
+    Answer: "Quick sort",
+    Distractor1: "Bubble sort",
+    Distractor2: "Insertion sort",
+    Distractor3: "Selection sort",
+    Explanation:
+      "Quick sort has an average and worst-case time complexity of O(n log n), making it efficient for sorting large datasets.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#classification-of-a-sorting-algorithm"
+  },
+  {
+    Question:
+      " In a graph, which data structure is best suited for finding the shortest path between two vertices?",
+    Answer: ". Priority Queue",
+    Distractor1: "Stack",
+    Distractor2: "Queue",
+    Distractor3: "Heap",
+    Explanation:
+      "Dijkstra's algorithm, which is used to find the shortest path in a graph, typically employs a            priority queue to efficiently select the next vertex with the smallest distance.",
+    Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/"
+  },
+
+  {
     Question: "What is the acceptable range of Balance Factor for an AVL tree?",
     Answer: "[-1,1]",
     Distractor1: "[0,1]",
@@ -21,7 +44,8 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
   {
-    Question: "Which of the following algorithms is used to find the shortest path between two points in a connected weighted graph?",
+    Question:
+      "Which of the following algorithms is used to find the shortest path between two points in a connected weighted graph?",
     Answer: "Kruskal Algorithm",
     Distractor1: "Floyd's Tortoise-Hare Algorithm",
     Distractor2: "Greedy Algorithms",
@@ -1670,15 +1694,16 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/P_versus_NP_problem"
   },
   {
-  Question: "What is the use of a priority queue?",
-  Answer: "A priority queue manages elements based on priority, ensuring higher priority items are processed first.",
-  Distractor1: "It's a queue that organizes elements by their value.",
-  Distractor2: "It's a fixed-size queue.",
-  Distractor3: "It only accepts elements of the same type.",
-  Explanation: "A priority queue is essential in scenarios where certain tasks need to be handled in order of importance or urgency.",
-  Link: "https://www.freecodecamp.org/news/priority-queue-implementation-in-java/"
-}
-
+    Question: "What is the use of a priority queue?",
+    Answer:
+      "A priority queue manages elements based on priority, ensuring higher priority items are processed first.",
+    Distractor1: "It's a queue that organizes elements by their value.",
+    Distractor2: "It's a fixed-size queue.",
+    Distractor3: "It only accepts elements of the same type.",
+    Explanation:
+      "A priority queue is essential in scenarios where certain tasks need to be handled in order of importance or urgency.",
+    Link: "https://www.freecodecamp.org/news/priority-queue-implementation-in-java/"
+  }
 ];
 
 export default generalCSQuiz;
