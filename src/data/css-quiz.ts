@@ -1266,7 +1266,7 @@ const cssQuiz = [
   },
   {
     Question:
-    "What CSS property is used to control the spacing between the characters in a text?",
+    "Which CSS property is utilized to manage the spacing between characters in text?",
     Answer: "letter-spacing",
     Distractor1: "word-spacing",
     Distractor2: "line-height",
