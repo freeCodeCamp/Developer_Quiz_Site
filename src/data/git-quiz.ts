@@ -608,7 +608,7 @@ const gitQuiz = [
     Explanation:
     "The 'git branch' command is used to manage branches in a Git repository, including listing existing branches, creating new branches, and deleting branches.",
     Link: "https://git-scm.com/docs/git-branch"
-    }
+  }
 ];
 
 export default gitQuiz;
