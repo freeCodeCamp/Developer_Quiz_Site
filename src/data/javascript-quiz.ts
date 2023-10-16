@@ -271,7 +271,7 @@ const javascriptQuiz = [
     Distractor3:
       "Yes, objects and classes are interchangeable and can be used interchangeably in Javascript class-based OOP.",
     Explanation:
-      "Classes and objects are two separate constructs, and objects are always created as instances of classes.",
+      "Classes and objects represent distinct concepts within programming.  Objects are exclusively instantiated from classes.",
     Link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
   },
   {
