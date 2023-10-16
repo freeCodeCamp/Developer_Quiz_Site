@@ -122,7 +122,7 @@ const freecodecampQuiz = [
     "Distractor1": "Responsive Web Design",
     "Distractor2": "Machine Learning",
     "Distractor3": "Cybersecurity",
-    "Explanation": "The 'JavaScript Algorithms and Data Structures Certification' certification is dedicated to teaching fundamental concepts related to algorithms and data structures.",
+    "Explanation": "The 'JavaScript Algorithms and Data Structures Certification' is dedicated to teaching fundamental concepts related to algorithms and data structures.",
     "Link": "https://www.freecodecamp.org/learn"
   },
 ];
