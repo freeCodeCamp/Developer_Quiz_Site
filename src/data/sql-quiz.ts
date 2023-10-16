@@ -1023,7 +1023,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "Which of the following query records within a 7-day period ending on 10/15/2023?",
+      "Which of the following SQL queries correctly shows the records within a 7-day period ending on 10/15/2023?",
     Answer: "WHERE date >= '2023-10-09' AND date <= '2023-10-15'",
     Distractor1:
       "WHERE activity_date > '2023-10-15' AND activity_date <= '2023-10-08'",
