@@ -520,17 +520,6 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   },
   {
-    Question: "What is the primary goal of a retrospective meeting in Agile?",
-    Answer:
-      "To reflect on the past sprint, identify areas for improvement, and make actionable changes for the next sprint.",
-    Distractor1: "To assign tasks for the upcoming sprint.",
-    Distractor2: "To review and approve project budgets.",
-    Distractor3: "To create the initial project backlog.",
-    Explanation:
-      "Retrospective meetings are essential for continuous improvement in Agile. They provide a structured opportunity for the team to assess their work, discuss what went well and what didn't, and plan for improvements in the next sprint.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
-  },
-  {
     Question: "What is the role of a Scrum Master in Agile development?",
     Answer:
       "To facilitate the Scrum process, remove impediments, and ensure the team follows Agile principles and practices.",
