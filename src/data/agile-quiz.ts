@@ -547,18 +547,6 @@ const agileQuiz = [
     Distractor1: "What you have done since the last DSU.",
     Distractor2: "What you will be doing after this DSU.",
     Distractor3:
-      "What are the major obstacles that are stopping your progress, and where do you need help?",
-    Explanation:
-      "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of scrum that allows team members to listen to other's contributions and attempt to identify areas where they can assist each other's progress.",
-    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/#daily-stand-up-and-daily-scrum"
-  },
-  {
-    Question:
-      "In Agile, which of the following is not part of the standard agenda for Daily Stand-up (DSU)?",
-    Answer: "Deep discussions on architecture or paradigms.",
-    Distractor1: "What you have done since the last DSU.",
-    Distractor2: "What you will be doing after this DSU.",
-    Distractor3:
       "Deep discussions on frameworks and libraries",
     Explanation:
       "The Daily Standup (DSU) or Daily Scrum meeting is a meeting held daily at the same time or in the same location. It's an integral part of Scrum that allows team members to listen to each other's contributions and attempt to identify areas where they can assist each other's progress.",
