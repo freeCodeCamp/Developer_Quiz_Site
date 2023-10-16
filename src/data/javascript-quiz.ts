@@ -1968,16 +1968,6 @@ const javascriptQuiz = [
     Explanation:
       "An IIFE or Immediately Invoked Function Expression, is used to declare a private variable and to avoid polluting the global environment. If a function is declared with an IIFE by using a parenthesis around it, the variable declared inside it becomes private and its value can be accessed using a getter function inside the original function.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
-  },
-  {
-    Question: "In JavaScript, which of the following is an example of a macrotask?",
-    Answer: "setTimeout()",
-    Distractor1: "promise",
-    Distractor2: "split()",
-    Distractor3: "process.nextTick",
-    Explanation:
-      "The JavaScript setTimeout() method is a built-in method that allows you to time the execution of a certain function. You need to pass the amount of time to wait for in milliseconds, which means to wait for one second, you need to pass one thousand milliseconds.",
-    Link: "https://www.freecodecamp.org/news/javascript-settimeout-how-to-set-a-timer-in-javascript-or-sleep-for-n-seconds/"
   }
 ];
 
