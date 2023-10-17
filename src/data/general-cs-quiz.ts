@@ -1782,6 +1782,17 @@ const generalCSQuiz = [
     Explanation:
       "The average time complexity of an element insertion in a hash table is O(1). Unlike arrays, hash tables use a hashing function to generate a unique key or index for each element, ensuring constant time for element insertion.",
     Link: "https://www.freecodecamp.org/news/javascript-hash-table-associative-array-hashing-in-js/"
+  },
+  {
+    Question:
+      "Which of the following methods can be used to solve N-Queens Problem?",
+    Answer: "Backtracking",
+    Distractor1: "Greedy Paradigm",
+    Distractor2: "Divide and Conquer",
+    Distractor3: "Dynamic Programming",
+    Explanation:
+      "We use backtracking to solve N-Queens problem based on the condition that no two queens can eb present in the same row, column or diagonal.",
+    Link: "https://youtu.be/A80YzvNwqXA?si=Eue2Exdk1zT2SUm5&t=511"
   }
 ];
 
