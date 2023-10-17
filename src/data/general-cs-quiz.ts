@@ -18,7 +18,7 @@ const generalCSQuiz = [
     Distractor2: "Divide and Conquer",
     Distractor3: "Dynamic Programming",
     Explanation:
-      "We use backtracking to solve N-Queens problem based on the condition that no two queens can eb present in the same row, column or diagonal.",
+      "Backtracking is used to solve the N-Queens problem based on the condition that no two queens can be present in the same row, column or diagonal.",
     Link: "https://youtu.be/A80YzvNwqXA?si=Eue2Exdk1zT2SUm5&t=511"
   },
   {
