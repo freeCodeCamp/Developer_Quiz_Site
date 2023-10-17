@@ -1660,7 +1660,7 @@ const pythonQuiz = [
   },
   {
     Question:
-      "What will be the output for this code: print([i * i for i in range(10)]) ?",
+      "What will be the output for this code: print([num * num for num in range(10)]) ?",
     Answer: "[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]",
     Distractor1: "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9]",
     Distractor2: "[0, 2, 4, 6, 8, 10, 12, 14, 16, 18]",
