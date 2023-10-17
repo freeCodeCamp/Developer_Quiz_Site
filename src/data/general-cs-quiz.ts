@@ -1,6 +1,28 @@
 const generalCSQuiz = [
   {
     Question:
+      "What is the average time complexity of an element insertion in a hash table?",
+    Answer: "O(1)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(n^2)",
+    Explanation:
+      "The average time complexity of an element insertion in a hash table is O(1). Unlike arrays, hash tables use a hashing function to generate a unique key or index for each element, ensuring constant time for element insertion.",
+    Link: "https://www.freecodecamp.org/news/javascript-hash-table-associative-array-hashing-in-js/"
+  },
+  {
+    Question:
+      "Which of the following methods can be used to solve the N-Queens problem?",
+    Answer: "Backtracking",
+    Distractor1: "Greedy Paradigm",
+    Distractor2: "Divide and Conquer",
+    Distractor3: "Dynamic Programming",
+    Explanation:
+      "Backtracking is used to solve the N-Queens problem based on the condition that no two queens can be present in the same row, column or diagonal.",
+    Link: "https://youtu.be/A80YzvNwqXA?si=Eue2Exdk1zT2SUm5&t=511"
+  },
+  {
+    Question:
       "Which sorting algorithm has an average time complexity of O(nlogn)?",
     Answer: "Quick sort",
     Distractor1: "Bubble sort",
@@ -22,7 +44,8 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/"
   },
   {
-    Question:  "What is the time complexity of inserting an element into a linked list at the beginning?",
+    Question:
+      "What is the time complexity of inserting an element into a linked list at the beginning?",
     Answer: "O(1)",
     Distractor1: "O(log n)",
     Distractor2: "O(n)",
