@@ -1,5 +1,144 @@
 const accessibilityQuiz = [
   {
+    Question:
+      "Why is it better for accessibility reasons to use relative units(em and rem) instead of absolute units(px)?",
+    Answer:
+      "With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
+    Distractor1:
+      "Absolute units like 'px' provide better control over the design's precise layout.",
+    Distractor2:
+      "Relative units like 'em' and 'rem' are only useful for text size, not layout.",
+    Distractor3:
+      "There is no significant difference between relative and absolute units in web design.",
+    Explanation:
+      "When you use px, the element's size remains constant regardless of the size of the screen. With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
+    Link: "https://www.freecodecamp.org/news/why-use-rem-to-set-font-size-in-css#what-are-relative-units-in-css"
+  },
+  {
+    Question:
+      "What role does the 'alt' attribute play when adding alternative text to images on a webpage?",
+    Answer:
+      "The 'alt' attribute describes the content of the image to users who cannot see it.",
+    Distractor1: "The 'alt' attribute enhances image aesthetics.",
+    Distractor2: "The 'alt' attribute speeds up image loading.",
+    Distractor3:
+      "The 'alt' attribute provides translations for the image content.",
+    Explanation:
+      "It's a tool to check accessibility properties of web elements.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question:
+      "What is the purpose of the 'Chrome Accessibility Developer Tools' extension for Google Chrome?",
+    Answer: "It's a tool to check accessibility properties of web elements.",
+    Distractor1: "It's a tool to only fix color contrast errors",
+    Distractor2: "It's a tool to only fix font size errors",
+    Distractor3: "It's a tool to audit only keyboard accessibility errors",
+    Explanation:
+      "The extension aids in inspecting and ensuring web accessibility by providing relevant information in the Developer tools.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question:
+      "As of 2023, which tool or extension allows you to find accessibility defects on your web page in both Chrome and Firefox?",
+    Answer: "WAVE",
+    Distractor1: "Color Oracle",
+    Distractor2: "aXe",
+    Distractor3: "ChromeVox",
+    Explanation:
+      "WAVE is an extension available for both Chrome and Firefox that helps identify accessibility issues on web pages.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question:
+      "Why is it important to add labels to form inputs like search forms?",
+    Answer:
+      "Labels indicate the purpose of form inputs and make them accessible to screen reader users.",
+    Distractor1: "Labels improve website aesthetics.",
+    Distractor2: "Labels increase website loading speed.",
+    Distractor3: "Labels provide translations for form inputs.",
+    Explanation:
+      "Labels associated with form inputs, such as search forms, describe the purpose of the input, making it accessible to screen reader users.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question:
+      "As of 2023, which screen reader is a Free & Open-source downloadable software for Windows OS?",
+    Answer: "NVDA (Non Visual Desktop Access)",
+    Distractor1: "JAWS (Job Access With Speech)",
+    Distractor2: "ChromeVox",
+    Distractor3: "a11yproject",
+    Explanation:
+      "NVDA is a free screen reader for Windows, making it accessible to a wide audience.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question:
+      "What does the 'a11yproject' provide for web development, and what can you find on their site?",
+    Answer:
+      "It provides practical guides, examples, how-tos, myths, tips, and recommended accessibility tools.",
+    Distractor1: "It provides a platform for game development",
+    Distractor2: "It offers free stock images",
+    Distractor3: "It is a social media network",
+    Explanation:
+      "The 'a11yproject' offers practical guides, examples, how-tos, myths, tips, and recommended accessibility tools for implementing accessible features and components during web development. It is a community-driven project that can be contributed to on Github. The 'a11yproject' is a valuable resource for web developers looking to enhance the accessibility of their projects.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question:
+      "Which tool allows you to check foreground and background color values for AA and AAA color contrast ratios for small and large text?",
+    Answer: "WebAIM Color Contrast Checker",
+    Distractor1: "Accessible Color Palette Builder",
+    Distractor2: "Randoma11y Color Generator",
+    Distractor3: "Check My Colours",
+    Explanation:
+      "The WebAIM Color Contrast Checker is a tool to verify color contrast which is a crucial aspect of web accessibility.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question:
+      "Why is web accessibility important for SEO (Search Engine Optimization)?",
+    Answer:
+      "It helps search engines understand and index website content better.",
+    Distractor1: "It decreases website load times.",
+    Distractor2: "It automatically improves website design.",
+    Distractor3: "It increases advertising revenue.",
+    Explanation:
+      "Accessibility practices that make content understandable to screen readers also benefit search engines in understanding and indexing website content.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "Which accessibility issue is associated with buttons?",
+    Answer: "lack of button text for screen reader users",
+    Distractor1: "lack of background color",
+    Distractor2: "lack of font color",
+    Distractor3: "lack of border styles",
+    Explanation:
+      "Empty buttons that lack text for screen reader users are an accessibility issue.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question: "What is a common accessibility issue when it comes to forms?",
+    Answer: "Missing form input labels",
+    Distractor1: "Empty links",
+    Distractor2: "to many labels and inputs",
+    Distractor3: "Low contrast text",
+    Explanation:
+      "A form label is an HTML element used in forms to describe what the the various fields in the form are for. Without the label element, screen reader users will not know what the form is when they focus on it.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
+    Question:
+      "What is the primary accessibility problem associated with low color contrast on a webpage?",
+    Answer: "Low contrast text",
+    Distractor1: "Broken links",
+    Distractor2: "Empty buttons",
+    Distractor3: "Missing document language",
+    Explanation:
+      "Low color contrast, specifically with text, leads to the accessibility problem of low contrast text.",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
+  },
+  {
     Question: "What is the purpose of the 'aria-labelledby' attribute in ARIA?",
     Answer:
       "To enable authors to reference other elements on the page to define an accessible name.",
@@ -11,9 +150,9 @@ const accessibilityQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Attributes/aria-labelledby"
   },
   {
-    Question: "What is the purpose of the 'aria-describedby' attribute in ARIA?",
-    Answer:
-      "To list the IDs of the elements that describe the object.",
+    Question:
+      "What is the purpose of the 'aria-describedby' attribute in ARIA?",
+    Answer: "To list the IDs of the elements that describe the object.",
     Distractor1: "To change the font size",
     Distractor2: "To add a border to an element",
     Distractor3: "To change the background color of an element",
@@ -22,24 +161,29 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid/"
   },
   {
-    Question: "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
+    Question:
+      "What legal repercussions can businesses face for failing to meet website accessibility requirements?",
     Answer: "Businesses can face lawsuits or financial penalties",
     Distractor1: "no repercussions",
     Distractor2: "they will serve 10 years in jail",
     Distractor3: "they will do 2500 hours of community service",
-    Explanation: "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and damage to their reputation. Maintaining good accessibility standards is good for everyone in this digital age.",
+    Explanation:
+      "Businesses that fail to meet website accessibility requirements may face lawsuits, financial penalties, and damage to their reputation. Maintaining good accessibility standards is good for everyone in this digital age.",
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
   },
   {
-    Question: "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
-    Answer:  "Utilize the 'px' unit to define font sizes.",
+    Question:
+      "According to the W3C, which of the following is not a valid guideline for crafting style sheets that enhance accessibility?",
+    Answer: "Utilize the 'px' unit to define font sizes.",
     Distractor1: "Ensure there is always a fallback generic font",
     Distractor2: "Opt for numbers instead of names when specifying colors.",
-    Distractor3: "Ensure consistent 'class' names for the same concept across all style sheets",
-    Explanation: "For setting font sizes, use the 'em' unit and favor relative length units and percentages.",
+    Distractor3:
+      "Ensure consistent 'class' names for the same concept across all style sheets",
+    Explanation:
+      "For setting font sizes, use the 'em' unit and favor relative length units and percentages.",
     Link: "https://www.w3.org/WAI/GL/WD-WCAG10-TECHS-20000615/css-techniques.html#:~:text=Users%20should%20where%20necessary.,units%20even%20in%20absolute%20positioning."
   },
-    {
+  {
     Question: "What is the purpose of the 'aria-expanded' attribute in ARIA?",
     Answer:
       "To indicate whether an element is open or closed when the visual indicator is not available",
@@ -498,59 +642,161 @@ const accessibilityQuiz = [
   },
   {
     Question:
-    "Which HTML element triggers an action when pressed and is accessible for screen readers?",
+      "Which HTML element triggers an action when pressed and is accessible for screen readers?",
     Answer: "<button>",
     Distractor1: "<div>",
     Distractor2: "<span>",
     Distractor3: "<a>",
     Explanation:
-    "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
+      "The <button> element is the appropriate HTML element to create a button that triggers an action when pressed. It is also accessible for screen readers when used correctly with appropriate ARIA attributes.",
     Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website/"
   },
   {
     Question:
-    "When designing a website to enhance accessibility, what is the purpose of a skip navigation link?",
-    Answer: "It helps visually impaired users to skip to the main content of a site.",
+      "When designing a website to enhance accessibility, what is the purpose of a skip navigation link?",
+    Answer:
+      "It helps visually impaired users to skip to the main content of a site.",
     Distractor1: "It serves as a link to the website's home page.",
-    Distractor2: "It allows users to to skip directly to the website's contact page.",
+    Distractor2:
+      "It allows users to skip directly to the website's contact page.",
     Distractor3: "It provides a link to download a screen reader application.",
     Explanation:
-    "A skip navigation link allow visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
+      "A skip navigation link allows visually impaired users to bypass the main navigation links and jump directly to the main content of a site.",
     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
   },
   {
     Question:
-      "What are the four broad guidelines of web accessibility that addresses different aspects of usability and inclusivity?",
-    Answer:
-      "Perceivable, Operable, Understandable, Robust.",
+      "What are the four broad guidelines of web accessibility that address different aspects of usability and inclusivity?",
+    Answer: "Perceivable, Operable, Understandable, Robust.",
     Distractor1: "Responsive, Mobile-Friendly, Fast-Loading and Secure.",
     Distractor2: "Content, Design, Interaction and Navigation.",
-    Distractor3: "Productivity, Accessibility, Scalabity and Visual.",
+    Distractor3: "Productivity, Accessibility, Scalability and Visual.",
     Explanation:
       "The four broad guidelines of web accessibility are Perceivable, Operable, Understandable, Robust. They help ensure that web content is accessible to all users, including those with disabilities",
     Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
   },
   {
-    Question: "Which of the following is not the way to fix web accessibility errors?",
+    Question:
+      "Which of the following is not the way to fix web accessibility errors?",
     Answer: "Changing document color",
     Distractor1: "Updating low contrast text",
     Distractor2: "Adding missing alternative text for images",
     Distractor3: "Fix empty links",
     Explanation:
-      "Fixing empty links, adding missing alternative text for images, updating low contrast text are some common ways to fix accessiblility errors",
-    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/",
+      "Fixing empty links, adding missing alternative text for images, updating low contrast text are some common ways to fix accessibility errors",
+    Link: "https://www.freecodecamp.org/news/common-accessibility-errors-and-how-to-fix-them/"
   },
   {
-    Question: "When was version 1.0 of the Web Content Accessibility Guidelines (WCAG) released?",
+    Question:
+      "When was version 1.0 of the Web Content Accessibility Guidelines (WCAG) released?",
     Answer: "1999",
     Distractor1: "2008",
     Distractor2: "1995",
     Distractor3: "2005",
     Explanation:
       "WCAG version 1.0 was published on May 5, 1999 and was a total game-changer for web accessibility.",
-    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-and-checklist/",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-and-checklist/"
   },
-  
+  {
+    Question: "Which of the following is NOT an example of web accessibility?",
+    Answer: "Programming Robots using Machine Learning",
+    Distractor1: "Alternative Text for Images",
+    Distractor2: "Keyboard Input",
+    Distractor3: "Transcripts for Audio",
+    Explanation:
+      "All of the above are current examples of web accessibility, except for Machine Learning, which may become a future trend.",
+    Link: "https://www.w3.org/WAI/fundamentals/accessibility-intro/#examples"
+  },
+  {
+    Question: "Which type of color combinations should be avoided to improve web accessibility for colorblind users?",
+    Answer: "Red and green combinations.",
+    Distractor1: "Black and white combinations.",
+    Distractor2: "Blue and yellow combinations.",
+    Distractor3: "Purple and orange combinations.",
+    Explanation: "Red and green are problematic for colorblind users, so it's important to choose color combinations that are distinguishable by everyone.",
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html"
+  },
+  {
+    Question: "Which web accessibility guideline ensures that website navigation can be operated via a keyboard?",
+    Answer: "Keyboard Accessibility",
+    Distractor1: "Image Alt Text",
+    Distractor2: "Audio Descriptions",
+    Distractor3: "Video Captions",
+    Explanation: "Keyboard accessibility ensures that users can navigate and interact with a website using only a keyboard.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "Why is it important to provide captions for videos on a website?",
+    Answer: "To make video content accessible to individuals with hearing impairments.",
+    Distractor1: "To add decorative elements to videos.",
+    Distractor2: "To increase the video's play speed.",
+    Distractor3: "To hide the video from users.",
+    Explanation: "Captions are essential for conveying spoken content to those who cannot hear it.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "How can a web developer improve the keyboard accessibility of a website?",
+    Answer: "By ensuring all interactive elements can be accessed and used via the keyboard alone.",
+    Distractor1: "By removing all interactive elements from the website.",
+    Distractor2: "By increasing the size of interactive elements.",
+    Distractor3: "By using more images on the website.",
+    Explanation: "Keyboard accessibility means that users can perform all actions using just the keyboard, without a mouse or other pointing device.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the role of focus indicators in web accessibility?",
+    Answer: "To provide a visual indication of where keyboard focus is on the page.",
+    Distractor1: "To highlight decorative elements on the page.",
+    Distractor2: "To disable keyboard navigation.",
+    Distractor3: "To change the font size of text content.",
+    Explanation: "Focus indicators help users understand where they are on a web page and improve navigation for keyboard users.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of an accessible form in web accessibility?",
+    Answer: "To ensure that forms are usable by individuals with disabilities, including those who use screen readers or keyboard navigation.",
+    Distractor1: "To collect personal information from users.",
+    Distractor2: "To create complex visual effects on a web page.",
+    Distractor3: "To prevent users from submitting forms.",
+    Explanation: "Accessible forms are designed to be usable by everyone, including those with disabilities.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of text resizing options in web accessibility?",
+    Answer: "To allow users to adjust text size to meet their specific needs and preferences.",
+    Distractor1: "To change the website's background color.",
+    Distractor2: "To add animated transitions to the website.",
+    Distractor3: "To hide the website's navigation menu.",
+    Explanation: "Text resizing options improve accessibility by accommodating users with varying visual impairments.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the purpose of ARIA landmarks in web accessibility?",
+    Answer: "To provide a way for screen readers to navigate and understand the structure of a web page.",
+    Distractor1: "To create colorful graphics on the page.",
+    Distractor2: "To insert advertising banners on the page.",
+    Distractor3: "To change the page's font style.",
+    Explanation: "ARIA landmarks help screen reader users quickly locate and understand different sections of a web page.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/aria/"
+  },
+  {
+    Question: "Why is it important to provide accessible alternatives for multimedia content?",
+    Answer: "To ensure that all users, including those with disabilities, can access and understand the content.",
+    Distractor1: "To increase the number of multimedia elements on a website.",
+    Distractor2: "To add visual effects to multimedia content.",
+    Distractor3: "To reduce the page load time.",
+    Explanation: "Accessible alternatives like captions and audio descriptions make multimedia content inclusive.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "What is the role of screen readers in web accessibility?",
+    Answer: "To provide audible representation of on-screen content for individuals with visual impairments.",
+    Distractor1: "To display visual content on a screen.",
+    Distractor2: "To make text content larger on a screen.",
+    Distractor3: "To increase the website's loading speed.",
+    Explanation: "Screen readers are essential for making digital content accessible to blind and visually impaired users.",
+    Link: "https://en.wikipedia.org/wiki/Screen_reader"
+  },
 ];
 
 export default accessibilityQuiz;

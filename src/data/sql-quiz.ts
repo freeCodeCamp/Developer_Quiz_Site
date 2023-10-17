@@ -1,5 +1,103 @@
 const sqlQuiz = [
   {
+    Question: "Which SQL database is known for its powerful features, open-source nature, and is often considered production-ready?",
+    Answer: "PostgreSQL",
+    Distractor1: "MySQL",
+    Distractor2: "Microsoft SQL Server",
+    Distractor3: "SQLite",
+    Explanation: "PostgreSQL is known for its robust features and is often used in production environments.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "Which SQL database is often used for learning and small systems due to its lightweight and serverless nature?",
+    Answer: "SQLite",
+    Distractor1: "MySQL",
+    Distractor2: "PostgreSQL",
+    Distractor3: "Microsoft SQL Server",
+    Explanation: "SQLite is lightweight and great for learning and small systems.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL, how are boolean values typically stored in databases?",
+    Answer: "As integers (0 for false, 1 for true)",
+    Distractor1: "As text strings ('true' or 'false')",
+    Distractor2: "As binary data",
+    Distractor3: "As NULL values",
+    Explanation: "Boolean values are commonly stored as integers, where 0 represents false and 1 represents true.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "What is a common strategy for protecting against data loss when deleting records from a database?",
+    Answer: "Using soft deletes",
+    Distractor1: "Creating manual backups",
+    Distractor2: "Not allowing deletions",
+    Distractor3: "Using SQL injections",
+    Explanation: "Soft deletes involve marking records as deleted instead of physically removing them, allowing for potential data recovery.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL,how many primary keys can be created in a table?",
+    Answer: "Only one",
+    Distractor1: "Infinte",
+    Distractor2: "Twelve",
+    Distractor3: "Two",
+    Explanation:
+      "A table can have multiple unique keys that identify each row, but only one primary key.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL, what does the HAVING clause typically follow?",
+    Answer: "GROUP BY",
+    Distractor1: "ORDER BY",
+    Distractor2: "WHERE",
+    Distractor3: "HAVING is used alone",
+    Explanation:
+      "The HAVING clause is used in combination with the GROUP BY clause to filter grouped records based on specified conditions.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
+  },
+  {
+    Question:
+      "In database normalization, what does the First Normal Form (1NF) require?",
+    Answer: "All attributes must have unique names",
+    Distractor1: "All data values in a column must be of the same data type",
+    Distractor2: "All primary keys must be integers",
+    Distractor3: " All attributes must have a value for every record",
+    Explanation:
+      "The First Normal Form (1NF) requires that all attributes in a table must have unique names, ensuring that each column represents a single atomic value.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which normal form ensures that there are no transitive dependencies?",
+    Answer: "Third Normal Form (3NF)",
+    Distractor1: "Second Normal Form (2NF)",
+    Distractor2: " Boyce-Codd Normal Form (BCNF)",
+    Distractor3: "Fourth Normal Form (4NF)",
+    Explanation:
+      "The Third Normal Form (3NF) addresses transitive dependencies and ensures that non-key attributes are not dependent on other non-key attributes.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which SQL clause is used to filter rows before applying the aggregate functions?",
+    Answer: "WHERE",
+    Distractor1: "GROUP BY",
+    Distractor2: "HAVING",
+    Distractor3: "ORDER BY",
+    Explanation:
+      "The WHERE clause in SQL is used to filter rows before applying the aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
+  },
+  {
+    Question: "Which SQL clause sets the child data to NULL when the parent data is deleted?",
+    Answer: "ON DELETE SET NULL",
+    Distractor1: "UPDATE TO NULL ",
+    Distractor2: "ON DELETE CASCADE",
+    Distractor3: "DELETE NULL",
+    Explanation:"SQL Server sets the rows in the child table to NULL if the corresponding rows in the parent table are deleted",
+    Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/"
+  },
+  {
     Question: "In SQL, what does CRUD stand for?",
     Answer: "CREATE, READ, UPDATE, DELETE",
     Distractor1: "CREATE, ROW, UNION, DROP ",
@@ -922,6 +1020,19 @@ const sqlQuiz = [
     Explanation:
       "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "Which of the following SQL queries correctly shows the records within a 7-day period ending on 10/15/2023?",
+    Answer: "WHERE date >= '2023-10-09' AND date <= '2023-10-15'",
+    Distractor1:
+      "WHERE activity_date > '2023-10-15' AND activity_date <= '2023-10-08'",
+    Distractor2:
+      "WHERE activity_date >= '10/09/2023' AND activity_date <= '10/15/2023'",
+    Distractor3: "WHERE activity_date BETWEEN '2023-10-09' AND '2023-10-16'",
+    Explanation:
+      "To select some particular date between one date and another, you can use the BETWEEN and AND keywords while specifying the dates. You can also use comparison operators such as greater than (>), less than (<), or equal(=).",
+    Link: "https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"
   }
 ];
 
