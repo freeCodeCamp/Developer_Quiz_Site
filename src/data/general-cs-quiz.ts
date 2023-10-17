@@ -1815,6 +1815,17 @@ const generalCSQuiz = [
     Explanation:
       'The postfix notation for the infix expression "3 * (5 + 2)" is "3 5 2 * +". This notation represents the same mathematical expression and can be directly evaluated using a stack-based algorithm.',
     Link: "https://youtu.be/B31LgI4Y4DQ?si=R1q51bZBH-OWHot1&t=15255"
+  },
+  {
+    Question:
+      "Which data structure allows for efficient retrieval of data based on a key?",
+    Answer: "Hash Table",
+    Distractor1: "Binary Tree",
+    Distractor2: "Linked List",
+    Distractor3: "Queue",
+    Explanation:
+      "A hash table allows for efficient data retrieval based on a key through the use of a hash function.",
+    Link: "https://en.wikipedia.org/wiki/Hash_table"
   }
 ];
 
