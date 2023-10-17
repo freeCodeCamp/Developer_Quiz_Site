@@ -1973,7 +1973,7 @@ const javascriptQuiz = [
     Question:
       "In JavaScript, which of the following statements is correct regarding async await?",
     Answer: "async automatically returns a promise",
-    Distractor1: "await keeps executing code regardless of promies status",
+    Distractor1: "await keeps executing code regardless of promise status",
     Distractor2: "async can be used independently without an async function",
     Distractor3:
       "Multiple await keywords can be used in a single line inside an async function",
