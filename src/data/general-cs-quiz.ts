@@ -1,7 +1,28 @@
 const generalCSQuiz = [
   {
     Question:
-      "What is the time complexity of inserting an element into a linked list at the beginning?",
+      "Which sorting algorithm has an average time complexity of O(nlogn)?",
+    Answer: "Quick sort",
+    Distractor1: "Bubble sort",
+    Distractor2: "Insertion sort",
+    Distractor3: "Selection sort",
+    Explanation:
+      "Quick sort has an average time complexity of O(nlogn), making it efficient for sorting large datasets.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#quick-sort"
+  },
+  {
+    Question:
+      "In a graph, which data structure is best suited for finding the shortest path between two vertices?",
+    Answer: "Priority Queue",
+    Distractor1: "Stack",
+    Distractor2: "String",
+    Distractor3: "Heap",
+    Explanation:
+      "Dijkstra's algorithm, which is used to find the shortest path in a graph, typically employs a priority queue to efficiently select the next vertex with the smallest distance.",
+    Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/"
+  },
+  {
+    Question:  "What is the time complexity of inserting an element into a linked list at the beginning?",
     Answer: "O(1)",
     Distractor1: "O(log n)",
     Distractor2: "O(n)",
