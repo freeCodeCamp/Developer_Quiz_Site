@@ -12,7 +12,7 @@ const generalCSQuiz = [
   },
   {
     Question:
-      "Which of the following methods can be used to solve N-Queens Problem?",
+      "Which of the following methods can be used to solve the N-Queens problem?",
     Answer: "Backtracking",
     Distractor1: "Greedy Paradigm",
     Distractor2: "Divide and Conquer",
