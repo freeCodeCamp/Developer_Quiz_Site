@@ -1,5 +1,48 @@
 const sqlQuiz = [
   {
+    Question:
+      "Which SQL database is known for its powerful features, open-source nature, and is often considered production-ready?",
+    Answer: "PostgreSQL",
+    Distractor1: "MySQL",
+    Distractor2: "Microsoft SQL Server",
+    Distractor3: "SQLite",
+    Explanation:
+      "PostgreSQL is known for its robust features and is often used in production environments.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question:
+      "Which SQL database is often used for learning and small systems due to its lightweight and serverless nature?",
+    Answer: "SQLite",
+    Distractor1: "MySQL",
+    Distractor2: "PostgreSQL",
+    Distractor3: "Microsoft SQL Server",
+    Explanation:
+      "SQLite is lightweight and great for learning and small systems.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL, how are boolean values typically stored in databases?",
+    Answer: "As integers (0 for false, 1 for true)",
+    Distractor1: "As text strings ('true' or 'false')",
+    Distractor2: "As binary data",
+    Distractor3: "As NULL values",
+    Explanation:
+      "Boolean values are commonly stored as integers, where 0 represents false and 1 represents true.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question:
+      "What is a common strategy for protecting against data loss when deleting records from a database?",
+    Answer: "Using soft deletes",
+    Distractor1: "Creating manual backups",
+    Distractor2: "Not allowing deletions",
+    Distractor3: "Using SQL injections",
+    Explanation:
+      "Soft deletes involve marking records as deleted instead of physically removing them, allowing for potential data recovery.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
     Question: "In SQL,how many primary keys can be created in a table?",
     Answer: "Only one",
     Distractor1: "Infinte",
@@ -53,12 +96,14 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
   },
   {
-    Question: "Which SQL clause sets the child data to NULL when the parent data is deleted?",
+    Question:
+      "Which SQL clause sets the child data to NULL when the parent data is deleted?",
     Answer: "ON DELETE SET NULL",
     Distractor1: "UPDATE TO NULL ",
     Distractor2: "ON DELETE CASCADE",
     Distractor3: "DELETE NULL",
-    Explanation:"SQL Server sets the rows in the child table to NULL if the corresponding rows in the parent table are deleted",
+    Explanation:
+      "SQL Server sets the rows in the child table to NULL if the corresponding rows in the parent table are deleted",
     Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/"
   },
   {
@@ -984,6 +1029,19 @@ const sqlQuiz = [
     Explanation:
       "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
     Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "Which of the following SQL queries correctly shows the records within a 7-day period ending on 10/15/2023?",
+    Answer: "WHERE date >= '2023-10-09' AND date <= '2023-10-15'",
+    Distractor1:
+      "WHERE activity_date > '2023-10-15' AND activity_date <= '2023-10-08'",
+    Distractor2:
+      "WHERE activity_date >= '10/09/2023' AND activity_date <= '10/15/2023'",
+    Distractor3: "WHERE activity_date BETWEEN '2023-10-09' AND '2023-10-16'",
+    Explanation:
+      "To select some particular date between one date and another, you can use the BETWEEN and AND keywords while specifying the dates. You can also use comparison operators such as greater than (>), less than (<), or equal(=).",
+    Link: "https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"
   }
 ];
 

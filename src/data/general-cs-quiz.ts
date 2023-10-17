@@ -1,6 +1,51 @@
 const generalCSQuiz = [
   {
-    Question: "What is the time complexity of inserting an element into a linked list at the beginning?",
+    Question:
+      "What is the average time complexity of an element insertion in a hash table?",
+    Answer: "O(1)",
+    Distractor1: "O(logn)",
+    Distractor2: "O(n)",
+    Distractor3: "O(n^2)",
+    Explanation:
+      "The average time complexity of an element insertion in a hash table is O(1). Unlike arrays, hash tables use a hashing function to generate a unique key or index for each element, ensuring constant time for element insertion.",
+    Link: "https://www.freecodecamp.org/news/javascript-hash-table-associative-array-hashing-in-js/"
+  },
+  {
+    Question:
+      "Which of the following methods can be used to solve the N-Queens problem?",
+    Answer: "Backtracking",
+    Distractor1: "Greedy Paradigm",
+    Distractor2: "Divide and Conquer",
+    Distractor3: "Dynamic Programming",
+    Explanation:
+      "Backtracking is used to solve the N-Queens problem based on the condition that no two queens can be present in the same row, column or diagonal.",
+    Link: "https://youtu.be/A80YzvNwqXA?si=Eue2Exdk1zT2SUm5&t=511"
+  },
+  {
+    Question:
+      "Which sorting algorithm has an average time complexity of O(nlogn)?",
+    Answer: "Quick sort",
+    Distractor1: "Bubble sort",
+    Distractor2: "Insertion sort",
+    Distractor3: "Selection sort",
+    Explanation:
+      "Quick sort has an average time complexity of O(nlogn), making it efficient for sorting large datasets.",
+    Link: "https://www.freecodecamp.org/news/sorting-algorithms-explained-with-examples-in-python-java-and-c/#quick-sort"
+  },
+  {
+    Question:
+      "In a graph, which data structure is best suited for finding the shortest path between two vertices?",
+    Answer: "Priority Queue",
+    Distractor1: "Stack",
+    Distractor2: "String",
+    Distractor3: "Heap",
+    Explanation:
+      "Dijkstra's algorithm, which is used to find the shortest path in a graph, typically employs a priority queue to efficiently select the next vertex with the smallest distance.",
+    Link: "https://www.freecodecamp.org/news/dijkstras-shortest-path-algorithm-visual-introduction/"
+  },
+  {
+    Question:
+      "What is the time complexity of inserting an element into a linked list at the beginning?",
     Answer: "O(1)",
     Distractor1: "O(log n)",
     Distractor2: "O(n)",
@@ -41,7 +86,8 @@ const generalCSQuiz = [
     Link: "https://www.freecodecamp.org/news/understanding-by-reference-vs-by-value-d49139beb1c4/"
   },
   {
-    Question: "Which of the following algorithms is used to find the shortest path between two points in a connected weighted graph?",
+    Question:
+      "Which of the following algorithms is used to find the shortest path between two points in a connected weighted graph?",
     Answer: "Kruskal Algorithm",
     Distractor1: "Floyd's Tortoise-Hare Algorithm",
     Distractor2: "Greedy Algorithms",
@@ -1690,68 +1736,97 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/P_versus_NP_problem"
   },
   {
-  Question: "What is the use of a priority queue?",
-  Answer: "A priority queue manages elements based on priority, ensuring higher priority items are processed first.",
-  Distractor1: "It's a queue that organizes elements by their value.",
-  Distractor2: "It's a fixed-size queue.",
-  Distractor3: "It only accepts elements of the same type.",
-  Explanation: "A priority queue is essential in scenarios where certain tasks need to be handled in order of importance or urgency.",
-  Link: "https://www.freecodecamp.org/news/priority-queue-implementation-in-java/"
-},
-{
-  Question: "What is a binary search algorithm?",
-  Answer: "Binary search efficiently finds values in sorted arrays by dividing the search space in half until the target is found or determined to be absent.",
-  Distractor1: "Binary search is used for searching unsorted arrays.",
-  Distractor2: "Binary search only works with non-integer values.",
-  Distractor3: "Binary search has a time complexity of O(n).",
-  Explanation: "Binary search is a fundamental and highly efficient algorithm for searching in sorted data structures like arrays and is based on the principle of divide and conquer.",
-  Link: "https://www.freecodecamp.org/news/binary-search-algorithm-and-time-complexity-explained/",
-},
-{
-  Question: "What is a hash table in computer science?",
-  Answer: "A hash table stores key-value pairs, using a hash function to enable fast data retrieval.",
-  Distractor1: "A hash table is a data structure that only stores keys, not values.",
-  Distractor2: "A hash table is primarily used for sorting data.",
-  Distractor3: "A hash table is limited to a fixed size and cannot grow dynamically.",
-  Explanation: "Hash tables are widely used in computer science for implementing associative arrays, databases, and various applications that require fast data access.",
-  Link: "https://www.freecodecamp.org/news/hash-tables/"
-},
-{
-  Question: "What is the difference between a stack and a queue in data structures?",
-  Answer: "A stack (LIFO) removes the last element added first, while a queue (FIFO) removes the first element added first.",
-  Distractor1: "A stack and a queue have the same behavior and are interchangeable in data structures.",
-  Distractor2: "A stack and a queue are both unordered collections of elements.",
-  Distractor3: "A stack and a queue are not used in computer programming.",
-  Explanation: "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
-  Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/",
-},
-{
-  Question:"What is the time complexity of Kruskal's algorithm in terms of the number of edges (E) and vertices (V) in the graph?",
-  Answer: "O(E log V)",
-  Distractor1: "O(E)",
-  Distractor2: "O(E log V)",
-  Distractor3: "O(V log E)",
-  Explanation:"E is at most O(V^2) in a complete graph, and log(V^2) is equivalent to 2 * log(V), the time complexity is often expressed as O(E log V). This is because, in most cases, E is significantly smaller than V^2, and it simplifies to O(E log V).",
-  Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
-},
-{
-  Question: "What is a key characteristic of a complete binary tree?",
-  Answer: "It has the maximum number of nodes for a given height",
-  Distractor1: "All nodes have exactly two children.",
-  Distractor2: "The last level may have gaps in node positions",
-  Distractor3: "It has the maximum number of nodes for a given height",
-  Explanation:"The key characteristic of a complete binary tree is that it contains the maximum possible number of nodes for a tree of its height. This maximizes the number of nodes that can be accommodated while maintaining the structure's completeness.",
-  Link: "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees"
-},
-{
-  Question:"What is the postfix notation for the infix expression: 3 * (5 + 2)?",
-  Answer: "3 5 2 * +",
-  Distractor1: "3 5 2 + *",
-  Distractor2: "3 5 + 2 *",
-  Distractor3: "3 5 2 * +",
-  Explanation:'The postfix notation for the infix expression "3 * (5 + 2)" is "3 5 2 * +". This notation represents the same mathematical expression and can be directly evaluated using a stack-based algorithm.',
-  Link: "https://youtu.be/B31LgI4Y4DQ?si=R1q51bZBH-OWHot1&t=15255"
-}
+    Question: "What is the use of a priority queue?",
+    Answer:
+      "A priority queue manages elements based on priority, ensuring higher priority items are processed first.",
+    Distractor1: "It's a queue that organizes elements by their value.",
+    Distractor2: "It's a fixed-size queue.",
+    Distractor3: "It only accepts elements of the same type.",
+    Explanation:
+      "A priority queue is essential in scenarios where certain tasks need to be handled in order of importance or urgency.",
+    Link: "https://www.freecodecamp.org/news/priority-queue-implementation-in-java/"
+  },
+  {
+    Question: "What is a binary search algorithm?",
+    Answer:
+      "Binary search efficiently finds values in sorted arrays by dividing the search space in half until the target is found or determined to be absent.",
+    Distractor1: "Binary search is used for searching unsorted arrays.",
+    Distractor2: "Binary search only works with non-integer values.",
+    Distractor3: "Binary search has a time complexity of O(n).",
+    Explanation:
+      "Binary search is a fundamental and highly efficient algorithm for searching in sorted data structures like arrays and is based on the principle of divide and conquer.",
+    Link: "https://www.freecodecamp.org/news/binary-search-algorithm-and-time-complexity-explained/"
+  },
+  {
+    Question: "What is a hash table in computer science?",
+    Answer:
+      "A hash table stores key-value pairs, using a hash function to enable fast data retrieval.",
+    Distractor1:
+      "A hash table is a data structure that only stores keys, not values.",
+    Distractor2: "A hash table is primarily used for sorting data.",
+    Distractor3:
+      "A hash table is limited to a fixed size and cannot grow dynamically.",
+    Explanation:
+      "Hash tables are widely used in computer science for implementing associative arrays, databases, and various applications that require fast data access.",
+    Link: "https://www.freecodecamp.org/news/hash-tables/"
+  },
+  {
+    Question:
+      "What is the difference between a stack and a queue in data structures?",
+    Answer:
+      "A stack (LIFO) removes the last element added first, while a queue (FIFO) removes the first element added first.",
+    Distractor1:
+      "A stack and a queue have the same behavior and are interchangeable in data structures.",
+    Distractor2:
+      "A stack and a queue are both unordered collections of elements.",
+    Distractor3: "A stack and a queue are not used in computer programming.",
+    Explanation:
+      "A stack is a linear data structure that uses the Last in First Out principle while a queue uses the First In First Out principle.  Understanding the differences between stacks and queues is essential for choosing the right data structure for specific algorithms and applications.",
+    Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/"
+  },
+  {
+    Question:
+      "What is the time complexity of Kruskal's algorithm in terms of the number of edges (E) and vertices (V) in the graph?",
+    Answer: "O(E log V)",
+    Distractor1: "O(E)",
+    Distractor2: "O(E log V)",
+    Distractor3: "O(V log E)",
+    Explanation:
+      "E is at most O(V^2) in a complete graph, and log(V^2) is equivalent to 2 * log(V), the time complexity is often expressed as O(E log V). This is because, in most cases, E is significantly smaller than V^2, and it simplifies to O(E log V).",
+    Link: "https://en.wikipedia.org/wiki/Kruskal%27s_algorithm"
+  },
+  {
+    Question: "What is a key characteristic of a complete binary tree?",
+    Answer: "It has the maximum number of nodes for a given height",
+    Distractor1: "All nodes have exactly two children.",
+    Distractor2: "The last level may have gaps in node positions",
+    Distractor3: "It has the maximum number of nodes for a given height",
+    Explanation:
+      "The key characteristic of a complete binary tree is that it contains the maximum possible number of nodes for a tree of its height. This maximizes the number of nodes that can be accommodated while maintaining the structure's completeness.",
+    Link: "https://en.wikipedia.org/wiki/Binary_tree#Types_of_binary_trees"
+  },
+  {
+    Question:
+      "What is the postfix notation for the infix expression: 3 * (5 + 2)?",
+    Answer: "3 5 2 * +",
+    Distractor1: "3 5 2 + *",
+    Distractor2: "3 5 + 2 *",
+    Distractor3: "3 5 2 * +",
+    Explanation:
+      'The postfix notation for the infix expression "3 * (5 + 2)" is "3 5 2 * +". This notation represents the same mathematical expression and can be directly evaluated using a stack-based algorithm.',
+    Link: "https://youtu.be/B31LgI4Y4DQ?si=R1q51bZBH-OWHot1&t=15255"
+  },
+  {
+    Question:
+      "Which data structure allows for efficient retrieval of data based on a key?",
+    Answer: "Hash Table",
+    Distractor1: "Binary Tree",
+    Distractor2: "Linked List",
+    Distractor3: "Queue",
+    Explanation:
+      "A hash table allows for efficient data retrieval based on a key through the use of a hash function.",
+    Link: "https://en.wikipedia.org/wiki/Hash_table"
+  }
 ];
 
 export default generalCSQuiz;

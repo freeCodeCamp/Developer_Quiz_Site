@@ -1704,6 +1704,15 @@ const htmlQuiz = [
     Explanation:
       'In HTML, the for attribute is used in conjunction with the <label> element to associate the label with a specific form control (such as an <input> element). This association is important for improving the usability and accessibility of web forms.',
     Link: "https://www.freecodecamp.org/news/html-label-label-tag-example"
+  },
+  {
+    Question: "What is the purpose of the HTML <header> element?",
+    Answer: "To define a container for introductory content or a set of navigation links.",
+    Distractor1: "To create a horizontal rule, often used for visual separation in a web page.",
+    Distractor2: "To define a section of a web page for important content or articles.",
+    Distractor3: "To insert a line break, forcing the content after the break to the next line.",
+    Explanation: "The <header> element is used to define introductory content or a set of navigation links typically found at the top of a web page.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header"
   }
 ];
 export default htmlQuiz;
