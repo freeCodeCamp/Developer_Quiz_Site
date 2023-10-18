@@ -569,7 +569,7 @@ const securityQuiz = [
     Distractor2: "Windows",
     Distractor3: "MacOS",
     Explanation:
-      "Kali Linux is a Debian-based Linux distribution aimed at advanced Penetration Testing and Security Auditing.",
+      "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing.",
     Link: "https://www.freecodecamp.org/news/how-to-install-kali-linux/"
   }
 ];
