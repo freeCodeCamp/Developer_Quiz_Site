@@ -1828,8 +1828,8 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Hash_table"
   },
   {
-    "Question": "What is the Halting Problem, and why is it important in theoretical computer science?",
-    "Answer": "The Halting Problem is an unsolvable problem in computer science that asks whether a given program will eventually stop or run forever.",
+    "Question": "What is the Halting problem in computability theory?",
+    "Answer": "The Halting Problem is an unsolvable problem in computer science",
     "Distractor1": "The Halting Problem is a type of computer virus.",
     "Distractor2": "The Halting Problem is a cryptographic challenge.",
     "Distractor3": "The Halting Problem is used for code debugging.",
