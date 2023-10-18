@@ -820,7 +820,16 @@ const accessibilityQuiz = [
     Explanation:
       "Screen readers are essential for making digital content accessible to blind and visually impaired users.",
     Link: "https://en.wikipedia.org/wiki/Screen_reader"
-  }
+  },
+  {
+    "Question": "What are the WCAG guidelines, and why are they important for web accessibility?",
+    "Answer": "WCAG (Web Content Accessibility Guidelines) provide a set of international standards for web accessibility, ensuring that digital content is accessible to a wide range of users, including those with disabilities.",
+    "Distractor1": "WCAG guidelines are only for mobile app development.",
+    "Distractor2": "WCAG guidelines focus on website aesthetics.",
+    "Distractor3": "WCAG guidelines are only relevant for small businesses.",
+    "Explanation": "WCAG guidelines are globally recognized and help create web content that is accessible and usable for individuals with disabilities, enhancing inclusivity on the web.",
+    "Link": "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
 ];
 
 export default accessibilityQuiz;
