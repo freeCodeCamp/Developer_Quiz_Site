@@ -1826,6 +1826,15 @@ const generalCSQuiz = [
     Explanation:
       "A hash table allows for efficient data retrieval based on a key through the use of a hash function.",
     Link: "https://en.wikipedia.org/wiki/Hash_table"
+  },
+  {
+    "Question": "What is the Halting problem in computability theory?",
+    "Answer": "The Halting Problem is an unsolvable problem in computer science",
+    "Distractor1": "The Halting Problem is a type of computer virus.",
+    "Distractor2": "The Halting Problem is a cryptographic challenge.",
+    "Distractor3": "The Halting Problem is used for code debugging.",
+    "Explanation": "The Halting Problem is significant in theoretical computer science as it demonstrates the existence of problems that cannot be solved algorithmically.",
+    "Link": "https://en.wikipedia.org/wiki/Halting_problem"
   }
 ];
 
