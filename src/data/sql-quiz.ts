@@ -1055,7 +1055,16 @@ const sqlQuiz = [
     Explanation:
       "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",
     Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
-  }
+  },
+  {
+    "Question": "What is the SQL JOIN clause used for?",
+    "Answer": "The SQL JOIN clause is used to combine rows from two or more tables based on a related column between them.",
+    "Distractor1": "SQL JOIN is for creating new databases.",
+    "Distractor2": "SQL JOIN is used to delete records from a table.",
+    "Distractor3": "SQL JOIN is for sorting query results.",
+    "Explanation": "SQL JOIN is fundamental for retrieving data from multiple tables by establishing relationships between them.",
+    "Link": "https://www.w3schools.com/sql/sql_join.asp"
+  },
 ];
 
 export default sqlQuiz;
