@@ -1037,7 +1037,7 @@ const sqlQuiz = [
   {
     Question:
       "Which of the following SQL queries correctly shows the number of unique subjects taken by a student?",
-    Answer: "SELECT COUNT(DISTINCT SUBJECT_ID)",
+    Answer: "SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name;",
     Distractor1:
       "SELECT COUNT(UNIQUE SUBJECT_ID)",
     Distractor2:
