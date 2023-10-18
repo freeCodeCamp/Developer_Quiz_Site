@@ -1,6 +1,17 @@
 const cloudComputingQuiz = [
   {
     Question:
+      "Which model do cloud-native apps typically follow for software updates, allowing for immediate deployment?",
+    Answer: "Continuous delivery model",
+    Distractor1: "Waterfall model",
+    Distractor2: "Agile model",
+    Distractor3: "V-Model",
+    Explanation:
+      "Cloud-native apps commonly follow the continuous delivery model, enabling software updates to be shipped immediately, leading to faster development and deployment cycles.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question:
       "What architectural approach do cloud-native apps typically use to build independently deployable components?",
     Answer: "Microservices architecture",
     Distractor1: "Monolithic architecture",
