@@ -543,8 +543,9 @@ const securityQuiz = [
   },
   {
     Question:
-    "What is a common method to protect sensitive data in transit over the internet?",
-    Answer: "Using HTTPS (Hypertext Transfer Protocol Secure) for secure communication.",
+      "What is a common method to protect sensitive data in transit over the internet?",
+    Answer:
+      "Using HTTPS (Hypertext Transfer Protocol Secure) for secure communication.",
     Distractor1: "Encrypting data only at the server-side.",
     Distractor2: "Sharing data through plain HTTP.",
     Distractor3: "Storing sensitive data in plaintext on the server.",

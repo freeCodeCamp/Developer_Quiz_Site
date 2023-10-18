@@ -117,14 +117,16 @@ const freecodecampQuiz = [
     Link: "https://www.freecodecamp.org/news/about/"
   },
   {
-    "Question": "Which section of freeCodeCamp's curriculum focuses on JavaScript algorithms and data structures?",
-    "Answer": "JavaScript Algorithms and Data Structures Certification",
-    "Distractor1": "Responsive Web Design",
-    "Distractor2": "Machine Learning",
-    "Distractor3": "Cybersecurity",
-    "Explanation": "The 'JavaScript Algorithms and Data Structures Certification' is dedicated to teaching fundamental concepts related to algorithms and data structures.",
-    "Link": "https://www.freecodecamp.org/learn"
-  },
+    Question:
+      "Which section of freeCodeCamp's curriculum focuses on JavaScript algorithms and data structures?",
+    Answer: "JavaScript Algorithms and Data Structures Certification",
+    Distractor1: "Responsive Web Design",
+    Distractor2: "Machine Learning",
+    Distractor3: "Cybersecurity",
+    Explanation:
+      "The 'JavaScript Algorithms and Data Structures Certification' is dedicated to teaching fundamental concepts related to algorithms and data structures.",
+    Link: "https://www.freecodecamp.org/learn"
+  }
 ];
 
 export default freecodecampQuiz;

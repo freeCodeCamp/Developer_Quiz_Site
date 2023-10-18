@@ -1047,10 +1047,8 @@ const sqlQuiz = [
     Question:
       "Which of the following SQL queries correctly shows the number of unique subjects taken by a student?",
     Answer: "SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name;",
-    Distractor1:
-      "SELECT COUNT(UNIQUE SUBJECT_ID)",
-    Distractor2:
-      "SELECT SUM(DISTINCT SUBJECT_ID)",
+    Distractor1: "SELECT COUNT(UNIQUE SUBJECT_ID)",
+    Distractor2: "SELECT SUM(DISTINCT SUBJECT_ID)",
     Distractor3: "SELECT DISTINCT COUNT(SUBJECT_ID)",
     Explanation:
       "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",

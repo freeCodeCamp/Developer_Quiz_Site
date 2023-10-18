@@ -1,11 +1,13 @@
 const regexQuiz = [
   {
-    Question: "Which regex quantifier matches 0 or 1 occurrence of the preceding character or group?",
+    Question:
+      "Which regex quantifier matches 0 or 1 occurrence of the preceding character or group?",
     Answer: "?",
     Distractor1: "*",
     Distractor2: "+",
     Distractor3: "{3}",
-    Explanation: "The ? quantifier matches the preceding character or group 0 or 1 time, indicating that it is optional.",
+    Explanation:
+      "The ? quantifier matches the preceding character or group 0 or 1 time, indicating that it is optional.",
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
@@ -14,25 +16,30 @@ const regexQuiz = [
     Distractor1: "Any number",
     Distractor2: "Any special characters",
     Distractor3: "Only upper case letters",
-    Explanation: "This character class matches any single letter, whether it's uppercase or lowercase.",
+    Explanation:
+      "This character class matches any single letter, whether it's uppercase or lowercase.",
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
-    Question: "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
+    Question:
+      "Which of the following regular expressions will match a string containing exactly three lowercase letters (a-z) in a row?",
     Answer: "[a-z]{3}",
     Distractor1: "[a-z]+",
     Distractor2: "[a-z]{2,3}",
     Distractor3: "[a-z]{4}",
-    Explanation: "[a-z]{3} is the correct regular expression for matching a string containing exactly three lowercase letters (a-z) in a row.",
+    Explanation:
+      "[a-z]{3} is the correct regular expression for matching a string containing exactly three lowercase letters (a-z) in a row.",
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
-    Question: "Which regular expression pattern can be used to match valid email addresses according to the most common email format standards?",
+    Question:
+      "Which regular expression pattern can be used to match valid email addresses according to the most common email format standards?",
     Answer: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$",
     Distractor1: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-z]{2,}$",
     Distractor2: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]{2,}$",
     Distractor3: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z]{2,}$",
-    Explanation: "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$ matches valid email addresses by ensuring alphanumeric characters, dots, underscores, plus signs, and hyphens before @ and a valid domain with at least one dot after @.",
+    Explanation:
+      "^[a-zA-Z0-9.+-]+@[a-zA-Z0-9-]+.[a-zA-Z0-9-.]+$ matches valid email addresses by ensuring alphanumeric characters, dots, underscores, plus signs, and hyphens before @ and a valid domain with at least one dot after @.",
     Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   },
   {
@@ -120,7 +127,7 @@ const regexQuiz = [
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
   },
   {
-    Question: "What is a character class in Regular Expressions?" ,
+    Question: "What is a character class in Regular Expressions?",
     Answer:
       "A character class is used to match any one of several characters in a particular position",
     Distractor1: "A character class is used to remove spaces from a string",
@@ -132,7 +139,8 @@ const regexQuiz = [
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
   },
   {
-    Question: "Which of the following regex patterns can be used to match one or more occurrences of a digit in a string?",
+    Question:
+      "Which of the following regex patterns can be used to match one or more occurrences of a digit in a string?",
     Answer: "d+",
     Distractor1: "d*",
     Distractor2: "d?",

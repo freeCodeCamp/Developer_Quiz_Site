@@ -1266,15 +1266,15 @@ const cssQuiz = [
   },
   {
     Question:
-    "Which CSS property is utilized to manage the spacing between characters in text?",
+      "Which CSS property is utilized to manage the spacing between characters in text?",
     Answer: "letter-spacing",
     Distractor1: "word-spacing",
     Distractor2: "line-height",
     Distractor3: "text-indent",
     Explanation:
-    "The CSS property 'letter-spacing' is used to control the spacing between characters in a text.",
+      "The CSS property 'letter-spacing' is used to control the spacing between characters in a text.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
-    }
+  }
 ];
 
 export default cssQuiz;
