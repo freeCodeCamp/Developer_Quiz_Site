@@ -262,6 +262,20 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript class-based OOP, are objects and classes the same constructs?",
+    Answer: "No, objects and classes are two separate constructs.",
+    Distractor1:
+      "No, objects and classes are completely unrelated in JavaScript.",
+    Distractor2:
+      "Yes, objects and classes are only used in functional programming, not in JavaScript class-based OOP",
+    Distractor3:
+      "Yes, objects and classes are interchangeable and can be used interchangeably in JavaScript class-based OOP.",
+    Explanation:
+      "Classes and objects represent distinct concepts within programming.  Objects are exclusively instantiated from classes.",
+    Link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
+  },
+  {
+    Question:
       "In JavaScript, a variable declared with the _________ keyword must be assigned an initial value.",
     Answer: "const",
     Distractor1: "finally",
