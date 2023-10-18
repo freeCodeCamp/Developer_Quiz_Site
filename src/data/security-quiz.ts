@@ -543,14 +543,25 @@ const securityQuiz = [
   },
   {
     Question:
-    "What is a common method to protect sensitive data in transit over the internet?",
-    Answer: "Using HTTPS (Hypertext Transfer Protocol Secure) for secure communication.",
+      "What is a common method to protect sensitive data in transit over the internet?",
+    Answer:
+      "Using HTTPS (Hypertext Transfer Protocol Secure) for secure communication.",
     Distractor1: "Encrypting data only at the server-side.",
     Distractor2: "Sharing data through plain HTTP.",
     Distractor3: "Storing sensitive data in plaintext on the server.",
     Explanation:
       "HTTPS encrypts the data transmitted between a user's web browser and the web server, ensuring confidentiality and integrity during transit.",
     Link: "https://www.freecodecamp.org/news/what-is-https-a-guide-to-secure-web-browsing-and-browser-encryption/"
+  },
+  {
+    Question: "Which of the following C functions are known to be vulnerable?",
+    Answer: "gets()",
+    Distractor1: "fgets()",
+    Distractor2: "getline()",
+    Distractor3: "printf()",
+    Explanation:
+      "In the C programming language, the  gets() function is known to be vulnerable to buffer overflow attacks since it doesn't check if the input is larger than the buffer size.",
+    Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/"
   }
 ];
 

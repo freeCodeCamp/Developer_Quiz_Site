@@ -1263,6 +1263,17 @@ const cssQuiz = [
     Explanation:
       "The :nth-child() pseudo-class selector matches every element that is the second child, third child, etc. of its parent.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-child"
+  },
+  {
+    Question:
+      "Which CSS property is utilized to manage the spacing between characters in text?",
+    Answer: "letter-spacing",
+    Distractor1: "word-spacing",
+    Distractor2: "line-height",
+    Distractor3: "text-indent",
+    Explanation:
+      "The CSS property 'letter-spacing' is used to control the spacing between characters in a text.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
   }
 ];
 

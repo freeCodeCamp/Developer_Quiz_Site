@@ -1,5 +1,112 @@
 const sqlQuiz = [
   {
+    Question:
+      "Which SQL database is known for its powerful features, open-source nature, and is often considered production-ready?",
+    Answer: "PostgreSQL",
+    Distractor1: "MySQL",
+    Distractor2: "Microsoft SQL Server",
+    Distractor3: "SQLite",
+    Explanation:
+      "PostgreSQL is known for its robust features and is often used in production environments.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question:
+      "Which SQL database is often used for learning and small systems due to its lightweight and serverless nature?",
+    Answer: "SQLite",
+    Distractor1: "MySQL",
+    Distractor2: "PostgreSQL",
+    Distractor3: "Microsoft SQL Server",
+    Explanation:
+      "SQLite is lightweight and great for learning and small systems.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL, how are boolean values typically stored in databases?",
+    Answer: "As integers (0 for false, 1 for true)",
+    Distractor1: "As text strings ('true' or 'false')",
+    Distractor2: "As binary data",
+    Distractor3: "As NULL values",
+    Explanation:
+      "Boolean values are commonly stored as integers, where 0 represents false and 1 represents true.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question:
+      "What is a common strategy for protecting against data loss when deleting records from a database?",
+    Answer: "Using soft deletes",
+    Distractor1: "Creating manual backups",
+    Distractor2: "Not allowing deletions",
+    Distractor3: "Using SQL injections",
+    Explanation:
+      "Soft deletes involve marking records as deleted instead of physically removing them, allowing for potential data recovery.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL,how many primary keys can be created in a table?",
+    Answer: "Only one",
+    Distractor1: "Infinte",
+    Distractor2: "Twelve",
+    Distractor3: "Two",
+    Explanation:
+      "A table can have multiple unique keys that identify each row, but only one primary key.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter3constraints"
+  },
+  {
+    Question: "In SQL, what does the HAVING clause typically follow?",
+    Answer: "GROUP BY",
+    Distractor1: "ORDER BY",
+    Distractor2: "WHERE",
+    Distractor3: "HAVING is used alone",
+    Explanation:
+      "The HAVING clause is used in combination with the GROUP BY clause to filter grouped records based on specified conditions.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
+  },
+  {
+    Question:
+      "In database normalization, what does the First Normal Form (1NF) require?",
+    Answer: "All attributes must have unique names",
+    Distractor1: "All data values in a column must be of the same data type",
+    Distractor2: "All primary keys must be integers",
+    Distractor3: " All attributes must have a value for every record",
+    Explanation:
+      "The First Normal Form (1NF) requires that all attributes in a table must have unique names, ensuring that each column represents a single atomic value.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which normal form ensures that there are no transitive dependencies?",
+    Answer: "Third Normal Form (3NF)",
+    Distractor1: "Second Normal Form (2NF)",
+    Distractor2: " Boyce-Codd Normal Form (BCNF)",
+    Distractor3: "Fourth Normal Form (4NF)",
+    Explanation:
+      "The Third Normal Form (3NF) addresses transitive dependencies and ensures that non-key attributes are not dependent on other non-key attributes.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which SQL clause is used to filter rows before applying the aggregate functions?",
+    Answer: "WHERE",
+    Distractor1: "GROUP BY",
+    Distractor2: "HAVING",
+    Distractor3: "ORDER BY",
+    Explanation:
+      "The WHERE clause in SQL is used to filter rows before applying the aggregate functions.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter7howtoperformaggregationsinsql"
+  },
+  {
+    Question:
+      "Which SQL clause sets the child data to NULL when the parent data is deleted?",
+    Answer: "ON DELETE SET NULL",
+    Distractor1: "UPDATE TO NULL ",
+    Distractor2: "ON DELETE CASCADE",
+    Distractor3: "DELETE NULL",
+    Explanation:
+      "SQL Server sets the rows in the child table to NULL if the corresponding rows in the parent table are deleted",
+    Link: "https://www.freecodecamp.org/news/sql-and-databases-full-course/"
+  },
+  {
     Question: "In SQL, what does CRUD stand for?",
     Answer: "CREATE, READ, UPDATE, DELETE",
     Distractor1: "CREATE, ROW, UNION, DROP ",
@@ -831,26 +938,121 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
   },
   {
-    Question:
-      "What SQL statement contains a valid subquery?",
-    Answer: "SELECT * FROM employees WHERE wage > (SELECT AVG(wage) FROM employees)",
+    Question: "What SQL statement contains a valid subquery?",
+    Answer:
+      "SELECT * FROM employees WHERE wage > (SELECT AVG(wage) FROM employees)",
     Distractor1: "SELECT MAX(*) FROM employees",
-    Distractor2: "SELECT AVG(wage) FROM employees WHERE name IN ('name1', 'name2', 'name3')",
-    Distractor3: "SELECT country, AVG(wage) FROM employees GROUP BY country LIMIT 3",
+    Distractor2:
+      "SELECT AVG(wage) FROM employees WHERE name IN ('name1', 'name2', 'name3')",
+    Distractor3:
+      "SELECT country, AVG(wage) FROM employees GROUP BY country LIMIT 3",
     Explanation:
       "A SQL subquery is a query inside a query. So, in SQL, a subquery is also called a nested query or an inner query. The outer query in which the inner query is inserted is the main query.",
     Link: "https://www.freecodecamp.org/news/sql-subquery-how-to-sub-query-in-select-statement/"
   },
   {
-    Question:
-      "What is a good reason to use a temporary table?",
-    Answer: "to store and reuse intermediate query results to avoid redundant computations",
+    Question: "What is a good reason to use a temporary table?",
+    Answer:
+      "to store and reuse intermediate query results to avoid redundant computations",
     Distractor1: "to store data for a short-lived analysis such as 1-2 weeks",
     Distractor2: "to improve database security",
     Distractor3: "to improve query performance",
     Explanation:
       "A temporary SQL table is a table that is created and used within the context of a specific session or transaction in a database.",
     Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
+  },
+  {
+    Question:
+      "In SQL, which operator is used to check if a value exists in a specified set of values?",
+    Answer: "IN",
+    Distractor1: "BETWEEN",
+    Distractor2: "EXISTS",
+    Distractor3: "LIKE",
+    Explanation:
+      "The IN operator returns true or false if the first operand matches any of the values in the second operand. The IN operator is a shorthand for multiple OR conditions.",
+    Link: "https://www.freecodecamp.org/news/sql-select-statement-and-query-examples/"
+  },
+  {
+    Question: "Which of the following is not a type of SQL injection?",
+    Answer: "Intersection SQL Injection",
+    Distractor1: "Error-Based SQL Injection",
+    Distractor2: "Blind SQL Injection",
+    Distractor3: "Union SQL Injection",
+    Explanation:
+      "SQL injection is when you insert or inject a SQL query via input data from the client to the application. Error-Based SQL Injection, Blind SQL Injection, UNION SQL Injection are common types of SQL injections. ",
+    Link: "https://www.freecodecamp.org/news/what-is-sql-injection-how-to-prevent-it/"
+  },
+  {
+    Question: "What is the primary use of the EXISTS operator in SQL?",
+    Answer: "To check the existence of rows in a subquery result set",
+    Distractor1: "To perform arithmetic operations on columns.",
+    Distractor2: "To concatenate strings from different columns.",
+    Distractor3: "To filter rows based on a specified pattern.",
+    Explanation:
+      "In SQL, the EXISTS operator is a logical operator used to determine if a subquery returns any rows.",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "Which of the following SQL statements retrieves the names of employees who have completed at least one task from the given schema?",
+    Answer:
+      "SELECT employee_name FROM employees WHERE EXISTS (SELECT 1 FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Distractor1:
+      "SELECT employee_name FROM employees WHERE NOT EXISTS (SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Distractor2:
+      "SELECT employee_name FROM employees WHERE EXISTS (SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Distractor3:
+      "SELECT employee_name FROM employees WHERE COUNT(SELECT * FROM tasks WHERE tasks.employee_id = employees.employee_id) > 0;",
+    Explanation:
+      "The following SQL statement checks for the existence of at least one task for each employee using the EXISTS operator: SELECT employee_name FROM employees WHERE EXISTS (SELECT 1 FROM tasks WHERE tasks.employee_id = employees.employee_id);",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question: "What is the primary purpose of the CASE statement in SQL?",
+    Answer:
+      "To perform conditional logic and return different values based on specified conditions.",
+    Distractor1: "To sort the result set in ascending order.",
+    Distractor2: "To perform mathematical calculations on columns.",
+    Distractor3: "To join multiple tables in a query.",
+    Explanation:
+      "The CASE statement evaluates a list of conditions and returns one of several possible result expressions.",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "What is the primary purpose of the GROUP_CONCAT() function in SQL?",
+    Answer:
+      "To concatenate values from multiple rows into a single string within each group.",
+    Distractor1: "To perform mathematical calculations on grouped data.",
+    Distractor2: "To sort the result set based on a specific column.",
+    Distractor3: "To filter rows based on specified conditions.",
+    Explanation:
+      "The GROUP_CONCAT function is used to concatenate strings from multiple rows into a single row. This is useful when you need to combine multiple values into a single string.",
+    Link: "https://www.freecodecamp.org/news/sql-tips-save-time-write-simpler-queries/"
+  },
+  {
+    Question:
+      "Which of the following SQL queries correctly shows the records within a 7-day period ending on 10/15/2023?",
+    Answer: "WHERE date >= '2023-10-09' AND date <= '2023-10-15'",
+    Distractor1:
+      "WHERE activity_date > '2023-10-15' AND activity_date <= '2023-10-08'",
+    Distractor2:
+      "WHERE activity_date >= '10/09/2023' AND activity_date <= '10/15/2023'",
+    Distractor3: "WHERE activity_date BETWEEN '2023-10-09' AND '2023-10-16'",
+    Explanation:
+      "To select some particular date between one date and another, you can use the BETWEEN and AND keywords while specifying the dates. You can also use comparison operators such as greater than (>), less than (<), or equal(=).",
+    Link: "https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"
+  },
+  {
+    Question:
+      "Which of the following SQL queries correctly shows the number of unique subjects taken by a student?",
+    Answer: "SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name;",
+    Distractor1: "SELECT COUNT(UNIQUE SUBJECT_ID)",
+    Distractor2: "SELECT SUM(DISTINCT SUBJECT_ID)",
+    Distractor3: "SELECT DISTINCT COUNT(SUBJECT_ID)",
+    Explanation:
+      "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
   }
 ];
 
