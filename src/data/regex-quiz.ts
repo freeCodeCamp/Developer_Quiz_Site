@@ -148,6 +148,66 @@ const regexQuiz = [
     Explanation:
       "The regex pattern d+ matches one or more occurrences of a digit in a string. The plus sign (+) means 'one or more' in regular expressions.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-beginners/"
-  }
+  },
+  {
+    Question: "What are the two Lookaround groups in regex?",
+    Answer: "Lookahead and Lookbehind",
+    Distractor1: "Lookfront and Lookback",
+    Distractor2: "Lookstart and Lookend",
+    Distractor3: "Lookplus and Lookminus",
+    Explanation:
+      "The Lookahead and Lookbehind are non capturing groups that search for the presence or absence of a regex pattern.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
+  },
+  {
+    Question: "Which of these patterns denotes a positive Lookahead?",
+    Answer: "(?=)",
+    Distractor1: "(?a)",
+    Distractor2: "(?#)",
+    Distractor3: "(?->)",
+    Explanation:
+      "The positive Lookahead is indicated by the = in the group.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
+  },
+  {
+    Question: "Which of these patterns denotes a negative Lookahead?",
+    Answer: "(?!)",
+    Distractor1: "(?~)",
+    Distractor2: "(?-=)",
+    Distractor3: "(?A)",
+    Explanation:
+      "The negative Lookahead is indicated by the ! in the group.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
+  },
+  {
+    Question: "Which of these patterns denotes a positive Lookbehind?",
+    Answer: "(?<=)",
+    Distractor1: "(?b)",
+    Distractor2: "(?$)",
+    Distractor3: "(?<-)",
+    Explanation:
+      "The positive Lookbehind is indicated by the <= in the group.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
+  },
+  {
+    Question: "Which of these patterns denotes a negative Lookbehind?",
+    Answer: "(?<!)",
+    Distractor1: "(?B)",
+    Distractor2: "(?!!)",
+    Distractor3: "(?--)",
+    Explanation:
+      "The negative Lookbehind is indicated by the <! in the group.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
+  },
+  {
+    Question: "Which of the following are used to group part of a regex into one unit?",
+    Answer: "()",
+    Distractor1: "[]",
+    Distractor2: "{}",
+    Distractor3: "<>",
+    Explanation:
+      "The parentheses, (), are used in grouping regex.",
+    Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
+  },
 ];
 export default regexQuiz;
