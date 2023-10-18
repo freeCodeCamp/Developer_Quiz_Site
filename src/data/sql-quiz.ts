@@ -1042,6 +1042,19 @@ const sqlQuiz = [
     Explanation:
       "To select some particular date between one date and another, you can use the BETWEEN and AND keywords while specifying the dates. You can also use comparison operators such as greater than (>), less than (<), or equal(=).",
     Link: "https://www.freecodecamp.org/news/sql-date-function-query-timestamp-example-format/"
+  },
+  {
+    Question:
+      "Which of the following SQL queries correctly shows the number of unique subjects taken by a student?",
+    Answer: "SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name;",
+    Distractor1:
+      "SELECT COUNT(UNIQUE SUBJECT_ID)",
+    Distractor2:
+      "SELECT SUM(DISTINCT SUBJECT_ID)",
+    Distractor3: "SELECT DISTINCT COUNT(SUBJECT_ID)",
+    Explanation:
+      "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",
+    Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
   }
 ];
 
