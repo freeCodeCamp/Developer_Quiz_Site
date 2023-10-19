@@ -599,14 +599,14 @@ const gitQuiz = [
     Link: "https://git-scm.com/docs/git-fetch"
   },
   {
-    Question:
-    "What is the purpose of the 'git branch' command in Git?",
-    Answer: "git branch is used to list, create, or delete branches in a Git repository.",
+    Question: "What is the purpose of the 'git branch' command in Git?",
+    Answer:
+      "git branch is used to list, create, or delete branches in a Git repository.",
     Distractor1: "git branch is used to commit changes in Git.",
     Distractor2: "git branch is used to merge branches in Git.",
     Distractor3: "git branch is used to clone a remote repository in Git.",
     Explanation:
-    "The 'git branch' command is used to manage branches in a Git repository, including listing existing branches, creating new branches, and deleting branches.",
+      "The 'git branch' command is used to manage branches in a Git repository, including listing existing branches, creating new branches, and deleting branches.",
     Link: "https://git-scm.com/docs/git-branch"
   }
 ];
