@@ -1053,6 +1053,39 @@ const sqlQuiz = [
     Explanation:
       "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",
     Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
+  },
+  {
+    Question:
+      "Which SQL clause is used to filter the result set of a SQL query by specifying a search condition?",
+  Answer: "WHERE",
+  Distractor1: "SELECT",
+  Distractor2: "FROM",
+  Distractor3: "GROUP BY",
+  Explanation:
+  "The WHERE clause is an essential part of SQL queries. It allows you to filter the rows in a result set by specifying a search condition that must be met for a row to be included in the result.",
+  Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
+  },
+  {
+    Question:
+      "In SQL, which operator is used to combine multiple conditions, where all the conditions must be true for the result to be true?",
+    Answer: "AND",
+    Distractor1: "OR",
+    Distractor2: "NOT",
+    Distractor3: "XOR",
+    Explanation:
+    "The 'AND' operator in SQL is used to combine multiple conditions, and it requires all the conditions to be true for the overall condition to be true. It's commonly used for complex filtering in SQL queries.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter5basicsqlqueries"
+  },
+  {
+    Question:
+        "In SQL, which type of constraint enforces that values in a column are unique across all rows in a table?",
+    Answer: "UNIQUE constraint",
+    Distractor1: "PRIMARY KEY constraint",
+    Distractor2: "CHECK constraint",
+    Distractor3: "FOREIGN KEY constraint",
+    Explanation:
+    "The UNIQUE constraint in SQL ensures that values in a specified column or columns are unique across all rows in a table. This constraint is often used to prevent duplicate values in a column while allowing NULL values.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/"
   }
 ];
 
