@@ -832,6 +832,15 @@ const accessibilityQuiz = [
     Explanation:
       "WCAG guidelines are globally recognized and help create web content that is accessible and usable for individuals with disabilities, enhancing inclusivity on the web.",
     Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question: "Which of the following screen reader is available as licensed software for windows?",
+    Answer: "JAWS (Job Access With Speech)",
+    Distractor1: "NVDA(Non Visual Desktop Access)",
+    Distractor2: "a11y.project",
+    Distractor3: "ChromeVox",
+    Explanation: "JAWS (Job Access With Speech) is widely used screen reading software developed by Freedom Scientific, which is available as licensed software for Windows.",
+    Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   }
 ];
 
