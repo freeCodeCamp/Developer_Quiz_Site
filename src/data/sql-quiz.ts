@@ -1047,15 +1047,31 @@ const sqlQuiz = [
     Question:
       "Which of the following SQL queries correctly shows the number of unique subjects taken by a student?",
     Answer: "SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name;",
-    Distractor1:
-      "SELECT COUNT(UNIQUE SUBJECT_ID)",
-    Distractor2:
-      "SELECT SUM(DISTINCT SUBJECT_ID)",
+    Distractor1: "SELECT COUNT(UNIQUE SUBJECT_ID)",
+    Distractor2: "SELECT SUM(DISTINCT SUBJECT_ID)",
     Distractor3: "SELECT DISTINCT COUNT(SUBJECT_ID)",
     Explanation:
       "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",
     Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
-  }
+  },
+  {
+    "Question": "What is the SQL JOIN clause used for?",
+    "Answer": "The SQL JOIN clause is used to combine rows from two or more tables based on a related column between them.",
+    "Distractor1": "SQL JOIN is for creating new databases.",
+    "Distractor2": "SQL JOIN is used to delete records from a table.",
+    "Distractor3": "SQL JOIN is for sorting query results.",
+    "Explanation": "SQL JOIN is fundamental for retrieving data from multiple tables by establishing relationships between them.",
+    "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-sql-join-statements/"
+  },
+  {
+    "Question": "What is the purpose of the SQL HAVING clause, and how does it differ from the WHERE clause?",
+    "Answer": "The SQL HAVING clause is used to filter rows in the result set after aggregation, while the WHERE clause filters rows before aggregation.",
+    "Distractor1": "The SQL HAVING clause is used for sorting data in ascending order.",
+    "Distractor2": "The SQL HAVING clause is used for joining tables.",
+    "Distractor3": "The SQL HAVING clause is for deleting rows from a table.",
+    "Explanation": "The key difference between HAVING and WHERE is when the filtering occurs: HAVING works after aggregation, while WHERE works before aggregation.",
+    "Link": "https://www.freecodecamp.org/news/the-sql-having-clause-explained-with-example-syntax/"
+  },
 ];
 
 export default sqlQuiz;
