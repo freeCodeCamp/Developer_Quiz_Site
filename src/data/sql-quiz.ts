@@ -1061,7 +1061,7 @@ const sqlQuiz = [
     "Distractor2": "SQL JOIN is used to delete records from a table.",
     "Distractor3": "SQL JOIN is for sorting query results.",
     "Explanation": "SQL JOIN is fundamental for retrieving data from multiple tables by establishing relationships between them.",
-    "Link": "https://www.w3schools.com/sql/sql_join.asp"
+    "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-sql-join-statements/sq"
   },
   {
     "Question": "What is the purpose of the SQL HAVING clause, and how does it differ from the WHERE clause?",
@@ -1070,7 +1070,7 @@ const sqlQuiz = [
     "Distractor2": "The SQL HAVING clause is used for joining tables.",
     "Distractor3": "The SQL HAVING clause is for deleting rows from a table.",
     "Explanation": "The key difference between HAVING and WHERE is when the filtering occurs: HAVING works after aggregation, while WHERE works before aggregation.",
-    "Link": "https://www.w3schools.com/sql/sql_having.asp"
+    "Link": "https://www.freecodecamp.org/news/the-sql-having-clause-explained-with-example-syntax/"
   },
 ];
 
