@@ -576,6 +576,15 @@ const agileQuiz = [
     Explanation:
       "Velocity is used to estimate the team's capacity and helps with sprint planning by forecasting how much work can be completed.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What is the purpose of a daily stand-up meeting in Agile?",
+    Answer: "To provide a brief status update and identify any blockers.",
+    Distractor1: "To discuss long-term project goals.",
+    Distractor2: "To assign tasks to team members.",
+    Distractor3: "To review the entire project timeline.",
+    Explanation: "The purpose of a daily stand-up meeting in Agile is to provide a brief status update, share progress, and identify any blockers or issues that need attention. It helps keep the team aligned and informed about the project's progress.",
+    Link: "https://www.youtube.com/watch?v=iUjWjt4E6rs"
   }
 ];
 
