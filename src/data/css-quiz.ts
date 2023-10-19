@@ -1299,7 +1299,7 @@ const cssQuiz = [
     },
     {
       Question:
-      "What is the CSS property used to create a drop shadow for an element?",
+      "Which CSS property is used to create a drop shadow for an element?",
       Answer: 'box-shadow',
       Distractor1: 'shadow-effect',
       Distractor2: 'element-shadow',
