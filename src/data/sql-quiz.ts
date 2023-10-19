@@ -1061,7 +1061,7 @@ const sqlQuiz = [
     "Distractor2": "SQL JOIN is used to delete records from a table.",
     "Distractor3": "SQL JOIN is for sorting query results.",
     "Explanation": "SQL JOIN is fundamental for retrieving data from multiple tables by establishing relationships between them.",
-    "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-sql-join-statements/sq"
+    "Link": "https://www.freecodecamp.org/news/the-ultimate-guide-to-sql-join-statements/"
   },
   {
     "Question": "What is the purpose of the SQL HAVING clause, and how does it differ from the WHERE clause?",
