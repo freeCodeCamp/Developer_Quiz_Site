@@ -1057,13 +1057,13 @@ const sqlQuiz = [
   {
     Question:
       "Which SQL clause is used to filter the result set of a SQL query by specifying a search condition?",
-  Answer: "WHERE",
-  Distractor1: "SELECT",
-  Distractor2: "FROM",
-  Distractor3: "GROUP BY",
-  Explanation:
-  "The WHERE clause is an essential part of SQL queries. It allows you to filter the rows in a result set by specifying a search condition that must be met for a row to be included in the result.",
-  Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
+    Answer: "WHERE",
+    Distractor1: "SELECT",
+    Distractor2: "FROM",
+    Distractor3: "GROUP BY",
+    Explanation:
+    "The WHERE clause is an essential part of SQL queries. It allows you to filter the rows in a result set by specifying a search condition that must be met for a row to be included in the result.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter4crudoperationsinsql"
   },
   {
     Question:
