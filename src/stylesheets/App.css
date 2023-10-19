@@ -68,6 +68,10 @@ a:hover {
   width: 100%;
 }
 
+.answers-btns--selected {
+  background-color: #cccccc;
+}
+
 .quiz-btn,
 .results-btn,
 .modal-btn {
@@ -104,6 +108,13 @@ a:hover {
   justify-content: space-evenly;
   padding: 0 10px;
   font-size: 1.4rem;
+}
+
+.submit-btn {
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #acd157;
+  opacity: .5;
 }
 
 /*Modal styles*/

@@ -19,7 +19,9 @@ interface QuizProps {
   chooseAnswer: boolean;
   points: number;
   choicesArr: string[][];
-  checkAnswer: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  selectedOption: string;
+  selectOption: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  checkAnswer: () => void;
 }
 
 const Questions: React.FC<QuizProps> = QuizProps => {
@@ -50,7 +52,7 @@ const Questions: React.FC<QuizProps> = QuizProps => {
                     <button
                       className="answers-btns"
                       value={btn}
-                      onClick={e => QuizProps.checkAnswer(e)}
+                      onClick={e => QuizProps.selectOption(e)}
                     >
                       {btn}
                     </button>
@@ -58,6 +60,14 @@ const Questions: React.FC<QuizProps> = QuizProps => {
                 )
               )}
             </ul>
+            <hr />
+            <button
+              className="select-btns submit-btn"
+              style={{ opacity: QuizProps.selectedOption ? 1 : 0.5 }}
+              onClick={() => QuizProps.checkAnswer()}
+            >
+              Submit
+            </button>
           </fieldset>
         )}
       </div>

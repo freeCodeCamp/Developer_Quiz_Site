@@ -25,6 +25,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [message, setMessage] = useState("");
   const [displayExplanation, setDisplayExplanation] = useState("");
   const [showReference, setShowReference] = useState("");
+  const [selectedOption, setSelectedOption] = useState("")
   const [chosenAnswer, setChosenAnswer] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
@@ -132,9 +133,31 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     return shuffleModalArr[0];
   };
 
-  const checkAnswer = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  const selectOption = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    // Set the selected option
+    setSelectedOption(e.currentTarget.value);
+
+    // Get answer buttons
+    const answerBtns = document.getElementsByClassName("answers-btns")
+
+    // Remove previous highlights
+    for (const btn of answerBtns) {
+      btn.classList.remove("answers-btns--selected")
+    }
+
+    // Highlight current option
+    e.currentTarget.classList.add("answers-btns--selected")
+  }
+  
+  const checkAnswer = () => {
+    // Get user's selected option
+    const userAnswer = selectedOption;
+
+    // Ensure option was selected before checking answer
+    if (!userAnswer) {return};
+
+    setSelectedOption("")
     setChooseAnswer(true);
-    const userAnswer = e.currentTarget.value;
     setChosenAnswer(userAnswer);
     if (userAnswer !== currQuestion.Answer) {
       setMessage(shuffleModalResponses(incorrectModalResponses));
@@ -180,6 +203,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     chooseAnswer,
     points,
     choicesArr,
+    selectedOption,
+    selectOption,
     checkAnswer
   };
 
