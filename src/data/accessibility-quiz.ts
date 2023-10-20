@@ -834,7 +834,7 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
   },
   {
-    Question: "Which of the following screen reader is available as licensed software for windows?",
+    Question: "Which of the following screen readers is available as licensed software for Windows?",
     Answer: "JAWS (Job Access With Speech)",
     Distractor1: "NVDA(Non Visual Desktop Access)",
     Distractor2: "a11y.project",
