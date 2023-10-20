@@ -1124,7 +1124,7 @@ const sqlQuiz = [
     Distractor3: "NUMERIC allows for arbitrary precision, while FLOAT has a fixed precision of 10.",
     Explanation:
       "NUMERIC is like a precise calculator that stores numbers exactly as you write them, ensuring accuracy. FLOAT is like a quick estimate, storing numbers approximately, which is okay for most calculations but might have small errors.",
-    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
+    Link: "https://forum.freecodecamp.org/t/a-guide-to-sql-data-types/290676"
   }
 ];
 
