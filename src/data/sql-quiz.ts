@@ -1055,6 +1055,28 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
   },
   {
+    Question:
+      "In SQL, which operator is used to combine multiple conditions, where all the conditions must be true for the result to be true?",
+    Answer: "AND",
+    Distractor1: "OR",
+    Distractor2: "NOT",
+    Distractor3: "XOR",
+    Explanation:
+    "The 'AND' operator in SQL is used to combine multiple conditions, and it requires all the conditions to be true for the overall condition to be true. It's commonly used for complex filtering in SQL queries.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter5basicsqlqueries"
+  },
+  {
+    Question:
+        "In SQL, which type of constraint enforces that values in a column are unique across all rows in a table?",
+    Answer: "UNIQUE constraint",
+    Distractor1: "PRIMARY KEY constraint",
+    Distractor2: "CHECK constraint",
+    Distractor3: "FOREIGN KEY constraint",
+    Explanation:
+    "The UNIQUE constraint in SQL ensures that values in a specified column or columns are unique across all rows in a table. This constraint is often used to prevent duplicate values in a column while allowing NULL values.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/"
+  },
+  {
     "Question": "What is the SQL JOIN clause used for?",
     "Answer": "The SQL JOIN clause is used to combine rows from two or more tables based on a related column between them.",
     "Distractor1": "SQL JOIN is for creating new databases.",
