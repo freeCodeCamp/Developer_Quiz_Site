@@ -1274,6 +1274,50 @@ const cssQuiz = [
     Explanation:
       "The CSS property 'letter-spacing' is used to control the spacing between characters in a text.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/letter-spacing"
+  },
+  {
+    Question:
+      "What is the correct way to include an external CSS file in an HTML document?",
+    Answer: '<link rel="stylesheet" href="styles.css">',
+    Distractor1: '<style src="styles.css">',
+    Distractor2: '<css href="styles.css">',
+    Distractor3: '<script type="text/css" src="styles.css">',
+    Explanation:
+      "To include an external CSS file in an HTML document, you should use the <link> element with the rel attribute set to 'stylesheet' and the href attribute pointing to the CSS file you want to include. ",
+    Link: "https://www.freecodecamp.org/news/external-css-stylesheets-how-to-link-css-to-html-and-import-into-head/"
+  },
+  {
+    Question:
+      "Which CSS property is used to control the order of how elements are displayed in relation to each other along the z-axis?",
+    Answer: "z-index",
+    Distractor1: "stack-order",
+    Distractor2: "z-order",
+    Distractor3: "z-depth",
+    Explanation:
+      "The z-index property in CSS is used to control the stacking order of elements in relation to each other along the z-axis (front to back). It's commonly used in the context of positioned or layered elements, such as when using relative or absolute positioning.",
+    Link: "https://www.freecodecamp.org/news/how-the-z-index-property-works-under-the-hood/"
+  },
+  {
+    Question:
+      "Which CSS property is used to create a drop shadow for an element?",
+    Answer: "box-shadow",
+    Distractor1: "shadow-effect",
+    Distractor2: "element-shadow",
+    Distractor3: "text-shadow",
+    Explanation:
+      "The box-shadow property in CSS is used to create a shadow effect for an element, such as a div or a box. It allows you to add shadow in terms of color, size, blur, spread, and position relative to the element.",
+    Link: "https://www.freecodecamp.org/news/css-box-shadow-property-with-examples/"
+  },
+  {
+    Question:
+      "In CSS, which value is used to make an element take up the full available width of its parent container?",
+    Answer: "100%",
+    Distractor1: "full-width",
+    Distractor2: "max-width",
+    Distractor3: "auto",
+    Explanation:
+      "When you set an element's width to 100%, it means that the element should occupy the entire width of its parent container. This is particularly useful for creating responsive web designs where you want elements to adapt to the available space.",
+    Link: "https://www.freecodecamp.org/news/html-page-width-height/"
   }
 ];
 
