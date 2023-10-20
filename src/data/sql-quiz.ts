@@ -1099,6 +1099,19 @@ const sqlQuiz = [
     Explanation:
       "The key difference between HAVING and WHERE is when the filtering occurs: HAVING works after aggregation, while WHERE works before aggregation.",
     Link: "https://www.freecodecamp.org/news/the-sql-having-clause-explained-with-example-syntax/"
+  },
+  {
+    Question:
+      "What is SQL JOIN statement?",
+    Answer:
+      "SQL JOIN allow us to re-construct our separated database tables into relationships that power our applications.",
+    Distractor1:
+      "SQL JOIN is used to combine data from multiple tables into a single table by deleting duplicate rows.",
+    Distractor2: "SQL JOIN is primarily used to create a new table that merges the data from two or more tables, resulting in a loss of data integrity.",
+    Distractor3: "SQL JOIN is a statement that only works with NoSQL databases, not with traditional relational databases.",
+    Explanation:
+      "A join is an operation that combines two rows together into one row. These rows are usually from two different tables-but they don't have to be.",
+    Link: "https://www.freecodecamp.org/news/sql-joins-tutorial/"
   }
 ];
 
