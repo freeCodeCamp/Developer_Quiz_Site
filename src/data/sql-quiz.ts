@@ -1102,16 +1102,29 @@ const sqlQuiz = [
   },
   {
     Question:
-      "What is SQL JOIN statement?",
+      "What is the difference between 'CHAR' and 'VARCHAR' data types in SQL?",
     Answer:
-      "SQL JOIN allow us to re-construct our separated database tables into relationships that power our applications.",
+      "'CHAR' holds a fixed string length. 'VARCHAR' holds a variable string length",
     Distractor1:
-      "SQL JOIN is used to combine data from multiple tables into a single table by deleting duplicate rows.",
-    Distractor2: "SQL JOIN is primarily used to create a new table that merges the data from two or more tables, resulting in a loss of data integrity.",
-    Distractor3: "SQL JOIN is a statement that only works with NoSQL databases, not with traditional relational databases.",
+      "'CHAR' is a numeric data type used for storing integers, while 'VARCHAR' is a text data type for storing strings.",
+    Distractor2: "'CHAR' is a case-insensitive data type, while 'VARCHAR' is case-sensitive.",
+    Distractor3: "'CHAR' is used for storing fixed-length data, while 'VARCHAR' is used for storing variable-length data.",
     Explanation:
-      "A join is an operation that combines two rows together into one row. These rows are usually from two different tables-but they don't have to be.",
-    Link: "https://www.freecodecamp.org/news/sql-joins-tutorial/"
+      "CHAR holds a fixed string length because it allocates a set amount of storage for the fixed size specified in parenthesis, VARCHAR holds a variable string length by the maximum size specified in parenthesis.",
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
+  },
+  {
+    Question:
+      "What is the difference between data types NUMERIC and FLOAT in SQL?",
+    Answer:
+      "NUMERIC stores exact numerical values, while FLOAT stores approximate numerical values",
+    Distractor1:
+      "NUMERIC uses a single number to specify minimum precision, while FLOAT uses precision and scale to determine storage requirements.",
+    Distractor2: "NUMERIC is used for floating-point numbers, while FLOAT is used for integers.",
+    Distractor3: "NUMERIC allows for arbitrary precision, while FLOAT has a fixed precision of 10.",
+    Explanation:
+      "NUMERIC is like a precise calculator that stores numbers exactly as you write them, ensuring accuracy. FLOAT is like a quick estimate, storing numbers approximately, which is okay for most calculations but might have small errors.",
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
   }
 ];
 
