@@ -1994,6 +1994,26 @@ const javascriptQuiz = [
     Explanation:
       "Declaring an asynchronous function generates an AsyncFunction object. Whenever this async function is invoked, it produces a fresh Promise. This Promise will either resolve with the value returned by the async function or reject if there's an uncaught exception within the async function.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
+  },
+  {
+    Question:"What is the main purpose of Web Workers in JavaScript?",
+    Answer: "To perform time-consuming tasks in the background without blocking the main thread.",
+    Distractor1: "To create web animations and transitions.",
+    Distractor2: "To manage browser cookies and local storage.",
+    Distractor3:"To enhance the rendering of web pages.",
+    Explanation:
+      "Web Workers are a powerful feature for improving the responsiveness of web applications by offloading CPU-intensive tasks to separate threads. Understanding their use is essential for building efficient web applications",
+    Link: "https://www.freecodecamp.org/news/how-webworkers-work-in-javascript-with-example/"
+  },
+  {
+    Question:"What is 'event delegation' in JavaScript, and why is it useful?",
+    Answer: "Event delegation is a technique for handling events on multiple child elements by attaching a single event listener to a common ancestor.",
+    Distractor1: " Event delegation is a way to dynamically create new events in JavaScript.",
+    Distractor2: "Event delegation is a technique to delegate event handling to the document object.",
+    Distractor3:"Event delegation is a way to remove all event listeners from an element.",
+    Explanation:
+      "Event delegation is a powerful and efficient technique in JavaScript for handling events on multiple elements by attaching a single event listener to a common ancestor of those elements.",
+    Link: "https://www.freecodecamp.org/news/event-delegation-javascript/"
   }
 ];
 
