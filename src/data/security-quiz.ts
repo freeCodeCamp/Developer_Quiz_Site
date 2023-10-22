@@ -573,6 +573,57 @@ const securityQuiz = [
     Explanation:
       "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing.",
     Link: "https://www.freecodecamp.org/news/how-to-install-kali-linux/"
+  },
+  {
+    Question: "In CyberSecurity, what is the CIA Triad?",
+    Answer: "A set of guiding principles on information security.",
+    Distractor1: "The name of a black hat hacker group.",
+    Distractor2: "Created by the CIA to regulate security issues.",
+    Distractor3: "A standard policy for information security.",
+    Explanation:
+      "The CIA Triad serves as guiding principles or goals for information security for organizations and individuals to keep information safe from prying eyes.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "In CyberSecurity, what does the CIA Triad stand for?",
+    Answer: "Confidentiality, Integrity and Availability",
+    Distractor1: "Central Intelligence Agency",
+    Distractor2: "Compromise, Install and Avoid",
+    Distractor3: "Certified Internal Auditor",
+    Explanation:
+      "CIA is the abbreviated form of Confidentillity, Integrity and Availability which makes up the CIA triad.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "In CyberSecurity, how does the Confidentiality principle work in the CIA Triad?",
+    Answer:
+      "ensuring access to data is restricted to only the intended audience and not others.",
+    Distractor1: "maintaining the accuracy, and completeness of data.",
+    Distractor2: "being discreet as a cybersecurity professional.",
+    Distractor3: "information being available when it is needed.",
+    Explanation:
+      "Confidentiality is a key principle in information security and ensuring only authorized people have access to sensitive information.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "In CyberSecurity, how does the Integrity principle work in the CIA Triad?",
+    Answer: "maintaining the accuracy, and completeness of data.",
+    Distractor1: "being truthful about security processes.",
+    Distractor2: "having integrity as a cybersecurity professional.",
+    Distractor3: "ensuring users have access to the right information.",
+    Explanation:
+      "Ensuring Integrity of information means to prevent hackers and other unauthorized entities from modifying information.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "In CyberSecurity, how does the Availability principle work in the CIA Triad?",
+    Answer: "ensuring that information is available when it is needed.",
+    Distractor1: "being truthful about security processes.",
+    Distractor2: "having integrity as a cybersecurity professional.",
+    Distractor3: "ensuring users have access to the right information.",
+    Explanation:
+      "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   }
 ];
 
