@@ -616,7 +616,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "Availability in the CIA Triad is about",
+    Question: "In CyberSecurity, how does the Availability principle work in the CIA Triad?",
     Answer: "information being available when it is needed.",
     Distractor1: "being truthful about security processes.",
     Distractor2: "having integrity as a cybersecurity proffessional.",
