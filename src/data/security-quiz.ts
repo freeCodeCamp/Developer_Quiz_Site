@@ -575,7 +575,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-install-kali-linux/"
   },
   {
-    Question: "What is the CIA Triad?",
+    Question: "In CyberSecurity, what is the CIA Triad?",
     Answer: "A set of guiding principles on information security.",
     Distractor1: "The name of a black hat hacker group.",
     Distractor2: "Created by the CIA to regulate security issues.",
