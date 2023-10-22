@@ -841,7 +841,16 @@ const accessibilityQuiz = [
     Distractor3: "ChromeVox",
     Explanation: "JAWS (Job Access With Speech) is widely used screen reading software developed by Freedom Scientific, which is available as licensed software for Windows.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
-  }
+  },
+  {
+    Question: "How do you test a website for accessibility, and what tools or techniques can be used for evaluation?",
+    Answer: "Best practices include providing captions and transcripts, ensuring synchronization between audio and captions, and using descriptive language",
+    Distractor1: "Test only for visual appeal",
+    Distractor2: " Accessibility testing is unnecessary",
+    Distractor3: "Testing can be accomplished by relying solely on automated tools",
+    Explanation: "Accessibility testing combines manual assessments, automated tools, and user testing with assistive technologies to ensure a thorough evaluation of a website's accessibility.",
+    Link: "https://www.w3.org/WAI/ER/tools/"
+}
 ];
 
 export default accessibilityQuiz;
