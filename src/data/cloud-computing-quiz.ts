@@ -1,6 +1,17 @@
 const cloudComputingQuiz = [
   {
     Question:
+      "What does the scalability benefit of cloud-native apps enable?",
+    Answer: "Flexible deployment options across the network",
+    Distractor1: "Rigid and fixed deployment options",
+    Distractor2: "Limited development and deployment options",
+    Distractor3: "Static and unchangeable application structure",
+    Explanation:
+      "Cloud-native apps allow flexible deployment options across the network, enabling developers to scale and adapt their applications as needed, making them more resilient and responsive to changing demands.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question:
       "How does container orchestration, such as Kubernetes, help in deploying software updates in cloud-native apps?",
     Answer: "It automatically replaces downed instances with minimal or zero downtime",
     Distractor1: "It causes significant downtime during updates",
