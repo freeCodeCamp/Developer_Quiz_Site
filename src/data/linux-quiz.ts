@@ -1,5 +1,17 @@
 const linuxQuiz = [
   {
+    {
+    "Question":
+    "What command is used to create a symbolic link in Linux?",
+    "Answer": "C) ln -s",
+    "Distractor1": "A) slink",
+    "Distractor2": "B) link -s",
+    "Distractor3": "D) symlink",
+    "Explanation": "In Linux, the 'ln -s' command is used to create symbolic links, which are references to files or directories.",
+}
+
+  }
+  {
     Question:
       "In Linux, Which command is used to convert and copy files with specific size?",
     Answer: "dd",
