@@ -595,7 +595,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "Confidentiality in the CIA Triad is about",
+    Question: "In CyberSecurity, how does the Confidentiality principle work in the CIA Triad?",
     Answer:
       "ensuring access to data is restricted to only the intended audience and not others.",
     Distractor1: "maintaining the accuracy, and completeness of data.",
