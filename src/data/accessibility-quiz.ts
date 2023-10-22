@@ -3,11 +3,11 @@ const accessibilityQuiz = [
     Question:
       "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
     Answer:
-      "Patterns.",
+      "Patterns",
     Distractor1:
-      "Hint Buttons.",
+      "Hint Buttons",
     Distractor2:
-      "Gradients.",
+      "Gradients",
     Distractor3:
       "There is no need to add an additional identifier, color is enough.",
     Explanation:
