@@ -7,7 +7,7 @@ const cloudComputingQuiz = [
     Distractor2: "significant amounts of downtime",
     Distractor3: "Static application structure",
     Explanation:
-      "Cloud-native apps allow flexible deployment options across the network, enabling developers to scale and adapt their applications as needed, making them more resilient and responsive to changing demands.",
+      "Scalability is a benefit because it allows cloud native applications to have flexible deployment options across the network making it easier to develop, deploy, and iterate on the application.",
     Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
   },
   {
