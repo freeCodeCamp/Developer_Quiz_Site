@@ -1107,7 +1107,7 @@ const sqlQuiz = [
     Distractor2: "REMOVE DATABASE database_name;",
     Distractor3: "DESTROY DATABASE database_name;",
     Explanation:
-      "In PostgreSQL, The DROP DATABASE command is used to permanently delete an entire database.",
+      "In PostgreSQL, the DROP DATABASE command is used to permanently delete an entire database.",
     Link: "https://www.postgresql.org/docs/current/sql-dropdatabase.html"
   },
   {
