@@ -1,13 +1,13 @@
 const generalCSQuiz = [
   {
-    Question: "How many layers are there in the OSI Model in Computer Networking ?",
-    Answer: "7",
-    Distractor1: "6",
-    Distractor2: "5",
-    Distractor3: "8",
+    Question: "In context of Data Structures, what is a 'B-Tree'?",
+    Answer: "A data structure that represents a balanced k-ary tree",
+    Distractor1: "A data structure used to store and retrieve binary data",
+    Distractor2: "A tree structure commonly used in hierarchical databases",
+    Distractor3: "A sorting algorithm based on the divide and conquer strategy",
     Explanation:
-      "There are 7 layers present in the OSI model, Application, Presentation, Session, Transport, Network, Data Link and Physical layer.",
-    Link: "https://www.youtube.com/watch?v=qiQR5rTSshw&t=27870s"
+      "A data structure that represents a balanced k-ary tree",
+    Link: "https://www.google.com/amp/s/www.geeksforgeeks.org/introduction-of-b-tree-2/amp/"
   },
   {
     Question: "What is the time complexity of inserting an element into a linked list at the beginning?",
