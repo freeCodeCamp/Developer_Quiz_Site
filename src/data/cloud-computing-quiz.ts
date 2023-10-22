@@ -2,10 +2,10 @@ const cloudComputingQuiz = [
   {
     Question:
       "Which of the following is a benefit for developing cloud native apps?",
-    Answer: "Flexible deployment options across the network",
-    Distractor1: "Rigid and fixed deployment options",
-    Distractor2: "Limited development and deployment options",
-    Distractor3: "Static and unchangeable application structure",
+    Answer: "Scalability",
+    Distractor1: "advanced algorithms",
+    Distractor2: "significant amounts of downtime",
+    Distractor3: "Static application structure",
     Explanation:
       "Cloud-native apps allow flexible deployment options across the network, enabling developers to scale and adapt their applications as needed, making them more resilient and responsive to changing demands.",
     Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
