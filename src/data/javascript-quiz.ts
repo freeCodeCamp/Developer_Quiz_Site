@@ -262,6 +262,20 @@ const javascriptQuiz = [
   },
   {
     Question:
+      "In JavaScript class-based OOP, are objects and classes the same constructs?",
+    Answer: "No, objects and classes are two separate constructs.",
+    Distractor1:
+      "No, objects and classes are completely unrelated in JavaScript.",
+    Distractor2:
+      "Yes, objects and classes are only used in functional programming, not in JavaScript class-based OOP",
+    Distractor3:
+      "Yes, objects and classes are interchangeable and can be used interchangeably in JavaScript class-based OOP.",
+    Explanation:
+      "Classes and objects represent distinct concepts within programming.  Objects are exclusively instantiated from classes.",
+    Link: "https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming"
+  },
+  {
+    Question:
       "In JavaScript, a variable declared with the _________ keyword must be assigned an initial value.",
     Answer: "const",
     Distractor1: "finally",
@@ -1968,6 +1982,18 @@ const javascriptQuiz = [
     Explanation:
       "An IIFE or Immediately Invoked Function Expression, is used to declare a private variable and to avoid polluting the global environment. If a function is declared with an IIFE by using a parenthesis around it, the variable declared inside it becomes private and its value can be accessed using a getter function inside the original function.",
     Link: "https://developer.mozilla.org/en-US/docs/Glossary/IIFE"
+  },
+  {
+    Question:
+      "In JavaScript, which of the following statements is correct regarding async await?",
+    Answer: "async automatically returns a promise",
+    Distractor1: "await keeps executing code regardless of promise status",
+    Distractor2: "async can be used independently without an async function",
+    Distractor3:
+      "Multiple await keywords can be used in a single line inside an async function",
+    Explanation:
+      "Declaring an asynchronous function generates an AsyncFunction object. Whenever this async function is invoked, it produces a fresh Promise. This Promise will either resolve with the value returned by the async function or reject if there's an uncaught exception within the async function.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function"
   }
 ];
 
