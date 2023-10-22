@@ -609,7 +609,7 @@ const securityQuiz = [
     Question: "In CyberSecurity, how does the Integrity principle work in the CIA Triad?",
     Answer: "maintaining the accuracy, and completeness of data.",
     Distractor1: "being truthful about security processes.",
-    Distractor2: "having integrity as a cybersecurity proffessional.",
+    Distractor2: "having integrity as a cybersecurity professional.",
     Distractor3: "ensuring users have access to the right information.",
     Explanation:
       "Ensuring Integrity of information means to prevent hackers and other unauthorized entities from modifying information.",
