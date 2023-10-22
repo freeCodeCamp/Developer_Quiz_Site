@@ -619,7 +619,7 @@ const securityQuiz = [
     Question: "In CyberSecurity, how does the Availability principle work in the CIA Triad?",
     Answer: "information being available when it is needed.",
     Distractor1: "being truthful about security processes.",
-    Distractor2: "having integrity as a cybersecurity proffessional.",
+    Distractor2: "having integrity as a cybersecurity professional.",
     Distractor3: "ensuring users have access to the right information.",
     Explanation:
       "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
