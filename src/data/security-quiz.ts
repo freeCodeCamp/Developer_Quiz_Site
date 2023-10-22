@@ -576,7 +576,7 @@ const securityQuiz = [
   },
   {
     Question: "What is the CIA Triad?",
-    Answer: "They are the guiding principles of information security.",
+    Answer: "A set of guiding principles on information security.",
     Distractor1: "The name of a black hat hacker group.",
     Distractor2: "Created by the CIA to regulate security issues.",
     Distractor3: "A standard policy for information security.",
