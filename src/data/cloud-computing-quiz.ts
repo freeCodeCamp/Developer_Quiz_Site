@@ -1,7 +1,7 @@
 const cloudComputingQuiz = [
   {
     Question:
-      "What does the scalability benefit of cloud-native apps enable?",
+      "Which of the following is a benefit for developing cloud native apps?",
     Answer: "Flexible deployment options across the network",
     Distractor1: "Rigid and fixed deployment options",
     Distractor2: "Limited development and deployment options",
