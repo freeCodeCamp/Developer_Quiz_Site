@@ -1,6 +1,21 @@
 const accessibilityQuiz = [
   {
     Question:
+      "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
+    Answer:
+      "Patterns",
+    Distractor1:
+      "Hint Buttons",
+    Distractor2:
+      "Gradients",
+    Distractor3:
+      "There is no need to add an additional identifier, color is enough.",
+    Explanation:
+      "Colorblind and low vision users have difficulties to perceive the color differences. In addition, when the graph appears in greyscale (e.g. user settings, print), it is impossible to every user to see differences.",
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html"
+  },
+  {
+    Question:
       "Why is it better for accessibility reasons to use relative units(em and rem) instead of absolute units(px)?",
     Answer:
       "With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
