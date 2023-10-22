@@ -564,7 +564,8 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/"
   },
   {
-    Question: "Which of the following operating systems are known as a hacking tool?",
+    Question:
+      "Which of the following operating systems are known as a hacking tool?",
     Answer: "Kali Linux",
     Distractor1: "Ubuntu",
     Distractor2: "Windows",

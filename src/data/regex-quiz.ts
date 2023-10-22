@@ -165,8 +165,7 @@ const regexQuiz = [
     Distractor1: "(?a)",
     Distractor2: "(?#)",
     Distractor3: "(?->)",
-    Explanation:
-      "The positive Lookahead is indicated by the = in the group.",
+    Explanation: "The positive Lookahead is indicated by the = in the group.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
   },
   {
@@ -175,8 +174,7 @@ const regexQuiz = [
     Distractor1: "(?~)",
     Distractor2: "(?-=)",
     Distractor3: "(?A)",
-    Explanation:
-      "The negative Lookahead is indicated by the ! in the group.",
+    Explanation: "The negative Lookahead is indicated by the ! in the group.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
   },
   {
@@ -185,8 +183,7 @@ const regexQuiz = [
     Distractor1: "(?b)",
     Distractor2: "(?$)",
     Distractor3: "(?<-)",
-    Explanation:
-      "The positive Lookbehind is indicated by the <= in the group.",
+    Explanation: "The positive Lookbehind is indicated by the <= in the group.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
   },
   {
@@ -195,19 +192,18 @@ const regexQuiz = [
     Distractor1: "(?B)",
     Distractor2: "(?!!)",
     Distractor3: "(?--)",
-    Explanation:
-      "The negative Lookbehind is indicated by the <! in the group.",
+    Explanation: "The negative Lookbehind is indicated by the <! in the group.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
   },
   {
-    Question: "Which of the following are used to group part of a regex into one unit?",
+    Question:
+      "Which of the following are used to group part of a regex into one unit?",
     Answer: "()",
     Distractor1: "[]",
     Distractor2: "{}",
     Distractor3: "<>",
-    Explanation:
-      "The parentheses, (), are used in grouping regex.",
+    Explanation: "The parentheses, (), are used in grouping regex.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
-  },
+  }
 ];
 export default regexQuiz;

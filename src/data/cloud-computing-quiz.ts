@@ -2,7 +2,8 @@ const cloudComputingQuiz = [
   {
     Question:
       "How does container orchestration, such as Kubernetes, help in deploying software updates in cloud-native apps?",
-    Answer: "It automatically replaces downed instances with minimal or zero downtime",
+    Answer:
+      "It automatically replaces downed instances with minimal or zero downtime",
     Distractor1: "It causes significant downtime during updates",
     Distractor2: "It delays the deployment of software updates",
     Distractor3: "It requires manual intervention for every update",

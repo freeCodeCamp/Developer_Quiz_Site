@@ -1,9 +1,7 @@
 const devopsQuiz = [
   {
-    Question:
-      "What are Docker images built out of?",
-    Answer:
-      "Filesystem layers,",
+    Question: "What are Docker images built out of?",
+    Answer: "Filesystem layers,",
     Distractor1: "Operating Systems",
     Distractor2: "Virtual Machines",
     Distractor3: "Containers",
@@ -184,21 +182,27 @@ const devopsQuiz = [
     Link: "https://youtu.be/j5Zsa_eOXeY"
   },
   {
-    Question: "What is the primary goal of 'Infrastructure as Code' (IaC) in DevOps?",
+    Question:
+      "What is the primary goal of 'Infrastructure as Code' (IaC) in DevOps?",
     Answer: "To automate and manage infrastructure provisioning through code",
     Distractor1: "To manually configure servers for specific applications",
     Distractor2: "To optimize database performance",
     Distractor3: "To streamline the software development process",
-    Explanation: "Infrastructure as Code (IaC) is a practice in DevOps that aims to automate and manage infrastructure provisioning through code, allowing for consistent and repeatable infrastructure deployments.",
+    Explanation:
+      "Infrastructure as Code (IaC) is a practice in DevOps that aims to automate and manage infrastructure provisioning through code, allowing for consistent and repeatable infrastructure deployments.",
     Link: "https://www.freecodecamp.org/news/what-is-infrastructure-as-code/"
   },
   {
     Question:
       "What is the role of version control systems like Git in DevOps processes?",
-    Answer: "Version control systems like Git help track changes to source code, manage collaborative development, and enable automation of code deployment and rollback processes.",
-    Distractor1: "Version control systems like Git are used for container orchestration.",
-    Distractor2: "Version control systems like Git are used for managing cloud infrastructure.",
-    Distractor3: "Version control systems like Git are used for monitoring application performance.",
+    Answer:
+      "Version control systems like Git help track changes to source code, manage collaborative development, and enable automation of code deployment and rollback processes.",
+    Distractor1:
+      "Version control systems like Git are used for container orchestration.",
+    Distractor2:
+      "Version control systems like Git are used for managing cloud infrastructure.",
+    Distractor3:
+      "Version control systems like Git are used for monitoring application performance.",
     Explanation:
       "Git and similar version control systems provide a centralized repository for storing and managing code. They allow developers to work on code collaboratively, track changes, and maintain a history of code versions. This is crucial for DevOps processes as it facilitates continuous integration, automated testing, and rollback mechanisms in case of issues.",
     Link: "https://www.freecodecamp.org/news/how-to-use-git-best-practices-for-beginners/#what-is-version-control"
