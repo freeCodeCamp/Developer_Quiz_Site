@@ -1,5 +1,17 @@
 const accessibilityQuiz = [
   {
+    {
+    "Question":
+    "What is the importance of web accessibility, and how does it benefit users and businesses?",
+    "Answer": "C) It ensures that websites and applications are usable by people with disabilities, improving user experience and inclusivity.",
+    "Distractor1": "A) It's not important; it doesn't benefit users or businesses.",
+    "Distractor2": "B) It ensures compatibility with the latest web technologies.",
+    "Distractor3": "D) It's mainly for legal compliance.",
+    "Explanation": "Web accessibility is crucial as it ensures that websites and applications are usable by people with disabilities, enhancing user experience and inclusivity. It goes beyond legal compliance and benefits both users and businesses.",
+}
+
+  }
+  {
     Question:
       "Why is it better for accessibility reasons to use relative units(em and rem) instead of absolute units(px)?",
     Answer:
