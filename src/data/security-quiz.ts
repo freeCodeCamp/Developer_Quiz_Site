@@ -599,7 +599,7 @@ const securityQuiz = [
     Answer:
       "ensuring access to data is restricted to only the intended audience and not others.",
     Distractor1: "maintaining the accuracy, and completeness of data.",
-    Distractor2: "being discreet as a cybersecurity proffessional.",
+    Distractor2: "being discreet as a cybersecurity professional.",
     Distractor3: "information being available when it is needed.",
     Explanation:
       "Confidentiality is a key principle in information security and ensuring only authorized people have access to sensitive information.",
