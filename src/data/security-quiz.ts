@@ -585,7 +585,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "What does CIA Triad stand for?",
+    Question: "In CyberSecurity, what does the CIA Triad stand for?",
     Answer: "Confidentiality, Integrity and Availability",
     Distractor1: "Central Intelligence Agency",
     Distractor2: "Compromise, Install and Avoid",
