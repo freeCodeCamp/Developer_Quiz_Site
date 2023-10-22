@@ -3,8 +3,8 @@ const cloudComputingQuiz = [
     Question:
       "Which of the following is a benefit for developing cloud native apps?",
     Answer: "Scalability",
-    Distractor1: "advanced algorithms",
-    Distractor2: "significant amounts of downtime",
+    Distractor1: "Advanced algorithms",
+    Distractor2: "Significant amounts of downtime",
     Distractor3: "Static application structure",
     Explanation:
       "Scalability is a benefit because it allows cloud native applications to have flexible deployment options across the network making it easier to develop, deploy, and iterate on the application.",
