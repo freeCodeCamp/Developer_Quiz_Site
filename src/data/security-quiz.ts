@@ -606,7 +606,7 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "Integrity in the CIA Triad refers to",
+    Question: "In CyberSecurity, how does the Integrity principle work in the CIA Triad?",
     Answer: "maintaining the accuracy, and completeness of data.",
     Distractor1: "being truthful about security processes.",
     Distractor2: "having integrity as a cybersecurity proffessional.",
