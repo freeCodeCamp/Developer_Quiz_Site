@@ -622,7 +622,7 @@ const securityQuiz = [
     Distractor2: "having integrity as a cybersecurity proffessional.",
     Distractor3: "ensuring users have access to the right information.",
     Explanation:
-      "The availability of information when needed is crucial and ensuring that is an important part of cybersecurity.",
+      "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   }
 ];
