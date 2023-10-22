@@ -1099,6 +1099,25 @@ const sqlQuiz = [
     Explanation:
       "The key difference between HAVING and WHERE is when the filtering occurs: HAVING works after aggregation, while WHERE works before aggregation.",
     Link: "https://www.freecodecamp.org/news/the-sql-having-clause-explained-with-example-syntax/"
+  },
+  {
+    Question: "In PostgreSQL, what is the syntax for deleting a database?",
+    Answer: "DROP DATABASE database_name;",
+    Distractor1: "DELETE DATABASE database_name;",
+    Distractor2: "REMOVE DATABASE database_name;",
+    Distractor3: "DESTROY DATABASE database_name;",
+    Explanation:
+      "In PostgreSQL, The DROP DATABASE command is used to permanently delete an entire database.",
+    Link: "https://www.postgresql.org/docs/current/sql-dropdatabase.html"
+  },
+  {
+    Question: "What is the default port number for PostgreSQL?",
+    Answer: "5432",
+    Distractor1: "8080",
+    Distractor2: "3306",
+    Distractor3: "3124",
+    Explanation: "By default, PostgreSQL listens on port 5432",
+    Link: "https://www.freecodecamp.org/news/manage-postgresql-with-psql/"
   }
 ];
 
