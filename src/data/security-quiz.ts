@@ -602,7 +602,7 @@ const securityQuiz = [
     Distractor2: "being discreet as a cybersecurity proffessional.",
     Distractor3: "information being available when it is needed.",
     Explanation:
-      "Confdentiality is a key principle in information seurity and ensuring only authorized people have access to sensitive information.",
+      "Confidentiality is a key principle in information security and ensuring only authorized people have access to sensitive information.",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
