@@ -2007,7 +2007,7 @@ const javascriptQuiz = [
   },
   {
     Question:"What is 'event delegation' in JavaScript, and why is it useful?",
-    Answer: "Event delegation is a technique for handling events on multiple child elements by attaching a single event listener to a common ancestor.",
+    Answer: "Event delegation is a technique for handling events on multiple child elements",
     Distractor1: " Event delegation is a way to dynamically create new events in JavaScript.",
     Distractor2: "Event delegation is a technique to delegate event handling to the document object.",
     Distractor3:"Event delegation is a way to remove all event listeners from an element.",
