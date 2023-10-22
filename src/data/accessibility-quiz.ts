@@ -12,7 +12,7 @@ const accessibilityQuiz = [
       "There is no need to add an additional identifier, color is enough.",
     Explanation:
       "Colorblind and low vision users have difficulties to perceive the color differences. In addition, when the graph appears in greyscale (e.g. user settings, print), it is impossible to every user to see differences.",
-    Link: "https://dequeuniversity.com/tips/color-to-convey-meaning"
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html"
   },
   {
     Question:
