@@ -564,7 +564,8 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/buffer-overflow-attacks/"
   },
   {
-    Question: "Which of the following operating systems are known as a hacking tool?",
+    Question:
+      "Which of the following operating systems are known as a hacking tool?",
     Answer: "Kali Linux",
     Distractor1: "Ubuntu",
     Distractor2: "Windows",
@@ -572,6 +573,57 @@ const securityQuiz = [
     Explanation:
       "Kali Linux is a Debian-based Linux distribution aimed at advanced penetration testing and security auditing.",
     Link: "https://www.freecodecamp.org/news/how-to-install-kali-linux/"
+  },
+  {
+    Question: "What is the CIA Triad?",
+    Answer: "They are the guiding principles of information security.",
+    Distractor1: "The name of a black hat hacker group.",
+    Distractor2: "Created by the CIA to regulate security issues.",
+    Distractor3: "A standard policy for information security.",
+    Explanation:
+      "The CIA Triad serves as guiding principles or goals for information security for organizations and individuals to keep information safe from prying eyes.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "What does CIA Triad stand for?",
+    Answer: "Confidentiality, Integrity and Availability",
+    Distractor1: "Central Intelligence Agency",
+    Distractor2: "Compromise, Install and Avoid",
+    Distractor3: "Certified Internal Auditor",
+    Explanation:
+      "CIA is the abbreviated form of Confidentillity, Integrity and Availability which makes up the CIA triad.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "Confidentiality in the CIA Triad is about",
+    Answer:
+      "ensuring access to data is restricted to only the intended audience and not others.",
+    Distractor1: "maintaining the accuracy, and completeness of data.",
+    Distractor2: "being discreet as a cybersecurity proffessional.",
+    Distractor3: "information being available when it is needed.",
+    Explanation:
+      "Confdentiality is a key principle in information seurity and ensuring only authorized people have access to sensitive information.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "Integrity in the CIA Triad refers to",
+    Answer: "maintaining the accuracy, and completeness of data.",
+    Distractor1: "being truthful about security processes.",
+    Distractor2: "having integrity as a cybersecurity proffessional.",
+    Distractor3: "ensuring users have access to the right information.",
+    Explanation:
+      "Ensuring Integrity of information means to prevent hackers and other unauthorized entities from modifying information.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "Availability in the CIA Triad is about",
+    Answer: "information being available when it is needed.",
+    Distractor1: "being truthful about security processes.",
+    Distractor2: "having integrity as a cybersecurity proffessional.",
+    Distractor3: "ensuring users have access to the right information.",
+    Explanation:
+      "The availability of information when needed is crucial and ensuring that is an important part of cybersecurity.",
+    Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   }
 ];
 
