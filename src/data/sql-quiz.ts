@@ -1108,7 +1108,7 @@ const sqlQuiz = [
     Distractor1:
       "'CHAR' is a numeric data type used for storing integers, while 'VARCHAR' is a text data type for storing strings.",
     Distractor2: "'CHAR' is a case-insensitive data type, while 'VARCHAR' is case-sensitive.",
-    Distractor3: "'CHAR' is used for storing fixed-length data, while 'VARCHAR' is used for storing variable-length data.",
+    Distractor3: "'CHAR' is used for storing arrays, while 'VARCHAR' is used for storing variable-length data.",
     Explanation:
       "CHAR holds a fixed string length because it allocates a set amount of storage for the fixed size specified in parenthesis, VARCHAR holds a variable string length by the maximum size specified in parenthesis.",
     Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
