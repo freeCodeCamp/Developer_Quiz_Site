@@ -22,7 +22,7 @@ interface QuizProps {
   selectedOption: string;
   selectOption: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
   checkAnswer: () => void;
-  answerButtonsRef: React.MutableRefObject<any>;
+  answerButtonsRef: React.MutableRefObject<HTMLUListElement | null>;
 }
 
 const Questions: React.FC<QuizProps> = QuizProps => {
