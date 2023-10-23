@@ -1,13 +1,24 @@
 const cloudComputingQuiz = [
   {
     Question:
-      "Which of the following is a benefit for developing cloud native apps?",
+      "Which organization champions standards for cloud-native services and helps reduce vendor lock-in?",
+    Answer: "CNCF (Cloud Native Computing Foundation)",
+    Distractor1: "AWS (Amazon Web Services)",
+    Distractor2: "Microsoft Azure",
+    Distractor3: "Google Cloud",
+    Explanation:
+      "The CNCF (Cloud Native Computing Foundation) is known for championing standards in cloud-native services. Following these standards helps reduce vendor lock-in and ensures compatibility across different services.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question:
+      "Which of the following is a benefit for developing cloud-native apps?",
     Answer: "Scalability",
     Distractor1: "Advanced algorithms",
     Distractor2: "Significant amounts of downtime",
     Distractor3: "Static application structure",
     Explanation:
-      "Scalability is a benefit because it allows cloud native applications to have flexible deployment options across the network making it easier to develop, deploy, and iterate on the application.",
+      "Scalability is a benefit because it allows cloud-native applications to have flexible deployment options across the network making it easier to develop, deploy, and iterate on the application.",
     Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
   },
   {
