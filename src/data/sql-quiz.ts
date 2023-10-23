@@ -1102,7 +1102,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "What is the difference between 'CHAR' and 'VARCHAR' data types in SQL?",
+      "What is the difference between the 'CHAR' and 'VARCHAR' data types in SQL?",
     Answer:
       "'CHAR' holds a fixed string length while 'VARCHAR' holds a variable string length",
     Distractor1:
@@ -1125,6 +1125,25 @@ const sqlQuiz = [
     Explanation:
       "NUMERIC is like a precise calculator that stores numbers exactly as you write them, ensuring accuracy. FLOAT is like a quick estimate, storing numbers approximately, which is okay for most calculations but might have small errors.",
     Link: "https://forum.freecodecamp.org/t/a-guide-to-sql-data-types/290676"
+  },
+  {
+    Question: "In PostgreSQL, what is the syntax for deleting a database?",
+    Answer: "DROP DATABASE database_name;",
+    Distractor1: "DELETE DATABASE database_name;",
+    Distractor2: "REMOVE DATABASE database_name;",
+    Distractor3: "DESTROY DATABASE database_name;",
+    Explanation:
+      "In PostgreSQL, the DROP DATABASE command is used to permanently delete an entire database.",
+    Link: "https://www.postgresql.org/docs/current/sql-dropdatabase.html"
+  },
+  {
+    Question: "What is the default port number for PostgreSQL?",
+    Answer: "5432",
+    Distractor1: "8080",
+    Distractor2: "3306",
+    Distractor3: "3124",
+    Explanation: "By default, PostgreSQL listens on port 5432",
+    Link: "https://www.freecodecamp.org/news/manage-postgresql-with-psql/"
   }
 ];
 

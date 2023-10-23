@@ -1,6 +1,29 @@
 const cloudComputingQuiz = [
   {
     Question:
+      "Which of the following is a benefit for developing cloud native apps?",
+    Answer: "Scalability",
+    Distractor1: "Advanced algorithms",
+    Distractor2: "Significant amounts of downtime",
+    Distractor3: "Static application structure",
+    Explanation:
+      "Scalability is a benefit because it allows cloud native applications to have flexible deployment options across the network making it easier to develop, deploy, and iterate on the application.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question:
+      "How does container orchestration, such as Kubernetes, help in deploying software updates in cloud-native apps?",
+    Answer:
+      "It automatically replaces downed instances with minimal or zero downtime",
+    Distractor1: "It causes significant downtime during updates",
+    Distractor2: "It delays the deployment of software updates",
+    Distractor3: "It requires manual intervention for every update",
+    Explanation:
+      "Container orchestration systems like Kubernetes automatically manage the deployment of containers, ensuring that if an instance goes down, it's replaced quickly to minimize or eliminate downtime.",
+    Link: "https://www.freecodecamp.org/news/get-started-with-cloud-native/"
+  },
+  {
+    Question:
       "Which model do cloud-native apps typically follow for software updates, allowing for immediate deployment?",
     Answer: "Continuous delivery model",
     Distractor1: "Waterfall model",

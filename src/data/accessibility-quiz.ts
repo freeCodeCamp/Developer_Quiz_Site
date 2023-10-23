@@ -1,6 +1,18 @@
 const accessibilityQuiz = [
   {
     Question:
+      "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
+    Answer: "Patterns",
+    Distractor1: "Hint Buttons",
+    Distractor2: "Gradients",
+    Distractor3:
+      "There is no need to add an additional identifier, color is enough.",
+    Explanation:
+      "Colorblind and low vision users have difficulties to perceive the color differences. In addition, when the graph appears in greyscale (e.g. user settings, print), it is impossible to every user to see differences.",
+    Link: "https://www.w3.org/WAI/WCAG21/Understanding/use-of-color.html"
+  },
+  {
+    Question:
       "Why is it better for accessibility reasons to use relative units(em and rem) instead of absolute units(px)?",
     Answer:
       "With 'em' and 'rem,' your design can adjust according to the user's chosen font size, making it more accessible and user-friendly.",
@@ -834,12 +846,14 @@ const accessibilityQuiz = [
     Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
   },
   {
-    Question: "Which of the following screen readers is available as licensed software for Windows?",
+    Question:
+      "Which of the following screen readers is available as licensed software for Windows?",
     Answer: "JAWS (Job Access With Speech)",
     Distractor1: "NVDA(Non Visual Desktop Access)",
     Distractor2: "a11y.project",
     Distractor3: "ChromeVox",
-    Explanation: "JAWS (Job Access With Speech) is widely used screen reading software developed by Freedom Scientific, which is available as licensed software for Windows.",
+    Explanation:
+      "JAWS (Job Access With Speech) is widely used screen reading software developed by Freedom Scientific, which is available as licensed software for Windows.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   }
 ];
