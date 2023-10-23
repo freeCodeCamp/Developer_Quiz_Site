@@ -1115,7 +1115,7 @@ const sqlQuiz = [
   },
   {
     Question:
-      "What is the difference between data types NUMERIC and FLOAT in SQL?",
+      "What is the difference between the NUMERIC and FLOAT data types in SQL?",
     Answer:
       "NUMERIC stores exact numerical values, while FLOAT stores approximate numerical values",
     Distractor1:
