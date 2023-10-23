@@ -22,6 +22,7 @@ interface QuizProps {
   selectedOption: string;
   selectOption: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
   checkAnswer: () => void;
+  answerButtonsRef: React.MutableRefObject<any>;
 }
 
 const Questions: React.FC<QuizProps> = QuizProps => {
@@ -45,7 +46,7 @@ const Questions: React.FC<QuizProps> = QuizProps => {
               </span>{" "}
               {QuizProps.currQuestion.Question}
             </legend>
-            <ul>
+            <ul ref={QuizProps.answerButtonsRef}>
               {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
                 (btn: string | string[] | number, index: number) => (
                   <li key={index}>

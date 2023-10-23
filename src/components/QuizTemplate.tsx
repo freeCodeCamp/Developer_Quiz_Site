@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import SelectQuiz from "./SelectQuiz";
 import SelectCategory from "./SelectCategory";
 import { ALL_CATEGORIES } from "../constants";
@@ -47,6 +47,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
+
+  const answerButtonsRef = useRef(null);
 
   //detects if the user tries the refresh the page in the middle of the quiz
   useEffect(() => {
@@ -145,7 +147,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setSelectedOption(e.currentTarget.value);
 
     // Get answer buttons
-    const answerBtns = document.getElementsByClassName("answers-btns")
+    const answerBtns = answerButtonsRef.current.getElementsByClassName("answers-btns")
 
     // Remove previous highlights
     for (const btn of answerBtns) {
@@ -211,7 +213,8 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     choicesArr,
     selectedOption,
     selectOption,
-    checkAnswer
+    checkAnswer,
+    answerButtonsRef
   };
 
   return (
