@@ -1104,7 +1104,7 @@ const sqlQuiz = [
     Question:
       "What is the difference between 'CHAR' and 'VARCHAR' data types in SQL?",
     Answer:
-      "'CHAR' holds a fixed string length. 'VARCHAR' holds a variable string length",
+      "'CHAR' holds a fixed string length while 'VARCHAR' holds a variable string length",
     Distractor1:
       "'CHAR' is a numeric data type used for storing integers, while 'VARCHAR' is a text data type for storing strings.",
     Distractor2: "'CHAR' is a case-insensitive data type, while 'VARCHAR' is case-sensitive.",
