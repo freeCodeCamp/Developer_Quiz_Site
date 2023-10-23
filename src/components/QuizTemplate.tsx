@@ -43,7 +43,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     "Python",
     "SQL"
   ];
-  const choicesArr: string[][] = [];
+  const [choicesArr, setChoicesArr] = useState<string[][]>([]);
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
@@ -79,7 +79,21 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setIsReady(true);
     const userAnswer = parseInt(e.currentTarget.value);
-    setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
+    const shuffledQuiz = shuffle(filteredQuestions).slice(0, userAnswer)
+
+    // Shuffle the answer options
+    const choicesArr: string[][] = shuffledQuiz.map(obj => {
+      const arr = [
+        obj.Answer,
+        obj.Distractor1,
+        obj.Distractor2,
+        obj.Distractor3
+      ];
+      return shuffle<string>(arr);
+    });
+
+    setQuiz(shuffledQuiz);
+    setChoicesArr(choicesArr)
   };
 
   // Function to start a random quiz
@@ -99,12 +113,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
 
   //function for toggling the react-bootstrap modal
   const handleShow = () => setShow(true);
-
-  //shuffle the right and wrong answers
-  quiz.forEach(obj => {
-    const arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
-    choicesArr.push(shuffle<string>(arr));
-  });
 
   const nextQuestion = () => {
     if (questionNumber >= quiz.length) {
@@ -134,7 +142,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   };
 
   const selectOption = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    // Set the selected option
     setSelectedOption(e.currentTarget.value);
 
     // Get answer buttons
@@ -150,7 +157,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   }
   
   const checkAnswer = () => {
-    // Get user's selected option
     const userAnswer = selectedOption;
 
     // Ensure option was selected before checking answer
