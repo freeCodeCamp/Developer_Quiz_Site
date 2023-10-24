@@ -25,7 +25,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [message, setMessage] = useState("");
   const [displayExplanation, setDisplayExplanation] = useState("");
   const [showReference, setShowReference] = useState("");
-  const [selectedOption, setSelectedOption] = useState("")
+  const [selectedOption, setSelectedOption] = useState("");
   const [chosenAnswer, setChosenAnswer] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
@@ -81,7 +81,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setIsReady(true);
     const userAnswer = parseInt(e.currentTarget.value);
-    const shuffledQuiz = shuffle(filteredQuestions).slice(0, userAnswer)
+    const shuffledQuiz = shuffle(filteredQuestions).slice(0, userAnswer);
 
     // Shuffle the answer options
     const choicesArr: string[][] = shuffledQuiz.map(obj => {
@@ -95,7 +95,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     });
 
     setQuiz(shuffledQuiz);
-    setChoicesArr(choicesArr)
+    setChoicesArr(choicesArr);
   };
 
   // Function to start a random quiz
@@ -147,24 +147,27 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     setSelectedOption(e.currentTarget.value);
 
     // Get answer buttons
-    const answerBtns = answerButtonsRef.current.getElementsByClassName("answers-btns")
+    const answerBtns =
+      answerButtonsRef.current.getElementsByClassName("answers-btns");
 
     // Remove previous highlights
     for (const btn of answerBtns) {
-      btn.classList.remove("answers-btns--selected")
+      btn.classList.remove("answers-btns--selected");
     }
 
     // Highlight current option
-    e.currentTarget.classList.add("answers-btns--selected")
-  }
-  
+    e.currentTarget.classList.add("answers-btns--selected");
+  };
+
   const checkAnswer = () => {
     const userAnswer = selectedOption;
 
     // Ensure option was selected before checking answer
-    if (!userAnswer) {return};
+    if (!userAnswer) {
+      return;
+    }
 
-    setSelectedOption("")
+    setSelectedOption("");
     setChooseAnswer(true);
     setChosenAnswer(userAnswer);
     if (userAnswer !== currQuestion.Answer) {

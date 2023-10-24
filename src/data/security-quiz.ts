@@ -595,7 +595,8 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "In CyberSecurity, how does the Confidentiality principle work in the CIA Triad?",
+    Question:
+      "In CyberSecurity, how does the Confidentiality principle work in the CIA Triad?",
     Answer:
       "ensuring access to data is restricted to only the intended audience and not others.",
     Distractor1: "maintaining the accuracy, and completeness of data.",
@@ -606,7 +607,8 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "In CyberSecurity, how does the Integrity principle work in the CIA Triad?",
+    Question:
+      "In CyberSecurity, how does the Integrity principle work in the CIA Triad?",
     Answer: "maintaining the accuracy, and completeness of data.",
     Distractor1: "being truthful about security processes.",
     Distractor2: "having integrity as a cybersecurity professional.",
@@ -616,7 +618,8 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
   },
   {
-    Question: "In CyberSecurity, how does the Availability principle work in the CIA Triad?",
+    Question:
+      "In CyberSecurity, how does the Availability principle work in the CIA Triad?",
     Answer: "ensuring that information is available when it is needed.",
     Distractor1: "being truthful about security processes.",
     Distractor2: "having integrity as a cybersecurity professional.",

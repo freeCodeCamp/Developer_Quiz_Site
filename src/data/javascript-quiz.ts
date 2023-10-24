@@ -2019,6 +2019,39 @@ const javascriptQuiz = [
     Explanation:
       "Event delegation is a powerful and efficient technique in JavaScript for handling events on multiple elements by attaching a single event listener to a common ancestor of those elements.",
     Link: "https://www.freecodecamp.org/news/event-delegation-javascript/"
+  },
+  {
+    Question: "What is the primary purpose of web cookies?",
+    Answer:
+      "Storing data on the client-side to maintain user sessions and preferences.",
+    Distractor1: "Collecting user personal information.",
+    Distractor2: "Displaying website content.",
+    Distractor3: "Routing internet traffic.",
+    Explanation:
+      "Web cookies are primarily used to store data on the client-side, such as user sessions and preferences, to enhance the user experience.",
+    Link: "https://www.freecodecamp.org/news/everything-you-need-to-know-about-cookies-for-web-development/"
+  },
+  {
+    Question:
+      "Which type of web cookies are created and managed by JavaScript, and are often used for temporary data storage?",
+    Answer: "Session cookies.",
+    Distractor1: "Persistent cookies.",
+    Distractor2: "Secure cookies.",
+    Distractor3: "Third-party cookies.",
+    Explanation:
+      "Session cookies are created and managed by JavaScript and are typically used for temporary data storage during a user's session.",
+    Link: "https://www.freecodecamp.org/news/everything-you-need-to-know-about-cookies-for-web-development/"
+  },
+  {
+    Question:
+      "What is the maximum storage capacity of a single cookie in most web browsers?",
+    Answer: "4 KB (kilobytes).",
+    Distractor1: "1 MB (megabyte).",
+    Distractor2: "100 bytes.",
+    Distractor3: "10 KB (kilobytes).",
+    Explanation:
+      "In most web browsers, a single cookie can store up to 4 KB (kilobytes) of data.",
+    Link: "https://www.freecodecamp.org/news/everything-you-need-to-know-about-cookies-for-web-development/"
   }
 ];
 
