@@ -45,12 +45,12 @@ const linuxQuiz = [
   {
     Question:
       "In Linux, which one of the following commands can be used to create a symbolic link between files?",
-    Answer: "ln",
+    Answer: "ln -s",
     Distractor1: "ls",
-    Distractor2: "ln",
+    Distractor2: "lp",
     Distractor3: "link",
     Explanation:
-      "In Linux, the ln command is used to make links between files.",
+      "In Linux, the ln -s command is used to create a symbolic link between files.",
     Link: "https://man7.org/linux/man-pages/man1/ln.1.html"
   },
   {

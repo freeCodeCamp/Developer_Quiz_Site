@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import SelectQuiz from "./SelectQuiz";
 import SelectCategory from "./SelectCategory";
 import { ALL_CATEGORIES } from "../constants";
@@ -25,6 +25,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const [message, setMessage] = useState("");
   const [displayExplanation, setDisplayExplanation] = useState("");
   const [showReference, setShowReference] = useState("");
+  const [selectedOption, setSelectedOption] = useState("");
   const [chosenAnswer, setChosenAnswer] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
@@ -42,10 +43,12 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     "Python",
     "SQL"
   ];
-  const choicesArr: string[][] = [];
+  const [choicesArr, setChoicesArr] = useState<string[][]>([]);
   const currQuestion = quiz[questionNumber - 1];
   const totalQuestions = quiz.length;
   const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
+
+  const answerButtonsRef = useRef(null);
 
   //detects if the user tries the refresh the page in the middle of the quiz
   useEffect(() => {
@@ -78,7 +81,21 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
     setIsReady(true);
     const userAnswer = parseInt(e.currentTarget.value);
-    setQuiz(shuffle(filteredQuestions).slice(0, userAnswer));
+    const shuffledQuiz = shuffle(filteredQuestions).slice(0, userAnswer);
+
+    // Shuffle the answer options
+    const choicesArr: string[][] = shuffledQuiz.map(obj => {
+      const arr = [
+        obj.Answer,
+        obj.Distractor1,
+        obj.Distractor2,
+        obj.Distractor3
+      ];
+      return shuffle<string>(arr);
+    });
+
+    setQuiz(shuffledQuiz);
+    setChoicesArr(choicesArr);
   };
 
   // Function to start a random quiz
@@ -98,12 +115,6 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
 
   //function for toggling the react-bootstrap modal
   const handleShow = () => setShow(true);
-
-  //shuffle the right and wrong answers
-  quiz.forEach(obj => {
-    const arr = [obj.Answer, obj.Distractor1, obj.Distractor2, obj.Distractor3];
-    choicesArr.push(shuffle<string>(arr));
-  });
 
   const nextQuestion = () => {
     if (questionNumber >= quiz.length) {
@@ -132,9 +143,32 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     return shuffleModalArr[0];
   };
 
-  const checkAnswer = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+  const selectOption = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
+    setSelectedOption(e.currentTarget.value);
+
+    // Get answer buttons
+    const answerBtns =
+      answerButtonsRef.current.getElementsByClassName("answers-btns");
+
+    // Remove previous highlights
+    for (const btn of answerBtns) {
+      btn.classList.remove("answers-btns--selected");
+    }
+
+    // Highlight current option
+    e.currentTarget.classList.add("answers-btns--selected");
+  };
+
+  const checkAnswer = () => {
+    const userAnswer = selectedOption;
+
+    // Ensure option was selected before checking answer
+    if (!userAnswer) {
+      return;
+    }
+
+    setSelectedOption("");
     setChooseAnswer(true);
-    const userAnswer = e.currentTarget.value;
     setChosenAnswer(userAnswer);
     if (userAnswer !== currQuestion.Answer) {
       setMessage(shuffleModalResponses(incorrectModalResponses));
@@ -180,7 +214,10 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
     chooseAnswer,
     points,
     choicesArr,
-    checkAnswer
+    selectedOption,
+    selectOption,
+    checkAnswer,
+    answerButtonsRef
   };
 
   return (

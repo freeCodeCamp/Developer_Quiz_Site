@@ -204,17 +204,6 @@ const regexQuiz = [
     Distractor3: "<>",
     Explanation: "The parentheses, (), are used in grouping regex.",
     Link: "https://www.freecodecamp.org/news/regular-expressions-for-javascript-developers/"
-  },
-  {
-    Question:
-      "Write a regular expression pattern to validate email addresses in a basic format, such as 'user@example.com'.",
-    Answer: "^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-z]{2,}$",
-    Distractor1: "^[a-z]+@[a-z]+\\.com",
-    Distractor2: "user@example",
-    Distractor3: "user@.com",
-    Explanation:
-      "The correct regex pattern to validate basic email addresses is ^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-z]{2,}$, ensuring a valid username, @ symbol, domain, and TLD.",
-    Link: "https://www.freecodecamp.org/news/practical-regex-guide-with-real-life-examples/"
   }
 ];
 export default regexQuiz;

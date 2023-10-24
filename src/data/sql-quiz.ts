@@ -1053,6 +1053,101 @@ const sqlQuiz = [
     Explanation:
       "The SQL function SELECT COUNT(DISTINCT SUBJECT_ID) FROM table_name; is used to find the number of unique values in the SUBJECT_ID column, which represents the number of unique subjects taken by a student.",
     Link: "https://www.freecodecamp.org/news/sql-distinct-statement-how-to-query-select-and-count/"
+  },
+  {
+    Question:
+      "In SQL, which operator is used to combine multiple conditions, where all the conditions must be true for the result to be true?",
+    Answer: "AND",
+    Distractor1: "OR",
+    Distractor2: "NOT",
+    Distractor3: "XOR",
+    Explanation:
+      "The 'AND' operator in SQL is used to combine multiple conditions, and it requires all the conditions to be true for the overall condition to be true. It's commonly used for complex filtering in SQL queries.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter5basicsqlqueries"
+  },
+  {
+    Question:
+      "In SQL, which type of constraint enforces that values in a column are unique across all rows in a table?",
+    Answer: "UNIQUE constraint",
+    Distractor1: "PRIMARY KEY constraint",
+    Distractor2: "CHECK constraint",
+    Distractor3: "FOREIGN KEY constraint",
+    Explanation:
+      "The UNIQUE constraint in SQL ensures that values in a specified column or columns are unique across all rows in a table. This constraint is often used to prevent duplicate values in a column while allowing NULL values.",
+    Link: "https://www.freecodecamp.org/news/basic-sql-commands/"
+  },
+  {
+    Question: "What is the SQL JOIN clause used for?",
+    Answer:
+      "The SQL JOIN clause is used to combine rows from two or more tables based on a related column between them.",
+    Distractor1: "SQL JOIN is for creating new databases.",
+    Distractor2: "SQL JOIN is used to delete records from a table.",
+    Distractor3: "SQL JOIN is for sorting query results.",
+    Explanation:
+      "SQL JOIN is fundamental for retrieving data from multiple tables by establishing relationships between them.",
+    Link: "https://www.freecodecamp.org/news/the-ultimate-guide-to-sql-join-statements/"
+  },
+  {
+    Question:
+      "What is the purpose of the SQL HAVING clause, and how does it differ from the WHERE clause?",
+    Answer:
+      "The SQL HAVING clause is used to filter rows in the result set after aggregation, while the WHERE clause filters rows before aggregation.",
+    Distractor1:
+      "The SQL HAVING clause is used for sorting data in ascending order.",
+    Distractor2: "The SQL HAVING clause is used for joining tables.",
+    Distractor3: "The SQL HAVING clause is for deleting rows from a table.",
+    Explanation:
+      "The key difference between HAVING and WHERE is when the filtering occurs: HAVING works after aggregation, while WHERE works before aggregation.",
+    Link: "https://www.freecodecamp.org/news/the-sql-having-clause-explained-with-example-syntax/"
+  },
+  {
+    Question:
+      "What is the difference between the 'CHAR' and 'VARCHAR' data types in SQL?",
+    Answer:
+      "'CHAR' holds a fixed string length while 'VARCHAR' holds a variable string length",
+    Distractor1:
+      "'CHAR' is a numeric data type used for storing integers, while 'VARCHAR' is a text data type for storing strings.",
+    Distractor2:
+      "'CHAR' is a case-insensitive data type, while 'VARCHAR' is case-sensitive.",
+    Distractor3:
+      "'CHAR' is used for storing arrays, while 'VARCHAR' is used for storing variable-length data.",
+    Explanation:
+      "CHAR holds a fixed string length because it allocates a set amount of storage for the fixed size specified in parenthesis. VARCHAR holds a variable string length by the maximum size specified in parenthesis.",
+    Link: "https://www.freecodecamp.org/news/sql-data-types-mysql/"
+  },
+  {
+    Question:
+      "What is the difference between the NUMERIC and FLOAT data types in SQL?",
+    Answer:
+      "NUMERIC stores exact numerical values, while FLOAT stores approximate numerical values",
+    Distractor1:
+      "NUMERIC uses a single number to specify minimum precision, while FLOAT uses precision and scale to determine storage requirements.",
+    Distractor2:
+      "NUMERIC is used for floating-point numbers, while FLOAT is used for integers.",
+    Distractor3:
+      "NUMERIC allows for arbitrary precision, while FLOAT has a fixed precision of 10.",
+    Explanation:
+      "NUMERIC is like a precise calculator that stores numbers exactly as you write them, ensuring accuracy. FLOAT is like a quick estimate, storing numbers approximately, which is okay for most calculations but might have small errors.",
+    Link: "https://forum.freecodecamp.org/t/a-guide-to-sql-data-types/290676"
+  },
+  {
+    Question: "In PostgreSQL, what is the syntax for deleting a database?",
+    Answer: "DROP DATABASE database_name;",
+    Distractor1: "DELETE DATABASE database_name;",
+    Distractor2: "REMOVE DATABASE database_name;",
+    Distractor3: "DESTROY DATABASE database_name;",
+    Explanation:
+      "In PostgreSQL, the DROP DATABASE command is used to permanently delete an entire database.",
+    Link: "https://www.postgresql.org/docs/current/sql-dropdatabase.html"
+  },
+  {
+    Question: "What is the default port number for PostgreSQL?",
+    Answer: "5432",
+    Distractor1: "8080",
+    Distractor2: "3306",
+    Distractor3: "3124",
+    Explanation: "By default, PostgreSQL listens on port 5432",
+    Link: "https://www.freecodecamp.org/news/manage-postgresql-with-psql/"
   }
 ];
 

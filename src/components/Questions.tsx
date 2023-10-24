@@ -19,7 +19,10 @@ interface QuizProps {
   chooseAnswer: boolean;
   points: number;
   choicesArr: string[][];
-  checkAnswer: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  selectedOption: string;
+  selectOption: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  checkAnswer: () => void;
+  answerButtonsRef: React.MutableRefObject<HTMLUListElement | null>;
 }
 
 const Questions: React.FC<QuizProps> = QuizProps => {
@@ -43,14 +46,14 @@ const Questions: React.FC<QuizProps> = QuizProps => {
               </span>{" "}
               {QuizProps.currQuestion.Question}
             </legend>
-            <ul>
+            <ul ref={QuizProps.answerButtonsRef}>
               {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
                 (btn: string | string[] | number, index: number) => (
                   <li key={index}>
                     <button
                       className="answers-btns"
                       value={btn}
-                      onClick={e => QuizProps.checkAnswer(e)}
+                      onClick={e => QuizProps.selectOption(e)}
                     >
                       {btn}
                     </button>
@@ -58,6 +61,14 @@ const Questions: React.FC<QuizProps> = QuizProps => {
                 )
               )}
             </ul>
+            <hr />
+            <button
+              className="select-btns submit-btn"
+              style={{ opacity: QuizProps.selectedOption ? 1 : 0.5 }}
+              onClick={() => QuizProps.checkAnswer()}
+            >
+              Submit
+            </button>
           </fieldset>
         )}
       </div>
