@@ -1148,6 +1148,59 @@ const sqlQuiz = [
     Distractor3: "3124",
     Explanation: "By default, PostgreSQL listens on port 5432",
     Link: "https://www.freecodecamp.org/news/manage-postgresql-with-psql/"
+  },
+  {
+    Question: "How is the result of a SQL SELECT statement displayed?",
+    Answer: "In a virtual table known as a result-set",
+    Distractor1: "In a physical table",
+    Distractor2: "In a chart format",
+    Distractor3: "In a JSON file",
+    Explanation:
+      "The result of a SQL SELECT statement is presented in a virtual table, enabling data display, analysis, or manipulation without altering the original table",
+    Link: "https://www.freecodecamp.org/news/sql-select-statement-how-to-select-data-from-a-database/"
+  },
+  {
+    Question: "What is the primary purpose of a temporary SQL table?",
+    Answer: "To store data for a specific session or transaction",
+    Distractor1: "To store data permanently",
+    Distractor2: "To create a backup of the database",
+    Distractor3: "To store data for reporting purposes",
+    Explanation:
+      "Temporary SQL tables are used to hold data temporarily within a session or transaction, providing a short-term storage solution.",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
+  },
+  {
+    Question: "How long does the data in a temporary SQL table persist?",
+    Answer: "Data is deleted at the end of the session or transaction",
+    Distractor1: "Data persists permanently",
+    Distractor2: "Data is deleted after a specific time period",
+    Distractor3: "Data persists until explicitly deleted by the user",
+    Explanation:
+      "Data in temporary tables has a limited lifespan and is automatically removed from the database once the session or transaction concludes, ensuring temporary data doesn't persist unnecessarily.",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
+  },
+  {
+    Question:
+      "How are temporary table names typically different from permanent table names?",
+    Answer:
+      " Temporary table names are prefixed with a special character or keyword",
+    Distractor1: "Temporary table names are longer than permanent table names",
+    Distractor2:
+      "Temporary table names are case-sensitive, permanent table names are not",
+    Distractor3: "Temporary table names are always in uppercase",
+    Explanation:
+      "Temporary tables are often named with special characters or keywords as prefixes to distinguish them from permanent tables, aiding in easy identification",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
+  },
+  {
+    Question: "What happens to a temporary table at the end of a session?",
+    Answer: "It is automatically dropped or deleted",
+    Distractor1: "It is copied to another database",
+    Distractor2: " It is automatically converted into a permanent table",
+    Distractor3: "It remains in the database but becomes read-only",
+    Explanation:
+      "Temporary tables are automatically removed from the database system at the end of the session, preventing any manual cleanup and ensuring efficient use of database resources",
+    Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
   }
 ];
 
