@@ -1,6 +1,43 @@
 const accessibilityQuiz = [
   {
     Question:
+      "When did World Wide Web Consortium first drafted standards for developing accessible websites?",
+    Answer: "1999",
+    Distractor1: "2001",
+    Distractor2: "1990",
+    Distractor3:
+      "1989",
+    Explanation:
+      "The World Wide Web Consortium first drafted standards for developing accessible websites back in 1999.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
+      "What legal requirement has brought web accessibility to the forefront in recent years?",
+    Answer:"The Americans with Disabilities Act",
+    
+    Distractor1: "The Internet Freedom Act",
+    Distractor2: "The Web Accessibility Act",
+    Distractor3:
+      "The Digital Inclusion Law",
+    Explanation:
+"The Americans with Disabilities Act (ADA) has brought web accessibility to the forefront by requiring public spaces and commercial facilities to provide equal access to individuals with disabilities, which now includes web-based activities due to legal rulings.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
+      "Besides people with disabilities, who else benefits from following Web accessibility guidelines?",
+    Answer: "People with low literacy and search engines",
+    Distractor1: "Only screen reader users",
+    Distractor2: "People with low literacy and search engines",
+    Distractor3:
+      "Only website developers",
+    Explanation:
+      "Web accessibility guidelines benefit people with low literacy by using clear language and improve search engine indexing, making content more accessible and discoverable.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
       "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
     Answer: "Patterns",
     Distractor1: "Hint Buttons",
@@ -423,7 +460,7 @@ const accessibilityQuiz = [
     Question:
       "How does adding a `lang` attribute to a webpage's `html` element help with accessibility?",
     Answer: "It helps screen readers in identifying the language of the page",
-    Distractor1: "It helps Google Translate to translate the page",
+    Distractor1: "It helps Google Translate to translate thea page",
     Distractor2: "It helps the page to display the correct font",
     Distractor3: "It helps the page to rank with search engines",
     Explanation:
