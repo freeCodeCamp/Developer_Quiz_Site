@@ -1,6 +1,18 @@
 const accessibilityQuiz = [
   {
     Question:
+      "What is the semantic HTML counterpart to the default landmark complementary?",
+    Answer: "aside",
+    Distractor1: "contentinfo",
+    Distractor2: "section",
+    Distractor3:
+      "This default landmark does not exist.",
+    Explanation:
+      "If using semantic HTML, use the HTML tag <aside> element to define a complementary landmark.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/complementary.html"
+  },
+  {
+    Question:
       "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
     Answer: "Patterns",
     Distractor1: "Hint Buttons",
