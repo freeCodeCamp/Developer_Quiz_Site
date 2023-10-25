@@ -1,6 +1,18 @@
 const accessibilityQuiz = [
   {
     Question:
+      "What is not one of the default landmark roles?",
+    Answer: "nav",
+    Distractor1: "complementary",
+    Distractor2: "contentinfo",
+    Distractor3:
+      "form",
+    Explanation:
+      "The <nav> element is an HTML element (semantic HTML). The corresponding default landmark role to <nav> is navigation, implemented as <div role='navigation'>",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/navigation.html"
+  },
+  {
+    Question:
       "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
     Answer: "Patterns",
     Distractor1: "Hint Buttons",
