@@ -4,31 +4,21 @@ const agileQuiz = [
       "Which of the following is the primary role of a Scrum Product Owner?",
     Answer: "Define and prioritize the product backlog",
     Distractor1: "Lead daily standup meetings",
-    Distractor2: "Define and prioritize the product backlog",
+    Distractor2: "writes test for the product",
     Distractor3: "Remove impediments for the team",
     Explanation:
-      "The Product Owner is responsible for managing the product backlog and defining priorities.",
+      "The Product Owner is responsible for managing the product backlog and defining priorities.The Product Owner is the voice of the customer and stakeholders",
     Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
   },
   {
     Question:
-      "Which of the following Agile methodology is known for its emphasis on continuous delivery and flow-based development?",
+      "Which of the following Agile methodologies is known for its emphasis on continuous delivery and flow-based development?",
     Answer: "Kanban",
     Distractor1: "Extreme Programming (XP)",
     Distractor2: "Scrum",
     Distractor3: "Lean Software Development",
     Explanation:
       "Kanban is known for its focus on continuous delivery and flow-based development.",
-    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
-  },
-  {
-    Question: "In Scrum, what is the purpose of the Sprint Review?",
-    Answer: "Demonstrate completed work to stakeholders",
-    Distractor1: "Plan the tasks for the upcoming sprint",
-    Distractor2: "Discuss daily progress with the Scrum Master",
-    Distractor3: "Review the definition of 'done'",
-    Explanation:
-      "The Sprint Review is where the team demonstrates the completed work to stakeholders and gathers feedback.",
     Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
   },
   {
@@ -41,8 +31,7 @@ const agileQuiz = [
     Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
   },
   {
-    Question:
-      "In Kanban, what are work items typically represented as on the board?",
+    Question: "How are work items typically represented on a Kanban board?",
     Answer: "Cards",
     Distractor1: "Tasks",
     Distractor2: "Stories",
