@@ -1,14 +1,13 @@
 const accessibilityQuiz = [
   {
     Question:
-      "What is the semantic HTML counterpart to the default landmark complementary?",
+      "Which of the following HTML elements uses the default landmark complementary?",
     Answer: "aside",
     Distractor1: "contentinfo",
     Distractor2: "section",
-    Distractor3:
-      "This default landmark does not exist.",
+    Distractor3: "div",
     Explanation:
-      "If using semantic HTML, use the HTML tag <aside> element to define a complementary landmark.",
+      "The semantic <aside> element uses the complementary landmark which is a supporting section of the document created to complement the main content.",
     Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/complementary.html"
   },
   {
