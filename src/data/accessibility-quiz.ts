@@ -12,6 +12,38 @@ const accessibilityQuiz = [
   },
   {
     Question:
+      "When did the World Wide Web Consortium first draft the set of standards for developing accessible websites?",
+    Answer: "1999",
+    Distractor1: "2001",
+    Distractor2: "1990",
+    Distractor3: "1989",
+    Explanation:
+      "The World Wide Web Consortium first drafted standards for developing accessible websites back in 1999.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
+      "Which of the following laws has brought accessibility issues to the forefront in recent years?",
+    Answer: "The Americans with Disabilities Act",
+    Distractor1: "The Internet Freedom Act",
+    Distractor2: "The Web Accessibility Act",
+    Distractor3: "The Digital Inclusion Law",
+    Explanation:
+      "The Americans with Disabilities Act (ADA) has brought web accessibility to the forefront by requiring public spaces and commercial facilities to provide equal access to individuals with disabilities, which now includes web-based activities due to legal rulings.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question: "Which of the following is NOT a benefit of web accessibility?",
+    Answer: "Limited Audience Reach",
+    Distractor1: "Higher Search Engine Rankings",
+    Distractor2: "Inclusivity",
+    Distractor3: "Improved User Experience",
+    Explanation:
+      "Making websites accessible broadens the audience reach rather than limiting it, ensuring that everyone, regardless of their abilities, can access the content online",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
       "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
     Answer: "Patterns",
     Distractor1: "Hint Buttons",
