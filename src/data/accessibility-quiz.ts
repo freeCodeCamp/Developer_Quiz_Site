@@ -1,6 +1,17 @@
 const accessibilityQuiz = [
   {
     Question:
+      "Which of the following is NOT one of the default landmark roles?",
+    Answer: "nav",
+    Distractor1: "complementary",
+    Distractor2: "contentinfo",
+    Distractor3: "form",
+    Explanation:
+      "The <nav> element is a semantic HTML element with a corresponding default landmark role of role='navigation'.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/navigation.html"
+  },
+  {
+    Question:
       "What do you need to consider when using more than one <main> landmark in your code?",
     Answer: "That each <main> landmark has a unique label.",
     Distractor1: "You do not have to consider something specific.",
