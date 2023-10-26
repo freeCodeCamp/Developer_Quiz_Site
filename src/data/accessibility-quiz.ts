@@ -1,6 +1,17 @@
 const accessibilityQuiz = [
   {
     Question:
+      "What do you need to consider when using more than one <main> landmark in your code?",
+    Answer: "That each <main> landmark has a unique label.",
+    Distractor1: "You do not have to consider something specific.",
+    Distractor2: "It is not allowed to have two <main> landmarks.",
+    Distractor3: "That each <main> landmark has a unique id.",
+    Explanation:
+      "The <main> landmark contains the main content of the page. Even though it's rare to have more then one <main> landmark, it is possible. It is important for screen reader users to be able to differ between those landmarks. Therefore, a unique label should be added to each <main> landmark.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/main.html"
+  },
+  {
+    Question:
       "Which of the following HTML elements uses the default landmark complementary?",
     Answer: "aside",
     Distractor1: "contentinfo",
