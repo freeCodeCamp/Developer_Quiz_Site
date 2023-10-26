@@ -1,6 +1,60 @@
 const linuxQuiz = [
   {
     Question:
+      "What does the GPL (GNU General Public License) ensure for Linux and its components?",
+    Answer: "Freedom to use, modify, and distribute",
+    Distractor1: "Proprietary licensing",
+    Distractor2: "Closed-source development",
+    Distractor3: "High licensing costs",
+    Explanation:
+      "The GPL ensures that Linux and its components remain free and freely distributable, allowing users to modify and distribute the software.",
+    Link: "https://www.techtarget.com/searchdatacenter/definition/Linux-operating-system"
+  },
+  {
+    Question:
+      "Which of the following is the role of a bootloader in the Linux boot process?",
+    Answer: "Starts the Linux kernel",
+    Distractor1: "Manages hardware resources",
+    Distractor2: "Manages network services",
+    Distractor3: "Provides a graphical user interface",
+    Explanation:
+      "The bootloader is responsible for managing the boot process and initiating the Linux kernel.",
+    Link: "https://www.techtarget.com/searchdatacenter/definition/Linux-operating-system"
+  },
+  {
+    Question:
+      "Which Linux component is responsible for handling network access, scheduling processes, and managing peripheral devices?",
+    Answer: "Kernel",
+    Distractor1: "Desktop environment",
+    Distractor2: "Init system",
+    Distractor3: "Daemon",
+    Explanation:
+      "The Linux kernel is responsible for these functions and more, serving as the core of the operating system.",
+    Link: "https://www.techtarget.com/searchdatacenter/definition/Linux-operating-system"
+  },
+  {
+    Question:
+      "What type of server is Linux well-suited for, with support for high-volume and multithreading applications?",
+    Answer: "Web server",
+    Distractor1: "Database server",
+    Distractor2: "Gaming server",
+    Distractor3: "Mail server",
+    Explanation:
+      "Linux is commonly used as a web server, as it is designed to support high-volume and multithreading applications.",
+    Link: "https://www.techtarget.com/searchdatacenter/definition/Linux-operating-system"
+  },
+  {
+    Question: "What is the primary benefit of using Linux for a server OS?",
+    Answer: "No licensing fees",
+    Distractor1: "High licensing costs",
+    Distractor2: "Closed-source development",
+    Distractor3: "Limited support for servers",
+    Explanation:
+      "Linux is known for its lack of licensing fees, making it cost-effective for server use.",
+    Link: "https://www.techtarget.com/searchdatacenter/definition/Linux-operating-system"
+  },
+  {
+    Question:
       "In Linux, Which command is used to convert and copy files with specific size?",
     Answer: "dd",
     Distractor1: "cp",
