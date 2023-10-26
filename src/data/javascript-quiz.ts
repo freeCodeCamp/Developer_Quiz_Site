@@ -2052,6 +2052,17 @@ const javascriptQuiz = [
     Explanation:
       "In most web browsers, a single cookie can store up to 4 KB (kilobytes) of data.",
     Link: "https://www.freecodecamp.org/news/everything-you-need-to-know-about-cookies-for-web-development/"
+  },
+  {
+    Question:
+      "Which one of the following is considered a primitive value in JavaScript?",
+    Answer: "3.14",
+    Distractor1: "[1, 4, 9, 16]",
+    Distractor2: "function add(x, y) { return x + y; }",
+    Distractor3: "Date('2023-10-25')",
+    Explanation:
+      "There are 7 primitive data types in JavaScript: strings, numbers, booleans, null, undefined, Symbol, and BigInt. Everything else is a JavaScript object including arrays, sets, functions, dates, etc.",
+    Link: "https://www.freecodecamp.org/news/objects-in-javascript/"
   }
 ];
 
