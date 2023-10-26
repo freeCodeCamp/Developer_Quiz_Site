@@ -2061,7 +2061,7 @@ const javascriptQuiz = [
     Distractor2: "function add(x, y) { return x + y; }",
     Distractor3: "Date('2023-10-25')",
     Explanation:
-      "There are 7 primitive data types in JavaScript; namely string, number, boolean, null, undefined, symbol, and bigint. Everything else is a JavaScript object including arrays, sets, functions, dates, etc.",
+      "There are 7 primitive data types in JavaScript: strings, numbers, booleans, null, undefined, Symbol, and BigInt. Everything else is a JavaScript object including arrays, sets, functions, dates, etc.",
     Link: "https://www.freecodecamp.org/news/objects-in-javascript/"
   }
 ];
