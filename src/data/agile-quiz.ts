@@ -1,5 +1,46 @@
 const agileQuiz = [
   {
+    Question:
+      "Which of the following is the primary role of a Scrum Product Owner?",
+    Answer: "Define and prioritize the product backlog",
+    Distractor1: "Lead daily standup meetings",
+    Distractor2: "writes test for the product",
+    Distractor3: "Remove impediments for the team",
+    Explanation:
+      "The Product Owner is responsible for managing the product backlog and defining priorities.The Product Owner is the voice of the customer and stakeholders",
+    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
+  },
+  {
+    Question:
+      "Which of the following Agile methodologies is known for its emphasis on continuous delivery and flow-based development?",
+    Answer: "Kanban",
+    Distractor1: "Extreme Programming (XP)",
+    Distractor2: "Scrum",
+    Distractor3: "Lean Software Development",
+    Explanation:
+      "Kanban is known for its focus on continuous delivery and flow-based development.",
+    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
+  },
+  {
+    Question: "What is the primary focus of Kanban boards?",
+    Answer: "Visualizing the workflow and work in progress",
+    Distractor1: "Defining sprint goals",
+    Distractor2: "Creating the product backlog",
+    Distractor3: "Facilitating daily standup meetings",
+    Explanation: "Kanban boards visualize the workflow and work in progress.",
+    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
+  },
+  {
+    Question: "How are work items typically represented on a Kanban board?",
+    Answer: "Cards",
+    Distractor1: "Tasks",
+    Distractor2: "Stories",
+    Distractor3: "Points",
+    Explanation:
+      "Work items in Kanban are often represented as cards on the board",
+    Link: "https://www.freecodecamp.org/news/agile-software-development-handbook/"
+  },
+  {
     Question: "What is the average duration for sprints?",
     Answer: "2 weeks to a month",
     Distractor1: "3 weeks to 6 weeks",
