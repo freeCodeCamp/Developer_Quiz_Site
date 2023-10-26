@@ -1,5 +1,143 @@
 const qualityAssuranceQuiz = [
   {
+    Question: "What is the primary purpose of a test case in software testing?",
+    Answer:
+      "To describe a specific test scenario, its preconditions, expected outcomes, and postconditions.",
+    Distractor1: "To document the software requirements.",
+    Distractor2: "To create a test strategy for the project.",
+    Distractor3: "To review the source code for defects.",
+    Explanation:
+      "A test case describes a specific test scenario, including preconditions, expected outcomes, and postconditions for verifying software functionality.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+  {
+    Question:
+      "In the Waterfall model of software development, when does the testing phase typically occur?",
+    Answer: "After implementation and coding.",
+    Distractor1: "Before the planning phase.",
+    Distractor2: "Before design and analysis.",
+    Distractor3: "At the beginning of the project.",
+    Explanation:
+      "In the Waterfall model, testing usually occurs after the implementation and coding phases, which can lead to higher costs for fixing defects.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+  {
+    Question:
+      "What type of software testing is concerned with assessing the software's inner characteristics and architecture?",
+    Answer: "White box testing",
+    Distractor1: "Black box testing",
+    Distractor2: "Grey box testing",
+    Distractor3: "Ad hoc testing",
+    Explanation:
+      "White box testing focuses on assessing the software's inner characteristics, such as code maintainability and security, by examining its source code.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "What is the main objective of Quality Assurance (QA) in software testing?",
+    Answer: "Continuous improvement and maintenance of processes.",
+    Distractor1: "Verifying product quality before release.",
+    Distractor2: "Testing software during execution.",
+    Distractor3: "Reviewing the source code for defects.",
+    Explanation:
+      "QA focuses on the continuous improvement and maintenance of processes to ensure quality and consistency throughout the production process.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "Which of the following software development methodology requires high coordination between development, QA, and operations?",
+    Answer: "DevOps",
+    Distractor1: "Agile",
+    Distractor2: "Waterfall",
+    Distractor3: "Scrum",
+    Explanation:
+      "DevOps requires high coordination between development, QA, and operations, emphasizing automation and continuous integration.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+  {
+    Question:
+      "What is the primary focus of Quality Control (QC) in software testing?",
+    Answer: "Verifying product quality before release.",
+    Distractor1: "Monitoring the consistency of the production process.",
+    Distractor2: "Detecting defects in the software source code.",
+    Distractor3: "Testing software during execution.",
+    Explanation:
+      "Quality Control (QC) aims to verify the product's quality by detecting defects before releasing it to the end-users.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "What software testing method involves reviewing the source code and project documents for defects?",
+    Answer: "Static testing",
+    Distractor1: "Dynamic testing",
+    Distractor2: "Black box testing",
+    Distractor3: "White box testing",
+    Explanation:
+      "Static testing focuses on examining the source code and project documents to catch defects early in the software development life cycle.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "What software testing principle suggests that defects tend to cluster in certain areas of the software?",
+    Answer: "Defect clustering.",
+    Distractor1: "Testing shows the presence of mistakes.",
+    Distractor2: "Exhaustive testing is impossible.",
+    Distractor3: "Testing is context dependent.",
+    Explanation:
+      "Defect clustering indicates that approximately 80 percent of defects are found in only 20 percent of the system modules, making it essential to test thoroughly in those areas.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+  {
+    Question: "What is the primary goal of software testing?",
+    Answer: "To identify and correct defects in the software.",
+    Distractor1: "To speed up the software development process.",
+    Distractor2: "To create documentation for the software.",
+    Distractor3: "To design the user interface of the software.",
+    Explanation:
+      "Software testing aims to identify and correct defects in the software to ensure its quality and reliability.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "What is the main purpose of a test strategy in software testing?",
+    Answer: "To provide a roadmap for the testing process.",
+    Distractor1: "To list all the defects in the software.",
+    Distractor2: "To define the user requirements.",
+    Distractor3: "To create a test plan.",
+    Explanation:
+      "A test strategy serves to provide a roadmap that describes the steps to be conducted in testing and how much effort and resources are required.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "What type of testing focuses on verifying the software's compliance with functional requirements?",
+    Answer: "Black box testing",
+    Distractor1: "White box testing",
+    Distractor2: "Grey box testing",
+    Distractor3: "Ad hoc testing",
+    Explanation:
+      "Black box testing focuses on testing the software's functionality without looking at its internal code or structure.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+
+  {
+    Question:
+      "In the software testing process, what is dynamic testing primarily concerned with?",
+    Answer: "Testing the software during execution.",
+    Distractor1: "Reviewing the source code and project documents.",
+    Distractor2: "Testing the software's functionality without execution.",
+    Distractor3: "Creating a test strategy.",
+    Explanation:
+      "Dynamic testing involves testing the software while it is running or in execution to evaluate its behavior.",
+    Link: "https://www.altexsoft.com/whitepapers/quality-assurance-quality-control-and-testing-the-basics-of-software-quality-management/"
+  },
+  {
     Question:
       "The primary purpose of unit testing in software development is to:",
     Answer:
