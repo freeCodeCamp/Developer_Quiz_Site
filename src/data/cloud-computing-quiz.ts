@@ -2,7 +2,8 @@ const cloudComputingQuiz = [
   {
     Question:
       "What is one of the key benefits of following CNCF standards in cloud-native app development?",
-    Answer: "Ensuring apps are built in the right way and reducing vendor lock-in",
+    Answer:
+      "Ensuring apps are built in the right way and reducing vendor lock-in",
     Distractor1: "Increased vendor lock-in",
     Distractor2: "Slower development process",
     Distractor3: "Reduced compatibility with other services",
