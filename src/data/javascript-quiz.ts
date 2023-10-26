@@ -2055,7 +2055,7 @@ const javascriptQuiz = [
   },
   {
     Question:
-      "Which one of the following values is considered as a primitive value?",
+      "Which one of the following is considered a primitive value in JavaScript?",
     Answer: "3.14",
     Distractor1: "[1, 4, 9, 16]",
     Distractor2: "function add(x, y) { return x + y; }",
