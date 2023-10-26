@@ -1,6 +1,71 @@
 const accessibilityQuiz = [
   {
     Question:
+      "Which of the following is NOT one of the default landmark roles?",
+    Answer: "nav",
+    Distractor1: "complementary",
+    Distractor2: "contentinfo",
+    Distractor3: "form",
+    Explanation:
+      "The <nav> element is a semantic HTML element with a corresponding default landmark role of role='navigation'.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/navigation.html"
+  },
+  {
+    Question:
+      "What do you need to consider when using more than one <main> landmark in your code?",
+    Answer: "That each <main> landmark has a unique label.",
+    Distractor1: "You do not have to consider something specific.",
+    Distractor2: "It is not allowed to have two <main> landmarks.",
+    Distractor3: "That each <main> landmark has a unique id.",
+    Explanation:
+      "The <main> landmark contains the main content of the page. Even though it's rare to have more then one <main> landmark, it is possible. It is important for screen reader users to be able to differ between those landmarks. Therefore, a unique label should be added to each <main> landmark.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/main.html"
+  },
+  {
+    Question:
+      "Which of the following HTML elements uses the default landmark complementary?",
+    Answer: "aside",
+    Distractor1: "contentinfo",
+    Distractor2: "section",
+    Distractor3: "div",
+    Explanation:
+      "The semantic <aside> element uses the complementary landmark which is a supporting section of the document created to complement the main content.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/complementary.html"
+  },
+  {
+    Question:
+      "When did the World Wide Web Consortium first draft the set of standards for developing accessible websites?",
+    Answer: "1999",
+    Distractor1: "2001",
+    Distractor2: "1990",
+    Distractor3: "1989",
+    Explanation:
+      "The World Wide Web Consortium first drafted standards for developing accessible websites back in 1999.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
+      "Which of the following laws has brought accessibility issues to the forefront in recent years?",
+    Answer: "The Americans with Disabilities Act",
+    Distractor1: "The Internet Freedom Act",
+    Distractor2: "The Web Accessibility Act",
+    Distractor3: "The Digital Inclusion Law",
+    Explanation:
+      "The Americans with Disabilities Act (ADA) has brought web accessibility to the forefront by requiring public spaces and commercial facilities to provide equal access to individuals with disabilities, which now includes web-based activities due to legal rulings.",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question: "Which of the following is NOT a benefit of web accessibility?",
+    Answer: "Limited Audience Reach",
+    Distractor1: "Higher Search Engine Rankings",
+    Distractor2: "Inclusivity",
+    Distractor3: "Improved User Experience",
+    Explanation:
+      "Making websites accessible broadens the audience reach rather than limiting it, ensuring that everyone, regardless of their abilities, can access the content online",
+    Link: "https://www.freecodecamp.org/news/what-is-website-accessibility-18ce00ec990f/"
+  },
+  {
+    Question:
       "When creating charts, what should be added so that color is not the only identifier to convey the meaning of the information?",
     Answer: "Patterns",
     Distractor1: "Hint Buttons",
