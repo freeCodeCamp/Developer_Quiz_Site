@@ -1836,7 +1836,17 @@ const generalCSQuiz = [
     Explanation:
       "The Halting Problem is significant in theoretical computer science as it demonstrates the existence of problems that cannot be solved algorithmically.",
     Link: "https://en.wikipedia.org/wiki/Halting_problem"
-  }
+  },
+  {
+    Question: "What is load Balancing in LLD(Low Level Design)?",
+    Answer: " Distribution of  network traffic evenly across multiple servers",
+    Distractor1: "An Internet Protocol",
+    Distractor2: "Removing excess load from a server",
+    Distractor3: "Allocating more resources to a single server",
+    Explanation:
+      "Load balancing is a technique used in computing and networking to distribute incoming network traffic or workload across multiple servers, devices, or resources. The primary goal of load balancing is to optimize resource utilization, maximize throughput, minimize response time, and ensure high availability of services.",
+    Link: "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
+  },
 ];
 
 export default generalCSQuiz;
