@@ -1,6 +1,17 @@
 const accessibilityQuiz = [
   {
     Question:
+      "Which of the following HTML elements uses the default landmark complementary?",
+    Answer: "aside",
+    Distractor1: "contentinfo",
+    Distractor2: "section",
+    Distractor3: "div",
+    Explanation:
+      "The semantic <aside> element uses the complementary landmark which is a supporting section of the document created to complement the main content.",
+    Link: "https://www.w3.org/WAI/ARIA/apg/patterns/landmarks/examples/complementary.html"
+  },
+  {
+    Question:
       "When did the World Wide Web Consortium first draft the set of standards for developing accessible websites?",
     Answer: "1999",
     Distractor1: "2001",
