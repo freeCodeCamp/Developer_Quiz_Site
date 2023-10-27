@@ -1677,7 +1677,7 @@ const pythonQuiz = [
     Distractor2: "__sub__",
     Distractor3: "__mul__",
     Explanation:
-      "Dunder methods (Double underscore) are special methods reserved in Python which affect's the behaviour of the object and the interaction of the object with other objects.",
+      "Dunder methods (Double underscore) are special methods reserved in Python which affect's the behavior of the object and the interaction of the object with other objects.",
     Link: "https://youtu.be/eWRfhZUzrAc?si=ehiKx8PbqeW8X504&t=12264"
   }
 ];
