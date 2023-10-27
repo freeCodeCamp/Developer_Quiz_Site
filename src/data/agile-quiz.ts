@@ -617,6 +617,58 @@ const agileQuiz = [
     Explanation:
       "Velocity is used to estimate the team's capacity and helps with sprint planning by forecasting how much work can be completed.",
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What's the difference between a burndown and a burnup chart?",
+    Answer:
+      "Burndown charts show how much work is left to be done, while burnup charts show the work that has been completed",
+    Distractor1:
+      "Burndown charts show the total amount of work completed, while burnup charts show the work left to be done versus",
+    Distractor2:
+      "Burndown charts show the total amount of work completed, while burnup charts show the work that has been done",
+    Distractor3:
+      "Burndown charts show the work completed, while burnup charts show todo list items.",
+    Explanation:
+      'Burndown and burnup charts are very similar and are used to measure progress of a project. Burndown charts usually have 2 lines - an "Ideal Work Remaining Line" and an "Actual Work Remaining Line". Burnup charts have 3 lines that are typically used - an ideal line, a completed work line, and a total work line.',
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question:
+      "What does it mean in a Burnup Chart when a portion of the completed work line is below the ideal work line?",
+    Answer: "It typically means that the team is behind schedule.",
+    Distractor1: "It typically means the team is ahead of schedule ",
+    Distractor2:
+      "It typically means the team is on track with the planned schedule.",
+    Distractor3: "It represents the total scope of work needed.",
+    Explanation:
+      "Burnup charts show the work that has been completed versus the total amount of work and time remaining. In this chart, the total work line should be somewhat steady across the top of the chart, and is a good representation of scope change. The completed work line should move steadily up towards the total work line for the amount of time in the project— its ideal trajectory is shown by the ideal line.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What are nonfunctional requirements?",
+    Answer:
+      "A requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors.",
+    Distractor1:
+      "A requirement that specifies behaviors of how a system should work. ",
+    Distractor2:
+      "They are useless requirements that do not add value to the system.",
+    Distractor3:
+      "A requirement that focuses on the personnel needed to complete a task.",
+    Explanation:
+      'A non-functional requirement (NFR) is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors (a functional requirement). Non-functional requirements are often called "quality attributes", "constraints" or "non-behavioral requirements".',
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "Which of the following are not nonfunctional requirements?",
+    Answer:
+      "The system must allow users to log into their account by entering their email and password.",
+    Distractor1:
+      "The printer should print 5 seconds after the button is pressed.",
+    Distractor2: "The code should be written in Java.",
+    Distractor3: "The UI should be easily navigable.",
+    Explanation:
+      'A non-functional requirement (NFR) is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors (a functional requirement). Non-functional requirements are often called "quality attributes", "constraints" or "non-behavioral requirements".',
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
   }
 ];
 
