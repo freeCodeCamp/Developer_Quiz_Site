@@ -1418,6 +1418,17 @@ const linuxQuiz = [
     Explanation:
       "When you use the halt command in Linux, it sends a signal to the system to initiate a controlled shutdown. The operating system will gracefully terminate running processes and then power off the computer, effectively shutting it down.",
     Link: "https://man7.org/linux/man-pages/man8/halt.8.html"
+  },
+  {
+    Question:
+      "In Linux, what can we use to configure a custom command with a unique set of options?",
+    Answer: "alias",
+    Distractor1: "suo",
+    Distractor2: "umask",
+    Distractor3: "grep",
+    Explanation:
+      "Some commands fail to provide enough information and context. When you are in need of a custom solution, using an alias to refer to a more useful base command can be very helpful.",
+    Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-alias-command"
   }
 ];
 
