@@ -1671,7 +1671,7 @@ const pythonQuiz = [
   },
   {
     Question:
-      "Which of the following dunder methods allows you to do the expression x + y, where x and y are two objects of the same class?",
+      "In Python, which of the following dunder methods defines the behavior of the addition operator + for objects of a class?",
     Answer: "__add__",
     Distractor1: "__len__",
     Distractor2: "__sub__",
