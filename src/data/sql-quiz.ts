@@ -1201,6 +1201,16 @@ const sqlQuiz = [
     Explanation:
       "Temporary tables are automatically removed from the database system at the end of the session, preventing any manual cleanup and ensuring efficient use of database resources",
     Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
+  },
+  {
+    Question: "In MySql, which command to show all the default databases that come as part of the installation?",
+    Answer: "SHOW DATABASES",
+    Distractor1: "LIST DATABASE",
+    Distractor2: "VIEW DATABASES",
+    Distractor3: "SHOW DATABASE",
+    Explanation:
+      "SHOW DATABASES command which shows all the default databases that come as part of the installation",
+    Link: "https://www.freecodecamp.org/news/learn-to-use-the-mysql-database/"
   }
 ];
 
