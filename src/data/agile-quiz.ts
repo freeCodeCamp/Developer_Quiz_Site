@@ -621,13 +621,13 @@ const agileQuiz = [
   {
     Question: "What's the difference between a burndown and a burnup chart?",
     Answer:
-      "Burndown charts show how much work is left to be done versus the amount of time remaining, while burnup charts show the work that has been completed versus the total amount of work and time remaining.",
+      "Burndown charts show how much work is left to be done, while burnup charts show the work that has been completed",
     Distractor1:
-      "Burndown charts show the total amount of work completed versus the remaining time, while burnup charts show the work left to be done versus the time remaining.",
+      "Burndown charts show the total amount of work completed, while burnup charts show the work left to be done versus",
     Distractor2:
-      "Burndown charts show the total amount of work completed versus the total amount of work, while burnup charts show the work that has been done versus the time remaining.",
+      "Burndown charts show the total amount of work completed, while burnup charts show the work that has been done",
     Distractor3:
-      "Burndown charts show the work completed over a specific period, while burnup charts illustrate the work completed against the planned schedule and the actual time taken.",
+      "Burndown charts show the work completed, while burnup charts show todo list items.",
     Explanation:
       'Burndown and burnup charts are very similar and are used to measure progress of a project. Burndown charts usually have 2 lines - an "Ideal Work Remaining Line" and an "Actual Work Remaining Line". Burnup charts have 3 lines that are typically used - an ideal line, a completed work line, and a total work line.',
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
