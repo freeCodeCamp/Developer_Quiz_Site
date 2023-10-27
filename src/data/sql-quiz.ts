@@ -1213,7 +1213,7 @@ const sqlQuiz = [
     Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
   },
   {
-    Question: "In MySql, which command to shows the current values of MySQL system variables?",
+    Question: "In MySQL, which command is used to show the current values of MySQL system variables?",
     Answer: "SHOW VARIABLES",
     Distractor1: "vars",
     Distractor2: "variables",
