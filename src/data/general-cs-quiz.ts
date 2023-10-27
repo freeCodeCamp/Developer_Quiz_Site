@@ -1847,6 +1847,16 @@ const generalCSQuiz = [
       "Load balancing is a technique used in computing and networking to distribute incoming network traffic or workload across multiple servers, devices, or resources. The primary goal of load balancing is to optimize resource utilization, maximize throughput, minimize response time, and ensure high availability of services.",
     Link: "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
   },
+  {
+    Question: "What does NTFS stand for in the context of Windows file systems?",
+    Answer: "New Technology File System",
+    Distractor1: "Network Time File System",
+    Distractor2: "Network Transfer File System",
+    Distractor3: "New Transfer File System",
+    Explanation:
+      "NTFS is a proprietary journaling file system developed by Microsoft. It is the default file system for Windows NT family.",
+    Link: "https://en.wikipedia.org/wiki/NTFS"
+  },
 ];
 
 export default generalCSQuiz;
