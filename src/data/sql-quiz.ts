@@ -1203,7 +1203,7 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
   },
   {
-    Question: "In MySql, which command to show all the default databases that come as part of the installation?",
+    Question: "In MySQL, which command is used to show all of the default databases that come as part of the installation?",
     Answer: "show databases",
     Distractor1: "databases",
     Distractor2: "view databases",
