@@ -1838,7 +1838,7 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Halting_problem"
   },
   {
-    Question: "What is load Balancing in LLD(Low Level Design)?",
+    Question: "What is load balancing in LLD(Low Level Design)?",
     Answer: " Distribution of  network traffic evenly across multiple servers",
     Distractor1: "An Internet Protocol",
     Distractor2: "Removing excess load from a server",
