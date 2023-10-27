@@ -1,5 +1,110 @@
 const sqlQuiz = [
   {
+    Question: "What is a FOREIGN KEY constraint used for in SQL?",
+    Answer:
+      "A FOREIGN KEY constraint defines a relationship between tables by referencing the primary key of another table.",
+    Distractor1: "It ensures that a column can only contain numeric values.",
+    Distractor2: "It enforces uniqueness within a column.",
+    Distractor3: "It allows a column to contain NULL values.",
+    Explanation:
+      "A FOREIGN KEY constraint establishes a link between two tables by referencing the primary key of another table. It enforces referential integrity and helps maintain relationships between tables in a database.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What are the four basic CRUD operations in SQL?",
+    Answer:
+      "The four basic CRUD operations in SQL are CREATE, READ, UPDATE, and DELETE.",
+    Distractor1: "CITE, REACH, UPDATE, DELETE",
+    Distractor2: "COPY, REJECT, UPDATE, DELETE",
+    Distractor3: "CONVERT, REVERT, UPLOAD, DELETE",
+    Explanation:
+      "CRUD stands for CREATE, READ, UPDATE, and DELETE, which are fundamental operations for managing data in a database.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What is the purpose of the SQL INSERT statement?",
+    Answer:
+      "The SQL INSERT statement is used to add new records to a table in the database.",
+    Distractor1: "It is used to modify existing records in a table.",
+    Distractor2: "It is used to delete records from a table.",
+    Distractor3: "It is used to retrieve data from a table.",
+    Explanation:
+      "The INSERT statement is used to insert new records with specified values into a table, effectively adding data to the table.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What is the purpose of the CREATE TABLE statement in SQL?",
+    Answer:
+      "The CREATE TABLE statement is used to create a new table in a database.",
+    Distractor1: "It is used to update existing table structures.",
+    Distractor2: "It is used to delete a table from the database.",
+    Distractor3: "It is used to add new records to an existing table.",
+    Explanation:
+      "The CREATE TABLE statement is used to define and create a new table in a database, specifying its columns, data types, and constraints.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What is the purpose of the SQL WHERE clause?",
+    Answer:
+      "The SQL WHERE clause is used to filter and specify the records to be retrieved, updated, or deleted based on specific conditions.",
+    Distractor1: "It is used to order records in a table.",
+    Distractor2: "It is used to define the table's primary key.",
+    Distractor3: "It is used to join multiple tables together.",
+    Explanation:
+      "The WHERE clause is used to narrow down the selection of records in a table by applying specific conditions. It is commonly used with SELECT, UPDATE, and DELETE statements to filter records.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What is SQL Injection?",
+    Answer:
+      "SQL Injection is a security vulnerability where an attacker can manipulate SQL queries by injecting malicious SQL code into input fields, potentially gaining unauthorized access to a database or damaging its content.",
+    Distractor1:
+      "SQL Injection is a method for improving SQL query performance.",
+    Distractor2: "SQL Injection is a way to add constraints to SQL queries.",
+    Distractor3: "SQL Injection is a tool used for creating SQL tables.",
+    Explanation:
+      "SQL Injection is a significant security concern as it allows attackers to bypass application security measures and manipulate database queries. They can extract, modify, or delete data, leading to unauthorized access or data breaches.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question:
+      "Which HTTP methods correlate with the CREATE, READ, UPDATE, and DELETE (CRUD) operations in SQL?",
+    Answer:
+      "HTTP POST corresponds to CREATE, HTTP GET to READ, HTTP PUT to UPDATE, and HTTP DELETE to DELETE (CRUD) operations.",
+    Distractor1:
+      "HTTP POST corresponds to DELETE, HTTP GET to CREATE, HTTP PUT to READ, and HTTP DELETE to UPDATE.",
+    Distractor2:
+      "HTTP POST corresponds to UPDATE, HTTP GET to DELETE, HTTP PUT to READ, and HTTP DELETE to CREATE.",
+    Distractor3:
+      "HTTP POST corresponds to READ, HTTP GET to UPDATE, HTTP PUT to DELETE, and HTTP DELETE to CREATE.",
+    Explanation:
+      "HTTP methods align with CRUD operations: POST (CREATE), GET (READ), PUT (UPDATE), and DELETE (DELETE). These methods are used to perform corresponding database operations.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What is the purpose of a PRIMARY KEY constraint in SQL?",
+    Answer:
+      "A PRIMARY KEY constraint uniquely identifies records within a table, and each table can have one primary key.",
+    Distractor1: "It specifies that a column can have NULL values.",
+    Distractor2: "It enforces the uniqueness of values in a column.",
+    Distractor3: "It allows multiple primary keys within a single table.",
+    Explanation:
+      "A PRIMARY KEY constraint ensures that the values in the specified column(s) are unique and not NULL. It uniquely identifies each record in the table and enforces data integrity.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question: "What does the NOT NULL constraint in SQL ensure?",
+    Answer:
+      "The NOT NULL constraint ensures that a column will not accept NULL values.",
+    Distractor1: "It enforces uniqueness of values in a column.",
+    Distractor2: "It allows a column to contain only unique values.",
+    Distractor3:
+      "It enforces a default value for a column if NULL is provided.",
+    Explanation:
+      "The NOT NULL constraint is used to specify that a column must contain a value and cannot be left empty (NULL). It ensures that every row in the table has a value in that column.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
     Question:
       "Which SQL database is known for its powerful features, open-source nature, and is often considered production-ready?",
     Answer: "PostgreSQL",
