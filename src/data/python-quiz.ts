@@ -1668,6 +1668,17 @@ const pythonQuiz = [
     Explanation:
       "This is a list comprehension that prints a list of squares from 0 to 9. We use list comprehensions to simplify one-liner operations in a for loop",
     Link: "https://www.freecodecamp.org/news/list-comprehension-in-python-with-code-examples/"
+  },
+  {
+    Question:
+      "In Python, which of the following dunder methods defines the behavior of the addition operator + for objects of a class?",
+    Answer: "__add__",
+    Distractor1: "__len__",
+    Distractor2: "__sub__",
+    Distractor3: "__mul__",
+    Explanation:
+      "Dunder methods (Double underscore) are special methods reserved in Python which affect's the behavior of the object and the interaction of the object with other objects.",
+    Link: "https://youtu.be/eWRfhZUzrAc?si=ehiKx8PbqeW8X504&t=12264"
   }
 ];
 
