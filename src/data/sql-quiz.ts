@@ -1210,8 +1210,9 @@ const sqlQuiz = [
     Distractor3: "SHOW DATABASE",
     Explanation:
       "SHOW DATABASES command which shows all the default databases that come as part of the installation",
-    Link: "https://www.freecodecamp.org/news/learn-to-use-the-mysql-database/"
-  }
+    Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
+  },
+  
 ];
 
 export default sqlQuiz;
