@@ -11,17 +11,6 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
   },
   {
-    Question: "What are the four basic CRUD operations in SQL?",
-    Answer:
-      "The four basic CRUD operations in SQL are CREATE, READ, UPDATE, and DELETE.",
-    Distractor1: "CITE, REACH, UPDATE, DELETE",
-    Distractor2: "COPY, REJECT, UPDATE, DELETE",
-    Distractor3: "CONVERT, REVERT, UPLOAD, DELETE",
-    Explanation:
-      "CRUD stands for CREATE, READ, UPDATE, and DELETE, which are fundamental operations for managing data in a database.",
-    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
-  },
-  {
     Question: "What is the purpose of the SQL INSERT statement?",
     Answer:
       "The SQL INSERT statement is used to add new records to a table in the database.",
@@ -57,7 +46,7 @@ const sqlQuiz = [
   {
     Question: "What is SQL Injection?",
     Answer:
-      "SQL Injection is a security vulnerability where an attacker can manipulate SQL queries by injecting malicious SQL code into input fields, potentially gaining unauthorized access to a database or damaging its content.",
+      "SQL Injection is when malicious SQL code is placed into input fields.",
     Distractor1:
       "SQL Injection is a method for improving SQL query performance.",
     Distractor2: "SQL Injection is a way to add constraints to SQL queries.",
