@@ -183,7 +183,6 @@ const linuxQuiz = [
     Explanation: "Bootloader passwords enhance boot process security.",
     Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
   },
-
   {
     Question:
       "In Linux, Which command is used to convert and copy files with specific size?",
