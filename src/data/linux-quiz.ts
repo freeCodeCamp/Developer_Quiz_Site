@@ -1,5 +1,189 @@
 const linuxQuiz = [
   {
+    Question: "What is the primary purpose of the /etc/passwd file in Linux?",
+    Answer:
+      "Storing user account information, including usernames, UIDs, home directories, and default shells.",
+    Distractor1: "Storing system configuration settings.",
+    Distractor2: "Managing software packages.",
+    Distractor3: "Storing system log files.",
+    Explanation:
+      "The /etc/passwd file contains user account information used by the system to authenticate and manage users.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question: "What is the User ID (UID) 0 typically reserved for in Linux?",
+    Answer: "The root user, which has superuser privileges.",
+    Distractor1: "Normal users with UID 0.",
+    Distractor2: "System accounts with UID 0.",
+    Distractor3: "Guest users.",
+    Explanation:
+      "UID 0 is reserved for the superuser (root) who has unrestricted access to the system.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "How does Linux represent the root user in the shell prompt when logged in as root?",
+    Answer: "#",
+    Distractor1: "@",
+    Distractor2: "$",
+    Distractor3: "!",
+    Explanation:
+      "The root user's shell prompt is typically displayed as '#' to signify the superuser's power and responsibility.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "Which of the following operations typically require root privileges in Linux?",
+    Answer:
+      "Creating, removing and managing user accounts, managing software packages, removing or modifying system files, restarting system services.",
+    Distractor1:
+      "Running network clients, using devices such as printers, accessing files with proper permissions, executing SUID-root applications.",
+    Distractor2:
+      "Managing user passwords, changing the system time, viewing system logs, creating user groups.",
+    Distractor3:
+      "Installing and updating software, using peripheral devices, reading user data, sharing files over the network.",
+    Explanation:
+      "Root privileges are necessary for critical system administration tasks.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What is the key difference between 'su' and 'sudo' in Linux for granting root access?",
+    Answer:
+      "'su' requires the root password, while 'sudo' requires the user's password and provides more fine-grained control over permissions.",
+    Distractor1:
+      "'su' requires the user's password, while 'sudo' requires the root password and provides detailed logging features.",
+    Distractor2:
+      "'su' and 'sudo' both require the root password and have the same level of security.",
+    Distractor3:
+      "'su' requires no password, while 'sudo' requires both the root and user passwords for authentication.",
+    Explanation:
+      "The methods differ in password requirements and security features.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What file is responsible for configuring user privileges when using 'sudo' in Linux?",
+    Answer: "/etc/sudoers",
+    Distractor1: "/etc/passwd",
+    Distractor2: "/etc/shadow",
+    Distractor3: "/etc/group",
+    Explanation:
+      "/etc/sudoers defines who has the right to use 'sudo' and the scope of their privilege.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question: "Where are sudo command logs typically stored on a Linux system?",
+    Answer: "/var/log/auth.log or /var/log/secure",
+    Distractor1: "/var/log/syslog",
+    Distractor2: "/var/log/messages",
+    Distractor3: "/var/log/sudo.log",
+    Explanation:
+      "Logging is crucial for tracking and accountability of 'sudo' use.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What hashing algorithm is commonly used to encrypt passwords on Linux systems?",
+    Answer: "SHA-512 (Secure Hashing Algorithm 512 bits)",
+    Distractor1: "MD5 (Message Digest Algorithm 5)",
+    Distractor2: "AES (Advanced Encryption Standard)",
+    Distractor3: "RSA (Rivest–Shamir–Adleman)",
+    Explanation: "SHA-512 is widely used for securing passwords in Linux.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question: "What is the purpose of password aging in Linux?",
+    Answer:
+      "To prompt users to create new passwords after a specific period, ensuring passwords have a limited usability period.",
+    Distractor1: "To force users to change their passwords daily.",
+    Distractor2: "To enforce strong password policies.",
+    Distractor3: "To store old passwords for historical reference.",
+    Explanation:
+      "Password aging enhances security by requiring password updates.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What is the recommended practice for handling known security vulnerabilities in Linux?",
+    Answer:
+      "Install updates promptly and take advantage of automatic update mechanisms.",
+    Distractor1:
+      "Ignore known vulnerabilities as they are usually not exploited.",
+    Distractor2:
+      "Manually patch vulnerabilities only when they become critical.",
+    Distractor3: "Reinstall the operating system to resolve vulnerabilities.",
+    Explanation:
+      "Prompt updates are essential to address known vulnerabilities.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "Where are user passwords typically stored in modern Linux systems?",
+    Answer: "/etc/shadow",
+    Distractor1: "/etc/passwd",
+    Distractor2: "/etc/passwords",
+    Distractor3: "/var/log/auth.log",
+    Explanation:
+      "Passwords are stored in an encrypted format in the /etc/shadow file.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What is the purpose of using Pluggable Authentication Modules (PAM) for password management in Linux?",
+    Answer:
+      "To enforce strong password policies and automatically verify password strength during password creation or modification.",
+    Distractor1: "To provide a secure environment for running applications.",
+    Distractor2: "To create user accounts with default settings.",
+    Distractor3: "To log all user authentication attempts.",
+    Explanation:
+      "PAM is used to enhance password security by ensuring strong passwords.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question: "How can you enhance the security of the boot process in Linux?",
+    Answer:
+      "By setting a secure password for the bootloader to prevent unauthorized changes during boot.",
+    Distractor1: "By encrypting the entire hard drive.",
+    Distractor2: "By disabling the bootloader entirely.",
+    Distractor3: "By setting a BIOS password.",
+    Explanation:
+      "Bootloader passwords prevent unauthorized changes during boot.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What is the purpose of the Control Groups (cgroups) feature in Linux?",
+    Answer:
+      "To group processes and associate finite resources to each cgroup, enhancing resource management and isolation.",
+    Distractor1: "To control access to hardware devices.",
+    Distractor2: "To manage user accounts and groups.",
+    Distractor3: "To encrypt files and directories.",
+    Explanation: "Control Groups (cgroups) help manage and isolate processes.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question:
+      "What type of accounts have User IDs (UIDs) ranging from 1000 or greater in Linux?",
+    Answer: "Normal user accounts.",
+    Distractor1: "Root accounts.",
+    Distractor2: "System accounts.",
+    Distractor3: "Guest accounts.",
+    Explanation:
+      "UIDs of 1000 or greater are typically assigned to normal users.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
+    Question: "What is the purpose of setting a bootloader password in Linux?",
+    Answer:
+      "To prevent unauthorized changes to the bootloader configuration during the boot process.",
+    Distractor1: "To encrypt the entire hard drive.",
+    Distractor2: "To lock the user out of the system entirely.",
+    Distractor3: "To protect the BIOS settings.",
+    Explanation: "Bootloader passwords enhance boot process security.",
+    Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
     Question:
       "In Linux, Which command is used to convert and copy files with specific size?",
     Answer: "dd",
