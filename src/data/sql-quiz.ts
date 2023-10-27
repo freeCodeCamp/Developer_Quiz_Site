@@ -1204,7 +1204,7 @@ const sqlQuiz = [
   },
   {
     Question: "In MySQL, which command is used to show all of the default databases that come as part of the installation?",
-    Answer: "show databases",
+    Answer: "SHOW DATABASES",
     Distractor1: "databases",
     Distractor2: "view databases",
     Distractor3: "show database",
