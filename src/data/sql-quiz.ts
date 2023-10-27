@@ -1204,10 +1204,10 @@ const sqlQuiz = [
   },
   {
     Question: "In MySql, which command to show all the default databases that come as part of the installation?",
-    Answer: "SHOW DATABASES",
-    Distractor1: "LIST DATABASE",
-    Distractor2: "VIEW DATABASES",
-    Distractor3: "SHOW DATABASE",
+    Answer: "show databases",
+    Distractor1: "databases",
+    Distractor2: "view databases",
+    Distractor3: "show database",
     Explanation:
       "SHOW DATABASES command which shows all the default databases that come as part of the installation",
     Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
