@@ -1201,7 +1201,27 @@ const sqlQuiz = [
     Explanation:
       "Temporary tables are automatically removed from the database system at the end of the session, preventing any manual cleanup and ensuring efficient use of database resources",
     Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
-  }
+  },
+  {
+    Question: "In MySQL, which command is used to show all of the default databases that come as part of the installation?",
+    Answer: "SHOW DATABASES",
+    Distractor1: "DATABASES",
+    Distractor2: "VIEW DATABASES",
+    Distractor3: "SHOW DATABASE",
+    Explanation:
+      "The SHOW DATABASES command shows all the default databases that comes with the MySQL installation.",
+    Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
+  },
+  {
+    Question: "In MySQL, which command is used to show the current values of MySQL system variables?",
+    Answer: "SHOW VARIABLES",
+    Distractor1: "VARS",
+    Distractor2: "VARIABLES",
+    Distractor3: "SHOW VARS",
+    Explanation:
+      "The SHOW VARIABLES statement is used to check the current value of MySQL system variables.",
+    Link: "https://youtu.be/ER8oKX5myE0?si=Glz3fWrKLnHuWpWo&t=4250"
+  },
 ];
 
 export default sqlQuiz;
