@@ -1205,9 +1205,9 @@ const sqlQuiz = [
   {
     Question: "In MySQL, which command is used to show all of the default databases that come as part of the installation?",
     Answer: "SHOW DATABASES",
-    Distractor1: "databases",
-    Distractor2: "view databases",
-    Distractor3: "show database",
+    Distractor1: "DATABASES",
+    Distractor2: "VIEW DATABASES",
+    Distractor3: "SHOW DATABASE",
     Explanation:
       "The SHOW DATABASES command shows all the default databases that comes with the MySQL installation.",
     Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
@@ -1215,9 +1215,9 @@ const sqlQuiz = [
   {
     Question: "In MySQL, which command is used to show the current values of MySQL system variables?",
     Answer: "SHOW VARIABLES",
-    Distractor1: "vars",
-    Distractor2: "variables",
-    Distractor3: "show vars",
+    Distractor1: "VARS",
+    Distractor2: "VARIABLES",
+    Distractor3: "SHOW VARS",
     Explanation:
       "The SHOW VARIABLES statement is used to check the current value of MySQL system variables.",
     Link: "https://youtu.be/ER8oKX5myE0?si=Glz3fWrKLnHuWpWo&t=4250"
