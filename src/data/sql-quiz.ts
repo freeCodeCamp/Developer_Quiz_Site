@@ -1219,7 +1219,7 @@ const sqlQuiz = [
     Distractor2: "variables",
     Distractor3: "show vars",
     Explanation:
-      "show variables is the command to check the current value of MySQL system variables",
+      "The SHOW VARIABLES statement is used to check the current value of MySQL system variables.",
     Link: "https://youtu.be/ER8oKX5myE0?si=Glz3fWrKLnHuWpWo&t=4250"
   },
 ];
