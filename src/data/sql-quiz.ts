@@ -1214,7 +1214,7 @@ const sqlQuiz = [
   },
   {
     Question: "In MySql, which command to shows the current values of MySQL system variables?",
-    Answer: "show variables",
+    Answer: "SHOW VARIABLES",
     Distractor1: "vars",
     Distractor2: "variables",
     Distractor3: "show vars",
