@@ -1209,7 +1209,7 @@ const sqlQuiz = [
     Distractor2: "view databases",
     Distractor3: "show database",
     Explanation:
-      "SHOW DATABASES command which shows all the default databases that come as part of the installation",
+      "The SHOW DATABASES command shows all the default databases that comes with the MySQL installation.",
     Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
   },
   {
