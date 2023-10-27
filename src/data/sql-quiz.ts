@@ -1212,7 +1212,16 @@ const sqlQuiz = [
       "SHOW DATABASES command which shows all the default databases that come as part of the installation",
     Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
   },
-  
+  {
+    Question: "In MySql, which command to shows the current values of MySQL system variables?",
+    Answer: "show variables",
+    Distractor1: "vars",
+    Distractor2: "variables",
+    Distractor3: "show vars",
+    Explanation:
+      "show variables is the command to check the current value of MySQL system variables",
+    Link: "https://youtu.be/ER8oKX5myE0?si=Glz3fWrKLnHuWpWo&t=4250"
+  },
 ];
 
 export default sqlQuiz;
