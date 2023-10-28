@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+  Question: "Which of the following is a primary application of computer vision?",
+  Answer: "Object recognition",
+  Distractor1: "Word processing",
+  Distractor2: "Spreadsheet calculations",
+  Distractor3: "Database management",
+  Explanation: "Computer vision primarily deals with enabling machines to interpret and make decisions based on visual data. Object recognition is a fundamental application of computer vision where the system identifies objects within an image or video.",
+  Link: "https://www.freecodecamp.org/news/computer-vision-js-frameworks-you-need-to-know-b233996103ce/"
+  },
+  {
     Question:
       "What is the average time complexity of an element insertion in a hash table?",
     Answer: "O(1)",
