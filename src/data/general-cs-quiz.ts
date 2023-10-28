@@ -1854,7 +1854,7 @@ const generalCSQuiz = [
     Distractor2: "Network Transfer File System",
     Distractor3: "New Transfer File System",
     Explanation:
-      "NTFS is a proprietary journaling file system developed by Microsoft. It is the default file system for Windows NT family.",
+      "NTFS, which stands for NT file system and the New Technology File System, is the file system that the Windows NT operating system (OS) uses for storing and retrieving files on hard disk drives (HDDs) and solid-state drives (SSDs). It is the default file system for the Windows NT family and it is developed by Microsoft.",
     Link: "https://en.wikipedia.org/wiki/NTFS"
   },
 ];
