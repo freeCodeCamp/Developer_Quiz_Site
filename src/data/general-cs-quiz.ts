@@ -1848,7 +1848,8 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
   },
   {
-    Question: "What does NTFS stand for in the context of Windows file systems?",
+    Question:
+      "What does NTFS stand for in the context of Windows file systems?",
     Answer: "New Technology File System",
     Distractor1: "Network Time File System",
     Distractor2: "Network Transfer File System",
@@ -1856,7 +1857,7 @@ const generalCSQuiz = [
     Explanation:
       "NTFS, which stands for NT file system and the New Technology File System, is the file system that the Windows NT operating system (OS) uses for storing and retrieving files on hard disk drives (HDDs) and solid-state drives (SSDs). It is the default file system for the Windows NT family and it is developed by Microsoft.",
     Link: "https://en.wikipedia.org/wiki/NTFS"
-  },
+  }
 ];
 
 export default generalCSQuiz;
