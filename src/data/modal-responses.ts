@@ -25,5 +25,15 @@ export const incorrectModalResponses = [
   "Unfortunately, your answer was incorrect.",
   "Oops! That is incorrect.",
   "Incorrect, try again",
-  "That's a wrong answer, keep trying"
+  "That's a wrong answer, keep trying",
+  "That's not quite right, keep trying",
+  "Oops! That is not the correct answer",
+  "Not quite the answer we were looking for, but keep going",
+  "Oops, that is not it, but keep going",
+  "Incorrect, but it is okay, keep trying",
+  "Sorry, that is not the correct answer",
+  "Incorrect, but do not give up",
+  "Incorrect, but keep going",
+  "Try agin, that is not correct",
+  "Incorrect response, but keep trying"
 ];
