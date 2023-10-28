@@ -9,6 +9,16 @@ const securityQuiz = [
     Link: "https://en.wikipedia.org/wiki/Attack_model"
   },
   {
+      Question:
+    "In the context of cybersecurity, what is the 'zero-day' vulnerability, and why is it particularly dangerous?",
+    Answer: "A vulnerability that is exploited before it is publicly known, making it unpatched and dangerous.",
+    Distractor1: "A vulnerability that exists for zero days, posing no threat.",
+    Distractor2: "A vulnerability with a zero percent likelihood of exploitation.",
+    Distractor3: "A vulnerability that can only be patched on the first day of discovery.",
+    Explanation: "Zero-day vulnerabilities are dangerous because they are exploited by cybercriminals before security patches are available, leaving systems exposed.",
+    Link: "https://en.wikipedia.org/wiki/Zero-day_(computing)"
+  },
+  {
     Question:
     "What is the purpose of the SQL HAVING clause in a query?",
     Answer: "To filter the results of an aggregate function",
