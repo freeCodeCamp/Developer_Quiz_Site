@@ -1297,7 +1297,8 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/sql-temp-table-how-to-create-a-temporary-sql-table/"
   },
   {
-    Question: "In MySQL, which command is used to show all of the default databases that come as part of the installation?",
+    Question:
+      "In MySQL, which command is used to show all of the default databases that come as part of the installation?",
     Answer: "SHOW DATABASES",
     Distractor1: "DATABASES",
     Distractor2: "VIEW DATABASES",
@@ -1307,7 +1308,8 @@ const sqlQuiz = [
     Link: "https://youtu.be/ER8oKX5myE0?si=gfwnDC7sCi6p5YIc&t=860"
   },
   {
-    Question: "In MySQL, which command is used to show the current values of MySQL system variables?",
+    Question:
+      "In MySQL, which command is used to show the current values of MySQL system variables?",
     Answer: "SHOW VARIABLES",
     Distractor1: "VARS",
     Distractor2: "VARIABLES",
@@ -1316,6 +1318,17 @@ const sqlQuiz = [
       "The SHOW VARIABLES statement is used to check the current value of MySQL system variables.",
     Link: "https://youtu.be/ER8oKX5myE0?si=Glz3fWrKLnHuWpWo&t=4250"
   },
+  {
+    Question:
+      "Which operator is used in the SQL query to match a single character?",
+    Answer: "_ wildcard operator",
+    Distractor1: "* wildcard operator ",
+    Distractor2: "+ wildcard operator ",
+    Distractor3: "% wildcard operator ",
+    Explanation:
+      "The _ wildcard operator matches a single character whereas % wildcard operator matches zero or more characters",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  }
 ];
 
 export default sqlQuiz;
