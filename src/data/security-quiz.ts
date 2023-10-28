@@ -10,6 +10,16 @@ const securityQuiz = [
   },
   {
     Question:
+    "What is the purpose of the SQL HAVING clause in a query?",
+    Answer: "To filter the results of an aggregate function",
+    Distractor1: "To sort the results in descending order",
+    Distractor2: "To join multiple tables",
+    Distractor3: "To create a new table",
+    Explanation: "HAVING is used with GROUP BY to filter aggregated data based on a condition.",
+    Link: "https://en.wikipedia.org/wiki/Having_(SQL)"
+  },
+  {
+    Question:
       "Which of the following reasons makes HTTPS more secure than HTTP?",
     Answer: "In HTTPS, all communications are encrypted",
     Distractor1: "HTTPS communications are in plain text",
