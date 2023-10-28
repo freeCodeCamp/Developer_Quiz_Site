@@ -1320,6 +1320,16 @@ const sqlQuiz = [
   },
   {
     Question:
+    "What is the purpose of the SQL HAVING clause in a query?"
+    Answer: "To filter the results of an aggregate function"
+    Distractor1: "To sort the results in descending order"
+    Distractor2: "To join multiple tables"
+    Distractor3: "To create a new table"
+    Explanation: "HAVING is used with GROUP BY to filter aggregated data based on a condition."
+    Link: "https://en.wikipedia.org/wiki/Having_(SQL)"
+  },
+  {
+    Question:
       "Which operator is used in the SQL query to match a single character?",
     Answer: "_ wildcard operator",
     Distractor1: "* wildcard operator ",
