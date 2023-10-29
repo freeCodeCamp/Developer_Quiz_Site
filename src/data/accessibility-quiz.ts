@@ -1,5 +1,65 @@
 const accessibilityQuiz = [
   {
+    Question: "What are the landmarks in web accessibility?",
+    Answer: "Structure",
+    Distractor1: "Images",
+    Distractor2: "Audio",
+    Distractor3: "Video",
+    Explanation:
+      "Landmarks provide a structural outline for web content, making it more accessible",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "How does layout structure contribute to web accessibility?",
+    Answer: "Organization",
+    Distractor1: "Fonts",
+    Distractor2: "Colors",
+    Distractor3: "Multimedia",
+    Explanation:
+      "A clear layout structure enhances the user experience for all, including those with disabilities.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "What is the minimum font size recommended for accessibility?",
+    Answer: "16px",
+    Distractor1: "10px",
+    Distractor2: "14px",
+    Distractor3: "18px",
+    Explanation:
+      "A font size of 16px or 12pt is considered a good practice for accessibility.",
+    Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html"
+  },
+  {
+    Question: "How does semantic HTML contribute to web accessibility?",
+    Answer: "Clarity",
+    Distractor1: "Interactivity",
+    Distractor2: "Animation",
+    Distractor3: "Multimedia",
+    Explanation:
+      "Semantic HTML tags provide clear and meaningful structure to web content.",
+    Link: "https://webaim.org/techniques/semanticstructure"
+  },
+  {
+    Question: "What is the role of a label in accessibility?",
+    Answer: "Identification",
+    Distractor1: "Navigation",
+    Distractor2: "Animation",
+    Distractor3: "Color",
+    Explanation:
+      "Labels help users identify form fields, buttons, and other interactive elements.",
+    Link: "https://www.freecodecamp.org/news/html-label-label-tag-example"
+  },
+  {
+    Question: "How do buttons enhance web accessibility?",
+    Answer: "Interaction",
+    Distractor1: "Navigation",
+    Distractor2: "Layout",
+    Distractor3: "Multimedia",
+    Explanation:
+      "Buttons provide interactive elements that are essential for accessibility.",
+    Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website"
+  },
+  {
     Question:
       "Which of the following is NOT one of the default landmark roles?",
     Answer: "nav",
