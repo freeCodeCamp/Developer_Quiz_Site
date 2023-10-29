@@ -40,7 +40,7 @@ const accessibilityQuiz = [
     Link: "https://webaim.org/techniques/semanticstructure"
   },
   {
-    Question: "What is the role of labels in accessibility?",
+    Question: "What is the role of label in accessibility?",
     Answer: "Identification",
     Distractor1: "Navigation",
     Distractor2: "Animation",
