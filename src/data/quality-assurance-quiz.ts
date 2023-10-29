@@ -410,6 +410,56 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Compatibility testing encompasses a wide range of factors, including operating systems, devices, screen sizes, and network conditions, while cross-browser testing concentrates on web browsers.",
     Link: "https://www.freecodecamp.org/news/cross-browser-compatibility-testing-best-practices-for-web-developers/"
+  },
+  {
+    Question:
+      "Which of the following is NOT an example of non-functional testing?",
+    Answer: "Checking the actual features of our product. ",
+    Distractor1:
+      "Stress testing to check how infrastructure responsds to heavy usage.",
+    Distractor2:
+      "Security testing to check if an application is vulnerable to common hacking attacks.",
+    Distractor3:
+      "Accessibility testing to check if an an application is coded in a way that is accessible for people with different disabilities.",
+    Explanation:
+      "Non-functional testing refers to anything that's not strictly related to the core features of our product.",
+    Link: "https://www.freecodecamp.org/news/test-a-react-app-with-jest-testing-library-and-cypress/"
+  },
+  {
+    Question:
+      "Which testing technique focuses on testing what the user should perceive?",
+    Answer: "Black Box Testing",
+    Distractor1: "White Box Testing",
+    Distractor2: "Grey Box Testing",
+    Distractor3: "Green Box Testing",
+    Explanation:
+      "Black box testing is a method where the tester does not have any working knowledge of the internal structure of the software. It verifies the functionality of the software.",
+    Link: "https://www.freecodecamp.org/news/4-testing-methods-which-are-mandatory-for-any-software-7731ad194fb3/"
+  },
+  {
+    Question: "What is a test-runner?",
+    Answer:
+      "A test-runner is piece of software that allows you to run tests to evaluate your app. ",
+    Distractor1:
+      "A test-runner is a programming language used for writing test cases and validating software applications.",
+    Distractor2:
+      "A test-runner is a device used in sports competitions to measure the speed and accuracy of athletes.",
+    Distractor3:
+      "A test-runner is a software tool that automatically generates test data for various software applications.",
+    Explanation:
+      "A test-runner is a piece of software that allows you to run tests to evaluate your app such as Jest, a JavaScript test-runner.",
+    Link: "https://www.freecodecamp.org/news/test-a-react-app-with-jest-testing-library-and-cypress/"
+  },
+  {
+    Question:
+      "What is the testing phase that's usually done when the software is almost 60 - 80% complete?",
+    Answer: "Alpha testing",
+    Distractor1: "Beta Testing",
+    Distractor2: "Backend Testing",
+    Distractor3: "GUI Testing",
+    Explanation:
+      "Alpha testing is done when the software is almost 60-80% complete. There is no fixed testing cycle. Each cycle might go up to two weeks. Alpha testing involves both black box and white box testing.",
+    Link: "https://www.freecodecamp.org/news/4-testing-methods-which-are-mandatory-for-any-software-7731ad194fb3/"
   }
 ];
 

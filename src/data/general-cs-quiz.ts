@@ -1,6 +1,17 @@
 const generalCSQuiz = [
   {
     Question:
+      "Which of the following is a primary application of computer vision?",
+    Answer: "Object recognition",
+    Distractor1: "Word processing",
+    Distractor2: "Spreadsheet calculations",
+    Distractor3: "Database management",
+    Explanation:
+      "Computer vision primarily deals with enabling machines to interpret and make decisions based on visual data. Object recognition is a fundamental application of computer vision where the system identifies objects within an image or video.",
+    Link: "https://www.freecodecamp.org/news/computer-vision-js-frameworks-you-need-to-know-b233996103ce/"
+  },
+  {
+    Question:
       "What is the average time complexity of an element insertion in a hash table?",
     Answer: "O(1)",
     Distractor1: "O(logn)",
@@ -1836,6 +1847,27 @@ const generalCSQuiz = [
     Explanation:
       "The Halting Problem is significant in theoretical computer science as it demonstrates the existence of problems that cannot be solved algorithmically.",
     Link: "https://en.wikipedia.org/wiki/Halting_problem"
+  },
+  {
+    Question: "What is load balancing in LLD(Low Level Design)?",
+    Answer: " Distribution of  network traffic evenly across multiple servers",
+    Distractor1: "An Internet Protocol",
+    Distractor2: "Removing excess load from a server",
+    Distractor3: "Allocating more resources to a single server",
+    Explanation:
+      "Load balancing is a technique used in computing and networking to distribute incoming network traffic or workload across multiple servers, devices, or resources. The primary goal of load balancing is to optimize resource utilization, maximize throughput, minimize response time, and ensure high availability of services.",
+    Link: "https://en.wikipedia.org/wiki/Load_balancing_(computing)"
+  },
+  {
+    Question:
+      "What does NTFS stand for in the context of Windows file systems?",
+    Answer: "New Technology File System",
+    Distractor1: "Network Time File System",
+    Distractor2: "Network Transfer File System",
+    Distractor3: "New Transfer File System",
+    Explanation:
+      "NTFS, which stands for NT file system and the New Technology File System, is the file system that the Windows NT operating system (OS) uses for storing and retrieving files on hard disk drives (HDDs) and solid-state drives (SSDs). It is the default file system for the Windows NT family and it is developed by Microsoft.",
+    Link: "https://en.wikipedia.org/wiki/NTFS"
   }
 ];
 

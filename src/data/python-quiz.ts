@@ -1671,13 +1671,15 @@ const pythonQuiz = [
   },
   {
     Question:
-      "Which of the following dunder methods allows you to do the expression x + y, where x and y are two objects of the same class?",
+      "In Python, which of the following dunder methods defines the behavior of the addition operator + for objects of a class?",
+
     Answer: "__add__",
     Distractor1: "__len__",
     Distractor2: "__sub__",
     Distractor3: "__mul__",
     Explanation:
-      "Dunder methods (Double underscore) are special methods reserved in Python which affect's the behaviour of the object and the interaction of the object with other objects.",
+      "Dunder methods (Double underscore) are special methods reserved in Python which affect's the behavior of the object and the interaction of the object with other objects.",
+
     Link: "https://youtu.be/eWRfhZUzrAc?si=ehiKx8PbqeW8X504&t=12264"
   }
 ];
