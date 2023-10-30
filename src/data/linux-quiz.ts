@@ -1,5 +1,16 @@
 const linuxQuiz = [
   {
+    Question:
+      "Which command allows you to run commands in a different root directory?",
+    Answer: "chroot",
+    Distractor1: "chmod",
+    Distractor2: "cd",
+    Distractor3: "cp",
+    Explanation:
+      "The chroot, short for “change root”, command changes the root directory and allows you to run commands in a different root directory.",
+    Link: "https://www.freecodecamp.org/news/helpful-linux-commands-you-should-know"
+  },
+  {
     Question: "What is the primary purpose of the /etc/passwd file in Linux?",
     Answer:
       "Storing user account information, including usernames, UIDs, home directories, and default shells.",
