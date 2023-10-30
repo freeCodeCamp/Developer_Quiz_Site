@@ -62,6 +62,11 @@ Read through [this helpful article](https://forum.freecodecamp.org/t/how-to-repo
 
 Then, report them by opening a **GitHub Issue**.
 
+### Our Contributors
+<a href="https://github.com/freeCodeCamp/Developer_Quiz_Site/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=freeCodeCamp/Developer_Quiz_Site&columns=15" />
+</a>
+
 ### License
 
 Copyright © 2023 freeCodeCamp.org, All rights reserved.
