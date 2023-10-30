@@ -1622,7 +1622,7 @@ const linuxQuiz = [
     Distractor2: "to redo last action",
     Distractor3: "to reload current shell",
     Explanation:
-      "Ctrl + r shortcut helps you query the command history by suggesting autocomplete",
+      "The Ctrl + r (windows) or ⌘ + r(mac) shortcut helps you query the command history by suggesting autocomplete.",
     Link: "https://www.freecodecamp.org/news/bash-command-line-tips-to-help-you-work-faster/"
   },
   {
