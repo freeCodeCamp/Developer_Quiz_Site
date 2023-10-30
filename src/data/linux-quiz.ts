@@ -1616,7 +1616,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "What does Ctrl + r do in default ubuntu terminal?",
+      "What does Ctrl + r (windows) or ⌘ + r(mac) do in the default ubuntu terminal?",
     Answer: "query the command history",
     Distractor1: "to call find & replace text function",
     Distractor2: "to redo last action",
