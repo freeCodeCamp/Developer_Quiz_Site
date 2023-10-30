@@ -1,12 +1,64 @@
 const accessibilityQuiz = [
   {
+    Question: "How does 'focus management' contribute to web accessibility?",
+    Answer:
+      "It ensures keyboard and screen reader users can navigate content in a logical order",
+    Distractor1: "It designs web forms",
+    Distractor2: "It provides navigation menus",
+    Distractor3: "It adds pop-up ads",
+    Explanation: "Focus management is essential for a smooth user experience.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "What is the primary goal of web accessibility?",
+    Answer:
+      "To make websites usable by as many people as possible, regardless of disabilities",
+    Distractor1: "To increase web traffic",
+    Distractor2: "To enhance website appearance",
+    Distractor3: "To block access for certain users",
+    Explanation:
+      "Web accessibility is the practice of ensuring that websites can be used effectively by individuals with disabilities, aiming to provide an inclusive and equitable online experience.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question:
+      "Why is it important to provide textual alternatives for non-text content in web accessibility?",
+    Answer:
+      "To ensure users with disabilities can access and understand content",
+    Distractor1: "To improve search engine rankings",
+    Distractor2: "To speed up website loading times",
+    Distractor3: "To add visual effects",
+    Explanation: "Textual alternatives are crucial for accessibility.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "Why is 'keyboard navigation' important in web accessibility?",
+    Answer: "It helps users navigate a website using keyboard keys",
+    Distractor1: "It enhances page design",
+    Distractor2: "It increases loading speed",
+    Distractor3: "It adds background music",
+    Explanation:
+      "Keyboard navigation allows users with mobility issues to browse a website efficiently.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question:
+      "What does 'text alternatives' for non-text content provide in web accessibility?",
+    Answer: "Ensures users with disabilities can access and understand content",
+    Distractor1: "Improves search engine rankings",
+    Distractor2: "Speeds up website loading times",
+    Distractor3: "Adds visual effects",
+    Explanation: "Text alternatives are essential for accessibility.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
     Question: "What are the landmarks in web accessibility?",
     Answer: "Structure",
     Distractor1: "Images",
     Distractor2: "Audio",
     Distractor3: "Video",
     Explanation:
-      "Landmarks provide a structural outline for web content, making it more accessible",
+      "Landmarks provide a structural outline for web content, making it more accessible.",
     Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
   },
   {
