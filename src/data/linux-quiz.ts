@@ -1624,6 +1624,17 @@ const linuxQuiz = [
     Explanation:
       "Ctrl + r shortcut helps you query the command history by suggesting autocomplete",
     Link: "https://www.freecodecamp.org/news/bash-command-line-tips-to-help-you-work-faster/"
+  },
+  {
+    Question:
+      "In Ubuntu, how to add user named `quincy` to group named `writers`?",
+    Answer: "usermod -a -G writers quincy",
+    Distractor1: "usermod -g writers quincy",
+    Distractor2: "useradd writers quincy",
+    Distractor3: "group writers -a quincy",
+    Explanation:
+      "You can use the usermod command to add a user to a group. The -a parameter means \"append\" and the -G parameter adds a group as a secondary group",
+    Link: "https://www.freecodecamp.org/news/linux-user-groups-explained-how-to-add-a-new-group-a-new-group-member-and-change-groups/"
   }
 ];
 
