@@ -1613,6 +1613,17 @@ const linuxQuiz = [
     Explanation:
       "Some commands fail to provide enough information and context. When you are in need of a custom solution, using an alias to refer to a more useful base command can be very helpful.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-alias-command"
+  },
+  {
+    Question:
+      "What does Ctrl + r do in default ubuntu terminal?",
+    Answer: "query the command history",
+    Distractor1: "to call find & replace text function",
+    Distractor2: "to redo last action",
+    Distractor3: "to reload current shell",
+    Explanation:
+      "Ctrl + r shortcut helps you query the command history by suggesting autocomplete",
+    Link: "https://www.freecodecamp.org/news/bash-command-line-tips-to-help-you-work-faster/"
   }
 ];
 
