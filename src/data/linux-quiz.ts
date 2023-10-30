@@ -1627,7 +1627,7 @@ const linuxQuiz = [
   },
   {
     Question:
-      "In Ubuntu, how to add user named `quincy` to group named `writers`?",
+      "In Ubuntu, which of the following commands adds the user named 'quincy' to a group named 'writers'?",
     Answer: "usermod -a -G writers quincy",
     Distractor1: "usermod -g writers quincy",
     Distractor2: "useradd writers quincy",
