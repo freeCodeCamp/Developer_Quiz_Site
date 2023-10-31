@@ -1032,6 +1032,51 @@ const accessibilityQuiz = [
     Explanation:
       "JAWS (Job Access With Speech) is widely used screen reading software developed by Freedom Scientific, which is available as licensed software for Windows.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
+  },
+  {
+    Question: "What is the primary goal of implementing web accessibility practices?",
+    Answer: "To ensure equal access to web content for all users, regardless of their abilities or disabilities.",
+    Distractor1: "To optimize website performance for specific browsers and devices.",
+    Distractor2: "To increase the aesthetic appeal of the website design.",
+    Distractor3: "To restrict access to certain content based on geographical locations.",
+    Explanation: "Web accessibility practices aim to make online content equally accessible to everyone, promoting inclusivity and usability across different user abilities.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question: "Why is it important for developers to prioritize semantic HTML when building websites?",
+    Answer: "It helps screen readers and other assistive technologies to interpret the content accurately.",
+    Distractor1: "It enhances the visual appeal of the website for users with normal vision.",
+    Distractor2: "It minimizes the overall file size and improves website loading speed.",
+    Distractor3: "It allows for more complex styling options using CSS and JavaScript.",
+    Explanation: "By prioritizing semantic HTML, developers enable better accessibility for users who rely on assistive technologies, ensuring accurate interpretation of website content for all users.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question: "How can developers ensure the accessibility of forms on their websites?",
+    Answer: "By using proper labeling and grouping of form elements, and providing clear instructions for users.",
+    Distractor1: "By minimizing the number of form fields to streamline the user experience.",
+    Distractor2: "By implementing complex validation rules to ensure data accuracy.",
+    Distractor3: "By embedding interactive multimedia elements within the form for engagement.",
+    Explanation: "Accessibility in web forms can be achieved by implementing clear labels, grouping related fields, and offering explicit instructions, facilitating easy navigation and understanding for all users.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question: "What is the significance of providing descriptive alt texts for images in web development?",
+    Answer: "It enables users with visual impairments to understand the content and context of the images.",
+    Distractor1: "It enhances the visual appeal of the website and encourages user engagement.",
+    Distractor2: "It prevents unauthorized use of images by other websites.",
+    Distractor3: "It improves search engine optimization (SEO) and boosts website visibility.",
+    Explanation: "Descriptive alt texts for images ensure that users with visual impairments can comprehend the content of the images, fostering a comprehensive browsing experience for all users.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question: "How does ensuring color contrast contribute to web accessibility?",
+    Answer: "It facilitates better readability and comprehension for users with visual impairments or color deficiencies.",
+    Distractor1: "It encourages creative expression and artistic design in website layouts.",
+    Distractor2: "It enhances the emotional impact of the website content on users.",
+    Distractor3: "It standardizes the color scheme across different web pages for consistency.",
+    Explanation: "Sufficient color contrast in web design enhances readability, ensuring that users with visual impairments or color deficiencies can access and comprehend the content effectively.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
   }
 ];
 
