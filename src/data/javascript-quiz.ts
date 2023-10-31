@@ -2066,7 +2066,7 @@ const javascriptQuiz = [
   },
   {
     Question: "What is the result of the given code: console.log(12 + 'A')?",
-    Answer: "12A",
+    Answer: "'12A'",
     Distractor1: "13",
     Distractor2: "NaN",
     Distractor3: "Error",
