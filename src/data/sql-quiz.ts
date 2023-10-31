@@ -1,12 +1,13 @@
 const sqlQuiz = [
   {
-  Question: "Which of the following is NOT a type of SQL constraint?",
-  Answer: "CHECKSIZE",
-  Distractor1: "PRIMARY KEY",
-  Distractor2: "FOREIGN KEY",
-  Distractor3: "UNIQUE",
-  Explanation: "SQL constraints are used to specify rules for the data in a table. CHECKSIZE is not a standard SQL constraint. The standard constraints include PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and DEFAULT.",
-  Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+    Question: "Which of the following is NOT a type of SQL constraint?",
+    Answer: "CHECKSIZE",
+    Distractor1: "PRIMARY KEY",
+    Distractor2: "FOREIGN KEY",
+    Distractor3: "UNIQUE",
+    Explanation:
+      "SQL constraints are used to specify rules for the data in a table. CHECKSIZE is not a standard SQL constraint. The standard constraints include PRIMARY KEY, FOREIGN KEY, UNIQUE, CHECK, and DEFAULT.",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
   },
   {
     Question: "What is a FOREIGN KEY constraint used for in SQL?",
