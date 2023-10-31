@@ -1,14 +1,14 @@
 const accessibilityQuiz = [
   {
     Question: 
-      "What does ASAP in the context of web development stand for?",
+      "What does ASAP mean in the context of accessibility?",
     Answer: "As Semantic As Possible",
     Distractor1: "As Soon As Possible",
     Distractor2: "Automated System Application Protocol",
     Distractor3: "Advanced Syntax Application Programming",
     Explanation: 
       "In the context of web development, ASAP stands for 'As Semantic As Possible', emphasizing the importance of semantic markup for accessibility and SEO.",
-    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/t"
+    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
   },
   {
     Question:
