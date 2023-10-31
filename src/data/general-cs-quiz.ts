@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+  Question: "What is the base case in a recursive function?",
+  Answer: "The condition under which the recursive function stops calling itself",
+  Distractor1: "The condition under which the recursive function starts calling itself",
+  Distractor2: "The maximum number of times the recursive function can call itself",
+  Distractor3: "The initial input value to the recursive function",
+  Explanation: "In recursion, the base case is the condition under which the recursive function stops calling itself to prevent an infinite loop. It is crucial for ensuring that the recursion terminates and the program does not run indefinitely.",
+  Link: "https://www.freecodecamp.org/news/recursion-in-javascript/"
+  },
+  {
     Question:
       "Which of the following is a primary application of computer vision?",
     Answer: "Object recognition",
