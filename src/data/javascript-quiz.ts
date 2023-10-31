@@ -2072,7 +2072,7 @@ const javascriptQuiz = [
     Distractor3: "Error",
     Explanation:
       "The result will be 12A since the entire expression will be considered as concatenation rather than addition.",
-    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
+    Link: "https://www.freecodecamp.org/news/javascript-string-concatenation/"
   }
 ];
 
