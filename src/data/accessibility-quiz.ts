@@ -1034,15 +1034,6 @@ const accessibilityQuiz = [
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
   },
   {
-    Question: "What is the primary goal of implementing web accessibility practices?",
-    Answer: "To ensure equal access to web content for all users, regardless of their abilities or disabilities.",
-    Distractor1: "To optimize website performance for specific browsers and devices.",
-    Distractor2: "To increase the aesthetic appeal of the website design.",
-    Distractor3: "To restrict access to certain content based on geographical locations.",
-    Explanation: "Web accessibility practices aim to make online content equally accessible to everyone, promoting inclusivity and usability across different user abilities.",
-    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
-  },
-  {
     Question: "Why is it important for developers to prioritize semantic HTML when building websites?",
     Answer: "It helps screen readers and other assistive technologies to interpret the content accurately.",
     Distractor1: "It enhances the visual appeal of the website for users with normal vision.",
@@ -1069,15 +1060,6 @@ const accessibilityQuiz = [
     Explanation: "Descriptive alt texts for images ensure that users with visual impairments can comprehend the content of the images, fostering a comprehensive browsing experience for all users.",
     Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
   },
-  {
-    Question: "How does ensuring color contrast contribute to web accessibility?",
-    Answer: "It facilitates better readability and comprehension for users with visual impairments or color deficiencies.",
-    Distractor1: "It encourages creative expression and artistic design in website layouts.",
-    Distractor2: "It enhances the emotional impact of the website content on users.",
-    Distractor3: "It standardizes the color scheme across different web pages for consistency.",
-    Explanation: "Sufficient color contrast in web design enhances readability, ensuring that users with visual impairments or color deficiencies can access and comprehend the content effectively.",
-    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
-  }
 ];
 
 export default accessibilityQuiz;
