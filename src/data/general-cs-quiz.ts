@@ -1,5 +1,14 @@
 const generalCSQuiz = [
   {
+  Question: "Which of the following is NOT one of the four main components of Computational Thinking?",
+  Answer: "Debugging",
+  Distractor1: "Decomposition",
+  Distractor2: "Pattern Recognition",
+  Distractor3: "Abstraction",
+  Explanation: "Computational Thinking involves Decomposition (breaking down a complex problem into more manageable parts), Pattern Recognition (finding similarities, or patterns, among the parts), Abstraction (focusing on the important information only, ignoring irrelevant details), and Algorithm Design (creating a step-by-step solution to the problem, or the rules to follow to solve the problem). Debugging, while a critical skill in computer programming, is not considered one of the main components of Computational Thinking.",
+  Link: "https://www.w3.org/community/blog/2023/08/12/proposed-group-computational-intelligence-business-group/"
+  },
+  {
     Question:
       "Which of the following is a primary application of computer vision?",
     Answer: "Object recognition",
