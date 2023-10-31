@@ -1,5 +1,14 @@
 const linuxQuiz = [
   {
+  Question: "In Linux, what does the 'nohup' command do?",
+  Answer: "Runs a command in the background even after a user logs out",
+  Distractor1: "Sends a hangup signal to a process",
+  Distractor2: "Prevents a command from being executed",
+  Distractor3: "Displays network connections",
+  Explanation: "The 'nohup' command in Linux is used to run another command in the background and it will keep running even after the user who started it has logged out. It is not used to send hangup signals, prevent commands from executing, or display network connections.",
+  Link: "https://www.freecodecamp.org/news/introduction-to-linux-part-2/"
+  },
+  {
     Question:
       "Which command allows you to run commands in a different root directory?",
     Answer: "chroot",
