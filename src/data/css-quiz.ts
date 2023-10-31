@@ -1318,6 +1318,17 @@ const cssQuiz = [
     Explanation:
       "When you set an element's width to 100%, it means that the element should occupy the entire width of its parent container. This is particularly useful for creating responsive web designs where you want elements to adapt to the available space.",
     Link: "https://www.freecodecamp.org/news/html-page-width-height/"
+  },
+  {
+    Question:
+      "Which CSS at-rule is used to specify a custom font to display the text in a website?",
+    Answer: "@font-face",
+    Distractor1: "@charset",
+    Distractor2: "@namespace",
+    Distractor3: "@font-feature-values",
+    Explanation:
+      "The @font-face CSS at-rule specifies a custom font with which to display text and can be loaded from either via URL or a locally-installed font.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face"
   }
 ];
 

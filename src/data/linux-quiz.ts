@@ -1,5 +1,16 @@
 const linuxQuiz = [
   {
+    Question:
+      "Which command allows you to run commands in a different root directory?",
+    Answer: "chroot",
+    Distractor1: "chmod",
+    Distractor2: "cd",
+    Distractor3: "cp",
+    Explanation:
+      "The chroot, short for “change root”, command changes the root directory and allows you to run commands in a different root directory.",
+    Link: "https://www.freecodecamp.org/news/helpful-linux-commands-you-should-know"
+  },
+  {
     Question: "What is the primary purpose of the /etc/passwd file in Linux?",
     Answer:
       "Storing user account information, including usernames, UIDs, home directories, and default shells.",
@@ -1613,6 +1624,28 @@ const linuxQuiz = [
     Explanation:
       "Some commands fail to provide enough information and context. When you are in need of a custom solution, using an alias to refer to a more useful base command can be very helpful.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/#the-linux-alias-command"
+  },
+  {
+    Question:
+      "What does Ctrl + r (windows) or ⌘ + r(mac) do in the default ubuntu terminal?",
+    Answer: "query the command history",
+    Distractor1: "to call find & replace text function",
+    Distractor2: "to redo last action",
+    Distractor3: "to reload current shell",
+    Explanation:
+      "The Ctrl + r (windows) or ⌘ + r(mac) shortcut helps you query the command history by suggesting autocomplete.",
+    Link: "https://www.freecodecamp.org/news/bash-command-line-tips-to-help-you-work-faster/"
+  },
+  {
+    Question:
+      "In Ubuntu, which of the following commands adds the user named 'quincy' to a group named 'writers'?",
+    Answer: "usermod -a -G writers quincy",
+    Distractor1: "usermod -g writers quincy",
+    Distractor2: "useradd writers quincy",
+    Distractor3: "group writers -a quincy",
+    Explanation:
+      "You can use the usermod command to add a user to a group. The -a parameter means \"append\" and the -G parameter adds a group as a secondary group",
+    Link: "https://www.freecodecamp.org/news/linux-user-groups-explained-how-to-add-a-new-group-a-new-group-member-and-change-groups/"
   }
 ];
 

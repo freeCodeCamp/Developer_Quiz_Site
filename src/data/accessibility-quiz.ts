@@ -1,5 +1,5 @@
 const accessibilityQuiz = [
-  {
+  { 
     Question: 
       "What does ASAP mean in the context of accessibility?",
     Answer: "As Semantic As Possible",
@@ -8,7 +8,119 @@ const accessibilityQuiz = [
     Distractor3: "Advanced Syntax Application Programming",
     Explanation: 
       "In the context of web development, ASAP stands for 'As Semantic As Possible', emphasizing the importance of semantic markup for accessibility and SEO.",
-    Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
+     Link: "https://www.freecodecamp.org/news/web-accessibility-best-practices-a11y-tips/"
+  },
+  {
+    Question: "How does 'focus management' contribute to web accessibility?",
+    Answer:
+      "It ensures keyboard and screen reader users can navigate content in a logical order",
+    Distractor1: "It designs web forms",
+    Distractor2: "It provides navigation menus",
+    Distractor3: "It adds pop-up ads",
+    Explanation: "Focus management is essential for a smooth user experience.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "What is the primary goal of web accessibility?",
+    Answer:
+      "To make websites usable by as many people as possible, regardless of disabilities",
+    Distractor1: "To increase web traffic",
+    Distractor2: "To enhance website appearance",
+    Distractor3: "To block access for certain users",
+    Explanation:
+      "Web accessibility is the practice of ensuring that websites can be used effectively by individuals with disabilities, aiming to provide an inclusive and equitable online experience.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question:
+      "Why is it important to provide textual alternatives for non-text content in web accessibility?",
+    Answer:
+      "To ensure users with disabilities can access and understand content",
+    Distractor1: "To improve search engine rankings",
+    Distractor2: "To speed up website loading times",
+    Distractor3: "To add visual effects",
+    Explanation: "Textual alternatives are crucial for accessibility.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "Why is 'keyboard navigation' important in web accessibility?",
+    Answer: "It helps users navigate a website using keyboard keys",
+    Distractor1: "It enhances page design",
+    Distractor2: "It increases loading speed",
+    Distractor3: "It adds background music",
+    Explanation:
+      "Keyboard navigation allows users with mobility issues to browse a website efficiently.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question:
+      "What does 'text alternatives' for non-text content provide in web accessibility?",
+    Answer: "Ensures users with disabilities can access and understand content",
+    Distractor1: "Improves search engine rankings",
+    Distractor2: "Speeds up website loading times",
+    Distractor3: "Adds visual effects",
+    Explanation: "Text alternatives are essential for accessibility.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "What are the landmarks in web accessibility?",
+    Answer: "Structure",
+    Distractor1: "Images",
+    Distractor2: "Audio",
+    Distractor3: "Video",
+    Explanation:
+      "Landmarks provide a structural outline for web content, making it more accessible.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "How does layout structure contribute to web accessibility?",
+    Answer: "Organization",
+    Distractor1: "Fonts",
+    Distractor2: "Colors",
+    Distractor3: "Multimedia",
+    Explanation:
+      "A clear layout structure enhances the user experience for all, including those with disabilities.",
+    Link: "https://www.freecodecamp.org/news/web-accessibility-common-aria-mistakes-to-avoid"
+  },
+  {
+    Question: "What is the minimum font size recommended for accessibility?",
+    Answer: "16px",
+    Distractor1: "10px",
+    Distractor2: "14px",
+    Distractor3: "18px",
+    Explanation:
+      "A font size of 16px or 12pt is considered a good practice for accessibility.",
+    Link: "https://www.freecodecamp.org/news/how-to-change-text-size-in-html"
+  },
+  {
+    Question: "How does semantic HTML contribute to web accessibility?",
+    Answer: "Clarity",
+    Distractor1: "Interactivity",
+    Distractor2: "Animation",
+    Distractor3: "Multimedia",
+    Explanation:
+      "Semantic HTML tags provide clear and meaningful structure to web content.",
+    Link: "https://webaim.org/techniques/semanticstructure"
+  },
+  {
+    Question: "What is the role of a label in accessibility?",
+    Answer: "Identification",
+    Distractor1: "Navigation",
+    Distractor2: "Animation",
+    Distractor3: "Color",
+    Explanation:
+      "Labels help users identify form fields, buttons, and other interactive elements.",
+    Link: "https://www.freecodecamp.org/news/html-label-label-tag-example"
+  },
+  {
+    Question: "How do buttons enhance web accessibility?",
+    Answer: "Interaction",
+    Distractor1: "Navigation",
+    Distractor2: "Layout",
+    Distractor3: "Multimedia",
+    Explanation:
+      "Buttons provide interactive elements that are essential for accessibility.",
+    Link: "https://www.freecodecamp.org/news/html-button-type-how-to-add-buttons-to-your-website"
   },
   {
     Question:
@@ -931,7 +1043,34 @@ const accessibilityQuiz = [
     Explanation:
       "JAWS (Job Access With Speech) is widely used screen reading software developed by Freedom Scientific, which is available as licensed software for Windows.",
     Link: "https://www.freecodecamp.org/news/accessibility-testing-tools-for-ada-compliance/"
-  }
+  },
+  {
+    Question: "Why is it important for developers to prioritize semantic HTML when building websites?",
+    Answer: "It helps screen readers and other assistive technologies to interpret the content accurately.",
+    Distractor1: "It enhances the visual appeal of the website for users with normal vision.",
+    Distractor2: "It minimizes the overall file size and improves website loading speed.",
+    Distractor3: "It allows for more complex styling options using CSS and JavaScript.",
+    Explanation: "By prioritizing semantic HTML, developers enable better accessibility for users who rely on assistive technologies, ensuring accurate interpretation of website content for all users.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question: "How can developers ensure the accessibility of forms on their websites?",
+    Answer: "By using proper labeling and grouping of form elements, and providing clear instructions for users.",
+    Distractor1: "By minimizing the number of form fields to streamline the user experience.",
+    Distractor2: "By implementing complex validation rules to ensure data accuracy.",
+    Distractor3: "By embedding interactive multimedia elements within the form for engagement.",
+    Explanation: "Accessibility in web forms can be achieved by implementing clear labels, grouping related fields, and offering explicit instructions, facilitating easy navigation and understanding for all users.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question: "What is the significance of providing descriptive alt texts for images in web development?",
+    Answer: "It enables users with visual impairments to understand the content and context of the images.",
+    Distractor1: "It enhances the visual appeal of the website and encourages user engagement.",
+    Distractor2: "It prevents unauthorized use of images by other websites.",
+    Distractor3: "It improves search engine optimization (SEO) and boosts website visibility.",
+    Explanation: "Descriptive alt texts for images ensure that users with visual impairments can comprehend the content of the images, fostering a comprehensive browsing experience for all users.",
+    Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
 ];
 
 export default accessibilityQuiz;
