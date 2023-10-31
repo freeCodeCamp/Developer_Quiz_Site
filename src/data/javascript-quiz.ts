@@ -2071,7 +2071,7 @@ const javascriptQuiz = [
     Distractor2: "NaN",
     Distractor3: "Error",
     Explanation:
-      "The result will be 12A since the entire expression will be considered as concatenation rather than addition.",
+      "12 + 'A' would result in '12A' since the entire expression will be considered as string concatenation rather than addition.",
     Link: "https://www.freecodecamp.org/news/javascript-string-concatenation/"
   }
 ];
