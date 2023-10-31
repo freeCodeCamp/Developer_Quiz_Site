@@ -2063,6 +2063,16 @@ const javascriptQuiz = [
     Explanation:
       "There are 7 primitive data types in JavaScript: strings, numbers, booleans, null, undefined, Symbol, and BigInt. Everything else is a JavaScript object including arrays, sets, functions, dates, etc.",
     Link: "https://www.freecodecamp.org/news/objects-in-javascript/"
+  },
+  {
+    Question: "What is the result of the given code: console.log(12 + 'A')?",
+    Answer: "12A",
+    Distractor1: "13",
+    Distractor2: "NaN",
+    Distractor3: "Error",
+    Explanation:
+      "The result will be 12A since the entire expression will be considered as concatenation rather than addition.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Addition"
   }
 ];
 
