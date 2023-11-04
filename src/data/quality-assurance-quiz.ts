@@ -460,6 +460,16 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Alpha testing is done when the software is almost 60-80% complete. There is no fixed testing cycle. Each cycle might go up to two weeks. Alpha testing involves both black box and white box testing.",
     Link: "https://www.freecodecamp.org/news/4-testing-methods-which-are-mandatory-for-any-software-7731ad194fb3/"
+  },
+  {
+    Question: "What does CI/CD stand for?",
+    Answer: "Continuous Integration/Continuous Delivery",
+    Distractor1: "Combined Integration/Combined Delivery",
+    Distractor2: "Contigency Integration/Contigency Delivery",
+    Distractor3: "Customer Integration/Customer Delivery",
+    Explanation:
+      "Continuous Integration and Continuous Delivery (CI/CD) is a software development approach that aims to improve the speed, efficiency, and reliability of software delivery.",
+    Link: "https://www.freecodecamp.org/news/what-is-ci-cd/"
   }
 ];
 
