@@ -1338,6 +1338,17 @@ const sqlQuiz = [
     Explanation:
       "The _ wildcard operator matches a single character whereas % wildcard operator matches zero or more characters",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/"
+  },
+  {
+    Question:
+      "Which of the following normal forms have better data integrity and less duplicate data?",
+    Answer: "Boyce-Codd normal form (BCNF)",
+    Distractor1: "First normal form (1NF)",
+    Distractor2: "Third normal form (3NF)",
+    Distractor3: "Second normal form (2NF)",
+    Explanation:
+      "Boyce-Codd is the most normalized form and so it has better data integrity and less duplicate data compared to others",
+    Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
   }
 ];
 
