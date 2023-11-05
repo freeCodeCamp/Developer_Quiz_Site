@@ -1644,7 +1644,7 @@ const linuxQuiz = [
     Distractor2: "useradd writers quincy",
     Distractor3: "group writers -a quincy",
     Explanation:
-      "You can use the usermod command to add a user to a group. The -a parameter means \"append\" and the -G parameter adds a group as a secondary group",
+      'You can use the usermod command to add a user to a group. The -a parameter means "append" and the -G parameter adds a group as a secondary group',
     Link: "https://www.freecodecamp.org/news/linux-user-groups-explained-how-to-add-a-new-group-a-new-group-member-and-change-groups/"
   }
 ];
