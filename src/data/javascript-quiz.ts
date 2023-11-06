@@ -2073,6 +2073,17 @@ const javascriptQuiz = [
     Explanation:
       "12 + 'A' would result in '12A' since the entire expression will be considered as string concatenation rather than addition.",
     Link: "https://www.freecodecamp.org/news/javascript-string-concatenation/"
+  },
+  {
+    Question:
+      "Which of the following is not a valid way to declare a variable in JavaScript?",
+    Answer: "let 1z = 10;",
+    Distractor1: "var x;",
+    Distractor2: "const y = 5;",
+    Distractor3: "let name = 'John'",
+    Explanation:
+      "Variable names cannot start with a number or any special character.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
   }
 ];
 
