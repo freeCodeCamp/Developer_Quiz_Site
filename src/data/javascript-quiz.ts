@@ -2083,7 +2083,7 @@ const javascriptQuiz = [
     Distractor3: "let name = 'John'",
     Explanation:
       "Variable names cannot start with a number or any special character.",
-    Link: "https://www.w3schools.com/js/js_variables.asp"
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
   }
 ];
 
