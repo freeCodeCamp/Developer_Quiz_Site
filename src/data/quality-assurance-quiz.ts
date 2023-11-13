@@ -470,6 +470,19 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Continuous Integration and Continuous Delivery (CI/CD) is a software development approach that aims to improve the speed, efficiency, and reliability of software delivery.",
     Link: "https://www.freecodecamp.org/news/what-is-ci-cd/"
+  },
+  {
+    Question: "What is Negative path testing used for?",
+    Answer:
+      "To produce an error state in an application and verify that the error is handled gracefully",
+    Distractor1: "Tests that check for basic functionality",
+    Distractor2:
+      "To test individual components/modules together to ensure they connect and interact well with one another.",
+    Distractor3:
+      "To ensure that new functionality has not unintentionally broken previously tested functionality",
+    Explanation:
+      "Negative path testing is a testing scenario designed to produce an error state in a feature/application and verify that the error is handled gracefully",
+    Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/"
   }
 ];
 
