@@ -66,8 +66,13 @@ a:hover {
   border: none;
   cursor: pointer;
   width: 100%;
+  transition: all 0.4s ease-in-out;
 }
 
+.select-btns:hover,
+.answers-btns:hover {
+  box-shadow: -1px -1px 15px rgb(245 242 247 / 70%);
+}
 .answers-btns--selected {
   background-color: #cccccc;
 }
