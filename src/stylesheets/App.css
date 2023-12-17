@@ -85,6 +85,7 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  width: 50%;
 }
 
 .quiz-answers-div legend {
@@ -146,5 +147,9 @@ a:hover {
 @media screen and (max-width: 460px) {
   .select-btn-div {
     width: auto !important;
+  }
+
+  .quiz-answers-div {
+    width: auto;
   }
 }

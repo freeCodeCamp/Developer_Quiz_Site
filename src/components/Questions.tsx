@@ -39,7 +39,7 @@ const Questions: React.FC<QuizProps> = QuizProps => {
         {QuizProps.chooseAnswer ? (
           <QuizModal {...QuizProps.modalProps} />
         ) : (
-          <fieldset className="w-50 quiz-answers-div">
+          <fieldset className="quiz-answers-div">
             <legend>
               <span className="sr-only">
                 Question {QuizProps.questionNumber}
