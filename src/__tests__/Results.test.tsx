@@ -2,15 +2,14 @@ import Results from "../components/Results";
 import React from "react";
 import ReactDOM from "react-dom";
 import { render, cleanup } from "@testing-library/react";
+import { vi } from "vitest";
 
 afterEach(cleanup);
 
 // Mock the react-confetti module to prevent rendering actual confetti
-jest.mock("react-confetti", () => {
-  return function MockConfetti() {
-    return <div data-testid="confetti-mock" />;
-  };
-});
+vi.mock("react-confetti", () => ({
+  default: () => <div data-testid="confetti-mock" />
+}));
 
 describe("Results", () => {
   it("Renders without crashing", () => {
@@ -40,7 +39,7 @@ describe("Results", () => {
     const props = {
       points: 10,
       totalQuestions: 10,
-      resetQuiz: jest.fn()
+      resetQuiz: vi.fn()
     };
     const { getByTestId } = render(<Results {...props} />);
     const confettiElement = getByTestId("confetti-mock");
