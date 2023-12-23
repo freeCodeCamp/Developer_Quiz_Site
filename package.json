@@ -20,7 +20,7 @@
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "start": "vite",
     "preview": "vite preview",
     "start:local-docker": "docker container run --rm -it -p 3000:3000 developer-quiz-site",
