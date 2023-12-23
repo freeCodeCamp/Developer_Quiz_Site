@@ -19,7 +19,7 @@
   },
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "npm run build && cp CNAME dist/CNAME",
     "deploy": "gh-pages -d dist",
     "start": "vite",
     "preview": "vite preview",
