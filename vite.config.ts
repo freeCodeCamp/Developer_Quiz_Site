@@ -2,7 +2,6 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/Developer_Quiz_Site",
   plugins: [react()],
   root: "src",
   server: {
