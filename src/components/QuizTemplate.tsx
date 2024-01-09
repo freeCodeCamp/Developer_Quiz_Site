@@ -4,7 +4,7 @@ import SelectCategory from "./SelectCategory";
 import { ALL_CATEGORIES } from "../constants";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
-import Button from "./Button";
+
 import FCCLogo from "./FCCLogo";
 import Questions from "./Questions";
 import "../stylesheets/App.css";
@@ -12,7 +12,7 @@ import {
   correctModalResponses,
   incorrectModalResponses
 } from "../data/modal-responses";
-import { NavLink } from "react-router-dom";
+import LinkButton from "./LinkButton";
 
 const QuizTemplate: React.FC = () => {
   const [quiz, setQuiz] = useState(ALL_CATEGORIES);
@@ -219,14 +219,7 @@ const QuizTemplate: React.FC = () => {
 
   return (
     <>
-      <NavLink to="/">
-        <Button
-          handleClick={console.log}
-          text="Home"
-          isTransparent={false}
-          size={""}
-        />
-      </NavLink>
+      <LinkButton to="/">Home</LinkButton>
       <FCCLogo />
       {!showOptions ? (
         <SelectCategory

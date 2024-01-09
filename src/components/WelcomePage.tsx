@@ -8,6 +8,7 @@ import "../stylesheets/HomepageRow.css";
 import React from "react";
 import { ROUNDED_QUESTION_COUNT } from "../constants";
 import { NavLink } from "react-router-dom";
+import LinkButton from "./LinkButton";
 
 const WelcomePage: React.FC = () => {
   return (
@@ -28,14 +29,7 @@ const WelcomePage: React.FC = () => {
               Brush up on your programming knowledge with{" "}
               {ROUNDED_QUESTION_COUNT}+ questions.
             </p>
-            <NavLink to="/quizzes">
-              <Button
-                handleClick={console.log}
-                text="Quiz"
-                isTransparent={false}
-                size={""}
-              />
-            </NavLink>
+            <LinkButton to="/quizzes">Quiz</LinkButton>
           </div>
           <div className="col-md-5 content-img-container">
             <img

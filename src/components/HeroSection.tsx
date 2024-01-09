@@ -1,8 +1,8 @@
 import React from "react";
-import Button from "./Button";
 import "../stylesheets/HeroSection.css";
 import { ROUNDED_QUESTION_COUNT } from "../constants";
-import { NavLink } from "react-router-dom";
+import LinkButton from "./LinkButton";
+
 const HeroSection: React.FC = () => {
   return (
     <div className="hero-container">
@@ -18,14 +18,9 @@ const HeroSection: React.FC = () => {
           </h2>
         </div>
         <div className="hero-button">
-          <NavLink to="/quizzes">
-            <Button
-              text="Get started (it's free)"
-              handleClick={console.log}
-              size="large"
-              isTransparent={false}
-            />
-          </NavLink>
+          <LinkButton to="/quizzes" isLarge>
+            {`Get started (it's free)`}
+          </LinkButton>
         </div>
       </div>
     </div>
