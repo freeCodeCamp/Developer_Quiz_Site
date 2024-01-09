@@ -18,7 +18,7 @@ const HeroSection: React.FC = () => {
           </h2>
         </div>
         <div className="hero-button">
-          <NavLink to="/quizes">
+          <NavLink to="/quizzes">
             <Button
               text="Get started (it's free)"
               handleClick={console.log}
