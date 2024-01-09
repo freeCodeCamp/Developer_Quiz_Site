@@ -2,12 +2,10 @@ import rpgMenu from "../images/rpg-menu.webp";
 import mainCharacter from "../images/main-character.webp";
 import fccBackground from "../images/fcc_background.webp";
 import Navbar from "./Navbar";
-import Button from "./Button";
 import HeroSection from "./HeroSection";
 import "../stylesheets/HomepageRow.css";
 import React from "react";
 import { ROUNDED_QUESTION_COUNT } from "../constants";
-import { NavLink } from "react-router-dom";
 import ButtonLink from "./ButtonLink";
 
 const WelcomePage: React.FC = () => {
