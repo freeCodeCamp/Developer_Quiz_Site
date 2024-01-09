@@ -12,7 +12,7 @@ import {
   correctModalResponses,
   incorrectModalResponses
 } from "../data/modal-responses";
-import LinkButton from "./LinkButton";
+import ButtonLink from "./ButtonLink";
 
 const QuizTemplate: React.FC = () => {
   const [quiz, setQuiz] = useState(ALL_CATEGORIES);
@@ -219,7 +219,7 @@ const QuizTemplate: React.FC = () => {
 
   return (
     <>
-      <LinkButton to="/">Home</LinkButton>
+      <ButtonLink to="/">Home</ButtonLink>
       <FCCLogo />
       {!showOptions ? (
         <SelectCategory

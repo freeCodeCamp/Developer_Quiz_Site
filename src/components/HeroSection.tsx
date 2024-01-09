@@ -1,7 +1,7 @@
 import React from "react";
 import "../stylesheets/HeroSection.css";
 import { ROUNDED_QUESTION_COUNT } from "../constants";
-import LinkButton from "./LinkButton";
+import ButtonLink from "./ButtonLink";
 
 const HeroSection: React.FC = () => {
   return (
@@ -18,9 +18,9 @@ const HeroSection: React.FC = () => {
           </h2>
         </div>
         <div className="hero-button">
-          <LinkButton to="/quizzes" isLarge>
+          <ButtonLink to="/quizzes" size="large">
             {`Get started (it's free)`}
-          </LinkButton>
+          </ButtonLink>
         </div>
       </div>
     </div>
