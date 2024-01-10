@@ -8,6 +8,7 @@ afterEach(cleanup);
 describe("Welcome Page", () => {
   it("renders without crashing", () => {
     const div = document.createElement("div");
+    // eslint-disable-next-line @typescript-eslint/no-non-null-assertion
     const root = createRoot(div!);
     root.render(
       <Router>
