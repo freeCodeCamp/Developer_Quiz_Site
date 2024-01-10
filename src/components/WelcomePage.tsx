@@ -2,19 +2,17 @@ import rpgMenu from "../images/rpg-menu.webp";
 import mainCharacter from "../images/main-character.webp";
 import fccBackground from "../images/fcc_background.webp";
 import Navbar from "./Navbar";
-import Button from "./Button";
 import HeroSection from "./HeroSection";
 import "../stylesheets/HomepageRow.css";
-import React, { MouseEventHandler } from "react";
+import React from "react";
 import { ROUNDED_QUESTION_COUNT } from "../constants";
+import ButtonLink from "./ButtonLink";
 
-const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
-  start
-}) => {
+const WelcomePage: React.FC = () => {
   return (
     <>
       <Navbar />
-      <HeroSection start={start} />
+      <HeroSection />
 
       <main className="text-center">
         <hr className="featurette-divider" id="divider" />
@@ -29,13 +27,7 @@ const WelcomePage: React.FC<{ start: MouseEventHandler<HTMLElement> }> = ({
               Brush up on your programming knowledge with{" "}
               {ROUNDED_QUESTION_COUNT}+ questions.
             </p>
-
-            <Button
-              handleClick={start}
-              text="Quiz"
-              isTransparent={false}
-              size={""}
-            />
+            <ButtonLink to="/quizzes">Quiz</ButtonLink>
           </div>
           <div className="col-md-5 content-img-container">
             <img

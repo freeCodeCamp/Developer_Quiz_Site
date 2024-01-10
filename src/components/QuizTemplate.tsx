@@ -4,7 +4,7 @@ import SelectCategory from "./SelectCategory";
 import { ALL_CATEGORIES } from "../constants";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
-import Button from "./Button";
+
 import FCCLogo from "./FCCLogo";
 import Questions from "./Questions";
 import "../stylesheets/App.css";
@@ -12,12 +12,9 @@ import {
   correctModalResponses,
   incorrectModalResponses
 } from "../data/modal-responses";
+import ButtonLink from "./ButtonLink";
 
-interface QuizProps {
-  home: React.MouseEventHandler;
-}
-
-const QuizTemplate: React.FC<QuizProps> = QuizProps => {
+const QuizTemplate: React.FC = () => {
   const [quiz, setQuiz] = useState(ALL_CATEGORIES);
   const [questionNumber, setQuestionNumber] = useState(1);
   const [isResults, setIsResults] = useState(false);
@@ -222,12 +219,7 @@ const QuizTemplate: React.FC<QuizProps> = QuizProps => {
 
   return (
     <>
-      <Button
-        handleClick={QuizProps.home}
-        text="Home"
-        isTransparent={false}
-        size={""}
-      />
+      <ButtonLink to="/">Home</ButtonLink>
       <FCCLogo />
       {!showOptions ? (
         <SelectCategory
