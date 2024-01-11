@@ -1,5 +1,6 @@
+import { useNavigate } from "react-router-dom";
 import QuizModal from "./QuizModal";
-import React, { MouseEventHandler } from "react";
+import React, { MouseEventHandler, useEffect } from "react";
 
 interface QuizQuestion {
   message: string;
@@ -26,6 +27,12 @@ interface QuizProps {
 }
 
 const Questions: React.FC<QuizProps> = QuizProps => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    if (!QuizProps.choicesArr.length) {
+      navigate("/quizzes");
+    }
+  }, [QuizProps.choicesArr]);
   return (
     <>
       <div className="quiz-text">
