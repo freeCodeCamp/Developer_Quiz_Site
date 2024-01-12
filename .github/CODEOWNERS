@@ -9,6 +9,5 @@
 
 # --- Owned by none (negate rule above) ---
 
-\*.md
 package.json
 package-lock.json
