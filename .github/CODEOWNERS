@@ -1,0 +1,14 @@
+# -------------------------------------------------
+
+# Here are the reviewers for this project
+
+# -------------------------------------------------
+
+- @jdwilkin4
+- @JoyShaheb
+
+# --- Owned by none (negate rule above) ---
+
+\*.md
+package.json
+package-lock.json
