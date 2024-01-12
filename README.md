@@ -69,4 +69,4 @@ Then, report them by opening a **GitHub Issue**.
 
 ### License
 
-Copyright © 2023 freeCodeCamp.org, All rights reserved.
+Copyright © 2024 freeCodeCamp.org, All rights reserved.
