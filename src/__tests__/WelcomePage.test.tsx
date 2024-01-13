@@ -2,7 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import WelcomePage from "../components/WelcomePage";
 import { cleanup } from "@testing-library/react";
-import { BrowserRouter as Router } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 afterEach(cleanup);
 
 describe("Welcome Page", () => {
