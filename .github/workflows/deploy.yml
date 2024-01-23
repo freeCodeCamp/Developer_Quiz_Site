@@ -14,10 +14,10 @@ jobs:
       - name: Checkout Source Files
         uses: actions/checkout@v2
 
-      - name: Use Node.js 18
+      - name: Use Node.js 20
         uses: actions/setup-node@v2
         with:
-          node-version: 18
+          node-version: 20
 
       - name: Install Dependencies
         run: npm ci
