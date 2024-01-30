@@ -13,11 +13,12 @@ import {
   incorrectModalResponses
 } from "../data/modal-responses";
 import ButtonLink from "./ButtonLink";
+import { Route, Routes, useNavigate } from "react-router-dom";
 
 const QuizTemplate: React.FC = () => {
+  const navigate = useNavigate();
   const [quiz, setQuiz] = useState(ALL_CATEGORIES);
   const [questionNumber, setQuestionNumber] = useState(1);
-  const [isResults, setIsResults] = useState(false);
   const [points, setPoints] = useState(0);
   const [message, setMessage] = useState("");
   const [displayExplanation, setDisplayExplanation] = useState("");
@@ -26,9 +27,7 @@ const QuizTemplate: React.FC = () => {
   const [chosenAnswer, setChosenAnswer] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
   const [show, setShow] = useState(false);
-  const [showOptions, setShowOptions] = useState(false);
   const selectQuizArr = [10, 25, 50, 100];
-  const [isReady, setIsReady] = useState(false);
   const selectCategoryArr = [
     "HTML",
     "CSS",
@@ -68,15 +67,13 @@ const QuizTemplate: React.FC = () => {
   const selectQuiz = (category: string, index: number) => {
     setSelectedCategory(category);
     setSelectedQuiz(selectQuizArr[index]);
-    setShowOptions(true);
-    setIsResults(false); // Set to false to hide Results component
     // Filter questions based on the selected category
     const filteredQuiz = ALL_CATEGORIES.filter(q => q.Category === category);
     setFilteredQuestions(filteredQuiz);
+    navigate(`/quizzes/${category}/questionsTotal`);
   };
 
   const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    setIsReady(true);
     const userAnswer = parseInt(e.currentTarget.value);
     const shuffledQuiz = shuffle(filteredQuestions).slice(0, userAnswer);
 
@@ -93,6 +90,7 @@ const QuizTemplate: React.FC = () => {
 
     setQuiz(shuffledQuiz);
     setChoicesArr(choicesArr);
+    navigate(`/quizzes/${selectedCategory}/questions/1/of/${userAnswer}`);
   };
 
   // Function to start a random quiz
@@ -100,14 +98,13 @@ const QuizTemplate: React.FC = () => {
     setSelectedCategory("Random"); // Set the selected category to "Random"
     const randomIndex = Math.floor(Math.random() * selectQuizArr.length);
     setSelectedQuiz(selectQuizArr[randomIndex]);
-    setShowOptions(true);
-    setIsResults(false);
     // Generate a random set of questions
     const randomQuestions = shuffle(ALL_CATEGORIES).slice(
       0,
       selectQuizArr[randomIndex]
     );
     setQuiz(randomQuestions);
+    navigate(`/quizzes/Random/questionsTotal`);
   };
 
   //function for toggling the react-bootstrap modal
@@ -115,24 +112,27 @@ const QuizTemplate: React.FC = () => {
 
   const nextQuestion = () => {
     if (questionNumber >= quiz.length) {
-      setIsResults(true);
+      navigate(`/quizzes/${selectedCategory}/results`);
       return;
     }
     setQuestionNumber(curr => curr + 1);
     setChooseAnswer(false);
+    navigate(
+      `/quizzes/${selectedCategory}/questions/${questionNumber + 1}/of/${
+        quiz.length
+      }`
+    );
   };
 
   const resetQuiz = () => {
     setSelectedCategory(""); // Reset selected category
     setSelectedQuiz(0); // Reset selected quiz
     // setQuiz(ALL_CATEGORIES);
-    setShowOptions(false);
-    setIsResults(false);
     setShow(false);
-    setIsReady(false);
     setChooseAnswer(false);
     setPoints(0);
     setQuestionNumber(1);
+    navigate(`/quizzes`);
   };
 
   const shuffleModalResponses = (responses: string[]) => {
@@ -221,29 +221,42 @@ const QuizTemplate: React.FC = () => {
     <>
       <ButtonLink to="/">Home</ButtonLink>
       <FCCLogo />
-      {!showOptions ? (
-        <SelectCategory
-          selectQuizNumber={(
-            e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
-            category: string
-          ) => selectQuiz(category, 0)}
-          category={selectedCategory}
-          selectCategoryArr={selectCategoryArr}
-          selectQuiz={selectQuiz}
-          startRandomQuiz={startRandomQuiz}
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <SelectCategory
+              selectQuizNumber={(
+                e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
+                category: string
+              ) => selectQuiz(category, 0)}
+              category={selectedCategory}
+              selectCategoryArr={selectCategoryArr}
+              selectQuiz={selectQuiz}
+              startRandomQuiz={startRandomQuiz}
+            />
+          }
         />
-      ) : isResults ? (
-        <Results {...resultsProps} />
-      ) : isReady ? (
-        <Questions {...questionProps} {...modalProps} />
-      ) : (
-        <SelectQuiz
-          startQuiz={startQuiz}
-          totalQuestions={filteredQuestions.length}
-          selectQuizArr={selectQuizArr}
-          {...selectQuizProps}
+        <Route
+          path="/:category/questionsTotal"
+          element={
+            <SelectQuiz
+              startQuiz={startQuiz}
+              totalQuestions={filteredQuestions.length}
+              selectQuizArr={selectQuizArr}
+              {...selectQuizProps}
+            />
+          }
         />
-      )}
+        <Route
+          path={"/:category/questions/:currentQuestion/of/:total"}
+          element={<Questions {...questionProps} {...modalProps} />}
+        />
+        <Route
+          path={"/:category/results"}
+          element={<Results {...resultsProps} />}
+        />
+      </Routes>
     </>
   );
 };

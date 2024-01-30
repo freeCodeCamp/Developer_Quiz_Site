@@ -54,19 +54,20 @@ const Questions: React.FC<QuizProps> = QuizProps => {
               {QuizProps.currQuestion.Question}
             </legend>
             <ul ref={QuizProps.answerButtonsRef}>
-              {QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
-                (btn: string | string[] | number, index: number) => (
-                  <li key={index}>
-                    <button
-                      className="answers-btns"
-                      value={btn}
-                      onClick={e => QuizProps.selectOption(e)}
-                    >
-                      {btn}
-                    </button>
-                  </li>
-                )
-              )}
+              {QuizProps.choicesArr.length > 0 &&
+                QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
+                  (btn: string | string[] | number, index: number) => (
+                    <li key={index}>
+                      <button
+                        className="answers-btns"
+                        value={btn}
+                        onClick={e => QuizProps.selectOption(e)}
+                      >
+                        {btn}
+                      </button>
+                    </li>
+                  )
+                )}
             </ul>
             <hr />
             <button
