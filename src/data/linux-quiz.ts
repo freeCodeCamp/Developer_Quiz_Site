@@ -1,5 +1,14 @@
 const linuxQuiz = [
   {
+    Question: "Question",
+    Answer: "A",
+    Distractor1: "B",
+    Distractor2: "C",
+    Distractor3: "D",
+    Explanation: "Explanation",
+    Link: "link"
+  },
+  {
     Question:
       "Which command allows you to run commands in a different root directory?",
     Answer: "chroot",
