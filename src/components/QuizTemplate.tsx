@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from "react";
-import SelectQuiz from "./SelectQuiz";
+import SelectQuestionsTotal from "./SelectQuestionsTotal";
 import SelectCategory from "./SelectCategory";
 import { ALL_CATEGORIES } from "../constants";
 import Results from "./Results";
@@ -240,7 +240,7 @@ const QuizTemplate: React.FC = () => {
         <Route
           path="/:category/questionsTotal"
           element={
-            <SelectQuiz
+            <SelectQuestionsTotal
               startQuiz={startQuiz}
               totalQuestions={filteredQuestions.length}
               selectQuizArr={selectQuizArr}
