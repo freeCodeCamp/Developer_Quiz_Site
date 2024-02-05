@@ -1,12 +1,12 @@
 const linuxQuiz = [
   {
-    Question: "Question",
-    Answer: "A",
-    Distractor1: "B",
-    Distractor2: "C",
-    Distractor3: "D",
-    Explanation: "Explanation",
-    Link: "link"
+    Question: "Which of the following command used to create a new window for editing a file?",
+    Answer: "gvim",
+    Distractor1: "vim",
+    Distractor2: "gedit",
+    Distractor3: "nvim",
+    Explanation: "gvim command causes the editor to open new window for editing the file whereas vim command causes the editing to occur inside your command window.",
+    Link: "https://vimdoc.sourceforge.net/htmldoc/usr_02.html#02.1"
   },
   {
     Question:
