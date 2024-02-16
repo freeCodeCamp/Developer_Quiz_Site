@@ -7,9 +7,9 @@ interface SelectQuizProps {
   totalQuestions: number; // Add the totalQuestions prop
 }
 
-const SelectQuestionsTotal: React.FC<SelectQuizProps> = SelectQuizProps => {
-  const availableQuizLengths = SelectQuizProps.selectQuizArr.filter(
-    length => length <= SelectQuizProps.totalQuestions
+const SelectQuestionsTotal: React.FC<SelectQuizProps> = selectQuizProps => {
+  const availableQuizLengths = selectQuizProps.selectQuizArr.filter(
+    length => length <= selectQuizProps.totalQuestions
   );
 
   return (
@@ -19,7 +19,7 @@ const SelectQuestionsTotal: React.FC<SelectQuizProps> = SelectQuizProps => {
         {availableQuizLengths.map((choice: number, index: number) => (
           <button
             className="select-btns"
-            onClick={e => SelectQuizProps.startQuiz(e)}
+            onClick={e => selectQuizProps.startQuiz(e)}
             value={choice}
             key={index}
           >
@@ -29,10 +29,10 @@ const SelectQuestionsTotal: React.FC<SelectQuizProps> = SelectQuizProps => {
 
         <button
           className="select-btns"
-          onClick={SelectQuizProps.startQuiz}
-          value={SelectQuizProps.totalQuestions}
+          onClick={selectQuizProps.startQuiz}
+          value={selectQuizProps.totalQuestions}
         >
-          All ({SelectQuizProps.totalQuestions})
+          All ({selectQuizProps.totalQuestions})
         </button>
       </div>
     </div>
