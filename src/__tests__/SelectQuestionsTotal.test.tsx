@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import SelectQuiz from "../components/SelectQuiz";
+import SelectQuestionsTotal from "../components/SelectQuestionsTotal";
 import { render, cleanup } from "@testing-library/react";
 
 afterEach(cleanup);
@@ -9,7 +9,7 @@ describe("Select Quiz", () => {
   it("renders without crashing", () => {
     const div = document.createElement("div");
     ReactDOM.render(
-      <SelectQuiz
+      <SelectQuestionsTotal
         startQuiz={undefined}
         selectQuizArr={[10, 25, 50, 100, 681]}
         selectedCategory={""}
@@ -20,7 +20,7 @@ describe("Select Quiz", () => {
   });
   it("has a button for every quiz question amount under 600", () => {
     const { getByText } = render(
-      <SelectQuiz
+      <SelectQuestionsTotal
         startQuiz={undefined}
         selectQuizArr={[10, 25, 50, 100]}
         selectedCategory={""}
@@ -35,7 +35,7 @@ describe("Select Quiz", () => {
 
   it("Has a button for max amount equal to 601", () => {
     const { getByText } = render(
-      <SelectQuiz
+      <SelectQuestionsTotal
         startQuiz={undefined}
         selectQuizArr={[600, 601]}
         selectedCategory={""}

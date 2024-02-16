@@ -1,15 +1,19 @@
 import React from "react";
 
-interface SelectQuizProps {
+interface SelectQuestionsTotalProps {
   startQuiz: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
   selectQuizArr: number[];
   selectedCategory: string; // Add the selectedCategory prop
   totalQuestions: number; // Add the totalQuestions prop
 }
 
-const SelectQuiz: React.FC<SelectQuizProps> = SelectQuizProps => {
-  const availableQuizLengths = SelectQuizProps.selectQuizArr.filter(
-    length => length <= SelectQuizProps.totalQuestions
+const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
+  selectQuizArr,
+  totalQuestions,
+  startQuiz
+}) => {
+  const availableQuizLengths = selectQuizArr.filter(
+    length => length <= totalQuestions
   );
 
   return (
@@ -19,7 +23,7 @@ const SelectQuiz: React.FC<SelectQuizProps> = SelectQuizProps => {
         {availableQuizLengths.map((choice: number, index: number) => (
           <button
             className="select-btns"
-            onClick={e => SelectQuizProps.startQuiz(e)}
+            onClick={e => startQuiz(e)}
             value={choice}
             key={index}
           >
@@ -29,13 +33,13 @@ const SelectQuiz: React.FC<SelectQuizProps> = SelectQuizProps => {
 
         <button
           className="select-btns"
-          onClick={SelectQuizProps.startQuiz}
-          value={SelectQuizProps.totalQuestions}
+          onClick={startQuiz}
+          value={totalQuestions}
         >
-          All ({SelectQuizProps.totalQuestions})
+          All ({totalQuestions})
         </button>
       </div>
     </div>
   );
 };
-export default SelectQuiz;
+export default SelectQuestionsTotal;
