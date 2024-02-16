@@ -1,11 +1,11 @@
 const linuxQuiz = [
   {
-    Question: "Which of the following command used to create a new window for editing a file?",
+    Question: "Which of the following commands is used to create a new window for editing a file?",
     Answer: "gvim",
     Distractor1: "vim",
     Distractor2: "gedit",
     Distractor3: "nvim",
-    Explanation: "gvim command causes the editor to open new window for editing the file whereas vim command causes the editing to occur inside your command window.",
+    Explanation: "The gvim command causes the editor to open a new window for editing the file whereas the vim command causes the editing to occur inside your command window.",
     Link: "https://vimdoc.sourceforge.net/htmldoc/usr_02.html#02.1"
   },
   {
