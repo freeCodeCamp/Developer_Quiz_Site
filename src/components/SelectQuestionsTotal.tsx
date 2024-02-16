@@ -1,15 +1,19 @@
 import React from "react";
 
-interface SelectQuizProps {
+interface SelectQuestionsTotalProps {
   startQuiz: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
   selectQuizArr: number[];
   selectedCategory: string; // Add the selectedCategory prop
   totalQuestions: number; // Add the totalQuestions prop
 }
 
-const SelectQuestionsTotal: React.FC<SelectQuizProps> = selectQuizProps => {
-  const availableQuizLengths = selectQuizProps.selectQuizArr.filter(
-    length => length <= selectQuizProps.totalQuestions
+const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
+  selectQuizArr,
+  totalQuestions,
+  startQuiz
+}) => {
+  const availableQuizLengths = selectQuizArr.filter(
+    length => length <= totalQuestions
   );
 
   return (
@@ -19,7 +23,7 @@ const SelectQuestionsTotal: React.FC<SelectQuizProps> = selectQuizProps => {
         {availableQuizLengths.map((choice: number, index: number) => (
           <button
             className="select-btns"
-            onClick={e => selectQuizProps.startQuiz(e)}
+            onClick={e => startQuiz(e)}
             value={choice}
             key={index}
           >
@@ -29,10 +33,10 @@ const SelectQuestionsTotal: React.FC<SelectQuizProps> = selectQuizProps => {
 
         <button
           className="select-btns"
-          onClick={selectQuizProps.startQuiz}
-          value={selectQuizProps.totalQuestions}
+          onClick={startQuiz}
+          value={totalQuestions}
         >
-          All ({selectQuizProps.totalQuestions})
+          All ({totalQuestions})
         </button>
       </div>
     </div>
