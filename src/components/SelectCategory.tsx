@@ -2,7 +2,7 @@ import React from "react";
 
 interface SelectCategoryProps {
   category: string;
-  selectCategoryArr: string[];
+  categoriesArr: string[];
   selectQuiz: (category: string, index: number) => void;
   selectQuizNumber: (
     e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
@@ -16,7 +16,7 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
     <div className="select-quiz-styles">
       <h2 className="quiz-heading">Choose a Category</h2>
       <div className="w-25 select-btn-div">
-        {SelectCategoryProps.selectCategoryArr.map(
+        {SelectCategoryProps.categoriesArr.map(
           (category: string, index: number) => (
             <button
               className="select-btns"

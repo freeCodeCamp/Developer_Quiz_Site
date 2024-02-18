@@ -2,17 +2,17 @@ import React from "react";
 
 interface SelectQuestionsTotalProps {
   startQuiz: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
-  selectQuizArr: number[];
+  questionsNumArr: number[];
   selectedCategory: string; // Add the selectedCategory prop
   totalQuestions: number; // Add the totalQuestions prop
 }
 
 const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
-  selectQuizArr,
+  questionsNumArr,
   totalQuestions,
   startQuiz
 }) => {
-  const availableQuizLengths = selectQuizArr.filter(
+  const availableQuizLengths = questionsNumArr.filter(
     length => length <= totalQuestions
   );
 

@@ -20,7 +20,7 @@ describe("SelectCategory", () => {
   it("displays the Choose a Category screen", () => {
     const { getByText }: RenderResult = render(
       <SelectCategory
-        selectCategoryArr={selectCategoryArr}
+        categoriesArr={selectCategoryArr}
         selectQuiz={undefined}
         category={""}
         selectQuizNumber={undefined}
@@ -33,7 +33,7 @@ describe("SelectCategory", () => {
   it("displays the correct categories", () => {
     const { getByText } = render(
       <SelectCategory
-        selectCategoryArr={selectCategoryArr}
+        categoriesArr={selectCategoryArr}
         selectQuiz={undefined}
         category={""}
         selectQuizNumber={undefined}
