@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import SelectQuestionsTotal from "./SelectQuestionsTotal";
 import SelectCategory from "./SelectCategory";
-import { ALL_CATEGORIES, categoriesArr, QUESTION_NUMS } from "../constants";
+import { ALL_CATEGORIES, CATEGORIES, QUESTION_NUMS } from "../constants";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
 
@@ -220,7 +220,6 @@ const QuizTemplate: React.FC = () => {
                 category: string
               ) => selectQuiz(category, 0)}
               category={selectedCategory}
-              categoriesArr={categoriesArr}
               selectQuiz={selectQuiz}
               startRandomQuiz={startRandomQuiz}
             />
@@ -232,7 +231,6 @@ const QuizTemplate: React.FC = () => {
             <SelectQuestionsTotal
               startQuiz={startQuiz}
               totalQuestions={filteredQuestions.length}
-              QUESTION_NUMS={QUESTION_NUMS}
               {...selectQuizProps}
             />
           }
