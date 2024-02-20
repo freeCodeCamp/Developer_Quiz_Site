@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import SelectQuestionsTotal from "./SelectQuestionsTotal";
 import SelectCategory from "./SelectCategory";
-import { ALL_CATEGORIES, categoriesArr, questionsNumArr } from "../constants";
+import { ALL_CATEGORIES, categoriesArr, QUESTION_NUMS } from "../constants";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
 
@@ -55,7 +55,7 @@ const QuizTemplate: React.FC = () => {
 
   const selectQuiz = (category: string, index: number) => {
     setSelectedCategory(category);
-    setSelectedQuiz(questionsNumArr[index]);
+    setSelectedQuiz(QUESTION_NUMS[index]);
     // Filter questions based on the selected category
     const filteredQuiz = ALL_CATEGORIES.filter(q => q.Category === category);
     setFilteredQuestions(filteredQuiz);
@@ -85,12 +85,12 @@ const QuizTemplate: React.FC = () => {
   // Function to start a random quiz
   const startRandomQuiz = () => {
     setSelectedCategory("Random"); // Set the selected category to "Random"
-    const randomIndex = Math.floor(Math.random() * questionsNumArr.length);
-    setSelectedQuiz(questionsNumArr[randomIndex]);
+    const randomIndex = Math.floor(Math.random() * QUESTION_NUMS.length);
+    setSelectedQuiz(QUESTION_NUMS[randomIndex]);
     // Generate a random set of questions
     const randomQuestions = shuffle(ALL_CATEGORIES).slice(
       0,
-      questionsNumArr[randomIndex]
+      QUESTION_NUMS[randomIndex]
     );
     setQuiz(randomQuestions);
     navigate(`/quizzes/Random/questionsTotal`);
@@ -232,7 +232,7 @@ const QuizTemplate: React.FC = () => {
             <SelectQuestionsTotal
               startQuiz={startQuiz}
               totalQuestions={filteredQuestions.length}
-              questionsNumArr={questionsNumArr}
+              QUESTION_NUMS={QUESTION_NUMS}
               {...selectQuizProps}
             />
           }
