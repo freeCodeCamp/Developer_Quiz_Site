@@ -1655,6 +1655,16 @@ const linuxQuiz = [
     Explanation:
       'You can use the usermod command to add a user to a group. The -a parameter means "append" and the -G parameter adds a group as a secondary group',
     Link: "https://www.freecodecamp.org/news/linux-user-groups-explained-how-to-add-a-new-group-a-new-group-member-and-change-groups/"
+  },
+  {
+    Question:
+      "Which command below doesn't display logs?",
+    Answer: "cat /etc/logcheck/ignore.d.server/rsyslog",
+    Distractor1: "dmesg",
+    Distractor2: "journalctl",
+    Distractor3: "cat /var/log/syslog",
+    Explanation: "The program logrotate facilitates the rotation, compression, and removal of log files. The file /etc/logrotate.d/bootlog contains configurations for log rotation rather than displaying logs themselves",
+    Link: "https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ubuntu-20-04/"
   }
 ];
 
