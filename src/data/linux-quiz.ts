@@ -1658,13 +1658,13 @@ const linuxQuiz = [
   },
   {
     Question:
-      "Which command below doesn't display logs?",
-    Answer: "cat /etc/logcheck/ignore.d.server/rsyslog",
+      "In Linux, which command below does not display logs?",
+    Answer: "cd",
     Distractor1: "dmesg",
     Distractor2: "journalctl",
     Distractor3: "cat /var/log/syslog",
-    Explanation: "The program logrotate facilitates the rotation, compression, and removal of log files. The file /etc/logrotate.d/bootlog contains configurations for log rotation rather than displaying logs themselves",
-    Link: "https://betterstack.com/community/guides/logging/how-to-manage-log-files-with-logrotate-on-ubuntu-20-04/"
+    Explanation: "The cd command stands for change directory and is used to change to a directory in the terminal. The cd command is not used to display logs.",
+    Link: "https://www.youtube.com/watch?v=ROjZy1WbCIA&t=3472s"
   }
 ];
 
