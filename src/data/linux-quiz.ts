@@ -1655,6 +1655,16 @@ const linuxQuiz = [
     Explanation:
       'You can use the usermod command to add a user to a group. The -a parameter means "append" and the -G parameter adds a group as a secondary group',
     Link: "https://www.freecodecamp.org/news/linux-user-groups-explained-how-to-add-a-new-group-a-new-group-member-and-change-groups/"
+  },
+  {
+    Question:
+      "In Linux, which command below does not display logs?",
+    Answer: "cd",
+    Distractor1: "dmesg",
+    Distractor2: "journalctl",
+    Distractor3: "cat /var/log/syslog",
+    Explanation: "The cd command stands for change directory and is used to change to a directory in the terminal. The cd command is not used to display logs.",
+    Link: "https://www.youtube.com/watch?v=ROjZy1WbCIA&t=3472s"
   }
 ];
 
