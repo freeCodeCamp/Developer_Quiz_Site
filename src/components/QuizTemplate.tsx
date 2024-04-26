@@ -21,6 +21,7 @@ const QuizTemplate: React.FC = () => {
   const [questionNumber, setQuestionNumber] = useState(1);
   const [points, setPoints] = useState(0);
   const [message, setMessage] = useState("");
+  const [correct, setCorrect] = useState(false);
   const [displayExplanation, setDisplayExplanation] = useState("");
   const [showReference, setShowReference] = useState("");
   const [selectedOption, setSelectedOption] = useState("");
@@ -157,11 +158,13 @@ const QuizTemplate: React.FC = () => {
     setChooseAnswer(true);
     setChosenAnswer(userAnswer);
     if (userAnswer !== currQuestion.Answer) {
+      setCorrect(false);
       setMessage(shuffleModalResponses(incorrectModalResponses));
       setDisplayExplanation(currQuestion.Explanation);
       setShowReference(currQuestion.Link);
       handleShow();
     } else {
+      setCorrect(true);
       setPoints(curr => curr + 1);
       setMessage(shuffleModalResponses(correctModalResponses));
       setDisplayExplanation(currQuestion.Explanation);
@@ -177,6 +180,7 @@ const QuizTemplate: React.FC = () => {
   };
 
   const modalProps = {
+    correct,
     chosenAnswer,
     message,
     points,
