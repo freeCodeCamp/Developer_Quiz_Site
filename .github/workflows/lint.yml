@@ -26,10 +26,10 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node-version }}
-          cache: "npm"
+          cache: "pnpm"
 
       - name: Lint Source Files
         run: |
-          echo npm version $(npm -v)
-          npm ci
-          npm run lint
+          echo pnpm version $(npm -v)
+          pnpm ci
+          pnpm run lint

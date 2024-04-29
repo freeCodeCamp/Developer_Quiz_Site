@@ -20,7 +20,7 @@ jobs:
           node-version: 20
 
       - name: Install Dependencies
-        run: npm ci
+        run: pnpm ci
 
       - name: Configure Git
         run: |
@@ -29,4 +29,4 @@ jobs:
           git remote set-url origin https://camperbot:${{ secrets.CAMPERBOT_PAT }}@github.com/freeCodeCamp/Developer_Quiz_Site.git
 
       - name: Run Deploy Script
-        run: npm run deploy
+        run: pnpm run deploy

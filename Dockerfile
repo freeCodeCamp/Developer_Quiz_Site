@@ -11,7 +11,7 @@ WORKDIR /usr/src/app
 # A wildcard is used to ensure both package.json AND package-lock.json are copied
 COPY package*.json ./
 
-RUN npm install
+RUN pnpm install
 
 # Bundle app source
 COPY . .
@@ -19,4 +19,4 @@ COPY . .
 # Container listening on port 3000
 EXPOSE 3000
 
-CMD [ "npm", "start" ]
+CMD [ "pnpm", "start" ]

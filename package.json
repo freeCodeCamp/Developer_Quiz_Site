@@ -19,7 +19,7 @@
   },
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build && cp CNAME dist/CNAME",
+    "predeploy": "pnpm run build && cp CNAME dist/CNAME",
     "deploy": "gh-pages -d dist",
     "start": "vite",
     "preview": "vite preview",
@@ -28,7 +28,7 @@
     "test": "vitest",
     "lint": "eslint .",
     "pretty-quick": "pretty-quick",
-    "fix-style": "npm run lint -- --fix",
+    "fix-style": "pnpm run lint -- --fix",
     "lint-style": "prettier --list-different .",
     "format": "prettier --write \"**/*.{ts,tsx,json}\"",
     "prepare": "husky install"
