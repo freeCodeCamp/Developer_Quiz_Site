@@ -1,5 +1,5 @@
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import SelectQuestionsTotal from "../components/SelectQuestionsTotal";
 import { render, cleanup } from "@testing-library/react";
 
@@ -8,21 +8,19 @@ afterEach(cleanup);
 describe("Select Quiz", () => {
   it("renders without crashing", () => {
     const div = document.createElement("div");
-    ReactDOM.render(
+    const root = createRoot(div);
+    root.render(
       <SelectQuestionsTotal
         startQuiz={undefined}
-        selectQuizArr={[10, 25, 50, 100, 681]}
         selectedCategory={""}
         totalQuestions={0}
-      />,
-      div
+      />
     );
   });
   it("has a button for every quiz question amount under 600", () => {
     const { getByText } = render(
       <SelectQuestionsTotal
         startQuiz={undefined}
-        selectQuizArr={[10, 25, 50, 100]}
         selectedCategory={""}
         totalQuestions={600}
       />
@@ -37,7 +35,6 @@ describe("Select Quiz", () => {
     const { getByText } = render(
       <SelectQuestionsTotal
         startQuiz={undefined}
-        selectQuizArr={[600, 601]}
         selectedCategory={""}
         totalQuestions={601}
       />

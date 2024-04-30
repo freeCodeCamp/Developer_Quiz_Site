@@ -1,6 +1,6 @@
 import Results from "../components/Results";
 import React from "react";
-import ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 import { render, cleanup } from "@testing-library/react";
 import { vi } from "vitest";
 
@@ -14,9 +14,9 @@ vi.mock("react-confetti", () => ({
 describe("Results", () => {
   it("Renders without crashing", () => {
     const div = document.createElement("div");
-    ReactDOM.render(
-      <Results points={0} totalQuestions={10} resetQuiz={undefined} />,
-      div
+    const root = createRoot(div);
+    root.render(
+      <Results points={0} totalQuestions={10} resetQuiz={undefined} />
     );
   });
   it("Displays the accurate score for wrong answers", () => {
