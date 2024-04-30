@@ -20,7 +20,7 @@ jobs:
           version: 8
 
       - name: Install Dependencies
-        run: pnpm ci
+        run: pnpm install --frozen-lockfile
 
       - name: Configure Git
         run: |
