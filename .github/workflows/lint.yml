@@ -22,14 +22,13 @@ jobs:
       - name: Checkout Source Files
         uses: actions/checkout@v3
 
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
         with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
+          version: 8
 
       - name: Lint Source Files
         run: |
           echo npm version $(npm -v)
-          npm ci
-          npm run lint
+          pnpm install --frozen-lockfile
+          pnpm run lint

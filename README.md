@@ -38,8 +38,8 @@ In the command line:
 
 1. Clone the repo by typing `git clone https://github.com/YOUR-GITHUB-USERNAME/Developer_Quiz_Site.git`
 2. Then type `cd Developer_Quiz_Site` to go into the project's directory.
-3. Install dependencies with `npm install`
-4. Run the project with `npm start`
+3. Install dependencies with `pnpm install`
+4. Run the project with `pnpm start`
 5. Have fun 🚀
 
 ### How to contribute
@@ -63,6 +63,7 @@ Read through [this helpful article](https://forum.freecodecamp.org/t/how-to-repo
 Then, report them by opening a **GitHub Issue**.
 
 ### Our Contributors
+
 <a href="https://github.com/freeCodeCamp/Developer_Quiz_Site/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=freeCodeCamp/Developer_Quiz_Site&columns=15" />
 </a>

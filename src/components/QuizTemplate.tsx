@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from "react";
 import SelectQuestionsTotal from "./SelectQuestionsTotal";
 import SelectCategory from "./SelectCategory";
-import { ALL_CATEGORIES, CATEGORIES, QUESTION_NUMS } from "../constants";
+import { ALL_CATEGORIES, QUESTION_NUMS } from "../constants";
 import Results from "./Results";
 import shuffle from "../shuffle-arr";
 
