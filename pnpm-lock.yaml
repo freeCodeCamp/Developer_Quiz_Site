@@ -1,9 +1,5 @@
 lockfileVersion: '6.0'
 
-settings:
-  autoInstallPeers: true
-  excludeLinksFromLockfile: false
-
 dependencies:
   '@testing-library/jest-dom':
     specifier: ^6.1.5
@@ -67,6 +63,9 @@ devDependencies:
   eslint-plugin-react:
     specifier: ^7.30.0
     version: 7.34.1(eslint@8.57.0)
+  happy-dom:
+    specifier: ^14.7.1
+    version: 14.7.1
   husky:
     specifier: ^8.0.1
     version: 8.0.3
@@ -93,7 +92,7 @@ devDependencies:
     version: 4.3.2(typescript@4.9.5)(vite@5.2.10)
   vitest:
     specifier: ^1.1.0
-    version: 1.5.2(@types/node@18.19.31)(jsdom@24.0.0)
+    version: 1.5.2(@types/node@18.19.31)(happy-dom@14.7.1)(jsdom@24.0.0)
 
 packages:
 
@@ -852,7 +851,7 @@ packages:
       dom-accessibility-api: 0.6.3
       lodash: 4.17.21
       redent: 3.0.0
-      vitest: 1.5.2(@types/node@18.19.31)(jsdom@24.0.0)
+      vitest: 1.5.2(@types/node@18.19.31)(happy-dom@14.7.1)(jsdom@24.0.0)
     dev: false
 
   /@testing-library/react@12.1.5(react-dom@18.3.1)(react@18.3.1):
@@ -2374,6 +2373,14 @@ packages:
   /graphemer@1.4.0:
     resolution: {integrity: sha512-EtKwoO6kxCL9WO5xipiHTZlSzBm7WLT627TqC/uVRd0HKmq8NXyebnNYxDoBi7wt8eTWrUrKXCOVaFq9x1kgag==}
     dev: true
+
+  /happy-dom@14.7.1:
+    resolution: {integrity: sha512-v60Q0evZ4clvMcrAh5/F8EdxDdfHdFrtffz/CNe10jKD+nFweZVxM91tW+UyY2L4AtpgIaXdZ7TQmiO1pfcwbg==}
+    engines: {node: '>=16.0.0'}
+    dependencies:
+      entities: 4.5.0
+      webidl-conversions: 7.0.0
+      whatwg-mimetype: 3.0.0
 
   /has-bigints@1.0.2:
     resolution: {integrity: sha512-tSvCKtBr9lkF0Ex0aQiP9N+OpV4zi2r/Nee5VkRDbaqv35RLYMzbwQfFSZZH0kR+Rd6302UJZ2p/bJCEoR3VoQ==}
@@ -4101,7 +4108,7 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
 
-  /vitest@1.5.2(@types/node@18.19.31)(jsdom@24.0.0):
+  /vitest@1.5.2(@types/node@18.19.31)(happy-dom@14.7.1)(jsdom@24.0.0):
     resolution: {integrity: sha512-l9gwIkq16ug3xY7BxHwcBQovLZG75zZL0PlsiYQbf76Rz6QGs54416UWMtC0jXeihvHvcHrf2ROEjkQRVpoZYw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -4136,6 +4143,7 @@ packages:
       chai: 4.4.1
       debug: 4.3.4
       execa: 8.0.1
+      happy-dom: 14.7.1
       jsdom: 24.0.0
       local-pkg: 0.5.0
       magic-string: 0.30.10
@@ -4182,6 +4190,10 @@ packages:
     engines: {node: '>=18'}
     dependencies:
       iconv-lite: 0.6.3
+
+  /whatwg-mimetype@3.0.0:
+    resolution: {integrity: sha512-nt+N2dzIutVRxARx1nghPKGv1xHikU7HKdfafKkLNLindmPU/ch3U31NOCGGA/dmPcmb1VlofO0vnKAcsm0o/Q==}
+    engines: {node: '>=12'}
 
   /whatwg-mimetype@4.0.0:
     resolution: {integrity: sha512-QaKxh0eNIi2mE9p2vEdzfagOKHCcj1pJ56EEHGQOVxp8r9/iszLUUV7v89x9O1p/T+NlTM5W7jW6+cz4Fq1YVg==}
@@ -4312,3 +4324,7 @@ packages:
   /yocto-queue@1.0.0:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false

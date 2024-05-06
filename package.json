@@ -65,6 +65,7 @@
     "eslint": "^8.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-react": "^7.30.0",
+    "happy-dom": "^14.7.1",
     "husky": "^8.0.1",
     "jsdom": "^24.0.0",
     "lint-staged": "^13.0.3",
