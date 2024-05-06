@@ -4,6 +4,10 @@
   "description": "This is a free quiz site made for developers by freeCodeCamp",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": ">=20",
+    "pnpm": "8"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^6.1.5",
     "@testing-library/react": "^12.1.2",
@@ -52,7 +56,6 @@
     ]
   },
   "devDependencies": {
-    "@types/jest": "^29.5.11",
     "@types/node": "^18.0.0",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
