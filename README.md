@@ -29,7 +29,7 @@ All of the helpful and thoughtful resources are made possible by the generous do
 
 Have a look [here](https://www.freecodecamp.org/news/how-to-donate-to-free-code-camp/) at the different ways you can support our non-profit's mission and make tech education accessible to all.
 
-## How to run the project using Gitpod
+## How to work on the project using Gitpod
 
 Gitpod is an online environment, where you can work on projects without installing anything on your machine. To setup the Developer Quiz Site with Gitpod, visit this [link](https://gitpod.io/?autostart=true#https://github.com/freeCodeCamp/Developer_Quiz_Site/)
 
@@ -61,7 +61,8 @@ Then, read through our [Contributing Documentation](CONTRIBUTING.md).
 ### How to run the unit tests
 
 Once you are finished making changes, you will need to run the test suite to make sure your code doesn't break anything.
-Here is terminal command for running tests: `pnpm test`
+Here is terminal command for running tests: `pnpm test` (or, if you super lazy: `pnpm t` )  
+alternativetly (and also cool!) - you can install [vscode vitest extension](https://github.com/vitest-dev/vscode)
 
 ### How to report bugs
 
