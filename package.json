@@ -5,7 +5,8 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=20"
+    "node": ">=20",
+    "pnpm": "9"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.5",
