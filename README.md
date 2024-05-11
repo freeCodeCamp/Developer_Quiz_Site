@@ -61,7 +61,7 @@ Then, read through our [Contributing Documentation](CONTRIBUTING.md).
 ### How to run the unit tests
 
 Once you are finished making changes, you will need to run the test suite to make sure your code doesn't break anything.
-Here is terminal command for running tests: `pnpm test` (or, if you super lazy: `pnpm t` )  
+Here is terminal command for running tests: `pnpm test` (or, even shorter: `pnpm t` )  
 alternativetly (and also cool!) - you can install [vscode vitest extension](https://github.com/vitest-dev/vscode)
 
 ### How to report bugs
