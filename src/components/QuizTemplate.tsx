@@ -63,9 +63,11 @@ const QuizTemplate: React.FC = () => {
     navigate(`/quizzes/${category}/questionsTotal`);
   };
 
-  const startQuiz = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    const userAnswer = parseInt(e.currentTarget.value);
-    const shuffledQuiz = shuffle(filteredQuestions).slice(0, userAnswer);
+  const startQuiz = (quizQuestionsCount: number) => {
+    const shuffledQuiz = shuffle(filteredQuestions).slice(
+      0,
+      quizQuestionsCount
+    );
 
     // Shuffle the answer options
     const choicesArr: string[][] = shuffledQuiz.map(obj => {
@@ -80,7 +82,9 @@ const QuizTemplate: React.FC = () => {
 
     setQuiz(shuffledQuiz);
     setChoicesArr(choicesArr);
-    navigate(`/quizzes/${selectedCategory}/questions/1/of/${userAnswer}`);
+    navigate(
+      `/quizzes/${selectedCategory}/questions/1/of/${quizQuestionsCount}`
+    );
   };
 
   // Function to start a random quiz
