@@ -1881,7 +1881,52 @@ const generalCSQuiz = [
     Explanation:
       "NTFS, which stands for NT file system and the New Technology File System, is the file system that the Windows NT operating system (OS) uses for storing and retrieving files on hard disk drives (HDDs) and solid-state drives (SSDs). It is the default file system for the Windows NT family and it is developed by Microsoft.",
     Link: "https://en.wikipedia.org/wiki/NTFS"
-  }
+  },
+  {
+    Question: "What is the primary purpose of the Domain Name System (DNS) in networking?",
+    Answer: "To translate human-readable domain names to IP addresses",
+    Distractor1: "To encrypt data transmitted over the network",
+    Distractor2: "To manage and allocate network bandwidth",
+    Distractor3: "To monitor network traffic for security threats",
+    Explanation: "The Domain Name System (DNS) is responsible for converting domain names, which are easy for humans to remember, into IP addresses that computers use to identify each other on the network.",
+    Link: "https://www.cloudflare.com/learning/dns/what-is-dns/"
+  },
+  {
+    Question: "Which data structure uses LIFO (Last In, First Out) principle?",
+    Answer: "Stack",
+    Distractor1: "Queue",
+    Distractor2: "Linked List",
+    Distractor3: "Hash Table",
+    Explanation: "A stack is a data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack will be the first one to be removed.",
+    Link: "https://www.geeksforgeeks.org/stack-data-structure/"
+  },
+  {
+    Question: "In object-oriented programming, what is encapsulation?",
+    Answer: "The concept of wrapping data and methods that operate on the data within a single unit or class",
+    Distractor1: "The ability of a function to call itself",
+    Distractor2: "The ability to define multiple methods with the same name",
+    Distractor3: "The concept of using symbols to represent operations and data",
+    Explanation: "Encapsulation is an object-oriented programming principle that bundles the data (attributes) and methods (functions) that operate on the data into a single unit or class, and restricts direct access to some of the object's components.",
+    Link: "https://www.geeksforgeeks.org/encapsulation-in-java/"
+  },
+  {
+    Question: "What is the purpose of a firewall in computer networks?",
+    Answer: "To monitor and control incoming and outgoing network traffic based on predetermined security rules",
+    Distractor1: "To compress data before transmission",
+    Distractor2: "To increase the speed of data transfer",
+    Distractor3: "To balance the load between multiple servers",
+    Explanation: "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies.",
+    Link: "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html"
+  },
+  {
+    Question: "What is polymorphism in the context of object-oriented programming?",
+    Answer: "The ability of different objects to respond uniquely to the same method call",
+    Distractor1: "The process of defining a new class based on an existing class",
+    Distractor2: "The concept of hiding the internal state of an object",
+    Distractor3: "The ability to create multiple methods with the same name but different implementations",
+    Explanation: "Polymorphism is an object-oriented programming principle that allows objects of different classes to be treated as objects of a common super class. It enables a single method to behave differently based on the object that it is acting upon.",
+    Link: "https://www.geeksforgeeks.org/polymorphism-in-java/"
+  }  
 ];
 
 export default generalCSQuiz;
