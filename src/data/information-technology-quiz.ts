@@ -541,7 +541,43 @@ const informationTechnologyQuiz = [
     Explanation:
       "To flush your DNS, 'ipconfig /flushdns' is the correct command on Windows. This means that your cache has been completely cleared, and fresh versions of any website you visit will be loaded.",
     Link: "https://www.freecodecamp.org/news/flushdns-how-to-flush-dns-with-the-windows-ipconfig-flushdns-command/"
-  }
+  },
+  {
+    Question: "What is the primary purpose of RAID (Redundant Array of Independent Disks) in computer systems?",
+    Answer: "To provide data redundancy and improve performance",
+    Distractor1: "To compress files for storage",
+    Distractor2: "To encrypt data for security",
+    Distractor3: "To manage network traffic",
+    Explanation: "RAID is used to combine multiple hard drives into a single unit to improve data redundancy and performance.",
+    Link: "https://www.ibm.com/docs/en/storwize-v7000/7.6.1?topic=SSPHQG_7.6.1/com.ibm.storwize.7000.761.doc/svc_raidtechnology_ovrview.html"
+  },
+  {
+    Question: "What is the function of an API (Application Programming Interface)?",
+    Answer: "To allow different software applications to communicate with each other",
+    Distractor1: "To manage database transactions",
+    Distractor2: "To encrypt and decrypt data",
+    Distractor3: "To monitor network security",
+    Explanation: "An API defines a set of rules and protocols for building and interacting with software applications, enabling them to communicate.",
+    Link: "https://www.redhat.com/en/topics/api/what-are-application-programming-interfaces"
+  },
+  {
+    Question: "What is the main advantage of using a Content Delivery Network (CDN)?",
+    Answer: "To improve website load times by distributing content closer to users",
+    Distractor1: "To secure websites from hacking",
+    Distractor2: "To increase storage capacity",
+    Distractor3: "To create backups of data",
+    Explanation: "A CDN distributes content across multiple servers worldwide, which helps reduce latency and improve load times for users.",
+    Link: "https://www.cloudflare.com/learning/cdn/what-is-a-cdn/"
+  },
+  {
+    Question: "What does the term 'virtualization' refer to in IT?",
+    Answer: "Creating virtual versions of physical hardware resources",
+    Distractor1: "Developing virtual reality applications",
+    Distractor2: "Storing data in the cloud",
+    Distractor3: "Encrypting sensitive information",
+    Explanation: "Virtualization involves creating virtual versions of physical hardware such as servers, storage devices, and networks to improve efficiency and scalability.",
+    Link: "https://www.vmware.com/topics/glossary/content/virtualization.html"
+  },  
 ];
 
 export default informationTechnologyQuiz;
