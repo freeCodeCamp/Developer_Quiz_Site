@@ -2,7 +2,7 @@ import React from "react";
 import { QUESTION_NUMS } from "../constants";
 
 interface SelectQuestionsTotalProps {
-  startQuiz: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  startQuiz: (e: number) => void;
   selectedCategory: string; // Add the selectedCategory prop
   totalQuestions: number; // Add the totalQuestions prop
 }
@@ -22,8 +22,7 @@ const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
         {availableQuizLengths.map((choice: number, index: number) => (
           <button
             className="select-btns"
-            onClick={e => startQuiz(e)}
-            value={choice}
+            onClick={() => startQuiz(choice)}
             key={index}
           >
             {choice}
@@ -32,8 +31,7 @@ const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
 
         <button
           className="select-btns"
-          onClick={startQuiz}
-          value={totalQuestions}
+          onClick={() => startQuiz(totalQuestions)}
         >
           All ({totalQuestions})
         </button>
