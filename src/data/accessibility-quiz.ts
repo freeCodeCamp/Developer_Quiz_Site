@@ -1,14 +1,5 @@
 const accessibilityQuiz = [
   {
-    "Question": "What is semantic HTML?",
-   "Answer": "HTML that uses meaningful tags to structure content",
-   "Distractor1": "HTML that uses only <div> and <span> tags",
-   "Distractor2": "HTML that is styled with CSS",
-   "Distractor3": "HTML that includes JavaScript",
-   "Explanation": "Semantic HTML uses meaningful tags such as <header>, <footer>, and <article> to improve the readability and accessibility of web content.",
-   "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
-  },
-  {
     "Question": "Why is using semantic HTML important for accessibility?",
     "Answer": "It provides meaning and structure to web content, aiding screen readers and other assistive technologies.",
     "Distractor1": "It makes the website load faster.",
