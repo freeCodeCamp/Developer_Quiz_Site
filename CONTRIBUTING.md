@@ -21,6 +21,11 @@ In the command line:
      2. Build the docker image with `docker build -t developer-quiz-site .`
      3. Run the docker container: `docker container run --rm -it -p 3000:3000 developer-quiz-site` or alternatively, `pnpm run start:local-docker`.
      4. Visit `localhost:3000` in a browser to view the site!
+   - Option C: Using Docker Compose
+      1. Ensure you have `Docker` and `Docker Compose` installed on your machine.
+        - Installation instructions for Docker can be found on the [official Docker docs](https://docs.docker.com/get-docker/).
+      2. Run the project with `docker-compose up`
+      3. Access the project at `http://localhost:3000` or via the host network IP address, typically `http://HOST_IP_ADDRESS:3000` 
 6. Have fun 🚀
 
 ## Guidelines for adding quiz questions
