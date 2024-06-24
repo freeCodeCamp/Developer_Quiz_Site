@@ -1689,7 +1689,7 @@ const pythonQuiz = [
     Distractor3: "Multiple decorators can be applied to a single function.",
     Explanation:
       "Decorators in Python are applied at runtime, not at compile time. When a decorated function is defined, the decorator is executed immediately, and the result replaces the original function definition in the namespace.",
-    Link: "https://https://www.geeksforgeeks.org/decorators-in-python/"
+    Link: "https://www.freecodecamp.org/news/python-decorators-explained/"
   }
 ];
 
