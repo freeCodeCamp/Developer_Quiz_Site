@@ -1679,6 +1679,17 @@ const pythonQuiz = [
     Explanation:
       "Dunder methods (Double underscore) are special methods reserved in Python which affect's the behavior of the object and the interaction of the object with other objects.",
     Link: "https://youtu.be/eWRfhZUzrAc?si=ehiKx8PbqeW8X504&t=12264"
+  },
+  {
+    Question:
+      "Which of the following statements about Python decorators is false?",
+    Answer: "Decorators are applied to a function at compile time.",
+    Distractor1: "A decorator is a function that takes another function and extends its behavior without explicitly modifying it.",
+    Distractor2: "Decorators can be applied to classes as well as functions.",
+    Distractor3: "Multiple decorators can be applied to a single function.",
+    Explanation:
+      "Decorators in Python are applied at runtime, not at compile time. When a decorated function is defined, the decorator is executed immediately, and the result replaces the original function definition in the namespace.",
+    Link: "https://https://www.geeksforgeeks.org/decorators-in-python/"
   }
 ];
 
