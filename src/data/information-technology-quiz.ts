@@ -586,7 +586,7 @@ const informationTechnologyQuiz = [
     Distractor3: "Encrypting sensitive information",
     Explanation: "Virtualization involves creating virtual versions of physical hardware such as servers, storage devices, and networks to improve efficiency and scalability.",
     Link: "https://www.freecodecamp.org/news/linux-server-virtualization-the-basics/"
-  },  
+  }
 ];
 
 export default informationTechnologyQuiz;
