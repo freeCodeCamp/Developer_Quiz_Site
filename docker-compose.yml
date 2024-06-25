@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: developer-quiz-site
+    ports:
+      - "3000:3000"
+    volumes:
+      # bind mount for hot-reloading
+      - type: bind 
+        source: .
+        target: /usr/src/app
+      # isolating node_modules to avoid conflicts
+      - /usr/src/app/node_modules

@@ -46,6 +46,16 @@ In the command line:
 4. Run the project with `pnpm start`
 5. Have fun 🚀
 
+### Using Docker Compose
+
+Ensure you have `Docker` and `Docker Compose` installed on your machine.
+
+1. Clone the repo by typing `git clone https://github.com/YOUR-GITHUB-USERNAME/Developer_Quiz_Site.git`
+2. Then type `cd Developer_Quiz_Site` to go into the project's directory.
+3. Run the project with `docker-compose up`
+4. Access the project at `http://localhost:3000` or via the host network IP address, typically `http://HOST_IP_ADDRESS:3000`
+5. Have fun 🚀
+
 ### How to contribute
 
 This open source project is a work in progress and ever evolving.
