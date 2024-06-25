@@ -1883,22 +1883,13 @@ const generalCSQuiz = [
     Link: "https://en.wikipedia.org/wiki/NTFS"
   },
   {
-    Question: "What is the primary purpose of the Domain Name System (DNS) in networking?",
-    Answer: "To translate human-readable domain names to IP addresses",
-    Distractor1: "To encrypt data transmitted over the network",
-    Distractor2: "To manage and allocate network bandwidth",
-    Distractor3: "To monitor network traffic for security threats",
-    Explanation: "The Domain Name System (DNS) is responsible for converting domain names, which are easy for humans to remember, into IP addresses that computers use to identify each other on the network.",
-    Link: "https://www.cloudflare.com/learning/dns/what-is-dns/"
-  },
-  {
-    Question: "Which data structure uses LIFO (Last In, First Out) principle?",
+    Question: "Which data structure uses the LIFO (Last In, First Out) principle?",
     Answer: "Stack",
     Distractor1: "Queue",
     Distractor2: "Linked List",
     Distractor3: "Hash Table",
     Explanation: "A stack is a data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack will be the first one to be removed.",
-    Link: "https://www.geeksforgeeks.org/stack-data-structure/"
+    Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/"
   },
   {
     Question: "In object-oriented programming, what is encapsulation?",
@@ -1907,16 +1898,7 @@ const generalCSQuiz = [
     Distractor2: "The ability to define multiple methods with the same name",
     Distractor3: "The concept of using symbols to represent operations and data",
     Explanation: "Encapsulation is an object-oriented programming principle that bundles the data (attributes) and methods (functions) that operate on the data into a single unit or class, and restricts direct access to some of the object's components.",
-    Link: "https://www.geeksforgeeks.org/encapsulation-in-java/"
-  },
-  {
-    Question: "What is the purpose of a firewall in computer networks?",
-    Answer: "To monitor and control incoming and outgoing network traffic based on predetermined security rules",
-    Distractor1: "To compress data before transmission",
-    Distractor2: "To increase the speed of data transfer",
-    Distractor3: "To balance the load between multiple servers",
-    Explanation: "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies.",
-    Link: "https://www.cisco.com/c/en/us/products/security/firewalls/what-is-a-firewall.html"
+    Link: "https://www.freecodecamp.org/news/a-guide-to-object-oriented-programming-principles/"
   },
   {
     Question: "What is polymorphism in the context of object-oriented programming?",
@@ -1925,7 +1907,7 @@ const generalCSQuiz = [
     Distractor2: "The concept of hiding the internal state of an object",
     Distractor3: "The ability to create multiple methods with the same name but different implementations",
     Explanation: "Polymorphism is an object-oriented programming principle that allows objects of different classes to be treated as objects of a common super class. It enables a single method to behave differently based on the object that it is acting upon.",
-    Link: "https://www.geeksforgeeks.org/polymorphism-in-java/"
+    Link: "https://www.freecodecamp.org/news/a-guide-to-object-oriented-programming-principles/"
   }  
 ];
 
