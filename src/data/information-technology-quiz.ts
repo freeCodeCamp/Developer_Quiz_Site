@@ -541,6 +541,51 @@ const informationTechnologyQuiz = [
     Explanation:
       "To flush your DNS, 'ipconfig /flushdns' is the correct command on Windows. This means that your cache has been completely cleared, and fresh versions of any website you visit will be loaded.",
     Link: "https://www.freecodecamp.org/news/flushdns-how-to-flush-dns-with-the-windows-ipconfig-flushdns-command/"
+  },
+  {
+  Question: "What is the primary purpose of the Domain Name System (DNS) in networking?",
+  Answer: "To translate human-readable domain names to IP addresses",
+  Distractor1: "To encrypt data transmitted over the network",
+  Distractor2: "To manage and allocate network bandwidth",
+  Distractor3: "To monitor network traffic for security threats",
+  Explanation: "The Domain Name System (DNS) is responsible for converting domain names, which are easy for humans to remember, into IP addresses that computers use to identify each other on the network.",
+  Link: "https://www.freecodecamp.org/news/what-is-dns"
+  },
+  {
+  Question: "What is the purpose of a firewall in computer networks?",
+  Answer: "To monitor and control incoming and outgoing network traffic based on predetermined security rules",
+  Distractor1: "To compress data before transmission",
+  Distractor2: "To increase the speed of data transfer",
+  Distractor3: "To balance the load between multiple servers",
+  Explanation: "A firewall is a network security device that monitors and filters incoming and outgoing network traffic based on an organization's previously established security policies.",
+  Link: "https://youtu.be/qiQR5rTSshw?si=zqd4y7wIGgscgC7b"
+  },
+  {
+    Question: "What is the function of an API (Application Programming Interface)?",
+    Answer: "To allow different software applications to communicate with each other",
+    Distractor1: "To manage database transactions",
+    Distractor2: "To encrypt and decrypt data",
+    Distractor3: "To monitor network security",
+    Explanation: "An API defines a set of rules and protocols for building and interacting with software applications, enabling them to communicate.",
+    Link: "https://www.freecodecamp.org/news/apis-with-nodejs-and-express-course-in-spanish-for-beginners/"
+  },
+  {
+    Question: "What is the main advantage of using a Content Delivery Network (CDN)?",
+    Answer: "To improve website load times by distributing content closer to users",
+    Distractor1: "To secure websites from hacking",
+    Distractor2: "To increase storage capacity",
+    Distractor3: "To create backups of data",
+    Explanation: "A CDN distributes content across multiple servers worldwide, which helps reduce latency and improve load times for users.",
+    Link: "https://www.freecodecamp.org/news/cdns-speed-up-performance-by-reducing-latency/"
+  },
+  {
+    Question: "What does the term 'virtualization' refer to in IT?",
+    Answer: "Creating virtual versions of physical hardware resources",
+    Distractor1: "Developing virtual reality applications",
+    Distractor2: "Storing data in the cloud",
+    Distractor3: "Encrypting sensitive information",
+    Explanation: "Virtualization involves creating virtual versions of physical hardware such as servers, storage devices, and networks to improve efficiency and scalability.",
+    Link: "https://www.freecodecamp.org/news/linux-server-virtualization-the-basics/"
   }
 ];
 
