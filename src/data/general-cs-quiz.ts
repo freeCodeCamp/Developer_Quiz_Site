@@ -1881,7 +1881,34 @@ const generalCSQuiz = [
     Explanation:
       "NTFS, which stands for NT file system and the New Technology File System, is the file system that the Windows NT operating system (OS) uses for storing and retrieving files on hard disk drives (HDDs) and solid-state drives (SSDs). It is the default file system for the Windows NT family and it is developed by Microsoft.",
     Link: "https://en.wikipedia.org/wiki/NTFS"
-  }
+  },
+  {
+    Question: "Which data structure uses the LIFO (Last In, First Out) principle?",
+    Answer: "Stack",
+    Distractor1: "Queue",
+    Distractor2: "Linked List",
+    Distractor3: "Hash Table",
+    Explanation: "A stack is a data structure that follows the Last In, First Out (LIFO) principle, meaning the last element added to the stack will be the first one to be removed.",
+    Link: "https://www.freecodecamp.org/news/linear-data-structures-linked-lists-stacks-and-queues-in-javascript-a13c7591ad87/"
+  },
+  {
+    Question: "In object-oriented programming, what is encapsulation?",
+    Answer: "The concept of wrapping data and methods that operate on the data within a single unit or class",
+    Distractor1: "The ability of a function to call itself",
+    Distractor2: "The ability to define multiple methods with the same name",
+    Distractor3: "The concept of using symbols to represent operations and data",
+    Explanation: "Encapsulation is an object-oriented programming principle that bundles the data (attributes) and methods (functions) that operate on the data into a single unit or class, and restricts direct access to some of the object's components.",
+    Link: "https://www.freecodecamp.org/news/a-guide-to-object-oriented-programming-principles/"
+  },
+  {
+    Question: "What is polymorphism in the context of object-oriented programming?",
+    Answer: "The ability of different objects to respond uniquely to the same method call",
+    Distractor1: "The process of defining a new class based on an existing class",
+    Distractor2: "The concept of hiding the internal state of an object",
+    Distractor3: "The ability to create multiple methods with the same name but different implementations",
+    Explanation: "Polymorphism is an object-oriented programming principle that allows objects of different classes to be treated as objects of a common super class. It enables a single method to behave differently based on the object that it is acting upon.",
+    Link: "https://www.freecodecamp.org/news/a-guide-to-object-oriented-programming-principles/"
+  }  
 ];
 
 export default generalCSQuiz;
