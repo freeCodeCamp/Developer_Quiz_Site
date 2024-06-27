@@ -119,8 +119,9 @@ a:hover {
 .submit-btn {
   font-weight: bold;
   color: #ffffff;
-  background-color: #acd157;
+  background-color: transparent;
   opacity: 0.5;
+  border: white;
 }
 
 /*Modal styles*/
