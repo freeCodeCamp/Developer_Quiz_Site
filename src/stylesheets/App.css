@@ -74,14 +74,14 @@ a:hover {
   box-shadow: -1px -1px 15px rgb(245 242 247 / 70%);
 }
 .answers-btns--selected {
-  background-color: #cccccc;
+  background-color: #f1be32;
 }
 
 .quiz-btn,
 .results-btn,
 .modal-btn {
-  background-color: #f1be32;
-  border: 3px solid #feac32;
+  background-color: #acd157;
+  border: 3px solid #acd157;
   font-size: 1.2rem;
   padding: 5px;
 }
@@ -119,8 +119,9 @@ a:hover {
 .submit-btn {
   font-weight: bold;
   color: #ffffff;
-  background-color: #acd157;
+  background-color: transparent;
   opacity: 0.5;
+  border: 2px solid #ffffff;
 }
 
 /*Modal styles*/
