@@ -121,7 +121,7 @@ a:hover {
   color: #ffffff;
   background-color: transparent;
   opacity: 0.5;
-  border: white;
+  border: 2px solid #ffffff;
 }
 
 /*Modal styles*/
