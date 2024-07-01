@@ -2084,6 +2084,38 @@ const javascriptQuiz = [
     Explanation:
       "Variable names cannot start with a number or any special character.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
+  },
+  {
+    Question:
+      "In JavaScript, what would happen if you tried to reassign a value to a const variable?",
+    Answer: "JavaScript throws a TypeError",
+    Distractor1: "JavaScript throws a SyntaxError",
+    Distractor2: "The JavaScript program will crash",
+    Distractor3: "The program will return null",
+    Explanation:
+      "In JavaScript, a type error will occur because a variable declared with const cannot be reassigned.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
+  },
+  {
+    Question:
+      "In JavaScript, what would be the result for the following: 0.1 + 0.2 === 0.3?",
+    Answer: "false",
+    Distractor1: "true",
+    Distractor2: "undefined",
+    Distractor3: "NaN",
+    Explanation:
+      "Due to floating-point precision issues, 0.1 + 0.2 does not exactly equal 0.3.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON"
+  },
+  {
+    Question: "What does Array.isArray([]) return?",
+    Answer: "true",
+    Distractor1: "false",
+    Distractor2: "undefined",
+    Distractor3: "null",
+    Explanation:
+      "Array.isArray([]) returns true because the isArray method checks if the passed argument is an array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
   }
 ];
 
