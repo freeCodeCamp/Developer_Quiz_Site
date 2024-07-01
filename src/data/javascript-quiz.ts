@@ -2086,24 +2086,26 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types"
   },
   {
-    Question: "If const a = 2 and then a = 5 what will be the result?",
-    Answer: "A TypeError ",
-    Distractor1: "A TypeError ",
-    Distractor2: "5",
-    Distractor3: "2",
+    Question:
+      "In JavaScript, what would happen if you tried to reassign a value to a const variable?",
+    Answer: "JavaScript throws a TypeError",
+    Distractor1: "JavaScript throws a SyntaxError",
+    Distractor2: "The JavaScript program will crash",
+    Distractor3: "The program will return null",
     Explanation:
-      "In JavaScript, a variable declared with the `const` keyword cannot be reassigned.",
-    Link: "https://www.w3schools.com/js/js_const.asp"
+      "In JavaScript, a type error will occur because a variable declared with const cannot be reassigned.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/const"
   },
   {
-    Question: "What is the result of 0.1 + 0.2 === 0.3?",
+    Question:
+      "In JavaScript, what would be the result for the following: 0.1 + 0.2 === 0.3?",
     Answer: "false",
     Distractor1: "true",
     Distractor2: "undefined",
     Distractor3: "NaN",
     Explanation:
       "Due to floating-point precision issues, 0.1 + 0.2 does not exactly equal 0.3.",
-    Link: "https://www.w3schools.com/js/js_numbers.asp"
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON"
   },
   {
     Question: "What does Array.isArray([]) return?",
@@ -2112,8 +2114,8 @@ const javascriptQuiz = [
     Distractor2: "undefined",
     Distractor3: "null",
     Explanation:
-      "Array.isArray() checks if the passed argument is an array, returning true for [].",
-    Link: "https://www.w3schools.com/js/js_arrays.asp"
+      "Array.isArray([]) returns true because the isArray method checks if the passed argument is an array.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
   }
 ];
 
