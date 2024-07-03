@@ -608,6 +608,17 @@ const gitQuiz = [
     Explanation:
       "The 'git branch' command is used to manage branches in a Git repository, including listing existing branches, creating new branches, and deleting branches.",
     Link: "https://git-scm.com/docs/git-branch"
+  },
+  {
+    Question: "In Git, what is the purpose of the 'git bisect' command?",
+    Answer:
+      "git bisect is used to find a commit that introduced a bug.",
+    Distractor1: "The latest commit in the repository",
+    Distractor2: "The oldest commit in the repository",
+    Distractor3: "The commit with the most changes",
+    Explanation:
+      "The 'git bisect' command uses a binary search algorithm to find which commit in your project's history introduced a bug.",
+      Link: "https://git-scm.com/docs/git-bisect"
   }
 ];
 
