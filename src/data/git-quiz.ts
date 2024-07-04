@@ -619,7 +619,18 @@ const gitQuiz = [
     Explanation:
       "The 'git bisect' command uses a binary search algorithm to find which commit in your project's history introduced a bug.",
       Link: "https://git-scm.com/docs/git-bisect"
-  }
+  },
+  {
+    Question: "In Git, what command provides help with documentation and usage information?",
+    Answer: 
+      "git help",
+    Distractor1: "git assist",
+    Distractor2: "git commit",
+    Distractor3: "git guide",
+    Explanation:
+      "If you forget how any command works in Git, git help displays help information about Git.",
+      Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
+}
 ];
 
 export default gitQuiz;
