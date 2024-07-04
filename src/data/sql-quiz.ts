@@ -1349,6 +1349,17 @@ const sqlQuiz = [
     Explanation:
       "Boyce-Codd is the most normalized form and so it has better data integrity and less duplicate data compared to others",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "Which of the following is not a TCL command?",
+    Answer: "Insert",
+    Distractor1: "Rollback",
+    Distractor2: "Commit",
+    Distractor3: "Save Transaction",
+    Explanation:
+      "Boyce-Codd is the most normalized form and so it has better data integrity and less duplicate data compared to others",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
   }
 ];
 
