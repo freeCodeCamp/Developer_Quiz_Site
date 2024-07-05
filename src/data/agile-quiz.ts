@@ -669,6 +669,33 @@ const agileQuiz = [
     Explanation:
       'A non-functional requirement (NFR) is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors (a functional requirement). Non-functional requirements are often called "quality attributes", "constraints" or "non-behavioral requirements".',
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What is a sprint in Agile?",
+    Answer: "A time-boxed period during which specific work has to be completed and made ready for review.",
+    Distractor1: "A meeting where team members discuss the progress of the project.",
+    Distractor2: "A tool used to track the progress of Agile projects.",
+    Distractor3: "A role in Agile responsible for managing the product backlog.",
+    Explanation: "In Agile, a sprint is a set period during which specific work is completed and then reviewed. Sprints are time-boxed, usually lasting two to four weeks.",
+    Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question: "What is the main purpose of a daily stand-up meeting in Agile?",
+    Answer: "To provide a regular update on progress and identify any blockers.",
+    Distractor1: "To assign new tasks to team members.",
+    Distractor2: "To conduct detailed discussions about the project.",
+    Distractor3: "To create the product backlog.",
+    Explanation: "Daily stand-up meetings in Agile are brief meetings where team members give updates on their progress, highlight any obstacles, and plan their work for the day.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-daily-stand-up/"
+  },
+  {
+    Question: "What is the role of a Scrum Master in Agile?",
+    Answer: "To facilitate the Scrum process and help remove obstacles that impede the team’s progress.",
+    Distractor1: "To create and manage the product backlog.",
+    Distractor2: "To design the software architecture.",
+    Distractor3: "To test the software before release.",
+    Explanation: "The Scrum Master is responsible for ensuring the team adheres to Scrum practices and values, facilitates meetings, and helps remove any impediments to the team’s progress.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-scrum-master-the-agile-role-and-responsibilities-explained/"
   }
 ];
 
