@@ -1690,7 +1690,24 @@ const pythonQuiz = [
     Explanation:
       "Decorators in Python are applied at runtime, not at compile time. When a decorated function is defined, the decorator is executed immediately, and the result replaces the original function definition in the namespace.",
     Link: "https://www.freecodecamp.org/news/python-decorators-explained/"
-
+  },
+  {
+    Question: "Which of the following methods can be used to remove whitespace from both ends of a string in Python?",
+    Answer: "strip()",
+    Distractor1: "trim()",
+    Distractor2: "rstrip()",
+    Distractor3: "lstrip()",
+    Explanation: "The strip() method in Python removes any leading and trailing whitespace from a string.",
+    Link: "https://www.freecodecamp.org/news/how-to-strip-trailing-whitespace-in-python/"
+  },
+  {
+    Question: "In Python, what is the output of the following code? print('Hello'[::-1])",
+    Answer: "'olleH'",
+    Distractor1: "'Hello'",
+    Distractor2: "Error",
+    Distractor3: "'Hello '",
+    Explanation: "The [::-1] slice operation in Python reverses the string.",
+    Link: "https://www.freecodecamp.org/news/python-slicing-how-to-slice-an-array/"
   }
 ];
 
