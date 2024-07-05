@@ -1329,6 +1329,33 @@ const cssQuiz = [
     Explanation:
       "The @font-face CSS at-rule specifies a custom font with which to display text and can be loaded from either via URL or a locally-installed font.",
     Link: "https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face"
+  },
+  {
+    Question: "In CSS, which property is used to change the text color of an element?",
+    Answer: "color",
+    Distractor1: "font-color",
+    Distractor2: "text-color",
+    Distractor3: "background-color",
+    Explanation: "The 'color' property in CSS is used to change the text color of an element.",
+    Link: "https://www.freecodecamp.org/news/css-font-color-how-to-style-text-in-html/"
+  },
+  {
+    Question: "What is the default value of the 'position' property in CSS?",
+    Answer: "static",
+    Distractor1: "relative",
+    Distractor2: "absolute",
+    Distractor3: "fixed",
+    Explanation: "The default value of the 'position' property in CSS is 'static'.",
+    Link: "https://www.freecodecamp.org/news/css-position-property-explained/"
+  },
+  {
+    Question: "Which CSS property is used to control the space between lines of text?",
+    Answer: "line-height",
+    Distractor1: "letter-spacing",
+    Distractor2: "word-spacing",
+    Distractor3: "text-indent",
+    Explanation: "The 'line-height' property in CSS is used to control the space between lines of text.",
+    Link: "https://www.freecodecamp.org/news/css-spacing-guide-for-web-devs/"
   }
 ];
 
