@@ -18,7 +18,7 @@ const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
   return (
     <div className="select-quiz-styles">
       <h2 className="quiz-heading">Choose a length for the Quiz</h2>
-      <div className="w-25 select-btn-div">
+      <div className="select-btn-div">
         {availableQuizLengths.map((choice: number, index: number) => (
           <button
             className="select-btns"

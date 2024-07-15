@@ -54,6 +54,8 @@ a:hover {
   display: flex;
   flex-direction: column;
   margin: 20px;
+  width: 100%;
+  padding: 0 10% 0;
 }
 
 .select-btns,
@@ -151,11 +153,20 @@ a:hover {
 }
 
 @media screen and (max-width: 460px) {
-  .select-btn-div {
-    width: auto !important;
-  }
-
   .quiz-answers-div {
     width: auto;
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .select-btn-div {
+    padding: 0 20% 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .select-btn-div {
+    width: 25%;
+    padding: 0;
   }
 }
