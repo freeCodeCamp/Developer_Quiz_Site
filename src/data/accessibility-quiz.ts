@@ -1,12 +1,14 @@
 const accessibilityQuiz = [
   {
-    "Question": "Why is using semantic HTML important for accessibility?",
-    "Answer": "It provides meaning and structure to web content, aiding screen readers and other assistive technologies.",
-    "Distractor1": "It makes the website load faster.",
-    "Distractor2": "It helps with SEO optimization.",
-    "Distractor3": "It reduces the need for CSS.",
-    "Explanation": "Semantic HTML uses tags that clearly describe their purpose, which improves the accessibility of web content for users relying on assistive technologies.",
-    "Link": "https://www.freecodecamp.org/news/semantic-html5-elements/"
+    Question: "Why is using semantic HTML important for accessibility?",
+    Answer:
+      "It provides meaning and structure to web content, aiding screen readers and other assistive technologies.",
+    Distractor1: "It makes the website load faster.",
+    Distractor2: "It helps with SEO optimization.",
+    Distractor3: "It reduces the need for CSS.",
+    Explanation:
+      "Semantic HTML uses tags that clearly describe their purpose, which improves the accessibility of web content for users relying on assistive technologies.",
+    Link: "https://www.freecodecamp.org/news/semantic-html5-elements/"
   },
   {
     Question: "What does ASAP mean in the context of accessibility?",
@@ -1095,6 +1097,28 @@ const accessibilityQuiz = [
     Explanation:
       "Descriptive alt texts for images ensure that users with visual impairments can comprehend the content of the images, fostering a comprehensive browsing experience for all users.",
     Link: "https://www.freecodecamp.org/news/4-principles-for-getting-started-with-website-accessibility-4e85f75730b/"
+  },
+  {
+    Question:
+      "Which one of these has a goal of providing a single shared standard for web content accessibility that meets the needs of individuals, organizations, and governments internationally?",
+    Answer: "WCAG 2",
+    Distractor1: "ARIA",
+    Distractor2: "UAAG",
+    Distractor3: "ATAG",
+    Explanation:
+      "WCAG 2 provides a comprehensive set of guidelines to ensure web content is accessible to all users, including those with disabilities. It is widely recognized and adopted globally to create a consistent and universal standard for web accessibility.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/wcag/"
+  },
+  {
+    Question:
+      "Which specification enhances the accessibility of dynamic web content and user interface components developed with JavaScript, HTML, and CSS?",
+    Answer: "WAI-ARIA",
+    Distractor1: "WEB-DEI",
+    Distractor2: "WAI-Adapt",
+    Distractor3: "WCAG 3",
+    Explanation:
+      "WAI-ARIA stands for Web Accessibility Initiative - Accessible Rich Internet Applications. It's a set of technical specifications developed by W3C to improve the accessibility of dynamic web content and advanced user interface components.",
+    Link: "https://www.w3.org/WAI/standards-guidelines/aria/"
   }
 ];
 
