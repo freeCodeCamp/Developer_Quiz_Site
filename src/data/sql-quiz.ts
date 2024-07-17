@@ -1349,6 +1349,17 @@ const sqlQuiz = [
     Explanation:
       "Boyce-Codd is the most normalized form and so it has better data integrity and less duplicate data compared to others",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#chapter9databasenormalization"
+  },
+  {
+    Question:
+      "In SQL, which of the following is NOT a Transaction Control Language command?",
+    Answer: "Insert",
+    Distractor1: "Rollback",
+    Distractor2: "Commit",
+    Distractor3: "Save Transaction",
+    Explanation:
+      "TCL stands for Transaction Control Language and common commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
+    Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
   }
 ];
 

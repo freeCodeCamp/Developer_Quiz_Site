@@ -608,7 +608,29 @@ const gitQuiz = [
     Explanation:
       "The 'git branch' command is used to manage branches in a Git repository, including listing existing branches, creating new branches, and deleting branches.",
     Link: "https://git-scm.com/docs/git-branch"
-  }
+  },
+  {
+    Question: "In Git, what is the purpose of the 'git bisect' command?",
+    Answer:
+      "to find a commit that introduced a bug",
+    Distractor1: "to find the latest commit in the repository",
+    Distractor2: "to find the oldest commit in the repository",
+    Distractor3: "to find the commit with the most changes",
+    Explanation:
+      "The 'git bisect' command uses a binary search algorithm to find which commit in your project's history introduced a bug.",
+      Link: "https://git-scm.com/docs/git-bisect"
+  },
+  {
+    Question: "Which command displays help information about Git?",
+    Answer: 
+      "git help",
+    Distractor1: "git assist",
+    Distractor2: "git commit",
+    Distractor3: "git guide",
+    Explanation:
+      "The 'git help' command will display help information on common Git commands. The 'git help git' command will provide a complete overview of the system.",
+      Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
+}
 ];
 
 export default gitQuiz;
