@@ -612,23 +612,23 @@ const gitQuiz = [
   {
     Question: "In Git, what is the purpose of the 'git bisect' command?",
     Answer:
-      "git bisect is used to find a commit that introduced a bug.",
-    Distractor1: "The latest commit in the repository",
-    Distractor2: "The oldest commit in the repository",
-    Distractor3: "The commit with the most changes",
+      "to find a commit that introduced a bug",
+    Distractor1: "to find the latest commit in the repository",
+    Distractor2: "to find the oldest commit in the repository",
+    Distractor3: "to find the commit with the most changes",
     Explanation:
       "The 'git bisect' command uses a binary search algorithm to find which commit in your project's history introduced a bug.",
       Link: "https://git-scm.com/docs/git-bisect"
   },
   {
-    Question: "In Git, what command provides help with documentation and usage information?",
+    Question: "Which command displays help information about Git?",
     Answer: 
       "git help",
     Distractor1: "git assist",
     Distractor2: "git commit",
     Distractor3: "git guide",
     Explanation:
-      "If you forget how any command works in Git, git help displays help information about Git.",
+      "The 'git help' command will display help information on common Git commands. The 'git help git' command will provide a complete overview of the system.",
       Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
 }
 ];
