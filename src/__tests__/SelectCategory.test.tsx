@@ -1,6 +1,7 @@
 import React from "react";
 import SelectCategory from "../components/SelectCategory";
 import { render, cleanup, RenderResult } from "@testing-library/react";
+import { expect, afterEach, describe, it } from "vitest";
 
 afterEach(cleanup);
 
