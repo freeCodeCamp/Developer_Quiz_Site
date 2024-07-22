@@ -9,7 +9,7 @@
     "noImplicitAny": true,
     "moduleResolution": "node",
     "lib": ["dom", "dom.iterable", "esnext"],
-    "types": ["vite/client"],
+    "types": ["vite/client", "vitest/globals"],
     "isolatedModules": true
   }
 }
