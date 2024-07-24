@@ -3,6 +3,7 @@ import { createRoot } from "react-dom/client";
 import App from "../App";
 import { cleanup } from "@testing-library/react";
 import { HashRouter as Router } from "react-router-dom";
+import { afterEach, describe, it } from "vitest";
 
 afterEach(cleanup);
 

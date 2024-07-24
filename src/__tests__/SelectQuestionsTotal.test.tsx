@@ -2,6 +2,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import SelectQuestionsTotal from "../components/SelectQuestionsTotal";
 import { render, cleanup } from "@testing-library/react";
+import { expect, afterEach, describe, it } from "vitest";
 
 afterEach(cleanup);
 

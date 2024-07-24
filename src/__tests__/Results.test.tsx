@@ -3,6 +3,7 @@ import React from "react";
 import { createRoot } from "react-dom/client";
 import { render, cleanup } from "@testing-library/react";
 import { vi } from "vitest";
+import { expect, afterEach, describe, it } from "vitest";
 
 afterEach(cleanup);
 
