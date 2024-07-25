@@ -5,8 +5,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     watch: {
-      usePolling: true, // required for container hot reloading
-     },
+      usePolling: true // required for container hot reloading
+    },
     port: 3000,
     host: true, // fixes container xdg-open issues
     open: true
@@ -18,6 +18,11 @@ export default defineConfig({
   test: {
     globals: true,
     environment: "happy-dom",
-    setupFiles: "./testSetup.ts"
+    setupFiles: "./testSetup.ts",
+    exclude: [
+      "**/node_modules/**",
+      "**/dist/**",
+      "**/e2e/*" /* do not include playwright files */
+    ]
   }
 });
