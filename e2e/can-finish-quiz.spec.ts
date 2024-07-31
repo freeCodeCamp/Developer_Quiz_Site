@@ -1,7 +1,7 @@
 import { test, expect } from "@playwright/test";
 
 test.beforeEach(async ({ page }) => {
-  await page.goto("http://localhost:3000/#/quizzes");
+  await page.goto("/#/quizzes");
 
   await page.getByRole("button", { name: "HTML" }).click();
 
@@ -13,6 +13,9 @@ test("after answer all the questions user should see 'results' page", async ({
 }) => {
   // loop through all the questions.
   for (let i = 1; i <= 10; i++) {
+    // Url should contain number of question
+    await expect(page.url()).toContain(`${i}/of/10`);
+
     // Select the first option (no matter if it right or worng)
     await page.getByRole("button").nth(0).click();
 
