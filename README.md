@@ -74,6 +74,14 @@ Once you are finished making changes, you will need to run the test suite to mak
 Here is terminal command for running tests: `pnpm test` (or, even shorter: `pnpm t` )  
 alternativetly (and also cool!) - you can install [vscode vitest extension](https://github.com/vitest-dev/vscode)
 
+### How to run the e2e tests
+
+End to end tests are way to test the whole application actioning  
+This end to end tests run using [playwright](https://playwright.dev/) testing tool  
+Running tests using playwright UI: `pnpm run e2e:ui`  
+Running tests at terminal window: `pnpm run e2e:ci`  
+important! e2e cannot be run at gitpod environment yet
+
 ### How to report bugs
 
 Found a bug while playing?
