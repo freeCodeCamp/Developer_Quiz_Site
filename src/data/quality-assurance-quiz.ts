@@ -483,6 +483,20 @@ const qualityAssuranceQuiz = [
     Explanation:
       "Negative path testing is a testing scenario designed to produce an error state in a feature/application and verify that the error is handled gracefully",
     Link: "https://www.freecodecamp.org/news/software-quality-assurance-guide/"
+  },
+  {
+    Question:
+      "Which of the following is a primary focus of non-functional testing in software development?",
+    Answer:
+      "Evaluating the software's performance, reliability, and scalability",
+    Distractor1:
+      "Verifying that the software meets specific functional requirements",
+    Distractor2:
+      "Testing the interaction between integrated components or modules",
+    Distractor3: "Checking for syntax and logical errors in the code",
+    Explanation:
+      "Non-functional testing is a software testing method that tests for end-user experiences, such as performance and reliability under load.",
+    Link: "https://www.freecodecamp.org/news/software-testing-beginners-guide#types-of-software-testing"
   }
 ];
 
