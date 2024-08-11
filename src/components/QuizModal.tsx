@@ -25,7 +25,9 @@ const QuizModal: React.FC<QuizQuestion> = QuizQuestion => {
             <h2 className="modal-text">
               {answerIcon} {QuizQuestion.message}
             </h2>
-            <h3 className="modal-text">Points: {QuizQuestion.points}</h3>
+            <h3 className="modal-text" data-testid="modal-points">
+              Points: {QuizQuestion.points}
+            </h3>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body>

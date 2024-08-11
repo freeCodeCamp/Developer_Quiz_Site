@@ -13,13 +13,11 @@ test("should show 'success' modal after selecting the correct option", async ({
   await page.getByRole("button", { name: "10", exact: true }).click();
 
   // get points num before answering the question
-  const pointsHeader = await page.$(".quiz-text");
-  const pointsText = await pointsHeader.textContent();
-  expect(pointsText).toContain("Points: 0");
+  await expect(page.locator(".quiz-text")).toContainText("Points: 0");
 
   // find which option is correct
-  // 1. get the qusetion text
-  const legend = await page.$("legend");
+  // 1. get the question text
+  const legend = await page.locator("legend");
   const questionText = await legend.textContent();
   // 2. find the question inside questions of the category
   const questionData = htmlQuizQuestions.find(({ Question }) =>
@@ -39,14 +37,10 @@ test("should show 'success' modal after selecting the correct option", async ({
 
   await expect(page.getByRole("dialog")).toBeVisible();
 
-  const modalDialog = await page.$(".modal-dialog");
+  const modalDialog = await page.getByRole("dialog");
+
   // get the contents of modal-text
-  const modalHeading = await modalDialog.$("h2");
+  await expect(modalDialog.locator("h2")).toContainText("💡");
 
-  const modalHeadingText = await modalHeading.textContent();
-  expect(modalHeadingText).toContain("💡");
-
-  const modalPointsHeading = await modalDialog.$("h3");
-  const modalPointsHeadingText = await modalPointsHeading.textContent();
-  expect(modalPointsHeadingText).toBe("Points: 1");
+  await expect(page.getByTestId("modal-points")).toHaveText("Points: 1");
 });
