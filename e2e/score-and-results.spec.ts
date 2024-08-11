@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
 import htmlQuizQuestions from "../src/data/html-quiz";
+import { correctModalResponses } from "../src/data/modal-responses";
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/#/quizzes");
@@ -40,7 +41,11 @@ test("should show 'success' modal after selecting the correct option", async ({
   const modalDialog = await page.getByRole("dialog");
 
   // get the contents of modal-text
-  await expect(modalDialog.locator("h2")).toContainText("💡");
+  const successLocator = await modalDialog.locator("h2");
+  let successText = await successLocator.textContent();
+  successText = successText.replace("💡", "").replace(" ", "");
+
+  expect(correctModalResponses).toContain(successText);
 
   await expect(page.getByTestId("modal-points")).toHaveText("Points: 1");
 });
