@@ -76,11 +76,19 @@ alternativetly (and also cool!) - you can install [vscode vitest extension](http
 
 ### How to run the e2e tests
 
-End to end tests are way to test the whole application actioning  
-This end to end tests run using [playwright](https://playwright.dev/) testing tool  
-Running tests using playwright UI: `pnpm run e2e:ui`  
-Running tests at terminal window: `pnpm run e2e:ci`  
-important! e2e cannot be run at gitpod environment yet
+This repo uses [Playwright](https://playwright.dev/) for end-to-end testing.
+
+- To run the tests in UI mode, run:
+  ```
+  pnpm run e2e:ui
+  ```
+- To run the tests in headless mode, run:
+
+  ```
+  pnpm run e2e:ci
+  ```
+
+Note: e2e tests cannot be run in Gitpod environment.
 
 ### How to report bugs
 
