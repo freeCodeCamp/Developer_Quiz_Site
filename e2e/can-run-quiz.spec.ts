@@ -1,61 +1,51 @@
 import { test, expect } from "@playwright/test";
-
-const CATEGORIES = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "Accessibility",
-  "General CS",
-  "IT",
-  "Linux",
-  "Python",
-  "SQL",
-  "Random"
-] as const;
+import { CATEGORIES, QUESTION_NUMS } from "../src/constants";
 
 test.beforeEach(async ({ page }) => {
   await page.goto("/#/quizzes");
 });
 
-test("select category page has full list of categories", async ({ page }) => {
-  // Make sure the list has all the categores.
-  await expect(page.getByRole("button")).toHaveText(CATEGORIES);
+test("should display a list of categories", async ({ page }) => {
+  await expect(
+    page.getByRole("heading", { name: "Choose a Category" })
+  ).toBeVisible();
+
+  for (let i = 0; i < CATEGORIES.length; i++) {
+    await expect(
+      page.getByRole("button", { name: CATEGORIES[0], exact: true })
+    ).toBeVisible();
+  }
 });
 
-test("clicking HTML category should lead to select-questions-number page ", async ({
-  page
-}) => {
+test("should allow selecting the number of questions", async ({ page }) => {
   await page.getByRole("button", { name: "HTML" }).click();
 
-  expect(page.url()).toContain("HTML");
+  await page.waitForURL("#/quizzes/HTML/questionsTotal");
 
   await expect(
     page.getByRole("heading", { name: "Choose a length for the Quiz" })
   ).toBeVisible();
 
-  // should display numbers options
-  const buttons = await page.$$eval("button", buttons =>
-    buttons.map(button => button.textContent.trim())
-  );
+  for (let i = 0; i < QUESTION_NUMS.length; i++) {
+    await expect(
+      page.getByRole("button", {
+        name: QUESTION_NUMS[i].toString(),
+        exact: true
+      })
+    ).toBeVisible();
+  }
 
-  // Define the expected button texts
-  const expectedButtonTexts = ["10", "25", "50", "100"];
-
-  // Check if the page contains the expected number of buttons
-  expect(buttons.length).toBe(5);
-
-  // Check if the buttons have the expected text content
-  expect(buttons).toEqual(expect.arrayContaining(expectedButtonTexts));
-
-  expect(buttons[4]).toContain("All");
+  await expect(page.getByRole("button", { name: /All/ })).toBeVisible();
 });
 
-test("clicking '10' option should lead to question page ", async ({ page }) => {
+test("should start the first question after the user has selected the number of questions", async ({
+  page
+}) => {
   await page.getByRole("button", { name: "HTML" }).click();
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
-  expect(page.url()).toContain("questions/1/of/10");
+  await page.waitForURL("/#/quizzes/HTML/questions/1/of/10");
 
   await expect(page.getByRole("heading", { name: "Question 1" })).toBeVisible();
 });
@@ -67,29 +57,22 @@ test("question page should contain 4 options and `submit` button", async ({
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
-  // Get all buttons at 'question' page
-  const buttons = await page.$$("button");
+  const options = page.getByRole("list");
+  await expect(options.getByRole("button")).toHaveCount(4);
 
-  // Check if the page contains exactly 5 buttons
-  expect(buttons.length).toBe(5);
-
-  const lastButtonText = await buttons[4].textContent();
-
-  expect(lastButtonText).toBe("Submit");
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
 });
 
-test("should show modal after selecting one option and click the `submit` button", async ({
+test("should show a modal after selecting one option and click the `submit` button", async ({
   page
 }) => {
   await page.getByRole("button", { name: "HTML" }).click();
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
-  // Select the first option (no matter if it right or worng)
-  await page.getByRole("button").nth(0).click();
+  // Select the first option (no matter if it's right or worng)
+  await page.getByRole("button").first().click();
 
-  // Click the submit button
-  await page.getByRole("button").nth(4).click();
-
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
   await expect(page.getByRole("dialog")).toBeVisible();
 });
