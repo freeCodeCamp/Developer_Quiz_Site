@@ -24,6 +24,8 @@
     "start:local-docker": "docker container run --rm -it -p 3000:3000 developer-quiz-site",
     "build": "vite build",
     "test": "vitest",
+    "e2e:ui": "playwright test --ui",
+    "e2e:ci": "playwright test",
     "lint": "eslint .",
     "pretty-quick": "pretty-quick",
     "fix-style": "pnpm run lint --fix",
@@ -50,6 +52,7 @@
     ]
   },
   "devDependencies": {
+    "@playwright/test": "^1.45.3",
     "@types/node": "^20.0.0",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.0.4",
