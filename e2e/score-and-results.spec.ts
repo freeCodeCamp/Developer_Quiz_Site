@@ -16,83 +16,65 @@ test("should show 'success' modal after selecting the correct option", async ({
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
-  // get points num before answering the question
-  await expect(page.locator(".quiz-text")).toContainText("Points: 0");
+  await expect(page.getByText("Points: 0")).toBeVisible();
 
-  // find which option is correct
-  // 1. get the question text
-  const legend = await page.locator("legend");
-  const questionText = await legend.textContent();
-  // 2. find the question inside questions of the category
+  const question = await page.locator("legend").textContent();
+  // Find the question inside questions of the category
   const questionData = htmlQuizQuestions.find(({ Question }) =>
-    questionText.includes(Question)
+    question.includes(Question)
   );
 
   if (!questionData) {
-    console.log("QUESTION NOT FOUND IN LIST!!!");
+    console.log("Question not found.");
   }
-  // 3. find the 'answer' option
-  const questionAnswer = questionData.Answer;
-  // 4. select correct option
-  await page.getByRole("button", { name: questionAnswer }).click();
 
-  // Click the submit button
-  await page.getByRole("button").nth(4).click();
+  const answer = questionData.Answer;
 
-  await expect(page.getByRole("dialog")).toBeVisible();
+  await page.getByRole("button", { name: answer }).click();
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
 
-  const modalDialog = await page.getByRole("dialog");
+  const dialog = page.getByRole("dialog");
+  const message = await dialog.getByRole("heading", { level: 2 }).textContent();
+  const isMessageInExpectedSet = correctModalResponses.some(response =>
+    message.includes(response)
+  );
 
-  // get the contents of modal-text
-  const successLocator = await modalDialog.locator("h2");
-  let successText = await successLocator.textContent();
-  successText = successText.replace("💡", "").replace(" ", "");
-
-  expect(correctModalResponses).toContain(successText);
-
-  await expect(page.getByTestId("modal-points")).toHaveText("Points: 1");
+  await expect(dialog).toBeVisible();
+  expect(isMessageInExpectedSet).toEqual(true);
+  await expect(dialog.getByText("Points: 1")).toBeVisible();
 });
 
-test("should show 'failure' modal after selecting the WRONG option", async ({
+test("should show 'failure' modal after selecting the wrong option", async ({
   page
 }) => {
   await page.getByRole("button", { name: "HTML" }).click();
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
-  // get points num before answering the question
-  await expect(page.locator(".quiz-text")).toContainText("Points: 0");
+  await expect(page.getByText("Points: 0")).toBeVisible();
 
-  // find a 'distractor' option and click it
-  // 1. get the question text
-  const legend = await page.locator("legend");
-  const questionText = await legend.textContent();
-  // 2. find the question inside questions of the category
+  const question = await page.locator("legend").textContent();
+  // Find the question inside questions of the category
   const questionData = htmlQuizQuestions.find(({ Question }) =>
-    questionText.includes(Question)
+    question.includes(Question)
   );
 
   if (!questionData) {
-    console.log("QUESTION NOT FOUND IN LIST!!!");
+    console.log("Question not found.");
   }
-  // 3. find the 'Distractor' option
-  const questionDistractor = questionData.Distractor1;
-  // 4. select distractor option
-  await page.getByRole("button", { name: questionDistractor }).click();
 
-  // Click the submit button
-  await page.getByRole("button").nth(4).click();
+  const distractor = questionData.Distractor1;
 
-  await expect(page.getByRole("dialog")).toBeVisible();
+  await page.getByRole("button", { name: distractor }).click();
+  await page.getByRole("button", { name: "Submit", exact: true }).click();
 
-  const modalDialog = await page.getByRole("dialog");
+  const dialog = page.getByRole("dialog");
+  const message = await dialog.getByRole("heading", { level: 2 }).textContent();
+  const isMessageInExpectedSet = incorrectModalResponses.some(response =>
+    message.includes(response)
+  );
 
-  // get the contents of modal title
-  const failureLocator = await modalDialog.locator("h2");
-  let failureText = await failureLocator.textContent();
-  failureText = failureText.replace("😔", "").replace(" ", "");
-
-  expect(incorrectModalResponses).toContain(failureText);
-
-  await expect(page.getByTestId("modal-points")).toHaveText("Points: 0");
+  await expect(dialog).toBeVisible();
+  expect(isMessageInExpectedSet).toEqual(true);
+  await expect(dialog.getByText("Points: 0")).toBeVisible();
 });
