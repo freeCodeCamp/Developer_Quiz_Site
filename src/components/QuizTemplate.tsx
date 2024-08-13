@@ -223,10 +223,7 @@ const QuizTemplate: React.FC = () => {
           path="/"
           element={
             <SelectCategory
-              selectQuizNumber={(
-                e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
-                category: string
-              ) => selectQuiz(category, 0)}
+              selectQuizNumber={(category: string) => selectQuiz(category, 0)}
               category={selectedCategory}
               selectQuiz={selectQuiz}
               startRandomQuiz={startRandomQuiz}

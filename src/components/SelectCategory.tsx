@@ -4,10 +4,7 @@ import { CATEGORIES } from "../constants";
 interface SelectCategoryProps {
   category: string;
   selectQuiz: (category: string, index: number) => void;
-  selectQuizNumber: (
-    e: React.MouseEvent<HTMLButtonElement, MouseEvent>,
-    category: string
-  ) => void;
+  selectQuizNumber: (category: string) => void;
   startRandomQuiz: () => void;
 }
 
