@@ -121,7 +121,6 @@ const QuizTemplate: React.FC = () => {
   const resetQuiz = () => {
     setSelectedCategory(""); // Reset selected category
     setSelectedQuiz(0); // Reset selected quiz
-    // setQuiz(ALL_CATEGORIES);
     setShow(false);
     setChooseAnswer(false);
     setPoints(0);
@@ -223,7 +222,6 @@ const QuizTemplate: React.FC = () => {
           path="/"
           element={
             <SelectCategory
-              selectQuizNumber={(category: string) => selectQuiz(category, 0)}
               category={selectedCategory}
               selectQuiz={selectQuiz}
               startRandomQuiz={startRandomQuiz}
