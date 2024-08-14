@@ -23,7 +23,6 @@ describe("SelectCategory", () => {
       <SelectCategory
         selectQuiz={undefined}
         category={""}
-        selectQuizNumber={undefined}
         startRandomQuiz={undefined}
       />
     );
@@ -35,7 +34,6 @@ describe("SelectCategory", () => {
       <SelectCategory
         selectQuiz={undefined}
         category={""}
-        selectQuizNumber={undefined}
         startRandomQuiz={undefined}
       />
     );
