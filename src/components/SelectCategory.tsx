@@ -4,7 +4,6 @@ import { CATEGORIES } from "../constants";
 interface SelectCategoryProps {
   category: string;
   selectQuiz: (category: string, index: number) => void;
-  selectQuizNumber: (category: string) => void;
   startRandomQuiz: () => void;
 }
 
