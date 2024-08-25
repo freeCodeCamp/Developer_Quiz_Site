@@ -2,7 +2,6 @@ import React from "react";
 import { CATEGORIES } from "../constants";
 
 interface SelectCategoryProps {
-  category: string;
   selectQuiz: (category: string, index: number) => void;
   startRandomQuiz: () => void;
 }
@@ -16,7 +15,6 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
           <button
             className="select-btns"
             onClick={() => SelectCategoryProps.selectQuiz(category, index)}
-            value={category}
             key={index}
           >
             {category}
