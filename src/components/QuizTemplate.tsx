@@ -222,7 +222,6 @@ const QuizTemplate: React.FC = () => {
           path="/"
           element={
             <SelectCategory
-              category={selectedCategory}
               selectQuiz={selectQuiz}
               startRandomQuiz={startRandomQuiz}
             />

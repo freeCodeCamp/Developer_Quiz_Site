@@ -20,22 +20,14 @@ describe("SelectCategory", () => {
 
   it("displays the Choose a Category screen", () => {
     const { getByText }: RenderResult = render(
-      <SelectCategory
-        selectQuiz={undefined}
-        category={""}
-        startRandomQuiz={undefined}
-      />
+      <SelectCategory selectQuiz={undefined} startRandomQuiz={undefined} />
     );
     expect(getByText("Choose a Category")).toBeInTheDocument();
   });
 
   it("displays the correct categories", () => {
     const { getByText } = render(
-      <SelectCategory
-        selectQuiz={undefined}
-        category={""}
-        startRandomQuiz={undefined}
-      />
+      <SelectCategory selectQuiz={undefined} startRandomQuiz={undefined} />
     );
     selectCategoryArr.forEach(category => {
       expect(getByText(category)).toBeInTheDocument();
