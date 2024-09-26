@@ -1,11 +1,45 @@
 const linuxQuiz = [
   {
-    Question: "Which of the following commands is used to create a new window for editing a file?",
+    Question: "What does the -q option do in most command-line tools?",
+    Answer: "Suppresses output",
+    Distractor1: "Enables verbose output",
+    Distractor2: "Runs the command in the background",
+    Distractor3: "Stops the command execution",
+    Explanation:
+      "In most command-line tools, the -q or --quiet option is used to suppress the output of the command, making the execution silent unless there are errors.",
+    Link: "https://man7.org/linux/man-pages/man1/rsync.1.html"
+  },
+
+  {
+    Question: "Which of the following is not a mode in the Vim editor?",
+    Answer: "Write",
+    Distractor1: "Insert",
+    Distractor2: "Visual",
+    Distractor3: "Command",
+    Explanation:
+      "In the Vim editor, there is no mode called 'Write.' The modes include Insert, Visual, and Command. 'Write' refers to a command (':w') used to save changes, not a mode.",
+    Link: "https://www.geeksforgeeks.org/entering-editing-mode-in-vim-editor/"
+  },
+  {
+    Question: "Which of the ",
+    Answer: "Write",
+    Distractor1: "Insert",
+    Distractor2: "Visual",
+    Distractor3: "Command",
+    Explanation:
+      "In the Vim editor, there is no mode called 'Write.' The modes include Insert, Visual, and Command. 'Write' refers to a command (':w') used to save changes, not a mode.",
+    Link: "https://www.geeksforgeeks.org/entering-editing-mode-in-vim-editor/"
+  },
+
+  {
+    Question:
+      "Which of the following commands is used to create a new window for editing a file?",
     Answer: "gvim",
     Distractor1: "vim",
     Distractor2: "gedit",
     Distractor3: "nvim",
-    Explanation: "The gvim command causes the editor to open a new window for editing the file whereas the vim command causes the editing to occur inside your command window.",
+    Explanation:
+      "The gvim command causes the editor to open a new window for editing the file whereas the vim command causes the editing to occur inside your command window.",
     Link: "https://vimdoc.sourceforge.net/htmldoc/usr_02.html#02.1"
   },
   {
@@ -1657,13 +1691,13 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/linux-user-groups-explained-how-to-add-a-new-group-a-new-group-member-and-change-groups/"
   },
   {
-    Question:
-      "In Linux, which command below does not display logs?",
+    Question: "In Linux, which command below does not display logs?",
     Answer: "cd",
     Distractor1: "dmesg",
     Distractor2: "journalctl",
     Distractor3: "cat /var/log/syslog",
-    Explanation: "The cd command stands for change directory and is used to change to a directory in the terminal. The cd command is not used to display logs.",
+    Explanation:
+      "The cd command stands for change directory and is used to change to a directory in the terminal. The cd command is not used to display logs.",
     Link: "https://www.youtube.com/watch?v=ROjZy1WbCIA&t=3472s"
   }
 ];
