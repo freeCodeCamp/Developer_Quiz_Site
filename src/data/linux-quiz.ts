@@ -1,5 +1,26 @@
 const linuxQuiz = [
   {
+    Question: "What does the -q option do in most command-line tools?",
+    Answer: "Suppresses output",
+    Distractor1: "Enables verbose output",
+    Distractor2: "Runs the command in the background",
+    Distractor3: "Stops the command execution",
+    Explanation:
+      "In most command-line tools, the -q or --quiet option is used to suppress the output of the command, making the execution silent unless there are errors.",
+    Link: "https://man7.org/linux/man-pages/man1/rsync.1.html"
+  },
+
+  {
+    Question: "Which of the following is not a mode in the Vim editor?",
+    Answer: "Write",
+    Distractor1: "Insert",
+    Distractor2: "Visual",
+    Distractor3: "Command",
+    Explanation:
+      "In the Vim editor, there is no mode called 'Write.' The modes include Insert, Visual, and Command. 'Write' refers to a command (':w') used to save changes, not a mode.",
+    Link: "https://www.geeksforgeeks.org/entering-editing-mode-in-vim-editor/"
+  },
+  {
     Question: "Which of the following commands is used to create a new window for editing a file?",
     Answer: "gvim",
     Distractor1: "vim",
