@@ -1,5 +1,6 @@
 import React from "react";
 import { CATEGORIES } from "../constants";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 interface SelectCategoryProps {
   selectQuiz: (category: string, index: number) => void;
@@ -7,6 +8,8 @@ interface SelectCategoryProps {
 }
 
 const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
+  const navigate = useNavigate(); // React Router navigation
+
   return (
     <div className="select-quiz-styles">
       <h2 className="quiz-heading">Choose a Category</h2>
@@ -27,7 +30,16 @@ const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
           Random
         </button>
       </div>
+
+      {/* Custom Back Button to go to the main page */}
+      <button
+        className="back-btn"
+        onClick={() => navigate(-1)} // Go back to the previous page in history
+      >
+        Back
+      </button>
     </div>
   );
 };
+
 export default SelectCategory;

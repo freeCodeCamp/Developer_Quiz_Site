@@ -169,4 +169,21 @@ a:hover {
     width: 25%;
     padding: 0;
   }
+
+  .back-btn {
+    font-size: 1rem;
+    margin: 15px 0;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #acd157;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+
+  .back-btn:hover {
+    background-color: #acd157;
+  }
 }

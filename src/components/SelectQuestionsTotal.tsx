@@ -1,16 +1,18 @@
 import React from "react";
 import { QUESTION_NUMS } from "../constants";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 
 interface SelectQuestionsTotalProps {
   startQuiz: (e: number) => void;
-  selectedCategory: string; // Add the selectedCategory prop
-  totalQuestions: number; // Add the totalQuestions prop
+  selectedCategory: string;
+  totalQuestions: number;
 }
 
 const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
   totalQuestions,
   startQuiz
 }) => {
+  const navigate = useNavigate(); // React Router navigation
   const availableQuizLengths = QUESTION_NUMS.filter(
     length => length <= totalQuestions
   );
@@ -36,7 +38,16 @@ const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
           All ({totalQuestions})
         </button>
       </div>
+
+      {/* Custom Back Button to go to category selection */}
+      <button
+        className="back-btn"
+        onClick={() => navigate(-1)} // Go back to the previous page in history
+      >
+        Back
+      </button>
     </div>
   );
 };
+
 export default SelectQuestionsTotal;
