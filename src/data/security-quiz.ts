@@ -646,7 +646,7 @@ const securityQuiz = [
       Answer: "It prevent brute force attacks, web scraping, and DDoS attacks.",
       Distractor1: "It prevent SQL injection attacks.",
       Distractor2: "It prevent Cross-site scripting attacks.",
-      Distraction3: "It prevent from phishing attacks.",
+      Distractor3: "It prevent from phishing attacks.",
       Explanation:
         "Rate limiting is a security measure that restricts the number of requests a user can make to a server within a certain time frame. This helps prevent brute force attacks, web scraping, and DDoS attacks.",
       Link: "https://www.freecodecamp.org/news/what-is-rate-limiting-web-apis/"
