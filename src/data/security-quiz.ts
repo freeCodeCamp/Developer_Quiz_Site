@@ -2,7 +2,7 @@ const securityQuiz = [
   {
     Question:"What is the primary purpose of a wordlist in ethical hacking ?",
     Answer : "To automate password cracking attempts",
-    Distractor1: "To store user credentials securley",
+    Distractor1: "To store user credentials securely",
     Distractor2:" To encrypt sensitive data",
     Distractor3:"To monitor network traffic",
     Explanation: "Wordlists are used by ethical hackers to automate the process of guessing passwords, as they contain common passwords and phrases that can be tried against accounts.",
