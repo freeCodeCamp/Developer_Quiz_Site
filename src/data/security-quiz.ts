@@ -45,7 +45,7 @@ const securityQuiz = [
     Question:
       "Which of the following is a characteristic of a phishing attack?",
     Answer: "Deceptive emails impersonating a trusted source.",
-    Distractor: "Encrypting a victim's files for ransom.",
+    Distractor1: "Encrypting a victim's files for ransom.",
     Distractor2: "Injecting malicious code into a website.",
     Distractor3: "Interfering with network traffic.",
     Explanation:
