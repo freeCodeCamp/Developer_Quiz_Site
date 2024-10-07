@@ -627,6 +627,118 @@ const securityQuiz = [
     Explanation:
       "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
+  },
+  {
+    Question: "What is the purpose of a firewall in network security?",
+    Answer: "To filter incoming and outgoing network traffic.",
+    Distractor1: "To encrypt data in transit.",
+    Distractor2: "To scan for malware.",
+    Distractor3: "To monitor user activity.",
+    Explanation:
+      "A firewall acts as a barrier between a trusted internal network and untrusted external networks, filtering traffic based on predetermined security rules.",
+    Link: "https://www.freecodecamp.org/news/understanding-digital-security/"
+  },
+  {
+    Question: "What does the term 'phishing' refer to in cybersecurity?",
+    Answer:
+      "Attempting to acquire sensitive information by masquerading as a trustworthy entity.",
+    Distractor1: "A technique for secure data storage.",
+    Distractor2: "A method of enhancing password strength.",
+    Distractor3: "A type of denial-of-service attack.",
+    Explanation:
+      "Phishing is a cyber attack that uses disguised email as a weapon, tricking users into providing sensitive information or downloading malicious software.",
+    Link: "https://www.freecodecamp.org/news/tag/phishing/"
+  },
+  {
+    Question: "What does VPN stand for?",
+    Answer: "Virtual Private Network",
+    Distractor1: "Variable Public Network",
+    Distractor2: "Virtual Protected Network",
+    Distractor3: "Visible Private Network",
+    Explanation:
+      "A VPN, or Virtual Private Network, creates a secure connection over a less secure network, such as the Internet.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-vpn/"
+  },
+  {
+    Question: "What is the main function of hashing in cybersecurity?",
+    Answer: "To ensure data integrity",
+    Distractor1: "To encrypt data",
+    Distractor2: "To compress data",
+    Distractor3: "To authenticate users",
+    Explanation:
+      "Hashing is used to ensure the integrity of data by producing a unique hash value for each piece of data, making it easy to verify if the data has changed.",
+    Link: "https://www.freecodecamp.org/news/understanding-hashing-in-cybersecurity/"
+  },
+  {
+    Question: "What does MFA stand for in cybersecurity?",
+    Answer: "Multi-Factor Authentication",
+    Distractor1: "Multi-Factor Analysis",
+    Distractor2: "Manual File Access",
+    Distractor3: "Multiple Firewall Application",
+    Explanation:
+      "Multi-Factor Authentication (MFA) adds an additional layer of security by requiring two or more verification methods to gain access.",
+    Link: "https://www.freecodecamp.org/news/what-is-multi-factor-authentication/"
+  },
+  {
+    Question: "What is a Zero-Day vulnerability?",
+    Answer: "A security flaw that is unknown to the vendor",
+    Distractor1: "A flaw that has been patched",
+    Distractor2: "A vulnerability that requires a physical attack",
+    Distractor3: "An outdated software version",
+    Explanation:
+      "A Zero-Day vulnerability is a security flaw that is unknown to the vendor, meaning that no patch or fix is available yet.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-zero-day-vulnerability/"
+  },
+  {
+    Question: "Which of the following is a common method for phishing attacks?",
+    Answer:
+      "Sending fraudulent emails that appear to be from legitimate sources",
+    Distractor1: "Installing malware directly on the victim's device",
+    Distractor2: "Using brute force to guess passwords",
+    Distractor3: "Exploiting software vulnerabilities",
+    Explanation:
+      "Phishing attacks typically involve sending fraudulent emails that appear to come from legitimate sources to trick individuals into providing sensitive information.",
+    Link: "https://www.freecodecamp.org/news/what-is-phishing/"
+  },
+  {
+    Question: "What is the purpose of data encryption?",
+    Answer: "To protect sensitive information from unauthorized access",
+    Distractor1: "To speed up data transmission",
+    Distractor2: "To improve data integrity",
+    Distractor3: "To compress data for storage",
+    Explanation:
+      "Data encryption converts data into a coded format to prevent unauthorized access and ensure confidentiality.",
+    Link: "https://www.freecodecamp.org/news/what-is-data-encryption/"
+  },
+  {
+    Question: "What is social engineering in cybersecurity?",
+    Answer: "Manipulating individuals to disclose confidential information",
+    Distractor1: "Creating stronger passwords",
+    Distractor2: "Developing secure software applications",
+    Distractor3: "Implementing firewalls and security protocols",
+    Explanation:
+      "Social engineering involves manipulating individuals into divulging confidential or personal information that may be used for fraudulent purposes.",
+    Link: "https://www.freecodecamp.org/news/what-is-social-engineering/"
+  },
+  {
+    Question: "What is the role of an ethical hacker?",
+    Answer: "To test and secure systems by identifying vulnerabilities",
+    Distractor1: "To exploit security flaws for personal gain",
+    Distractor2: "To develop new hacking tools",
+    Distractor3: "To analyze malware for distribution",
+    Explanation:
+      "Ethical hackers use their skills to test and secure systems by identifying vulnerabilities before malicious hackers can exploit them.",
+    Link: "https://www.freecodecamp.org/news/what-is-an-ethical-hacker/"
+  },
+  {
+    Question: "What does the principle of least privilege mean?",
+    Answer: "Users should have the minimum level of access necessary",
+    Distractor1: "Users should have no access to any system",
+    Distractor2: "Users should have full access to all systems",
+    Distractor3: "Users should have access to only public data",
+    Explanation:
+      "The principle of least privilege dictates that users should have the minimum level of access necessary to perform their jobs, reducing the risk of accidental or malicious data breaches.",
+    Link: "https://www.freecodecamp.org/news/what-is-the-principle-of-least-privilege/"
   }
 ];
 
