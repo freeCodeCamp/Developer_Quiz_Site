@@ -1,5 +1,58 @@
 const securityQuiz = [
   {
+    Question: "What is the main goal of DNS cache poisoning?",
+    Answer: "Redirecting users to malicious websites.",
+    Distractor1: "Encrypting DNS queries.",
+    Distractor2: "Speeding up DNS resolution.",
+    Distractor3: "Blocking access to specific websites.",
+    Explanation:
+      "DNS cache poisoning allows attackers to redirect traffic to malicious websites by tampering with DNS data.",
+    Link: "https://www.freecodecamp.org/news/what-is-cache-poisoning-and-how-to-avoid-it/"
+  },
+  {
+    Question:
+      "What is a common method to defend against SQL injection attacks?",
+    Answer: "Using prepared statements.",
+    Distractor1: "Encrypting database queries.",
+    Distractor2: "Disabling database access.",
+    Distractor3: "Changing user passwords frequently.",
+    Explanation:
+      "Prepared statements ensure that SQL code and user input are treated separately, preventing attackers from injecting malicious SQL code.",
+    Link: "https://www.freecodecamp.org/news/sql-injection-explained-with-syntax-examples/"
+  },
+  {
+    Question:
+      "Which of the following is a method to prevent Blind SQL Injection attacks?",
+    Answer: "Using parameterized queries.",
+    Distractor1: "Disabling error messages.",
+    Distractor2: "Changing database schemas frequently.",
+    Distractor3: "Limiting user access to logs.",
+    Explanation:
+      "Parameterized queries help ensure that malicious input is not executed as part of SQL statements, making it harder for attackers to infer database structures using Blind SQL Injection.",
+    Link: "https://www.freecodecamp.org/news/sql-injection-tutorial/"
+  },
+  {
+    Question: "What does a CSRF attack typically exploit?",
+    Answer: "Authenticated user sessions.",
+    Distractor1: "Encrypted network traffic.",
+    Distractor2: "Unpatched operating systems.",
+    Distractor3: "Unsecured passwords.",
+    Explanation:
+      "CSRF exploits authenticated user sessions to perform unauthorized actions on behalf of the user.",
+    Link: "https://www.freecodecamp.org/news/what-is-cross-site-request-forgery/"
+  },
+  {
+    Question:
+      "Which of the following is a characteristic of a phishing attack?",
+    Answer: "Deceptive emails impersonating a trusted source.",
+    Distractor: "Encrypting a victim's files for ransom.",
+    Distractor2: "Injecting malicious code into a website.",
+    Distractor3: "Interfering with network traffic.",
+    Explanation:
+      "Phishing attacks use deceptive emails or messages pretending to be from trusted sources to trick victims into sharing sensitive information.",
+    Link: "https://www.freecodecamp.org/news/how-to-recognize-phishing-email/"
+  },
+  {
     Question: "Which of the following is not an Attack model in cryptanalysis?",
     Answer: "CVA (Chosen Vector Attack)",
     Distractor1: "CPA (Chosen Plaintext Attack)",
