@@ -627,7 +627,16 @@ const securityQuiz = [
     Explanation:
       "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
-  }
+  },
+  {
+  "Question": "Which of the following features is specific to WebAuthn as a security standard?",
+  "Answer": "WebAuthn enables passwordless authentication using public key cryptography",
+  "Distractor1": "WebAuthn relies solely on usernames and passwords for authentication",
+  "Distractor2": "WebAuthn requires the use of CAPTCHA for every login attempt",
+  "Distractor3": "WebAuthn uses symmetric key cryptography for secure communication",
+  "Explanation": "WebAuthn is designed to provide a secure and passwordless authentication method using public key cryptography, making it more resistant to phishing attacks.",
+  "Link": "https://webauthn.guide/"
+}
 ];
 
 export default securityQuiz;
