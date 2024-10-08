@@ -52,6 +52,16 @@ const securityQuiz = [
     Link: "https://www.freecodecamp.org/news/ethical-hacking-lifecycle-five-stages-of-a-penetration-test/"
   },
   {
+    Question: "Which of the following cryptographic principles is violated in a 'side-channel attack'?",
+    Answer: "Confidentiality",
+    Distractor1: "Authentication",
+    Distractor2: "Non-repudiation",
+    Distractor3: "Key Agreement",
+    Explanation: 
+      "Side-channel attacks exploit physical leakages (like timing information or power consumption) to extract secret information without breaking the underlying cryptographic algorithm. These attacks violate the principle of 'confidentiality' by revealing sensitive data.",
+    Link: "https://en.wikipedia.org/wiki/Side-channel_attack"
+  },
+  {
     Question:
       "What is the term for getting information about a target without having to interact with them?",
     Answer: "Reconnaissance",

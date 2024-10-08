@@ -1228,6 +1228,16 @@ const linuxQuiz = [
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   },
   {
+    Question: "Which Linux kernel feature allows the system to manage multiple versions of the same file concurrently without interference?",
+    Answer: "Copy-on-write (COW)",
+    Distractor1: "Memory-mapped files",
+    Distractor2: "UnionFS",
+    Distractor3: "Filesystem snapshots",
+    Explanation:
+      "Copy-on-write (COW) is a mechanism used in Linux that allows multiple processes to share the same physical memory pages until one of them modifies the data, creating a separate copy. This is essential for efficient memory usage and is a fundamental concept behind features like fork() and snapshotting in filesystems.",
+    Link: "https://en.wikipedia.org/wiki/Copy-on-write"
+  },
+  {
     Question: "Which Linux desktop environment has a similar UI to Windows?",
     Answer: "KDE Plasma",
     Distractor1: "GNOME",
