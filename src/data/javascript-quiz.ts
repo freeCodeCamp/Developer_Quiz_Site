@@ -1354,6 +1354,16 @@ const javascriptQuiz = [
     Link: "https://www.freecodecamp.org/news/javascript-timing-events-settimeout-and-setinterval/"
   },
   {
+    Question: "In JavaScript, what is the effect of using the 'with' statement?",
+    Answer: "It extends the scope chain for a statement, allowing for shorter reference to properties of an object.",
+    Distractor1: "It creates a new execution context.",
+    Distractor2: "It prevents the use of block-scoped variables.",
+    Distractor3: "It automatically binds 'this' to the specified object.",
+    Explanation:
+      "The 'with' statement allows you to create a new scope that extends the scope chain, enabling you to access properties of an object without repeating its name. However, it is generally discouraged in modern JavaScript due to potential readability and performance issues.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/with"
+  },
+  {
     Question:
       "In JavaScript, which of the following is NOT the correct way to declare a variable?",
     Answer: "number",

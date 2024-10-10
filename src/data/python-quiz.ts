@@ -1344,6 +1344,16 @@ const pythonQuiz = [
     Link: "https://www.freecodecamp.org/news/how-to-use-pip-install-in-python/"
   },
   {
+    Question: "Which Python built-in function can be used to inspect the reference count for an object in memory?",
+    Answer: "sys.getrefcount()",
+    Distractor1: "id()",
+    Distractor2: "gc.get_objects()",
+    Distractor3: "sys.getsizeof()",
+    Explanation:
+      "'sys.getrefcount()' returns the reference count for an object, indicating how many variables are referencing it. This is an advanced concept used to understand memory management and object life cycles in Python. The 'id()' function returns the identity of an object, 'gc.get_objects()' returns objects tracked by the garbage collector, and 'sys.getsizeof()' returns the size of an object in bytes.",
+    Link: "https://docs.python.org/3/library/sys.html#sys.getrefcount"
+  },
+  {
     Question: "In Python, what is the output of print(math.pow(3,4))?",
     Answer: "81.0",
     Distractor1: "43",

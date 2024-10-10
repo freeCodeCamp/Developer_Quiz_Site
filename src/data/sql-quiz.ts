@@ -956,6 +956,16 @@ const sqlQuiz = [
     Link: "https://dev.mysql.com/doc/refman/8.0/en/drop-database.html"
   },
   {
+    Question: "In SQL, what does the term 'Relational Division' refer to?",
+    Answer: "A query operation that finds tuples in one relation that match all tuples in another relation",
+    Distractor1: "Dividing a database into smaller relational partitions",
+    Distractor2: "Splitting a relation into different tables based on primary keys",
+    Distractor3: "Dividing numeric data in a SQL query",
+    Explanation:
+      "'Relational Division' is a complex query operation that involves finding all records in one table (relation) that are related to all records in another table, often used for queries like 'find all users who have liked all movies in a category.' This is an advanced operation rarely seen in everyday SQL tasks.",
+    Link: "https://modern-sql.com/use-case/division"
+  }, 
+  {
     Question: "In SQL, which of the following is a DQL command?",
     Answer: "SELECT",
     Distractor1: "UPDATE",
