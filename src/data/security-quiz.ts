@@ -1,5 +1,32 @@
 const securityQuiz = [
   {
+    Question:"What is the primary purpose of a wordlist in ethical hacking ?",
+    Answer : "To automate password cracking attempts",
+    Distractor1: "To store user credentials securely",
+    Distractor2:" To encrypt sensitive data",
+    Distractor3:"To monitor network traffic",
+    Explanation: "Wordlists are used by ethical hackers to automate the process of guessing passwords, as they contain common passwords and phrases that can be tried against accounts.",
+    Link: "https://www.freecodecamp.org/news/the-power-of-wordlists-why-every-ethical-hacker-needs-one/"
+  },
+  {
+    Question: "What is rate limiting in the context of web APIs?",
+    Answer: "A technique to control the number of requests a user can make",
+    Distractor1: "A method of encrypting API requests",
+    Distractor2: "A protocol for transferring data securely",
+    Distractor3: "A way to increase server response time",
+    Explanation: "Rate limiting is used to prevent abuse of APIs by limiting the number of requests a user can make in a given time period, protecting the server from overload.",
+    Link: "https://www.freecodecamp.org/news/what-is-rate-limiting-web-apis/"
+  },
+  {
+    Question: "When securing API servers, which of the following practices is essential?",
+    Answer: "Implementing authentication and authorization mechanisms",
+    Distractor1: "Using HTTP instead of HTTPS",
+    Distractor2: "Storing all data in plain text",
+    Distractor3: "Disabling logging for performance",
+    Explanation: "Authentication and authorization are critical to ensuring that only authorized users can access sensitive API endpoints, preventing unauthorized access.",
+    Link: "https://www.freecodecamp.org/news/learn-how-to-secure-api-servers/"
+  },
+  {
     Question: "Which of the following is not an Attack model in cryptanalysis?",
     Answer: "CVA (Chosen Vector Attack)",
     Distractor1: "CPA (Chosen Plaintext Attack)",
