@@ -467,7 +467,7 @@ const gitQuiz = [
       "Git is a popular version control system and GitHub is a hosting service for Git repositories.",
     Distractor1:
       "GitHub is a type of version control system, while Git is a hosting service for Git repositories.",
-    Distractor2: "Git and GitHub are the same thing",
+    Distractor2: "Git and GitHub are the same things",
     Distractor3:
       "Git is a version control system only used on Mac computers while GitHub is a version control system only used on Windows.",
     Explanation:
@@ -477,7 +477,7 @@ const gitQuiz = [
   {
     Question: "In Git, how do you apply a stash if you have multiple?",
     Answer: "git stash pop stash@{x}",
-    Distractor1: "git stash pop",
+    Distractor1: "Git stash pop",
     Distractor2: "git stash apply",
     Distractor3: "git commit",
     Explanation:
@@ -486,7 +486,7 @@ const gitQuiz = [
   },
   {
     Question: "In Git, how do you see a summary for a single stash?",
-    Answer: "git stash show",
+    Answer: "Git stash show",
     Distractor1: "git stash view",
     Distractor2: "git stash diff",
     Distractor3: "git stash summary",
@@ -542,13 +542,13 @@ const gitQuiz = [
     Distractor2: "Nano",
     Distractor3: "VS Code",
     Explanation:
-      "Vim stands for Vi Improved and it is terminal based text editor used among Linux users. You can open the editor by using the following command: vi fileName",
+      "Vim stands for Vi Improved and is a terminal-based text editor used among Linux users. You can open the editor by using the following command: vi fileName",
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   },
   {
     Question: "How do you unstage a staged file in git?",
     Answer: "git restore --staged <file-path>",
-    Distractor1: "git unstage <file-path>",
+    Distractor1: "git unstaged <file-path>",
     Distractor2: "git restore <file-path>",
     Distractor3: "git restore --staged <file-path>",
     Explanation:
@@ -630,6 +630,17 @@ const gitQuiz = [
     Explanation:
       "The 'git help' command will display help information on common Git commands. The 'git help git' command will provide a complete overview of the system.",
       Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
+},
+  {
+    Question: "When using the 'git stash' command, what is one of the major disadvantages of using it?",
+    Answer: 
+      "cluster and confusion",
+    Distractor1: "It is easy to use and understand",
+    Distractor2: "It helps you save a draft of your current task and focus on another one",
+    Distractor3: "It helps with merge conflicts when using the 'git fork' command",
+    Explanation:
+      "When working with the 'git stash' command, you may run into a situation where there are many drafts in a large project, which can confuse developers.",
+      Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-to-manage-code/"
 }
 ];
 
