@@ -542,7 +542,7 @@ const gitQuiz = [
     Distractor2: "Nano",
     Distractor3: "VS Code",
     Explanation:
-      "Vim stands for Vi Improved and is terminal based text editor used among Linux users. You can open the editor by using the following command: vi fileName",
+      "Vim stands for Vi Improved and it is terminal based text editor used among Linux users. You can open the editor by using the following command: vi fileName",
     Link: "https://www.freecodecamp.org/news/learn-vim-beginners-tutorial/"
   },
   {
