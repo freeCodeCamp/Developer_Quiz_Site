@@ -1067,7 +1067,15 @@ const pythonQuiz = [
       "The zip() function allows you to iterate over multiple iterables in parallel by returning a tuple with an item from each one.",
     Link: "https://www.freecodecamp.org/news/the-zip-function-in-python-explained-with-examples/"
   },
-
+  {
+    Question: "Which Python function is used to find the length of an object?",
+    Answer: "len()",
+    Distractor1: "length()",
+    Distractor2: "count()",
+    Distractor3: "size()",
+    Explanation: "The len() function in Python returns the number of items in an object. It is commonly used to find the length of strings, lists, or other collections.",
+    Link: "https://docs.python.org/3/library/functions.html#len"
+  },  
   {
     Question:
       "In Python, what is the name of the exception raised when the interpreter detects that the maximum recursion depth is exceeded?",
