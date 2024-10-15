@@ -52,7 +52,7 @@ const securityQuiz = [
     "Distractor3": "Key Revocation",
     "Explanation": "Entropy Dilution is not a recognized part of the cryptographic key lifecycle. The key lifecycle typically involves key generation, distribution, usage, and revocation.",
     "Link": "https://en.wikipedia.org/wiki/Key_management"
-  }
+  },
   {
     Question:"What is the primary purpose of a wordlist in ethical hacking ?",
     Answer : "To automate password cracking attempts",
