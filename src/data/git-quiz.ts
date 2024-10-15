@@ -630,7 +630,18 @@ const gitQuiz = [
     Explanation:
       "The 'git help' command will display help information on common Git commands. The 'git help git' command will provide a complete overview of the system.",
       Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
-}
+  },
+  {
+    Question: "When using the 'git stash' command, what is one of the major disadvantages of using it?",
+    Answer: 
+      "It contains clusters of saved drafts and causes confusion",
+    Distractor1: "It is easy to use and understand",
+    Distractor2: "It helps you save a draft of your current task and focus on another one",
+    Distractor3: "It helps with merge conflicts when using the 'git fork' command",
+    Explanation:
+      "When working with the 'git stash' command, you may run into a situation where there are many drafts in a large project, which can confuse developers.",
+      Link: "https://www.freecodecamp.org/news/how-to-use-git-stash-to-manage-code/"
+  }
 ];
 
 export default gitQuiz;
