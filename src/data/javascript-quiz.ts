@@ -1385,6 +1385,15 @@ const javascriptQuiz = [
     Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN"
   },
   {
+    Question: "In JavaScript, what does 'NaN' mean?",
+    Answer: "Not-A-Number",
+    Distractor1: "Near-Me Area Network",
+    Distractor2: "Non-Alpha-Numeric",
+    Distractor3: "Non-numeric",
+    Explanation: "The global NaN property is a value representing Not-A-Number. This property is used to check if a value is not a valid number.",
+    Link: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN"
+  },  
+  {
     Question:
       "In JavaScript, are variables declared with let, const and var hoisted? Select the most appropriate answer",
     Answer:

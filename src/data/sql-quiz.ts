@@ -829,6 +829,15 @@ const sqlQuiz = [
     Link: "https://www.freecodecamp.org/news/relational-vs-nonrelational-databases-difference-between-sql-db-and-nosql-db/"
   },
   {
+    Question: "What does the SQL command 'SELECT' do?",
+    Answer: "It retrieves data from a database.",
+    Distractor1: "It inserts new data into a database.",
+    Distractor2: "It deletes data from a database.",
+    Distractor3: "It updates existing data in a database.",
+    Explanation: "The SELECT statement in SQL is used to retrieve data from one or more tables. It is one of the most fundamental operations in database querying.",
+    Link: "https://en.wikipedia.org/wiki/Select_(SQL)"
+  },  
+  {
     Question:
       "In SQL, which function rounds a number to a specified number of decimal places?",
     Answer: "ROUND()",
