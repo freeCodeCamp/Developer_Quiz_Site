@@ -631,7 +631,7 @@ const gitQuiz = [
       "The 'git help' command will display help information on common Git commands. The 'git help git' command will provide a complete overview of the system.",
       Link: "https://www.freecodecamp.org/news/best-git-tutorial/"
 },
-  {
+{
     Question: "When using the 'git stash' command, what is one of the major disadvantages of using it?",
     Answer: 
       "It contains clusters of saved drafts and causes confusion",
