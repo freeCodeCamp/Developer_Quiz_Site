@@ -21,7 +21,7 @@ interface QuizProps {
   points: number;
   choicesArr: string[][];
   selectedOption: string;
-  selectOption: (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
+  selectOption: (option: string) => void;
   checkAnswer: () => void;
   answerButtonsRef: React.MutableRefObject<HTMLUListElement | null>;
 }
@@ -56,14 +56,13 @@ const Questions: React.FC<QuizProps> = QuizProps => {
             <ul ref={QuizProps.answerButtonsRef}>
               {QuizProps.choicesArr.length > 0 &&
                 QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
-                  (btn: string | string[] | number, index: number) => (
+                  (choice: string, index: number) => (
                     <li key={index}>
                       <button
-                        className="answers-btns"
-                        value={btn}
-                        onClick={e => QuizProps.selectOption(e)}
+                        className={`answers-btns ${choice === QuizProps.selectedOption ? `answers-btns--selected` : ``}`}
+                        onClick={() => QuizProps.selectOption(choice)}
                       >
-                        {btn}
+                        {choice}
                       </button>
                     </li>
                   )
