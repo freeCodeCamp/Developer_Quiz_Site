@@ -133,21 +133,7 @@ const QuizTemplate: React.FC = () => {
     return shuffleModalArr[0];
   };
 
-  const selectOption = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    setSelectedOption(e.currentTarget.value);
-
-    // Get answer buttons
-    const answerBtns =
-      answerButtonsRef.current.getElementsByClassName("answers-btns");
-
-    // Remove previous highlights
-    for (const btn of answerBtns) {
-      btn.classList.remove("answers-btns--selected");
-    }
-
-    // Highlight current option
-    e.currentTarget.classList.add("answers-btns--selected");
-  };
+  const selectOption = (option: string) => setSelectedOption(option);
 
   const checkAnswer = () => {
     const userAnswer = selectedOption;
