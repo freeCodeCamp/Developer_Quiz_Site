@@ -6,6 +6,7 @@ interface QuizQuestion {
   message: string;
   points: number;
   chosenAnswer: string;
+  correct: boolean;
   displayExplanation: string;
   showReference: string;
   nextQuestion: MouseEventHandler;
