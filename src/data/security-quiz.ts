@@ -1,11 +1,53 @@
 const securityQuiz = [
   {
-    Question:"What is the primary purpose of a wordlist in ethical hacking ?",
-    Answer : "To automate password cracking attempts",
+    Question:
+      "Which of the following is an example of a denial-of-service (DoS) attack??",
+    Answer: "Sending massive traffic to disrupt cloud services",
+    Distractor1: "Unauthorized data access",
+    Distractor2: "Password cracking",
+    Distractor3: "Phishing",
+    Explanation:
+      "DoS attacks aim to overwhelm a service with traffic, making it inaccessible to users.",
+    Link: "https://en.wikipedia.org/wiki/Cloud_computing_security"
+  },
+  {
+    Question: "Which standard is widely adopted for cloud cybersecurity?",
+    Answer: "ISO/IEC 27001",
+    Distractor1: "GDPR",
+    Distractor2: "ITIL",
+    Distractor3: "PCI DSS",
+    Explanation:
+      "ISO/IEC 27001 is an internationally recognized standard for information security, including cloud environments",
+    Link: "https://en.wikipedia.org/wiki/Cloud_computing_security"
+  },
+  {
+    Question: "What does cloud cybersecurity aim to protect?",
+    Answer: "Data, applications, and services in cloud environments",
+    Distractor1: "Physical servers",
+    Distractor2: "Personal computers",
+    Distractor3: "Only network firewalls",
+    Explanation:
+      "Cloud cybersecurity focuses on safeguarding assets hosted in cloud platforms from cyber threats.",
+    Link: "https://en.wikipedia.org/wiki/Cloud_computing_security"
+  },
+  {
+    Question: "Which protocol is used to login remotely to the target machine?",
+    Answer: "SSH",
+    Distractor1: "HTTP",
+    Distractor2: "FTP",
+    Distractor3: "Telnet",
+    Explanation:
+      "SSH (Secure Shell) is used for secure remote login to servers",
+    Link: "https://www.freecodecamp.org/news/hack-your-first-machine-a-guide-for-aspiring-security-enthusiasts/"
+  },
+  {
+    Question: "What is the primary purpose of a wordlist in ethical hacking ?",
+    Answer: "To automate password cracking attempts",
     Distractor1: "To store user credentials securely",
-    Distractor2:" To encrypt sensitive data",
-    Distractor3:"To monitor network traffic",
-    Explanation: "Wordlists are used by ethical hackers to automate the process of guessing passwords, as they contain common passwords and phrases that can be tried against accounts.",
+    Distractor2: " To encrypt sensitive data",
+    Distractor3: "To monitor network traffic",
+    Explanation:
+      "Wordlists are used by ethical hackers to automate the process of guessing passwords, as they contain common passwords and phrases that can be tried against accounts.",
     Link: "https://www.freecodecamp.org/news/the-power-of-wordlists-why-every-ethical-hacker-needs-one/"
   },
   {
@@ -14,16 +56,19 @@ const securityQuiz = [
     Distractor1: "A method of encrypting API requests",
     Distractor2: "A protocol for transferring data securely",
     Distractor3: "A way to increase server response time",
-    Explanation: "Rate limiting is used to prevent abuse of APIs by limiting the number of requests a user can make in a given time period, protecting the server from overload.",
+    Explanation:
+      "Rate limiting is used to prevent abuse of APIs by limiting the number of requests a user can make in a given time period, protecting the server from overload.",
     Link: "https://www.freecodecamp.org/news/what-is-rate-limiting-web-apis/"
   },
   {
-    Question: "When securing API servers, which of the following practices is essential?",
+    Question:
+      "When securing API servers, which of the following practices is essential?",
     Answer: "Implementing authentication and authorization mechanisms",
     Distractor1: "Using HTTP instead of HTTPS",
     Distractor2: "Storing all data in plain text",
     Distractor3: "Disabling logging for performance",
-    Explanation: "Authentication and authorization are critical to ensuring that only authorized users can access sensitive API endpoints, preventing unauthorized access.",
+    Explanation:
+      "Authentication and authorization are critical to ensuring that only authorized users can access sensitive API endpoints, preventing unauthorized access.",
     Link: "https://www.freecodecamp.org/news/learn-how-to-secure-api-servers/"
   },
   {
