@@ -70,7 +70,7 @@ test("selected option  must have 'answers-btns--selected' class", async ({
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
-  // Select the first option (no matter if it's right or worng)
+  // Select the first option (no matter if it's right or wrong)
   await page.getByRole("button").first().click();
 
   await expect(page.getByRole("button").first()).toHaveClass(
