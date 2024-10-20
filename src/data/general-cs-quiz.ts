@@ -1908,7 +1908,16 @@ const generalCSQuiz = [
     Distractor3: "The ability to create multiple methods with the same name but different implementations",
     Explanation: "Polymorphism is an object-oriented programming principle that allows objects of different classes to be treated as objects of a common super class. It enables a single method to behave differently based on the object that it is acting upon.",
     Link: "https://www.freecodecamp.org/news/a-guide-to-object-oriented-programming-principles/"
-  }  
+  },
+  {
+    Question: "What does MS-DOS stand for?",
+    Answer: "Microsoft Disk Operating System",
+    Distractor1: "Microsoft Desktop Operating System",
+    Distractor2: "Monitor Standard Disk Operating System",
+    Distractor3: "Microsoft Drive Operating System",
+    Explanation: "MS-DOS is an operating system for x86-based personal computers mostly developed by Microsoft.",
+    Link: "https://en.wikipedia.org/wiki/MS-DOS"
+  }
 ];
 
 export default generalCSQuiz;
