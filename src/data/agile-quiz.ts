@@ -673,7 +673,7 @@ const agileQuiz = [
   {
     Question:
       "Which of the following is NOT a type of software development methodology?",
-    Answer: "Sequential",
+    Answer: "Rust",
     Distractor1: "Scrum",
     Distractor2: "Agile",
     Distractor3: "Waterfall",
