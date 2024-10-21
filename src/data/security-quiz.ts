@@ -722,8 +722,8 @@ const securityQuiz = [
     Link: "https://en.wikipedia.org/wiki/Social_engineering_(security)"
   },
   {
-    Question: "Which one is NOT a type of computer virus?",
-    Answer: "Micro virus",
+    Question: "Which of the following is NOT a type of computer virus?",
+    Answer: "Antivirus",
     Distractor1: "Ransomware",
     Distractor2: "Worm",
     Distractor3: "Trojan horse",
