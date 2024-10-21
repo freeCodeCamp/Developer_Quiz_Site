@@ -6,7 +6,7 @@ const linuxQuiz = [
     Distractor2: "htop",
     Distractor3: "ps",
     Explaination: "Perf is a powerful Linux tool used to analyze CPU performance, monitor system events, and identify bottlenecks",
-    Link: ""
+    Link: "https://www.freecodecamp.org/news/helpful-linux-commands-you-should-know"
   },
   {
     Question: "What does the -q option do in most command-line tools?",
