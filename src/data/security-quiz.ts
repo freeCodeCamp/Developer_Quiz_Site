@@ -1,7 +1,7 @@
 const securityQuiz = [
   {
     Question:
-      "Which of the following is an example of a denial-of-service (DoS) attack??",
+      "Which of the following is an example of a denial-of-service (DoS) attack?",
     Answer: "Sending massive traffic to disrupt cloud services",
     Distractor1: "Unauthorized data access",
     Distractor2: "Password cracking",
