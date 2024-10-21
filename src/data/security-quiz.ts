@@ -1,5 +1,59 @@
 const securityQuiz = [
   {
+    "Question": "Which of the following is not a property of a secure hash function?",
+    "Answer": "Deterministic Salting",
+    "Distractor1": "Pre-image resistance",
+    "Distractor2": "Collision resistance",
+    "Distractor3": "Avalanche effect",
+    "Explanation": "A secure hash function should not rely on deterministic salting, as it would compromise the function's security. Pre-image resistance, collision resistance, and the avalanche effect are standard properties.",
+    "Link": "https://en.wikipedia.org/wiki/Cryptographic_hash_function"
+  },
+  {
+    "Question": "Which of the following is not a characteristic of a quantum-resistant cryptographic algorithm?",
+    "Answer": "Symmetric scalability",
+    "Distractor1": "Lattice-based security",
+    "Distractor2": "Multivariate polynomial problem",
+    "Distractor3": "Hash-based signature schemes",
+    "Explanation": "Symmetric scalability is not a concept related to quantum-resistant cryptography. Quantum-resistant cryptography focuses on problems that are difficult for quantum computers to solve, such as lattice-based security and hash-based signature schemes.",
+    "Link": "https://en.wikipedia.org/wiki/Post-quantum_cryptography"
+  },
+  {
+    "Question": "Which of the following is NOT a stage in a typical multi-stage penetration test?",
+    "Answer": "Token Redistribution",
+    "Distractor1": "Reconnaissance",
+    "Distractor2": "Exploitation",
+    "Distractor3": "Post-Exploitation",
+    "Explanation": "Token Redistribution is not a valid stage in a penetration test. Penetration tests typically involve stages like reconnaissance, exploitation, and post-exploitation.",
+    "Link": "https://en.wikipedia.org/wiki/Penetration_test"
+  },
+  {
+    "Question": "Which of the following is NOT an encryption mode of operation?",
+    "Answer": "EBX (Exclusive Block Exchange)",
+    "Distractor1": "CBC (Cipher Block Chaining)",
+    "Distractor2": "CTR (Counter Mode)",
+    "Distractor3": "OFB (Output Feedback)",
+    "Explanation": "EBX (Exclusive Block Exchange) is not a recognized encryption mode. Common modes of operation include CBC, CTR, and OFB.",
+    "Link": "https://en.wikipedia.org/wiki/Block_cipher_mode_of_operation"
+  },
+  {
+    "Question": "Which of the following is NOT a known hashing algorithm used in blockchain technology?",
+    "Answer": "SHA-6",
+    "Distractor1": "SHA-256",
+    "Distractor2": "Keccak-256",
+    "Distractor3": "RIPEMD-160",
+    "Explanation": "There is no algorithm named SHA-6. Common cryptographic hashing algorithms in blockchain include SHA-256, Keccak-256, and RIPEMD-160.",
+    "Link": "https://en.wikipedia.org/wiki/Cryptographic_hash_function"
+  },
+  {
+    "Question": "Which of the following is not part of a cryptographic key lifecycle?",
+    "Answer": "Entropy Dilution",
+    "Distractor1": "Key Generation",
+    "Distractor2": "Key Distribution",
+    "Distractor3": "Key Revocation",
+    "Explanation": "Entropy Dilution is not a recognized part of the cryptographic key lifecycle. The key lifecycle typically involves key generation, distribution, usage, and revocation.",
+    "Link": "https://en.wikipedia.org/wiki/Key_management"
+  },
+  {
     Question:"What is the primary purpose of a wordlist in ethical hacking ?",
     Answer : "To automate password cracking attempts",
     Distractor1: "To store user credentials securely",
