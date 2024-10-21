@@ -1919,6 +1919,17 @@ const generalCSQuiz = [
     Explanation:
       "A compiler is a utility program that transforms your code into executable machine code files.",
     Link: "https://www.freecodecamp.org/news/what-is-a-compiler-in-c/"
+  },
+  {
+    Question:
+      "Which of the following is NOT a type of software development methodology?",
+    Answer: "Sequential",
+    Distractor1: "Scrum",
+    Distractor2: "Agile",
+    Distractor3: "Waterfall",
+    Explanation:
+      "A software development methodology is a framework used to structure, plan, and manage the software development process.",
+    Link: "https://www.freecodecamp.org/news/get-a-basic-understanding-of-the-life-cycles-of-software-development/"
   }
 ];
 
