@@ -586,6 +586,15 @@ const informationTechnologyQuiz = [
     Distractor3: "Encrypting sensitive information",
     Explanation: "Virtualization involves creating virtual versions of physical hardware such as servers, storage devices, and networks to improve efficiency and scalability.",
     Link: "https://www.freecodecamp.org/news/linux-server-virtualization-the-basics/"
+  },
+  {
+    Question: "What does MS-DOS stand for?",
+    Answer: "Microsoft Disk Operating System",
+    Distractor1: "Microsoft Desktop Operating System",
+    Distractor2: "Monitor Standard Disk Operating System",
+    Distractor3: "Microsoft Drive Operating System",
+    Explanation: "MS-DOS is an operating system for x86-based personal computers mostly developed by Microsoft.",
+    Link: "https://en.wikipedia.org/wiki/MS-DOS"
   }
 ];
 

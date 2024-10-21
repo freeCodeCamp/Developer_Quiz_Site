@@ -654,7 +654,82 @@ const securityQuiz = [
     Explanation:
       "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
-  }
+  },
+  {
+    Question:
+      "What are Wordlists in cybersecurity?",
+    Answer: "A list of possible passwords, usernames, or even URLs.",
+    Distractor1: "A list of possible random words from book used to crack password hashes.",
+    Distractor2: "A list of possible email addresses used hack email.",
+    Distractor3: "A list of possible websites used to crack password hashes.",
+    Explanation:
+      "Wordlists are used to crack password hashes by trying out all possible passwords in the list. Wordlists are a core component of brute-force attacks.",
+    Link: "https://www.freecodecamp.org/news/the-power-of-wordlists-why-every-ethical-hacker-needs-one/"
+  },
+  {
+    Question: 
+      "How does rate limiting help in Cybersecurity?",
+      Answer: "It prevent brute force attacks, web scraping, and DDoS attacks.",
+      Distractor1: "It prevent SQL injection attacks.",
+      Distractor2: "It prevent Cross-site scripting attacks.",
+      Distractor3: "It prevent from phishing attacks.",
+      Explanation:
+        "Rate limiting is a security measure that restricts the number of requests a user can make to a server within a certain time frame. This helps prevent brute force attacks, web scraping, and DDoS attacks.",
+      Link: "https://www.freecodecamp.org/news/what-is-rate-limiting-web-apis/"
+  },
+  {
+    Question:
+    "What is a White Hat Hacker?",
+    Answer: "A hacker who uses their skills for good and ethical purposes.",
+    Distractor1: "A hacker who is wearing a white hat.",
+    Distractor2: "A hacker who uses their skills for harmful purposes.",
+    Distractor3: "A hacker who is illegal.",
+    Explanation:
+      "White Hat Hackers are ethical hackers who use their skills to help organizations improve their security.",
+    Link: "https://www.freecodecamp.org/news/how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126/"
+  },
+  {
+    Question:
+    "What is a honeypot in cybersecurity?",
+    Answer: "A decoy system used to lure attackers and gather information about their methods.",
+    Distractor1: "A system used to store passwords.",
+    Distractor2: "A pot used to store honey.",
+    Distractor3: "A decoy system used to store emails. ",
+    Explanation:
+      "A honey pot is a system used to lure attackers and gather information about their methods.",
+    Link: "https://en.wikipedia.org/wiki/Honeypot_(computing)"
+  },
+  {
+    Question:
+    "What is a Backdoor attack in cybersecurity?",
+    Answer: "A hidden method of bypassing security controls.",
+    Distractor1: "A hidden method of securing security controls.",
+    Distractor2: "A hidden door in the back of the building.",
+    Distractor3: "A hidden method of securing emails.",
+    Explanation:
+      "A backdoor in a computer system, or an algorithm is any secret method of bypassing authentication or security ",
+    Link: "https://en.wikipedia.org/wiki/Backdoor_(computing)"
+  },
+  {
+    Question: 
+    "What is social engineering in cybersecurity?",
+    Answer: "The act of manipulating people into revealing confidential information.",
+    Distractor1: "A social gathering of engineers.",
+    Distractor2: "The act of manipulating people into revealing their emails.",
+    Distractor3: "The act of manipulating people into revealing their usernames.",
+    Explanation:
+      "Social engineering in the context of computer security, aims to convince a user to disclose secrets such as passwords, card numbers, ",
+    Link: "https://en.wikipedia.org/wiki/Social_engineering_(security)"
+  },
+  {
+    Question: "Which of the following is NOT a type of computer virus?",
+    Answer: "Antivirus",
+    Distractor1: "Ransomware",
+    Distractor2: "Worm",
+    Distractor3: "Trojan horse",
+    Explanation: "A computer virus is a type of malware that, when executed, replicates itself by modifying other computer programs and inserting its own code into those programs.",
+    Link: "https://en.wikipedia.org/wiki/Computer_virus"
+  } 
 ];
 
 export default securityQuiz;

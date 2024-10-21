@@ -1918,7 +1918,18 @@ const generalCSQuiz = [
     Distractor3: "The ability to create multiple methods with the same name but different implementations",
     Explanation: "Polymorphism is an object-oriented programming principle that allows objects of different classes to be treated as objects of a common super class. It enables a single method to behave differently based on the object that it is acting upon.",
     Link: "https://www.freecodecamp.org/news/a-guide-to-object-oriented-programming-principles/"
-  }  
+  },
+  {
+    Question:
+      "What does a compiler do?",
+    Answer: "Translates high-level code to machine code",
+    Distractor1: "Manages memory allocation",
+    Distractor2: "Optimizes performance",
+    Distractor3: "Debugs code",
+    Explanation:
+      "A compiler is a utility program that transforms your code into executable machine code files.",
+    Link: "https://www.freecodecamp.org/news/what-is-a-compiler-in-c/"
+  }
 ];
 
 export default generalCSQuiz;
