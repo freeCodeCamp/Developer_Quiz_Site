@@ -654,9 +654,10 @@ const securityQuiz = [
     Explanation:
       "To ensure high data availability, you must maintain a correctly functioning hardware and software and provide adequate bandwidth. ",
     Link: "https://www.freecodecamp.org/news/the-cia-triad-confidentiality-integrity-and-availability-explained/"
-  },{
+  },
+  {
     Question:
-      "what is Wordlists in cybersecurity?",
+      "What are Wordlists in cybersecurity?",
     Answer: "A list of possible passwords, usernames, or even URLs.",
     Distractor1: "A list of possible random words from book used to crack password hashes.",
     Distractor2: "A list of possible email addresses used hack email.",
@@ -667,7 +668,7 @@ const securityQuiz = [
   },
   {
     Question: 
-      "How Rate Limiting helps in Cybersecurity?",
+      "How does rate limiting help in Cybersecurity?",
       Answer: "It prevent brute force attacks, web scraping, and DDoS attacks.",
       Distractor1: "It prevent SQL injection attacks.",
       Distractor2: "It prevent Cross-site scripting attacks.",
@@ -675,9 +676,10 @@ const securityQuiz = [
       Explanation:
         "Rate limiting is a security measure that restricts the number of requests a user can make to a server within a certain time frame. This helps prevent brute force attacks, web scraping, and DDoS attacks.",
       Link: "https://www.freecodecamp.org/news/what-is-rate-limiting-web-apis/"
-  },{
+  },
+  {
     Question:
-    "What is White Hat Hacker?",
+    "What is a White Hat Hacker?",
     Answer: "A hacker who uses their skills for good and ethical purposes.",
     Distractor1: "A hacker who is wearing a white hat.",
     Distractor2: "A hacker who uses their skills for harmful purposes.",
@@ -685,9 +687,10 @@ const securityQuiz = [
     Explanation:
       "White Hat Hackers are ethical hackers who use their skills to help organizations improve their security.",
     Link: "https://www.freecodecamp.org/news/how-suz-hinton-went-from-dev-to-white-hat-hacker-podcast-126/"
-  },{
+  },
+  {
     Question:
-    "What is honeypot in cybersecurity?",
+    "What is a honeypot in cybersecurity?",
     Answer: "A decoy system used to lure attackers and gather information about their methods.",
     Distractor1: "A system used to store passwords.",
     Distractor2: "A pot used to store honey.",
@@ -695,9 +698,10 @@ const securityQuiz = [
     Explanation:
       "A honey pot is a system used to lure attackers and gather information about their methods.",
     Link: "https://en.wikipedia.org/wiki/Honeypot_(computing)"
-  },{
+  },
+  {
     Question:
-    "What is Backdoor in cybersecurity?",
+    "What is a Backdoor attack in cybersecurity?",
     Answer: "A hidden method of bypassing security controls.",
     Distractor1: "A hidden method of securing security controls.",
     Distractor2: "A hidden door in the back of the building.",
@@ -705,7 +709,8 @@ const securityQuiz = [
     Explanation:
       "A backdoor in a computer system, or an algorithm is any secret method of bypassing authentication or security ",
     Link: "https://en.wikipedia.org/wiki/Backdoor_(computing)"
-  },{
+  },
+  {
     Question: 
     "What is social engineering in cybersecurity?",
     Answer: "The act of manipulating people into revealing confidential information.",
