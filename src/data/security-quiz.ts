@@ -1,5 +1,3 @@
-import Questions from "../components/Questions";
-
 const securityQuiz = [
   {
     Question:"What is the primary purpose of a wordlist in ethical hacking ?",
