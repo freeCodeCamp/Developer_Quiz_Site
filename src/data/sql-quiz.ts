@@ -5,7 +5,7 @@ const sqlQuiz = [
     Distractor1: "Using strong passwords for database access",
     Distractor2: "Disabling certain database permissions",
     Distractor3: "Encrypting database tables",
-    Explaination: 
+    Explanation: 
       "Using a modern SQL library that sanitizes inputs prevents SQL injection by ensuring user input is treated as data, not executable code.",
     Link: "https://www.freecodecamp.org/news/a-beginners-guide-to-sql/#heading-chapter-11-database-performance"
   },
