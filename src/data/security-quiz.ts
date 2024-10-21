@@ -17,7 +17,7 @@ const securityQuiz = [
     Distractor2: "ITIL",
     Distractor3: "PCI DSS",
     Explanation:
-      "ISO/IEC 27001 is an internationally recognized standard for information security, including cloud environments",
+      "ISO/IEC 27001 is an internationally recognized standard for information security, including cloud environments.",
     Link: "https://en.wikipedia.org/wiki/Cloud_computing_security"
   },
   {
