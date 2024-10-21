@@ -1912,10 +1912,10 @@ const generalCSQuiz = [
   {
     Question:
       "What does a compiler do?",
-    Answer: "Translating high-level code to machine code",
-    Distractor1: "Executing code",
-    Distractor2: "Optimizing performance",
-    Distractor3: "Debugging code",
+    Answer: "Translates high-level code to machine code",
+    Distractor1: "Manages memory allocation",
+    Distractor2: "Optimizes performance",
+    Distractor3: "Debugs code",
     Explanation:
       "A compiler is a utility program that transforms your code into executable machine code files.",
     Link: "https://www.freecodecamp.org/news/what-is-a-compiler-in-c/"
