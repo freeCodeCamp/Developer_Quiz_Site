@@ -720,7 +720,16 @@ const securityQuiz = [
     Explanation:
       "Social engineering in the context of computer security, aims to convince a user to disclose secrets such as passwords, card numbers, ",
     Link: "https://en.wikipedia.org/wiki/Social_engineering_(security)"
-  }
+  },
+  {
+    Question: "Which one is NOT a type of computer virus?",
+    Answer: "Micro virus",
+    Distractor1: "Ransomware",
+    Distractor2: "Worm",
+    Distractor3: "Trojan horse",
+    Explanation: "A computer virus is a type of malware that, when executed, replicates itself by modifying other computer programs and inserting its own code into those programs.",
+    Link: "https://en.wikipedia.org/wiki/Computer_virus"
+  } 
 ];
 
 export default securityQuiz;
