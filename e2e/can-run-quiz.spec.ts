@@ -63,6 +63,21 @@ test("question page should contain 4 options and `submit` button", async ({
   await page.getByRole("button", { name: "Submit", exact: true }).click();
 });
 
+test("selected option  must have 'answers-btns--selected' class", async ({
+  page
+}) => {
+  await page.getByRole("button", { name: "HTML" }).click();
+
+  await page.getByRole("button", { name: "10", exact: true }).click();
+
+  // Select the first option (no matter if it's right or wrong)
+  await page.getByRole("button").first().click();
+
+  await expect(page.getByRole("button").first()).toHaveClass(
+    /answers-btns--selected/
+  );
+});
+
 test("should show a modal after selecting one option and click the `submit` button", async ({
   page
 }) => {
