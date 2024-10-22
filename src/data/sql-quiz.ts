@@ -1,5 +1,15 @@
 const sqlQuiz = [
   {
+    Question: "Which operator is used in SQL to find all results that do not match the string pattern in the LIKE statement.", 
+    Answer: "NOT LIKE",
+    Distractor1: "LIKE",
+    Distractor2: "!=",
+    Distractor3: "EXCLUDE",
+    Explanation: 
+      "Using a modern SQL library that sanitizes inputs prevents SQL injection by ensuring user input is treated as data, not executable code.",
+    Link: "https://www.freecodecamp.org/news/sql-like-statement-how-to-query-sql-with-wildcard/"
+  },
+  {
     Question: "Which of the following is the most effective way to protect against SQL injection attacks?", 
     Answer: "Using a modern SQL library that sanitizes SQL inputs",
     Distractor1: "Using strong passwords for database access",
