@@ -1,5 +1,15 @@
 const generalCSQuiz = [
   {
+    Question: "What is the time complexity of the Ford-Fulkerson algorithm?",
+    Answer: "O(V * E ^ 2)",
+    Distractor1: "O(V + E)",
+    Distractor2: "O(V ^ 2 * E)",
+    Distractor3: "O(V ^ 3 * E ^ 2)",
+    Explanation: 
+      "The time complexity of the Ford-Fulkerson algorithm depends on how the augmenting paths are found. If the paths are found using a breadth-first search (BFS), it can lead to the Edmonds-Karp implementation, which has a time complexity of O(V * E ^ 2).",
+    Link: "https://www.freecodecamp.org/news/graph-algorithms-and-data-structures-explained-with-java-and-c-examples/"
+  },
+  {
     Question: "What is the base case in a recursive function?",
     Answer:
       "The condition under which the recursive function stops calling itself",
