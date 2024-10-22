@@ -669,6 +669,17 @@ const agileQuiz = [
     Explanation:
       'A non-functional requirement (NFR) is a requirement that specifies criteria that can be used to judge the operation of a system, rather than specific behaviors (a functional requirement). Non-functional requirements are often called "quality attributes", "constraints" or "non-behavioral requirements".',
     Link: "https://www.freecodecamp.org/news/complete-guide-to-agile-methodology/"
+  },
+  {
+    Question:
+      "Which of the following is NOT a type of software development methodology?",
+    Answer: "Rust",
+    Distractor1: "Scrum",
+    Distractor2: "Agile",
+    Distractor3: "Waterfall",
+    Explanation:
+      "A software development methodology is a framework used to structure, plan, and manage the software development process.",
+    Link: "https://www.freecodecamp.org/news/get-a-basic-understanding-of-the-life-cycles-of-software-development/"
   }
 ];
 
