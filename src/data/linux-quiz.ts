@@ -1,5 +1,14 @@
 const linuxQuiz = [
   {
+    Question: "Which Linux tool is commonly used to analyze CPU performance and identify bottlenecks?",
+    Answer: "Perf",
+    Distractor1: "top",
+    Distractor2: "htop",
+    Distractor3: "ps",
+    Explanation: "Perf is a powerful Linux tool used to analyze CPU performance, monitor system events, and identify bottlenecks",
+    Link: "https://www.freecodecamp.org/news/helpful-linux-commands-you-should-know"
+  },
+  {
     Question: "What does the -q option do in most command-line tools?",
     Answer: "Suppresses output",
     Distractor1: "Enables verbose output",
@@ -9,7 +18,6 @@ const linuxQuiz = [
       "In most command-line tools, the -q or --quiet option is used to suppress the output of the command, making the execution silent unless there are errors.",
     Link: "https://www.freecodecamp.org/news/the-linux-commands-handbook/"
   },
-
   {
     Question: "Which of the following is not a mode in the Vim editor?",
     Answer: "Write",
