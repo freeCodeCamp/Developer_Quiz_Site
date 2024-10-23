@@ -52,7 +52,7 @@ const QuizTemplate: React.FC = () => {
     e.returnValue = "";
   };
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [selectedQuiz, setSelectedQuiz] = useState(0);
+  const [, setSelectedQuiz] = useState(0);
 
   const selectQuiz = (category: string, index: number) => {
     setSelectedCategory(category);
@@ -162,12 +162,6 @@ const QuizTemplate: React.FC = () => {
     }
   };
 
-  const selectQuizProps = {
-    quiz,
-    selectedCategory,
-    selectedQuiz
-  };
-
   const modalProps = {
     correct,
     chosenAnswer,
@@ -219,7 +213,6 @@ const QuizTemplate: React.FC = () => {
             <SelectQuestionsTotal
               startQuiz={startQuiz}
               totalQuestions={filteredQuestions.length}
-              {...selectQuizProps}
             />
           }
         />
