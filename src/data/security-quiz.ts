@@ -1,14 +1,5 @@
 const securityQuiz = [
   {
-    Question: "Where is the password of a Linux user stored?",
-    Answer: "/etc/shadow",
-    Distractor1: "/etc/passwd",
-    Distractor2: "/etc/shadow",
-    Distractor3: "/bin/passwd",
-    Explanation: "The password of a Linux user is stored in /etc/shadow for security reasons.",
-    Link: "https://www.freecodecamp.org/news/how-to-manage-users-in-linux/"
-  },
-  {
     Question:
       "What is server side request forgery (SSRF)?",
     Answer: "A technique to manipulate the server into making requests on behalf of the server.",
