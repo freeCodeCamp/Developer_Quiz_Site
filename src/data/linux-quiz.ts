@@ -1694,6 +1694,14 @@ const linuxQuiz = [
     Distractor3: "cat /var/log/syslog",
     Explanation: "The cd command stands for change directory and is used to change to a directory in the terminal. The cd command is not used to display logs.",
     Link: "https://www.youtube.com/watch?v=ROjZy1WbCIA&t=3472s"
+  },
+  {
+    Question: "In Linux, what is a daemon?",
+    Answer: "A program that automatically runs in the background",
+    Distractor1: "a daemon is a summoned cyber spirit",
+    Distractor2: "a corrupted program that cannot be uninstalled",
+    Explanation: "a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user",
+    Link: "https://www.freecodecamp.org/news/learn-linux-for-beginners-book-basic-to-advanced/"
   }
 ];
 
