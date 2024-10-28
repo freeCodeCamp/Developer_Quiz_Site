@@ -1380,6 +1380,17 @@ const sqlQuiz = [
     Explanation:
       "TCL stands for Transaction Control Language and common commands include COMMIT, ROLLBACK, and SAVE TRANSACTION.",
     Link: "https://www.freecodecamp.org/news/dbms-and-sql-basics/"
+  },
+  {
+    Question:
+      "Which shape is commonly used to represent entities in an ERD(Entity Relationship Diagram)?",
+    Answer: "Rectangle",
+    Distractor1: "Circle",
+    Distractor2: "Diamond",
+    Distractor3: "Triangle",
+    Explanation:
+      "Entities and tables in an ERD(Entity Relationship Diagram) are typically represented using rectangles, which contain the name of the entity.",
+    Link: "https://youtu.be/-fW2X7fh7Yg?t=652"
   }
 ];
 

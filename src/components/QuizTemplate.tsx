@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
 import SelectQuestionsTotal from "./SelectQuestionsTotal";
 import SelectCategory from "./SelectCategory";
 import { ALL_CATEGORIES, QUESTION_NUMS } from "../constants";
@@ -34,8 +34,6 @@ const QuizTemplate: React.FC = () => {
   const totalQuestions = quiz.length;
   const [filteredQuestions, setFilteredQuestions] = useState(ALL_CATEGORIES);
 
-  const answerButtonsRef = useRef(null);
-
   //detects if the user tries the refresh the page in the middle of the quiz
   useEffect(() => {
     window.addEventListener("beforeunload", alertUser);
@@ -52,7 +50,7 @@ const QuizTemplate: React.FC = () => {
     e.returnValue = "";
   };
   const [selectedCategory, setSelectedCategory] = useState("");
-  const [selectedQuiz, setSelectedQuiz] = useState(0);
+  const [, setSelectedQuiz] = useState(0);
 
   const selectQuiz = (category: string, index: number) => {
     setSelectedCategory(category);
@@ -162,12 +160,6 @@ const QuizTemplate: React.FC = () => {
     }
   };
 
-  const selectQuizProps = {
-    quiz,
-    selectedCategory,
-    selectedQuiz
-  };
-
   const modalProps = {
     correct,
     chosenAnswer,
@@ -195,8 +187,7 @@ const QuizTemplate: React.FC = () => {
     choicesArr,
     selectedOption,
     selectOption,
-    checkAnswer,
-    answerButtonsRef
+    checkAnswer
   };
 
   return (
@@ -219,7 +210,6 @@ const QuizTemplate: React.FC = () => {
             <SelectQuestionsTotal
               startQuiz={startQuiz}
               totalQuestions={filteredQuestions.length}
-              {...selectQuizProps}
             />
           }
         />

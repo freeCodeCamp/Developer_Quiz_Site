@@ -3,7 +3,6 @@ import { QUESTION_NUMS } from "../constants";
 
 interface SelectQuestionsTotalProps {
   startQuiz: (e: number) => void;
-  selectedCategory: string; // Add the selectedCategory prop
   totalQuestions: number; // Add the totalQuestions prop
 }
 
