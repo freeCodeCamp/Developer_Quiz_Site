@@ -1697,7 +1697,7 @@ const linuxQuiz = [
   },
   {
     Question: "In Linux, what is a daemon?",
-    Answer: "A program that automatically runs in the background",
+    Answer: "a program that automatically runs in the background",
     Distractor1: "a daemon is a summoned cyber spirit",
     Distractor2: "a corrupted program that cannot be uninstalled",
     Explanation: "a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user",
