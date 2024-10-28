@@ -1696,10 +1696,10 @@ const linuxQuiz = [
     Link: "https://www.youtube.com/watch?v=ROjZy1WbCIA&t=3472s"
   },
   {
-    Question: "In Linux, when you remove a users account using the 'userdel' command, what happens to the data files stored in that users directory?",
+    Question: "In Linux, when you remove a user's account using the 'userdel' command, what happens to the data files stored in that user's directory?",
     Answer: "The 'userdel' command will delete all data stored by that user",
-    Distractor1: "The 'userdel' command will delete the user account, and archive all data files and directories from that users home directory to a new read-only directory",
-    Distractor2: "The 'userdel' command will fail if there are data files remaining in that users home directory",
+    Distractor1: "The 'userdel' command will delete the user account, and archive all data files and directories from that user's home directory to a new read-only directory",
+    Distractor2: "The 'userdel' command will fail if there are data files remaining in that user's home directory",
     Distractor3: "The 'userdel' command is the incorrect command and the remusr command should be used instead",
     Explanation:
       "The 'userdel' command will delete the user account, along with the home directory including any data files owned by that user.",
