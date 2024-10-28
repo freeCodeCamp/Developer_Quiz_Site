@@ -1700,6 +1700,7 @@ const linuxQuiz = [
     Answer: "a program that automatically runs in the background",
     Distractor1: "a daemon is a summoned cyber spirit",
     Distractor2: "a corrupted program that cannot be uninstalled",
+    Distractor3: "a MAC OS specific program that is unsupported in Linux OS",
     Explanation: "a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user",
     Link: "https://www.freecodecamp.org/news/learn-linux-for-beginners-book-basic-to-advanced/"
   }
