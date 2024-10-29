@@ -24,7 +24,6 @@ interface QuizProps {
   selectedOption: string;
   selectOption: (option: string) => void;
   checkAnswer: () => void;
-  answerButtonsRef: React.MutableRefObject<HTMLUListElement | null>;
 }
 
 const Questions: React.FC<QuizProps> = QuizProps => {
@@ -51,10 +50,10 @@ const Questions: React.FC<QuizProps> = QuizProps => {
             <legend>
               <span className="sr-only">
                 Question {QuizProps.questionNumber}
-              </span>{" "}
+              </span>
               {QuizProps.currQuestion.Question}
             </legend>
-            <ul ref={QuizProps.answerButtonsRef}>
+            <ul>
               {QuizProps.choicesArr.length > 0 &&
                 QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
                   (choice: string, index: number) => (
