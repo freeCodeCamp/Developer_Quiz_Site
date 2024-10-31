@@ -1696,6 +1696,15 @@ const linuxQuiz = [
     Link: "https://www.youtube.com/watch?v=ROjZy1WbCIA&t=3472s"
   },
   {
+    Question: "In Linux, what is a daemon?",
+    Answer: "a program that automatically runs in the background",
+    Distractor1: "a daemon is a summoned cyber spirit",
+    Distractor2: "a corrupted program that cannot be uninstalled",
+    Distractor3: "a MAC OS specific program that is unsupported in Linux OS",
+    Explanation: "a daemon is a computer program that runs as a background process, rather than being under the direct control of an interactive user",
+    Link: "https://www.freecodecamp.org/news/learn-linux-for-beginners-book-basic-to-advanced/"
+  },
+  {
     Question: "In Linux, when you remove a user's account using the 'userdel' command, what happens to the data files stored in that user's directory?",
     Answer: "The 'userdel' command will delete all data stored by that user",
     Distractor1: "The 'userdel' command will delete the user account, and archive all data files and directories from that user's home directory to a new read-only directory",
