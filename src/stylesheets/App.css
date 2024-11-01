@@ -126,22 +126,6 @@ a:hover {
   border: 2px solid #ffffff;
 }
 
-/*Modal styles*/
-
-.modal-styles .modal-content {
-  background-color: #ffffff;
-  color: black;
-}
-
-.modal-link {
-  color: #002ead;
-  font-size: 19.8px;
-}
-
-.modal-text {
-  font-size: 1.6rem;
-}
-
 /*Results styles*/
 .results-text {
   font-size: 1.3rem;
