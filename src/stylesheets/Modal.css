@@ -1,0 +1,63 @@
+.modal-link {
+  color: #002ead;
+  font-size: 1.238rem;
+}
+
+.modal-text {
+  font-size: 1.6rem;
+}
+
+::backdrop {
+  background-color: black;
+  opacity: 0.5;
+}
+
+.modal-header,
+.modal-footer,
+.modal-body {
+  text-align: left;
+  padding: 15px;
+  background-color: white;
+}
+
+.modal-header {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: auto;
+  display: block;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  display: flex;
+  border-top: 1px solid #dee2e6;
+  justify-content: flex-end;
+}
+
+/* Styling for the dialog box */
+dialog {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  border: none;
+  background: transparent;
+}
+
+/* Dialog content styling */
+.content {
+  position: relative;
+  width: 100%;
+  max-width: 500px;
+  background: white;
+  border-radius: 8px;
+  margin: auto;
+  z-index: 2;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}

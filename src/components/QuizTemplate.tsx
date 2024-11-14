@@ -27,7 +27,7 @@ const QuizTemplate: React.FC = () => {
   const [selectedOption, setSelectedOption] = useState("");
   const [chosenAnswer, setChosenAnswer] = useState("");
   const [chooseAnswer, setChooseAnswer] = useState(false);
-  const [show, setShow] = useState(false);
+  const [show, setShowModal] = useState(false);
 
   const [choicesArr, setChoicesArr] = useState<string[][]>([]);
   const currQuestion = quiz[questionNumber - 1];
@@ -99,9 +99,6 @@ const QuizTemplate: React.FC = () => {
     navigate(`/quizzes/Random/questionsTotal`);
   };
 
-  //function for toggling the react-bootstrap modal
-  const handleShow = () => setShow(true);
-
   const nextQuestion = () => {
     if (questionNumber >= quiz.length) {
       navigate(`/quizzes/${selectedCategory}/results`);
@@ -119,7 +116,7 @@ const QuizTemplate: React.FC = () => {
   const resetQuiz = () => {
     setSelectedCategory(""); // Reset selected category
     setSelectedQuiz(0); // Reset selected quiz
-    setShow(false);
+    setShowModal(false);
     setChooseAnswer(false);
     setPoints(0);
     setQuestionNumber(1);
@@ -149,14 +146,14 @@ const QuizTemplate: React.FC = () => {
       setMessage(shuffleModalResponses(incorrectModalResponses));
       setDisplayExplanation(currQuestion.Explanation);
       setShowReference(currQuestion.Link);
-      handleShow();
+      setShowModal(true);
     } else {
       setCorrect(true);
       setPoints(curr => curr + 1);
       setMessage(shuffleModalResponses(correctModalResponses));
       setDisplayExplanation(currQuestion.Explanation);
       setShowReference(currQuestion.Link);
-      handleShow();
+      setShowModal(true);
     }
   };
 
