@@ -37,10 +37,26 @@
   font-size: 25px;
 }
 
+label:has(input[type="radio"]:checked) {
+  background-color: var(--bg-answer-selected);
+}
+
 @media screen and (max-width: 480px) {
   .large-btn {
     width: 200px;
     height: 75px;
     font-size: 22px;
+  }
+}
+
+ul,
+li {
+  list-style-type: none;
+  input[type="radio"] {
+    display: none;
+  }
+  label {
+    color: #0a0a23;
+    text-align: center;
   }
 }

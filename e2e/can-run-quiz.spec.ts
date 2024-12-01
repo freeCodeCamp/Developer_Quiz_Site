@@ -63,19 +63,18 @@ test("question page should contain 4 options and `submit` button", async ({
   await page.getByRole("button", { name: "Submit", exact: true }).click();
 });
 
-test("selected option  must have 'answers-btns--selected' class", async ({
-  page
-}) => {
+test("selected first option must be checked", async ({ page }) => {
   await page.getByRole("button", { name: "HTML" }).click();
 
   await page.getByRole("button", { name: "10", exact: true }).click();
 
+  const firstOptionText = await page.getByRole("button").first().textContent();
   // Select the first option (no matter if it's right or wrong)
   await page.getByRole("button").first().click();
 
-  await expect(page.getByRole("button").first()).toHaveClass(
-    /answers-btns--selected/
-  );
+  // Check if the first radio is checked
+  const hiddenRadioButton = page.locator(`input[id='${firstOptionText}']`);
+  await expect(hiddenRadioButton).toBeChecked();
 });
 
 test("should show a modal after selecting one option and click the `submit` button", async ({

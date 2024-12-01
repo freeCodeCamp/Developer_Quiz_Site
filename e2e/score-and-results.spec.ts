@@ -68,7 +68,7 @@ test("should show 'success' modal after selecting the correct option", async ({
   const questionData = await getQuestionData(question || "");
 
   const answer = questionData.Answer;
-  await page.getByRole("button", { name: answer }).click();
+  await page.getByRole("button", { name: answer, exact: true }).click();
   await page.getByRole("button", { name: "Submit", exact: true }).click();
 
   await verifyModalResponse(page, correctModalResponses, "1");
