@@ -31,7 +31,8 @@ export const CATEGORIES = [
   "IT",
   "Linux",
   "Python",
-  "SQL"
+  "SQL",
+  "Random"
 ];
 
 export const ALL_CATEGORIES = [

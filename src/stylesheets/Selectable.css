@@ -1,0 +1,14 @@
+label:has(input[type="radio"]:checked) {
+  background-color: var(--bg-answer-selected);
+}
+ul,
+li {
+  list-style-type: none;
+  input[type="radio"] {
+    display: none;
+  }
+  label {
+    color: var(--bg-primary);
+    text-align: center;
+  }
+}

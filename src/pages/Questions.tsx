@@ -3,6 +3,7 @@ import QuizModal from "../components/QuizModal";
 import React, { useEffect } from "react";
 
 import { QuizProps } from "../types";
+import Selectable from "../components/Selectable";
 
 const Questions: React.FC<QuizProps> = QuizProps => {
   const navigate = useNavigate();
@@ -20,43 +21,41 @@ const Questions: React.FC<QuizProps> = QuizProps => {
         <p>Points: {QuizProps.points}</p>
       </div>
       <h1 className="quiz-heading">Question {QuizProps.questionNumber}</h1>
-      <div className="quiz-div">
+      <form className="select-quiz-styles">
         {QuizProps.chooseAnswer ? (
           <QuizModal {...QuizProps.modalProps} />
         ) : (
-          <fieldset className="quiz-answers-div">
-            <legend>
-              <span className="sr-only">
-                Question {QuizProps.questionNumber}
-              </span>
-              {QuizProps.currQuestion.Question}
-            </legend>
-            <ul>
-              {QuizProps.choicesArr.length > 0 &&
-                QuizProps.choicesArr[QuizProps.questionNumber - 1].map(
-                  (choice: string, index: number) => (
-                    <li key={index}>
-                      <button
-                        className={`answers-btns ${choice === QuizProps.selectedOption ? `answers-btns--selected` : ``}`}
-                        onClick={() => QuizProps.selectOption(choice)}
-                      >
-                        {choice}
-                      </button>
-                    </li>
-                  )
-                )}
-            </ul>
-            <hr />
-            <button
-              className="select-btns submit-btn"
-              style={{ opacity: QuizProps.selectedOption ? 1 : 0.5 }}
-              onClick={() => QuizProps.checkAnswer()}
-            >
-              Submit
-            </button>
-          </fieldset>
+          <>
+            <fieldset className="quiz-answers-div">
+              <legend>
+                <span className="sr-only">
+                  Question {QuizProps.questionNumber}
+                </span>
+                {QuizProps.currQuestion.Question}
+              </legend>
+            </fieldset>
+
+            <Selectable
+              options={QuizProps.choicesArr[QuizProps.questionNumber - 1]}
+              groupName="answers"
+              onChange={(choice: string) => {
+                QuizProps.selectOption(choice);
+              }}
+            />
+
+            <div className="select-btn-div">
+              <hr />
+              <button
+                className="select-btns submit-btn"
+                style={{ opacity: QuizProps.selectedOption ? 1 : 0.5 }}
+                onClick={() => QuizProps.checkAnswer()}
+              >
+                Submit
+              </button>
+            </div>
+          </>
         )}
-      </div>
+      </form>
     </>
   );
 };
