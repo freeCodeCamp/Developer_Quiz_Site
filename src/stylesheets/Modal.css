@@ -1,5 +1,7 @@
+@import "./colors.css";
+
 .modal-link {
-  color: #002ead;
+  color: var(--text-deep-blue);
   font-size: 1.238rem;
 }
 
@@ -25,14 +27,14 @@
   border-top-right-radius: 10px;
   height: auto;
   display: block;
-  border-bottom: 1px solid #dee2e6;
+  border-bottom: 1px solid var(--border-light-gray);
 }
 
 .modal-footer {
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   display: flex;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid var(--border-light-gray);
   justify-content: flex-end;
 }
 

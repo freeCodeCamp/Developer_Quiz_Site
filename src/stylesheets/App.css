@@ -1,29 +1,29 @@
-/*Basic CSS reset*/
+@import "./colors.css";
 
+/* Basic CSS reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*General styles*/
-
+/* General styles */
 html {
   overflow-x: hidden;
 }
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #0a0a23;
-  color: #ffffff;
+  background-color: var(--bg-primary); /* Background color */
+  color: var(--text-primary); /* Text color */
 }
 
 a {
-  color: #f1be32;
+  color: var(--text-link); /* Link color */
 }
 
 a:hover {
-  color: #acd157;
+  color: var(--text-link-hover); /* Link hover color */
 }
 
 .fcc-logo {
@@ -43,7 +43,7 @@ a:hover {
   align-items: center;
 }
 
-/*Quiz styles*/
+/* Quiz styles */
 .quiz-heading,
 .results-heading {
   font-family: "Roboto Mono", monospace;
@@ -63,7 +63,7 @@ a:hover {
   font-size: 1.2rem;
   margin: 10px 0;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: var(--text-primary); /* Button background color */
   border-radius: 15px;
   border: none;
   cursor: pointer;
@@ -73,17 +73,18 @@ a:hover {
 
 .select-btns:hover,
 .answers-btns:hover {
-  box-shadow: -1px -1px 15px rgb(245 242 247 / 70%);
+  box-shadow: -1px -1px 15px var(--effect-shadow); /* Hover shadow effect */
 }
+
 .answers-btns--selected {
-  background-color: #f1be32;
+  background-color: var(--bg-answer-selected); /* Selected answer background */
 }
 
 .quiz-btn,
 .results-btn,
 .modal-btn {
-  background-color: #acd157;
-  border: 3px solid #acd157;
+  background-color: var(--bg-button); /* Button background */
+  border: 3px solid var(--border-primary); /* Button border */
   font-size: 1.2rem;
   padding: 5px;
 }
@@ -120,20 +121,20 @@ a:hover {
 
 .submit-btn {
   font-weight: bold;
-  color: #ffffff;
+  color: var(--text-primary); /* Text color */
   background-color: transparent;
   opacity: 0.5;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--text-primary); /* Border color */
 }
 
-/*Results styles*/
+/* Results styles */
 .results-text {
   font-size: 1.3rem;
   margin-top: 20px;
 }
 
 .results-rpg-link {
-  color: #f1be32;
+  color: var(--text-link); /* Link color */
 }
 
 @media screen and (max-width: 460px) {

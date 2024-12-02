@@ -1,0 +1,38 @@
+/* ---------- Background Colors ---------- */
+:root {
+  --bg-primary: #0a0a23;
+  --bg-primary-transparent: #0a0a23f2;
+  --bg-button: #acd157;
+  --bg-transparent-hover: #ffffff;
+  --bg-gradient-start: #fecc4c;
+  --bg-gradient-end: #ffac33;
+  --bg-answer-selected: #f1be32;
+  --box-shadow-inset: #0a0a232e;
+}
+
+/* ---------- Text Colors ---------- */
+:root {
+  --text-primary: #ffffff;
+  --text-link: #f1be32;
+  --text-link-hover: #acd157;
+  --text-deep-blue: #002ead;
+}
+
+/* ---------- Border Colors ---------- */
+:root {
+  --border-primary: #acd157;
+  --border-transparent: #ffffff;
+  --border-dark-color: #aa8144;
+  --border-light-color: #f5aa3a;
+  --border-light-gray: #dee2e6;
+}
+
+/* ---------- Effects ---------- */
+:root {
+  --effect-shadow: rgba(245, 242, 247, 0.7);
+}
+
+/* ---------- Additional Colors ---------- */
+:root {
+  --gray-00: #ffffff;
+}

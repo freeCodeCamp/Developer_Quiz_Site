@@ -1,10 +1,12 @@
+@import "./colors.css";
+
 header {
   height: 55px;
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 10px;
-  background-color: #0a0a23;
+  background-color: var(--bg-primary);
 }
 
 .homepage-navbar {

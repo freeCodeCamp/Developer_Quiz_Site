@@ -1,3 +1,5 @@
+@import "./colors.css";
+
 p {
   font-size: 1.2rem;
 }
@@ -18,7 +20,7 @@ p {
   justify-content: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  background-color: #0a0a23;
+  background-color: var(--bg-primary);
 }
 
 .content-text-container {
