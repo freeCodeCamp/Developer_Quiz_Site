@@ -14,16 +14,16 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: var(--bg-primary); /* Background color */
-  color: var(--text-primary); /* Text color */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 a {
-  color: var(--text-link); /* Link color */
+  color: var(--text-link);
 }
 
 a:hover {
-  color: var(--text-link-hover); /* Link hover color */
+  color: var(--text-link-hover);
 }
 
 .fcc-logo {
@@ -33,7 +33,6 @@ a:hover {
   display: block;
 }
 
-/* Common shared styles */
 .select-quiz-styles,
 .quiz-div,
 .results-div {
@@ -63,7 +62,7 @@ a:hover {
   font-size: 1.2rem;
   margin: 10px 0;
   padding: 10px;
-  background-color: var(--text-primary); /* Button background color */
+  background-color: var(--text-primary);
   border-radius: 15px;
   border: none;
   cursor: pointer;
@@ -73,18 +72,18 @@ a:hover {
 
 .select-btns:hover,
 .answers-btns:hover {
-  box-shadow: -1px -1px 15px var(--effect-shadow); /* Hover shadow effect */
+  box-shadow: -1px -1px 15px var(--effect-shadow);
 }
 
 .answers-btns--selected {
-  background-color: var(--bg-answer-selected); /* Selected answer background */
+  background-color: var(--bg-answer-selected);
 }
 
 .quiz-btn,
 .results-btn,
 .modal-btn {
-  background-color: var(--bg-button); /* Button background */
-  border: 3px solid var(--border-primary); /* Button border */
+  background-color: var(--bg-button);
+  border: 3px solid var(--border-primary);
   font-size: 1.2rem;
   padding: 5px;
 }
@@ -121,10 +120,10 @@ a:hover {
 
 .submit-btn {
   font-weight: bold;
-  color: var(--text-primary); /* Text color */
+  color: var(--text-primary);
   background-color: transparent;
   opacity: 0.5;
-  border: 2px solid var(--text-primary); /* Border color */
+  border: 2px solid var(--text-primary);
 }
 
 /* Results styles */
@@ -134,7 +133,7 @@ a:hover {
 }
 
 .results-rpg-link {
-  color: var(--text-link); /* Link color */
+  color: var(--text-link);
 }
 
 @media screen and (max-width: 460px) {

@@ -1,11 +1,5 @@
 @import "./colors.css";
 
-:root {
-  --gray-00: #fff;
-}
-/* Refactored CSS */
-
-/* Default Button */
 .btn-default {
   width: 100px;
   margin: 10px;
@@ -21,7 +15,6 @@
   border-width: 3px;
 }
 
-/* Transparent Button */
 .transparent-btn {
   height: 32px;
   font-family: "Lato", sans-serif;
@@ -38,7 +31,6 @@
   color: var(--bg-primary);
 }
 
-/* Large Button */
 .large-btn {
   width: 400px;
   height: 70px;
