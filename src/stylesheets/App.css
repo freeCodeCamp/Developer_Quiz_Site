@@ -8,6 +8,11 @@
 }
 
 /* General styles */
+
+fieldset {
+  border: none;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -103,8 +108,12 @@ a:hover {
 .quiz-answers-div ul {
   padding: 0;
   list-style: none;
+  margin-bottom: 1rem;
 }
-
+hr {
+  margin: 1rem 0;
+  opacity: 0.25;
+}
 .quiz-btn {
   position: absolute;
   top: 0;
