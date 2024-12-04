@@ -1,5 +1,5 @@
 import "../stylesheets/Button.css";
-import React, { MouseEventHandler, useMemo } from "react";
+import React, { useMemo } from "react";
 import { ButtonProps } from "../types";
 const Button: React.FC<ButtonProps> = ButtonProps => {
   const getButtonClasses = useMemo(() => {
