@@ -1,10 +1,8 @@
 import React from "react";
-import { NavLink, NavLinkProps } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "../stylesheets/Button.css";
 import "../stylesheets/ButtonLink.css";
-interface ButtonLinkProps extends NavLinkProps {
-  size?: string;
-}
+import { ButtonLinkProps } from "../types";
 
 const ButtonLink: React.FC<ButtonLinkProps> = ({ to, children, size }) => {
   return (

@@ -1,15 +1,6 @@
-import React, { MouseEventHandler, useRef } from "react";
+import React, { useRef } from "react";
 import "../stylesheets/Modal.css";
-interface QuizQuestion {
-  chosenAnswer: string;
-  message: string;
-  points: number;
-  correct: boolean;
-  displayExplanation: string;
-  showReference: string;
-  nextQuestion: MouseEventHandler;
-  show: boolean;
-}
+import { QuizQuestion } from "../types";
 
 const QuizModal: React.FC<QuizQuestion> = QuizQuestion => {
   const dialogRef = useRef<HTMLDialogElement>(null);
