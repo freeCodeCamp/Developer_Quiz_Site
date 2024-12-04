@@ -1,11 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Confetti from "react-confetti";
-
-interface PointTotals {
-  points: number;
-  totalQuestions: number;
-  resetQuiz: () => void;
-}
+import { PointTotals } from "../types";
 
 const Results: React.FC<PointTotals> = ({
   points,

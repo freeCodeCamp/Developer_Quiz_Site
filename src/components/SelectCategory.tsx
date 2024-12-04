@@ -1,10 +1,6 @@
 import React from "react";
 import { CATEGORIES } from "../constants";
-
-interface SelectCategoryProps {
-  selectQuiz: (category: string, index: number) => void;
-  startRandomQuiz: () => void;
-}
+import { SelectCategoryProps } from "../types";
 
 const SelectCategory: React.FC<SelectCategoryProps> = SelectCategoryProps => {
   return (

@@ -1,13 +1,6 @@
 import "../stylesheets/Button.css";
 import React, { MouseEventHandler, useMemo } from "react";
-
-interface ButtonProps {
-  text: string;
-  isTransparent: boolean;
-  size: string;
-  handleClick: MouseEventHandler;
-}
-
+import { ButtonProps } from "../types";
 const Button: React.FC<ButtonProps> = ButtonProps => {
   const getButtonClasses = useMemo(() => {
     let classes = "btn-default";

@@ -1,30 +1,8 @@
 import { useNavigate } from "react-router-dom";
 import QuizModal from "./QuizModal";
-import React, { MouseEventHandler, useEffect } from "react";
+import React, { useEffect } from "react";
 
-interface QuizQuestion {
-  message: string;
-  points: number;
-  chosenAnswer: string;
-  correct: boolean;
-  displayExplanation: string;
-  showReference: string;
-  nextQuestion: MouseEventHandler;
-  show: boolean;
-}
-
-interface QuizProps {
-  currQuestion: { Question: string };
-  questionNumber: number;
-  totalQuestions: number;
-  modalProps: QuizQuestion;
-  chooseAnswer: boolean;
-  points: number;
-  choicesArr: string[][];
-  selectedOption: string;
-  selectOption: (option: string) => void;
-  checkAnswer: () => void;
-}
+import { QuizProps } from "../types";
 
 const Questions: React.FC<QuizProps> = QuizProps => {
   const navigate = useNavigate();

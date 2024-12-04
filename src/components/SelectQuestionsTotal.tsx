@@ -1,10 +1,6 @@
 import React from "react";
 import { QUESTION_NUMS } from "../constants";
-
-interface SelectQuestionsTotalProps {
-  startQuiz: (e: number) => void;
-  totalQuestions: number; // Add the totalQuestions prop
-}
+import { SelectQuestionsTotalProps } from "../types";
 
 const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
   totalQuestions,
