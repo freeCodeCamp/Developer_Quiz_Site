@@ -1,14 +1,17 @@
-/*Basic CSS reset*/
+@import "./colors.css";
 
+/* Basic CSS reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+/* General styles */
+
 fieldset {
   border: none;
 }
-/*General styles*/
 
 html {
   overflow-x: hidden;
@@ -16,16 +19,16 @@ html {
 
 body {
   font-family: "Lato", sans-serif;
-  background-color: #0a0a23;
-  color: #ffffff;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 a {
-  color: #f1be32;
+  color: var(--text-link);
 }
 
 a:hover {
-  color: #acd157;
+  color: var(--text-link-hover);
 }
 
 .fcc-logo {
@@ -35,7 +38,6 @@ a:hover {
   display: block;
 }
 
-/* Common shared styles */
 .select-quiz-styles,
 .quiz-div,
 .results-div {
@@ -45,7 +47,7 @@ a:hover {
   align-items: center;
 }
 
-/*Quiz styles*/
+/* Quiz styles */
 .quiz-heading,
 .results-heading {
   font-family: "Roboto Mono", monospace;
@@ -65,7 +67,7 @@ a:hover {
   font-size: 1.2rem;
   margin: 10px 0;
   padding: 10px;
-  background-color: #ffffff;
+  background-color: var(--text-primary);
   border-radius: 15px;
   border: none;
   cursor: pointer;
@@ -75,17 +77,18 @@ a:hover {
 
 .select-btns:hover,
 .answers-btns:hover {
-  box-shadow: -1px -1px 15px rgb(245 242 247 / 70%);
+  box-shadow: -1px -1px 15px var(--effect-shadow);
 }
+
 .answers-btns--selected {
-  background-color: #f1be32;
+  background-color: var(--bg-answer-selected);
 }
 
 .quiz-btn,
 .results-btn,
 .modal-btn {
-  background-color: #acd157;
-  border: 3px solid #acd157;
+  background-color: var(--bg-button);
+  border: 3px solid var(--border-primary);
   font-size: 1.2rem;
   padding: 5px;
 }
@@ -126,20 +129,20 @@ hr {
 
 .submit-btn {
   font-weight: bold;
-  color: #ffffff;
+  color: var(--text-primary);
   background-color: transparent;
   opacity: 0.5;
-  border: 2px solid #ffffff;
+  border: 2px solid var(--text-primary);
 }
 
-/*Results styles*/
+/* Results styles */
 .results-text {
   font-size: 1.3rem;
   margin-top: 20px;
 }
 
 .results-rpg-link {
-  color: #f1be32;
+  color: var(--text-link);
 }
 
 @media screen and (max-width: 460px) {

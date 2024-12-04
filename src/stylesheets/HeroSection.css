@@ -1,3 +1,5 @@
+@import "./colors.css";
+
 .hero-container,
 .hero-content {
   display: flex;
@@ -28,8 +30,8 @@
   text-align: center;
   letter-spacing: 1px;
   line-height: 1.5em;
-  background-color: #0a0a23f2;
-  box-shadow: inset -5px -6px #0a0a232e;
+  background-color: var(--bg-primary-transparent);
+  box-shadow: inset -5px -6px var(--box-shadow-inset);
 }
 
 .question-count {

@@ -1,0 +1,22 @@
+:root {
+  --white: #ffffff;
+  --bg-primary: #0a0a23;
+  --bg-primary-transparent: #0a0a23f2;
+  --bg-button: #acd157;
+  --bg-transparent-hover: var(--white);
+  --bg-gradient-start: #fecc4c;
+  --bg-gradient-end: #ffac33;
+  --bg-answer-selected: #f1be32;
+  --box-shadow-inset: #0a0a232e;
+  --text-primary: var(--white);
+  --text-link: #f1be32;
+  --text-link-hover: #acd157;
+  --text-deep-blue: #002ead;
+  --border-primary: #acd157;
+  --border-transparent: var(--white);
+  --border-dark-color: #aa8144;
+  --border-light-color: #f5aa3a;
+  --border-light-gray: #dee2e6;
+  --effect-shadow: rgba(245, 242, 247, 0.7);
+  --gray-00: var(--white);
+}
