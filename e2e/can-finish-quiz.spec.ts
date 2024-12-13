@@ -8,7 +8,7 @@ test.beforeEach(async ({ page }) => {
   await page.getByRole("button", { name: "10", exact: true }).click();
 });
 
-test("should show the results after the user has answered answer all questions", async ({
+test("should show the results after the user has answered all questions", async ({
   page
 }) => {
   // loop through all the questions.
@@ -18,6 +18,7 @@ test("should show the results after the user has answered answer all questions",
     // Select the first option (no matter if it right or worng)
     await page.getByRole("button").first().click();
 
+    // Submit answer
     await page.getByRole("button", { name: "Submit", exact: true }).click();
 
     const dialog = page.getByRole("dialog");
@@ -29,7 +30,7 @@ test("should show the results after the user has answered answer all questions",
     await dialog.getByRole("button", { name: "Next Question" }).click();
   }
 
-  // After the 10th question, the results page shows up
+  // After the last question, the 'results' should show up
   await page.waitForURL("/#/quizzes/HTML/results");
 
   await expect(page.getByRole("heading", { name: "Results" })).toBeVisible();
