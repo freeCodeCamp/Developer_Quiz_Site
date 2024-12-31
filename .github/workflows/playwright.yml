@@ -19,6 +19,22 @@ jobs:
       - name: Install dependencies
         run: npm install -g pnpm && pnpm install
       - name: Install Playwright Browsers
-        run: pnpm exec playwright install --with-deps
-      - name: Run Playwright tests
-        run: pnpm exec playwright test --ignore-snapshots
+      - name: Install deps
+        run: |
+          pnpm install
+          pnpm exec playwright install
+
+      - name: Set up cache
+        id: cache
+        uses: actions/cache@v4
+        with:
+          key: cache/${{github.repository}}/${{github.ref}}
+          restore-keys: cache/${{github.repository}}/refs/heads/master
+          path: .test/**
+
+      - name: Initialize snapshots
+        if: ${{steps.cache.outputs.cache-hit != 'true'}}
+        run: pnpm exec playwright test --update-snapshots
+
+      - name: Test
+        run: pnpm exec playwright test
