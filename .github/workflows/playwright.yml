@@ -6,6 +6,17 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
+  # Allow updating snapshots during automatic runs
+  inputs:
+    update-snapshots:
+      description: "Update snapshots?"
+      type: boolean
+  # Allow updating snapshots during manual runs
+  workflow_call:
+    inputs:
+      update-snapshots:
+        description: "Update snapshots?"
+        type: boolean
 
 jobs:
   test:
@@ -33,7 +44,7 @@ jobs:
           path: .test/**
 
       - name: Initialize snapshots
-        if: ${{steps.cache.outputs.cache-hit != 'true'}}
+        if: ${{steps.cache.outputs.cache-hit != 'true' || inputs.update-snapshots == 'true'}}
         run: pnpm exec playwright test --update-snapshots
 
       - name: Test
