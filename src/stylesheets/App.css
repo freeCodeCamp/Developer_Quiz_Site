@@ -57,7 +57,7 @@ a:hover {
 .select-btn-div {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 1.25rem;
   width: 100%;
   padding: 0 10% 0;
 }
@@ -96,7 +96,7 @@ a:hover {
 .quiz-answers-div {
   display: flex;
   flex-direction: column;
-  margin: 20px;
+  margin: 1.25rem;
   width: 50%;
 }
 
@@ -138,7 +138,7 @@ hr {
 /* Results styles */
 .results-text {
   font-size: 1.3rem;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .results-rpg-link {
