@@ -4,7 +4,7 @@
   "description": "This is a free quiz site made for developers by freeCodeCamp",
   "version": "0.1.0",
   "private": true,
-  "packageManager": "pnpm@9.15.3",
+  "packageManager": "pnpm@9.15.4",
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.6",
     "@testing-library/react": "^16.0.0",
