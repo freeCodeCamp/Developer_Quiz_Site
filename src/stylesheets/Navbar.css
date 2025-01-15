@@ -1,11 +1,11 @@
 @import "./colors.css";
 
 header {
-  height: 55px;
+  height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 0.625rem;
   background-color: var(--bg-primary);
 }
 
