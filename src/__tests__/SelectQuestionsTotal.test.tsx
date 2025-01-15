@@ -1,5 +1,5 @@
 import React from "react";
-import SelectQuestionsTotal from "../components/SelectQuestionsTotal";
+import SelectQuestionsTotal from "../pages/SelectQuestionsTotal";
 import { render, cleanup } from "@testing-library/react";
 import { expect, afterEach, describe, it, vi } from "vitest";
 

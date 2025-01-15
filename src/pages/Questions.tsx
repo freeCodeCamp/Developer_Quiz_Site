@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import QuizModal from "./QuizModal";
+import QuizModal from "../components/QuizModal";
 import React, { useEffect } from "react";
 
 import { QuizProps } from "../types";
