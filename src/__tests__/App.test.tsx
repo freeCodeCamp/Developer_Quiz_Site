@@ -1,5 +1,5 @@
 import React from "react";
-import App from "../App";
+import { App } from "../index";
 import { cleanup, render } from "@testing-library/react";
 import { HashRouter as Router } from "react-router-dom";
 import { afterEach, describe, it } from "vitest";

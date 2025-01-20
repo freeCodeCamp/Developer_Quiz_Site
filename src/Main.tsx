@@ -1,21 +1,21 @@
 import React, { useState, useEffect } from "react";
-import SelectQuestionsTotal from "./SelectQuestionsTotal";
-import SelectCategory from "./SelectCategory";
-import { ALL_CATEGORIES, QUESTION_NUMS } from "../constants";
-import Results from "./Results";
-import shuffle from "../shuffle-arr";
+import SelectQuestionsTotal from "./pages/SelectQuestionsTotal";
+import SelectCategory from "./pages/SelectCategory";
+import { ALL_CATEGORIES, QUESTION_NUMS } from "./constants";
+import Results from "./pages/Results";
+import shuffle from "./shuffle-arr";
 
-import FCCLogo from "./FCCLogo";
-import Questions from "./Questions";
-import "../stylesheets/App.css";
+import FCCLogo from "./components/FCCLogo";
+import Questions from "./pages/Questions";
+import "./stylesheets/App.css";
 import {
   correctModalResponses,
   incorrectModalResponses
-} from "../data/modal-responses";
-import ButtonLink from "./ButtonLink";
+} from "./data/modal-responses";
+import ButtonLink from "./components/ButtonLink";
 import { Route, Routes, useNavigate } from "react-router-dom";
 
-const QuizTemplate: React.FC = () => {
+const Main: React.FC = () => {
   const navigate = useNavigate();
   const [quiz, setQuiz] = useState(ALL_CATEGORIES);
   const [questionNumber, setQuestionNumber] = useState(1);
@@ -222,4 +222,4 @@ const QuizTemplate: React.FC = () => {
     </>
   );
 };
-export default QuizTemplate;
+export default Main;
