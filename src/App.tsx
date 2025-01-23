@@ -1,5 +1,5 @@
-import WelcomePage from "./components/WelcomePage";
-import QuizTemplate from "./components/QuizTemplate";
+import WelcomePage from "./pages/WelcomePage";
+import QuizTemplate from "./QuizTemplate";
 import React from "react";
 import { Route, Routes } from "react-router-dom";
 
