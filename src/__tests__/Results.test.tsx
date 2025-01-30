@@ -1,5 +1,5 @@
 import React from "react";
-import Results from "../components/Results";
+import Results from "../pages/Results";
 
 import { render, cleanup } from "@testing-library/react";
 import { vi } from "vitest";
