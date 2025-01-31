@@ -159,7 +159,7 @@ hr {
 
 @media screen and (min-width: 768px) {
   .select-btn-div {
-    width: 25%;
+    width: 50%;
     padding: 0;
   }
 }

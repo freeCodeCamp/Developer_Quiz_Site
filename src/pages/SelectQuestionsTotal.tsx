@@ -1,6 +1,7 @@
 import React from "react";
 import { QUESTION_NUMS } from "../constants";
 import { SelectQuestionsTotalProps } from "../types";
+import Selectable from "../components/Selectable";
 
 const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
   totalQuestions,
@@ -13,24 +14,18 @@ const SelectQuestionsTotal: React.FC<SelectQuestionsTotalProps> = ({
   return (
     <div className="select-quiz-styles">
       <h2 className="quiz-heading">Choose a length for the Quiz</h2>
-      <div className="select-btn-div">
-        {availableQuizLengths.map((choice: number, index: number) => (
-          <button
-            className="select-btns"
-            onClick={() => startQuiz(choice)}
-            key={index}
-          >
-            {choice}
-          </button>
-        ))}
 
-        <button
-          className="select-btns"
-          onClick={() => startQuiz(totalQuestions)}
-        >
-          All ({totalQuestions})
-        </button>
-      </div>
+      <Selectable
+        options={[
+          ...availableQuizLengths.map(n => `${n}`),
+          `All (${totalQuestions})`
+        ]}
+        groupName="QuizLengths"
+        onChange={(choice: string) => {
+          const num_choice = Number(choice.replace(/\D/g, ""));
+          startQuiz(num_choice);
+        }}
+      />
     </div>
   );
 };
