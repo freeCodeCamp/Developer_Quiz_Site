@@ -1,8 +1,11 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import { cloudflare } from "@cloudflare/vite-plugin";
+
+const isTest = process.env.VITEST === "true" || process.env.NODE_ENV === "test";
 
 export default defineConfig({
-  plugins: [react()],
+  plugins: [react(), ...(isTest ? [] : [cloudflare()])],
   server: {
     watch: {
       usePolling: true // required for container hot reloading

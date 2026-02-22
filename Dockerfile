@@ -1,13 +1,13 @@
 ARG BASE_REGISTRY=docker.io
 ARG BASE_IMAGE=node
-ARG BASE_TAG=22-alpine 
+ARG BASE_TAG=24-alpine 
 
 FROM ${BASE_REGISTRY}/${BASE_IMAGE}:${BASE_TAG}
 
 # Install git for pnpm -> yarn interop dependencies
 RUN apk add --no-cache git
 # Install pnpm package manager globally
-RUN npm install -g pnpm@9
+RUN npm install -g pnpm@10
 
 # Create app directory
 WORKDIR /usr/src/app

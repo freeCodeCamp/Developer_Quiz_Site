@@ -1,0 +1,8 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "developer-quiz",
+  "compatibility_date": "2026-02-22",
+  "assets": {
+    "not_found_handling": "single-page-application"
+  }
+}
